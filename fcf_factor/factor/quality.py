@@ -30,6 +30,10 @@ from ..providers.base import CompanyMetadata
 IMPLAUSIBLE_MARKET_CAP_USD = 1.0e13
 #: Fewer shares than this means the share count is in the wrong units.
 MIN_PLAUSIBLE_SHARES = 1_000.0
+#: A provider-reported enterprise value outside this band versus market cap is
+#: a units problem, not a leveraged company.
+PROVIDER_EV_MIN_RATIO = 0.02
+PROVIDER_EV_MAX_RATIO = 50.0
 
 
 @dataclass
@@ -162,6 +166,25 @@ def extreme_yield_flag(fcf_yield_value: float | None, config: FactorConfig = CON
         return None
     if fcf_yield_value > config.EXTREME_FCF_YIELD:
         return f"extreme_fcf_yield:{fcf_yield_value:.3g}"
+    return None
+
+
+def provider_ev_sanity_flag(
+    provider_ev_usd: float | None, market_cap_usd: float | None
+) -> str | None:
+    """Flag a provider enterprise value that cannot be in the same units as market cap.
+
+    This matters most for London listings, where the provider quotes prices in
+    pence but reports market cap and enterprise value in pounds.  A fallback EV
+    that is 100x too small would hand the company an enormous FCF yield and put
+    it straight at the top of the value screen, so an implausible figure is
+    discarded rather than used.
+    """
+    if provider_ev_usd is None or not market_cap_usd or market_cap_usd <= 0:
+        return None
+    ratio = provider_ev_usd / market_cap_usd
+    if ratio < PROVIDER_EV_MIN_RATIO or ratio > PROVIDER_EV_MAX_RATIO:
+        return f"provider_ev_implausible:ratio={ratio:.3g}"
     return None
 
 

@@ -138,3 +138,21 @@ def test_extreme_yields_are_flagged_but_not_altered():
 def test_an_empty_statement_payload_is_flagged():
     assert empty_payload_flag(True, 0, 0) == "provider_returned_no_statements"
     assert empty_payload_flag(True, 4, 4) is None
+
+
+def test_a_provider_enterprise_value_in_the_wrong_units_is_rejected():
+    from fcf_factor.factor.quality import provider_ev_sanity_flag
+
+    # A London EV mistakenly divided by 100 would be ~1% of market cap.
+    flag = provider_ev_sanity_flag(3_000_000.0, 312_500_000.0)
+    assert flag is not None and flag.startswith("provider_ev_implausible")
+    # And one multiplied by 100 would be ~100x market cap.
+    assert provider_ev_sanity_flag(31_250_000_000.0, 312_500_000.0) is not None
+
+
+def test_a_plausible_provider_enterprise_value_passes():
+    from fcf_factor.factor.quality import provider_ev_sanity_flag
+
+    assert provider_ev_sanity_flag(400_000_000.0, 312_500_000.0) is None
+    assert provider_ev_sanity_flag(None, 312_500_000.0) is None
+    assert provider_ev_sanity_flag(400_000_000.0, None) is None

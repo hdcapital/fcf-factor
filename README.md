@@ -392,7 +392,7 @@ fcf_factor/
 
 data/                    the research record (committed - see data/README.md)
 reports/latest/          one markdown report per market, plus an index
-tests/                   240 tests, none of which touch the network
+tests/                   244 tests, none of which touch the network
 .github/workflows/       quarterly_factor.yml, daily_prices.yml, tests.yml
 ```
 
@@ -679,7 +679,7 @@ provider switch is visible in the audit trail.
 
 ## Tests
 
-240 tests, none of which touch the network — a fixture makes any accidental HTTP
+244 tests, none of which touch the network — a fixture makes any accidental HTTP
 call fail immediately.
 
 ```bash

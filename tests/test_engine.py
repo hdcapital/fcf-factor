@@ -198,3 +198,35 @@ def test_a_company_row_serialises_every_documented_column(healthy_company, entry
     }
     assert required <= set(row)
     assert required <= set(SELECTED_COLUMNS)
+
+
+def test_a_uk_company_gets_a_pound_denominated_provider_ev_fallback(
+    healthy_company, entry_factory, fx
+):
+    """The EV fallback must not be divided by 100 for a pence-quoted listing."""
+    bundle = healthy_company("LON", currency="GBP", quote_currency="GBp", price=250.0, shares=100_000_000.0)
+    # Yahoo reports market cap and EV in pounds while quoting the price in pence.
+    bundle.metadata = replace(
+        bundle.metadata, market_cap=250_000_000.0, enterprise_value=300_000_000.0
+    )
+    bundle.annual_balance = []
+    bundle.quarterly_balance = []
+    company = evaluate_company(entry_factory("LON.L", "UK"), bundle, fx, AS_OF)
+    assert company.eligible is True, company.exclusion_reasons
+    assert company.enterprise_value_source == "provider"
+    # GBP 300m at 1.25 USD/GBP, not GBP 3m.
+    assert company.enterprise_value_usd == pytest.approx(375_000_000.0)
+
+
+def test_an_implausible_provider_ev_is_discarded_rather_than_used(
+    healthy_company, entry_factory, fx
+):
+    bundle = healthy_company("BADEV", currency="GBP", quote_currency="GBp", price=250.0, shares=100_000_000.0)
+    bundle.metadata = replace(
+        bundle.metadata, market_cap=250_000_000.0, enterprise_value=2_000_000.0
+    )
+    bundle.annual_balance = []
+    bundle.quarterly_balance = []
+    company = evaluate_company(entry_factory("BADEV.L", "UK"), bundle, fx, AS_OF)
+    assert company.exclusion_reasons == ["enterprise_value_unavailable"]
+    assert any(f.startswith("provider_ev_implausible") for f in company.flags)

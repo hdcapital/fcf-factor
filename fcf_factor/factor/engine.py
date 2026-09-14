@@ -42,6 +42,7 @@ from .quality import (
     currency_mismatch_flag,
     empty_payload_flag,
     extreme_yield_flag,
+    provider_ev_sanity_flag,
     statement_freshness_flag,
 )
 from .trends import normalized_trend, per_share_series
@@ -312,7 +313,15 @@ def evaluate_company(
     factors.cash_usd = (
         fx.to_usd(balance.cash_and_equivalents, financial_currency) if cash_available else None
     )
-    provider_ev_usd = fx.to_usd(metadata.enterprise_value, metadata.quote_currency)
+    # The provider reports enterprise value in *major* units of the listing
+    # currency, exactly like market cap, even when it quotes prices in pence.
+    # Converting from the raw quote currency here would divide a London
+    # company's EV by 100.
+    provider_ev_usd = fx.to_usd(metadata.enterprise_value, factors.currency)
+    ev_sanity = provider_ev_sanity_flag(provider_ev_usd, factors.market_cap_usd)
+    if ev_sanity:
+        factors.add_flag(ev_sanity)
+        provider_ev_usd = None
     ev = calculate_enterprise_value(
         market_cap_usd=factors.market_cap_usd,
         total_debt_usd=factors.total_debt_usd,
