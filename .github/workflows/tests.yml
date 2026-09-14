@@ -1,0 +1,45 @@
+name: Tests
+
+# Runs on code changes only. Generated-data commits carry '[skip ci]' and touch
+# only data/ and reports/, so this workflow cannot be triggered by its siblings.
+on:
+  push:
+    branches: ["**"]
+    paths-ignore:
+      - "data/**"
+      - "reports/**"
+      - "**/*.md"
+  pull_request:
+    paths-ignore:
+      - "data/**"
+      - "reports/**"
+      - "**/*.md"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-dev.txt
+
+      - name: Lint
+        run: ruff check .
+
+      - name: Test
+        run: pytest -q
+
+      - name: Offline smoke test
+        run: python -m fcf_factor screen --market NZ --limit 20 --dry-run --provider synthetic

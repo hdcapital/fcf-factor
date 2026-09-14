@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local caches produced by the data providers (never committed)
+.cache/
+data/cache/
+
+# Secrets - never commit these
+.env
+.env.*
+!.env.example
+*.pem
+secrets.json
+
+# OS noise
+.DS_Store

@@ -1,0 +1,185 @@
+name: Quarterly FCF factor
+
+# Runs every Saturday in the four rebalance months. The Python code decides
+# whether the preceding Friday was the first Friday of the month and only then
+# generates a signal, so the schedule itself stays simple and auditable.
+on:
+  schedule:
+    - cron: "0 6 * 3,6,9,12 6"
+  workflow_dispatch:
+    inputs:
+      markets:
+        description: "Markets to run (comma separated, or 'all')"
+        required: false
+        default: "all"
+      force:
+        description: "Ignore the first-Friday schedule and screen now"
+        type: boolean
+        required: false
+        default: true
+      dry_run:
+        description: "Compute everything but write and send nothing"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fcf-factor-data
+  cancel-in-progress: false
+
+env:
+  PYTHON_VERSION: "3.12"
+
+jobs:
+  check:
+    name: Is a rebalance due?
+    runs-on: ubuntu-latest
+    outputs:
+      due: ${{ steps.decide.outputs.due }}
+      markets: ${{ steps.decide.outputs.markets }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Decide
+        id: decide
+        run: |
+          set -euo pipefail
+          MARKETS="${{ github.event.inputs.markets || 'all' }}"
+          echo "markets=${MARKETS}" >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.force }}" = "true" ]; then
+            echo "Manual run with force: proceeding."
+            echo "due=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          python -m fcf_factor check-rebalance | tee decision.json
+          DUE=$(python -c "import json;print(json.load(open('decision.json'))['due'])")
+          echo "due=${DUE}" >> "$GITHUB_OUTPUT"
+
+  screen:
+    name: Screen ${{ matrix.market }}
+    needs: check
+    if: needs.check.outputs.due == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      # Markets are completely independent, so one failure must not cancel the rest.
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        market: [AU, US, UK, NZ, CA]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Skip markets not requested
+        id: filter
+        run: |
+          set -euo pipefail
+          REQUESTED="${{ needs.check.outputs.markets }}"
+          if [ "$REQUESTED" = "all" ] || [ -z "$REQUESTED" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          elif echo ",$REQUESTED," | tr -d ' ' | grep -qi ",${{ matrix.market }},"; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run the quarterly factor
+        if: steps.filter.outputs.run == 'true'
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          # Free Yahoo data is shared infrastructure; stay polite.
+          PROVIDER_MAX_WORKERS: "4"
+          PROVIDER_REQUEST_PAUSE: "0.25"
+        run: |
+          python -m fcf_factor quarterly-run \
+            --markets "${{ matrix.market }}" \
+            ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.force == 'true') && '--manual' || '' }} \
+            ${{ (github.event.inputs.dry_run == 'true') && '--dry-run --no-email' || '' }}
+
+      - name: Upload generated data
+        if: steps.filter.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: fcf-data-${{ matrix.market }}
+          if-no-files-found: warn
+          retention-days: 14
+          path: |
+            data/universes/${{ matrix.market }}/
+            data/signals/${{ matrix.market }}/
+            data/prices/${{ matrix.market }}/
+            data/state/${{ matrix.market }}.json
+            data/performance/${{ matrix.market }}.csv
+            reports/latest/${{ matrix.market }}.md
+
+  persist:
+    name: Commit generated data
+    needs: [check, screen]
+    if: always() && needs.check.outputs.due == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Download every market's artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          pattern: fcf-data-*
+          merge-multiple: true
+
+      - name: Merge artifacts into the working tree
+        run: |
+          set -euo pipefail
+          if [ -d artifacts ]; then
+            cp -r artifacts/. .
+            rm -rf artifacts
+          else
+            echo "No artifacts were produced."
+          fi
+
+      - name: Rebuild the index report
+        run: python -m fcf_factor report || true
+
+      - name: Commit once
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data reports
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          # '[skip ci]' keeps this commit from re-triggering any push workflow.
+          git commit -m "Update FCF factor data $(date -u +%Y-%m-%d) [skip ci]"
+          for attempt in 1 2 3 4; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "push attempt ${attempt} failed; retrying"
+            sleep $((2 ** attempt))
+          done
+          exit 1

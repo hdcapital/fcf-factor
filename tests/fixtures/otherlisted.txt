@@ -1,0 +1,9 @@
+ACT Symbol|Security Name|Exchange|CQS Symbol|ETF|Round Lot Size|Test Issue|NASDAQ Symbol
+BRK.A|Berkshire Hathaway Inc. Class A Common Stock|N|BRK.A|N|100|N|BRK.A
+BRK.B|Berkshire Hathaway Inc. Class B Common Stock|N|BRK.B|N|100|N|BRK.B
+SPY|SPDR S&P 500 ETF Trust|P|SPY|Y|100|N|SPY
+XYZ.W|Example Holdings Warrant|A|XYZ.W|N|100|N|XYZ.W
+ABC$A|Example Bancorp 6.5% Preferred Series A|N|ABC$A|N|100|N|ABC-A
+CAT|Caterpillar Inc. Common Stock|N|CAT|N|100|N|CAT
+AAU|Almaden Minerals Ltd. Common Shares|A|AAU|N|100|N|AAU
+IWM|iShares Russell 2000 ETF|P|IWM|Y|100|N|IWM

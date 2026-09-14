@@ -1,0 +1,12 @@
+{"length": 4, "results": [
+  {"symbol": "SHOP", "name": "Shopify Inc.", "instruments": [
+     {"symbol": "SHOP", "name": "Shopify Inc."}]},
+  {"symbol": "CCL", "name": "CCL Industries Inc.", "instruments": [
+     {"symbol": "CCL.A", "name": "CCL Industries Inc. Class A"},
+     {"symbol": "CCL.B", "name": "CCL Industries Inc. Class B"}]},
+  {"symbol": "BCE", "name": "BCE Inc.", "instruments": [
+     {"symbol": "BCE", "name": "BCE Inc."},
+     {"symbol": "BCE.PR.A", "name": "BCE Inc. Preferred Series A"}]},
+  {"symbol": "XIU", "name": "iShares S&P/TSX 60 Index ETF", "instruments": [
+     {"symbol": "XIU", "name": "iShares S&P/TSX 60 Index ETF"}]}
+]}
