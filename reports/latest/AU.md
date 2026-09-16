@@ -161,7 +161,49 @@ Previous signal: `none`
 
 ## Forward-test performance
 
-The portfolio has not executed yet. NAV starts at 100.00 on the first trading session after the first signal.
+| Metric | Value |
+|---|---|
+| NAV | 99.2751 |
+| Inception date | 2026-09-16 |
+| As at | 2026-09-16 |
+| Since-inception return | -0.72% |
+| Return since last rebalance | 0.00% |
+| Latest daily return | -0.72% |
+| Holdings | 29 |
+| Turnover at last rebalance | 50.00% |
+| Sessions recorded | 1 |
 
-Pending signal awaiting execution: `2026-09-15`
+### Current positions (drifted weights)
+
+| Ticker | Target weight | Drifted weight | Entry price | Last price |
+|---|---|---|---|---|
+| REG.AX | 3.00% | 3.68% | 4.4700 | 4.5500 |
+| WAF.AX | 3.00% | 3.64% | 3.6800 | 3.7050 |
+| DRR.AX | 3.00% | 3.63% | 4.0500 | 4.0650 |
+| JYC.AX | 3.00% | 3.63% | 6.0000 | 6.0200 |
+| RSG.AX | 3.00% | 3.62% | 1.3000 | 1.3020 |
+| DPM.AX | 3.00% | 3.62% | 58.1600 | 58.2000 |
+| BOL.AX | 3.00% | 3.62% | 2.1600 | 2.1600 |
+| FWD.AX | 3.00% | 3.62% | 2.8200 | 2.8200 |
+| SKT.AX | 3.00% | 3.62% | 2.8400 | 2.8400 |
+| OML.AX | 3.00% | 3.61% | 1.6500 | 1.6470 |
+| TLC.AX | 3.00% | 3.61% | 4.8400 | 4.8300 |
+| DUG.AX | 3.00% | 3.61% | 1.7500 | 1.7450 |
+| EDU.AX | 3.00% | 3.60% | 1.1100 | 1.1050 |
+| HLO.AX | 3.00% | 3.59% | 1.4250 | 1.4150 |
+| RMS.AX | 3.00% | 3.57% | 3.5900 | 3.5400 |
+| AX1.AX | 3.00% | 3.56% | 0.6850 | 0.6750 |
+| WGX.AX | 3.00% | 3.56% | 5.4100 | 5.3300 |
+| RRL.AX | 3.00% | 3.55% | 7.5000 | 7.3650 |
+| GNP.AX | 3.00% | 3.54% | 8.3700 | 8.2000 |
+| FEX.AX | 3.00% | 3.51% | 0.2600 | 0.2520 |
+| JIN.AX | 3.00% | 3.50% | 6.7600 | 6.5500 |
+| SSG.AX | 2.87% | 3.47% | 1.2900 | 1.2950 |
+| UNI.AX | 2.94% | 3.46% | 7.0000 | 6.8200 |
+| SRV.AX | 3.00% | 3.43% | 6.0600 | 5.7500 |
+| MLG.AX | 2.76% | 3.31% | 0.8350 | 0.8300 |
+| KGN.AX | 2.68% | 3.20% | 3.3100 | 3.2800 |
+| AR1.AX | 2.27% | 2.70% | 0.0700 | 0.0690 |
+| ANG.AX | 2.04% | 2.53% | 0.1650 | 0.1700 |
+| VLS.AX | 1.99% | 2.41% | 2.7800 | 2.7900 |
 

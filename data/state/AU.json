@@ -1,14 +1,564 @@
 {
-  "active_signal_date": null,
-  "cash": 100.0,
+  "active_signal_date": "2026-09-15",
+  "cash": 0.0,
   "currency": "AUD",
-  "executions": [],
-  "inception_date": null,
-  "last_processed_date": null,
+  "executions": [
+    {
+      "bought": [
+        "ANG.AX",
+        "AR1.AX",
+        "AX1.AX",
+        "BOL.AX",
+        "DPM.AX",
+        "DRR.AX",
+        "DUG.AX",
+        "EDU.AX",
+        "FEX.AX",
+        "FWD.AX",
+        "GNP.AX",
+        "HLO.AX",
+        "JIN.AX",
+        "JYC.AX",
+        "KGN.AX",
+        "MLG.AX",
+        "OML.AX",
+        "REG.AX",
+        "RMS.AX",
+        "RRL.AX",
+        "RSG.AX",
+        "SKT.AX",
+        "SRV.AX",
+        "SSG.AX",
+        "TLC.AX",
+        "UNI.AX",
+        "VLS.AX",
+        "WAF.AX",
+        "WGX.AX"
+      ],
+      "execution_date": "2026-09-16",
+      "missing_at_execution": [
+        "GDF.AX",
+        "ORE.AX",
+        "SEG.AX",
+        "UOS.AX",
+        "A1N.AX",
+        "TWD.AX"
+      ],
+      "nav_after": 100.0,
+      "nav_before": 100.0,
+      "positions": [
+        {
+          "effective_target_weight": 0.0244092902661412,
+          "execution_open_price": 0.1650000066,
+          "shares": 14.793508660466442,
+          "target_weight": 0.0203949619,
+          "ticker": "ANG.AX"
+        },
+        {
+          "effective_target_weight": 0.027214171718062334,
+          "execution_open_price": 0.0700000003,
+          "shares": 38.8773880020431,
+          "target_weight": 0.02273855525,
+          "ticker": "AR1.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 0.6850000024,
+          "shares": 5.24158864896113,
+          "target_weight": 0.03,
+          "ticker": "AX1.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 2.160000086,
+          "shares": 1.6622630065572075,
+          "target_weight": 0.03,
+          "ticker": "BOL.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 58.15999985,
+          "shares": 0.0617346672348416,
+          "target_weight": 0.03,
+          "ticker": "DPM.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 4.050000191,
+          "shares": 0.8865402636516042,
+          "target_weight": 0.03,
+          "ticker": "DRR.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 1.75,
+          "shares": 2.0517075640675353,
+          "target_weight": 0.03,
+          "ticker": "DUG.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 1.110000014,
+          "shares": 3.234674046696172,
+          "target_weight": 0.03,
+          "ticker": "EDU.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 0.2599999905,
+          "shares": 13.809570647342724,
+          "target_weight": 0.03,
+          "ticker": "FEX.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 2.819999933,
+          "shares": 1.2732228093702536,
+          "target_weight": 0.03,
+          "ticker": "FWD.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 8.369999886,
+          "shares": 0.4289711213883984,
+          "target_weight": 0.03,
+          "ticker": "GNP.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 1.424999952,
+          "shares": 2.5196409530252297,
+          "target_weight": 0.03,
+          "ticker": "HLO.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 6.760000229,
+          "shares": 0.531137295190495,
+          "target_weight": 0.03,
+          "ticker": "JIN.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 6.0,
+          "shares": 0.5984147061863645,
+          "target_weight": 0.03,
+          "ticker": "JYC.AX"
+        },
+        {
+          "effective_target_weight": 0.032035334841617975,
+          "execution_open_price": 3.309999943,
+          "shares": 0.9678349061415068,
+          "target_weight": 0.02676683453,
+          "ticker": "KGN.AX"
+        },
+        {
+          "effective_target_weight": 0.03302061177746935,
+          "execution_open_price": 0.8349999785,
+          "shares": 3.9545643865509814,
+          "target_weight": 0.02759007377,
+          "ticker": "MLG.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 1.649999976,
+          "shares": 2.176053508693013,
+          "target_weight": 0.03,
+          "ticker": "OML.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 4.46999979,
+          "shares": 0.8032412540937025,
+          "target_weight": 0.03,
+          "ticker": "REG.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 3.589999914,
+          "shares": 1.0001360231559568,
+          "target_weight": 0.03,
+          "ticker": "RMS.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 7.5,
+          "shares": 0.4787317649490916,
+          "target_weight": 0.03,
+          "ticker": "RRL.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 1.299999952,
+          "shares": 2.7619141305308195,
+          "target_weight": 0.03,
+          "ticker": "RSG.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 2.839999914,
+          "shares": 1.264256459804311,
+          "target_weight": 0.03,
+          "ticker": "SKT.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 6.059999943,
+          "shares": 0.5924898136782354,
+          "target_weight": 0.03,
+          "ticker": "SRV.AX"
+        },
+        {
+          "effective_target_weight": 0.0343221521182745,
+          "execution_open_price": 1.289999962,
+          "shares": 2.6606320255282694,
+          "target_weight": 0.02867756404,
+          "ticker": "SSG.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 4.840000153,
+          "shares": 0.7418363891771115,
+          "target_weight": 0.03,
+          "ticker": "TLC.AX"
+        },
+        {
+          "effective_target_weight": 0.035235342893599024,
+          "execution_open_price": 7.0,
+          "shares": 0.5033620413371289,
+          "target_weight": 0.02944057234,
+          "ticker": "UNI.AX"
+        },
+        {
+          "effective_target_weight": 0.02385568421883448,
+          "execution_open_price": 2.779999971,
+          "shares": 0.8581181463197388,
+          "target_weight": 0.01993240137,
+          "ticker": "VLS.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 3.680000067,
+          "shares": 0.975676133627143,
+          "target_weight": 0.03,
+          "ticker": "WAF.AX"
+        },
+        {
+          "effective_target_weight": 0.03590488237118187,
+          "execution_open_price": 5.409999847,
+          "shares": 0.663676217867033,
+          "target_weight": 0.03,
+          "ticker": "WGX.AX"
+        }
+      ],
+      "recorded_at": "2026-09-16T01:33:54+00:00",
+      "retained": [],
+      "signal_date": "2026-09-15",
+      "signal_timestamp": "2026-09-15T23:15:39+00:00",
+      "sold": [],
+      "sold_at_carried_price": [],
+      "transaction_cost": 0.0,
+      "transaction_cost_bps": 0.0,
+      "turnover": 0.5
+    }
+  ],
+  "inception_date": "2026-09-16",
+  "last_processed_date": "2026-09-16",
   "market": "AU",
   "methodology_version": "1.0.0",
-  "nav": 100.0,
-  "positions": {},
+  "nav": 99.27513990524625,
+  "positions": {
+    "ANG.AX": {
+      "drifted_weight": 0.025332590830977105,
+      "effective_target_weight": 0.0244092902661412,
+      "entry_date": "2026-09-16",
+      "entry_price": 0.1650000066,
+      "last_price": 0.1700000018,
+      "last_price_date": "2026-09-16",
+      "shares": 14.793508660466442,
+      "target_weight": 0.0203949619
+    },
+    "AR1.AX": {
+      "drifted_weight": 0.027021263404347337,
+      "effective_target_weight": 0.027214171718062334,
+      "entry_date": "2026-09-16",
+      "entry_price": 0.0700000003,
+      "last_price": 0.06899999827,
+      "last_price_date": "2026-09-16",
+      "shares": 38.8773880020431,
+      "target_weight": 0.02273855525
+    },
+    "AX1.AX": {
+      "drifted_weight": 0.0356390573088147,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 0.6850000024,
+      "last_price": 0.6750000119,
+      "last_price_date": "2026-09-16",
+      "shares": 5.24158864896113,
+      "target_weight": 0.03
+    },
+    "BOL.AX": {
+      "drifted_weight": 0.036167042832124435,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 2.160000086,
+      "last_price": 2.160000086,
+      "last_price_date": "2026-09-16",
+      "shares": 1.6622630065572075,
+      "target_weight": 0.03
+    },
+    "DPM.AX": {
+      "drifted_weight": 0.0361919175678367,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 58.15999985,
+      "last_price": 58.20000076,
+      "last_price_date": "2026-09-16",
+      "shares": 0.0617346672348416,
+      "target_weight": 0.03
+    },
+    "DRR.AX": {
+      "drifted_weight": 0.03630099363965864,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 4.050000191,
+      "last_price": 4.065000057,
+      "last_price_date": "2026-09-16",
+      "shares": 0.8865402636516042,
+      "target_weight": 0.03
+    },
+    "DUG.AX": {
+      "drifted_weight": 0.03606370852736706,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 1.75,
+      "last_price": 1.745000005,
+      "last_price_date": "2026-09-16",
+      "shares": 2.0517075640675353,
+      "target_weight": 0.03
+    },
+    "EDU.AX": {
+      "drifted_weight": 0.03600412838974191,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 1.110000014,
+      "last_price": 1.105000019,
+      "last_price_date": "2026-09-16",
+      "shares": 3.234674046696172,
+      "target_weight": 0.03
+    },
+    "FEX.AX": {
+      "drifted_weight": 0.035054212596135594,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 0.2599999905,
+      "last_price": 0.2520000041,
+      "last_price_date": "2026-09-16",
+      "shares": 13.809570647342724,
+      "target_weight": 0.03
+    },
+    "FWD.AX": {
+      "drifted_weight": 0.036167042832124435,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 2.819999933,
+      "last_price": 2.819999933,
+      "last_price_date": "2026-09-16",
+      "shares": 1.2732228093702536,
+      "target_weight": 0.03
+    },
+    "GNP.AX": {
+      "drifted_weight": 0.03543246694800674,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 8.369999886,
+      "last_price": 8.199999809,
+      "last_price_date": "2026-09-16",
+      "shares": 0.4289711213883984,
+      "target_weight": 0.03
+    },
+    "HLO.AX": {
+      "drifted_weight": 0.035913239268030826,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 1.424999952,
+      "last_price": 1.414999962,
+      "last_price_date": "2026-09-16",
+      "shares": 2.5196409530252297,
+      "target_weight": 0.03
+    },
+    "JIN.AX": {
+      "drifted_weight": 0.035043510271206564,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 6.760000229,
+      "last_price": 6.550000191,
+      "last_price_date": "2026-09-16",
+      "shares": 0.531137295190495,
+      "target_weight": 0.03
+    },
+    "JYC.AX": {
+      "drifted_weight": 0.036287599527035884,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 6.0,
+      "last_price": 6.019999981,
+      "last_price_date": "2026-09-16",
+      "shares": 0.5984147061863645,
+      "target_weight": 0.03
+    },
+    "KGN.AX": {
+      "drifted_weight": 0.03197677149694122,
+      "effective_target_weight": 0.032035334841617975,
+      "entry_date": "2026-09-16",
+      "entry_price": 3.309999943,
+      "last_price": 3.279999971,
+      "last_price_date": "2026-09-16",
+      "shares": 0.9678349061415068,
+      "target_weight": 0.02676683453
+    },
+    "MLG.AX": {
+      "drifted_weight": 0.03306254091335343,
+      "effective_target_weight": 0.03302061177746935,
+      "entry_date": "2026-09-16",
+      "entry_price": 0.8349999785,
+      "last_price": 0.8299999833,
+      "last_price_date": "2026-09-16",
+      "shares": 3.9545643865509814,
+      "target_weight": 0.02759007377
+    },
+    "OML.AX": {
+      "drifted_weight": 0.03610128411116536,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 1.649999976,
+      "last_price": 1.646999955,
+      "last_price_date": "2026-09-16",
+      "shares": 2.176053508693013,
+      "target_weight": 0.03
+    },
+    "REG.AX": {
+      "drifted_weight": 0.036814330989950975,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 4.46999979,
+      "last_price": 4.550000191,
+      "last_price_date": "2026-09-16",
+      "shares": 0.8032412540937025,
+      "target_weight": 0.03
+    },
+    "RMS.AX": {
+      "drifted_weight": 0.03566332404412779,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 3.589999914,
+      "last_price": 3.539999962,
+      "last_price_date": "2026-09-16",
+      "shares": 1.0001360231559568,
+      "target_weight": 0.03
+    },
+    "RRL.AX": {
+      "drifted_weight": 0.03551603495684582,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 7.5,
+      "last_price": 7.364999771,
+      "last_price_date": "2026-09-16",
+      "shares": 0.4787317649490916,
+      "target_weight": 0.03
+    },
+    "RSG.AX": {
+      "drifted_weight": 0.03622268705369151,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 1.299999952,
+      "last_price": 1.302000046,
+      "last_price_date": "2026-09-16",
+      "shares": 2.7619141305308195,
+      "target_weight": 0.03
+    },
+    "SKT.AX": {
+      "drifted_weight": 0.036167042832124435,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 2.839999914,
+      "last_price": 2.839999914,
+      "last_price_date": "2026-09-16",
+      "shares": 1.264256459804311,
+      "target_weight": 0.03
+    },
+    "SRV.AX": {
+      "drifted_weight": 0.03431691390111875,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 6.059999943,
+      "last_price": 5.75,
+      "last_price_date": "2026-09-16",
+      "shares": 0.5924898136782354,
+      "target_weight": 0.03
+    },
+    "SSG.AX": {
+      "drifted_weight": 0.03470675903293138,
+      "effective_target_weight": 0.0343221521182745,
+      "entry_date": "2026-09-16",
+      "entry_price": 1.289999962,
+      "last_price": 1.294999957,
+      "last_price_date": "2026-09-16",
+      "shares": 2.6606320255282694,
+      "target_weight": 0.02867756404
+    },
+    "TLC.AX": {
+      "drifted_weight": 0.03609231582816972,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 4.840000153,
+      "last_price": 4.829999924,
+      "last_price_date": "2026-09-16",
+      "shares": 0.7418363891771115,
+      "target_weight": 0.03
+    },
+    "UNI.AX": {
+      "drifted_weight": 0.03457994833121435,
+      "effective_target_weight": 0.035235342893599024,
+      "entry_date": "2026-09-16",
+      "entry_price": 7.0,
+      "last_price": 6.820000172,
+      "last_price_date": "2026-09-16",
+      "shares": 0.5033620413371289,
+      "target_weight": 0.02944057234
+    },
+    "VLS.AX": {
+      "drifted_weight": 0.024116305430631396,
+      "effective_target_weight": 0.02385568421883448,
+      "entry_date": "2026-09-16",
+      "entry_price": 2.779999971,
+      "last_price": 2.789999962,
+      "last_price_date": "2026-09-16",
+      "shares": 0.8581181463197388,
+      "target_weight": 0.01993240137
+    },
+    "WAF.AX": {
+      "drifted_weight": 0.036412741441486984,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 3.680000067,
+      "last_price": 3.704999924,
+      "last_price_date": "2026-09-16",
+      "shares": 0.975676133627143,
+      "target_weight": 0.03
+    },
+    "WGX.AX": {
+      "drifted_weight": 0.035632225692838915,
+      "effective_target_weight": 0.03590488237118187,
+      "entry_date": "2026-09-16",
+      "entry_price": 5.409999847,
+      "last_price": 5.329999924,
+      "last_price_date": "2026-09-16",
+      "shares": 0.663676217867033,
+      "target_weight": 0.03
+    }
+  },
   "starting_nav": 100.0,
-  "updated_at": "2026-09-16T00:05:57+00:00"
+  "updated_at": "2026-09-16T01:33:54+00:00"
 }

@@ -1,0 +1,2 @@
+date,market,nav,daily_return,cumulative_return,holdings,cash,event,signal_date,turnover
+2026-09-16,AU,99.27513991,-0.007248600948,-0.007248600948,29,0,rebalance:2026-09-15,2026-09-15,0.5
