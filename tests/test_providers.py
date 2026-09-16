@@ -168,3 +168,19 @@ def test_annual_periods_are_returned_oldest_first():
     )
     ends = [p.period_end for p in bundle.annual_sorted]
     assert ends == sorted(ends)
+
+
+def test_total_equity_is_never_mistaken_for_minority_interest():
+    """``Total Equity Gross Minority Interest`` is total equity, not the NCI.
+
+    Treating it as a fallback adds the whole equity base to enterprise value,
+    which understates the FCF yield of every company without a separate NCI
+    line. This test pins the distinction.
+    """
+    from fcf_factor.providers.yahoo import MINORITY_LABELS, _first
+
+    assert "Total Equity Gross Minority Interest" not in MINORITY_LABELS
+    equity_only = {"Total Equity Gross Minority Interest": 1_200_000_000.0}
+    assert _first(equity_only, MINORITY_LABELS) is None
+    real_nci = {"Minority Interest": 6_500_000.0, "Total Equity Gross Minority Interest": 1.2e9}
+    assert _first(real_nci, MINORITY_LABELS) == 6_500_000.0

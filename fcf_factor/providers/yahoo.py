@@ -83,7 +83,14 @@ CASH_LABELS = (
     "Cash",
 )
 PREFERRED_LABELS = ("Preferred Stock", "Preferred Securities Outstanding", "Preferred Stock Equity")
-MINORITY_LABELS = ("Minority Interest", "Minority Interests", "Total Equity Gross Minority Interest")
+#: Non-controlling interests on the balance sheet.
+#:
+#: ``Total Equity Gross Minority Interest`` is deliberately NOT listed here.
+#: Despite the name it is *total shareholders' equity including* NCI, not the
+#: NCI itself. Using it as a fallback adds the entire equity base to enterprise
+#: value, which silently wrecks the valuation of every company that reports no
+#: separate NCI line at all.
+MINORITY_LABELS = ("Minority Interest", "Minority Interests")
 SHARES_LABELS = ("Ordinary Shares Number", "Share Issued", "Common Stock Shares Outstanding")
 
 
