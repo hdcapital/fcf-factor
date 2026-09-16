@@ -1,0 +1,1715 @@
+market,exchange,exchange_symbol,yahoo_symbol,name,industry,source
+AU,ASX,10X,10X.AX,EXULTANT MINING LIMITED,Materials,asx:company-directory
+AU,ASX,14D,14D.AX,1414 DEGREES LIMITED,Capital Goods,asx:company-directory
+AU,ASX,1AD,1AD.AX,ADALTA LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,1AE,1AE.AX,AURORA ENERGY METALS LIMITED,Materials,asx:company-directory
+AU,ASX,1AI,1AI.AX,ALGORAE PHARMACEUTICALS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,1CG,1CG.AX,ONE CLICK GROUP LIMITED,Capital Goods,asx:company-directory
+AU,ASX,1MC,1MC.AX,MORELLA CORPORATION LIMITED,Materials,asx:company-directory
+AU,ASX,1TT,1TT.AX,THRIVE TRIBE TECHNOLOGIES LIMITED,Software & Services,asx:company-directory
+AU,ASX,29M,29M.AX,29METALS LIMITED,Materials,asx:company-directory
+AU,ASX,360,360.AX,LIFE360 INC.,Software & Services,asx:company-directory
+AU,ASX,3DA,3DA.AX,AMAERO INC.,Capital Goods,asx:company-directory
+AU,ASX,3DP,3DP.AX,POINTERRA LIMITED,Software & Services,asx:company-directory
+AU,ASX,3PL,3PL.AX,3P LEARNING LIMITED..,Consumer Services,asx:company-directory
+AU,ASX,49M,49M.AX,49 METALS LIMITED,Materials,asx:company-directory
+AU,ASX,4DS,4DS.AX,4DS MEMORY LIMITED,Semiconductors & Semiconductor Equipment,asx:company-directory
+AU,ASX,4DX,4DX.AX,4DMEDICAL LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,5GG,5GG.AX,PENTANET LIMITED,Telecommunication Services,asx:company-directory
+AU,ASX,5GN,5GN.AX,5G NETWORKS LIMITED.,Software & Services,asx:company-directory
+AU,ASX,6KA,6KA.AX,"6K ADDITIVE, INC.",Materials,asx:company-directory
+AU,ASX,88E,88E.AX,88 ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,8CO,8CO.AX,8COMMON LIMITED,Software & Services,asx:company-directory
+AU,ASX,8IH,8IH.AX,8I HOLDINGS LTD,Financial Services,asx:company-directory
+AU,ASX,A11,A11.AX,ATLANTIC LITHIUM LIMITED,Materials,asx:company-directory
+AU,ASX,A1M,A1M.AX,AIC MINES LIMITED,Materials,asx:company-directory
+AU,ASX,A1N,A1N.AX,ARN MEDIA LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,A2M,A2M.AX,THE A2 MILK COMPANY LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,A3D,A3D.AX,AURORA LABS LIMITED,Capital Goods,asx:company-directory
+AU,ASX,A4N,A4N.AX,ALPHA HPA LIMITED,Materials,asx:company-directory
+AU,ASX,A8G,A8G.AX,AUSTRALASIAN METALS LIMITED,Materials,asx:company-directory
+AU,ASX,AA2,AA2.AX,ARIANA RESOURCES PLC,Materials,asx:company-directory
+AU,ASX,AAC,AAC.AX,AUSTRALIAN AGRICULTURAL COMPANY LIMITED.,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,AAI,AAI.AX,ALCOA CORPORATION,Materials,asx:company-directory
+AU,ASX,AAJ,AAJ.AX,ARUMA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,AAL,AAL.AX,ALFABS AUSTRALIA LIMITED,Capital Goods,asx:company-directory
+AU,ASX,AAM,AAM.AX,AUMEGA METALS LTD,Materials,asx:company-directory
+AU,ASX,AAP,AAP.AX,AUSTRALIAN AGRICULTURAL PROJECTS LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,AAR,AAR.AX,ASTRAL RESOURCES NL,Materials,asx:company-directory
+AU,ASX,AAU,AAU.AX,ANTILLES GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,ABB,ABB.AX,AUSSIE BROADBAND LIMITED,Telecommunication Services,asx:company-directory
+AU,ASX,ABE,ABE.AX,AUSTRALIAN BOND EXCHANGE HOLDINGS LIMITED,Financial Services,asx:company-directory
+AU,ASX,ABG,ABG.AX,ABACUS GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,ABR,ABR.AX,ALBRIGHT METALS LTD,Materials,asx:company-directory
+AU,ASX,ABV,ABV.AX,ADVANCED BRAKING TECHNOLOGY LTD,Automobiles & Components,asx:company-directory
+AU,ASX,ABX,ABX.AX,ABX GROUP LIMITED,Materials,asx:company-directory
+AU,ASX,ABY,ABY.AX,ADORE BEAUTY GROUP LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,ACE,ACE.AX,ACUSENSUS LIMITED.,Software & Services,asx:company-directory
+AU,ASX,ACF,ACF.AX,ACROW LIMITED,Capital Goods,asx:company-directory
+AU,ASX,ACL,ACL.AX,AUSTRALIAN CLINICAL LABS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,ACM,ACM.AX,AUSTRALIAN CRITICAL MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,ACP,ACP.AX,AUDALIA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,ACR,ACR.AX,ACRUX LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,ACS,ACS.AX,ACCENT RESOURCES NL,Materials,asx:company-directory
+AU,ASX,ACU,ACU.AX,ACUMENTIS GROUP LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,ACW,ACW.AX,ACTINOGEN MEDICAL LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,AD1,AD1.AX,ADNEO LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,AD8,AD8.AX,AUDINATE GROUP LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,ADC,ADC.AX,ACDC METALS LTD,Materials,asx:company-directory
+AU,ASX,ADD,ADD.AX,ADAVALE RESOURCES LIMITED,Energy,asx:company-directory
+AU,ASX,ADH,ADH.AX,ADAIRS LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,ADN,ADN.AX,ANDROMEDA METALS LIMITED,Materials,asx:company-directory
+AU,ASX,ADO,ADO.AX,ANTEOTECH LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,ADR,ADR.AX,ADHERIUM LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,ADS,ADS.AX,ADSLOT LTD.,Software & Services,asx:company-directory
+AU,ASX,ADX,ADX.AX,ADX ENERGY LTD,Energy,asx:company-directory
+AU,ASX,ADY,ADY.AX,ADMIRALTY RESOURCES NL.,Materials,asx:company-directory
+AU,ASX,AEE,AEE.AX,AURA ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,AEF,AEF.AX,AUSTRALIAN ETHICAL INVESTMENT LIMITED,Financial Services,asx:company-directory
+AU,ASX,AEG,AEG.AX,ALAND EQUITY GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,AEI,AEI.AX,AERIS ENVIRONMENTAL LTD,Commercial & Professional Services,asx:company-directory
+AU,ASX,AEL,AEL.AX,AMPLITUDE ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,AEM,AEM.AX,ADVANCED ENGINEERED MATERIALS LTD,Materials,asx:company-directory
+AU,ASX,AER,AER.AX,AEERIS LTD,Media & Entertainment,asx:company-directory
+AU,ASX,AEU,AEU.AX,ATOMIC EAGLE LTD,Materials,asx:company-directory
+AU,ASX,AEV,AEV.AX,AVENIRA LIMITED,Materials,asx:company-directory
+AU,ASX,AFA,AFA.AX,ASF GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,AFG,AFG.AX,AUSTRALIAN FINANCE GROUP LTD,Financial Services,asx:company-directory
+AU,ASX,AFL,AFL.AX,AF LEGAL GROUP LTD,Commercial & Professional Services,asx:company-directory
+AU,ASX,AFP,AFP.AX,AFT PHARMACEUTICALS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,AGC,AGC.AX,AUSTRALIAN GOLD AND COPPER LTD,Materials,asx:company-directory
+AU,ASX,AGD,AGD.AX,AUSTRAL GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,AGE,AGE.AX,ALLIGATOR ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,AGI,AGI.AX,AINSWORTH GAME TECHNOLOGY LIMITED,Consumer Services,asx:company-directory
+AU,ASX,AGL,AGL.AX,AGL ENERGY LIMITED.,Utilities,asx:company-directory
+AU,ASX,AGN,AGN.AX,ARGENICA THERAPEUTICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,AGR,AGR.AX,AGUIA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,AGY,AGY.AX,ARGOSY MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,AHC,AHC.AX,AUSTCO HEALTHCARE LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,AHE,AHE.AX,ADHERIS HEALTH LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,AHF,AHF.AX,AUSTRALIAN DAIRY NUTRITIONALS LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,AHK,AHK.AX,ARK MINES LIMITED,Materials,asx:company-directory
+AU,ASX,AHL,AHL.AX,ADRAD HOLDINGS LIMITED,Automobiles & Components,asx:company-directory
+AU,ASX,AHN,AHN.AX,ATHENA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,AI1,AI1.AX,ADISYN LTD,Software & Services,asx:company-directory
+AU,ASX,AIA,AIA.AX,AUCKLAND INTERNATIONAL AIRPORT LIMITED,Transportation,asx:company-directory
+AU,ASX,AIH,AIH.AX,ADVANCED INNERGY HOLDINGS LIMITED,Capital Goods,asx:company-directory
+AU,ASX,AIM,AIM.AX,AI-MEDIA TECHNOLOGIES LIMITED,Software & Services,asx:company-directory
+AU,ASX,AIS,AIS.AX,AERIS RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,AIV,AIV.AX,ACTIVEX LIMITED,Materials,asx:company-directory
+AU,ASX,AIZ,AIZ.AX,AIR NEW ZEALAND LIMITED,Transportation,asx:company-directory
+AU,ASX,AJL,AJL.AX,AJ LUCAS GROUP LIMITED,Capital Goods,asx:company-directory
+AU,ASX,AJX,AJX.AX,ALEXIUM INTERNATIONAL GROUP LIMITED,Materials,asx:company-directory
+AU,ASX,AKA,AKA.AX,AUREKA LIMITED,Materials,asx:company-directory
+AU,ASX,AKG,AKG.AX,ACADEMIES AUSTRALASIA GROUP LIMITED,Consumer Services,asx:company-directory
+AU,ASX,AKM,AKM.AX,ASPIRE MINING LIMITED,Materials,asx:company-directory
+AU,ASX,AKN,AKN.AX,AUKING MINING LIMITED,Materials,asx:company-directory
+AU,ASX,AKO,AKO.AX,AKORA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,AL3,AL3.AX,AML3D LIMITED,Capital Goods,asx:company-directory
+AU,ASX,ALA,ALA.AX,AROVELLA THERAPEUTICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,ALB,ALB.AX,ALBION RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,ALC,ALC.AX,ALCIDION GROUP LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,ALD,ALD.AX,AMPOL LIMITED,Energy,asx:company-directory
+AU,ASX,ALK,ALK.AX,ALKANE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,ALL,ALL.AX,ARISTOCRAT LEISURE LIMITED,Consumer Services,asx:company-directory
+AU,ASX,ALM,ALM.AX,ALMA METALS LIMITED,Energy,asx:company-directory
+AU,ASX,ALQ,ALQ.AX,ALS LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,ALR,ALR.AX,ALTAIR MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,ALU,ALU.AX,ALURION RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,ALV,ALV.AX,ALVO MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,ALX,ALX.AX,ATLAS ARTERIA,Transportation,asx:company-directory
+AU,ASX,ALY,ALY.AX,ALCHEMY RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,AM3,AM3.AX,AMARA MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,AM5,AM5.AX,ANTARES METALS LIMITED,Materials,asx:company-directory
+AU,ASX,AM7,AM7.AX,ARCADIA MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,AMA,AMA.AX,AMA GROUP LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,AMC,AMC.AX,AMCOR PLC,Materials,asx:company-directory
+AU,ASX,AMD,AMD.AX,ARROW MINERALS LTD,Materials,asx:company-directory
+AU,ASX,AMI,AMI.AX,AURELIA METALS LIMITED,Materials,asx:company-directory
+AU,ASX,AMK,AMK.AX,ALMASAR MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,AMN,AMN.AX,AGRIMIN LIMITED,Materials,asx:company-directory
+AU,ASX,AMO,AMO.AX,AMBERTECH LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,AMP,AMP.AX,AMP LIMITED,Financial Services,asx:company-directory
+AU,ASX,AMS,AMS.AX,ATOMOS LIMITED,Consumer Durables & Apparel,asx:company-directory
+AU,ASX,AMU,AMU.AX,AMERICAN URANIUM LTD,Materials,asx:company-directory
+AU,ASX,AMX,AMX.AX,AEROMETREX LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,AN1,AN1.AX,ANAGENICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,ANG,ANG.AX,AUSTIN ENGINEERING LIMITED,Capital Goods,asx:company-directory
+AU,ASX,ANN,ANN.AX,ANSELL LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,ANO,ANO.AX,ADVANCE ZINCTEK LIMITED,Materials,asx:company-directory
+AU,ASX,ANR,ANR.AX,ANATARA LIFESCIENCES LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,ANX,ANX.AX,ANAX METALS LIMITED,Materials,asx:company-directory
+AU,ASX,ANZ,ANZ.AX,ANZ GROUP HOLDINGS LIMITED,Banks,asx:company-directory
+AU,ASX,AOA,AOA.AX,AUSMON RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,AOK,AOK.AX,AUSTRALIAN OIL COMPANY LIMITED.,Energy,asx:company-directory
+AU,ASX,AON,AON.AX,APOLLO MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,AOV,AOV.AX,AMOTIV LIMITED,Automobiles & Components,asx:company-directory
+AU,ASX,APA,APA.AX,APA GROUP,Utilities,asx:company-directory
+AU,ASX,APC,APC.AX,APC MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,APE,APE.AX,EAGERS AUTOMOTIVE LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,APL,APL.AX,ASSOCIATE GLOBAL PARTNERS LIMITED,Financial Services,asx:company-directory
+AU,ASX,APX,APX.AX,APPEN LIMITED,Software & Services,asx:company-directory
+AU,ASX,APZ,APZ.AX,ASPEN GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,AQC,AQC.AX,AUSTRALIAN PACIFIC COAL LIMITED,Materials,asx:company-directory
+AU,ASX,AQD,AQD.AX,AUSQUEST LIMITED,Materials,asx:company-directory
+AU,ASX,AQN,AQN.AX,AQUIRIAN LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,AQX,AQX.AX,ALICE QUEEN LIMITED,Materials,asx:company-directory
+AU,ASX,AQZ,AQZ.AX,ALLIANCE AVIATION SERVICES LIMITED,Transportation,asx:company-directory
+AU,ASX,AR1,AR1.AX,AUSTRAL RESOURCES AUSTRALIA LTD,Materials,asx:company-directory
+AU,ASX,AR3,AR3.AX,AUSTRALIAN RARE EARTHS LIMITED,Materials,asx:company-directory
+AU,ASX,AR9,AR9.AX,ARCHTIS LIMITED,Software & Services,asx:company-directory
+AU,ASX,ARA,ARA.AX,ARIADNE AUSTRALIA LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,ARB,ARB.AX,ARB CORPORATION LIMITED.,Automobiles & Components,asx:company-directory
+AU,ASX,ARC,ARC.AX,ARC FUNDS LIMITED,Financial Services,asx:company-directory
+AU,ASX,ARD,ARD.AX,ARGENT MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,ARI,ARI.AX,ARIKA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,ARL,ARL.AX,ARDEA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,ARN,ARN.AX,ALDORO RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,ARO,ARO.AX,ALTORO METALS LIMITED,Materials,asx:company-directory
+AU,ASX,ARR,ARR.AX,AMERICAN RARE EARTHS LIMITED,Materials,asx:company-directory
+AU,ASX,ART,ART.AX,AIRTASKER LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,ARU,ARU.AX,ARAFURA RARE EARTHS LTD,Materials,asx:company-directory
+AU,ASX,ARV,ARV.AX,ARTEMIS RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,ARX,ARX.AX,AROA BIOSURGERY LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,AS1,AS1.AX,ASARA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,AS2,AS2.AX,ASKARI METALS LIMITED,Materials,asx:company-directory
+AU,ASX,ASB,ASB.AX,AUSTAL LIMITED,Capital Goods,asx:company-directory
+AU,ASX,ASG,ASG.AX,AUTOSPORTS GROUP LIMITED.,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,ASH,ASH.AX,ASHLEY SERVICES GROUP LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,ASL,ASL.AX,ANDEAN SILVER LIMITED,Materials,asx:company-directory
+AU,ASX,ASN,ASN.AX,ANSON RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,ASP,ASP.AX,ASPERMONT LIMITED.,Media & Entertainment,asx:company-directory
+AU,ASX,ASQ,ASQ.AX,AUSTRALIAN SILICA QUARTZ GROUP LTD,Materials,asx:company-directory
+AU,ASX,ASV,ASV.AX,ASSET VISION CO LTD,Commercial & Professional Services,asx:company-directory
+AU,ASX,ASX,ASX.AX,ASX LIMITED,Financial Services,asx:company-directory
+AU,ASX,AT1,AT1.AX,ATOMO DIAGNOSTICS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,AT4,AT4.AX,AMERICAN TUNGSTEN & ANTIMONY LTD,Materials,asx:company-directory
+AU,ASX,ATA,ATA.AX,ATTURRA LIMITED,Software & Services,asx:company-directory
+AU,ASX,ATC,ATC.AX,ALTECH BATTERIES LTD,Materials,asx:company-directory
+AU,ASX,ATG,ATG.AX,ARTICORE GROUP LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,ATH,ATH.AX,ALTERITY THERAPEUTICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,ATM,ATM.AX,PT ANTAM (PERSERO) TBK,Materials,asx:company-directory
+AU,ASX,ATP,ATP.AX,ATLAS PEARLS LTD,Consumer Durables & Apparel,asx:company-directory
+AU,ASX,ATR,ATR.AX,ASTRON LIMITED,Materials,asx:company-directory
+AU,ASX,ATS,ATS.AX,AUSTRALIS OIL & GAS LIMITED,Energy,asx:company-directory
+AU,ASX,ATT,ATT.AX,ALTITUDE MINERALS LTD,Materials,asx:company-directory
+AU,ASX,ATV,ATV.AX,ACTIVEPORT GROUP LTD,Software & Services,asx:company-directory
+AU,ASX,ATX,ATX.AX,AMPLIA THERAPEUTICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,AU1,AU1.AX,THE AGENCY GROUP AUSTRALIA LTD,Real Estate Management & Development,asx:company-directory
+AU,ASX,AUA,AUA.AX,AUDEARA LIMITED,Consumer Durables & Apparel,asx:company-directory
+AU,ASX,AUB,AUB.AX,AUB GROUP LIMITED,Insurance,asx:company-directory
+AU,ASX,AUC,AUC.AX,AUSGOLD LIMITED,Materials,asx:company-directory
+AU,ASX,AUE,AUE.AX,AURUM RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,AUG,AUG.AX,AUGUSTUS MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,AUQ,AUQ.AX,ALARA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,AUR,AUR.AX,AURIS MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,AUV,AUV.AX,AURAVELLE METALS LIMITED,Materials,asx:company-directory
+AU,ASX,AUZ,AUZ.AX,AUSTRALIAN MINES LIMITED,Materials,asx:company-directory
+AU,ASX,AV1,AV1.AX,ADVERITAS LIMITED,Software & Services,asx:company-directory
+AU,ASX,AVA,AVA.AX,AVA RISK GROUP LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,AVD,AVD.AX,AVADA GROUP LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,AVE,AVE.AX,AVECHO BIOTECHNOLOGY LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,AVG,AVG.AX,AUSTRALIAN VINTAGE LTD,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,AVH,AVH.AX,AVITA MEDICAL INC.,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,AVL,AVL.AX,AUSTRALIAN VANADIUM LIMITED,Materials,asx:company-directory
+AU,ASX,AVM,AVM.AX,ADVANCE METALS LIMITED,Materials,asx:company-directory
+AU,ASX,AVR,AVR.AX,ANTERIS TECHNOLOGIES GLOBAL CORP.,Health Care Equipment & Services,asx:company-directory
+AU,ASX,AVW,AVW.AX,AVIRA RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,AW1,AW1.AX,AMERICAN WEST METALS LIMITED,Materials,asx:company-directory
+AU,ASX,AWJ,AWJ.AX,AURIC MINING LIMITED,Materials,asx:company-directory
+AU,ASX,AX1,AX1.AX,ACCENT GROUP LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,AX8,AX8.AX,ACCELERATE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,AXE,AXE.AX,ARCHER MATERIALS LIMITED,Semiconductors & Semiconductor Equipment,asx:company-directory
+AU,ASX,AXI,AXI.AX,AXTEC LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,AXL,AXL.AX,AXEL REE LIMITED,Materials,asx:company-directory
+AU,ASX,AXN,AXN.AX,ALLIANCE NICKEL LIMITED,Materials,asx:company-directory
+AU,ASX,AXP,AXP.AX,AXP ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,AXQ,AXQ.AX,"AURA CONSOLIDATED GROUP, INC.",Class Pend,asx:company-directory
+AU,ASX,AXR,AXR.AX,AXIANT RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,AYA,AYA.AX,ARTRYA LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,AYM,AYM.AX,AUSTRALIA UNITED MINING LIMITED,Materials,asx:company-directory
+AU,ASX,AYT,AYT.AX,AUSTIN METALS LIMITED,Materials,asx:company-directory
+AU,ASX,AZ9,AZ9.AX,AZZURO RESOURCES PLC,Materials,asx:company-directory
+AU,ASX,AZI,AZI.AX,ALTAMIN LIMITED,Materials,asx:company-directory
+AU,ASX,AZJ,AZJ.AX,AURIZON HOLDINGS LIMITED,Transportation,asx:company-directory
+AU,ASX,AZY,AZY.AX,ANTIPA MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,B4P,B4P.AX,BEFOREPAY GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,BAK,BAK.AX,BARKLY RARE EARTHS LIMITED,Materials,asx:company-directory
+AU,ASX,BAP,BAP.AX,BAPCOR LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,BAS,BAS.AX,BASS OIL LIMITED,Energy,asx:company-directory
+AU,ASX,BB1,BB1.AX,BLINKLAB LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,BBC,BBC.AX,BNK BANKING CORPORATION LIMITED,Banks,asx:company-directory
+AU,ASX,BBL,BBL.AX,BRISBANE BRONCOS LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,BBN,BBN.AX,BABY BUNTING GROUP LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,BBT,BBT.AX,BETR ENTERTAINMENT LIMITED,Consumer Services,asx:company-directory
+AU,ASX,BC8,BC8.AX,BLACK CAT SYNDICATE LIMITED,Materials,asx:company-directory
+AU,ASX,BCA,BCA.AX,BLACK CANYON LIMITED,Materials,asx:company-directory
+AU,ASX,BCC,BCC.AX,BEAM COMMUNICATIONS HOLDINGS LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,BCI,BCI.AX,BCI MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,BCK,BCK.AX,BROCKMAN MINING LIMITED,Materials,asx:company-directory
+AU,ASX,BCM,BCM.AX,BRAZILIAN CRITICAL MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,BCN,BCN.AX,BEACON MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,BDM,BDM.AX,BURGUNDY DIAMOND MINES LIMITED,Materials,asx:company-directory
+AU,ASX,BDX,BDX.AX,BCAL DIAGNOSTICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,BEN,BEN.AX,BENDIGO AND ADELAIDE BANK LIMITED,Banks,asx:company-directory
+AU,ASX,BEO,BEO.AX,BEONIC LTD,Software & Services,asx:company-directory
+AU,ASX,BET,BET.AX,BETMAKERS TECHNOLOGY GROUP LTD,Consumer Services,asx:company-directory
+AU,ASX,BEZ,BEZ.AX,BESRA GOLD INC.,Materials,asx:company-directory
+AU,ASX,BFG,BFG.AX,BELL FINANCIAL GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,BFL,BFL.AX,BSP FINANCIAL GROUP LIMITED,Banks,asx:company-directory
+AU,ASX,BGA,BGA.AX,BEGA CHEESE LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,BGD,BGD.AX,BARTON GOLD HOLDINGS LIMITED,Materials,asx:company-directory
+AU,ASX,BGE,BGE.AX,BRIDGE SAAS LIMITED,Software & Services,asx:company-directory
+AU,ASX,BGL,BGL.AX,BELLEVUE GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,BGP,BGP.AX,BRISCOE GROUP AUSTRALASIA LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,BGT,BGT.AX,BIO-GENE TECHNOLOGY LTD,Materials,asx:company-directory
+AU,ASX,BH6,BH6.AX,BROKEN HILL GOLD LTD,Materials,asx:company-directory
+AU,ASX,BHL,BHL.AX,BLACK HORSE MINING LIMITED,Materials,asx:company-directory
+AU,ASX,BHM,BHM.AX,BROKEN HILL MINES LIMITED,Materials,asx:company-directory
+AU,ASX,BHP,BHP.AX,BHP GROUP LIMITED,Materials,asx:company-directory
+AU,ASX,BIM,BIM.AX,BINDI METALS LIMITED,Materials,asx:company-directory
+AU,ASX,BIO,BIO.AX,BIOME AUSTRALIA LIMITED,Household & Personal Products,asx:company-directory
+AU,ASX,BIS,BIS.AX,BISALLOY STEEL GROUP LIMITED,Materials,asx:company-directory
+AU,ASX,BIT,BIT.AX,BIOTRON LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,BKB,BKB.AX,BLACK BEAR MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,BKT,BKT.AX,BLACK ROCK MINING LIMITED,Materials,asx:company-directory
+AU,ASX,BKY,BKY.AX,BERKELEY ENERGIA LIMITED,Energy,asx:company-directory
+AU,ASX,BLG,BLG.AX,BLUGLASS LIMITED,Semiconductors & Semiconductor Equipment,asx:company-directory
+AU,ASX,BLS,BLS.AX,BLS PHARMACEUTICALS LIMITED,Household & Personal Products,asx:company-directory
+AU,ASX,BLU,BLU.AX,BLUE ENERGY LIMITED.,Energy,asx:company-directory
+AU,ASX,BLX,BLX.AX,BEACON LIGHTING GROUP LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,BLZ,BLZ.AX,BLAZE MINERALS LIMITED,Energy,asx:company-directory
+AU,ASX,BM1,BM1.AX,BALLARD MINING LIMITED,Materials,asx:company-directory
+AU,ASX,BM8,BM8.AX,BATTERY AGE MINERALS LTD,Materials,asx:company-directory
+AU,ASX,BMC,BMC.AX,BMC MINERALS LTD.,Materials,asx:company-directory
+AU,ASX,BMH,BMH.AX,BAUMART HOLDINGS LIMITED,Capital Goods,asx:company-directory
+AU,ASX,BML,BML.AX,BOAB METALS LIMITED,Materials,asx:company-directory
+AU,ASX,BMM,BMM.AX,BAYAN MINING AND MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,BMN,BMN.AX,BANNERMAN ENERGY LTD,Energy,asx:company-directory
+AU,ASX,BMR,BMR.AX,BALLYMORE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,BMT,BMT.AX,BEAMTREE HOLDINGS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,BNL,BNL.AX,BLUE STAR HELIUM LIMITED,Energy,asx:company-directory
+AU,ASX,BNR,BNR.AX,BULLETIN RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,BNZ,BNZ.AX,BENZ MINING CORP.,Materials,asx:company-directory
+AU,ASX,BOA,BOA.AX,BOA RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,BOC,BOC.AX,BOUGAINVILLE COPPER LIMITED,Materials,asx:company-directory
+AU,ASX,BOE,BOE.AX,BOSS ENERGY LTD,Energy,asx:company-directory
+AU,ASX,BOL,BOL.AX,BOOM LOGISTICS LIMITED,Capital Goods,asx:company-directory
+AU,ASX,BOQ,BOQ.AX,BANK OF QUEENSLAND LIMITED.,Banks,asx:company-directory
+AU,ASX,BOT,BOT.AX,BOTANIX PHARMACEUTICALS LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,BPG,BPG.AX,BLACK PEARL GROUP LIMITED,Software & Services,asx:company-directory
+AU,ASX,BPH,BPH.AX,BPH ENERGY LTD,Financial Services,asx:company-directory
+AU,ASX,BPM,BPM.AX,BPM MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,BPP,BPP.AX,BABYLON PUMP & POWER LIMITED,Capital Goods,asx:company-directory
+AU,ASX,BPT,BPT.AX,BEACH ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,BRE,BRE.AX,BRAZILIAN RARE EARTHS LIMITED,Materials,asx:company-directory
+AU,ASX,BRG,BRG.AX,BREVILLE GROUP LIMITED,Consumer Durables & Apparel,asx:company-directory
+AU,ASX,BRI,BRI.AX,BIG RIVER INDUSTRIES LIMITED,Materials,asx:company-directory
+AU,ASX,BRK,BRK.AX,BROOKSIDE ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,BRL,BRL.AX,BATHURST RESOURCES LIMITED.,Materials,asx:company-directory
+AU,ASX,BRN,BRN.AX,BRAINCHIP HOLDINGS LTD,Software & Services,asx:company-directory
+AU,ASX,BRU,BRU.AX,BURU ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,BRY,BRY.AX,BARYS RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,BSA,BSA.AX,BSA LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,BSL,BSL.AX,BLUESCOPE STEEL LIMITED,Materials,asx:company-directory
+AU,ASX,BSN,BSN.AX,BASIN ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,BSR,BSR.AX,BISON RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,BST,BST.AX,BORESIGHT LTD,Capital Goods,asx:company-directory
+AU,ASX,BSX,BSX.AX,BLACKSTONE MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,BTE,BTE.AX,BOTALA ENERGY LTD,Energy,asx:company-directory
+AU,ASX,BTI,BTI.AX,BAILADOR TECHNOLOGY INVESTMENTS LIMITED,Financial Services,asx:company-directory
+AU,ASX,BTL,BTL.AX,BEETALOO ENERGY AUSTRALIA LIMITED,Energy,asx:company-directory
+AU,ASX,BTM,BTM.AX,BREAKTHROUGH MINERALS LIMITED,Energy,asx:company-directory
+AU,ASX,BTN,BTN.AX,BUTN LIMITED,Financial Services,asx:company-directory
+AU,ASX,BTR,BTR.AX,BRIGHTSTAR RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,BUB,BUB.AX,BUBS AUSTRALIA LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,BUR,BUR.AX,BURLEY MINERALS LTD,Materials,asx:company-directory
+AU,ASX,BUS,BUS.AX,BUBALUS RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,BUX,BUX.AX,BUXTON RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,BUY,BUY.AX,BOUNTY OIL & GAS NL,Energy,asx:company-directory
+AU,ASX,BVR,BVR.AX,BELLAVISTA RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,BVS,BVS.AX,BRAVURA SOLUTIONS LIMITED.,Software & Services,asx:company-directory
+AU,ASX,BWF,BWF.AX,BLACKWALL LIMITED,Financial Services,asx:company-directory
+AU,ASX,BWN,BWN.AX,BHAGWAN MARINE LIMITED,Transportation,asx:company-directory
+AU,ASX,BWP,BWP.AX,BWP GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,BXB,BXB.AX,BRAMBLES LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,C29,C29.AX,C29 METALS LIMITED,Materials,asx:company-directory
+AU,ASX,C79,C79.AX,CHRYSOS CORPORATION LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,C7A,C7A.AX,CLARA RESOURCES AUSTRALIA LTD,Materials,asx:company-directory
+AU,ASX,CAA,CAA.AX,CAPRAL LIMITED,Materials,asx:company-directory
+AU,ASX,CAE,CAE.AX,CANNINDAH RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,CAF,CAF.AX,CENTREPOINT ALLIANCE LIMITED,Financial Services,asx:company-directory
+AU,ASX,CAN,CAN.AX,CANN GROUP LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,CAQ,CAQ.AX,CAQ HOLDINGS LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,CAR,CAR.AX,CAR GROUP LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,CAT,CAT.AX,CATAPULT SPORTS LTD,Software & Services,asx:company-directory
+AU,ASX,CAV,CAV.AX,CARNAVALE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,CAY,CAY.AX,CANYON RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,CAZ,CAZ.AX,CAZALY RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,CBA,CBA.AX,COMMONWEALTH BANK OF AUSTRALIA.,Banks,asx:company-directory
+AU,ASX,CBE,CBE.AX,COBRE LIMITED,Materials,asx:company-directory
+AU,ASX,CBL,CBL.AX,CONTROL BIONICS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,CBO,CBO.AX,COBRAM ESTATE OLIVES LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,CBY,CBY.AX,CANTERBURY RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,CC5,CC5.AX,CLEVER CULTURE SYSTEMS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,CC9,CC9.AX,CHARIOT RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,CCA,CCA.AX,CHANGE FINANCIAL LIMITED,Financial Services,asx:company-directory
+AU,ASX,CCE,CCE.AX,CARNEGIE CLEAN ENERGY LIMITED,Utilities,asx:company-directory
+AU,ASX,CCG,CCG.AX,COMMS GROUP LTD,Telecommunication Services,asx:company-directory
+AU,ASX,CCL,CCL.AX,CUSCAL LIMITED,Financial Services,asx:company-directory
+AU,ASX,CCM,CCM.AX,CADOUX LIMITED,Materials,asx:company-directory
+AU,ASX,CCO,CCO.AX,THE CALMER CO INTERNATIONAL LIMITED,Household & Personal Products,asx:company-directory
+AU,ASX,CCP,CCP.AX,CREDIT CORP GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,CCR,CCR.AX,CREDIT CLEAR LIMITED,Software & Services,asx:company-directory
+AU,ASX,CCV,CCV.AX,CASH CONVERTERS INTERNATIONAL,Financial Services,asx:company-directory
+AU,ASX,CCX,CCX.AX,CITY CHIC COLLECTIVE LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,CDA,CDA.AX,CODAN LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,CDE,CDE.AX,CODEIFAI LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,CDR,CDR.AX,CODRUS MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,CDT,CDT.AX,CASTLE MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,CEH,CEH.AX,COAST ENTERTAINMENT HOLDINGS LIMITED,Consumer Services,asx:company-directory
+AU,ASX,CEL,CEL.AX,CHALLENGER GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,CEN,CEN.AX,CONTACT ENERGY LIMITED,Utilities,asx:company-directory
+AU,ASX,CF1,CF1.AX,COMPLII FINTECH SOLUTIONS LTD,Software & Services,asx:company-directory
+AU,ASX,CG1,CG1.AX,CARBONXT GROUP LIMITED,Materials,asx:company-directory
+AU,ASX,CGF,CGF.AX,CHALLENGER LIMITED,Financial Services,asx:company-directory
+AU,ASX,CGO,CGO.AX,CPT GLOBAL LIMITED,Software & Services,asx:company-directory
+AU,ASX,CGR,CGR.AX,CGN RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,CGS,CGS.AX,COGSTATE LTD,Health Care Equipment & Services,asx:company-directory
+AU,ASX,CHC,CHC.AX,CHARTER HALL GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,CHI,CHI.AX,CHANNEL INFRASTRUCTURE NZ LIMITED,Energy,asx:company-directory
+AU,ASX,CHL,CHL.AX,CAMPLIFY HOLDINGS LIMITED,Transportation,asx:company-directory
+AU,ASX,CHM,CHM.AX,CHIMERIC THERAPEUTICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,CHN,CHN.AX,CHALICE MINING LIMITED,Materials,asx:company-directory
+AU,ASX,CHR,CHR.AX,CHARGER METALS NL,Materials,asx:company-directory
+AU,ASX,CHW,CHW.AX,CHILWA MINERALS LTD,Materials,asx:company-directory
+AU,ASX,CIA,CIA.AX,CHAMPION IRON LIMITED,Materials,asx:company-directory
+AU,ASX,CIW,CIW.AX,CLIME INVESTMENT MANAGEMENT LTD,Financial Services,asx:company-directory
+AU,ASX,CKA,CKA.AX,COKAL LIMITED,Materials,asx:company-directory
+AU,ASX,CKF,CKF.AX,COLLINS FOODS LIMITED,Consumer Services,asx:company-directory
+AU,ASX,CLA,CLA.AX,CELSIUS RESOURCES LIMITED.,Materials,asx:company-directory
+AU,ASX,CLG,CLG.AX,CLOSE THE LOOP LTD.,Commercial & Professional Services,asx:company-directory
+AU,ASX,CLU,CLU.AX,CLUEY LTD,Consumer Services,asx:company-directory
+AU,ASX,CLV,CLV.AX,CLOVER CORPORATION LIMITED,Materials,asx:company-directory
+AU,ASX,CLX,CLX.AX,CTI LOGISTICS LIMITED,Transportation,asx:company-directory
+AU,ASX,CLZ,CLZ.AX,CLASSIC MINERALS LTD,Materials,asx:company-directory
+AU,ASX,CMA,CMA.AX,CARMA LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,CMB,CMB.AX,CAMBIUM BIO LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,CMD,CMD.AX,CASSIUS MINING LIMITED,Materials,asx:company-directory
+AU,ASX,CMG,CMG.AX,CRITICAL MINERALS GROUP LIMITED,Materials,asx:company-directory
+AU,ASX,CML,CML.AX,CONNECTED MINERALS LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,CMM,CMM.AX,CAPRICORN METALS LTD,Materials,asx:company-directory
+AU,ASX,CMO,CMO.AX,COSMO METALS LIMITED,Materials,asx:company-directory
+AU,ASX,CMP,CMP.AX,COMPUMEDICS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,CMW,CMW.AX,CROMWELL PROPERTY GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,CMX,CMX.AX,CHEMX MATERIALS LIMITED,Materials,asx:company-directory
+AU,ASX,CNB,CNB.AX,CARNABY RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,CND,CND.AX,CONDOR ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,CNI,CNI.AX,CENTURIA CAPITAL GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,CNJ,CNJ.AX,CONICO LTD,Materials,asx:company-directory
+AU,ASX,CNQ,CNQ.AX,CLEAN TEQ WATER LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,CNU,CNU.AX,CHORUS LIMITED,Telecommunication Services,asx:company-directory
+AU,ASX,COB,COB.AX,COBALT BLUE HOLDINGS LIMITED,Materials,asx:company-directory
+AU,ASX,COD,COD.AX,CODA MINERALS LTD,Materials,asx:company-directory
+AU,ASX,COG,COG.AX,COG FINANCIAL SERVICES LIMITED,Financial Services,asx:company-directory
+AU,ASX,COH,COH.AX,COCHLEAR LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,COI,COI.AX,COMET RIDGE LIMITED,Energy,asx:company-directory
+AU,ASX,COL,COL.AX,COLES GROUP LIMITED.,Consumer Staples Distribution & Retail,asx:company-directory
+AU,ASX,COS,COS.AX,COSOL LIMITED,Software & Services,asx:company-directory
+AU,ASX,COV,COV.AX,CLEO DIAGNOSTICS LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,COY,COY.AX,COPPERMOLY LIMITED,Materials,asx:company-directory
+AU,ASX,CP8,CP8.AX,CANADIAN PHOSPHATE LIMITED,Materials,asx:company-directory
+AU,ASX,CPM,CPM.AX,COOPER METALS LIMITED,Materials,asx:company-directory
+AU,ASX,CPN,CPN.AX,CASPIN RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,CPO,CPO.AX,CULPEO MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,CPU,CPU.AX,COMPUTERSHARE LIMITED.,Commercial & Professional Services,asx:company-directory
+AU,ASX,CPV,CPV.AX,CLEARVUE TECHNOLOGIES LIMITED,Capital Goods,asx:company-directory
+AU,ASX,CQT,CQT.AX,CONNEQT HEALTH LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,CR1,CR1.AX,CONSTELLATION RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,CR3,CR3.AX,CORE ENERGY MINERALS LTD,Materials,asx:company-directory
+AU,ASX,CRB,CRB.AX,CARBINE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,CRD,CRD.AX,CONRAD ASIA ENERGY LTD.,Energy,asx:company-directory
+AU,ASX,CRI,CRI.AX,CRITICA LIMITED,Materials,asx:company-directory
+AU,ASX,CRN,CRN.AX,CORONADO GLOBAL RESOURCES INC.,Materials,asx:company-directory
+AU,ASX,CRR,CRR.AX,CRITICAL RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,CRS,CRS.AX,CAPRICE RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,CSC,CSC.AX,CAPSTONE COPPER CORP.,Materials,asx:company-directory
+AU,ASX,CSL,CSL.AX,CSL LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,CST,CST.AX,CASTILE RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,CSX,CSX.AX,CLEANSPACE HOLDINGS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,CT1,CT1.AX,CONSTELLATION TECHNOLOGIES LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,CTD,CTD.AX,CORPORATE TRAVEL MANAGEMENT LIMITED,Consumer Services,asx:company-directory
+AU,ASX,CTE,CTE.AX,CRYOSITE LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,CTM,CTM.AX,CENTAURUS METALS LIMITED,Materials,asx:company-directory
+AU,ASX,CTN,CTN.AX,CATALINA RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,CTO,CTO.AX,CITIGOLD CORPORATION LIMITED,Materials,asx:company-directory
+AU,ASX,CTP,CTP.AX,CENTRAL PETROLEUM LIMITED,Energy,asx:company-directory
+AU,ASX,CTQ,CTQ.AX,CARETEQ LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,CTS,CTS.AX,CERETAS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,CTT,CTT.AX,CETTIRE LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,CU6,CU6.AX,CLARITY PHARMACEUTICALS LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,CUE,CUE.AX,CUE ENERGY RESOURCES LIMITED,Energy,asx:company-directory
+AU,ASX,CUF,CUF.AX,CUFE LTD,Materials,asx:company-directory
+AU,ASX,CUL,CUL.AX,CULLEN RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,CUP,CUP.AX,COUNT LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,CUV,CUV.AX,CLINUVEL PHARMACEUTICALS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,CVB,CVB.AX,CURVEBEAM AI LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,CVC,CVC.AX,CVC LIMITED,Financial Services,asx:company-directory
+AU,ASX,CVL,CVL.AX,CIVMEC LIMITED,Capital Goods,asx:company-directory
+AU,ASX,CVN,CVN.AX,CARNARVON ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,CVR,CVR.AX,CAVALIER RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,CVV,CVV.AX,CARAVEL MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,CWP,CWP.AX,CEDAR WOODS PROPERTIES LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,CWY,CWY.AX,CLEANAWAY WASTE MANAGEMENT LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,CXL,CXL.AX,CALIX LIMITED,Materials,asx:company-directory
+AU,ASX,CXO,CXO.AX,CORE LITHIUM LTD,Materials,asx:company-directory
+AU,ASX,CXU,CXU.AX,CAULDRON ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,CXZ,CXZ.AX,CONNEXION MOBILITY LTD,Software & Services,asx:company-directory
+AU,ASX,CY5,CY5.AX,CYGNUS METALS LIMITED,Materials,asx:company-directory
+AU,ASX,CYB,CYB.AX,AUCYBER LIMITED,Software & Services,asx:company-directory
+AU,ASX,CYC,CYC.AX,CYCLOPHARM LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,CYG,CYG.AX,COVENTRY GROUP LIMITED,Capital Goods,asx:company-directory
+AU,ASX,CYL,CYL.AX,CATALYST METALS LIMITED,Materials,asx:company-directory
+AU,ASX,CYM,CYM.AX,CYPRIUM METALS LIMITED,Materials,asx:company-directory
+AU,ASX,CYP,CYP.AX,CYNATA THERAPEUTICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,CYQ,CYQ.AX,CYCLIQ GROUP LTD,Consumer Durables & Apparel,asx:company-directory
+AU,ASX,CYV,CYV.AX,CERYVYN THERAPEUTICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,CZN,CZN.AX,CORAZON MINING LIMITED,Materials,asx:company-directory
+AU,ASX,CZR,CZR.AX,CZR RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,D3E,D3E.AX,D3 ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,DAF,DAF.AX,DISCOVERY ALASKA LIMITED,Materials,asx:company-directory
+AU,ASX,DAI,DAI.AX,DECIDR AI INDUSTRIES LTD,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,DAL,DAL.AX,DALAROO METALS LTD,Materials,asx:company-directory
+AU,ASX,DBF,DBF.AX,DUXTON FARMS LTD,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,DBI,DBI.AX,DALRYMPLE BAY INFRASTRUCTURE LIMITED,Transportation,asx:company-directory
+AU,ASX,DBO,DBO.AX,DIABLO RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,DCC,DCC.AX,DIGITALX LIMITED,Software & Services,asx:company-directory
+AU,ASX,DDR,DDR.AX,DICKER DATA LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,DDT,DDT.AX,DATADOT TECHNOLOGY LIMITED,Automobiles & Components,asx:company-directory
+AU,ASX,DEL,DEL.AX,DELOREAN CORPORATION LIMITED,Utilities,asx:company-directory
+AU,ASX,DEM,DEM.AX,DE.MEM LIMITED,Utilities,asx:company-directory
+AU,ASX,DES,DES.AX,DESOTO RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,DEV,DEV.AX,DEVEX RESOURCES LIMITED,Energy,asx:company-directory
+AU,ASX,DGH,DGH.AX,DESANE GROUP HOLDINGS LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,DGL,DGL.AX,DGL GROUP LIMITED,Materials,asx:company-directory
+AU,ASX,DGR,DGR.AX,DGR GLOBAL LIMITED,Materials,asx:company-directory
+AU,ASX,DKM,DKM.AX,DUKETON MINING LIMITED,Materials,asx:company-directory
+AU,ASX,DLI,DLI.AX,DELTA LITHIUM LIMITED,Materials,asx:company-directory
+AU,ASX,DLY,DLY.AX,DALY RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,DM1,DM1.AX,DESERT METALS LIMITED,Materials,asx:company-directory
+AU,ASX,DME,DME.AX,DOME GOLD MINES LIMITED,Materials,asx:company-directory
+AU,ASX,DMP,DMP.AX,DOMINO'S PIZZA ENTERPRISES LIMITED,Consumer Services,asx:company-directory
+AU,ASX,DNL,DNL.AX,DYNO NOBEL LIMITED.,Materials,asx:company-directory
+AU,ASX,DOC,DOC.AX,DOCTOR CARE ANYWHERE GROUP PLC,Health Care Equipment & Services,asx:company-directory
+AU,ASX,DOW,DOW.AX,DOWNER EDI LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,DPM,DPM.AX,DPM METALS INC.,Materials,asx:company-directory
+AU,ASX,DRE,DRE.AX,DREADNOUGHT RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,DRO,DRO.AX,DRONESHIELD LIMITED,Capital Goods,asx:company-directory
+AU,ASX,DRR,DRR.AX,DETERRA ROYALTIES LIMITED,Materials,asx:company-directory
+AU,ASX,DRX,DRX.AX,DIATREME RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,DSK,DSK.AX,DUSK GROUP LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,DSM,DSM.AX,DESERT MINERALS LTD,Materials,asx:company-directory
+AU,ASX,DTL,DTL.AX,DATA#3 LIMITED,Software & Services,asx:company-directory
+AU,ASX,DTM,DTM.AX,DART MINING NL,Materials,asx:company-directory
+AU,ASX,DTR,DTR.AX,DATELINE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,DTZ,DTZ.AX,DOTZ NANO LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,DUB,DUB.AX,DUBBER CORPORATION LIMITED,Software & Services,asx:company-directory
+AU,ASX,DUG,DUG.AX,DUG TECHNOLOGY LTD,Software & Services,asx:company-directory
+AU,ASX,DUN,DUN.AX,DUNDAS MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,DUR,DUR.AX,DURATEC LIMITED,Capital Goods,asx:company-directory
+AU,ASX,DVL,DVL.AX,DORSAVI LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,DVP,DVP.AX,DEVELOP GLOBAL LIMITED,Materials,asx:company-directory
+AU,ASX,DWG,DWG.AX,DATAWORKS GROUP LIMITED,Software & Services,asx:company-directory
+AU,ASX,DXB,DXB.AX,DIMERIX LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,DXN,DXN.AX,DXN LIMITED,Software & Services,asx:company-directory
+AU,ASX,DXS,DXS.AX,DEXUS,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,DYL,DYL.AX,DEEP YELLOW LIMITED,Energy,asx:company-directory
+AU,ASX,DYM,DYM.AX,DYNAMIC METALS LIMITED,Materials,asx:company-directory
+AU,ASX,E25,E25.AX,ELEMENT 25 LIMITED,Materials,asx:company-directory
+AU,ASX,E79,E79.AX,E79 GOLD MINES LIMITED,Materials,asx:company-directory
+AU,ASX,EAU,EAU.AX,EAU LITHIUM LTD,Materials,asx:company-directory
+AU,ASX,EAX,EAX.AX,ENERGY ACTION LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,EBO,EBO.AX,EBOS GROUP LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,EBR,EBR.AX,EBR SYSTEMS INC.,Health Care Equipment & Services,asx:company-directory
+AU,ASX,ECH,ECH.AX,ECHELON RESOURCES LIMITED,Energy,asx:company-directory
+AU,ASX,ECL,ECL.AX,EXCELSIOR CAPITAL LTD,Capital Goods,asx:company-directory
+AU,ASX,ECS,ECS.AX,ECS BOTANICS HOLDINGS LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,ECT,ECT.AX,ENVIRONMENTAL CLEAN TECHNOLOGIES LIMITED.,Commercial & Professional Services,asx:company-directory
+AU,ASX,EDE,EDE.AX,EDEN INNOVATIONS LTD,Energy,asx:company-directory
+AU,ASX,EDU,EDU.AX,EDU HOLDINGS LIMITED,Consumer Services,asx:company-directory
+AU,ASX,EDV,EDV.AX,ENDEAVOUR GROUP LIMITED,Consumer Staples Distribution & Retail,asx:company-directory
+AU,ASX,EE1,EE1.AX,EARTHS ENERGY LIMITED,Materials,asx:company-directory
+AU,ASX,EF2,EF2.AX,ENERGY FUELS INC.,Class Pend,asx:company-directory
+AU,ASX,EFE,EFE.AX,EASTERN RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,EFR,EFR.AX,EVERFLOW RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,EG1,EG1.AX,EVERGOLD MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,EGA,EGA.AX,EASTERN GAS CORPORATION LIMITED,Energy,asx:company-directory
+AU,ASX,EGG,EGG.AX,ENERO GROUP LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,EGH,EGH.AX,EUREKA GROUP HOLDINGS LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,EGL,EGL.AX,ENVIRONMENTAL GROUP LIMITED (THE),Capital Goods,asx:company-directory
+AU,ASX,EGR,EGR.AX,ECOGRAF LIMITED,Materials,asx:company-directory
+AU,ASX,EGY,EGY.AX,ENERGY TECHNOLOGIES LIMITED,Capital Goods,asx:company-directory
+AU,ASX,EHL,EHL.AX,EMECO HOLDINGS LIMITED,Capital Goods,asx:company-directory
+AU,ASX,EIQ,EIQ.AX,ECHOIQ LIMITED,Software & Services,asx:company-directory
+AU,ASX,EL8,EL8.AX,ELEVATE URANIUM LTD,Energy,asx:company-directory
+AU,ASX,ELD,ELD.AX,ELDERS LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,ELK,ELK.AX,ELK RANGE MINING LIMITED,Materials,asx:company-directory
+AU,ASX,ELS,ELS.AX,ELSIGHT LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,ELT,ELT.AX,ELEMENTOS LIMITED,Materials,asx:company-directory
+AU,ASX,ELV,ELV.AX,ELEVRA LITHIUM LIMITED,Materials,asx:company-directory
+AU,ASX,EM2,EM2.AX,EAGLE MOUNTAIN MINING LIMITED,Materials,asx:company-directory
+AU,ASX,EM3,EM3.AX,EMC GOLD CORPORATION,Materials,asx:company-directory
+AU,ASX,EMA,EMA.AX,EMINENCE MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,EMB,EMB.AX,EMBELTON LIMITED,Capital Goods,asx:company-directory
+AU,ASX,EMC,EMC.AX,EVEREST METALS CORPORATION LTD,Materials,asx:company-directory
+AU,ASX,EMD,EMD.AX,EMYRIA LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,EME,EME.AX,ENERGY METALS LTD,Energy,asx:company-directory
+AU,ASX,EMH,EMH.AX,EUROPEAN METALS HOLDINGS LIMITED,Materials,asx:company-directory
+AU,ASX,EML,EML.AX,EML PAYMENTS LIMITED,Financial Services,asx:company-directory
+AU,ASX,EMN,EMN.AX,EURO MANGANESE INC,Materials,asx:company-directory
+AU,ASX,EMP,EMP.AX,EMPEROR ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,EMR,EMR.AX,EMERALD RESOURCES NL,Materials,asx:company-directory
+AU,ASX,EMU,EMU.AX,EMU NL,Materials,asx:company-directory
+AU,ASX,EMV,EMV.AX,EMVISION MEDICAL DEVICES LTD,Health Care Equipment & Services,asx:company-directory
+AU,ASX,ENP,ENP.AX,ENTROPY NEURODYNAMICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,ENR,ENR.AX,ENCOUNTER RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,ENT,ENT.AX,ENTERPRISE METALS LIMITED,Materials,asx:company-directory
+AU,ASX,ENV,ENV.AX,ENOVA MINING LIMITED,Materials,asx:company-directory
+AU,ASX,EOL,EOL.AX,ENERGY ONE LIMITED,Software & Services,asx:company-directory
+AU,ASX,EOS,EOS.AX,ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED,Capital Goods,asx:company-directory
+AU,ASX,EPI,EPI.AX,EPIMINDER LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,EPM,EPM.AX,ECLIPSE METALS LIMITED.,Energy,asx:company-directory
+AU,ASX,EPN,EPN.AX,EPSILON HEALTHCARE LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,EPX,EPX.AX,EPX LIMITED,Software & Services,asx:company-directory
+AU,ASX,EPY,EPY.AX,EARLYPAY LTD,Financial Services,asx:company-directory
+AU,ASX,EQR,EQR.AX,EQ RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,EQT,EQT.AX,EQT HOLDINGS LIMITED,Financial Services,asx:company-directory
+AU,ASX,EQU,EQU.AX,EQUUS ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,EQX,EQX.AX,EQUATORIAL RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,ERA,ERA.AX,ENERGY RESOURCES OF AUSTRALIA LIMITED,Energy,asx:company-directory
+AU,ASX,ERD,ERD.AX,EROAD LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,ERE,ERE.AX,EUROPEAN RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,ERG,ERG.AX,ENECO REFRESH LTD,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,ERL,ERL.AX,EMPIRE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,ESK,ESK.AX,ETHERSTACK PLC,Software & Services,asx:company-directory
+AU,ASX,ESR,ESR.AX,ESTRELLA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,ETM,ETM.AX,ENERGY TRANSITION MINERALS LTD,Materials,asx:company-directory
+AU,ASX,EUR,EUR.AX,EUROPEAN LITHIUM LIMITED,Materials,asx:company-directory
+AU,ASX,EV1,EV1.AX,EVOLUTION ENERGY MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,EV8,EV8.AX,EVERLAST MINERALS LTD.,Materials,asx:company-directory
+AU,ASX,EVE,EVE.AX,EVE HEALTH GROUP LIMITED.,Financial Services,asx:company-directory
+AU,ASX,EVG,EVG.AX,EVION GROUP NL,Materials,asx:company-directory
+AU,ASX,EVN,EVN.AX,EVOLUTION MINING LIMITED,Materials,asx:company-directory
+AU,ASX,EVO,EVO.AX,EMBARK EARLY EDUCATION LIMITED,Consumer Services,asx:company-directory
+AU,ASX,EVT,EVT.AX,EVT LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,EVZ,EVZ.AX,EVZ LIMITED,Capital Goods,asx:company-directory
+AU,ASX,EWC,EWC.AX,ENERGY WORLD CORPORATION LTD,Utilities,asx:company-directory
+AU,ASX,EXL,EXL.AX,ELIXINOL WELLNESS LIMITED,Household & Personal Products,asx:company-directory
+AU,ASX,EXP,EXP.AX,EXPERIENCE CO LIMITED,Consumer Services,asx:company-directory
+AU,ASX,EXR,EXR.AX,ELIXIR ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,EXT,EXT.AX,EXCITE TECHNOLOGY SERVICES LTD,Software & Services,asx:company-directory
+AU,ASX,EYE,EYE.AX,NOVA EYE MEDICAL LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,EZL,EZL.AX,EUROZ HARTLEYS GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,EZZ,EZZ.AX,EZZ LIFE SCIENCE HOLDINGS LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,FAL,FAL.AX,FALCON METALS LTD,Materials,asx:company-directory
+AU,ASX,FAR,FAR.AX,FAR LIMITED,Energy,asx:company-directory
+AU,ASX,FAU,FAU.AX,FIRST AU LIMITED,Materials,asx:company-directory
+AU,ASX,FBR,FBR.AX,FBR LTD,Capital Goods,asx:company-directory
+AU,ASX,FBU,FBU.AX,FLETCHER BUILDING LIMITED,Capital Goods,asx:company-directory
+AU,ASX,FCG,FCG.AX,FREEDOM CARE GROUP HOLDINGS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,FCL,FCL.AX,FINEOS CORPORATION HOLDINGS PLC,Software & Services,asx:company-directory
+AU,ASX,FCT,FCT.AX,FIRSTWAVE CLOUD TECHNOLOGY LIMITED,Software & Services,asx:company-directory
+AU,ASX,FDC,FDC.AX,FDC CONSOLIDATED HOLDINGS LIMITED,Capital Goods,asx:company-directory
+AU,ASX,FDR,FDR.AX,FINDER ENERGY HOLDINGS LIMITED,Energy,asx:company-directory
+AU,ASX,FDV,FDV.AX,FRONTIER DIGITAL VENTURES LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,FEG,FEG.AX,FAR EAST GOLD LTD,Materials,asx:company-directory
+AU,ASX,FEL,FEL.AX,FORTE ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,FEX,FEX.AX,FENIX RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,FFG,FFG.AX,FATFISH GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,FFI,FFI.AX,FFI HOLDINGS LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,FFM,FFM.AX,FIREFLY METALS LTD,Materials,asx:company-directory
+AU,ASX,FG1,FG1.AX,FLYNN GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,FGH,FGH.AX,FORESTA GROUP HOLDINGS LIMITED,Materials,asx:company-directory
+AU,ASX,FGR,FGR.AX,FIRST GRAPHENE LIMITED,Materials,asx:company-directory
+AU,ASX,FHE,FHE.AX,FRONTIER ENERGY LIMITED,Materials,asx:company-directory
+AU,ASX,FHS,FHS.AX,FREEHILL MINING LIMITED.,Materials,asx:company-directory
+AU,ASX,FID,FID.AX,FIDUCIAN GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,FIN,FIN.AX,FIN RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,FL1,FL1.AX,FIRST LITHIUM LIMITED,Materials,asx:company-directory
+AU,ASX,FLC,FLC.AX,FLUENCE CORPORATION LIMITED,Utilities,asx:company-directory
+AU,ASX,FLG,FLG.AX,FLAGSHIP MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,FLN,FLN.AX,FREELANCER LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,FLT,FLT.AX,FLIGHT CENTRE TRAVEL GROUP LIMITED,Consumer Services,asx:company-directory
+AU,ASX,FLX,FLX.AX,FELIX GROUP HOLDINGS LTD,Software & Services,asx:company-directory
+AU,ASX,FME,FME.AX,FUTURE METALS NL,Energy,asx:company-directory
+AU,ASX,FMG,FMG.AX,FORTESCUE LTD,Materials,asx:company-directory
+AU,ASX,FML,FML.AX,FOCUS MINERALS LTD,Materials,asx:company-directory
+AU,ASX,FMN,FMN.AX,FAMIEN RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,FMR,FMR.AX,FMR RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,FND,FND.AX,FINDI LIMITED,Software & Services,asx:company-directory
+AU,ASX,FNR,FNR.AX,FAR NORTHERN RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,FNX,FNX.AX,FINEXIA FINANCIAL GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,FOS,FOS.AX,FOS CAPITAL LTD,Capital Goods,asx:company-directory
+AU,ASX,FPH,FPH.AX,FISHER & PAYKEL HEALTHCARE CORPORATION LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,FPR,FPR.AX,FLEETPARTNERS GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,FRB,FRB.AX,FIREBIRD METALS LIMITED,Materials,asx:company-directory
+AU,ASX,FRE,FRE.AX,FIREBRICK PHARMA LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,FRI,FRI.AX,FINBAR GROUP LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,FRM,FRM.AX,FARM PRIDE FOODS LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,FRS,FRS.AX,FORRESTANIA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,FRW,FRW.AX,FREIGHTWAYS GROUP LIMITED,Transportation,asx:company-directory
+AU,ASX,FRX,FRX.AX,FLEXIROAM LIMITED,Telecommunication Services,asx:company-directory
+AU,ASX,FSA,FSA.AX,FSA GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,FTI,FTI.AX,FORTIFAI LTD,Media & Entertainment,asx:company-directory
+AU,ASX,FUL,FUL.AX,FULCRUM LITHIUM LTD,Materials,asx:company-directory
+AU,ASX,FUN,FUN.AX,FORTUNA METALS LTD,Materials,asx:company-directory
+AU,ASX,FWD,FWD.AX,FLEETWOOD LIMITED,Consumer Durables & Apparel,asx:company-directory
+AU,ASX,FXG,FXG.AX,FELIX GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,FZR,FZR.AX,FITZROY RIVER CORPORATION LTD,Energy,asx:company-directory
+AU,ASX,G11,G11.AX,G11 RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,G1C,G1C.AX,GROUP ONE CAPITAL LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,G50,G50.AX,G50 CORP LIMITED,Materials,asx:company-directory
+AU,ASX,G6M,G6M.AX,GROUP 6 METALS LIMITED,Materials,asx:company-directory
+AU,ASX,G88,G88.AX,GOLDEN MILE RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,GA8,GA8.AX,GOLDARC RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,GAL,GAL.AX,GALILEO MINING LTD,Materials,asx:company-directory
+AU,ASX,GAP,GAP.AX,GALE PACIFIC LIMITED,Consumer Durables & Apparel,asx:company-directory
+AU,ASX,GAS,GAS.AX,STATE GAS LIMITED,Energy,asx:company-directory
+AU,ASX,GBE,GBE.AX,GLOBE METALS & MINING LIMITED,Materials,asx:company-directory
+AU,ASX,GBL,GBL.AX,GREAT BEAR EXPLORATION LTD,Energy,asx:company-directory
+AU,ASX,GBM,GBM.AX,GBM RESOURCES LIMITED.,Materials,asx:company-directory
+AU,ASX,GBR,GBR.AX,GREAT BOULDER RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,GCM,GCM.AX,GCM CORPORATION LIMITED,Materials,asx:company-directory
+AU,ASX,GCR,GCR.AX,GOLDEN CROSS RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,GDF,GDF.AX,GARDA PROPERTY GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,GDG,GDG.AX,GENERATION DEVELOPMENT GROUP LIMITED,Insurance,asx:company-directory
+AU,ASX,GDI,GDI.AX,GDI PROPERTY GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,GDM,GDM.AX,GREAT DIVIDE MINING LTD,Materials,asx:company-directory
+AU,ASX,GDR,GDR.AX,GOLDEN DRAGON MINING LTD,Materials,asx:company-directory
+AU,ASX,GED,GED.AX,GOLDEN DEEPS LIMITED.,Materials,asx:company-directory
+AU,ASX,GEM,GEM.AX,G8 EDUCATION LIMITED,Consumer Services,asx:company-directory
+AU,ASX,GEN,GEN.AX,GENMIN LIMITED,Materials,asx:company-directory
+AU,ASX,GES,GES.AX,GENESIS RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,GG1,GG1.AX,GREEN & GOLD MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,GG8,GG8.AX,GORILLA GOLD MINES LTD,Materials,asx:company-directory
+AU,ASX,GGE,GGE.AX,GRAND GULF ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,GGM,GGM.AX,GLOBAL GOLD MINING LIMITED,Materials,asx:company-directory
+AU,ASX,GGP,GGP.AX,GREATLAND RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,GGR,GGR.AX,GOLDEN GLOBE RESOURCES LTD.,Materials,asx:company-directory
+AU,ASX,GHM,GHM.AX,GOLDEN HORSE MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,GHY,GHY.AX,GOLD HYDROGEN LIMITED,Energy,asx:company-directory
+AU,ASX,GIB,GIB.AX,GIBB RIVER DIAMONDS LIMITED,Materials,asx:company-directory
+AU,ASX,GL1,GL1.AX,GLOBAL LITHIUM RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,GLB,GLB.AX,GLOBE INTERNATIONAL LIMITED,Consumer Durables & Apparel,asx:company-directory
+AU,ASX,GLE,GLE.AX,GLG CORP LTD,Consumer Durables & Apparel,asx:company-directory
+AU,ASX,GLF,GLF.AX,GEMLIFE COMMUNITIES GROUP,Real Estate Management & Development,asx:company-directory
+AU,ASX,GLH,GLH.AX,GLOBAL HEALTH LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,GLL,GLL.AX,GALILEE ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,GLN,GLN.AX,GALAN LITHIUM LIMITED,Materials,asx:company-directory
+AU,ASX,GMD,GMD.AX,GENESIS MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,GMG,GMG.AX,GOODMAN GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,GML,GML.AX,GATEWAY MINING LIMITED,Materials,asx:company-directory
+AU,ASX,GMN,GMN.AX,GOLD MOUNTAIN LIMITED,Materials,asx:company-directory
+AU,ASX,GNC,GNC.AX,GRAINCORP LIMITED,Consumer Staples Distribution & Retail,asx:company-directory
+AU,ASX,GNE,GNE.AX,GENESIS ENERGY LIMITED,Utilities,asx:company-directory
+AU,ASX,GNG,GNG.AX,GR ENGINEERING SERVICES LIMITED,Materials,asx:company-directory
+AU,ASX,GNM,GNM.AX,GREAT NORTHERN MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,GNP,GNP.AX,GENUSPLUS GROUP LTD,Capital Goods,asx:company-directory
+AU,ASX,GOW,GOW.AX,GOWING BROS LIMITED,Financial Services,asx:company-directory
+AU,ASX,GOZ,GOZ.AX,GROWTHPOINT PROPERTIES AUSTRALIA,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,GPR,GPR.AX,GEOPACIFIC RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,GPT,GPT.AX,GPT GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,GQG,GQG.AX,GQG PARTNERS INC.,Financial Services,asx:company-directory
+AU,ASX,GR8,GR8.AX,GREAT DIRT RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,GRE,GRE.AX,GREENTECH METALS LIMITED,Materials,asx:company-directory
+AU,ASX,GRR,GRR.AX,GRANGE RESOURCES LIMITED.,Materials,asx:company-directory
+AU,ASX,GRS,GRS.AX,GWARDAR RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,GRV,GRV.AX,GREENVALE ENERGY LTD,Energy,asx:company-directory
+AU,ASX,GRX,GRX.AX,GREENX METALS LIMITED,Materials,asx:company-directory
+AU,ASX,GSM,GSM.AX,GOLDEN STATE MINING LIMITED,Materials,asx:company-directory
+AU,ASX,GSN,GSN.AX,GREAT SOUTHERN MINING LIMITED,Materials,asx:company-directory
+AU,ASX,GSS,GSS.AX,GENETIC SIGNATURES LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,GT1,GT1.AX,GREEN TECHNOLOGY METALS LIMITED,Materials,asx:company-directory
+AU,ASX,GT3,GT3.AX,GREEN360 TECHNOLOGIES LIMITED,Materials,asx:company-directory
+AU,ASX,GTE,GTE.AX,GREAT WESTERN EXPLORATION LIMITED.,Materials,asx:company-directory
+AU,ASX,GTG,GTG.AX,GENETIC TECHNOLOGIES LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,GTI,GTI.AX,GRATIFII LIMITED,Software & Services,asx:company-directory
+AU,ASX,GTK,GTK.AX,GENTRACK GROUP LIMITED,Software & Services,asx:company-directory
+AU,ASX,GTN,GTN.AX,GTN LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,GUL,GUL.AX,GULLEWA LIMITED,Materials,asx:company-directory
+AU,ASX,GUM,GUM.AX,GUMTREE AUSTRALIA MARKETS LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,GW1,GW1.AX,GREENWING RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,GWA,GWA.AX,GWA GROUP LIMITED.,Capital Goods,asx:company-directory
+AU,ASX,GWR,GWR.AX,GWR GROUP LIMITED,Materials,asx:company-directory
+AU,ASX,GYG,GYG.AX,GUZMAN Y GOMEZ LIMITED,Consumer Services,asx:company-directory
+AU,ASX,H2G,H2G.AX,H2G LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,H3E,H3E.AX,H3 ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,HAL,HAL.AX,HALO TECHNOLOGIES HOLDINGS LTD,Financial Services,asx:company-directory
+AU,ASX,HAR,HAR.AX,HARANGA RESOURCES LIMITED.,Materials,asx:company-directory
+AU,ASX,HAS,HAS.AX,HASTINGS TECHNOLOGY METALS LTD,Materials,asx:company-directory
+AU,ASX,HAV,HAV.AX,HAVILAH RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,HAW,HAW.AX,HAWTHORN RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,HCH,HCH.AX,HOT CHILI LIMITED,Materials,asx:company-directory
+AU,ASX,HCL,HCL.AX,HIGHCOM LIMITED,Capital Goods,asx:company-directory
+AU,ASX,HCT,HCT.AX,HOLISTA COLLTECH LIMITED,Household & Personal Products,asx:company-directory
+AU,ASX,HE8,HE8.AX,HELIOS ENERGY LTD,Energy,asx:company-directory
+AU,ASX,HFR,HFR.AX,HIGHFIELD RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,HFY,HFY.AX,HUBIFY LIMITED,Telecommunication Services,asx:company-directory
+AU,ASX,HGH,HGH.AX,HEARTLAND GROUP HOLDINGS LIMITED,Banks,asx:company-directory
+AU,ASX,HIO,HIO.AX,HAWSONS IRON LTD,Materials,asx:company-directory
+AU,ASX,HIQ,HIQ.AX,HITIQ LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,HIT,HIT.AX,HITECH GROUP AUSTRALIA LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,HLI,HLI.AX,HELIA GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,HLO,HLO.AX,HELLOWORLD TRAVEL LIMITED,Consumer Services,asx:company-directory
+AU,ASX,HLS,HLS.AX,HEALIUS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,HLX,HLX.AX,HELIX RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,HMC,HMC.AX,HMC CAPITAL LIMITED,Financial Services,asx:company-directory
+AU,ASX,HMD,HMD.AX,HERAMED LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,HMG,HMG.AX,HAMELIN GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,HMI,HMI.AX,HIREMII LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,HMX,HMX.AX,HAMMER METALS LIMITED,Materials,asx:company-directory
+AU,ASX,HMY,HMY.AX,HARMONEY CORP LIMITED,Financial Services,asx:company-directory
+AU,ASX,HOR,HOR.AX,HORSESHOE METALS LIMITED,Materials,asx:company-directory
+AU,ASX,HPC,HPC.AX,THE HYDRATION PHARMACEUTICALS COMPANY LIMITED,Household & Personal Products,asx:company-directory
+AU,ASX,HPG,HPG.AX,HIPAGES GROUP HOLDINGS LTD,Media & Entertainment,asx:company-directory
+AU,ASX,HPR,HPR.AX,HIGH PEAK ROYALTIES LIMITED,Energy,asx:company-directory
+AU,ASX,HRE,HRE.AX,HEAVY RARE EARTHS LIMITED,Materials,asx:company-directory
+AU,ASX,HRN,HRN.AX,HORIZON GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,HSN,HSN.AX,HANSEN TECHNOLOGIES LIMITED,Software & Services,asx:company-directory
+AU,ASX,HT8,HT8.AX,HARRIS TECHNOLOGY GROUP LIMITED,Transportation,asx:company-directory
+AU,ASX,HTM,HTM.AX,HIGH-TECH METALS LTD,Materials,asx:company-directory
+AU,ASX,HUB,HUB.AX,HUB24 LIMITED,Financial Services,asx:company-directory
+AU,ASX,HUM,HUM.AX,HUMM GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,HVN,HVN.AX,HARVEY NORMAN HOLDINGS LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,HVY,HVY.AX,HEAVY MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,HWK,HWK.AX,HAWK RESOURCES LIMITED.,Materials,asx:company-directory
+AU,ASX,HXL,HXL.AX,HEXIMA LIMITED.,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,HYD,HYD.AX,HYDRIX LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,HYT,HYT.AX,HYTERRA LTD,Energy,asx:company-directory
+AU,ASX,HZN,HZN.AX,HORIZON OIL LIMITED,Energy,asx:company-directory
+AU,ASX,HZR,HZR.AX,HAZER GROUP LIMITED,Materials,asx:company-directory
+AU,ASX,I88,I88.AX,INFINI RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,IAG,IAG.AX,INSURANCE AUSTRALIA GROUP LIMITED,Insurance,asx:company-directory
+AU,ASX,IAM,IAM.AX,INCOME ASSET MANAGEMENT GROUP LIMITED.,Financial Services,asx:company-directory
+AU,ASX,IBR,IBR.AX,IRON BEAR RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,IBX,IBX.AX,IMAGION BIOSYSTEMS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,ICE,ICE.AX,ICETANA LIMITED,Software & Services,asx:company-directory
+AU,ASX,ICL,ICL.AX,ICENI GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,ICR,ICR.AX,INTELICARE HOLDINGS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,ICU,ICU.AX,INVESTOR CENTRE LIMITED,Financial Services,asx:company-directory
+AU,ASX,ID8,ID8.AX,IDENTITII LIMITED,Software & Services,asx:company-directory
+AU,ASX,IDA,IDA.AX,INDIANA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,IDT,IDT.AX,IDT AUSTRALIA LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,IDX,IDX.AX,INTEGRAL DIAGNOSTICS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,IEL,IEL.AX,IDP EDUCATION LIMITED,Consumer Services,asx:company-directory
+AU,ASX,IEQ,IEQ.AX,INTERNATIONAL EQUITIES CORPORATION LIMITED.,Real Estate Management & Development,asx:company-directory
+AU,ASX,IFG,IFG.AX,INFOCUS GROUP HOLDINGS LIMITED,Software & Services,asx:company-directory
+AU,ASX,IFN,IFN.AX,INFRAGREEN GROUP LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,IFT,IFT.AX,INFRATIL LIMITED.,Capital Goods,asx:company-directory
+AU,ASX,IG6,IG6.AX,INTERNATIONAL GRAPHITE LIMITED,Capital Goods,asx:company-directory
+AU,ASX,IGL,IGL.AX,IVE GROUP LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,IGN,IGN.AX,IGNITE LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,IGO,IGO.AX,IGO LIMITED,Materials,asx:company-directory
+AU,ASX,IIQ,IIQ.AX,INOVIQ LTD,Health Care Equipment & Services,asx:company-directory
+AU,ASX,IKE,IKE.AX,IKEGPS GROUP LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,ILA,ILA.AX,ISLAND PHARMACEUTICALS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,ILT,ILT.AX,ILTANI RESOURCES LIMITED.,Materials,asx:company-directory
+AU,ASX,ILU,ILU.AX,ILUKA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,IMA,IMA.AX,IMAGE RESOURCES NL,Materials,asx:company-directory
+AU,ASX,IMB,IMB.AX,INTELLIGENT MONITORING GROUP LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,IMC,IMC.AX,IMMURON LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,IMD,IMD.AX,IMDEX LIMITED,Materials,asx:company-directory
+AU,ASX,IME,IME.AX,IMEXHS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,IMI,IMI.AX,INFINITY MINING LIMITED,Materials,asx:company-directory
+AU,ASX,IMM,IMM.AX,IMMUTEP LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,IMR,IMR.AX,IMRICOR MEDICAL SYSTEMS INC.,Health Care Equipment & Services,asx:company-directory
+AU,ASX,IMU,IMU.AX,IMUGENE LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,INA,INA.AX,INGENIA COMMUNITIES GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,IND,IND.AX,INDUSTRIAL MINERALS LTD,Materials,asx:company-directory
+AU,ASX,INF,INF.AX,INFINITY METALS LIMITED,Materials,asx:company-directory
+AU,ASX,ING,ING.AX,INGHAMS GROUP LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,INR,INR.AX,IONEER LTD,Materials,asx:company-directory
+AU,ASX,INV,INV.AX,INVESTSMART GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,IOD,IOD.AX,IODM LIMITED,Software & Services,asx:company-directory
+AU,ASX,ION,ION.AX,IONDRIVE LIMITED,Materials,asx:company-directory
+AU,ASX,IOV,IOV.AX,ION VIDEO LTD,Software & Services,asx:company-directory
+AU,ASX,IPC,IPC.AX,IMPERIAL PACIFIC LIMITED,Financial Services,asx:company-directory
+AU,ASX,IPD,IPD.AX,IMPEDIMED LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,IPG,IPG.AX,IPD GROUP LTD,Capital Goods,asx:company-directory
+AU,ASX,IPH,IPH.AX,IPH LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,IPT,IPT.AX,IMPACT MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,IPX,IPX.AX,IPERIONX LIMITED,Materials,asx:company-directory
+AU,ASX,IRD,IRD.AX,IRON ROAD LIMITED,Materials,asx:company-directory
+AU,ASX,IRE,IRE.AX,IRESS LIMITED,Software & Services,asx:company-directory
+AU,ASX,IRI,IRI.AX,INTEGRATED RESEARCH LIMITED,Software & Services,asx:company-directory
+AU,ASX,IS3,IS3.AX,I SYNERGY GROUP LIMITED,Software & Services,asx:company-directory
+AU,ASX,ITM,ITM.AX,ITECH MINERALS LTD,Materials,asx:company-directory
+AU,ASX,ITS,ITS.AX,INFOTRUST LTD,Software & Services,asx:company-directory
+AU,ASX,IVG,IVG.AX,INVERT GRAPHITE LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,IVR,IVR.AX,INVESTIGATOR SILVER LIMITED,Materials,asx:company-directory
+AU,ASX,IVX,IVX.AX,INVION LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,IVZ,IVZ.AX,INVICTUS ENERGY LTD,Energy,asx:company-directory
+AU,ASX,IXC,IXC.AX,INVEX THERAPEUTICS LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,IXR,IXR.AX,IONIC RARE EARTHS LIMITED,Materials,asx:company-directory
+AU,ASX,JAL,JAL.AX,JAMESON RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,JAN,JAN.AX,JANISON EDUCATION GROUP LIMITED,Software & Services,asx:company-directory
+AU,ASX,JAT,JAT.AX,JATCORP LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,JAV,JAV.AX,JAVELIN MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,JBH,JBH.AX,JB HI-FI LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,JCS,JCS.AX,JCURVE SOLUTIONS LTD,Software & Services,asx:company-directory
+AU,ASX,JDO,JDO.AX,JUDO CAPITAL HOLDINGS LIMITED,Banks,asx:company-directory
+AU,ASX,JGH,JGH.AX,JADE GAS HOLDINGS LIMITED,Materials,asx:company-directory
+AU,ASX,JHX,JHX.AX,JAMES HARDIE INDUSTRIES PLC,Materials,asx:company-directory
+AU,ASX,JIN,JIN.AX,JUMBO INTERACTIVE LIMITED,Consumer Services,asx:company-directory
+AU,ASX,JLL,JLL.AX,JINDALEE LITHIUM LIMITED,Materials,asx:company-directory
+AU,ASX,JMS,JMS.AX,JUPITER MINES LIMITED.,Materials,asx:company-directory
+AU,ASX,JNO,JNO.AX,JUNO MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,JNS,JNS.AX,JANUS ELECTRIC HOLDINGS LIMITED,Utilities,asx:company-directory
+AU,ASX,JPR,JPR.AX,JUPITER ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,JYC,JYC.AX,JOYCE CORPORATION LTD,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,KAL,KAL.AX,KALGOORLIE GOLD MINING LIMITED,Materials,asx:company-directory
+AU,ASX,KAM,KAM.AX,K2 ASSET MANAGEMENT HOLDINGS LTD,Financial Services,asx:company-directory
+AU,ASX,KAN,KAN.AX,KANTRA COPPER LTD,Materials,asx:company-directory
+AU,ASX,KAO,KAO.AX,KAOKO METALS LIMITED,Materials,asx:company-directory
+AU,ASX,KAR,KAR.AX,KAROON ENERGY LTD,Energy,asx:company-directory
+AU,ASX,KAU,KAU.AX,KAISER REEF LIMITED,Materials,asx:company-directory
+AU,ASX,KCC,KCC.AX,KINCORA COPPER LIMITED,Materials,asx:company-directory
+AU,ASX,KCN,KCN.AX,KINGSGATE CONSOLIDATED LIMITED.,Materials,asx:company-directory
+AU,ASX,KEY,KEY.AX,KEY PETROLEUM LIMITED,Energy,asx:company-directory
+AU,ASX,KFM,KFM.AX,KINGFISHER MINING LTD,Materials,asx:company-directory
+AU,ASX,KGL,KGL.AX,KGL RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,KGN,KGN.AX,KOGAN.COM LTD,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,KKO,KKO.AX,KINETIKO ENERGY LTD,Energy,asx:company-directory
+AU,ASX,KLI,KLI.AX,KILLI RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,KLR,KLR.AX,KAILI RESOURCES LIMITED,Energy,asx:company-directory
+AU,ASX,KLS,KLS.AX,KELSIAN GROUP LIMITED,Transportation,asx:company-directory
+AU,ASX,KLV,KLV.AX,KLEVO GROUP LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,KM1,KM1.AX,KALI METALS LIMITED,Materials,asx:company-directory
+AU,ASX,KMD,KMD.AX,KMD BRANDS LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,KME,KME.AX,KIP MCGRATH EDUCATION CENTRES LIMITED,Consumer Services,asx:company-directory
+AU,ASX,KNB,KNB.AX,KOONENBERRY GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,KNG,KNG.AX,KINGSLAND MINERALS LTD,Materials,asx:company-directory
+AU,ASX,KNI,KNI.AX,KUNIKO LIMITED,Materials,asx:company-directory
+AU,ASX,KNO,KNO.AX,KNOSYS LIMITED,Software & Services,asx:company-directory
+AU,ASX,KOA,KOA.AX,THE KOALA COMPANY LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,KOB,KOB.AX,KOBA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,KOV,KOV.AX,KORVEST LTD,Capital Goods,asx:company-directory
+AU,ASX,KP2,KP2.AX,KORE POTASH PLC,Materials,asx:company-directory
+AU,ASX,KPG,KPG.AX,KELLY PARTNERS GROUP HOLDINGS LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,KPO,KPO.AX,KALINA POWER LIMITED,Utilities,asx:company-directory
+AU,ASX,KRM,KRM.AX,KINGSROSE MINING LIMITED,Materials,asx:company-directory
+AU,ASX,KRR,KRR.AX,KING RIVER RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,KSC,KSC.AX,K & S CORPORATION LIMITED,Transportation,asx:company-directory
+AU,ASX,KSL,KSL.AX,KINA SECURITIES LIMITED,Banks,asx:company-directory
+AU,ASX,KSN,KSN.AX,KINGSTON RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,KTA,KTA.AX,KRAKATOA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,KTK,KTK.AX,KTEK AEROSYSTEMS LTD,Capital Goods,asx:company-directory
+AU,ASX,KYN,KYN.AX,KYRON CAPITAL GROUP,Consumer Services,asx:company-directory
+AU,ASX,KYP,KYP.AX,KINATICO LTD,Software & Services,asx:company-directory
+AU,ASX,KZR,KZR.AX,KALAMAZOO RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,L1G,L1G.AX,L1 GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,L1M,L1M.AX,LIGHTNING MINERALS LTD,Materials,asx:company-directory
+AU,ASX,LAC,LAC.AX,LAC GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,LAM,LAM.AX,LARAMIDE RESOURCES LTD,Energy,asx:company-directory
+AU,ASX,LAT,LAT.AX,LATITUDE 66 LIMITED,Materials,asx:company-directory
+AU,ASX,LAU,LAU.AX,LINDSAY AUSTRALIA LIMITED,Transportation,asx:company-directory
+AU,ASX,LBL,LBL.AX,LASERBOND LIMITED,Capital Goods,asx:company-directory
+AU,ASX,LCE,LCE.AX,LONDON CITY EQUITIES LIMITED,Financial Services,asx:company-directory
+AU,ASX,LCL,LCL.AX,LCL RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,LCY,LCY.AX,LEGACY IRON ORE LIMITED,Materials,asx:company-directory
+AU,ASX,LDR,LDR.AX,LODE RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,LDX,LDX.AX,LUMOS DIAGNOSTICS HOLDINGS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,LEG,LEG.AX,LEGEND MINING LIMITED,Materials,asx:company-directory
+AU,ASX,LEL,LEL.AX,LE MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,LEX,LEX.AX,LEFROY EXPLORATION LIMITED,Materials,asx:company-directory
+AU,ASX,LFG,LFG.AX,LIBERTY FINANCIAL GROUP,Financial Services,asx:company-directory
+AU,ASX,LFS,LFS.AX,LATITUDE GROUP HOLDINGS LIMITED,Financial Services,asx:company-directory
+AU,ASX,LFT,LFT.AX,LI-FT POWER LTD.,Materials,asx:company-directory
+AU,ASX,LGI,LGI.AX,LGI LIMITED,Utilities,asx:company-directory
+AU,ASX,LGM,LGM.AX,LEGACY MINERALS HOLDINGS LIMITED,Materials,asx:company-directory
+AU,ASX,LGP,LGP.AX,LITTLE GREEN PHARMA LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,LIB,LIB.AX,LIBERTY METALS LTD,Materials,asx:company-directory
+AU,ASX,LIC,LIC.AX,LIFESTYLE COMMUNITIES LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,LIN,LIN.AX,LINDIAN RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,LIO,LIO.AX,LION ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,LIS,LIS.AX,LI-S ENERGY LIMITED,Capital Goods,asx:company-directory
+AU,ASX,LIT,LIT.AX,LIVIUM LTD,Materials,asx:company-directory
+AU,ASX,LKE,LKE.AX,LAKE RESOURCES N.L.,Materials,asx:company-directory
+AU,ASX,LKO,LKO.AX,LAKES BLUE ENERGY NL,Energy,asx:company-directory
+AU,ASX,LKY,LKY.AX,LOCKSLEY RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,LLC,LLC.AX,LENDLEASE GROUP,Real Estate Management & Development,asx:company-directory
+AU,ASX,LM1,LM1.AX,LEEUWIN METALS LTD,Materials,asx:company-directory
+AU,ASX,LM8,LM8.AX,LUNNON METALS LIMITED,Materials,asx:company-directory
+AU,ASX,LMG,LMG.AX,LATROBE MAGNESIUM LIMITED,Materials,asx:company-directory
+AU,ASX,LML,LML.AX,LINCOLN MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,LMS,LMS.AX,LITCHFIELD MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,LNQ,LNQ.AX,LINQ MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,LNW,LNW.AX,LIGHT & WONDER INC.,Consumer Services,asx:company-directory
+AU,ASX,LOT,LOT.AX,LOTUS RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,LOV,LOV.AX,LOVISA HOLDINGS LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,LPE,LPE.AX,LOCALITY PLANNING ENERGY HOLDINGS LIMITED,Utilities,asx:company-directory
+AU,ASX,LPM,LPM.AX,LITHIUM PLUS MINERALS LTD.,Materials,asx:company-directory
+AU,ASX,LRD,LRD.AX,LORD RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,LRK,LRK.AX,LARK DISTILLING CO. LTD,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,LRM,LRM.AX,LION ROCK MINERALS LTD,Materials,asx:company-directory
+AU,ASX,LRV,LRV.AX,LARVOTTO RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,LSA,LSA.AX,LACHLAN STAR LIMITED,Materials,asx:company-directory
+AU,ASX,LSR,LSR.AX,LODESTAR MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,LTP,LTP.AX,LTR PHARMA LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,LTR,LTR.AX,LIONTOWN LIMITED,Materials,asx:company-directory
+AU,ASX,LU7,LU7.AX,LITHIUM UNIVERSE LIMITED,Materials,asx:company-directory
+AU,ASX,LUX,LUX.AX,LUX COPPER CORP. LTD,Materials,asx:company-directory
+AU,ASX,LVE,LVE.AX,LOVE GROUP GLOBAL LTD,Software & Services,asx:company-directory
+AU,ASX,LYC,LYC.AX,LYNAS RARE EARTHS LIMITED,Materials,asx:company-directory
+AU,ASX,LYL,LYL.AX,LYCOPODIUM LIMITED,Capital Goods,asx:company-directory
+AU,ASX,M24,M24.AX,MAMBA EXPLORATION LIMITED,Materials,asx:company-directory
+AU,ASX,M2M,M2M.AX,MT MALCOLM MINES NL,Materials,asx:company-directory
+AU,ASX,M2R,M2R.AX,MIRAMAR RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,M3M,M3M.AX,M3 MINING LIMITED,Materials,asx:company-directory
+AU,ASX,M4M,M4M.AX,MACRO METALS LIMITED,Materials,asx:company-directory
+AU,ASX,M79,M79.AX,MAMMOTH MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,M7T,M7T.AX,MACH7 TECHNOLOGIES LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,M96,M96.AX,MAVERICK MINERALS AUSTRALIA LTD,Materials,asx:company-directory
+AU,ASX,MAD,MAD.AX,MADER GROUP LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,MAF,MAF.AX,MA FINANCIAL GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,MAG,MAG.AX,MAGMATIC RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,MAH,MAH.AX,MACMAHON HOLDINGS LIMITED,Materials,asx:company-directory
+AU,ASX,MAM,MAM.AX,MICROEQUITIES ASSET MANAGEMENT GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,MAN,MAN.AX,MANDRAKE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,MAP,MAP.AX,MICROBA LIFE SCIENCES LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,MAQ,MAQ.AX,MACQUARIE TECHNOLOGY GROUP LIMITED,Software & Services,asx:company-directory
+AU,ASX,MAT,MAT.AX,MATSA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,MAY,MAY.AX,MELBANA ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,MBG,MBG.AX,MB GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,MBH,MBH.AX,MAGGIE BEER HOLDINGS LTD,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,MBK,MBK.AX,METAL BANK LIMITED,Materials,asx:company-directory
+AU,ASX,MC2,MC2.AX,MARIMACA COPPER CORP.,Materials,asx:company-directory
+AU,ASX,MCA,MCA.AX,MURRAY COD AUSTRALIA LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,MCM,MCM.AX,MC MINING LIMITED,Energy,asx:company-directory
+AU,ASX,MCO,MCO.AX,MYECO GROUP LTD,Materials,asx:company-directory
+AU,ASX,MCP,MCP.AX,MCPHERSON'S LIMITED,Household & Personal Products,asx:company-directory
+AU,ASX,MCY,MCY.AX,MERCURY NZ LIMITED,Utilities,asx:company-directory
+AU,ASX,MDI,MDI.AX,MIDDLE ISLAND RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,MDX,MDX.AX,MINDAX LIMITED,Materials,asx:company-directory
+AU,ASX,MEC,MEC.AX,MORPHIC ETHICAL EQUITIES FUND LIMITED,Financial Services,asx:company-directory
+AU,ASX,MEG,MEG.AX,MEGADO MINERALS LTD,Materials,asx:company-directory
+AU,ASX,MEI,MEI.AX,METEORIC RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,MEK,MEK.AX,MEEKA METALS LIMITED,Materials,asx:company-directory
+AU,ASX,MEL,MEL.AX,METGASCO LTD,Energy,asx:company-directory
+AU,ASX,MEM,MEM.AX,MEMPHASYS LIMITED.,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,MEU,MEU.AX,MARMOTA LIMITED,Energy,asx:company-directory
+AU,ASX,MEX,MEX.AX,MINERALS EXPLORATION LIMITED,Materials,asx:company-directory
+AU,ASX,MEZ,MEZ.AX,MERIDIAN ENERGY LIMITED,Utilities,asx:company-directory
+AU,ASX,MFD,MFD.AX,MAYFIELD CHILDCARE LIMITED,Consumer Services,asx:company-directory
+AU,ASX,MFG,MFG.AX,MAGELLAN FINANCIAL GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,MGA,MGA.AX,METALSGROVE MINING LTD,Materials,asx:company-directory
+AU,ASX,MGH,MGH.AX,MAAS GROUP HOLDINGS LIMITED,Capital Goods,asx:company-directory
+AU,ASX,MGL,MGL.AX,MAGONTEC LIMITED,Materials,asx:company-directory
+AU,ASX,MGR,MGR.AX,MIRVAC GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,MGT,MGT.AX,MAGNETITE MINES LIMITED.,Materials,asx:company-directory
+AU,ASX,MGU,MGU.AX,MAGNUM MINING AND EXPLORATION LIMITED,Materials,asx:company-directory
+AU,ASX,MGX,MGX.AX,MGX RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,MHC,MHC.AX,MANHATTAN GOLD CORPORATION LIMITED,Energy,asx:company-directory
+AU,ASX,MHJ,MHJ.AX,MICHAEL HILL INTERNATIONAL LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,MHK,MHK.AX,METAL HAWK LIMITED.,Materials,asx:company-directory
+AU,ASX,MHM,MHM.AX,MOUNT HOPE MINING LIMITED,Materials,asx:company-directory
+AU,ASX,MI6,MI6.AX,MINERALS 260 LIMITED,Materials,asx:company-directory
+AU,ASX,MIN,MIN.AX,MINERAL RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,MIO,MIO.AX,MACARTHUR MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,MKR,MKR.AX,MANUKA RESOURCES LTD.,Materials,asx:company-directory
+AU,ASX,ML8,ML8.AX,MOONLIGHT RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,MLG,MLG.AX,MLG OZ LIMITED,Materials,asx:company-directory
+AU,ASX,MLS,MLS.AX,METALS AUSTRALIA LTD,Materials,asx:company-directory
+AU,ASX,MLX,MLX.AX,METALS X LIMITED,Materials,asx:company-directory
+AU,ASX,MM1,MM1.AX,MIDAS MINERALS LTD,Materials,asx:company-directory
+AU,ASX,MM8,MM8.AX,MEDALLION METALS LIMITED.,Materials,asx:company-directory
+AU,ASX,MMA,MMA.AX,MARONAN METALS LIMITED,Materials,asx:company-directory
+AU,ASX,MME,MME.AX,MONEYME LIMITED,Financial Services,asx:company-directory
+AU,ASX,MMI,MMI.AX,METRO MINING LIMITED,Materials,asx:company-directory
+AU,ASX,MML,MML.AX,MCLAREN MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,MMR,MMR.AX,MEC RESOURCES LIMITED,Energy,asx:company-directory
+AU,ASX,MMS,MMS.AX,MCMILLAN SHAKESPEARE LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,MNB,MNB.AX,MINBOS RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,MNC,MNC.AX,MERINO & CO. LIMITED,Consumer Durables & Apparel,asx:company-directory
+AU,ASX,MND,MND.AX,MONADELPHOUS GROUP LIMITED,Capital Goods,asx:company-directory
+AU,ASX,MNE,MNE.AX,MACALLUM NEW ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,MNV,MNV.AX,MONVIA LIMITED,Software & Services,asx:company-directory
+AU,ASX,MOH,MOH.AX,MOHO RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,MOM,MOM.AX,MOAB MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,MOV,MOV.AX,MOVE LOGISTICS GROUP LIMITED,Transportation,asx:company-directory
+AU,ASX,MP1,MP1.AX,MEGAPORT LIMITED,Software & Services,asx:company-directory
+AU,ASX,MPK,MPK.AX,MANY PEAKS MINERALS LTD,Materials,asx:company-directory
+AU,ASX,MPL,MPL.AX,MEDIBANK PRIVATE LIMITED,Insurance,asx:company-directory
+AU,ASX,MPP,MPP.AX,METRO PERFORMANCE GLASS LIMITED,Capital Goods,asx:company-directory
+AU,ASX,MPR,MPR.AX,MPR AUSTRALIA LIMITED,Financial Services,asx:company-directory
+AU,ASX,MPW,MPW.AX,METAL POWDER WORKS LIMITED,Capital Goods,asx:company-directory
+AU,ASX,MPX,MPX.AX,MUSTERA PROPERTY GROUP LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,MQG,MQG.AX,MACQUARIE GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,MQR,MQR.AX,MARQUEE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,MRD,MRD.AX,MOUNT RIDLEY MINES LIMITED,Materials,asx:company-directory
+AU,ASX,MRQ,MRQ.AX,MRG METALS LIMITED,Materials,asx:company-directory
+AU,ASX,MRR,MRR.AX,MINREX RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,MRT,MRT.AX,MARITANA MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,MRZ,MRZ.AX,MONT ROYAL RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,MSB,MSB.AX,MESOBLAST LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,MSG,MSG.AX,MCS SERVICES LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,MSI,MSI.AX,MULTISTACK INTERNATIONAL LIMITED,Capital Goods,asx:company-directory
+AU,ASX,MSV,MSV.AX,MITCHELL SERVICES LIMITED,Materials,asx:company-directory
+AU,ASX,MTH,MTH.AX,MITHRIL SILVER AND GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,MTL,MTL.AX,MANTLE MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,MTM,MTM.AX,METALLIUM LIMITED,Materials,asx:company-directory
+AU,ASX,MTO,MTO.AX,MOTORCYCLE HOLDINGS LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,MTS,MTS.AX,METCASH LIMITED,Consumer Staples Distribution & Retail,asx:company-directory
+AU,ASX,MVF,MVF.AX,MONASH IVF GROUP LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,MVL,MVL.AX,MARVEL GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,MVP,MVP.AX,MEDICAL DEVELOPMENTS INTERNATIONAL LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,MX1,MX1.AX,MICRO-X LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,MXI,MXI.AX,MAXIPARTS LIMITED,Capital Goods,asx:company-directory
+AU,ASX,MXO,MXO.AX,MOTIO LTD,Media & Entertainment,asx:company-directory
+AU,ASX,MYE,MYE.AX,MASTERMYNE GROUP LIMITED,Materials,asx:company-directory
+AU,ASX,MYG,MYG.AX,MAYFIELD GROUP HOLDINGS LIMITED,Capital Goods,asx:company-directory
+AU,ASX,MYR,MYR.AX,MYER HOLDINGS LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,MYS,MYS.AX,MYSTATE LIMITED,Banks,asx:company-directory
+AU,ASX,MYX,MYX.AX,MAYNE PHARMA GROUP LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,N1H,N1H.AX,N1 HOLDINGS LIMITED,Financial Services,asx:company-directory
+AU,ASX,NAB,NAB.AX,NATIONAL AUSTRALIA BANK LIMITED,Banks,asx:company-directory
+AU,ASX,NAE,NAE.AX,NEW AGE EXPLORATION LIMITED,Energy,asx:company-directory
+AU,ASX,NAG,NAG.AX,NAGAMBIE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,NAN,NAN.AX,NANOSONICS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,NC1,NC1.AX,NICO RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,NC6,NC6.AX,NANOLLOSE LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,NCK,NCK.AX,NICK SCALI LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,NDO,NDO.AX,NIDO EDUCATION LIMITED,Consumer Services,asx:company-directory
+AU,ASX,NEC,NEC.AX,NINE ENTERTAINMENT CO. HOLDINGS LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,NEM,NEM.AX,NEWMONT CORPORATION,Materials,asx:company-directory
+AU,ASX,NES,NES.AX,NELSON RESOURCES LIMITED.,Materials,asx:company-directory
+AU,ASX,NEU,NEU.AX,NEUREN PHARMACEUTICALS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,NFL,NFL.AX,NORFOLK METALS LIMITED,Materials,asx:company-directory
+AU,ASX,NFM,NFM.AX,NEW FRONTIER MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,NGI,NGI.AX,NAVIGATOR GLOBAL INVESTMENTS LIMITED,Financial Services,asx:company-directory
+AU,ASX,NGS,NGS.AX,NUTRITIONAL GROWTH SOLUTIONS LTD,Household & Personal Products,asx:company-directory
+AU,ASX,NGX,NGX.AX,NGX LIMITED,Materials,asx:company-directory
+AU,ASX,NGY,NGY.AX,NUENERGY GAS LIMITED,Energy,asx:company-directory
+AU,ASX,NH3,NH3.AX,NH3 CLEAN ENERGY LIMITED,Materials,asx:company-directory
+AU,ASX,NHC,NHC.AX,NEW HOPE CORPORATION LIMITED,Energy,asx:company-directory
+AU,ASX,NHE,NHE.AX,NOBLE HELIUM LIMITED,Energy,asx:company-directory
+AU,ASX,NHF,NHF.AX,NIB HOLDINGS LIMITED,Insurance,asx:company-directory
+AU,ASX,NHU,NHU.AX,NEU HORIZON URANIUM LIMITED,Energy,asx:company-directory
+AU,ASX,NIC,NIC.AX,NICKEL INDUSTRIES LIMITED,Materials,asx:company-directory
+AU,ASX,NIM,NIM.AX,NIMY RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,NME,NME.AX,NEX METALS EXPLORATION LIMITED,Materials,asx:company-directory
+AU,ASX,NMG,NMG.AX,NEW MURCHISON GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,NMR,NMR.AX,NATIVE MINERAL RESOURCES HOLDINGS LIMITED,Materials,asx:company-directory
+AU,ASX,NMT,NMT.AX,NEOMETALS LTD,Materials,asx:company-directory
+AU,ASX,NNL,NNL.AX,NORDIC RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,NOL,NOL.AX,NOBLEOAK LIFE LIMITED,Insurance,asx:company-directory
+AU,ASX,NOR,NOR.AX,NORWOOD SYSTEMS LIMITED,Software & Services,asx:company-directory
+AU,ASX,NOU,NOU.AX,NOUMI LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,NOV,NOV.AX,NOVATTI GROUP LIMITED,Software & Services,asx:company-directory
+AU,ASX,NOX,NOX.AX,NOXOPHARM LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,NPM,NPM.AX,NEWPEAK METALS LIMITED,Materials,asx:company-directory
+AU,ASX,NRX,NRX.AX,NORONEX LIMITED,Materials,asx:company-directory
+AU,ASX,NRZ,NRZ.AX,NEURIZER LTD,Materials,asx:company-directory
+AU,ASX,NS1,NS1.AX,NODESTREAM LTD,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,NSB,NSB.AX,NEUROSCIENTIFIC BIOPHARMACEUTICALS LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,NSM,NSM.AX,NORTH STAWELL MINERALS LTD,Materials,asx:company-directory
+AU,ASX,NST,NST.AX,NORTHERN STAR RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,NTD,NTD.AX,NTAW HOLDINGS LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,NTI,NTI.AX,NEUROTECH INTERNATIONAL LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,NTM,NTM.AX,NT MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,NTU,NTU.AX,NORTHERN MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,NUC,NUC.AX,NUCHEV LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,NUF,NUF.AX,NUFARM LIMITED,Materials,asx:company-directory
+AU,ASX,NUZ,NUZ.AX,NEURIZON THERAPEUTICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,NVA,NVA.AX,NOVA MINERALS CORP,Materials,asx:company-directory
+AU,ASX,NVO,NVO.AX,NOVO RESOURCES CORP.,Materials,asx:company-directory
+AU,ASX,NVQ,NVQ.AX,NOVIQTECH LIMITED,Software & Services,asx:company-directory
+AU,ASX,NVU,NVU.AX,NANOVEU LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,NVX,NVX.AX,NOVONIX LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,NWH,NWH.AX,NRW HOLDINGS LIMITED,Capital Goods,asx:company-directory
+AU,ASX,NWL,NWL.AX,NETWEALTH GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,NWM,NWM.AX,NORWEST MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,NWS,NWS.AX,NEWS CORPORATION..,Media & Entertainment,asx:company-directory
+AU,ASX,NX1,NX1.AX,NEXALIS THERAPEUTICS LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,NXD,NXD.AX,NEXTED GROUP LIMITED,Consumer Services,asx:company-directory
+AU,ASX,NXG,NXG.AX,NEXGEN ENERGY (CANADA) LTD,Energy,asx:company-directory
+AU,ASX,NXL,NXL.AX,NUIX LIMITED,Software & Services,asx:company-directory
+AU,ASX,NXM,NXM.AX,NEXUS MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,NXN,NXN.AX,NEXSEN LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,NXT,NXT.AX,NEXTDC LIMITED,Software & Services,asx:company-directory
+AU,ASX,NYM,NYM.AX,NARRYER METALS LIMITED,Materials,asx:company-directory
+AU,ASX,NYR,NYR.AX,NYRADA INC.,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,NZK,NZK.AX,NEW ZEALAND KING SALMON INVESTMENTS LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,NZM,NZM.AX,NZME LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,OAK,OAK.AX,OAKRIDGE INTERNATIONAL LIMITED,Software & Services,asx:company-directory
+AU,ASX,OB1,OB1.AX,ORBMINCO LIMITED,Materials,asx:company-directory
+AU,ASX,OBL,OBL.AX,OMNI BRIDGEWAY LIMITED,Financial Services,asx:company-directory
+AU,ASX,OBM,OBM.AX,ORA BANDA MINING LTD,Materials,asx:company-directory
+AU,ASX,OBT,OBT.AX,ORBIT RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,OCA,OCA.AX,OCEANIA HEALTHCARE LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,OCC,OCC.AX,ORTHOCELL LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,OCL,OCL.AX,OBJECTIVE CORPORATION LIMITED,Software & Services,asx:company-directory
+AU,ASX,OCN,OCN.AX,OCEANA METALS LIMITED,Materials,asx:company-directory
+AU,ASX,OCT,OCT.AX,OCTAVA MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,OD6,OD6.AX,OD6 METALS LIMITED,Materials,asx:company-directory
+AU,ASX,ODA,ODA.AX,ORCODA LIMITED,Software & Services,asx:company-directory
+AU,ASX,ODE,ODE.AX,ODESSA MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,ODY,ODY.AX,ODYSSEY GOLD LTD,Materials,asx:company-directory
+AU,ASX,OEC,OEC.AX,ORBITAL CORPORATION LIMITED,Capital Goods,asx:company-directory
+AU,ASX,OEL,OEL.AX,OTTO ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,OEQ,OEQ.AX,ORION EQUITIES LIMITED,Financial Services,asx:company-directory
+AU,ASX,OFX,OFX.AX,OFX GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,OIL,OIL.AX,OPTISCAN IMAGING LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,OKJ,OKJ.AX,OAKAJEE CORPORATION LIMITED,Materials,asx:company-directory
+AU,ASX,OLI,OLI.AX,OLIVER'S REAL FOOD LIMITED,Consumer Services,asx:company-directory
+AU,ASX,OLL,OLL.AX,OPENLEARNING LIMITED,Software & Services,asx:company-directory
+AU,ASX,OLY,OLY.AX,OLYMPIO METALS LIMITED,Materials,asx:company-directory
+AU,ASX,OM1,OM1.AX,OMNIA METALS GROUP LTD,Materials,asx:company-directory
+AU,ASX,OMA,OMA.AX,OMEGA OIL & GAS LIMITED,Energy,asx:company-directory
+AU,ASX,OMG,OMG.AX,OMG GROUP LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,OMH,OMH.AX,OM HOLDINGS LIMITED,Materials,asx:company-directory
+AU,ASX,OML,OML.AX,OOH!MEDIA LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,OMX,OMX.AX,ORANGE MINERALS NL,Materials,asx:company-directory
+AU,ASX,ONE,ONE.AX,ONEVIEW HEALTHCARE PLC,Health Care Equipment & Services,asx:company-directory
+AU,ASX,OR3,OR3.AX,ORE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,ORA,ORA.AX,ORORA LIMITED,Materials,asx:company-directory
+AU,ASX,ORD,ORD.AX,ORDELL MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,ORE,ORE.AX,OREZONE GOLD CORPORATION,Materials,asx:company-directory
+AU,ASX,ORG,ORG.AX,ORIGIN ENERGY LIMITED,Utilities,asx:company-directory
+AU,ASX,ORI,ORI.AX,ORICA LIMITED,Materials,asx:company-directory
+AU,ASX,ORN,ORN.AX,ORION MINERALS LTD,Materials,asx:company-directory
+AU,ASX,ORP,ORP.AX,ORPHEUS URANIUM LIMITED,Materials,asx:company-directory
+AU,ASX,OSL,OSL.AX,ONCOSIL MEDICAL LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,OSM,OSM.AX,OSMOND RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,OSX,OSX.AX,OSTEOPORE LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,OVT,OVT.AX,OVANTI LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,OZM,OZM.AX,OZAURUM RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,OZZ,OZZ.AX,OZZ RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,P1E,P1E.AX,PURE ONE CORPORATION LIMITED,Energy,asx:company-directory
+AU,ASX,PAB,PAB.AX,PATRYS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,PAC,PAC.AX,PACIFIC CURRENT GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,PAF,PAF.AX,PAN AFRICAN RESOURCES PLC,Class Pend,asx:company-directory
+AU,ASX,PAR,PAR.AX,PARADIGM BIOPHARMACEUTICALS LIMITED..,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,PAT,PAT.AX,PATRIOT RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,PBH,PBH.AX,POINTSBET HOLDINGS LIMITED,Consumer Services,asx:company-directory
+AU,ASX,PBL,PBL.AX,PARABELLUM RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,PC2,PC2.AX,PC GOLD LTD,Materials,asx:company-directory
+AU,ASX,PCG,PCG.AX,PENGANA CAPITAL GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,PCK,PCK.AX,PAINCHEK LTD,Health Care Equipment & Services,asx:company-directory
+AU,ASX,PCL,PCL.AX,PANCONTINENTAL ENERGY NL,Energy,asx:company-directory
+AU,ASX,PDI,PDI.AX,PDI GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,PDN,PDN.AX,PALADIN ENERGY LTD,Energy,asx:company-directory
+AU,ASX,PEB,PEB.AX,PACIFIC EDGE LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,PEC,PEC.AX,PERPETUAL RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,PEN,PEN.AX,PENINSULA ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,PER,PER.AX,PERCHERON THERAPEUTICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,PET,PET.AX,PHOSLOCK ENVIRONMENTAL TECHNOLOGIES LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,PFE,PFE.AX,PANTERA MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,PFG,PFG.AX,PRIME FINANCIAL GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,PFM,PFM.AX,PLATFORMO LTD,Software & Services,asx:company-directory
+AU,ASX,PFP,PFP.AX,PROPEL FUNERAL PARTNERS LIMITED,Consumer Services,asx:company-directory
+AU,ASX,PFT,PFT.AX,PURE FOODS TASMANIA LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,PGC,PGC.AX,PARAGON CARE LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,PGD,PGD.AX,PEREGRINE GOLD LTD,Materials,asx:company-directory
+AU,ASX,PGL,PGL.AX,PILBARA GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,PGM,PGM.AX,PLATINA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,PGY,PGY.AX,PILOT ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,PHO,PHO.AX,PHOSCO LTD,Materials,asx:company-directory
+AU,ASX,PHX,PHX.AX,PHARMX TECHNOLOGIES LIMITED,Software & Services,asx:company-directory
+AU,ASX,PIL,PIL.AX,PEPPERMINT INNOVATION LIMITED,Software & Services,asx:company-directory
+AU,ASX,PIM,PIM.AX,PINNACLE MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,PIQ,PIQ.AX,PROTEOMICS INTERNATIONAL LABORATORIES LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,PKD,PKD.AX,PARKD LTD,Commercial & Professional Services,asx:company-directory
+AU,ASX,PKO,PKO.AX,PEAKO LIMITED,Materials,asx:company-directory
+AU,ASX,PKP,PKP.AX,PEAK PROCESSING LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,PKY,PKY.AX,PATHKEY.AI LTD,Software & Services,asx:company-directory
+AU,ASX,PL3,PL3.AX,PATAGONIA LITHIUM LTD,Materials,asx:company-directory
+AU,ASX,PL9,PL9.AX,PRAIRIE LITHIUM LIMITED,Materials,asx:company-directory
+AU,ASX,PLA,PLA.AX,PACIFIC LIME AND CEMENT LIMITED,Materials,asx:company-directory
+AU,ASX,PLC,PLC.AX,PLC RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,PLG,PLG.AX,PEARL GULL IRON LIMITED,Materials,asx:company-directory
+AU,ASX,PLS,PLS.AX,PLS GROUP LIMITED,Materials,asx:company-directory
+AU,ASX,PLT,PLT.AX,PLENTI GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,PLY,PLY.AX,PLAYSIDE STUDIOS LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,PM1,PM1.AX,PALISADE METALS LTD,Materials,asx:company-directory
+AU,ASX,PME,PME.AX,PRO MEDICUS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,PMM,PMM.AX,PIONEER MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,PMT,PMT.AX,PMET RESOURCES INC.,Materials,asx:company-directory
+AU,ASX,PMV,PMV.AX,PREMIER INVESTMENTS LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,PNC,PNC.AX,PIONEER CREDIT LIMITED,Financial Services,asx:company-directory
+AU,ASX,PNI,PNI.AX,PINNACLE INVESTMENT MANAGEMENT GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,PNN,PNN.AX,POWER MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,PNR,PNR.AX,PANTORO GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,PNT,PNT.AX,PANTHER METALS LTD,Materials,asx:company-directory
+AU,ASX,PNV,PNV.AX,POLYNOVO LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,POD,POD.AX,PODIUM MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,POL,POL.AX,POLYMETALS RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,POW,POW.AX,POWERHAUS URANIUM LIMITED,Energy,asx:company-directory
+AU,ASX,PPC,PPC.AX,PEET LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,PPE,PPE.AX,PEOPLEIN LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,PPK,PPK.AX,PPK GROUP LIMITED,Materials,asx:company-directory
+AU,ASX,PPL,PPL.AX,PUREPROFILE LTD,Media & Entertainment,asx:company-directory
+AU,ASX,PPM,PPM.AX,PEPPER MONEY LIMITED,Financial Services,asx:company-directory
+AU,ASX,PPS,PPS.AX,PRAEMIUM LIMITED,Software & Services,asx:company-directory
+AU,ASX,PPT,PPT.AX,PERPETUAL LIMITED,Financial Services,asx:company-directory
+AU,ASX,PPY,PPY.AX,PAPYRUS AUSTRALIA LIMITED,Materials,asx:company-directory
+AU,ASX,PR1,PR1.AX,PURE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,PRG,PRG.AX,PRL GLOBAL LTD,Materials,asx:company-directory
+AU,ASX,PRM,PRM.AX,PROMINENCE ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,PRN,PRN.AX,PERENTI LIMITED,Materials,asx:company-directory
+AU,ASX,PRO,PRO.AX,PROPHECY INTERNATIONAL HOLDINGS LIMITED,Software & Services,asx:company-directory
+AU,ASX,PRU,PRU.AX,PERSEUS MINING LIMITED,Materials,asx:company-directory
+AU,ASX,PRX,PRX.AX,PRODIGY GOLD NL,Materials,asx:company-directory
+AU,ASX,PSC,PSC.AX,PROSPECT RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,PSL,PSL.AX,PATERSON RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,PTL,PTL.AX,PRESTAL HOLDINGS LIMITED,Household & Personal Products,asx:company-directory
+AU,ASX,PTN,PTN.AX,PATRONUS RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,PTR,PTR.AX,PTR MINERALS LTD,Materials,asx:company-directory
+AU,ASX,PTX,PTX.AX,PRESCIENT THERAPEUTICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,PUR,PUR.AX,PURSUIT MINERALS LTD,Materials,asx:company-directory
+AU,ASX,PV1,PV1.AX,PROVARIS ENERGY LTD,Energy,asx:company-directory
+AU,ASX,PVE,PVE.AX,PO VALLEY ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,PVL,PVL.AX,POWERHOUSE VENTURES LIMITED,Financial Services,asx:company-directory
+AU,ASX,PVT,PVT.AX,PIVOTAL METALS LIMITED,Materials,asx:company-directory
+AU,ASX,PWH,PWH.AX,PWR HOLDINGS LIMITED,Automobiles & Components,asx:company-directory
+AU,ASX,PWN,PWN.AX,PARKWAY CORPORATE LIMITED,Materials,asx:company-directory
+AU,ASX,PWR,PWR.AX,PETER WARREN AUTOMOTIVE HOLDINGS LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,PXA,PXA.AX,PEXA GROUP LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,PXR,PXR.AX,PACIFIC RESOURCES LIMITED,Energy,asx:company-directory
+AU,ASX,PXX,PXX.AX,POLARX LIMITED,Materials,asx:company-directory
+AU,ASX,PYC,PYC.AX,PYC THERAPEUTICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,QAL,QAL.AX,QUALITAS LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,QAN,QAN.AX,QANTAS AIRWAYS LIMITED,Transportation,asx:company-directory
+AU,ASX,QBE,QBE.AX,QBE INSURANCE GROUP LIMITED,Insurance,asx:company-directory
+AU,ASX,QEM,QEM.AX,QEM LIMITED,Materials,asx:company-directory
+AU,ASX,QFE,QFE.AX,QUICKFEE LIMITED,Financial Services,asx:company-directory
+AU,ASX,QGL,QGL.AX,QUANTUM GRAPHITE LIMITED,Materials,asx:company-directory
+AU,ASX,QML,QML.AX,QMINES LIMITED,Materials,asx:company-directory
+AU,ASX,QUE,QUE.AX,QUESTE COMMUNICATIONS LIMITED,Financial Services,asx:company-directory
+AU,ASX,QXR,QXR.AX,QX RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,R8R,R8R.AX,REGENER8 RESOURCES NL,Materials,asx:company-directory
+AU,ASX,RAC,RAC.AX,RACURA ONCOLOGY LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,RAD,RAD.AX,RADIOPHARM THERANOSTICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,RAG,RAG.AX,RAGNAR METALS LIMITED,Materials,asx:company-directory
+AU,ASX,RAN,RAN.AX,RANGE INTERNATIONAL LIMITED,Materials,asx:company-directory
+AU,ASX,RAP,RAP.AX,RAPTOR METALS LTD,Materials,asx:company-directory
+AU,ASX,RAS,RAS.AX,RAGUSA MINERALS LTD,Materials,asx:company-directory
+AU,ASX,RAU,RAU.AX,RESOURO STRATEGIC METALS INC.,Materials,asx:company-directory
+AU,ASX,RB6,RB6.AX,RUBIX RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,RBR,RBR.AX,RBR GROUP LIMITED,Materials,asx:company-directory
+AU,ASX,RBX,RBX.AX,RESOURCE BASE LIMITED.,Materials,asx:company-directory
+AU,ASX,RC1,RC1.AX,REDCASTLE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,RCE,RCE.AX,RECCE PHARMACEUTICALS LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,RCL,RCL.AX,READCLOUD LIMITED,Software & Services,asx:company-directory
+AU,ASX,RCM,RCM.AX,RAPID CRITICAL METALS LIMITED,Materials,asx:company-directory
+AU,ASX,RCR,RCR.AX,RINCON RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,RCT,RCT.AX,REEF CASINO TRUST,Consumer Services,asx:company-directory
+AU,ASX,RDM,RDM.AX,RED METAL LIMITED,Materials,asx:company-directory
+AU,ASX,RDN,RDN.AX,RAIDEN RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,RDS,RDS.AX,REDSTONE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,RDX,RDX.AX,REDOX LIMITED,Capital Goods,asx:company-directory
+AU,ASX,RDY,RDY.AX,READYTECH HOLDINGS LIMITED,Software & Services,asx:company-directory
+AU,ASX,REA,REA.AX,REA GROUP LTD,Media & Entertainment,asx:company-directory
+AU,ASX,REC,REC.AX,RECHARGE METALS LIMITED,Materials,asx:company-directory
+AU,ASX,REE,REE.AX,RAREX LIMITED,Materials,asx:company-directory
+AU,ASX,REG,REG.AX,REGIS HEALTHCARE LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,REH,REH.AX,REECE LIMITED,Capital Goods,asx:company-directory
+AU,ASX,REM,REM.AX,REMSENSE TECHNOLOGIES LIMITED,Capital Goods,asx:company-directory
+AU,ASX,REZ,REZ.AX,RESOURCES & ENERGY GROUP LIMITED,Materials,asx:company-directory
+AU,ASX,RFF,RFF.AX,RURAL FUNDS GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,RFG,RFG.AX,RETAIL FOOD GROUP LIMITED,Consumer Services,asx:company-directory
+AU,ASX,RFT,RFT.AX,RECTIFIER TECHNOLOGIES LTD,Capital Goods,asx:company-directory
+AU,ASX,RGL,RGL.AX,RIVERSGOLD LIMITED,Materials,asx:company-directory
+AU,ASX,RGN,RGN.AX,REGION GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,RGT,RGT.AX,ARGENT BIOPHARMA LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,RHC,RHC.AX,RAMSAY HEALTH CARE LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,RHI,RHI.AX,RED HILL MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,RHT,RHT.AX,RESONANCE HEALTH LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,RHY,RHY.AX,RHYTHM BIOSCIENCES LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,RIC,RIC.AX,RIDLEY CORPORATION LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,RIE,RIE.AX,RIEDEL RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,RIM,RIM.AX,RIMFIRE PACIFIC MINING LIMITED,Materials,asx:company-directory
+AU,ASX,RIO,RIO.AX,RIO TINTO LIMITED,Materials,asx:company-directory
+AU,ASX,RIV,RIV.AX,RIVCO AUSTRALIA LTD,Utilities,asx:company-directory
+AU,ASX,RKB,RKB.AX,ROKEBY RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,RKN,RKN.AX,RECKON LIMITED,Software & Services,asx:company-directory
+AU,ASX,RKT,RKT.AX,ROCKETDNA LTD.,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,RLC,RLC.AX,REEDY LAGOON CORPORATION LIMITED,Materials,asx:company-directory
+AU,ASX,RLF,RLF.AX,RLF AGTECH LTD,Materials,asx:company-directory
+AU,ASX,RLG,RLG.AX,ROOLIFE GROUP LTD,Media & Entertainment,asx:company-directory
+AU,ASX,RMC,RMC.AX,RESIMAC GROUP LTD,Financial Services,asx:company-directory
+AU,ASX,RMD,RMD.AX,RESMED INC,Health Care Equipment & Services,asx:company-directory
+AU,ASX,RMI,RMI.AX,RESOURCE MINERALS INTERNATIONAL LTD,Materials,asx:company-directory
+AU,ASX,RML,RML.AX,RESOLUTION MINERALS LTD,Materials,asx:company-directory
+AU,ASX,RMS,RMS.AX,RAMELIUS RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,RMX,RMX.AX,RED MOUNTAIN MINING LIMITED,Materials,asx:company-directory
+AU,ASX,RMY,RMY.AX,RMA GLOBAL LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,RND,RND.AX,RAND MINING LIMITED,Materials,asx:company-directory
+AU,ASX,RNT,RNT.AX,RENT.COM.AU LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,RNU,RNU.AX,RENASCOR RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,RNV,RNV.AX,RENERVE LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,RNX,RNX.AX,RENEGADE EXPLORATION LIMITED,Materials,asx:company-directory
+AU,ASX,ROC,ROC.AX,ROCKETBOOTS LIMITED,Software & Services,asx:company-directory
+AU,ASX,ROG,ROG.AX,RED SKY ENERGY LIMITED.,Energy,asx:company-directory
+AU,ASX,RON,RON.AX,RONIN RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,RPL,RPL.AX,REGAL PARTNERS LIMITED,Financial Services,asx:company-directory
+AU,ASX,RPM,RPM.AX,RPM AUTOMOTIVE GROUP LIMITED,Automobiles & Components,asx:company-directory
+AU,ASX,RR1,RR1.AX,REACH RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,RRE,RRE.AX,RIGHT RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,RRL,RRL.AX,REGIS RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,RRR,RRR.AX,REVOLVER RESOURCES HOLDINGS LTD,Materials,asx:company-directory
+AU,ASX,RSG,RSG.AX,RESOLUTE MINING LIMITED,Materials,asx:company-directory
+AU,ASX,RTG,RTG.AX,RTG MINING INC.,Materials,asx:company-directory
+AU,ASX,RTH,RTH.AX,RAS TECHNOLOGY HOLDINGS LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,RTR,RTR.AX,RUMBLE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,RVT,RVT.AX,RICHMOND VANADIUM TECHNOLOGY LIMITED,Materials,asx:company-directory
+AU,ASX,RWC,RWC.AX,RELIANCE WORLDWIDE CORPORATION LIMITED,Capital Goods,asx:company-directory
+AU,ASX,RWD,RWD.AX,REWARD MINERALS LTD,Materials,asx:company-directory
+AU,ASX,RWL,RWL.AX,RUBICON WATER LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,RXL,RXL.AX,ROX RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,RYM,RYM.AX,RYMAN HEALTHCARE LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,RZI,RZI.AX,RAIZ INVEST LIMITED,Financial Services,asx:company-directory
+AU,ASX,S2R,S2R.AX,S2 RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,S32,S32.AX,SOUTH32 LIMITED,Materials,asx:company-directory
+AU,ASX,S66,S66.AX,STAR COMBO PHARMA LIMITED,Household & Personal Products,asx:company-directory
+AU,ASX,SAN,SAN.AX,SAGALIO ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,SAU,SAU.AX,SIGMA LITHIUM CORPORATION,Materials,asx:company-directory
+AU,ASX,SBM,SBM.AX,ST BARBARA LIMITED,Materials,asx:company-directory
+AU,ASX,SBR,SBR.AX,SABRE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,SBZ,SBZ.AX,SCHOOLBLAZER LIMITED,Capital Goods,asx:company-directory
+AU,ASX,SCG,SCG.AX,SCENTRE GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,SCN,SCN.AX,SCORPION MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,SCP,SCP.AX,SCALARE PARTNERS HOLDINGS LIMITED,Financial Services,asx:company-directory
+AU,ASX,SCX,SCX.AX,SCX.AI HOLDINGS LIMITED,Software & Services,asx:company-directory
+AU,ASX,SDF,SDF.AX,STEADFAST GROUP LIMITED,Insurance,asx:company-directory
+AU,ASX,SDR,SDR.AX,SITEMINDER LIMITED,Software & Services,asx:company-directory
+AU,ASX,SDV,SDV.AX,SCIDEV LTD,Materials,asx:company-directory
+AU,ASX,SEA,SEA.AX,SEA FOREST LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,SEG,SEG.AX,SPORTS ENTERTAINMENT GROUP LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,SEK,SEK.AX,SEEK LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,SEN,SEN.AX,SENETAS CORPORATION LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,SEQ,SEQ.AX,SEQUOIA FINANCIAL GROUP LTD,Financial Services,asx:company-directory
+AU,ASX,SER,SER.AX,STRATEGIC ENERGY RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,SFC,SFC.AX,SCHAFFER CORPORATION LIMITED,Automobiles & Components,asx:company-directory
+AU,ASX,SFG,SFG.AX,SEAFARMS GROUP LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,SFM,SFM.AX,SANTA FE MINERALS LTD,Materials,asx:company-directory
+AU,ASX,SFR,SFR.AX,SANDFIRE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,SFX,SFX.AX,SHEFFIELD RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,SGA,SGA.AX,SARYTOGAN GRAPHITE LIMITED,Materials,asx:company-directory
+AU,ASX,SGC,SGC.AX,SINCLAIR GOLD LTD,Materials,asx:company-directory
+AU,ASX,SGH,SGH.AX,SGH LIMITED,Capital Goods,asx:company-directory
+AU,ASX,SGI,SGI.AX,STEALTH GROUP HOLDINGS LTD,Capital Goods,asx:company-directory
+AU,ASX,SGM,SGM.AX,SIMS LIMITED,Materials,asx:company-directory
+AU,ASX,SGP,SGP.AX,STOCKLAND,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,SGQ,SGQ.AX,ST GEORGE MINING LIMITED,Materials,asx:company-directory
+AU,ASX,SGR,SGR.AX,THE STAR ENTERTAINMENT GROUP LIMITED,Consumer Services,asx:company-directory
+AU,ASX,SHA,SHA.AX,SHAPE AUSTRALIA CORPORATION LIMITED,Capital Goods,asx:company-directory
+AU,ASX,SHE,SHE.AX,STONEHORSE ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,SHG,SHG.AX,SINGULAR HEALTH GROUP LTD,Health Care Equipment & Services,asx:company-directory
+AU,ASX,SHJ,SHJ.AX,SHINE JUSTICE LTD,Consumer Services,asx:company-directory
+AU,ASX,SHL,SHL.AX,SONIC HEALTHCARE LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,SHM,SHM.AX,SHRIRO HOLDINGS LIMITED,Consumer Durables & Apparel,asx:company-directory
+AU,ASX,SHN,SHN.AX,SUNSHINE METALS LIMITED,Materials,asx:company-directory
+AU,ASX,SHO,SHO.AX,SPORTSHERO LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,SHV,SHV.AX,SELECT HARVESTS LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,SIG,SIG.AX,SIGMA HEALTHCARE LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,SIO,SIO.AX,SIMONDS GROUP LIMITED,Consumer Durables & Apparel,asx:company-directory
+AU,ASX,SIQ,SIQ.AX,SMARTGROUP CORPORATION LTD,Commercial & Professional Services,asx:company-directory
+AU,ASX,SIS,SIS.AX,SIMBLE SOLUTIONS LIMITED,Software & Services,asx:company-directory
+AU,ASX,SIV,SIV.AX,SIV CAPITAL LIMITED,Capital Goods,asx:company-directory
+AU,ASX,SIX,SIX.AX,SPRINTEX LIMITED,Automobiles & Components,asx:company-directory
+AU,ASX,SK1,SK1.AX,SKINKANDY LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,SKC,SKC.AX,SKYCITY ENTERTAINMENT GROUP LIMITED,Consumer Services,asx:company-directory
+AU,ASX,SKG,SKG.AX,STORAGE KING GROUP,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,SKK,SKK.AX,STAKK LIMITED,Telecommunication Services,asx:company-directory
+AU,ASX,SKM,SKM.AX,SKYLARK MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,SKN,SKN.AX,SKIN ELEMENTS LIMITED,Household & Personal Products,asx:company-directory
+AU,ASX,SKO,SKO.AX,SERKO LIMITED,Software & Services,asx:company-directory
+AU,ASX,SKS,SKS.AX,SKS TECHNOLOGIES GROUP LIMITED,Capital Goods,asx:company-directory
+AU,ASX,SKT,SKT.AX,SKY NETWORK TELEVISION LIMITED.,Media & Entertainment,asx:company-directory
+AU,ASX,SKY,SKY.AX,SKY METALS LIMITED,Materials,asx:company-directory
+AU,ASX,SLA,SLA.AX,SOLARA MINERALS LTD,Materials,asx:company-directory
+AU,ASX,SLB,SLB.AX,STELAR METALS LIMITED,Materials,asx:company-directory
+AU,ASX,SLC,SLC.AX,SUPERLOOP LIMITED,Telecommunication Services,asx:company-directory
+AU,ASX,SLD,SLD.AX,"SALUDA MEDICAL, INC.",Health Care Equipment & Services,asx:company-directory
+AU,ASX,SLM,SLM.AX,SOLIS MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,SLS,SLS.AX,SOLSTICE MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,SLX,SLX.AX,SILEX SYSTEMS LIMITED,Capital Goods,asx:company-directory
+AU,ASX,SLZ,SLZ.AX,SULTAN RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,SM1,SM1.AX,SYNLAIT MILK LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,SMI,SMI.AX,SANTANA MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,SMM,SMM.AX,SOMERSET MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,SMN,SMN.AX,STRUCTURAL MONITORING SYSTEMS PLC,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,SMR,SMR.AX,STANMORE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,SMS,SMS.AX,STAR MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,SMX,SMX.AX,STRATA MINERALS LIMITED.,Materials,asx:company-directory
+AU,ASX,SND,SND.AX,SAUNDERS INTERNATIONAL LIMITED,Capital Goods,asx:company-directory
+AU,ASX,SNG,SNG.AX,SIREN GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,SNL,SNL.AX,SUPPLY NETWORK LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,SNM,SNM.AX,SENTINEL METALS LIMITED,Materials,asx:company-directory
+AU,ASX,SNS,SNS.AX,SENSEN NETWORKS LIMITED,Software & Services,asx:company-directory
+AU,ASX,SNT,SNT.AX,SYNTARA LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,SNX,SNX.AX,SIERRA NEVADA GOLD INC.,Materials,asx:company-directory
+AU,ASX,SNZ,SNZ.AX,SUMMERSET GROUP HOLDINGS LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,SOC,SOC.AX,SOCO CORPORATION LTD,Software & Services,asx:company-directory
+AU,ASX,SOL,SOL.AX,WASHINGTON H. SOUL PATTINSON AND COMPANY LIMITED,Financial Services,asx:company-directory
+AU,ASX,SOM,SOM.AX,SOMNOMED LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,SOP,SOP.AX,SYNERTEC CORPORATION LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,SOR,SOR.AX,STRATEGIC ELEMENTS LIMITED,Financial Services,asx:company-directory
+AU,ASX,SP3,SP3.AX,SPECTUR LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,SP8,SP8.AX,STREAMPLAY STUDIO LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,SPA,SPA.AX,SPACETALK LTD,Software & Services,asx:company-directory
+AU,ASX,SPD,SPD.AX,SOUTHERN PALLADIUM LIMITED,Materials,asx:company-directory
+AU,ASX,SPG,SPG.AX,SPC GLOBAL HOLDINGS LTD,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,SPK,SPK.AX,SPARK NEW ZEALAND LIMITED,Telecommunication Services,asx:company-directory
+AU,ASX,SPL,SPL.AX,STARPHARMA HOLDINGS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,SPN,SPN.AX,SPARC TECHNOLOGIES LIMITED,Materials,asx:company-directory
+AU,ASX,SPQ,SPQ.AX,SUPERIOR RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,SPX,SPX.AX,SPENDA LIMITED,Software & Services,asx:company-directory
+AU,ASX,SPZ,SPZ.AX,SMART PARKING LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,SQX,SQX.AX,SQX RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,SRG,SRG.AX,SRG GLOBAL LIMITED,Capital Goods,asx:company-directory
+AU,ASX,SRH,SRH.AX,SAFEROADS HOLDINGS LIMITED,Transportation,asx:company-directory
+AU,ASX,SRJ,SRJ.AX,SRJ TECHNOLOGIES GROUP PLC,Energy,asx:company-directory
+AU,ASX,SRK,SRK.AX,STRIKE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,SRL,SRL.AX,SUNRISE ENERGY METALS LIMITED,Materials,asx:company-directory
+AU,ASX,SRN,SRN.AX,SUREFIRE RESOURCES NL,Materials,asx:company-directory
+AU,ASX,SRR,SRR.AX,SARAMA RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,SRV,SRV.AX,SERVCORP LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,SRZ,SRZ.AX,STELLAR RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,SS1,SS1.AX,SUN SILVER LIMITED,Materials,asx:company-directory
+AU,ASX,SSG,SSG.AX,SHAVER SHOP GROUP LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,SSH,SSH.AX,SSH GROUP LTD,Energy,asx:company-directory
+AU,ASX,SSL,SSL.AX,SIETEL LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,SSM,SSM.AX,SERVICE STREAM LIMITED,Capital Goods,asx:company-directory
+AU,ASX,SST,SST.AX,STEAMSHIPS TRADING COMPANY LIMITED,Capital Goods,asx:company-directory
+AU,ASX,STG,STG.AX,STRAKER LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,STH,STH.AX,STEPCHANGE HOLDINGS LIMITED,Software & Services,asx:company-directory
+AU,ASX,STK,STK.AX,STRICKLAND METALS LIMITED,Materials,asx:company-directory
+AU,ASX,STM,STM.AX,SUNSTONE METALS LTD,Materials,asx:company-directory
+AU,ASX,STN,STN.AX,SATURN METALS LIMITED,Materials,asx:company-directory
+AU,ASX,STO,STO.AX,SANTOS LIMITED,Energy,asx:company-directory
+AU,ASX,STP,STP.AX,STEP ONE CLOTHING LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,STV,STV.AX,SWIFT TV LTD,Media & Entertainment,asx:company-directory
+AU,ASX,STX,STX.AX,STRIKE ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,SUH,SUH.AX,SOUTHERN HEMISPHERE MINING LIMITED,Materials,asx:company-directory
+AU,ASX,SUL,SUL.AX,SUPER RETAIL GROUP LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,SUN,SUN.AX,SUNCORP GROUP LIMITED,Insurance,asx:company-directory
+AU,ASX,SVG,SVG.AX,SAVANNAH GOLDFIELDS LIMITED,Materials,asx:company-directory
+AU,ASX,SVL,SVL.AX,SILVER MINES LIMITED,Materials,asx:company-directory
+AU,ASX,SVM,SVM.AX,SOVEREIGN METALS LIMITED,Materials,asx:company-directory
+AU,ASX,SVR,SVR.AX,SOLVAR LIMITED,Financial Services,asx:company-directory
+AU,ASX,SVY,SVY.AX,STAVELY MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,SWP,SWP.AX,SWOOP HOLDINGS LIMITED,Telecommunication Services,asx:company-directory
+AU,ASX,SX2,SX2.AX,SOUTHERN CROSS GOLD CONSOLIDATED LTD.,Materials,asx:company-directory
+AU,ASX,SXE,SXE.AX,SOUTHERN CROSS ELECTRICAL ENGINEERING LTD,Capital Goods,asx:company-directory
+AU,ASX,SXL,SXL.AX,SOUTHERN CROSS MEDIA GROUP LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,SYL,SYL.AX,SYMAL GROUP LIMITED,Capital Goods,asx:company-directory
+AU,ASX,SYR,SYR.AX,SYRAH RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,T3D,T3D.AX,333D LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,T88,T88.AX,TAITON RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,T92,T92.AX,TERRA CRITICAL MINERALS LIMITED,Energy,asx:company-directory
+AU,ASX,TAH,TAH.AX,TABCORP HOLDINGS LIMITED,Consumer Services,asx:company-directory
+AU,ASX,TAL,TAL.AX,TALIUS GROUP LIMITED,Software & Services,asx:company-directory
+AU,ASX,TAM,TAM.AX,TANAMI GOLD NL,Materials,asx:company-directory
+AU,ASX,TAR,TAR.AX,TARUGA MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,TAS,TAS.AX,TASMAN RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,TAT,TAT.AX,TARTANA MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,TBN,TBN.AX,TAMBORAN RESOURCES CORPORATION,Energy,asx:company-directory
+AU,ASX,TBR,TBR.AX,TRIBUNE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,TCG,TCG.AX,TURACO GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,TCL,TCL.AX,TRANSURBAN GROUP,Transportation,asx:company-directory
+AU,ASX,TCO,TCO.AX,TRANSMETRO CORPORATION LIMITED,Consumer Services,asx:company-directory
+AU,ASX,TD1,TD1.AX,TALI DIGITAL LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,TDO,TDO.AX,3D ENERGI LIMITED,Energy,asx:company-directory
+AU,ASX,TEA,TEA.AX,TASMEA LIMITED,Capital Goods,asx:company-directory
+AU,ASX,TEE,TEE.AX,TOP END ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,TEM,TEM.AX,TEMPEST MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,TER,TER.AX,TERRACOM LIMITED,Energy,asx:company-directory
+AU,ASX,TET,TET.AX,TETRAGON ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,TFL,TFL.AX,TASFOODS LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,TG1,TG1.AX,TECHGEN METALS LTD,Materials,asx:company-directory
+AU,ASX,TG6,TG6.AX,TG METALS LIMITED,Materials,asx:company-directory
+AU,ASX,TGH,TGH.AX,TERRAGEN HOLDINGS LIMITED,Materials,asx:company-directory
+AU,ASX,TGM,TGM.AX,THETA GOLD MINES LIMITED,Materials,asx:company-directory
+AU,ASX,TGN,TGN.AX,TUNGSTEN MINING NL,Materials,asx:company-directory
+AU,ASX,THL,THL.AX,TOURISM HOLDINGS RENTALS LIMITED,Transportation,asx:company-directory
+AU,ASX,THR,THR.AX,THOR ENERGY PLC,Materials,asx:company-directory
+AU,ASX,TIA,TIA.AX,TIAN AN AUSTRALIA LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,TIO,TIO.AX,TEMAS RESOURCES CORP.,Materials,asx:company-directory
+AU,ASX,TIP,TIP.AX,TEAMINVEST PRIVATE GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,TKM,TKM.AX,TREK METALS LIMITED,Materials,asx:company-directory
+AU,ASX,TLC,TLC.AX,THE LOTTERY CORPORATION LIMITED,Consumer Services,asx:company-directory
+AU,ASX,TLG,TLG.AX,TALGA GROUP LTD,Materials,asx:company-directory
+AU,ASX,TLM,TLM.AX,TALISMAN MINING LIMITED,Materials,asx:company-directory
+AU,ASX,TLS,TLS.AX,TELSTRA GROUP LIMITED,Telecommunication Services,asx:company-directory
+AU,ASX,TLX,TLX.AX,TELIX PHARMACEUTICALS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,TM1,TM1.AX,TERRA METALS LIMITED,Energy,asx:company-directory
+AU,ASX,TMB,TMB.AX,TAMBOURAH METALS LTD,Materials,asx:company-directory
+AU,ASX,TMK,TMK.AX,TMK ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,TML,TML.AX,TIMAH RESOURCES LIMITED,Utilities,asx:company-directory
+AU,ASX,TMS,TMS.AX,TENNANT MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,TMX,TMX.AX,TERRAIN MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,TNC,TNC.AX,TRUE NORTH COPPER LIMITED,Materials,asx:company-directory
+AU,ASX,TNE,TNE.AX,TECHNOLOGY ONE LIMITED,Software & Services,asx:company-directory
+AU,ASX,TNY,TNY.AX,TINYBEANS GROUP LTD,Media & Entertainment,asx:company-directory
+AU,ASX,TOK,TOK.AX,TOLU MINERALS LIMITED.,Materials,asx:company-directory
+AU,ASX,TON,TON.AX,TRITON MINERALS LTD,Materials,asx:company-directory
+AU,ASX,TOR,TOR.AX,TORQUE METALS LIMITED..,Materials,asx:company-directory
+AU,ASX,TOU,TOU.AX,TLOU ENERGY LIMITED,Energy,asx:company-directory
+AU,ASX,TPC,TPC.AX,TPC CONSOLIDATED LIMITED,Utilities,asx:company-directory
+AU,ASX,TPG,TPG.AX,TPG TELECOM LIMITED.,Telecommunication Services,asx:company-directory
+AU,ASX,TPW,TPW.AX,TEMPLE & WEBSTER GROUP LTD,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,TR2,TR2.AX,TALI RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,TR8,TR8.AX,TARRINA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,TRA,TRA.AX,TURNERS AUTOMOTIVE GROUP LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,TRE,TRE.AX,TOUBANI RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,TRI,TRI.AX,TRIVARX LTD,Health Care Equipment & Services,asx:company-directory
+AU,ASX,TRJ,TRJ.AX,TRAJAN GROUP HOLDINGS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,TRM,TRM.AX,TRUSCOTT MINING CORPORATION LIMITED,Materials,asx:company-directory
+AU,ASX,TRP,TRP.AX,TISSUE REPAIR LTD,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,TRU,TRU.AX,TRUSCREEN GROUP LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,TSK,TSK.AX,TUSKER MINERALS LTD,Materials,asx:company-directory
+AU,ASX,TSL,TSL.AX,TITANIUM SANDS LIMITED,Materials,asx:company-directory
+AU,ASX,TSO,TSO.AX,TESORO GOLD LTD,Materials,asx:company-directory
+AU,ASX,TSR,TSR.AX,TURNSTONE RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,TTM,TTM.AX,TITAN MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,TTT,TTT.AX,TITOMIC LIMITED,Materials,asx:company-directory
+AU,ASX,TTX,TTX.AX,TETRATHERIX LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,TUA,TUA.AX,TUAS LIMITED,Telecommunication Services,asx:company-directory
+AU,ASX,TVL,TVL.AX,TOUCH VENTURES LIMITED,Financial Services,asx:company-directory
+AU,ASX,TVN,TVN.AX,TIVAN LIMITED,Materials,asx:company-directory
+AU,ASX,TWD,TWD.AX,TAMAWOOD LIMITED,Consumer Durables & Apparel,asx:company-directory
+AU,ASX,TWE,TWE.AX,TREASURY WINE ESTATES LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,TWL,TWL.AX,TRADE WINDOW HOLDINGS LIMITED,Class Pend,asx:company-directory
+AU,ASX,TWR,TWR.AX,TOWER LIMITED,Insurance,asx:company-directory
+AU,ASX,TXR,TXR.AX,TALONX RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,TYR,TYR.AX,TYRO PAYMENTS LIMITED,Financial Services,asx:company-directory
+AU,ASX,TYX,TYX.AX,TYRANNA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,TZL,TZL.AX,TZ LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,TZN,TZN.AX,TERRAMIN AUSTRALIA LIMITED.,Materials,asx:company-directory
+AU,ASX,UBN,UBN.AX,URBANISE.COM LIMITED,Software & Services,asx:company-directory
+AU,ASX,UCM,UCM.AX,USCOM LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,UM1,UM1.AX,UNITY METALS LIMITED,Materials,asx:company-directory
+AU,ASX,UNI,UNI.AX,UNIVERSAL STORE HOLDINGS LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,UNT,UNT.AX,UNITH LTD,Media & Entertainment,asx:company-directory
+AU,ASX,UOS,UOS.AX,UNITED OVERSEAS AUSTRALIA LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,USC,USC.AX,US1 CRITICAL MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,USL,USL.AX,UNICO SILVER LIMITED,Materials,asx:company-directory
+AU,ASX,USM,USM.AX,UNION STAR METALS LTD,Materials,asx:company-directory
+AU,ASX,VAL,VAL.AX,VALIANT GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,VAN,VAN.AX,VANTAGE METALS LIMITED,Materials,asx:company-directory
+AU,ASX,VAU,VAU.AX,VAULT MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,VBC,VBC.AX,VERBREC LIMITED,Capital Goods,asx:company-directory
+AU,ASX,VBS,VBS.AX,VECTUS BIOSYSTEMS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,VBX,VBX.AX,VBX LIMITED,Materials,asx:company-directory
+AU,ASX,VCX,VCX.AX,VICINITY CENTRES,Equity Real Estate Investment Trusts (REITs),asx:company-directory
+AU,ASX,VEA,VEA.AX,VIVA ENERGY GROUP LIMITED,Energy,asx:company-directory
+AU,ASX,VEE,VEE.AX,VEEM LTD,Capital Goods,asx:company-directory
+AU,ASX,VEN,VEN.AX,VINTAGE ENERGY LTD,Energy,asx:company-directory
+AU,ASX,VFX,VFX.AX,VISIONFLEX GROUP LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,VFY,VFY.AX,VITRAFY LIFE SCIENCES LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,VGL,VGL.AX,VISTA GROUP INTERNATIONAL LIMITED.,Software & Services,asx:company-directory
+AU,ASX,VGN,VGN.AX,VIRGIN AUSTRALIA HOLDINGS LIMITED.,Transportation,asx:company-directory
+AU,ASX,VHL,VHL.AX,VITASORA HEALTH LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,VHM,VHM.AX,VHM LIMITED,Materials,asx:company-directory
+AU,ASX,VIG,VIG.AX,VICTOR GROUP HOLDINGS LIMITED,Software & Services,asx:company-directory
+AU,ASX,VIT,VIT.AX,VITURA HEALTH LIMITED,Health Care Equipment & Services,asx:company-directory
+AU,ASX,VKA,VKA.AX,VIKING MINES LIMITED,Materials,asx:company-directory
+AU,ASX,VLS,VLS.AX,VITA LIFE SCIENCES LIMITED..,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,VMC,VMC.AX,VENUS METALS CORPORATION LIMITED,Materials,asx:company-directory
+AU,ASX,VML,VML.AX,VITAL METALS LIMITED,Materials,asx:company-directory
+AU,ASX,VMM,VMM.AX,VIRIDIS MINING AND MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,VMS,VMS.AX,VENARI MINERALS NL,Materials,asx:company-directory
+AU,ASX,VMT,VMT.AX,VMOTO LIMITED,Automobiles & Components,asx:company-directory
+AU,ASX,VNL,VNL.AX,VINYL GROUP LTD,Software & Services,asx:company-directory
+AU,ASX,VNT,VNT.AX,VENTIA SERVICES GROUP LIMITED,Capital Goods,asx:company-directory
+AU,ASX,VPR,VPR.AX,VOLT GROUP LIMITED,Utilities,asx:company-directory
+AU,ASX,VR1,VR1.AX,VECTION TECHNOLOGIES LTD,Software & Services,asx:company-directory
+AU,ASX,VR8,VR8.AX,VANADIUM RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,VRC,VRC.AX,VOLT RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,VRL,VRL.AX,VERITY RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,VRS,VRS.AX,VERIS LIMITED,Commercial & Professional Services,asx:company-directory
+AU,ASX,VRX,VRX.AX,VRX SILICA LIMITED,Materials,asx:company-directory
+AU,ASX,VSL,VSL.AX,VULCAN STEEL LIMITED,Materials,asx:company-directory
+AU,ASX,VSR,VSR.AX,VOLTAIC STRATEGIC RESOURCES LTD,Energy,asx:company-directory
+AU,ASX,VTA,VTA.AX,VITA RESOURCES NL,Materials,asx:company-directory
+AU,ASX,VTM,VTM.AX,VICTORY METALS LIMITED,Materials,asx:company-directory
+AU,ASX,VTX,VTX.AX,VERTEX MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,VUL,VUL.AX,VULCAN ENERGY RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,VVA,VVA.AX,VIVA LEISURE LIMITED,Consumer Services,asx:company-directory
+AU,ASX,VYS,VYS.AX,VYSARN LIMITED,Materials,asx:company-directory
+AU,ASX,W2V,W2V.AX,WAY 2 VAT LTD.,Software & Services,asx:company-directory
+AU,ASX,WA1,WA1.AX,WA1 RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,WAF,WAF.AX,WEST AFRICAN RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,WAG,WAG.AX,THE AUSTRALIAN WEALTH ADVISORS GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,WAT,WAT.AX,WATERCO LIMITED,Consumer Durables & Apparel,asx:company-directory
+AU,ASX,WAU,WAU.AX,WA GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,WBC,WBC.AX,WESTPAC BANKING CORPORATION,Banks,asx:company-directory
+AU,ASX,WBT,WBT.AX,WEEBIT NANO LTD,Semiconductors & Semiconductor Equipment,asx:company-directory
+AU,ASX,WC1,WC1.AX,WEST COBAR METALS LIMITED,Materials,asx:company-directory
+AU,ASX,WC8,WC8.AX,WILDCAT RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,WCE,WCE.AX,WEST COAST SILVER LIMITED,Materials,asx:company-directory
+AU,ASX,WCN,WCN.AX,WHITE CLIFF MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,WDS,WDS.AX,WOODSIDE ENERGY GROUP LTD,Energy,asx:company-directory
+AU,ASX,WEB,WEB.AX,WEBBEDS GROUP LIMITED,Consumer Services,asx:company-directory
+AU,ASX,WEC,WEC.AX,WHITE ENERGY COMPANY LIMITED,Energy,asx:company-directory
+AU,ASX,WEL,WEL.AX,WINCHESTER ENERGY LTD,Energy,asx:company-directory
+AU,ASX,WES,WES.AX,WESFARMERS LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,WGN,WGN.AX,WAGNERS HOLDING COMPANY LIMITED,Materials,asx:company-directory
+AU,ASX,WGR,WGR.AX,WESTERN GOLD RESOURCES LIMITED.,Materials,asx:company-directory
+AU,ASX,WGX,WGX.AX,WESTGOLD RESOURCES LIMITED.,Materials,asx:company-directory
+AU,ASX,WHC,WHC.AX,WHITEHAVEN COAL LIMITED,Energy,asx:company-directory
+AU,ASX,WHK,WHK.AX,WHITEHAWK LIMITED,Software & Services,asx:company-directory
+AU,ASX,WIA,WIA.AX,WIA GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,WIN,WIN.AX,WIN METALS LTD,Materials,asx:company-directory
+AU,ASX,WJL,WJL.AX,WEBJET GROUP LIMITED,Consumer Services,asx:company-directory
+AU,ASX,WLC,WLC.AX,WHITEROCK LITHIUM CORP.,Materials,asx:company-directory
+AU,ASX,WMG,WMG.AX,WESTERN MINES GROUP LTD,Materials,asx:company-directory
+AU,ASX,WNR,WNR.AX,WINGARA AG LTD,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,WNX,WNX.AX,WELLNEX LIFE LIMITED,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,WOA,WOA.AX,WIDE OPEN AGRICULTURE LTD,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,WOR,WOR.AX,WORLEY LIMITED,Capital Goods,asx:company-directory
+AU,ASX,WOT,WOT.AX,WOTSO,Real Estate Management & Development,asx:company-directory
+AU,ASX,WOW,WOW.AX,WOOLWORTHS GROUP LIMITED,Consumer Staples Distribution & Retail,asx:company-directory
+AU,ASX,WRK,WRK.AX,WRKR LTD,Software & Services,asx:company-directory
+AU,ASX,WRX,WRX.AX,WESTERN RIDGE RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,WSI,WSI.AX,WESTSTAR INDUSTRIAL LIMITED,Materials,asx:company-directory
+AU,ASX,WSR,WSR.AX,WESTAR RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,WTC,WTC.AX,WISETECH GLOBAL LIMITED,Software & Services,asx:company-directory
+AU,ASX,WTL,WTL.AX,WT FINANCIAL GROUP LIMITED,Financial Services,asx:company-directory
+AU,ASX,WTM,WTM.AX,WARATAH MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,WTN,WTN.AX,WINTON LAND LIMITED,Real Estate Management & Development,asx:company-directory
+AU,ASX,WWG,WWG.AX,WISEWAY GROUP LIMITED,Transportation,asx:company-directory
+AU,ASX,WWI,WWI.AX,WEST WITS MINING LIMITED,Materials,asx:company-directory
+AU,ASX,WYX,WYX.AX,WESTERN YILGARN NL,Materials,asx:company-directory
+AU,ASX,WZR,WZR.AX,WISR LIMITED,Financial Services,asx:company-directory
+AU,ASX,X2M,X2M.AX,X2M CONNECT LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,XEN,XEN.AX,XENITRA LIMITED,Consumer Discretionary Distribution & Retail,asx:company-directory
+AU,ASX,XF1,XF1.AX,XREF LIMITED,Software & Services,asx:company-directory
+AU,ASX,XGL,XGL.AX,XAMBLE GROUP LIMITED,Media & Entertainment,asx:company-directory
+AU,ASX,XPD,XPD.AX,XPEDRA RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,XPN,XPN.AX,XPON TECHNOLOGIES GROUP LIMITED,Software & Services,asx:company-directory
+AU,ASX,XRA,XRA.AX,XENORA MINERALS LTD,Materials,asx:company-directory
+AU,ASX,XRF,XRF.AX,XRF SCIENTIFIC LIMITED,Capital Goods,asx:company-directory
+AU,ASX,XRG,XRG.AX,XREALITY GROUP LTD,Consumer Services,asx:company-directory
+AU,ASX,XRO,XRO.AX,XERO LIMITED,Software & Services,asx:company-directory
+AU,ASX,XST,XST.AX,XSTATE RESOURCES LIMITED,Energy,asx:company-directory
+AU,ASX,XYZ,XYZ.AX,"BLOCK, INC.",Financial Services,asx:company-directory
+AU,ASX,YAL,YAL.AX,YANCOAL AUSTRALIA LIMITED,Energy,asx:company-directory
+AU,ASX,YAR,YAR.AX,YARI RESOURCES LTD,Materials,asx:company-directory
+AU,ASX,YOJ,YOJ.AX,YOJEE LIMITED,Software & Services,asx:company-directory
+AU,ASX,YOW,YOW.AX,YOWIE GROUP LTD,"Food, Beverage & Tobacco",asx:company-directory
+AU,ASX,YRL,YRL.AX,YANDAL RESOURCES LIMITED,Materials,asx:company-directory
+AU,ASX,YUG,YUG.AX,YUGO METALS LIMITED,Materials,asx:company-directory
+AU,ASX,ZAG,ZAG.AX,ZULEIKA GOLD LIMITED,Materials,asx:company-directory
+AU,ASX,ZEO,ZEO.AX,ZEOTECH LIMITED,Materials,asx:company-directory
+AU,ASX,ZEU,ZEU.AX,ZEUS RESOURCES LIMITED,Energy,asx:company-directory
+AU,ASX,ZGL,ZGL.AX,ZICOM GROUP LIMITED,Capital Goods,asx:company-directory
+AU,ASX,ZIM,ZIM.AX,ZIMPLATS HOLDINGS LIMITED,Materials,asx:company-directory
+AU,ASX,ZIP,ZIP.AX,ZIP CO LIMITED..,Financial Services,asx:company-directory
+AU,ASX,ZLD,ZLD.AX,ZELIRA THERAPEUTICS LIMITED,"Pharmaceuticals, Biotechnology & Life Sciences",asx:company-directory
+AU,ASX,ZMI,ZMI.AX,ZINC OF IRELAND LIMITED,Materials,asx:company-directory
+AU,ASX,ZMM,ZMM.AX,ZIMI LIMITED,Technology Hardware & Equipment,asx:company-directory
+AU,ASX,ZNC,ZNC.AX,ZENITH MINERALS LIMITED,Materials,asx:company-directory
+AU,ASX,ZNO,ZNO.AX,ZOONO GROUP LIMITED,Materials,asx:company-directory

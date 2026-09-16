@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-09-15",
+  "excluded_count": 117,
+  "fetched_at": "2026-09-15T23:15:38.394686+00:00",
+  "market": "AU",
+  "path": "2026-09-15.csv",
+  "size": 1714,
+  "sources": [
+    "https://asx.api.markitdigital.com/asx-research/1.0/companies/directory/file?access_token=83ff96335c2d45a094df02a206a39ff4"
+  ],
+  "warnings": []
+}

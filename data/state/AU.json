@@ -1,0 +1,14 @@
+{
+  "active_signal_date": null,
+  "cash": 100.0,
+  "currency": "AUD",
+  "executions": [],
+  "inception_date": null,
+  "last_processed_date": null,
+  "market": "AU",
+  "methodology_version": "1.0.0",
+  "nav": 100.0,
+  "positions": {},
+  "starting_nav": 100.0,
+  "updated_at": "2026-09-16T00:05:57+00:00"
+}
