@@ -312,12 +312,36 @@ def load_prices(market: str, months: Sequence[str] | None = None) -> list[dict]:
     return rows
 
 
+def has_price(row: dict) -> bool:
+    """True when a stored row carries a real closing price.
+
+    Providers sometimes return a placeholder bar for a session that has not
+    opened yet: the date is present but every price field is blank.  Such a row
+    is not an observation, and treating it as one would let the portfolio trade
+    on a session that never happened.
+    """
+    raw = row.get("close")
+    if raw is None or raw == "":
+        return False
+    try:
+        value = float(raw)
+    except (TypeError, ValueError):
+        return False
+    return value == value and value > 0
+
+
 def upsert_prices(market: str, rows: Sequence[dict]) -> dict[str, int]:
     """Merge new price rows into the monthly files without creating duplicates.
 
-    An existing ``(date, ticker)`` row is left untouched: once a session has
-    been recorded it is never rewritten, which is what keeps the forward test
-    honest when Yahoo retroactively re-adjusts a series.
+    An existing ``(date, ticker)`` row that carries a real price is left
+    untouched: once a session has been recorded it is never rewritten, which is
+    what keeps the forward test honest when a provider retroactively re-adjusts
+    a series.
+
+    The one exception is a stored *placeholder* -- a row with no closing price,
+    captured before the session opened.  That is not an observation, so it is
+    replaced once the real session data arrives.  Without this, a single early
+    fetch would leave a permanent hole in the series.
     """
     by_month: dict[str, list[dict]] = {}
     for row in rows:
@@ -326,18 +350,25 @@ def upsert_prices(market: str, rows: Sequence[dict]) -> dict[str, int]:
             continue
         by_month.setdefault(day[:7], []).append(row)
 
-    stats = {"added": 0, "skipped_existing": 0}
+    stats = {"added": 0, "skipped_existing": 0, "replaced_placeholder": 0}
     for month, month_rows in by_month.items():
         path = price_path(market, month)
-        existing = read_csv(path)
-        index = {(r.get("date", "")[:10], r.get("ticker", "")) for r in existing}
-        merged = list(existing)
+        merged = read_csv(path)
+        index = {
+            (str(r.get("date", ""))[:10], str(r.get("ticker", ""))): i
+            for i, r in enumerate(merged)
+        }
         for row in month_rows:
             key = (str(row.get("date", ""))[:10], str(row.get("ticker", "")))
-            if key in index:
-                stats["skipped_existing"] += 1
+            position = index.get(key)
+            if position is not None:
+                if has_price(merged[position]) or not has_price(row):
+                    stats["skipped_existing"] += 1
+                    continue
+                merged[position] = row
+                stats["replaced_placeholder"] += 1
                 continue
-            index.add(key)
+            index[key] = len(merged)
             merged.append(row)
             stats["added"] += 1
         merged.sort(key=lambda r: (str(r.get("date", ""))[:10], str(r.get("ticker", ""))))

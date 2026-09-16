@@ -37,6 +37,7 @@ class PriceCollectionResult:
     tickers: list[str] = field(default_factory=list)
     added: int = 0
     skipped_existing: int = 0
+    replaced_placeholder: int = 0
     failed: list[str] = field(default_factory=list)
     start: date | None = None
     end: date | None = None
@@ -47,6 +48,7 @@ class PriceCollectionResult:
             "tickers": len(self.tickers),
             "rows_added": self.added,
             "rows_already_present": self.skipped_existing,
+            "placeholder_rows_healed": self.replaced_placeholder,
             "failed_tickers": self.failed,
             "start": self.start.isoformat() if self.start else None,
             "end": self.end.isoformat() if self.end else None,
@@ -89,6 +91,12 @@ def collect_prices(
         if not bars:
             continue
         for bar in bars:
+            if bar.close is None or bar.close <= 0:
+                # A session that has not opened yet comes back as a blank bar.
+                # Storing it would create a phantom session the NAV engine
+                # could try to trade on, and the append-only rule would then
+                # stop the real bar from ever replacing it.
+                continue
             divisor = minor_unit_divisor(bar.currency)
             currency = canonical_currency(bar.currency) or MARKET_CURRENCY[market]
 
@@ -119,6 +127,7 @@ def collect_prices(
         stats = upsert_prices(market, rows)
         result.added = stats["added"]
         result.skipped_existing = stats["skipped_existing"]
+        result.replaced_placeholder = stats.get("replaced_placeholder", 0)
     return result
 
 

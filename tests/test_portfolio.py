@@ -328,3 +328,31 @@ def test_state_survives_a_round_trip(data_root):
     state["nav"] = 123.456
     save_state("CA", state)
     assert load_state("CA")["nav"] == pytest.approx(123.456)
+
+
+def test_an_empty_bar_is_not_treated_as_a_tradable_session(data_root):
+    """A session that has not opened yet must not trigger execution."""
+    write_signal({"AAA.AX": 1.0})
+    blank = price("2026-09-16", "AAA.AX", 0.0, 0.0)
+    for field in ("open", "high", "low", "close"):
+        blank[field] = ""
+    upsert_prices(MARKET, [blank])
+    update = update_portfolio(MARKET)
+    assert update.executions == []
+    assert update.sessions_processed == 0
+    assert load_state(MARKET) is None or not load_state(MARKET).get("positions")
+
+
+def test_execution_happens_once_the_real_session_data_replaces_the_placeholder(data_root):
+    write_signal({"AAA.AX": 1.0})
+    blank = price("2026-09-16", "AAA.AX", 0.0, 0.0)
+    for field in ("open", "high", "low", "close"):
+        blank[field] = ""
+    upsert_prices(MARKET, [blank])
+    assert update_portfolio(MARKET).executions == []
+    # The completed session arrives and heals the placeholder.
+    upsert_prices(MARKET, [price("2026-09-16", "AAA.AX", 20.0, 22.0)])
+    update = update_portfolio(MARKET)
+    assert len(update.executions) == 1
+    assert update.executions[0]["positions"][0]["execution_open_price"] == pytest.approx(20.0)
+    assert update.nav == pytest.approx(110.0)

@@ -157,9 +157,9 @@ def _price_row(day: str, ticker: str, close: float) -> dict:
 
 def test_duplicate_date_ticker_rows_are_never_created(data_root):
     rows = [_price_row("2026-09-07", "BHP.AX", 40.0), _price_row("2026-09-08", "BHP.AX", 41.0)]
-    assert upsert_prices("AU", rows) == {"added": 2, "skipped_existing": 0}
+    assert upsert_prices("AU", rows) == {"added": 2, "skipped_existing": 0, "replaced_placeholder": 0}
     # Re-running the same job (the 7-10 day lookback) must add nothing.
-    assert upsert_prices("AU", rows) == {"added": 0, "skipped_existing": 2}
+    assert upsert_prices("AU", rows) == {"added": 0, "skipped_existing": 2, "replaced_placeholder": 0}
     assert len(load_prices("AU")) == 2
 
 
@@ -181,7 +181,7 @@ def test_backfilling_a_gap_adds_only_the_missing_session(data_root):
             _price_row("2026-09-09", "BHP.AX", 42.0),
         ],
     )
-    assert stats == {"added": 1, "skipped_existing": 2}
+    assert stats == {"added": 1, "skipped_existing": 2, "replaced_placeholder": 0}
     assert [r["date"] for r in load_prices("AU")] == ["2026-09-07", "2026-09-08", "2026-09-09"]
 
 
@@ -200,3 +200,50 @@ def test_prices_are_split_across_monthly_files_and_stay_sorted(data_root):
     assert price_path("AU", "2026-10").exists()
     september = read_csv(price_path("AU", "2026-09"))
     assert [r["ticker"] for r in september] == ["AAA.AX", "BHP.AX"]
+
+
+# --------------------------------------------------------------------------
+# Placeholder bars
+# --------------------------------------------------------------------------
+def _blank_row(day: str, ticker: str) -> dict:
+    """A bar for a session that has not opened yet: dated, but priceless."""
+    row = _price_row(day, ticker, 0.0)
+    for field in ("open", "high", "low", "close", "adj_close"):
+        row[field] = ""
+    row["volume"] = 0
+    return row
+
+
+def test_a_placeholder_row_is_replaced_once_the_real_session_arrives(data_root):
+    """An empty bar is not an observation, so it must not become permanent."""
+    upsert_prices("AU", [_blank_row("2026-09-16", "SRV.AX")])
+    stats = upsert_prices("AU", [_price_row("2026-09-16", "SRV.AX", 4.20)])
+    assert stats["replaced_placeholder"] == 1
+    assert stats["added"] == 0
+    stored = load_prices("AU")
+    assert len(stored) == 1
+    assert float(stored[0]["close"]) == pytest.approx(4.20)
+
+
+def test_a_real_row_is_still_never_overwritten_by_a_placeholder(data_root):
+    upsert_prices("AU", [_price_row("2026-09-16", "SRV.AX", 4.20)])
+    stats = upsert_prices("AU", [_blank_row("2026-09-16", "SRV.AX")])
+    assert stats["skipped_existing"] == 1
+    assert float(load_prices("AU")[0]["close"]) == pytest.approx(4.20)
+
+
+def test_a_real_row_is_still_never_overwritten_by_a_later_correction(data_root):
+    upsert_prices("AU", [_price_row("2026-09-16", "SRV.AX", 4.20)])
+    upsert_prices("AU", [_price_row("2026-09-16", "SRV.AX", 99.0)])
+    assert float(load_prices("AU")[0]["close"]) == pytest.approx(4.20)
+
+
+def test_has_price_rejects_blank_and_non_numeric_closes():
+    from fcf_factor.storage import has_price
+
+    assert has_price({"close": 4.2}) is True
+    assert has_price({"close": "4.2"}) is True
+    assert has_price({"close": ""}) is False
+    assert has_price({"close": None}) is False
+    assert has_price({"close": "0"}) is False
+    assert has_price({}) is False
