@@ -4,7 +4,7 @@ _Signal generated after market close. Forward-test execution occurs at the next 
 
 | Market | Latest signal | Holdings | NAV | Since inception | Inception | As at |
 |---|---|---|---|---|---|---|
-| [AU](AU.md) | 2026-09-15 | 29 | 98.732 | -1.27% | 2026-09-16 | 2026-10-01 |
+| [AU](AU.md) | 2026-09-15 | 29 | 98.542 | -1.46% | 2026-09-16 | 2026-10-02 |
 | [US](US.md) | none | 0 | 100.000 | n/a | not started | n/a |
 | [UK](UK.md) | none | 0 | 100.000 | n/a | not started | n/a |
 | [NZ](NZ.md) | none | 0 | 100.000 | n/a | not started | n/a |
