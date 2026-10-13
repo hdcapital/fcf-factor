@@ -314,7 +314,8 @@ def probe_sources(urls: tuple[str, ...] = LSE_ISSUER_URLS) -> list[dict]:
             if response.ok and url.endswith(".xlsx"):
                 rows = _rows_from_xlsx(response.content)
                 header_index = _find_header(rows)
-                entry["layout"] = describe_workbook(response.content, max_rows=4)
+                entry["header_found"] = header_index is not None
+                entry["layout"] = describe_workbook(response.content, max_rows=5)[:1500]
                 entry["latest_dates"] = _latest_dates(rows, header_index)
         except Exception as exc:  # noqa: BLE001
             entry["error"] = str(exc)[:200]

@@ -233,9 +233,18 @@ def cmd_probe_sources(args: argparse.Namespace) -> int:
     """Show how current each candidate exchange file is (UK only for now)."""
     from .universe.uk import probe_sources, scan_numbered_uploads
 
-    payload = {"command": "probe-sources", "market": "UK", "sources": probe_sources()}
+    payload: dict = {"command": "probe-sources", "market": "UK"}
     if args.scan:
-        payload["numbered_uploads"] = scan_numbered_uploads()
+        found = scan_numbered_uploads(max_n=args.max_n)
+        summary: dict = {}
+        for stem in ("Instrument%20list", "Issuer%20list"):
+            hits = [f for f in found if f"/{stem}_" in f["url"]]
+            summary[stem] = {"count": len(hits), "newest": hits[-3:]}
+        payload["numbered_uploads"] = summary
+        newest = [v["newest"][-1]["url"] for v in summary.values() if v["newest"]]
+        payload["newest_files"] = probe_sources(tuple(newest))
+    else:
+        payload["sources"] = probe_sources()
     _emit(payload)
     return 0
 
@@ -513,7 +522,8 @@ def build_parser() -> argparse.ArgumentParser:
     p_email.set_defaults(func=cmd_send_email)
 
     p_probe = sub.add_parser("probe-sources", help="report how current each LSE source file is")
-    p_probe.add_argument("--scan", action="store_true", help="also look for newer numbered uploads")
+    p_probe.add_argument("--scan", action="store_true", help="look for newer numbered uploads")
+    p_probe.add_argument("--max-n", type=int, default=200)
     p_probe.set_defaults(func=cmd_probe_sources)
 
     p_check = sub.add_parser("check-rebalance", help="is a scheduled rebalance due today?")
