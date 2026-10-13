@@ -336,11 +336,23 @@ series cannot rewrite past returns.
 |---|---|---|
 | AU | ASX | ASX company directory CSV |
 | US | NYSE, Nasdaq, NYSE American | Nasdaq Trader symbol directory (`nasdaqlisted.txt`, `otherlisted.txt`) |
-| UK | LSE Main Market, AIM | LSE issuer list spreadsheet |
+| UK | LSE Main Market, AIM | LSE monthly instrument list (newest upload found automatically) |
 | NZ | NZX Main Board | NZX Main Board securities listing |
 | CA | TSX, TSX Venture | TMX company-directory JSON |
 
-Each market has its own adapter in `fcf_factor/universe/`. Parsing is separated
+Each market has its own adapter in `fcf_factor/universe/`.
+
+**UK source freshness.** LSE publishes its instrument list monthly as a new
+numbered file (`Instrument list_84.xlsx`, then `_85`, and so on); the
+un-numbered address stopped updating in September 2020. The adapter searches
+for the newest upload on every run, reads the "As at" date printed in the
+file, and refuses anything older than 70 days rather than silently screening a
+stale list. It keeps only lines LSE itself labels as shares (MiFIR `SHRS`) on
+the Main Market or AIM, dropping ETFs, depositary receipts, the International
+Order Book, the Specialist Fund Segment and investment funds.
+
+To check every market's source without screening or committing anything, run
+the **Universe check** workflow from the Actions tab. Parsing is separated
 from fetching, so every parser is tested against a captured fixture file — if an
 exchange changes its format, the test suite fails rather than production
 silently producing an empty universe.
@@ -451,7 +463,7 @@ fcf_factor/
 
 data/                    the research record (committed - see data/README.md)
 reports/latest/          one markdown report per market, plus an index
-tests/                   290 tests, none of which touch the network
+tests/                   298 tests, none of which touch the network
 .github/workflows/       quarterly_factor.yml, daily_prices.yml, tests.yml
 ```
 
@@ -741,7 +753,7 @@ provider switch is visible in the audit trail.
 
 ## Tests
 
-290 tests, none of which touch the network — a fixture makes any accidental HTTP
+298 tests, none of which touch the network — a fixture makes any accidental HTTP
 call fail immediately.
 
 ```bash

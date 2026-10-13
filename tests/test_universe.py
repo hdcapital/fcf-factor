@@ -8,6 +8,7 @@ universe in production.
 from __future__ import annotations
 
 import json
+from datetime import date
 from pathlib import Path
 
 import pytest
@@ -275,3 +276,97 @@ def test_lse_instrument_list_in_its_real_layout():
     assert reasons["BA29"] == "non_ordinary_instrument"
     bp = next(e for e in entries if e.exchange_symbol == "BP.")
     assert bp.name == "BP PLC"
+
+
+# --------------------------------------------------------------------------
+# LSE: finding the current monthly file, and refusing a stale one
+# --------------------------------------------------------------------------
+from fcf_factor.universe import uk as uk_module  # noqa: E402
+
+
+def test_as_at_date_is_read_from_the_lse_banner():
+    rows = [["All Equity Instruments"], ["As at 30 September 2026"], ["Number of Instruments: 5,212"]]
+    assert uk_module.as_at_date(rows) == date(2026, 9, 30)
+    assert uk_module.as_at_date([["no date here"]]) is None
+
+
+def test_discovery_finds_the_newest_upload_across_gaps():
+    present = set(range(1, 85)) | {87, 88}  # 85 and 86 skipped by the site
+    assert uk_module.discover_latest_upload(84, present.__contains__) == 88
+
+
+def test_discovery_walks_down_when_the_hint_has_gone():
+    assert uk_module.discover_latest_upload(90, set(range(1, 85)).__contains__) == 84
+
+
+def test_discovery_returns_none_when_nothing_exists():
+    assert uk_module.discover_latest_upload(84, lambda n: False) is None
+
+
+def _lse_workbook(as_at: str) -> bytes:
+    import io
+
+    from openpyxl import Workbook
+
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "1.0 All Equity"
+    ws.append(["All Equity Instruments"])
+    ws.append([as_at])
+    ws.append(LSE_HEADER)
+    ws.append(lse_row("BP.", "BP PLC", "ORD USD0.25", "SHRS", "MAIN MARKET", "", "SET0"))
+    ws.append(lse_row("ANGS", "ANGUS ENERGY PLC", "ORD GBP0.002", "SHRS", "AIM", "", "AMSM"))
+    buffer = io.BytesIO()
+    wb.save(buffer)
+    return buffer.getvalue()
+
+
+class _Head:
+    def __init__(self, newest: int):
+        self.newest = newest
+
+    def __call__(self, url, **kwargs):
+        import re as _re
+
+        n = int(_re.search(r"_(\d+)\.xlsx", url).group(1))
+        return type("R", (), {"status_code": 200 if n <= self.newest else 404})()
+
+
+def test_the_adapter_uses_the_newest_current_upload(monkeypatch, data_root):
+    pytest.importorskip("openpyxl")
+    from datetime import date as real_date
+
+    fetched = []
+    monkeypatch.setattr("requests.head", _Head(86))
+    monkeypatch.setattr(uk_module, "http_get", lambda url: fetched.append(url) or _lse_workbook("As at 30 September 2026"))
+    import fcf_factor.universe.uk as m
+
+    class FixedDate(real_date):
+        @classmethod
+        def today(cls):
+            return real_date(2026, 10, 14)
+
+    monkeypatch.setattr("datetime.date", FixedDate)
+    result = m.UKUniverseAdapter().fetch()
+    assert fetched[-1].endswith("Instrument%20list_86.xlsx")
+    assert {e.yahoo_symbol for e in result.entries} == {"BP.L", "ANGS.L"}
+    assert any("as at 2026-09-30" in w for w in result.warnings)
+
+
+def test_the_adapter_refuses_a_stale_file(monkeypatch, data_root):
+    pytest.importorskip("openpyxl")
+    from datetime import date as real_date
+
+    from fcf_factor.universe.base import UniverseFetchError
+
+    monkeypatch.setattr("requests.head", _Head(84))
+    monkeypatch.setattr(uk_module, "http_get", lambda url: _lse_workbook("As at 30 September 2020"))
+
+    class FixedDate(real_date):
+        @classmethod
+        def today(cls):
+            return real_date(2026, 10, 14)
+
+    monkeypatch.setattr("datetime.date", FixedDate)
+    with pytest.raises(UniverseFetchError, match="refusing a stale universe"):
+        uk_module.UKUniverseAdapter().fetch()
