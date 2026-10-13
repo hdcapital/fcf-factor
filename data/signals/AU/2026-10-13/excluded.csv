@@ -1,0 +1,1443 @@
+yahoo_symbol,exchange_symbol,name,stage,reasons
+10X.AX,10X,Exultant Mining Limited,market_cap,below_min_market_cap:3396200
+14D.AX,14D,1414 Degrees Limited,market_cap,below_min_market_cap:18183055
+1AD.AX,1AD,AdAlta Limited,market_cap,below_min_market_cap:6731285
+1AE.AX,1AE,Aurora Energy Metals Limited,market_cap,below_min_market_cap:6128893
+1AI.AX,1AI,Algorae Pharmaceuticals Limited,market_cap,below_min_market_cap:12038527
+1CG.AX,1CG,One Click Group Limited,market_cap,market_cap_unavailable
+1MC.AX,1MC,Morella Corporation Limited,market_cap,below_min_market_cap:8023007
+1TT.AX,1TT,Thrive Tribe Technologies Limited,market_cap,below_min_market_cap:4018781
+29M.AX,29M,29Metals Limited,expected_fcf,expected_fcf_not_positive
+3DA.AX,3DA,Amaero Inc.,financial_data,ttm_ebitda_not_positive
+3DP.AX,3DP,Pointerra Limited,market_cap,below_min_market_cap:16012121
+3PL.AX,3PL,3P Learning Limited,other,nci_present_share_unknown
+49M.AX,49M,49 Metals Limited,market_cap,below_min_market_cap:5457168
+4DS.AX,4DS,4DS Memory Limited,market_cap,below_min_market_cap:13575902
+4DX.AX,4DX,4DMedical Limited,financial_data,ttm_ebitda_not_positive
+5GG.AX,5GG,Pentanet Limited,market_cap,below_min_market_cap:4841259
+5GN.AX,5GN,5G Networks Limited,market_cap,below_min_market_cap:11068752
+6KA.AX,6KA,"6K Additive, Inc.",financial_data,ttm_ebitda_not_positive
+88E.AX,88E,88 Energy Limited,market_cap,below_min_market_cap:19523619
+8CO.AX,8CO,8common Limited,market_cap,below_min_market_cap:4696037
+8IH.AX,8IH,8I Holdings Limited,market_cap,below_min_market_cap:3002001
+A11.AX,A11,Atlantic Lithium Limited,financial_data,ttm_ebitda_not_positive
+A1M.AX,A1M,AIC Mines Limited,expected_fcf,expected_fcf_not_positive
+A3D.AX,A3D,Aurora Labs Limited,market_cap,below_min_market_cap:20116709
+A4N.AX,A4N,Alpha HPA Limited,financial_data,ttm_ebitda_not_positive
+A8G.AX,A8G,Australasian Metals Limited,market_cap,below_min_market_cap:8291710
+AA2.AX,AA2,Ariana Resources plc,financial_data,ttm_ebitda_not_positive
+AAC.AX,AAC,Australian Agricultural Company Limited,financial_data,ttm_ebitda_not_positive
+AAJ.AX,AAJ,Aruma Resources Limited,market_cap,below_min_market_cap:5398273
+AAL.AX,AAL,Alfabs Australia Limited,market_cap,below_min_market_cap:45107197
+AAM.AX,AAM,AuMEGA Metals Ltd,market_cap,below_min_market_cap:34574919
+AAP.AX,AAP,Australian Agricultural Projects Ltd,market_cap,below_min_market_cap:14933651
+AAR.AX,AAR,Astral Resources NL,financial_data,insufficient_annual_history:0
+AAU.AX,AAU,Antilles Gold Limited,market_cap,below_min_market_cap:15825685
+ABE.AX,ABE,Australian Bond Exchange Holdings Limited,identity,excluded_sector:Financial Services
+ABG.AX,ABG,Abacus Group,identity,excluded_industry:reit
+ABR.AX,ABR,Albright Metals Ltd,market_cap,below_min_market_cap:3256054
+ABV.AX,ABV,Advanced Braking Technology Limited,market_cap,below_min_market_cap:34748820
+ABX.AX,ABX,ABx Group Limited,market_cap,below_min_market_cap:8302944
+ABY.AX,ABY,Adore Beauty Group Limited,market_cap,below_min_market_cap:17720483
+ACE.AX,ACE,Acusensus Limited,expected_fcf,expected_fcf_not_positive
+ACF.AX,ACF,Acrow Limited,expected_fcf,expected_fcf_not_positive
+ACM.AX,ACM,Australian Critical Minerals Limited,market_cap,below_min_market_cap:2200062
+ACP.AX,ACP,Audalia Resources Limited,market_cap,below_min_market_cap:15317412
+ACR.AX,ACR,Acrux Limited,market_cap,below_min_market_cap:4699773
+ACS.AX,ACS,Accent Resources NL,financial_data,insufficient_annual_history:0
+ACU.AX,ACU,Acumentis Group Limited,market_cap,below_min_market_cap:13704977
+ACW.AX,ACW,Actinogen Medical Limited,financial_data,insufficient_annual_history:0
+AD1.AX,AD1,AdNeo Limited,market_cap,below_min_market_cap:4071481
+AD8.AX,AD8,Audinate Group Limited,financial_data,ttm_ebitda_not_positive
+ADC.AX,ADC,ACDC Metals Limited,market_cap,below_min_market_cap:3608691
+ADD.AX,ADD,Adavale Resources Limited,market_cap,below_min_market_cap:9953059
+ADN.AX,ADN,Andromeda Metals Limited,market_cap,below_min_market_cap:21550044
+ADO.AX,ADO,AnteoTech Limited,market_cap,below_min_market_cap:34211586
+ADR.AX,ADR,Adherium Limited,market_cap,below_min_market_cap:2683806
+ADS.AX,ADS,Adslot Limited,market_cap,below_min_market_cap:4170223
+ADX.AX,ADX,ADX Energy Ltd,market_cap,below_min_market_cap:13627788
+ADY.AX,ADY,Admiralty Resources NL,market_cap,below_min_market_cap:11020451
+AEE.AX,AEE,Aura Energy Limited,financial_data,ttm_revenue_unavailable
+AEF.AX,AEF,Australian Ethical Investment Limited,identity,excluded_sector:Financial Services
+AEG.AX,AEG,Aland Equity Group Limited,identity,excluded_sector:Financial Services
+AEI.AX,AEI,Aeris Environmental Ltd,market_cap,below_min_market_cap:7406794
+AEM.AX,AEM,Advanced Engineered Materials Ltd,financial_data,insufficient_annual_history:2
+AER.AX,AER,Aeeris Limited,market_cap,below_min_market_cap:3833417
+AEU.AX,AEU,Atomic Eagle Limited,financial_data,insufficient_annual_history:1
+AEV.AX,AEV,Avenira Limited,market_cap,below_min_market_cap:24654642
+AFA.AX,AFA,ASF Group Limited,identity,excluded_sector:Financial Services
+AFG.AX,AFG,Australian Finance Group Limited,identity,excluded_sector:Financial Services
+AFL.AX,AFL,AF Legal Group Limited,market_cap,below_min_market_cap:8421084
+AFP.AX,AFP,AFT Pharmaceuticals Limited,expected_fcf,expected_fcf_not_positive
+AGC.AX,AGC,Australian Gold and Copper Limited,market_cap,below_min_market_cap:30106168
+AGD.AX,AGD,Austral Gold Limited,other,nci_present_share_unknown
+AGE.AX,AGE,Alligator Energy Limited,financial_data,insufficient_annual_history:0
+AGL.AX,AGL,AGL Energy Limited,expected_fcf,expected_fcf_not_positive
+AGN.AX,AGN,Argenica Therapeutics Limited,market_cap,below_min_market_cap:11216184
+AGR.AX,AGR,Aguia Resources Limited,market_cap,below_min_market_cap:18441065
+AGT.AX,AGT,Arbitr Group Limited,market_cap,below_min_market_cap:5842490
+AGY.AX,AGY,Argosy Minerals Limited,market_cap,below_min_market_cap:25212301
+AHE.AX,AHE,Adheris Health Limited,market_cap,below_min_market_cap:6684630
+AHF.AX,AHF,Australian Dairy Nutritionals Limited,market_cap,below_min_market_cap:9350610
+AHK.AX,AHK,Ark Mines Limited,market_cap,below_min_market_cap:15411550
+AHN.AX,AHN,Athena Resources Limited,market_cap,below_min_market_cap:6582063
+AI1.AX,AI1,Adisyn Ltd,financial_data,ttm_ebitda_not_positive
+AIA.AX,AIA,Auckland International Airport Limited,expected_fcf,expected_fcf_not_positive
+AIM.AX,AIM,Ai-Media Technologies Limited,market_cap,below_min_market_cap:34633933
+AIV.AX,AIV,ActivEX Limited,market_cap,below_min_market_cap:3274470
+AIZ.AX,AIZ,Air New Zealand Limited,expected_fcf,expected_fcf_not_positive
+AJL.AX,AJL,AJ Lucas Group Limited,market_cap,below_min_market_cap:6726815
+AJX.AX,AJX,Alexium International Group Limited,market_cap,below_min_market_cap:13275886
+AKA.AX,AKA,Aureka Limited,market_cap,below_min_market_cap:21201466
+AKG.AX,AKG,Academies Australasia Group Limited,market_cap,below_min_market_cap:7933562
+AKM.AX,AKM,Aspire Mining Limited,financial_data,insufficient_annual_history:0
+AKN.AX,AKN,AuKing Mining Limited,market_cap,below_min_market_cap:24885447
+AKO.AX,AKO,AKORA Resources Limited,market_cap,below_min_market_cap:11389090
+ALA.AX,ALA,Arovella Therapeutics Limited,market_cap,below_min_market_cap:48131150
+ALB.AX,ALB,Albion Resources Limited,market_cap,below_min_market_cap:6389041
+ALD.AX,ALD,Ampol Limited,expected_fcf,expected_fcf_not_positive
+ALK.AX,ALK,Alkane Resources Ltd,market_cap,market_cap_unavailable
+ALM.AX,ALM,Alma Metals Limited,market_cap,below_min_market_cap:14723843
+ALR.AX,ALR,Altair Minerals Limited,financial_data,insufficient_annual_history:0
+ALU.AX,ALU,Alurion Resources Limited,financial_data,insufficient_annual_history:0
+ALV.AX,ALV,Alvo Minerals Limited,market_cap,below_min_market_cap:17240001
+ALY.AX,ALY,Alchemy Resources Limited,market_cap,below_min_market_cap:5809258
+AM3.AX,AM3,Amara Minerals Limited,market_cap,below_min_market_cap:8700552
+AM5.AX,AM5,Antares Metals Limited,market_cap,below_min_market_cap:4111279
+AM7.AX,AM7,Arcadia Minerals Limited,market_cap,below_min_market_cap:3329005
+AMD.AX,AMD,Arrow Minerals Limited,market_cap,below_min_market_cap:36773103
+AMI.AX,AMI,Aurelia Metals Limited,expected_fcf,expected_fcf_not_positive
+AMK.AX,AMK,Almasar Minerals Limited,market_cap,below_min_market_cap:19803018
+AMN.AX,AMN,Agrimin Limited,market_cap,below_min_market_cap:12256794
+AMO.AX,AMO,Ambertech Limited,market_cap,below_min_market_cap:6330996
+AMP.AX,AMP,AMP Limited,identity,excluded_sector:Financial Services
+AMS.AX,AMS,Atomos Limited,market_cap,below_min_market_cap:9361892
+AMU.AX,AMU,American Uranium Limited,market_cap,below_min_market_cap:4822729
+AMX.AX,AMX,Aerometrex Limited,market_cap,below_min_market_cap:20901127
+AN1.AX,AN1,Anagenics Limited,market_cap,below_min_market_cap:3441781
+ANO.AX,ANO,Advance ZincTek Limited,market_cap,below_min_market_cap:27364427
+ANR.AX,ANR,Anatara Lifesciences Ltd,market_cap,below_min_market_cap:1988539
+ANT.AX,ANT,Antimony Resources Limited,market_cap,below_min_market_cap:8876220
+ANX.AX,ANX,Anax Metals Limited,market_cap,below_min_market_cap:36537831
+ANZ.AX,ANZ,ANZ Group Holdings Limited,identity,excluded_sector:Financial Services
+AOA.AX,AOA,Ausmon Resources Limited,market_cap,below_min_market_cap:1494670
+AOK.AX,AOK,Australian Oil Company Limited,market_cap,below_min_market_cap:5094424
+AON.AX,AON,Apollo Minerals Limited,market_cap,below_min_market_cap:44885157
+APC.AX,APC,APC Minerals Limited,market_cap,below_min_market_cap:4615208
+APL.AX,APL,Associate Global Partners Limited,identity,excluded_sector:Financial Services
+APX.AX,APX,Appen Limited,financial_data,ttm_ebitda_not_positive
+APZ.AX,APZ,Aspen Group,expected_fcf,expected_fcf_not_positive
+AQC.AX,AQC,Australian Pacific Coal Limited,market_cap,below_min_market_cap:2935740
+AQD.AX,AQD,AusQuest Limited,market_cap,below_min_market_cap:47045870
+AQN.AX,AQN,Aquirian Limited,market_cap,below_min_market_cap:34305732
+AQX.AX,AQX,Alice Queen Limited,market_cap,below_min_market_cap:9725839
+AR3.AX,AR3,Australian Rare Earths Limited,market_cap,below_min_market_cap:17046367
+AR9.AX,AR9,archTIS Limited,market_cap,below_min_market_cap:23046670
+ARA.AX,ARA,Ariadne Australia Limited,identity,excluded_sector:Financial Services
+ARC.AX,ARC,ARC Funds Limited,identity,excluded_sector:Financial Services
+ARD.AX,ARD,Argent Minerals Limited,market_cap,below_min_market_cap:24974880
+ARI.AX,ARI,Arika Resources Limited,market_cap,below_min_market_cap:31227160
+ARL.AX,ARL,Ardea Resources Limited,financial_data,insufficient_annual_history:0
+ARN.AX,ARN,Aldoro Resources Limited,market_cap,below_min_market_cap:39824430
+ARO.AX,ARO,Altoro Metals Limited,market_cap,below_min_market_cap:6148241
+ARR.AX,ARR,American Rare Earths Limited,financial_data,insufficient_annual_history:0
+ART.AX,ART,Airtasker Limited,financial_data,ttm_ebitda_not_positive
+ARU.AX,ARU,Arafura Rare Earths Limited,financial_data,insufficient_annual_history:0
+ARV.AX,ARV,Artemis Resources Limited,market_cap,below_min_market_cap:14184988
+AS1.AX,AS1,Asara Resources Limited,financial_data,insufficient_annual_history:0
+AS2.AX,AS2,Askari Metals Limited,market_cap,below_min_market_cap:3628857
+ASB.AX,ASB,Austal Limited,financial_data,ttm_ebitda_not_positive
+ASG.AX,ASG,Autosports Group Limited,expected_fcf,expected_fcf_not_positive
+ASH.AX,ASH,Ashley Services Group Limited,market_cap,below_min_market_cap:29059272
+ASL.AX,ASL,Andean Silver Limited,financial_data,insufficient_annual_history:0
+ASN.AX,ASN,Anson Resources Limited,market_cap,below_min_market_cap:43096965
+ASP.AX,ASP,Aspermont Limited,market_cap,below_min_market_cap:10265339
+ASQ.AX,ASQ,Australian Silica Quartz Group Ltd.,market_cap,below_min_market_cap:4979832
+ASV.AX,ASV,Asset Vision Co Limited,market_cap,below_min_market_cap:23085296
+ASX.AX,ASX,ASX Limited,identity,excluded_sector:Financial Services
+AT1.AX,AT1,Atomo Diagnostics Limited,market_cap,market_cap_unavailable
+AT4.AX,AT4,American Tungsten and Antimony Ltd,financial_data,insufficient_annual_history:0
+ATA.AX,ATA,Atturra Limited,other,nci_present_share_unknown
+ATC.AX,ATC,Altech Batteries Limited,market_cap,below_min_market_cap:3728774
+ATH.AX,ATH,Alterity Therapeutics Limited,financial_data,ttm_ebitda_not_positive
+ATM.AX,ATM,PT Antam (Persero) Tbk,market_cap,fx_rate_unavailable:IDR
+ATP.AX,ATP,Atlas Pearls Limited,market_cap,below_min_market_cap:26681130
+ATR.AX,ATR,Astron Limited,financial_data,ttm_ebitda_not_positive
+ATS.AX,ATS,Australis Oil & Gas Limited,market_cap,below_min_market_cap:31219300
+ATT.AX,ATT,Altitude Minerals Ltd,market_cap,below_min_market_cap:1791823
+ATV.AX,ATV,ActivePort Group Ltd,market_cap,below_min_market_cap:8718869
+ATX.AX,ATX,Amplia Therapeutics Limited,market_cap,below_min_market_cap:35855827
+AU1.AX,AU1,The Agency Group Australia Limited,market_cap,below_min_market_cap:9211566
+AUA.AX,AUA,Audeara Limited,market_cap,below_min_market_cap:3132731
+AUB.AX,AUB,AUB Group Limited,identity,excluded_sector:Financial Services
+AUC.AX,AUC,Ausgold Limited,financial_data,insufficient_annual_history:0
+AUE.AX,AUE,Aurum Resources Limited,financial_data,insufficient_annual_history:0
+AUG.AX,AUG,Augustus Minerals Ltd,market_cap,below_min_market_cap:6948730
+AUQ.AX,AUQ,Alara Resources Limited,market_cap,below_min_market_cap:45158217
+AUR.AX,AUR,Auris Minerals Limited,market_cap,below_min_market_cap:14379727
+AUV.AX,AUV,Auravelle Metals Limited,market_cap,below_min_market_cap:3872091
+AUZ.AX,AUZ,Australian Mines Limited,market_cap,below_min_market_cap:38441918
+AV1.AX,AV1,Adveritas Limited,market_cap,below_min_market_cap:35600885
+AVA.AX,AVA,AVA Risk Group Limited,market_cap,below_min_market_cap:8743547
+AVD.AX,AVD,AVADA Group Limited,market_cap,below_min_market_cap:5042943
+AVE.AX,AVE,Avecho Biotechnology Limited,market_cap,below_min_market_cap:45881075
+AVG.AX,AVG,Australian Vintage Ltd,market_cap,below_min_market_cap:20712256
+AVH.AX,AVH,"AVITA Medical, Inc.",financial_data,ttm_ebitda_not_positive
+AVL.AX,AVL,Australian Vanadium Limited,financial_data,insufficient_annual_history:2
+AVM.AX,AVM,Advance Metals Limited,market_cap,below_min_market_cap:14188549
+AVR.AX,AVR,Anteris Technologies Global Corp.,financial_data,ttm_ebitda_not_positive
+AVW.AX,AVW,Avira Resources Limited,market_cap,below_min_market_cap:2409891
+AW1.AX,AW1,American West Metals Limited,market_cap,below_min_market_cap:28342983
+AWJ.AX,AWJ,Auric Mining Limited,market_cap,below_min_market_cap:32811820
+AX8.AX,AX8,Accelerate Resources Limited,market_cap,below_min_market_cap:5120804
+AXE.AX,AXE,Archer Materials Limited,market_cap,below_min_market_cap:32767621
+AXI.AX,AXI,Axtec Limited,market_cap,below_min_market_cap:3048973
+AXL.AX,AXL,Axel REE Limited,market_cap,below_min_market_cap:7005732
+AXN.AX,AXN,Alliance Nickel Limited,market_cap,below_min_market_cap:15076659
+AXP.AX,AXP,AXP Energy Limited,market_cap,below_min_market_cap:1167344
+AXQ.AX,AXQ,"Aura Consolidated Group, Inc.",financial_data,insufficient_annual_history:2
+AXR.AX,AXR,Axiant Resources Limited,market_cap,below_min_market_cap:6286673
+AYA.AX,AYA,Artrya Limited,financial_data,insufficient_annual_history:2
+AYM.AX,AYM,Australia United Mining Limited,market_cap,below_min_market_cap:2574151
+AYT.AX,AYT,Austin Metals Limited,market_cap,below_min_market_cap:3062575
+AZ9.AX,AZ9,Azzuro Resources PLC,market_cap,below_min_market_cap:8025556
+AZI.AX,AZI,Altamin Limited,market_cap,below_min_market_cap:14483010
+AZY.AX,AZY,Antipa Minerals Limited,financial_data,insufficient_annual_history:0
+B4P.AX,B4P,Beforepay Group Limited,expected_fcf,expected_fcf_not_positive
+BAK.AX,BAK,Barkly Rare Earths Limited,market_cap,below_min_market_cap:13053577
+BAS.AX,BAS,Bass Oil Limited,market_cap,below_min_market_cap:14873165
+BB1.AX,BB1,BlinkLab Limited,financial_data,insufficient_annual_history:0
+BBC.AX,BBC,BNK Banking Corporation Limited,identity,excluded_sector:Financial Services
+BBT.AX,BBT,Betr Entertainment Limited,financial_data,ttm_ebitda_not_positive
+BC8.AX,BC8,Black Cat Syndicate Limited,expected_fcf,expected_fcf_not_positive
+BCA.AX,BCA,Black Canyon Limited,market_cap,below_min_market_cap:37513550
+BCC.AX,BCC,Beam Communications Holdings Limited,market_cap,below_min_market_cap:2656164
+BCI.AX,BCI,BCI Minerals Limited,financial_data,insufficient_annual_history:2
+BCK.AX,BCK,Brockman Mining Limited,financial_data,ttm_ebitda_not_positive
+BCM.AX,BCM,Brazilian Critical Minerals Limited,financial_data,insufficient_annual_history:0
+BDM.AX,BDM,Burgundy Diamond Mines Limited,market_cap,below_min_market_cap:16882465
+BDX.AX,BDX,BCAL Diagnostics Limited,market_cap,below_min_market_cap:23177912
+BEN.AX,BEN,Bendigo and Adelaide Bank Limited,identity,excluded_sector:Financial Services
+BEO.AX,BEO,Beonic Limited,market_cap,below_min_market_cap:7367600
+BEZ.AX,BEZ,Besra Gold Inc.,market_cap,below_min_market_cap:37966693
+BFG.AX,BFG,Bell Financial Group Limited,identity,excluded_sector:Financial Services
+BFL.AX,BFL,BSP Financial Group Limited,identity,excluded_sector:Financial Services
+BGD.AX,BGD,Barton Gold Holdings Limited,financial_data,insufficient_annual_history:0
+BGE.AX,BGE,Bridge SaaS Limited,market_cap,below_min_market_cap:977238
+BGT.AX,BGT,Bio-Gene Technology Limited,market_cap,below_min_market_cap:4283917
+BH6.AX,BH6,Broken Hill Gold Ltd.,market_cap,below_min_market_cap:46800083
+BHL.AX,BHL,Black Horse Mining Limited,market_cap,below_min_market_cap:9934887
+BHM.AX,BHM,Broken Hill Mines Limited,financial_data,insufficient_annual_history:1
+BIM.AX,BIM,Bindi Metals Limited,market_cap,below_min_market_cap:4503071
+BIT.AX,BIT,Biotron Limited,market_cap,below_min_market_cap:3891038
+BKB.AX,BKB,Black Bear Minerals Limited,financial_data,insufficient_annual_history:0
+BKT.AX,BKT,Black Rock Mining Limited,market_cap,below_min_market_cap:18006992
+BKY.AX,BKY,Berkeley Energia Limited,financial_data,ttm_ebitda_not_positive
+BLG.AX,BLG,BluGlass Limited,market_cap,below_min_market_cap:25552530
+BLS.AX,BLS,BLS Pharmaceuticals Limited,expected_fcf,expected_fcf_not_positive
+BLU.AX,BLU,Blue Energy Limited,market_cap,below_min_market_cap:8415686
+BLZ.AX,BLZ,Blaze Minerals Limited,market_cap,below_min_market_cap:2309479
+BM1.AX,BM1,Ballard Mining Limited,financial_data,insufficient_annual_history:0
+BM8.AX,BM8,Battery Age Minerals Ltd,market_cap,below_min_market_cap:5414721
+BMC.AX,BMC,BMC Minerals Limited,financial_data,insufficient_annual_history:0
+BMH.AX,BMH,Baumart Holdings Limited,market_cap,below_min_market_cap:1701927
+BML.AX,BML,Boab Metals Limited,financial_data,ttm_ebitda_not_positive
+BMM.AX,BMM,Bayan Mining and Minerals Limited,market_cap,below_min_market_cap:4934117
+BMN.AX,BMN,Bannerman Energy Ltd,financial_data,insufficient_annual_history:0
+BMR.AX,BMR,Ballymore Resources Limited,market_cap,below_min_market_cap:20058816
+BMT.AX,BMT,Beamtree Holdings Limited,market_cap,below_min_market_cap:18773524
+BNL.AX,BNL,Blue Star Helium Limited,market_cap,below_min_market_cap:17191716
+BNR.AX,BNR,Bulletin Resources Limited,market_cap,below_min_market_cap:6152836
+BNZ.AX,BNZ,Benz Mining Corp.,financial_data,ttm_ebitda_not_positive
+BOA.AX,BOA,BOA Resources Limited,market_cap,below_min_market_cap:22330572
+BOC.AX,BOC,Bougainville Copper Limited,market_cap,below_min_market_cap:44823972
+BOE.AX,BOE,Boss Energy Limited,financial_data,insufficient_annual_history:2
+BOQ.AX,BOQ,Bank of Queensland Limited,identity,excluded_sector:Financial Services
+BOT.AX,BOT,Botanix Pharmaceuticals Limited,market_cap,below_min_market_cap:27005902
+BPG.AX,BPG,Black Pearl Group Limited,market_cap,below_min_market_cap:13052345
+BPH.AX,BPH,BPH Energy Limited,identity,excluded_sector:Financial Services
+BPM.AX,BPM,BPM Minerals Limited,market_cap,below_min_market_cap:17183802
+BPP.AX,BPP,Babylon Pump & Power Limited,market_cap,below_min_market_cap:10419439
+BPT.AX,BPT,Beach Energy Limited,market_cap,market_cap_unavailable
+BRE.AX,BRE,Brazilian Rare Earths Limited,financial_data,insufficient_annual_history:0
+BRK.AX,BRK,Brookside Energy Limited,market_cap,below_min_market_cap:25440767
+BRL.AX,BRL,Bathurst Resources Limited,financial_data,ttm_ebitda_not_positive
+BRN.AX,BRN,BrainChip Holdings Ltd,financial_data,ttm_ebitda_not_positive
+BRU.AX,BRU,Buru Energy Limited,market_cap,below_min_market_cap:13286706
+BRY.AX,BRY,Barys Resources Limited,market_cap,below_min_market_cap:1659894
+BSA.AX,BSA,BSA Limited,market_cap,below_min_market_cap:14022818
+BSL.AX,BSL,BlueScope Steel Limited,market_cap,market_cap_unavailable
+BSN.AX,BSN,Basin Energy Limited,market_cap,below_min_market_cap:4437932
+BSR.AX,BSR,Bison Resources Limited,market_cap,below_min_market_cap:18047989
+BST.AX,BST,Boresight Ltd,market_cap,market_cap_unavailable
+BSX.AX,BSX,Blackstone Minerals Limited,market_cap,below_min_market_cap:33673150
+BTE.AX,BTE,Botala Energy Limited,market_cap,below_min_market_cap:15535497
+BTI.AX,BTI,Bailador Technology Investments Limited,identity,excluded_sector:Financial Services
+BTL.AX,BTL,Beetaloo Energy Australia Limited,financial_data,ttm_ebitda_not_positive
+BTM.AX,BTM,Breakthrough Minerals Limited,market_cap,below_min_market_cap:12661029
+BTN.AX,BTN,Butn Limited,identity,excluded_sector:Financial Services
+BTR.AX,BTR,Brightstar Resources Limited,financial_data,insufficient_annual_history:2
+BUB.AX,BUB,Bubs Australia Limited,financial_data,ttm_ebitda_not_positive
+BUR.AX,BUR,Burley Minerals Ltd,market_cap,below_min_market_cap:4783128
+BUS.AX,BUS,Bubalus Resources Limited,market_cap,below_min_market_cap:3905449
+BUX.AX,BUX,Buxton Resources Limited,market_cap,below_min_market_cap:10612192
+BUY.AX,BUY,Bounty Oil & Gas NL,market_cap,below_min_market_cap:7594572
+BVR.AX,BVR,Bellavista Resources Limited,market_cap,below_min_market_cap:48275884
+BWF.AX,BWF,BlackWall Limited,identity,excluded_sector:Financial Services
+BWP.AX,BWP,BWP Trust,identity,excluded_industry:reit
+C29.AX,C29,C29 Metals Limited,market_cap,below_min_market_cap:3911450
+C79.AX,C79,Chrysos Corporation Limited,expected_fcf,expected_fcf_not_positive
+C7A.AX,C7A,Clara Resources Australia Ltd,market_cap,below_min_market_cap:4373041
+CAE.AX,CAE,Cannindah Resources Limited,market_cap,below_min_market_cap:24001395
+CAF.AX,CAF,Centrepoint Alliance Limited,identity,excluded_sector:Financial Services
+CAN.AX,CAN,Cann Group Limited,market_cap,below_min_market_cap:5799782
+CAQ.AX,CAQ,CAQ Holdings Limited,market_cap,below_min_market_cap:4512487
+CAT.AX,CAT,Catapult Sports Ltd,financial_data,ttm_ebitda_not_positive
+CAV.AX,CAV,Carnavale Resources Limited,market_cap,below_min_market_cap:21093080
+CAY.AX,CAY,Canyon Resources Limited,financial_data,insufficient_annual_history:0
+CAZ.AX,CAZ,Cazaly Resources Limited,market_cap,below_min_market_cap:7817537
+CBA.AX,CBA,Commonwealth Bank of Australia,identity,excluded_sector:Financial Services
+CBL.AX,CBL,Control Bionics Limited,market_cap,below_min_market_cap:24658260
+CBO.AX,CBO,Cobram Estate Olives Limited,expected_fcf,expected_fcf_not_positive
+CBY.AX,CBY,Canterbury Resources Limited,market_cap,below_min_market_cap:8212438
+CC5.AX,CC5,Clever Culture Systems Limited,market_cap,below_min_market_cap:27438247
+CC9.AX,CC9,Chariot Resources Ltd,market_cap,below_min_market_cap:7829794
+CCA.AX,CCA,Change Financial Limited,market_cap,below_min_market_cap:21703260
+CCE.AX,CCE,Carnegie Clean Energy Limited,financial_data,ttm_ebitda_not_positive
+CCG.AX,CCG,Comms Group Limited,market_cap,below_min_market_cap:33140608
+CCL.AX,CCL,Cuscal Limited,financial_data,insufficient_annual_history:2
+CCM.AX,CCM,Cadoux Limited,market_cap,below_min_market_cap:7769236
+CCO.AX,CCO,The Calmer Co International Limited,market_cap,below_min_market_cap:3729438
+CCP.AX,CCP,Credit Corp Group Limited,identity,excluded_sector:Financial Services
+CCR.AX,CCR,Credit Clear Limited,market_cap,below_min_market_cap:42184565
+CCV.AX,CCV,Cash Converters International Limited,financial_data,ttm_fcf_unavailable
+CCX.AX,CCX,City Chic Collective Limited,market_cap,below_min_market_cap:12106806
+CDE.AX,CDE,Codeifai Limited,market_cap,below_min_market_cap:3351659
+CDR.AX,CDR,Codrus Minerals Limited,market_cap,below_min_market_cap:11622496
+CDT.AX,CDT,Castle Minerals Limited,market_cap,below_min_market_cap:11281724
+CEL.AX,CEL,Challenger Gold Limited,financial_data,insufficient_annual_history:0
+CF1.AX,CF1,Complii FinTech Solutions Ltd,market_cap,below_min_market_cap:10708302
+CG1.AX,CG1,Carbonxt Group Limited,market_cap,below_min_market_cap:22096338
+CGF.AX,CGF,Challenger Limited,identity,excluded_sector:Financial Services
+CGO.AX,CGO,CPT Global Limited,market_cap,below_min_market_cap:2633950
+CGR.AX,CGR,CGN Resources Limited,market_cap,below_min_market_cap:4746590
+CHC.AX,CHC,Charter Hall Group,identity,excluded_industry:reit
+CHL.AX,CHL,Camplify Holdings Limited,market_cap,below_min_market_cap:19528246
+CHM.AX,CHM,Chimeric Therapeutics Limited,market_cap,below_min_market_cap:309014
+CHN.AX,CHN,Chalice Mining Limited,financial_data,insufficient_annual_history:2
+CHR.AX,CHR,Charger Metals NL,market_cap,below_min_market_cap:4368929
+CHW.AX,CHW,Chilwa Minerals Limited,financial_data,insufficient_annual_history:0
+CIA.AX,CIA,Champion Iron Limited,expected_fcf,expected_fcf_not_positive
+CIW.AX,CIW,Clime Investment Management Limited,identity,excluded_sector:Financial Services
+CKA.AX,CKA,Cokal Limited,market_cap,below_min_market_cap:29392997
+CLA.AX,CLA,Celsius Resources Limited,market_cap,below_min_market_cap:10406998
+CLG.AX,CLG,Close the Loop Ltd,market_cap,below_min_market_cap:15354661
+CMA.AX,CMA,Carma Limited,financial_data,ttm_ebitda_not_positive
+CMB.AX,CMB,Cambium Bio Limited,market_cap,below_min_market_cap:11101730
+CMD.AX,CMD,Cassius Mining Limited,market_cap,below_min_market_cap:9552786
+CMG.AX,CMG,Critical Minerals Group Limited,market_cap,below_min_market_cap:5990752
+CML.AX,CML,Connected Minerals Limited,financial_data,insufficient_annual_history:1
+CMO.AX,CMO,Cosmo Metals Limited,market_cap,below_min_market_cap:2755840
+CMP.AX,CMP,Compumedics Limited,market_cap,below_min_market_cap:33488979
+CMW.AX,CMW,Cromwell Property Group,identity,excluded_industry:reit
+CMX.AX,CMX,ChemX Materials Limited,market_cap,below_min_market_cap:23432387
+CNB.AX,CNB,Carnaby Resources Limited,financial_data,insufficient_annual_history:0
+CND.AX,CND,Condor Energy Limited,market_cap,below_min_market_cap:10861184
+CNI.AX,CNI,Centuria Capital Group,identity,excluded_industry:reit
+CNJ.AX,CNJ,Conico Ltd,market_cap,below_min_market_cap:5009679
+CNQ.AX,CNQ,Clean TeQ Water Limited,market_cap,below_min_market_cap:37233989
+COB.AX,COB,Cobalt Blue Holdings Limited,market_cap,below_min_market_cap:23800616
+COD.AX,COD,Coda Minerals Limited,market_cap,below_min_market_cap:31284307
+COG.AX,COG,COG Financial Services Limited,identity,excluded_sector:Financial Services
+COI.AX,COI,Comet Ridge Limited,financial_data,insufficient_annual_history:0
+COS.AX,COS,COSOL Limited,market_cap,below_min_market_cap:22882081
+COV.AX,COV,Cleo Diagnostics Ltd,market_cap,below_min_market_cap:34312933
+COY.AX,COY,Coppermoly Limited,market_cap,below_min_market_cap:2466212
+CP8.AX,CP8,Canadian Phosphate Limited,market_cap,below_min_market_cap:28936486
+CPM.AX,CPM,Cooper Metals Limited,market_cap,below_min_market_cap:6024443
+CPN.AX,CPN,Caspin Resources Limited,market_cap,below_min_market_cap:20777440
+CPO.AX,CPO,Culpeo Minerals Limited,market_cap,below_min_market_cap:7799374
+CPU.AX,CPU,Computershare Limited,identity,excluded_sector:Financial Services
+CPV.AX,CPV,ClearVue Technologies Limited,market_cap,below_min_market_cap:13984569
+CQT.AX,CQT,CONNEQT Health Limited,market_cap,below_min_market_cap:7809782
+CR1.AX,CR1,Constellation Resources Limited,market_cap,below_min_market_cap:10482652
+CR3.AX,CR3,Core Energy Minerals Ltd,market_cap,below_min_market_cap:3775724
+CRB.AX,CRB,Carbine Resources Limited,market_cap,below_min_market_cap:6660329
+CRD.AX,CRD,Conrad Asia Energy Ltd.,financial_data,insufficient_annual_history:1
+CRI.AX,CRI,Critica Limited,financial_data,insufficient_annual_history:0
+CRN.AX,CRN,Coronado Global Resources Inc.,financial_data,ttm_ebitda_not_positive
+CRR.AX,CRR,Critical Resources Limited,market_cap,below_min_market_cap:21615374
+CRS.AX,CRS,Caprice Resources Limited,market_cap,below_min_market_cap:42610415
+CST.AX,CST,Castile Resources Limited,market_cap,below_min_market_cap:18740786
+CSX.AX,CSX,CleanSpace Holdings Limited,market_cap,below_min_market_cap:24069409
+CT1.AX,CT1,Constellation Technologies Limited,market_cap,below_min_market_cap:3116584
+CTD.AX,CTD,Corporate Travel Management Limited,expected_fcf,expected_fcf_not_positive
+CTE.AX,CTE,Cryosite Limited,market_cap,below_min_market_cap:41083774
+CTM.AX,CTM,Centaurus Metals Limited,financial_data,insufficient_annual_history:0
+CTN.AX,CTN,Catalina Resources Ltd,market_cap,below_min_market_cap:8254336
+CTO.AX,CTO,Citigold Corporation Limited,market_cap,below_min_market_cap:36148364
+CTP.AX,CTP,Central Petroleum Limited,market_cap,below_min_market_cap:29445925
+CTQ.AX,CTQ,Careteq Limited,market_cap,below_min_market_cap:6657268
+CTS.AX,CTS,Ceretas Limited,market_cap,below_min_market_cap:46366831
+CTT.AX,CTT,Cettire Limited,financial_data,ttm_ebitda_not_positive
+CU6.AX,CU6,Clarity Pharmaceuticals Ltd,financial_data,insufficient_annual_history:0
+CUE.AX,CUE,Cue Energy Resources Limited,market_cap,market_cap_unavailable
+CUF.AX,CUF,CuFe Ltd,financial_data,ttm_revenue_unavailable
+CUL.AX,CUL,Cullen Resources Limited,market_cap,below_min_market_cap:2906127
+CVB.AX,CVB,CurveBeam AI Limited,market_cap,below_min_market_cap:6224531
+CVC.AX,CVC,CVC Limited,identity,excluded_sector:Financial Services
+CVN.AX,CVN,Carnarvon Energy Limited,financial_data,insufficient_annual_history:0
+CVR.AX,CVR,Cavalier Resources Ltd,market_cap,below_min_market_cap:14576115
+CVV.AX,CVV,Caravel Minerals Limited,financial_data,insufficient_annual_history:0
+CWP.AX,CWP,Cedar Woods Properties Limited,expected_fcf,expected_fcf_not_positive
+CXL.AX,CXL,Calix Limited,market_cap,below_min_market_cap:31688428
+CXO.AX,CXO,Core Lithium Ltd,financial_data,ttm_ebitda_not_positive
+CXU.AX,CXU,Cauldron Energy Limited,financial_data,insufficient_annual_history:0
+CXZ.AX,CXZ,Connexion Mobility Ltd,market_cap,below_min_market_cap:11848697
+CY5.AX,CY5,Cygnus Metals Limited,financial_data,ttm_ebitda_not_positive
+CYB.AX,CYB,AUCyber Limited,market_cap,below_min_market_cap:7641254
+CYC.AX,CYC,Cyclopharm Limited,market_cap,below_min_market_cap:39961608
+CYG.AX,CYG,Coventry Group Ltd,market_cap,below_min_market_cap:40798912
+CYM.AX,CYM,Cyprium Metals Limited,financial_data,insufficient_annual_history:0
+CYP.AX,CYP,Cynata Therapeutics Limited,market_cap,below_min_market_cap:2210748
+CYQ.AX,CYQ,Cycliq Group Limited,market_cap,below_min_market_cap:1479726
+CYV.AX,CYV,Ceryvyn Therapeutics Limited,market_cap,below_min_market_cap:10511148
+CZN.AX,CZN,Corazon Mining Limited,market_cap,below_min_market_cap:16696016
+CZR.AX,CZR,CZR Resources Ltd,market_cap,below_min_market_cap:35564444
+D3E.AX,D3E,D3 Energy Limited,market_cap,below_min_market_cap:26518618
+DAF.AX,DAF,Discovery Alaska Limited,market_cap,below_min_market_cap:2346100
+DAI.AX,DAI,Decidr AI Industries Ltd,financial_data,ttm_ebitda_not_positive
+DAL.AX,DAL,Dalaroo Metals Ltd,market_cap,below_min_market_cap:27181703
+DBF.AX,DBF,Duxton Farms Limited,market_cap,below_min_market_cap:25442904
+DBI.AX,DBI,Dalrymple Bay Infrastructure Limited,expected_fcf,expected_fcf_not_positive
+DBO.AX,DBO,Diablo Resources Limited,market_cap,below_min_market_cap:4913348
+DCC.AX,DCC,DigitalX Limited,market_cap,below_min_market_cap:25810138
+DDT.AX,DDT,DataDot Technology Limited,market_cap,below_min_market_cap:3407248
+DEL.AX,DEL,Delorean Corporation Limited,market_cap,below_min_market_cap:15199074
+DEM.AX,DEM,De.mem Limited,market_cap,below_min_market_cap:28575981
+DES.AX,DES,DeSoto Resources Limited,market_cap,below_min_market_cap:23200803
+DEV.AX,DEV,DevEx Resources Limited,financial_data,insufficient_annual_history:0
+DGH.AX,DGH,Desane Group Holdings Limited,market_cap,below_min_market_cap:21146546
+DGR.AX,DGR,DGR Global Limited,market_cap,below_min_market_cap:23329335
+DKM.AX,DKM,Duketon Mining Limited,market_cap,below_min_market_cap:9149739
+DLI.AX,DLI,Delta Lithium Limited,financial_data,insufficient_annual_history:0
+DLY.AX,DLY,Daly Resources Ltd,market_cap,below_min_market_cap:8263482
+DM1.AX,DM1,Desert Metals Limited,market_cap,below_min_market_cap:2803347
+DME.AX,DME,Dome Gold Mines Ltd,market_cap,below_min_market_cap:14664984
+DOC.AX,DOC,Doctor Care Anywhere Group PLC,market_cap,below_min_market_cap:28206542
+DRE.AX,DRE,Dreadnought Resources Limited,market_cap,below_min_market_cap:43990781
+DRO.AX,DRO,DroneShield Limited,financial_data,ttm_ebitda_not_positive
+DRX.AX,DRX,Diatreme Resources Limited,market_cap,below_min_market_cap:45478951
+DSK.AX,DSK,Dusk Group Limited,market_cap,below_min_market_cap:30011756
+DSM.AX,DSM,Desert Minerals Limited,market_cap,below_min_market_cap:14507036
+DTM.AX,DTM,Dart Mining NL,market_cap,below_min_market_cap:2568074
+DTR.AX,DTR,Dateline Resources Limited,financial_data,insufficient_annual_history:2
+DTZ.AX,DTZ,Dotz Nano Limited,market_cap,below_min_market_cap:10968793
+DUB.AX,DUB,Dubber Corporation Limited,market_cap,below_min_market_cap:13261589
+DUN.AX,DUN,Dundas Minerals Limited,market_cap,below_min_market_cap:8372649
+DVL.AX,DVL,dorsaVi Ltd,market_cap,below_min_market_cap:18979203
+DWG.AX,DWG,DataWorks Group Limited,market_cap,below_min_market_cap:10286567
+DXB.AX,DXB,Dimerix Limited,financial_data,ttm_ebitda_not_positive
+DXN.AX,DXN,DXN Limited,financial_data,ttm_ebitda_not_positive
+DXS.AX,DXS,DEXUS,identity,excluded_industry:reit
+DYL.AX,DYL,Deep Yellow Limited,expected_fcf,expected_fcf_not_positive
+DYM.AX,DYM,Dynamic Metals Limited,market_cap,below_min_market_cap:20527442
+E25.AX,E25,Element 25 Limited,financial_data,ttm_ebitda_not_positive
+E79.AX,E79,E79 Gold Mines Limited,market_cap,below_min_market_cap:6915032
+EAU.AX,EAU,EAU Lithium Limited,market_cap,below_min_market_cap:20279396
+EAX.AX,EAX,Energy Action Limited,market_cap,below_min_market_cap:9990693
+EBR.AX,EBR,"EBR Systems, Inc.",financial_data,ttm_ebitda_not_positive
+ECH.AX,ECH,Echelon Resources Limited,expected_fcf,expected_fcf_not_positive
+ECL.AX,ECL,Excelsior Capital Limited,market_cap,below_min_market_cap:19240532
+ECS.AX,ECS,ECS Botanics Holdings Ltd,market_cap,below_min_market_cap:5609281
+ECT.AX,ECT,Environmental Clean Technologies Limited,market_cap,below_min_market_cap:28825450
+EDE.AX,EDE,Eden Innovations Ltd,market_cap,below_min_market_cap:28689702
+EE1.AX,EE1,Earths Energy Limited,market_cap,below_min_market_cap:2620580
+EF2.AX,EF2,ENERGYFUEL CDI 1:1 [EF2],financial_data,ttm_ebitda_not_positive
+EFE.AX,EFE,Eastern Resources Limited,market_cap,below_min_market_cap:2445392
+EFR.AX,EFR,Everflow Resources Limited,market_cap,market_cap_unavailable
+EG1.AX,EG1,Evergold Minerals Limited,market_cap,below_min_market_cap:7323476
+EGA.AX,EGA,Eastern Gas Corporation Limited,market_cap,below_min_market_cap:11630344
+EGG.AX,EGG,Enero Group Limited,market_cap,below_min_market_cap:13626748
+EGL.AX,EGL,The Environmental Group Limited,market_cap,below_min_market_cap:24718006
+EGR.AX,EGR,EcoGraf Limited,financial_data,insufficient_annual_history:0
+EGY.AX,EGY,Energy Technologies Limited,market_cap,below_min_market_cap:8727285
+EIQ.AX,EIQ,Echo IQ Limited,financial_data,ttm_ebitda_not_positive
+EL8.AX,EL8,Elevate Uranium Ltd,financial_data,insufficient_annual_history:0
+ELK.AX,ELK,Elk Range Mining Limited,market_cap,below_min_market_cap:10703124
+ELT.AX,ELT,Elementos Limited,financial_data,insufficient_annual_history:0
+ELV.AX,ELV,Elevra Lithium Limited,expected_fcf,expected_fcf_not_positive
+EM2.AX,EM2,Eagle Mountain Mining Limited,market_cap,below_min_market_cap:6449118
+EM3.AX,EM3,EMC Gold Corporation,market_cap,below_min_market_cap:27615061
+EMA.AX,EMA,Eminence Minerals Limited,market_cap,below_min_market_cap:6702370
+EMB.AX,EMB,Embelton Limited,market_cap,below_min_market_cap:12435262
+EMC.AX,EMC,Everest Metals Corporation Ltd,market_cap,below_min_market_cap:20800343
+EMD.AX,EMD,Emyria Limited,market_cap,below_min_market_cap:23102912
+EME.AX,EME,Energy Metals Limited,market_cap,below_min_market_cap:12449764
+EMH.AX,EMH,European Metals Holdings Limited,market_cap,below_min_market_cap:21595719
+EML.AX,EML,EML Payments Limited,financial_data,ttm_ebitda_not_positive
+EMN.AX,EMN,Euro Manganese Inc.,market_cap,below_min_market_cap:8987081
+EMP.AX,EMP,Emperor Energy Limited,financial_data,insufficient_annual_history:0
+EMT.AX,EMT,eMetals Limited,market_cap,below_min_market_cap:2860439
+EMU.AX,EMU,Emu NL,market_cap,below_min_market_cap:4815214
+EMV.AX,EMV,EMVision Medical Devices Ltd,financial_data,insufficient_annual_history:0
+ENL.AX,ENL,"Enlitic, Inc.",market_cap,below_min_market_cap:20307305
+ENP.AX,ENP,Entropy Neurodynamics Limited,market_cap,below_min_market_cap:42220572
+ENR.AX,ENR,Encounter Resources Limited,financial_data,insufficient_annual_history:0
+ENT.AX,ENT,Enterprise Metals Limited,market_cap,below_min_market_cap:4018081
+ENV.AX,ENV,Enova Mining Limited,market_cap,below_min_market_cap:3181907
+EOS.AX,EOS,Electro Optic Systems Holdings Limited,financial_data,ttm_ebitda_not_positive
+EPI.AX,EPI,Epiminder Limited,market_cap,below_min_market_cap:43134551
+EPM.AX,EPM,Eclipse Metals Limited,market_cap,below_min_market_cap:27592644
+EPN.AX,EPN,Epsilon Healthcare Limited,market_cap,below_min_market_cap:7066712
+EPX.AX,EPX,EPX Limited,market_cap,below_min_market_cap:10268914
+EPY.AX,EPY,Earlypay Limited,identity,excluded_sector:Financial Services
+EQR.AX,EQR,EQ Resources Limited,expected_fcf,expected_fcf_not_positive
+EQT.AX,EQT,EQT Holdings Limited,identity,excluded_sector:Financial Services
+EQU.AX,EQU,Equus Energy Limited,market_cap,below_min_market_cap:46457957
+EQX.AX,EQX,Equatorial Resources Limited,market_cap,below_min_market_cap:11706680
+ERA.AX,ERA,Energy Resources of Australia Ltd,financial_data,ttm_ebitda_not_positive
+ERE.AX,ERE,European Resources Limited,market_cap,below_min_market_cap:7333559
+ERG.AX,ERG,Eneco Refresh Limited,market_cap,below_min_market_cap:3234208
+ERL.AX,ERL,Empire Resources Limited,market_cap,below_min_market_cap:11663267
+ESK.AX,ESK,Etherstack plc,financial_data,ttm_ebitda_not_positive
+ESR.AX,ESR,Estrella Resources Limited,market_cap,below_min_market_cap:38539158
+ETM.AX,ETM,Energy Transition Minerals Ltd,financial_data,insufficient_annual_history:0
+EUR.AX,EUR,European Lithium Limited,financial_data,insufficient_annual_history:1
+EV1.AX,EV1,Evolution Energy Minerals Limited,market_cap,below_min_market_cap:5705002
+EV8.AX,EV8,Everlast Minerals Ltd,market_cap,below_min_market_cap:34855900
+EVE.AX,EVE,EVE Health Group Limited,market_cap,below_min_market_cap:3568549
+EVG.AX,EVG,Evion Group NL,market_cap,below_min_market_cap:9133981
+EVZ.AX,EVZ,EVZ Limited,market_cap,below_min_market_cap:33791700
+EWC.AX,EWC,Energy World Corporation Ltd,financial_data,ttm_ebitda_not_positive
+EXL.AX,EXL,Elixinol Wellness Limited,market_cap,below_min_market_cap:1903236
+EXP.AX,EXP,Experience Co Limited,market_cap,below_min_market_cap:46389169
+EXR.AX,EXR,Elixir Energy Limited,financial_data,insufficient_annual_history:0
+EXT.AX,EXT,Excite Technology Services Limited,market_cap,below_min_market_cap:9650618
+EYE.AX,EYE,Nova Eye Medical Limited,market_cap,below_min_market_cap:26370526
+EZL.AX,EZL,Euroz Hartleys Group Limited,identity,excluded_sector:Financial Services
+EZZ.AX,EZZ,EZZ Life Science Holdings Limited,market_cap,below_min_market_cap:10849754
+FAL.AX,FAL,Falcon Metals Limited,financial_data,insufficient_annual_history:0
+FAR.AX,FAR,FAR Limited,market_cap,below_min_market_cap:20333221
+FAU.AX,FAU,First Au Limited,market_cap,below_min_market_cap:24974229
+FBR.AX,FBR,FBR Limited,market_cap,below_min_market_cap:5723719
+FBU.AX,FBU,Fletcher Building Limited,other,nci_present_share_unknown
+FCG.AX,FCG,Freedom Care Group Holdings Limited,market_cap,below_min_market_cap:2799482
+FCL.AX,FCL,FINEOS Corporation Holdings plc,financial_data,ttm_ebitda_not_positive
+FCT.AX,FCT,FirstWave Cloud Technology Limited,market_cap,below_min_market_cap:7956719
+FDC.AX,FDC,FDC Consolidated Holdings Limited,financial_data,insufficient_annual_history:0
+FDR.AX,FDR,Finder Energy Holdings Limited,financial_data,insufficient_annual_history:0
+FDV.AX,FDV,Frontier Digital Ventures Limited,financial_data,ttm_ebitda_not_positive
+FEG.AX,FEG,Far East Gold Limited,market_cap,below_min_market_cap:33499694
+FEL.AX,FEL,Forte Energy Limited,market_cap,below_min_market_cap:3024601
+FFG.AX,FFG,Fatfish Group Limited,identity,excluded_sector:Financial Services
+FFI.AX,FFI,FFI Holdings Limited,market_cap,below_min_market_cap:46882388
+FFM.AX,FFM,FireFly Metals Ltd,financial_data,insufficient_annual_history:0
+FG1.AX,FG1,Flynn Gold Limited,market_cap,below_min_market_cap:5952203
+FGH.AX,FGH,Foresta Group Holding Limited,market_cap,below_min_market_cap:17967805
+FGR.AX,FGR,First Graphene Limited,market_cap,below_min_market_cap:31286014
+FHS.AX,FHS,Freehill Mining Limited,market_cap,below_min_market_cap:2840542
+FID.AX,FID,Fiducian Group Ltd,identity,excluded_sector:Financial Services
+FIN.AX,FIN,Fin Resources Limited,market_cap,below_min_market_cap:5316167
+FL1.AX,FL1,First Lithium Limited,market_cap,below_min_market_cap:12733908
+FLC.AX,FLC,Fluence Corporation Limited,expected_fcf,expected_fcf_not_positive
+FLG.AX,FLG,Flagship Minerals Limited,market_cap,below_min_market_cap:33289462
+FLN.AX,FLN,Freelancer Limited,market_cap,below_min_market_cap:34646995
+FLX.AX,FLX,Felix Group Holdings Ltd,market_cap,below_min_market_cap:8446849
+FME.AX,FME,Future Metals NL,market_cap,below_min_market_cap:9010584
+FMN.AX,FMN,Famien Resources Limited,market_cap,below_min_market_cap:28338495
+FMR.AX,FMR,FMR Resources Limited,market_cap,below_min_market_cap:26365922
+FND.AX,FND,Findi Limited,market_cap,below_min_market_cap:28281289
+FNR.AX,FNR,Far Northern Resources Limited,market_cap,below_min_market_cap:5990037
+FNX.AX,FNX,Finexia Financial Group Limited,identity,excluded_sector:Financial Services
+FOS.AX,FOS,FOS Capital Limited,market_cap,below_min_market_cap:6744318
+FRB.AX,FRB,Firebird Metals Limited,market_cap,below_min_market_cap:17196698
+FRE.AX,FRE,Firebrick Pharma Limited,market_cap,below_min_market_cap:5817806
+FRM.AX,FRM,Farm Pride Foods Limited,market_cap,below_min_market_cap:47507898
+FRS.AX,FRS,Forrestania Resources Limited,financial_data,insufficient_annual_history:1
+FRX.AX,FRX,FlexiRoam Limited,market_cap,below_min_market_cap:21189131
+FSA.AX,FSA,FSA Group Limited,identity,excluded_sector:Financial Services
+FTI.AX,FTI,Fortifai Limited,financial_data,ttm_ebitda_not_positive
+FUL.AX,FUL,Fulcrum Lithium Ltd,market_cap,below_min_market_cap:7025357
+FUN.AX,FUN,Fortuna Metals Limited,market_cap,below_min_market_cap:25038800
+FXG.AX,FXG,Felix Gold Limited,financial_data,insufficient_annual_history:0
+FZR.AX,FZR,Fitzroy River Corporation Limited,market_cap,below_min_market_cap:24884678
+G11.AX,G11,G11 Resources Limited,market_cap,below_min_market_cap:25318238
+G1C.AX,G1C,Group One Capital Limited,market_cap,below_min_market_cap:13549643
+G50.AX,G50,G50 Corp Limited,financial_data,insufficient_annual_history:0
+G6M.AX,G6M,Group 6 Metals Limited,financial_data,insufficient_annual_history:1
+G88.AX,G88,Golden Mile Resources Limited,market_cap,below_min_market_cap:2623120
+GA8.AX,GA8,GoldArc Resources Limited,market_cap,below_min_market_cap:23606335
+GAL.AX,GAL,Galileo Mining Ltd,market_cap,below_min_market_cap:15184928
+GAP.AX,GAP,Gale Pacific Limited,market_cap,below_min_market_cap:20876608
+GAS.AX,GAS,State Gas Limited,market_cap,below_min_market_cap:3529587
+GBE.AX,GBE,Globe Metals & Mining Limited,market_cap,below_min_market_cap:34906881
+GBL.AX,GBL,Great Bear Exploration Ltd,market_cap,below_min_market_cap:8785603
+GBM.AX,GBM,GBM Resources Limited,financial_data,insufficient_annual_history:2
+GBR.AX,GBR,Great Boulder Resources Limited,financial_data,insufficient_annual_history:0
+GCM.AX,GCM,GCM Corporation Limited,market_cap,below_min_market_cap:10120239
+GCR.AX,GCR,Golden Cross Resources Limited,market_cap,below_min_market_cap:1532909
+GDG.AX,GDG,Generation Development Group Limited,identity,excluded_sector:Financial Services
+GDI.AX,GDI,GDI Property Group,expected_fcf,expected_fcf_not_positive
+GDM.AX,GDM,Great Divide Mining Ltd,market_cap,below_min_market_cap:13827753
+GDR.AX,GDR,Golden Dragon Mining Ltd,market_cap,below_min_market_cap:5986598
+GED.AX,GED,Golden Deeps Limited,market_cap,below_min_market_cap:6689228
+GEN.AX,GEN,Genmin Limited,market_cap,below_min_market_cap:15707591
+GES.AX,GES,Genesis Resources Limited,market_cap,below_min_market_cap:7108786
+GG1.AX,GG1,Green & Gold Minerals Limited,market_cap,below_min_market_cap:4471547
+GG8.AX,GG8,Gorilla Gold Mines Ltd,financial_data,insufficient_annual_history:0
+GGE.AX,GGE,Grand Gulf Energy Limited,market_cap,below_min_market_cap:2179677
+GGM.AX,GGM,Global Gold Mining Limited,market_cap,below_min_market_cap:42653978
+GGR.AX,GGR,Golden Globe Resources Ltd,market_cap,below_min_market_cap:12715246
+GHM.AX,GHM,Golden Horse Minerals Limited,financial_data,ttm_ebitda_not_positive
+GHY.AX,GHY,Gold Hydrogen Limited,financial_data,insufficient_annual_history:0
+GIB.AX,GIB,Gibb River Diamonds Limited,market_cap,below_min_market_cap:4794847
+GL1.AX,GL1,Global Lithium Resources Limited,financial_data,insufficient_annual_history:2
+GLC.AX,GLC,GLENCORE PLC,identity,quote_type:NONE
+GLE.AX,GLE,GLG Corp Ltd,market_cap,below_min_market_cap:7246438
+GLH.AX,GLH,Global Health Limited,market_cap,below_min_market_cap:2423077
+GLL.AX,GLL,Galilee Energy Limited,market_cap,below_min_market_cap:6685220
+GLN.AX,GLN,Galan Lithium Limited,financial_data,insufficient_annual_history:0
+GMG.AX,GMG,Goodman Group,identity,excluded_industry:reit
+GML.AX,GML,Gateway Mining Limited,financial_data,insufficient_annual_history:0
+GMN.AX,GMN,Gold Mountain Limited,market_cap,below_min_market_cap:11062871
+GNM.AX,GNM,Great Northern Minerals Limited,market_cap,below_min_market_cap:8278934
+GOW.AX,GOW,Gowing Bros. Limited,identity,excluded_sector:Financial Services
+GOZ.AX,GOZ,Growthpoint Properties Australia,identity,excluded_industry:reit
+GPR.AX,GPR,Geopacific Resources Limited,financial_data,insufficient_annual_history:0
+GPT.AX,GPT,The GPT Group,identity,excluded_industry:reit
+GQG.AX,GQG,GQG Partners Inc.,identity,excluded_sector:Financial Services
+GR8.AX,GR8,Great Dirt Resources Ltd,market_cap,below_min_market_cap:22415095
+GRE.AX,GRE,GreenTech Metals Limited,market_cap,below_min_market_cap:11814203
+GRS.AX,GRS,Gwardar Resources Limited,market_cap,below_min_market_cap:11525601
+GRV.AX,GRV,Greenvale Energy Ltd,market_cap,below_min_market_cap:11129449
+GRX.AX,GRX,GreenX Metals Limited,financial_data,ttm_ebitda_not_positive
+GSM.AX,GSM,Golden State Mining Limited,market_cap,below_min_market_cap:3033101
+GSN.AX,GSN,Great Southern Mining Limited,market_cap,below_min_market_cap:17154024
+GSS.AX,GSS,Genetic Signatures Limited,market_cap,below_min_market_cap:12692866
+GT1.AX,GT1,Green Technology Metals Limited,market_cap,below_min_market_cap:10942551
+GT3.AX,GT3,Green360 Technologies LImited,market_cap,below_min_market_cap:24286165
+GTE.AX,GTE,Great Western Exploration Limited,market_cap,below_min_market_cap:4345299
+GTG.AX,GTG,Genetic Technologies Limited,market_cap,below_min_market_cap:3961493
+GTI.AX,GTI,Gratifii Limited,market_cap,below_min_market_cap:14459169
+GTN.AX,GTN,GTN Limited,market_cap,below_min_market_cap:25304933
+GUL.AX,GUL,Gullewa Limited,market_cap,below_min_market_cap:10361839
+GUM.AX,GUM,Gumtree Australia Markets Limited,market_cap,below_min_market_cap:19298249
+GW1.AX,GW1,Greenwing Resources Ltd,market_cap,below_min_market_cap:30109708
+GWR.AX,GWR,GWR Group Limited,market_cap,below_min_market_cap:25009261
+H2G.AX,H2G,H2G Limited,market_cap,below_min_market_cap:7258607
+H3E.AX,H3E,H3 Energy Limited,market_cap,below_min_market_cap:4682742
+HAL.AX,HAL,Halo Technologies Holdings Limited,market_cap,below_min_market_cap:2857084
+HAR.AX,HAR,Haranga Resources Limited,market_cap,below_min_market_cap:17088570
+HAS.AX,HAS,Hastings Technology Metals Limited,market_cap,below_min_market_cap:33553374
+HAV.AX,HAV,Havilah Resources Limited,financial_data,insufficient_annual_history:0
+HAW.AX,HAW,Hawthorn Resources Limited,market_cap,below_min_market_cap:15210963
+HCH.AX,HCH,Hot Chili Limited,financial_data,insufficient_annual_history:0
+HCL.AX,HCL,HighCom Limited,market_cap,below_min_market_cap:11873862
+HCT.AX,HCT,Holista Colltech Limited,market_cap,below_min_market_cap:12846968
+HE8.AX,HE8,Helios Energy Limited,market_cap,below_min_market_cap:5426523
+HFR.AX,HFR,Highfield Resources Limited,market_cap,below_min_market_cap:6291886
+HFY.AX,HFY,Hubify Limited,market_cap,below_min_market_cap:3973160
+HGH.AX,HGH,Heartland Group Holdings Limited,identity,excluded_sector:Financial Services
+HIO.AX,HIO,Hawsons Iron Limited,market_cap,below_min_market_cap:9626539
+HIQ.AX,HIQ,HITIQ Limited,market_cap,below_min_market_cap:4047686
+HIT.AX,HIT,HiTech Group Australia Limited,market_cap,below_min_market_cap:37839482
+HLI.AX,HLI,Helia Group Limited,identity,excluded_sector:Financial Services
+HLX.AX,HLX,Helix Resources Limited,market_cap,below_min_market_cap:5242627
+HMC.AX,HMC,HMC Capital Limited,identity,excluded_industry:reit
+HMD.AX,HMD,HeraMED Limited,market_cap,below_min_market_cap:29135872
+HMG.AX,HMG,Hamelin Gold Limited,market_cap,below_min_market_cap:36361195
+HMI.AX,HMI,Hiremii Limited,market_cap,below_min_market_cap:3682265
+HMX.AX,HMX,Hammer Metals Limited,market_cap,below_min_market_cap:48641511
+HMY.AX,HMY,Harmoney Corp Limited,identity,excluded_sector:Financial Services
+HOR.AX,HOR,Horseshoe Metals Limited,market_cap,below_min_market_cap:11001810
+HPC.AX,HPC,The Hydration Pharmaceuticals Company Limited,market_cap,below_min_market_cap:1127385
+HPR.AX,HPR,High Peak Royalties Limited,market_cap,below_min_market_cap:15296711
+HRE.AX,HRE,Heavy Rare Earths Limited,market_cap,below_min_market_cap:6856902
+HRN.AX,HRN,Horizon Gold Limited,financial_data,insufficient_annual_history:0
+HT8.AX,HT8,Harris Technology Group Limited,market_cap,below_min_market_cap:5865206
+HTM.AX,HTM,High-Tech Metals Limited,market_cap,below_min_market_cap:19488093
+HUB.AX,HUB,HUB24 Limited,identity,excluded_sector:Financial Services
+HUM.AX,HUM,Humm Group Limited,identity,excluded_sector:Financial Services
+HVY.AX,HVY,Heavy Minerals Limited,market_cap,below_min_market_cap:15892718
+HWK.AX,HWK,Hawk Resources Limited,market_cap,below_min_market_cap:12049161
+HXL.AX,HXL,Hexima Limited,identity,excluded_sector:Financial Services
+HYD.AX,HYD,Hydrix Limited,market_cap,below_min_market_cap:3038033
+HYT.AX,HYT,Hyterra Ltd,market_cap,below_min_market_cap:8232627
+HZR.AX,HZR,Hazer Group Limited,financial_data,insufficient_annual_history:2
+I88.AX,I88,Infini Resources Limited,market_cap,below_min_market_cap:7558482
+IAG.AX,IAG,Insurance Australia Group Limited,identity,excluded_sector:Financial Services
+IAM.AX,IAM,Income Asset Management Group Limited,identity,excluded_sector:Financial Services
+IBR.AX,IBR,Iron Bear Resources Ltd,market_cap,below_min_market_cap:15454783
+IBX.AX,IBX,Imagion Biosystems Limited,market_cap,below_min_market_cap:3916631
+ICE.AX,ICE,icetana Limited,market_cap,below_min_market_cap:22274129
+ICL.AX,ICL,Iceni Gold Limited,market_cap,below_min_market_cap:5232662
+ICR.AX,ICR,Intelicare Holdings Limited,market_cap,below_min_market_cap:10492765
+ICU.AX,ICU,Investor Centre Limited,identity,excluded_sector:Financial Services
+ID1.AX,ID1,IDENTIFAI GENETICS LIMITED,market_cap,below_min_market_cap:33525257
+ID8.AX,ID8,Identitii Limited,market_cap,below_min_market_cap:3013762
+IDA.AX,IDA,Indiana Resources Limited,market_cap,below_min_market_cap:8100157
+IDT.AX,IDT,IDT Australia Limited,market_cap,below_min_market_cap:12009410
+IEQ.AX,IEQ,International Equities Corporation Limited,identity,quote_type:MUTUALFUND
+IFG.AX,IFG,InFocus Group Holdings Limited,market_cap,below_min_market_cap:3420943
+IFN.AX,IFN,Infragreen Group Limited,financial_data,insufficient_annual_history:0
+IG6.AX,IG6,International Graphite Limited,market_cap,below_min_market_cap:8594242
+IGN.AX,IGN,Ignite Limited,market_cap,below_min_market_cap:6701117
+IIQ.AX,IIQ,INOVIQ Ltd,market_cap,below_min_market_cap:14750154
+IKE.AX,IKE,ikeGPS Group Limited,financial_data,ttm_ebitda_not_positive
+ILA.AX,ILA,Island Pharmaceuticals Limited,financial_data,ttm_ebitda_not_positive
+ILT.AX,ILT,Iltani Resources Limited,market_cap,below_min_market_cap:19212708
+ILU.AX,ILU,Iluka Resources Limited,expected_fcf,expected_fcf_not_positive
+IMA.AX,IMA,Image Resources NL,market_cap,below_min_market_cap:24146690
+IMB.AX,IMB,Intelligent Monitoring Group Limited,other,nci_present_share_unknown
+IMC.AX,IMC,Immuron Limited,market_cap,below_min_market_cap:9471655
+IME.AX,IME,ImExHS Limited,market_cap,below_min_market_cap:11398935
+IMI.AX,IMI,Infinity Mining Limited,market_cap,below_min_market_cap:2440897
+IMM.AX,IMM,Immutep Limited,market_cap,below_min_market_cap:26764989
+IMR.AX,IMR,"Imricor Medical Systems, Inc.",financial_data,ttm_ebitda_not_positive
+IMU.AX,IMU,Imugene Limited,market_cap,below_min_market_cap:14402747
+INA.AX,INA,Ingenia Communities Group,identity,excluded_industry:reit
+IND.AX,IND,Industrial Minerals Ltd,market_cap,below_min_market_cap:11250574
+INF.AX,INF,Infinity Metals Limited,market_cap,below_min_market_cap:2470885
+INN.AX,INN,INNOVAERO FPO [INN],financial_data,insufficient_annual_history:0
+INR.AX,INR,ioneer Ltd,financial_data,ttm_fcf_unavailable
+INV.AX,INV,InvestSMART Group Limited,identity,excluded_sector:Financial Services
+IOD.AX,IOD,IODM Limited,market_cap,below_min_market_cap:41500538
+ION.AX,ION,Iondrive Limited,financial_data,insufficient_annual_history:0
+IOV.AX,IOV,Ion Video Ltd,market_cap,below_min_market_cap:39462868
+IPC.AX,IPC,Imperial Pacific Limited,identity,excluded_sector:Financial Services
+IPD.AX,IPD,ImpediMed Limited,market_cap,market_cap_unavailable
+IPT.AX,IPT,Impact Minerals Limited,market_cap,below_min_market_cap:9409794
+IPX.AX,IPX,IperionX Limited,financial_data,ttm_revenue_unavailable
+IRD.AX,IRD,Iron Road Limited,market_cap,below_min_market_cap:4695126
+IRI.AX,IRI,Integrated Research Limited,market_cap,below_min_market_cap:35035545
+IS3.AX,IS3,I Synergy Group Limited,market_cap,below_min_market_cap:6814377
+ITM.AX,ITM,iTech Minerals Ltd,market_cap,below_min_market_cap:7675837
+ITS.AX,ITS,Infotrust Ltd,market_cap,below_min_market_cap:38508088
+IVG.AX,IVG,InVert Graphite Ltd,market_cap,below_min_market_cap:15348992
+IVR.AX,IVR,Investigator Silver Limited,financial_data,insufficient_annual_history:0
+IVX.AX,IVX,Invion Limited,market_cap,below_min_market_cap:2822313
+IVZ.AX,IVZ,Invictus Energy Limited,financial_data,insufficient_annual_history:0
+IXC.AX,IXC,Invex Therapeutics Ltd,market_cap,below_min_market_cap:5512122
+IXR.AX,IXR,Ionic Rare Earths Limited,financial_data,insufficient_annual_history:0
+JAL.AX,JAL,Jameson Resources Limited,market_cap,below_min_market_cap:28868199
+JAN.AX,JAN,Janison Education Group Limited,market_cap,below_min_market_cap:19061377
+JAT.AX,JAT,Jatcorp Limited,market_cap,below_min_market_cap:6749550
+JAV.AX,JAV,Javelin Minerals Limited,market_cap,below_min_market_cap:17358799
+JCS.AX,JCS,JCurve Solutions Limited,market_cap,below_min_market_cap:6682924
+JDO.AX,JDO,Judo Capital Holdings Limited,identity,excluded_sector:Financial Services
+JGH.AX,JGH,Jade Gas Holdings Limited,financial_data,insufficient_annual_history:1
+JLL.AX,JLL,Jindalee Lithium Limited,market_cap,below_min_market_cap:34390197
+JMS.AX,JMS,Jupiter Mines Limited,financial_data,insufficient_annual_history:0
+JNO.AX,JNO,Juno Minerals Limited,market_cap,below_min_market_cap:3800058
+JNS.AX,JNS,Janus Electric Holdings Limited,financial_data,insufficient_annual_history:2
+JPR.AX,JPR,Jupiter Energy Limited,market_cap,below_min_market_cap:13436562
+KAL.AX,KAL,Kalgoorlie Gold Mining Limited,market_cap,below_min_market_cap:7158888
+KAM.AX,KAM,K2 Asset Management Holdings Ltd,identity,excluded_sector:Financial Services
+KAN.AX,KAN,Kantra Copper Limited,financial_data,insufficient_annual_history:2
+KAO.AX,KAO,Kaoko Metals Limited,market_cap,below_min_market_cap:45282553
+KCC.AX,KCC,Kincora Copper Limited,market_cap,below_min_market_cap:30186956
+KCN.AX,KCN,Kingsgate Consolidated Limited,financial_data,insufficient_annual_history:2
+KEY.AX,KEY,Key Petroleum Limited,market_cap,below_min_market_cap:2393539
+KFM.AX,KFM,Kingfisher Mining Limited,market_cap,below_min_market_cap:5452248
+KGL.AX,KGL,KGL Resources Limited,financial_data,insufficient_annual_history:0
+KKO.AX,KKO,Kinetiko Energy Limited,market_cap,below_min_market_cap:34347015
+KLI.AX,KLI,Killi Resources Limited,financial_data,insufficient_annual_history:1
+KLR.AX,KLR,Kaili Resources Limited,market_cap,below_min_market_cap:6589567
+KLV.AX,KLV,Klevo Group Limited,expected_fcf,expected_fcf_not_positive
+KM1.AX,KM1,Kali Metals Limited,market_cap,below_min_market_cap:11843175
+KME.AX,KME,Kip McGrath Education Centres Limited,market_cap,below_min_market_cap:25482756
+KNB.AX,KNB,Koonenberry Gold Limited,market_cap,below_min_market_cap:17230546
+KNG.AX,KNG,Kingsland Minerals Ltd,market_cap,below_min_market_cap:2658587
+KNI.AX,KNI,Kuniko Limited,market_cap,below_min_market_cap:4578606
+KNO.AX,KNO,Knosys Limited,market_cap,below_min_market_cap:3321495
+KOA.AX,KOA,The Koala Company Limited,financial_data,insufficient_annual_history:0
+KOB.AX,KOB,Koba Resources Limited,market_cap,below_min_market_cap:6185959
+KOV.AX,KOV,Korvest Ltd,expected_fcf,expected_fcf_not_positive
+KP2.AX,KP2,Kore Potash plc,financial_data,ttm_ebitda_not_positive
+KPO.AX,KPO,Kalina Power Limited,market_cap,below_min_market_cap:35531195
+KRM.AX,KRM,Kingsrose Mining Limited,market_cap,below_min_market_cap:10527054
+KRR.AX,KRR,King River Resources Limited,financial_data,insufficient_annual_history:0
+KSL.AX,KSL,Kina Securities Limited,identity,excluded_sector:Financial Services
+KSN.AX,KSN,Kingston Resources Limited,market_cap,below_min_market_cap:27978741
+KTA.AX,KTA,Krakatoa Resources Limited,market_cap,below_min_market_cap:5622412
+KTK.AX,KTK,KTEK Aerosystems Ltd,market_cap,below_min_market_cap:15702711
+KYN.AX,KYN,Kyron Capital Group,identity,excluded_sector:Financial Services
+KYP.AX,KYP,Kinatico Ltd,market_cap,below_min_market_cap:45749111
+KZR.AX,KZR,Kalamazoo Resources Limited,market_cap,below_min_market_cap:42558412
+L1G.AX,L1G,L1 Group Limited,identity,excluded_sector:Financial Services
+L1M.AX,L1M,Lightning Minerals Ltd,market_cap,below_min_market_cap:2920625
+LAC.AX,LAC,Lac Gold Limited,financial_data,insufficient_annual_history:1
+LAM.AX,LAM,Laramide Resources Ltd.,financial_data,ttm_ebitda_not_positive
+LAT.AX,LAT,Latitude 66 Limited,market_cap,below_min_market_cap:15895325
+LBL.AX,LBL,LaserBond Limited,market_cap,below_min_market_cap:41969647
+LCE.AX,LCE,London City Equities Limited,identity,excluded_sector:Financial Services
+LCL.AX,LCL,LCL Resources Limited,market_cap,below_min_market_cap:5894490
+LCY.AX,LCY,Legacy Iron Ore Limited,market_cap,below_min_market_cap:34094869
+LDR.AX,LDR,Lode Resources Ltd,market_cap,below_min_market_cap:11908858
+LDX.AX,LDX,Lumos Diagnostics Holdings Limited,financial_data,ttm_ebitda_not_positive
+LEG.AX,LEG,Legend Mining Limited,market_cap,below_min_market_cap:16286547
+LEL.AX,LEL,LE Minerals Limited,market_cap,below_min_market_cap:23079396
+LEX.AX,LEX,Lefroy Exploration Limited,market_cap,below_min_market_cap:19364358
+LFG.AX,LFG,Liberty Financial Group Limited,identity,excluded_sector:Financial Services
+LFS.AX,LFS,Latitude Group Holdings Limited,identity,excluded_sector:Financial Services
+LFT.AX,LFT,Li-FT Power Ltd.,financial_data,ttm_ebitda_not_positive
+LGI.AX,LGI,LGI Limited,expected_fcf,expected_fcf_not_positive
+LGM.AX,LGM,Legacy Minerals Holdings Limited,market_cap,below_min_market_cap:17473041
+LGP.AX,LGP,Little Green Pharma Ltd,market_cap,below_min_market_cap:38750052
+LIB.AX,LIB,Liberty Metals Ltd,market_cap,below_min_market_cap:21251507
+LIN.AX,LIN,Lindian Resources Limited,financial_data,insufficient_annual_history:1
+LIO.AX,LIO,Lion Energy Limited,market_cap,below_min_market_cap:5053666
+LIS.AX,LIS,Li-S Energy Limited,financial_data,insufficient_annual_history:1
+LIT.AX,LIT,Livium Ltd,market_cap,below_min_market_cap:11175980
+LKE.AX,LKE,Lake Resources NL,financial_data,insufficient_annual_history:0
+LKO.AX,LKO,Lakes Blue Energy NL,market_cap,below_min_market_cap:20737279
+LKY.AX,LKY,Locksley Resources Limited,market_cap,below_min_market_cap:15484649
+LLC.AX,LLC,Lendlease Group,expected_fcf,expected_fcf_not_positive
+LM1.AX,LM1,Leeuwin Metals Ltd,market_cap,below_min_market_cap:19688594
+LM8.AX,LM8,Lunnon Metals Limited,financial_data,insufficient_annual_history:0
+LMG.AX,LMG,Latrobe Magnesium Limited,market_cap,below_min_market_cap:39259510
+LML.AX,LML,Lincoln Minerals Limited,market_cap,below_min_market_cap:24337330
+LMS.AX,LMS,Litchfield Minerals Limited,market_cap,below_min_market_cap:10187227
+LNQ.AX,LNQ,LinQ Minerals Limited,financial_data,insufficient_annual_history:0
+LOT.AX,LOT,Lotus Resources Limited,financial_data,insufficient_annual_history:0
+LPE.AX,LPE,Locality Planning Energy Holdings Limited,market_cap,below_min_market_cap:13394499
+LPM.AX,LPM,Lithium Plus Minerals Ltd,market_cap,below_min_market_cap:13476181
+LRD.AX,LRD,Lord Resources Limited,market_cap,below_min_market_cap:1980464
+LRK.AX,LRK,LARK Distilling Co. Ltd.,financial_data,ttm_ebitda_not_positive
+LRM.AX,LRM,Lion Rock Minerals Ltd,market_cap,below_min_market_cap:43508379
+LRV.AX,LRV,Larvotto Resources Limited,financial_data,insufficient_annual_history:0
+LSA.AX,LSA,Lachlan Star Limited,market_cap,below_min_market_cap:24915779
+LSR.AX,LSR,Lodestar Minerals Limited,market_cap,below_min_market_cap:7284106
+LTP.AX,LTP,LTR Pharma Limited,financial_data,insufficient_annual_history:1
+LTR.AX,LTR,Liontown Limited,financial_data,insufficient_annual_history:2
+LU7.AX,LU7,Lithium Universe Limited,market_cap,below_min_market_cap:5277122
+LUX.AX,LUX,Lux Copper Corp. Ltd,market_cap,below_min_market_cap:17314232
+LVE.AX,LVE,Love Group Global Ltd,market_cap,below_min_market_cap:2689820
+LYC.AX,LYC,Lynas Rare Earths Limited,expected_fcf,expected_fcf_not_positive
+M24.AX,M24,Mamba Exploration Limited,market_cap,below_min_market_cap:23365472
+M2M.AX,M2M,Mt Malcolm Mines NL,market_cap,below_min_market_cap:3322857
+M2R.AX,M2R,Miramar Resources Limited,market_cap,below_min_market_cap:3683973
+M3M.AX,M3M,M3 Mining Limited,market_cap,below_min_market_cap:3354654
+M4M.AX,M4M,Macro Metals Limited,market_cap,below_min_market_cap:19176996
+M79.AX,M79,Mammoth Minerals Limited,market_cap,below_min_market_cap:13664400
+M7T.AX,M7T,Mach7 Technologies Limited,market_cap,below_min_market_cap:34473343
+M96.AX,M96,Maverick Minerals Australia Ltd,market_cap,below_min_market_cap:7747185
+MAF.AX,MAF,MA Financial Group Limited,identity,excluded_sector:Financial Services
+MAG.AX,MAG,Magmatic Resources Limited,market_cap,below_min_market_cap:7367178
+MAM.AX,MAM,Microequities Asset Management Group Limited,identity,excluded_sector:Financial Services
+MAN.AX,MAN,Mandrake Resources Limited,market_cap,below_min_market_cap:8763061
+MAP.AX,MAP,Microba Life Sciences Limited,market_cap,below_min_market_cap:25046008
+MAQ.AX,MAQ,Macquarie Technology Group Limited,expected_fcf,expected_fcf_not_positive
+MAT.AX,MAT,Matsa Resources Limited,market_cap,below_min_market_cap:31884628
+MAY.AX,MAY,Melbana Energy Limited,market_cap,below_min_market_cap:10567111
+MBG.AX,MBG,MB Gold Limited,market_cap,below_min_market_cap:7731798
+MBH.AX,MBH,Maggie Beer Holdings Limited,market_cap,below_min_market_cap:17836945
+MBK.AX,MBK,Metal Bank Limited,market_cap,below_min_market_cap:6369502
+MC2.AX,MC2,Marimaca Copper Corp.,financial_data,ttm_ebitda_not_positive
+MCA.AX,MCA,Murray Cod Australia Limited,market_cap,below_min_market_cap:24239931
+MCM.AX,MCM,MC Mining Limited,financial_data,ttm_ebitda_not_positive
+MCO.AX,MCO,Myeco Group Ltd,market_cap,below_min_market_cap:8011031
+MCP.AX,MCP,McPherson's Limited,market_cap,below_min_market_cap:13825794
+MDI.AX,MDI,Middle Island Resources Limited,market_cap,below_min_market_cap:9020107
+MDX.AX,MDX,Mindax Limited,financial_data,insufficient_annual_history:0
+MEC.AX,MEC,Morphic Ethical Equities Fund Limited,identity,excluded_sector:Financial Services
+MEG.AX,MEG,Megado Minerals Limited,market_cap,below_min_market_cap:5034110
+MEI.AX,MEI,Meteoric Resources Limited,financial_data,insufficient_annual_history:0
+MEK.AX,MEK,Meeka Metals Limited,financial_data,insufficient_annual_history:0
+MEL.AX,MEL,Metgasco Limited,market_cap,below_min_market_cap:487638
+MEM.AX,MEM,Memphasys Limited,market_cap,below_min_market_cap:10810401
+MEU.AX,MEU,Marmota Limited,financial_data,insufficient_annual_history:0
+MEX.AX,MEX,Minerals Exploration Limited,market_cap,below_min_market_cap:5631640
+MFD.AX,MFD,Mayfield Childcare Limited,market_cap,below_min_market_cap:9588758
+MFG.AX,MFG,Magellan Financial Group Limited,identity,excluded_sector:Financial Services
+MGA.AX,MGA,MetalsGrove Mining Limited,market_cap,below_min_market_cap:9944546
+MGH.AX,MGH,MAAS Group Holdings Limited,expected_fcf,expected_fcf_not_positive
+MGL.AX,MGL,Magontec Limited,market_cap,below_min_market_cap:8903086
+MGR.AX,MGR,Mirvac Group,identity,excluded_industry:reit
+MGT.AX,MGT,Magnetite Mines Limited,market_cap,below_min_market_cap:2388136
+MGU.AX,MGU,Magnum Mining and Exploration Limited,market_cap,below_min_market_cap:15710576
+MGX.AX,MGX,MGX Resources Limited,market_cap,market_cap_unavailable
+MHC.AX,MHC,Manhattan Gold Corporation Limited,market_cap,below_min_market_cap:10888629
+MHK.AX,MHK,Metal Hawk Limited,market_cap,below_min_market_cap:9097133
+MHM.AX,MHM,Mount Hope Mining Limited,market_cap,below_min_market_cap:8277452
+MI6.AX,MI6,Minerals 260 Limited,financial_data,insufficient_annual_history:0
+MIO.AX,MIO,Macarthur Minerals Limited,market_cap,below_min_market_cap:6101858
+MKR.AX,MKR,Manuka Resources Limited,financial_data,ttm_ebitda_not_positive
+ML8.AX,ML8,Moonlight Resources Limited,market_cap,below_min_market_cap:11849274
+MLS.AX,MLS,Metals Australia Ltd,market_cap,below_min_market_cap:9200162
+MM1.AX,MM1,Midas Minerals Limited,financial_data,insufficient_annual_history:0
+MM8.AX,MM8,Medallion Metals Limited,financial_data,ttm_ebitda_not_positive
+MMA.AX,MMA,Maronan Metals Limited,financial_data,insufficient_annual_history:0
+MME.AX,MME,MoneyMe Limited,identity,excluded_sector:Financial Services
+MML.AX,MML,McLaren Minerals Limited,market_cap,below_min_market_cap:4943040
+MMR.AX,MMR,MEC Resources Limited,market_cap,below_min_market_cap:2615242
+MNB.AX,MNB,Minbos Resources Limited,market_cap,below_min_market_cap:13091681
+MNC.AX,MNC,Merino & Co. Limited,market_cap,below_min_market_cap:5575946
+MNE.AX,MNE,Macallum New Energy Limited,market_cap,below_min_market_cap:16158654
+MNV.AX,MNV,Monvia Limited,financial_data,insufficient_annual_history:0
+MOH.AX,MOH,Moho Resources Limited,market_cap,below_min_market_cap:2954828
+MOM.AX,MOM,Moab Minerals Limited,market_cap,below_min_market_cap:1408006
+MOV.AX,MOV,MOVE Logistics Group Limited,market_cap,below_min_market_cap:12479717
+MP1.AX,MP1,Megaport Limited,expected_fcf,expected_fcf_not_positive
+MPK.AX,MPK,Many Peaks Minerals Limited,financial_data,insufficient_annual_history:1
+MPL.AX,MPL,Medibank Private Limited,identity,excluded_sector:Financial Services
+MPP.AX,MPP,Metro Performance Glass Limited,market_cap,below_min_market_cap:15459848
+MPR.AX,MPR,MPR Australia Limited,market_cap,below_min_market_cap:1200416
+MPW.AX,MPW,Metal Powder Works Limited,financial_data,ttm_ebitda_not_positive
+MPX.AX,MPX,Mustera Property Group Limited,market_cap,below_min_market_cap:10769551
+MQG.AX,MQG,Macquarie Group Limited,market_cap,market_cap_unavailable
+MQR.AX,MQR,Marquee Resources Limited,market_cap,below_min_market_cap:2380127
+MRD.AX,MRD,Mount Ridley Mines Limited,market_cap,below_min_market_cap:35087448
+MRQ.AX,MRQ,MRG Metals Ltd,market_cap,below_min_market_cap:5009990
+MRT.AX,MRT,Maritana Minerals Limited,expected_fcf,expected_fcf_not_positive
+MRZ.AX,MRZ,Mont Royal Resources Limited,market_cap,below_min_market_cap:11294649
+MSB.AX,MSB,Mesoblast Limited,financial_data,ttm_ebitda_not_positive
+MSG.AX,MSG,MCS Services Limited,market_cap,below_min_market_cap:553505
+MSI.AX,MSI,Multistack International Limited,market_cap,below_min_market_cap:285632
+MTH.AX,MTH,Mithril Silver and Gold Limited,market_cap,below_min_market_cap:27502396
+MTL.AX,MTL,Mantle Minerals Limited,market_cap,below_min_market_cap:5052469
+MTM.AX,MTM,Metallium Limited,financial_data,insufficient_annual_history:0
+MTS.AX,MTS,Metcash Limited,market_cap,market_cap_unavailable
+MVL.AX,MVL,Marvel Gold Limited,market_cap,below_min_market_cap:14179125
+MVP.AX,MVP,Medical Developments International Limited,market_cap,below_min_market_cap:30690661
+MX1.AX,MX1,Micro-X Limited,market_cap,below_min_market_cap:31535495
+MXO.AX,MXO,Motio Limited,market_cap,below_min_market_cap:13479554
+MYG.AX,MYG,Mayfield Group Holdings Limited,expected_fcf,expected_fcf_not_positive
+MYR.AX,MYR,Myer Holdings Limited,market_cap,market_cap_unavailable
+MYS.AX,MYS,MyState Limited,identity,excluded_sector:Financial Services
+MYX.AX,MYX,Mayne Pharma Group Limited,other,nci_present_share_unknown
+N1H.AX,N1H,N1 Holdings Limited,identity,excluded_sector:Financial Services
+NAB.AX,NAB,National Australia Bank Limited,identity,excluded_sector:Financial Services
+NAE.AX,NAE,New Age Exploration Limited,market_cap,below_min_market_cap:6066307
+NAG.AX,NAG,Nagambie Resources Limited,market_cap,below_min_market_cap:13247010
+NAN.AX,NAN,Nanosonics Limited,expected_fcf,expected_fcf_not_positive
+NC1.AX,NC1,NICO Resources Limited,market_cap,below_min_market_cap:10033111
+NC6.AX,NC6,Nanollose Limited,market_cap,below_min_market_cap:22042940
+NDO.AX,NDO,Nido Education Limited,market_cap,below_min_market_cap:38043399
+NEC.AX,NEC,Nine Entertainment Co. Holdings Limited,expected_fcf,expected_fcf_not_positive
+NES.AX,NES,Nelson Resources Limited,market_cap,below_min_market_cap:3890318
+NEU.AX,NEU,Neuren Pharmaceuticals Limited,expected_fcf,expected_fcf_not_positive
+NFL.AX,NFL,Norfolk Metals Limited,market_cap,below_min_market_cap:8457933
+NFM.AX,NFM,New Frontier Minerals Limited,market_cap,below_min_market_cap:6071167
+NGI.AX,NGI,Navigator Global Investments Limited,identity,excluded_sector:Financial Services
+NGS.AX,NGS,Nutritional Growth Solutions Ltd.,market_cap,below_min_market_cap:13468027
+NGX.AX,NGX,NGX Limited,market_cap,below_min_market_cap:4936940
+NGY.AX,NGY,NuEnergy Gas Limited,market_cap,below_min_market_cap:30731270
+NH3.AX,NH3,NH3 Clean Energy Limited,market_cap,below_min_market_cap:48978963
+NHE.AX,NHE,Noble Helium Limited,market_cap,below_min_market_cap:25902695
+NHF.AX,NHF,nib holdings limited,identity,excluded_sector:Financial Services
+NHU.AX,NHU,Neu Horizon Uranium Limited,market_cap,below_min_market_cap:8380484
+NIM.AX,NIM,Nimy Resources Limited,market_cap,below_min_market_cap:9475052
+NMD.AX,NMD,Normandy Minerals Limited,market_cap,below_min_market_cap:26457601
+NME.AX,NME,Nex Metals Explorations Limited,market_cap,below_min_market_cap:2626128
+NMG.AX,NMG,New Murchison Gold Limited,financial_data,insufficient_annual_history:1
+NMR.AX,NMR,Native Mineral Resources Holdings Limited,market_cap,below_min_market_cap:46640860
+NMT.AX,NMT,Neometals Ltd,market_cap,below_min_market_cap:16519441
+NNL.AX,NNL,Nordic Resources Limited,market_cap,below_min_market_cap:49286551
+NOL.AX,NOL,NobleOak Life Limited,identity,excluded_sector:Financial Services
+NOR.AX,NOR,Norwood Systems Limited,market_cap,below_min_market_cap:3834024
+NOU.AX,NOU,Noumi Limited,market_cap,below_min_market_cap:23711856
+NOV.AX,NOV,Novatti Group Limited,market_cap,below_min_market_cap:6531540
+NOX.AX,NOX,Noxopharm Limited,market_cap,below_min_market_cap:11803638
+NPM.AX,NPM,NewPeak Metals Limited,market_cap,below_min_market_cap:3408285
+NRL.AX,NRL,Northstone Resources Limited,market_cap,below_min_market_cap:17964404
+NRX.AX,NRX,Noronex Limited,market_cap,below_min_market_cap:6206914
+NRZ.AX,NRZ,NeuRizer Ltd.,market_cap,below_min_market_cap:2376892
+NS1.AX,NS1,Nodestream Ltd,market_cap,below_min_market_cap:4855396
+NSB.AX,NSB,NeuroScientific Biopharmaceuticals Limited,market_cap,below_min_market_cap:16061328
+NSM.AX,NSM,North Stawell Minerals Limited,market_cap,below_min_market_cap:5971680
+NTD.AX,NTD,NTAW Holdings Limited,market_cap,below_min_market_cap:22881236
+NTI.AX,NTI,Neurotech International Limited,market_cap,below_min_market_cap:18061695
+NTM.AX,NTM,NT Minerals Limited,market_cap,below_min_market_cap:2537516
+NTU.AX,NTU,Northern Minerals Limited,financial_data,insufficient_annual_history:2
+NUF.AX,NUF,Nufarm Limited,market_cap,market_cap_unavailable
+NUZ.AX,NUZ,Neurizon Therapeutics Limited,market_cap,below_min_market_cap:47003668
+NVA.AX,NVA,Nova Minerals Corp,financial_data,ttm_ebitda_not_positive
+NVO.AX,NVO,Novo Resources Corp.,market_cap,below_min_market_cap:20246138
+NVQ.AX,NVQ,NoviqTech Limited,market_cap,below_min_market_cap:11044081
+NVU.AX,NVU,Nanoveu Limited,market_cap,below_min_market_cap:37216001
+NVX.AX,NVX,NOVONIX Limited,financial_data,ttm_ebitda_not_positive
+NWL.AX,NWL,Netwealth Group Limited,growth_trend,no_secondary_trend_available
+NWM.AX,NWM,Norwest Minerals Limited,market_cap,below_min_market_cap:5808121
+NX1.AX,NX1,Nexalis Therapeutics Limited,market_cap,below_min_market_cap:1590762
+NXD.AX,NXD,NextEd Group Limited,market_cap,below_min_market_cap:7653588
+NXG.AX,NXG,NexGen Energy Ltd.,financial_data,ttm_ebitda_not_positive
+NXM.AX,NXM,Nexus Minerals Limited,market_cap,below_min_market_cap:23166654
+NXN.AX,NXN,Nexsen Limited,market_cap,below_min_market_cap:19048260
+NXT.AX,NXT,NEXTDC Limited,expected_fcf,expected_fcf_not_positive
+NYM.AX,NYM,Narryer Metals Limited,market_cap,below_min_market_cap:8706366
+NZK.AX,NZK,New Zealand King Salmon Investments Limited,financial_data,ttm_fcf_unavailable
+OAK.AX,OAK,Oakridge International Limited,market_cap,below_min_market_cap:1788089
+OB1.AX,OB1,Orbminco Limited,market_cap,below_min_market_cap:4953927
+OBL.AX,OBL,Omni Bridgeway Limited,identity,excluded_sector:Financial Services
+OCC.AX,OCC,Orthocell Limited,financial_data,ttm_ebitda_not_positive
+OCN.AX,OCN,Oceana Metals Limited,financial_data,insufficient_annual_history:0
+OCT.AX,OCT,Octava Minerals Limited,market_cap,below_min_market_cap:1982745
+OD6.AX,OD6,OD6 Metals Limited,market_cap,below_min_market_cap:22859526
+ODA.AX,ODA,Orcoda Limited,market_cap,below_min_market_cap:7727954
+ODE.AX,ODE,Odessa Minerals Limited,market_cap,below_min_market_cap:22248892
+ODY.AX,ODY,Odyssey Gold Limited,market_cap,below_min_market_cap:27632709
+OEC.AX,OEC,Orbital Corporation Limited,market_cap,below_min_market_cap:13773570
+OEL.AX,OEL,Otto Energy Limited,market_cap,below_min_market_cap:23445843
+OEQ.AX,OEQ,Orion Equities Limited,identity,excluded_sector:Financial Services
+OFX.AX,OFX,OFX Group Limited,identity,excluded_sector:Financial Services
+OIL.AX,OIL,Optiscan Imaging Limited,financial_data,ttm_ebitda_not_positive
+OKJ.AX,OKJ,Oakajee Corporation Limited,market_cap,below_min_market_cap:2746702
+OLI.AX,OLI,Oliver's Real Food Limited,market_cap,below_min_market_cap:2643981
+OLY.AX,OLY,Olympio Metals Limited,market_cap,below_min_market_cap:6926622
+OM1.AX,OM1,Omnia Metals Group Ltd,market_cap,below_min_market_cap:3979144
+OMA.AX,OMA,Omega Oil & Gas Limited,financial_data,insufficient_annual_history:1
+OMG.AX,OMG,OMG Group Limited,market_cap,below_min_market_cap:4918908
+OMH.AX,OMH,OM Holdings Limited,expected_fcf,expected_fcf_not_positive
+OMX.AX,OMX,Orange Minerals NL,market_cap,below_min_market_cap:9083033
+ONE.AX,ONE,Oneview Healthcare PLC,financial_data,ttm_ebitda_not_positive
+OR3.AX,OR3,Ore Resources Limited,market_cap,below_min_market_cap:31297406
+ORA.AX,ORA,Orora Limited,expected_fcf,expected_fcf_not_positive
+ORD.AX,ORD,Ordell Minerals Limited,market_cap,below_min_market_cap:25376156
+ORI.AX,ORI,Orica Limited,market_cap,market_cap_unavailable
+ORN.AX,ORN,Orion Minerals Limited,financial_data,insufficient_annual_history:0
+ORP.AX,ORP,Orpheus Uranium Limited,market_cap,below_min_market_cap:27058070
+OSL.AX,OSL,OncoSil Medical Limited,market_cap,below_min_market_cap:18203119
+OSM.AX,OSM,Osmond Resources Limited,financial_data,insufficient_annual_history:2
+OSS.AX,OSS,Ocean Sciences Ltd,market_cap,below_min_market_cap:2137156
+OSX.AX,OSX,Osteopore Limited,market_cap,below_min_market_cap:1937951
+OVT.AX,OVT,Ovanti Limited,market_cap,below_min_market_cap:1650844
+OZM.AX,OZM,OzAurum Resources Limited,market_cap,below_min_market_cap:14189811
+OZZ.AX,OZZ,Ozz Resources Limited,market_cap,below_min_market_cap:4408294
+P1E.AX,P1E,Pure One Corporation Limited,market_cap,below_min_market_cap:9655060
+PAB.AX,PAB,Patrys Limited,market_cap,below_min_market_cap:7344169
+PAC.AX,PAC,Pacific Current Group Limited,identity,excluded_sector:Financial Services
+PAR.AX,PAR,Paradigm Biopharmaceuticals Limited,financial_data,ttm_ebitda_not_positive
+PAT.AX,PAT,Patriot Resources Limited,market_cap,below_min_market_cap:10608487
+PBH.AX,PBH,PointsBet Holdings Limited,financial_data,ttm_fcf_unavailable
+PBL.AX,PBL,Parabellum Resources Limited,market_cap,below_min_market_cap:2654582
+PC2.AX,PC2,PC Gold Limited,financial_data,insufficient_annual_history:0
+PCG.AX,PCG,Pengana Capital Group Limited,identity,excluded_sector:Financial Services
+PCK.AX,PCK,PainChek Limited,market_cap,below_min_market_cap:12570168
+PCL.AX,PCL,Pancontinental Energy NL,market_cap,below_min_market_cap:43409893
+PDI.AX,PDI,PDI Gold Limited,financial_data,insufficient_annual_history:0
+PEB.AX,PEB,Pacific Edge Limited,financial_data,ttm_ebitda_not_positive
+PEC.AX,PEC,Perpetual Resources Limited,market_cap,below_min_market_cap:10600084
+PEN.AX,PEN,Peninsula Energy Limited,financial_data,ttm_ebitda_not_positive
+PER.AX,PER,Percheron Therapeutics Limited,market_cap,below_min_market_cap:5091969
+PET.AX,PET,Phoslock Environmental Technologies Limited,market_cap,below_min_market_cap:3925338
+PFE.AX,PFE,Pantera Minerals Limited,market_cap,below_min_market_cap:4819009
+PFG.AX,PFG,Prime Financial Group Limited,identity,excluded_sector:Financial Services
+PFM.AX,PFM,Platformo Ltd,market_cap,below_min_market_cap:994429
+PFT.AX,PFT,Pure Foods Tasmania Limited,market_cap,below_min_market_cap:4785479
+PGD.AX,PGD,Peregrine Gold Limited,market_cap,below_min_market_cap:9934977
+PGL.AX,PGL,Pilbara Gold Limited,financial_data,insufficient_annual_history:0
+PGM.AX,PGM,Platina Resources Limited,market_cap,below_min_market_cap:9647327
+PGY.AX,PGY,Pilot Energy Limited,market_cap,below_min_market_cap:4717234
+PHO.AX,PHO,PhosCo Ltd,financial_data,insufficient_annual_history:0
+PHX.AX,PHX,Pharmx Technologies Limited,market_cap,below_min_market_cap:39231606
+PIL.AX,PIL,PEPPERMINT INNOVATION LIMITED,identity,quote_type:NONE
+PIM.AX,PIM,Pinnacle Minerals Limited,market_cap,below_min_market_cap:3357083
+PIQ.AX,PIQ,Proteomics International Laboratories Ltd,market_cap,below_min_market_cap:16172281
+PKD.AX,PKD,PARKD Limited,market_cap,below_min_market_cap:4694595
+PKO.AX,PKO,Peako Limited,market_cap,below_min_market_cap:18755684
+PKP.AX,PKP,Peak Processing Limited,market_cap,below_min_market_cap:14967232
+PKY.AX,PKY,Pathkey.AI Ltd,market_cap,below_min_market_cap:18881993
+PL3.AX,PL3,Patagonia Lithium Limited,market_cap,below_min_market_cap:24037358
+PL9.AX,PL9,Prairie Lithium Limited,market_cap,below_min_market_cap:24225964
+PLA.AX,PLA,Pacific Lime and Cement Limited,financial_data,insufficient_annual_history:0
+PLC.AX,PLC,PLC Resources Limited,market_cap,below_min_market_cap:5842391
+PLG.AX,PLG,Pearl Gull Iron Limited,market_cap,below_min_market_cap:4429167
+PLT.AX,PLT,Plenti Group Limited,identity,excluded_sector:Financial Services
+PLY.AX,PLY,PlaySide Studios Limited,market_cap,below_min_market_cap:31701220
+PM1.AX,PM1,Palisade Metals Ltd,market_cap,below_min_market_cap:16202082
+PMM.AX,PMM,Pioneer Minerals Limited,market_cap,below_min_market_cap:13863822
+PMT.AX,PMT,PMET Resources Inc.,financial_data,ttm_ebitda_not_positive
+PNC.AX,PNC,Pioneer Credit Limited,identity,excluded_sector:Financial Services
+PNI.AX,PNI,Pinnacle Investment Management Group Limited,identity,excluded_sector:Financial Services
+PNN.AX,PNN,Power Minerals Limited,market_cap,below_min_market_cap:41276476
+PNT.AX,PNT,Panther Metals Ltd,market_cap,below_min_market_cap:1996793
+PNV.AX,PNV,PolyNovo Limited,expected_fcf,expected_fcf_not_positive
+POD.AX,POD,Podium Minerals Limited,market_cap,below_min_market_cap:22583112
+POL.AX,POL,Polymetals Resources Ltd,financial_data,insufficient_annual_history:2
+POW.AX,POW,Powerhaus Uranium Limited,market_cap,below_min_market_cap:11893415
+PPC.AX,PPC,Peet Limited,expected_fcf,expected_fcf_not_positive
+PPE.AX,PPE,Peoplein Limited,market_cap,below_min_market_cap:36288431
+PPK.AX,PPK,PPK Group Limited,market_cap,below_min_market_cap:23470680
+PPL.AX,PPL,Pureprofile Ltd,market_cap,below_min_market_cap:23659959
+PPM.AX,PPM,Pepper Money Limited,identity,excluded_sector:Financial Services
+PPS.AX,PPS,Praemium Limited,identity,excluded_sector:Financial Services
+PPT.AX,PPT,Perpetual Limited,identity,excluded_sector:Financial Services
+PPY.AX,PPY,Papyrus Australia Limited,market_cap,below_min_market_cap:5439076
+PR1.AX,PR1,Pure Resources Limited,market_cap,below_min_market_cap:14996466
+PRB.AX,PRB,PARBO RES FPO [PRB],market_cap,below_min_market_cap:8435948
+PRG.AX,PRG,PRL Global Ltd.,expected_fcf,expected_fcf_not_positive
+PRM.AX,PRM,Prominence Energy Ltd,market_cap,below_min_market_cap:1891357
+PRO.AX,PRO,Prophecy International Holdings Limited,market_cap,below_min_market_cap:4187094
+PRX.AX,PRX,Prodigy Gold NL,market_cap,below_min_market_cap:11144301
+PSC.AX,PSC,Prospect Resources Limited,financial_data,insufficient_annual_history:0
+PSL.AX,PSL,Paterson Resources Ltd,market_cap,below_min_market_cap:16587299
+PTL.AX,PTL,Prestal Holdings Limited,market_cap,below_min_market_cap:2738592
+PTN.AX,PTN,Patronus Resources Limited,financial_data,insufficient_annual_history:0
+PTR.AX,PTR,PTR Minerals Ltd,market_cap,below_min_market_cap:22364101
+PTX.AX,PTX,Prescient Therapeutics Limited,financial_data,insufficient_annual_history:0
+PUR.AX,PUR,Pursuit Minerals Limited,market_cap,below_min_market_cap:12628369
+PV1.AX,PV1,Provaris Energy Ltd,market_cap,below_min_market_cap:4178410
+PVL.AX,PVL,Powerhouse Ventures Limited,identity,excluded_sector:Financial Services
+PVT.AX,PVT,Pivotal Metals Limited,market_cap,below_min_market_cap:13779291
+PWN.AX,PWN,Parkway Corporate Limited,market_cap,below_min_market_cap:19393760
+PWR.AX,PWR,Peter Warren Automotive Holdings Limited,expected_fcf,expected_fcf_not_positive
+PXR.AX,PXR,Pacific Resources Limited,market_cap,below_min_market_cap:2514937
+PXX.AX,PXX,PolarX Limited,market_cap,below_min_market_cap:38069560
+PYC.AX,PYC,PYC Therapeutics Limited,financial_data,insufficient_annual_history:0
+QAL.AX,QAL,Qualitas Limited,identity,excluded_sector:Financial Services
+QAN.AX,QAN,Qantas Airways Limited,expected_fcf,expected_fcf_not_positive
+QBE.AX,QBE,QBE Insurance Group Limited,identity,excluded_sector:Financial Services
+QEM.AX,QEM,QEM Limited,market_cap,below_min_market_cap:3311276
+QFE.AX,QFE,QuickFee Limited,market_cap,below_min_market_cap:21518608
+QGL.AX,QGL,Quantum Graphite Limited,financial_data,insufficient_annual_history:0
+QML.AX,QML,QMines Limited,market_cap,below_min_market_cap:40983064
+QUE.AX,QUE,Queste Communications Ltd,identity,excluded_sector:Financial Services
+QXR.AX,QXR,QX Resources Limited,market_cap,below_min_market_cap:4523603
+R8R.AX,R8R,Regener8 Resources NL,market_cap,below_min_market_cap:4646095
+RAC.AX,RAC,Racura Oncology Ltd,financial_data,insufficient_annual_history:0
+RAD.AX,RAD,Radiopharm Theranostics Limited,market_cap,below_min_market_cap:15289010
+RAG.AX,RAG,Ragnar Metals Limited,market_cap,below_min_market_cap:6483165
+RAN.AX,RAN,Range International Limited,market_cap,below_min_market_cap:1047076
+RAP.AX,RAP,Raptor Metals Limited,market_cap,below_min_market_cap:7169356
+RAS.AX,RAS,Ragusa Minerals Limited,market_cap,below_min_market_cap:2353576
+RAU.AX,RAU,Resouro Strategic Metals Inc.,market_cap,below_min_market_cap:19536451
+RB6.AX,RB6,Rubix Resources Limited,market_cap,below_min_market_cap:5365500
+RBR.AX,RBR,RBR Group Limited,market_cap,below_min_market_cap:1495686
+RBX.AX,RBX,Resource Base Limited,market_cap,below_min_market_cap:2430576
+RC1.AX,RC1,Redcastle Resources Limited,market_cap,below_min_market_cap:8099912
+RCE.AX,RCE,Recce Pharmaceuticals Ltd,financial_data,insufficient_annual_history:0
+RCL.AX,RCL,ReadCloud Limited,market_cap,below_min_market_cap:5472623
+RCM.AX,RCM,Rapid Critical Metals Limited,market_cap,below_min_market_cap:20886193
+RCR.AX,RCR,Rincon Resources Limited,market_cap,below_min_market_cap:4377444
+RDM.AX,RDM,Red Metal Limited,market_cap,below_min_market_cap:37938146
+RDN.AX,RDN,Raiden Resources Limited,market_cap,below_min_market_cap:7231542
+RDS.AX,RDS,Redstone Resources Limited,market_cap,below_min_market_cap:2734664
+REC.AX,REC,Recharge Metals Limited,market_cap,below_min_market_cap:30505380
+REE.AX,REE,RareX Limited,market_cap,below_min_market_cap:9347621
+REM.AX,REM,RemSense Technologies Limited,market_cap,below_min_market_cap:3557166
+REZ.AX,REZ,Resources & Energy Group Limited,market_cap,below_min_market_cap:5192944
+RFF.AX,RFF,Rural Funds Group,identity,excluded_industry:reit
+RFG.AX,RFG,Retail Food Group Limited,market_cap,below_min_market_cap:44187906
+RFT.AX,RFT,Rectifier Technologies Ltd,market_cap,below_min_market_cap:4829493
+RGL.AX,RGL,Riversgold Limited,market_cap,below_min_market_cap:12863022
+RGN.AX,RGN,Region Group,identity,excluded_industry:reit
+RGT.AX,RGT,Argent BioPharma Limited,market_cap,below_min_market_cap:2305161
+RHI.AX,RHI,Red Hill Minerals Limited,financial_data,insufficient_annual_history:0
+RHT.AX,RHT,Resonance Health Limited,market_cap,below_min_market_cap:27328766
+RHY.AX,RHY,Rhythm Biosciences Limited,market_cap,below_min_market_cap:17302795
+RIC.AX,RIC,Ridley Corporation Limited,expected_fcf,expected_fcf_not_positive
+RIE.AX,RIE,Riedel Resources Limited,market_cap,below_min_market_cap:5613407
+RIM.AX,RIM,Rimfire Pacific Mining Limited,market_cap,below_min_market_cap:20949559
+RIV.AX,RIV,Rivco Australia Ltd,financial_data,insufficient_annual_history:0
+RKB.AX,RKB,Rokeby Resources Limited,market_cap,below_min_market_cap:6237909
+RKN.AX,RKN,Reckon Limited,market_cap,below_min_market_cap:32842525
+RKT.AX,RKT,RocketDNA Ltd.,market_cap,below_min_market_cap:18987609
+RLC.AX,RLC,Reedy Lagoon Corporation Limited,market_cap,below_min_market_cap:1627633
+RLF.AX,RLF,RLF AgTech Ltd,market_cap,below_min_market_cap:12093222
+RLG.AX,RLG,RooLife Group Ltd,market_cap,below_min_market_cap:6461290
+RMC.AX,RMC,Resimac Group Limited,identity,excluded_sector:Financial Services
+RMI.AX,RMI,Resource Minerals International Ltd,financial_data,insufficient_annual_history:0
+RML.AX,RML,Resolution Minerals Ltd,financial_data,insufficient_annual_history:0
+RMX.AX,RMX,Red Mountain Mining Limited,market_cap,below_min_market_cap:9298869
+RMY.AX,RMY,RMA Global Limited,market_cap,below_min_market_cap:9280968
+RND.AX,RND,Rand Mining Limited,expected_fcf,expected_fcf_not_positive
+RNT.AX,RNT,Rent.com.au Limited,financial_data,ttm_ebitda_not_positive
+RNU.AX,RNU,Renascor Resources Limited,financial_data,insufficient_annual_history:0
+RNV.AX,RNV,ReNerve Limited,market_cap,below_min_market_cap:9695713
+RNX.AX,RNX,Renegade Exploration Limited,market_cap,below_min_market_cap:2891585
+ROC.AX,ROC,RocketBoots Limited,market_cap,below_min_market_cap:30856822
+ROG.AX,ROG,Red Sky Energy Limited,market_cap,below_min_market_cap:7383614
+RON.AX,RON,Ronin Resources Ltd,market_cap,below_min_market_cap:4512435
+RPL.AX,RPL,Regal Partners Limited,identity,excluded_sector:Financial Services
+RPM.AX,RPM,RPM Automotive Group Limited,market_cap,below_min_market_cap:2188364
+RR1.AX,RR1,Reach Resources Limited,market_cap,below_min_market_cap:11100341
+RRE.AX,RRE,Right Resources Limited,market_cap,below_min_market_cap:8591330
+RRR.AX,RRR,Revolver Resources Holdings Ltd,market_cap,below_min_market_cap:12726852
+RTG.AX,RTG,RTG Mining Inc.,market_cap,below_min_market_cap:47603763
+RTH.AX,RTH,RAS Technology Holdings Limited,market_cap,below_min_market_cap:17393594
+RTR.AX,RTR,Rumble Resources Limited,market_cap,below_min_market_cap:42637026
+RVT.AX,RVT,Richmond Vanadium Technology Limited,market_cap,below_min_market_cap:15149097
+RWD.AX,RWD,Reward Minerals Ltd,market_cap,below_min_market_cap:5492420
+RWL.AX,RWL,Rubicon Water Limited,market_cap,below_min_market_cap:48642388
+RXL.AX,RXL,Rox Resources Limited,financial_data,insufficient_annual_history:0
+RZI.AX,RZI,Raiz Invest Limited,market_cap,below_min_market_cap:25029761
+S2R.AX,S2R,S2 Resources Ltd,market_cap,below_min_market_cap:29334539
+S66.AX,S66,Star Combo Pharma Limited,market_cap,below_min_market_cap:13210119
+SAN.AX,SAN,Sagalio Energy Limited,market_cap,below_min_market_cap:1644028
+SAU.AX,SAU,SIGMA LITHIUM CORPORATION,identity,quote_type:NONE
+SBM.AX,SBM,St Barbara Limited,financial_data,ttm_ebitda_not_positive
+SBR.AX,SBR,Sabre Resources Limited,market_cap,below_min_market_cap:3832615
+SBZ.AX,SBZ,Schoolblazer Limited,identity,excluded_sector:Financial Services
+SCG.AX,SCG,Scentre Group,identity,excluded_industry:reit
+SCN.AX,SCN,Scorpion Minerals Limited,market_cap,below_min_market_cap:6818917
+SCP.AX,SCP,Scalare Partners Holdings Limited,market_cap,below_min_market_cap:11941838
+SCX.AX,SCX,SCX.ai Holdings Limited,market_cap,below_min_market_cap:46299924
+SDF.AX,SDF,Steadfast Group Limited,identity,excluded_sector:Financial Services
+SDR.AX,SDR,SiteMinder Limited,financial_data,ttm_ebitda_not_positive
+SDV.AX,SDV,SciDev Limited,market_cap,below_min_market_cap:17261466
+SEA.AX,SEA,Sea Forest Limited,financial_data,ttm_ebitda_not_positive
+SEK.AX,SEK,SEEK Limited,other,nci_present_share_unknown
+SEN.AX,SEN,Senetas Corporation Limited,market_cap,below_min_market_cap:27559507
+SEQ.AX,SEQ,Sequoia Financial Group Limited,identity,excluded_sector:Financial Services
+SER.AX,SER,Strategic Energy Resources Limited,market_cap,below_min_market_cap:7904181
+SFG.AX,SFG,Seafarms Group Limited,market_cap,below_min_market_cap:6799036
+SFM.AX,SFM,Santa Fe Minerals Limited,market_cap,below_min_market_cap:26727031
+SFX.AX,SFX,Sheffield Resources Limited,market_cap,below_min_market_cap:10512385
+SGA.AX,SGA,Sarytogan Graphite Limited,market_cap,below_min_market_cap:12577859
+SGC.AX,SGC,Sinclair Gold Ltd,financial_data,insufficient_annual_history:0
+SGH.AX,SGH,SGH Limited,financial_data,ttm_fcf_unavailable
+SGP.AX,SGP,Stockland,identity,excluded_industry:reit
+SGQ.AX,SGQ,St George Mining Limited,financial_data,insufficient_annual_history:0
+SGR.AX,SGR,The Star Entertainment Group Limited,financial_data,ttm_ebitda_not_positive
+SHE.AX,SHE,Stonehorse Energy Limited,market_cap,below_min_market_cap:5737303
+SHG.AX,SHG,Singular Health Group Ltd,market_cap,below_min_market_cap:43278393
+SHJ.AX,SHJ,Shine Justice Ltd,expected_fcf,expected_fcf_not_positive
+SHM.AX,SHM,Shriro Holdings Limited,market_cap,below_min_market_cap:33946732
+SHN.AX,SHN,Sunshine Metals Limited,financial_data,insufficient_annual_history:0
+SHO.AX,SHO,SportsHero Limited,market_cap,below_min_market_cap:29813835
+SHV.AX,SHV,Select Harvests Limited,expected_fcf,expected_fcf_not_positive
+SIO.AX,SIO,Simonds Group Limited,market_cap,below_min_market_cap:42738267
+SIS.AX,SIS,Simble Solutions Limited,market_cap,below_min_market_cap:6198186
+SIV.AX,SIV,SIV Capital Limited,market_cap,below_min_market_cap:4961530
+SIX.AX,SIX,Sprintex Limited,market_cap,below_min_market_cap:25830272
+SKC.AX,SKC,SkyCity Entertainment Group Limited,expected_fcf,expected_fcf_not_positive
+SKG.AX,SKG,Storage King Group,identity,excluded_industry:reit
+SKK.AX,SKK,Stakk Limited,financial_data,ttm_ebitda_not_positive
+SKM.AX,SKM,Skylark Minerals Limited,market_cap,below_min_market_cap:21008931
+SKN.AX,SKN,Skin Elements Limited,market_cap,below_min_market_cap:7316292
+SKO.AX,SKO,Serko Limited,financial_data,ttm_ebitda_not_positive
+SKY.AX,SKY,Sky Metals Limited,financial_data,insufficient_annual_history:0
+SLA.AX,SLA,Solara Minerals Ltd,market_cap,below_min_market_cap:6620266
+SLB.AX,SLB,Stelar Metals Limited,market_cap,below_min_market_cap:10711337
+SLD.AX,SLD,"Saluda Medical, Inc.",financial_data,insufficient_annual_history:0
+SLM.AX,SLM,Solis Minerals Ltd.,market_cap,below_min_market_cap:4314100
+SLS.AX,SLS,Solstice Minerals Limited,financial_data,insufficient_annual_history:0
+SLZ.AX,SLZ,Sultan Resources Limited,market_cap,below_min_market_cap:4598402
+SM1.AX,SM1,Synlait Milk Limited,financial_data,ttm_ebitda_not_positive
+SMI.AX,SMI,Santana Minerals Limited,financial_data,insufficient_annual_history:0
+SMM.AX,SMM,Somerset Minerals Limited,market_cap,below_min_market_cap:10087752
+SMN.AX,SMN,Structural Monitoring Systems Plc,market_cap,below_min_market_cap:37499541
+SMS.AX,SMS,Star Minerals Limited,market_cap,below_min_market_cap:6739516
+SMX.AX,SMX,Strata Minerals Limited,market_cap,below_min_market_cap:4280433
+SNG.AX,SNG,Siren Gold Limited,market_cap,below_min_market_cap:7359188
+SNM.AX,SNM,Sentinel Metals Limited,market_cap,below_min_market_cap:35012111
+SNS.AX,SNS,SenSen Networks Limited,market_cap,below_min_market_cap:17082876
+SNT.AX,SNT,Syntara Limited,market_cap,below_min_market_cap:34306361
+SNX.AX,SNX,Sierra Nevada Gold Inc.,market_cap,below_min_market_cap:31314757
+SNZ.AX,SNZ,Summerset Group Holdings Limited,expected_fcf,expected_fcf_not_positive
+SOC.AX,SOC,SOCO Corporation Ltd,market_cap,below_min_market_cap:3699004
+SOL.AX,SOL,Washington H. Soul Pattinson and Company Limited,identity,excluded_sector:Financial Services
+SOM.AX,SOM,SomnoMed Limited,market_cap,below_min_market_cap:39913207
+SOP.AX,SOP,Synertec Corporation Limited,market_cap,below_min_market_cap:35772986
+SOR.AX,SOR,Strategic Elements Ltd,identity,excluded_sector:Financial Services
+SP3.AX,SP3,Spectur Limited,market_cap,below_min_market_cap:2033710
+SP8.AX,SP8,StreamPlay Studio Limited,market_cap,below_min_market_cap:5579439
+SPA.AX,SPA,Spacetalk Limited,market_cap,below_min_market_cap:21098214
+SPD.AX,SPD,Southern Palladium Limited,financial_data,insufficient_annual_history:0
+SPG.AX,SPG,SPC Global Holdings Ltd,expected_fcf,expected_fcf_not_positive
+SPL.AX,SPL,Starpharma Holdings Limited,financial_data,ttm_ebitda_not_positive
+SPN.AX,SPN,Sparc Technologies Limited,market_cap,below_min_market_cap:14793655
+SPQ.AX,SPQ,Superior Resources Limited,market_cap,below_min_market_cap:7378237
+SPX.AX,SPX,Spenda Limited,market_cap,below_min_market_cap:1730791
+SQX.AX,SQX,SQX Resources Limited,market_cap,below_min_market_cap:4740850
+SRH.AX,SRH,Saferoads Holdings Limited,market_cap,below_min_market_cap:2725050
+SRJ.AX,SRJ,SRJ Technologies Group Plc,market_cap,below_min_market_cap:6080613
+SRK.AX,SRK,Strike Resources Limited,market_cap,below_min_market_cap:3964096
+SRL.AX,SRL,Sunrise Energy Metals Limited,financial_data,insufficient_annual_history:0
+SRN.AX,SRN,Surefire Resources NL,market_cap,below_min_market_cap:2404686
+SRR.AX,SRR,Sarama Resources Ltd,market_cap,below_min_market_cap:8442447
+SRZ.AX,SRZ,Stellar Resources Limited,financial_data,insufficient_annual_history:0
+SS1.AX,SS1,Sun Silver Limited,financial_data,insufficient_annual_history:0
+SSH.AX,SSH,SSH Group Limited,market_cap,below_min_market_cap:9624575
+SSL.AX,SSL,Sietel Limited,market_cap,below_min_market_cap:48103053
+SST.AX,SST,Steamships Trading Company Limited,market_cap,fx_rate_unavailable:PGK
+STH.AX,STH,StepChange Holdings Limited,market_cap,below_min_market_cap:13778235
+STK.AX,STK,Strickland Metals Limited,financial_data,insufficient_annual_history:0
+STM.AX,STM,Sunstone Metals Limited,market_cap,below_min_market_cap:40671874
+STN.AX,STN,Saturn Metals Limited,financial_data,insufficient_annual_history:0
+STO.AX,STO,Santos Limited,market_cap,market_cap_unavailable
+STP.AX,STP,Step One Clothing Limited,market_cap,below_min_market_cap:19113858
+STV.AX,STV,Swift TV Ltd,market_cap,below_min_market_cap:5065435
+STX.AX,STX,Strike Energy Limited,financial_data,insufficient_annual_history:2
+SUH.AX,SUH,Southern Hemisphere Mining Limited,market_cap,below_min_market_cap:17485446
+SUN.AX,SUN,Suncorp Group Limited,identity,excluded_sector:Financial Services
+SVG.AX,SVG,Savannah Goldfields Limited,market_cap,below_min_market_cap:9394707
+SVL.AX,SVL,Silver Mines Limited,financial_data,ttm_ebitda_not_positive
+SVM.AX,SVM,Sovereign Metals Limited,financial_data,insufficient_annual_history:0
+SVR.AX,SVR,Solvar Limited,identity,excluded_sector:Financial Services
+SVY.AX,SVY,Stavely Minerals Limited,market_cap,below_min_market_cap:9376895
+SWP.AX,SWP,Swoop Holdings Limited,market_cap,below_min_market_cap:16078884
+SX2.AX,SX2,Southern Cross Gold Consolidated Ltd.,financial_data,ttm_ebitda_not_positive
+SXL.AX,SXL,Southern Cross Media Group Limited,expected_fcf,expected_fcf_not_positive
+SYR.AX,SYR,Syrah Resources Limited,market_cap,market_cap_unavailable
+T3D.AX,T3D,333D Limited,market_cap,below_min_market_cap:4786041
+T88.AX,T88,Taiton Resources Limited,market_cap,below_min_market_cap:5104133
+T92.AX,T92,Terra Critical Minerals Limited,market_cap,below_min_market_cap:5561419
+TAL.AX,TAL,Talius Group Limited,market_cap,below_min_market_cap:10821637
+TAM.AX,TAM,Tanami Gold NL,financial_data,insufficient_annual_history:0
+TAR.AX,TAR,Taruga Minerals Limited,market_cap,below_min_market_cap:14678799
+TAS.AX,TAS,Tasman Resources Ltd,market_cap,below_min_market_cap:10823327
+TAT.AX,TAT,Tartana Minerals Limited,market_cap,below_min_market_cap:3278676
+TBN.AX,TBN,Tamboran Resources Corporation,financial_data,ttm_ebitda_not_positive
+TBR.AX,TBR,Tribune Resources Limited,expected_fcf,expected_fcf_not_positive
+TCG.AX,TCG,Turaco Gold Limited,financial_data,insufficient_annual_history:0
+TCO.AX,TCO,Transmetro Corporation Limited,market_cap,below_min_market_cap:25894312
+TD1.AX,TD1,TALi Digital Limited,market_cap,below_min_market_cap:7340558
+TDO.AX,TDO,3D Energi Limited,market_cap,below_min_market_cap:29294598
+TEE.AX,TEE,Top End Energy Limited,market_cap,below_min_market_cap:7228735
+TEM.AX,TEM,Tempest Minerals Limited,market_cap,below_min_market_cap:3078727
+TER.AX,TER,TerraCom Limited,financial_data,ttm_ebitda_not_positive
+TET.AX,TET,Tetragon Energy Limited,market_cap,below_min_market_cap:10537968
+TFL.AX,TFL,TasFoods Limited,market_cap,below_min_market_cap:1353697
+TG1.AX,TG1,TechGen Metals Ltd,market_cap,below_min_market_cap:3808317
+TG6.AX,TG6,TG Metals Limited,market_cap,below_min_market_cap:18545882
+TGM.AX,TGM,Theta Gold Mines Limited,financial_data,insufficient_annual_history:0
+TGN.AX,TGN,Tungsten Mining NL,financial_data,insufficient_annual_history:0
+THR.AX,THR,Thor Energy Plc,market_cap,below_min_market_cap:6475729
+TIA.AX,TIA,Tian An Australia Limited,market_cap,below_min_market_cap:10284648
+TIO.AX,TIO,Temas Resources Corp.,market_cap,below_min_market_cap:6125366
+TIP.AX,TIP,Teaminvest Private Group Limited,identity,excluded_sector:Financial Services
+TKM.AX,TKM,Trek Metals Limited,market_cap,below_min_market_cap:25026207
+TLG.AX,TLG,Talga Group Ltd,financial_data,ttm_ebitda_not_positive
+TLM.AX,TLM,Talisman Mining Limited,market_cap,below_min_market_cap:9862547
+TLX.AX,TLX,Telix Pharmaceuticals Limited,expected_fcf,expected_fcf_not_positive
+TM1.AX,TM1,Terra Metals Limited,financial_data,insufficient_annual_history:0
+TMB.AX,TMB,Tambourah Metals Limited,market_cap,below_min_market_cap:5275608
+TMK.AX,TMK,TMK Energy Limited,market_cap,below_min_market_cap:20725206
+TML.AX,TML,Timah Resources Limited,market_cap,below_min_market_cap:2914018
+TMS.AX,TMS,Tennant Minerals Limited,market_cap,below_min_market_cap:8363564
+TMX.AX,TMX,Terrain Minerals Limited,market_cap,below_min_market_cap:8256974
+TNC.AX,TNC,True North Copper Limited,market_cap,below_min_market_cap:36593687
+TNY.AX,TNY,Tinybeans Group Limited,market_cap,below_min_market_cap:6531399
+TOK.AX,TOK,Tolu Minerals Limited,financial_data,insufficient_annual_history:0
+TON.AX,TON,Triton Minerals Limited,market_cap,below_min_market_cap:4382198
+TOR.AX,TOR,Torque Metals Limited,financial_data,insufficient_annual_history:0
+TOU.AX,TOU,Tlou Energy Limited,market_cap,below_min_market_cap:1814172
+TPC.AX,TPC,TPC Consolidated Limited,market_cap,below_min_market_cap:37645171
+TR2.AX,TR2,Tali Resources Ltd,market_cap,below_min_market_cap:26995131
+TR8.AX,TR8,Tarrina Resources Limited,market_cap,below_min_market_cap:4464404
+TRA.AX,TRA,Turners Automotive Group Limited,expected_fcf,expected_fcf_not_positive
+TRE.AX,TRE,Toubani Resources Limited,financial_data,insufficient_annual_history:2
+TRI.AX,TRI,TrivarX Limited,market_cap,below_min_market_cap:8058770
+TRJ.AX,TRJ,Trajan Group Holdings Limited,market_cap,below_min_market_cap:25626763
+TRM.AX,TRM,Truscott Mining Corporation Limited,market_cap,below_min_market_cap:7515954
+TRP.AX,TRP,Tissue Repair Ltd,market_cap,below_min_market_cap:3590048
+TRU.AX,TRU,TruScreen Group Limited,market_cap,below_min_market_cap:5854814
+TSK.AX,TSK,Tusker Minerals Ltd,market_cap,below_min_market_cap:4059437
+TSL.AX,TSL,Titanium Sands Limited,market_cap,below_min_market_cap:9827106
+TSO.AX,TSO,Tesoro Gold Ltd,financial_data,insufficient_annual_history:0
+TSR.AX,TSR,Turnstone Resources Ltd,market_cap,below_min_market_cap:3545794
+TTM.AX,TTM,Titan Minerals Limited,financial_data,insufficient_annual_history:0
+TTT.AX,TTT,Titomic Limited,financial_data,ttm_fcf_unavailable
+TTX.AX,TTX,Tetratherix Limited,financial_data,insufficient_annual_history:1
+TVL.AX,TVL,Touch Ventures Limited,identity,excluded_sector:Financial Services
+TVN.AX,TVN,Tivan Limited,financial_data,insufficient_annual_history:0
+TWE.AX,TWE,Treasury Wine Estates Limited,financial_data,ttm_ebitda_not_positive
+TWL.AX,TWL,Trade Window Holdings Limited,market_cap,below_min_market_cap:11428142
+TWR.AX,TWR,Tower Limited,identity,excluded_sector:Financial Services
+TXR.AX,TXR,TalonX Resources Limited,market_cap,below_min_market_cap:3906106
+TYX.AX,TYX,Tyranna Resources Limited,market_cap,below_min_market_cap:5471012
+TZL.AX,TZL,TZ Limited,market_cap,below_min_market_cap:5051809
+TZN.AX,TZN,Terramin Australia Limited,market_cap,below_min_market_cap:30854832
+UBN.AX,UBN,Urbanise.com Limited,market_cap,below_min_market_cap:34894204
+UCM.AX,UCM,Uscom Limited,market_cap,below_min_market_cap:2180613
+UM1.AX,UM1,Unity Metals Limited,market_cap,below_min_market_cap:16192131
+UNT.AX,UNT,Unith Ltd,market_cap,below_min_market_cap:7734746
+USC.AX,USC,US1 Critical Minerals Limited,market_cap,below_min_market_cap:12039404
+USL.AX,USL,Unico Silver Limited,financial_data,insufficient_annual_history:0
+USM.AX,USM,Union Star Metals Ltd,market_cap,below_min_market_cap:3215898
+VAL.AX,VAL,Valiant Gold Limited,financial_data,insufficient_annual_history:0
+VAN.AX,VAN,Vantage Metals Limited,market_cap,below_min_market_cap:6859517
+VBS.AX,VBS,Vectus Biosystems Limited,market_cap,below_min_market_cap:4560785
+VBX.AX,VBX,VBX Limited,market_cap,below_min_market_cap:31533469
+VCX.AX,VCX,Vicinity Centres,identity,excluded_industry:reit
+VEN.AX,VEN,Vintage Energy Limited,market_cap,below_min_market_cap:3409243
+VFX.AX,VFX,Visionflex Group Limited,market_cap,below_min_market_cap:2243115
+VFY.AX,VFY,Vitrafy Life Sciences Limited,financial_data,ttm_ebitda_not_positive
+VGL.AX,VGL,Vista Group International Limited,expected_fcf,expected_fcf_not_positive
+VGN.AX,VGN,Virgin Australia Holdings Limited,expected_fcf,expected_fcf_not_positive
+VHL.AX,VHL,Vitasora Health Limited,market_cap,below_min_market_cap:21327749
+VHM.AX,VHM,VHM Limited,financial_data,insufficient_annual_history:0
+VIG.AX,VIG,Victor Group Holdings Limited,market_cap,below_min_market_cap:21481202
+VIT.AX,VIT,Vitura Health Limited,market_cap,below_min_market_cap:9258757
+VKA.AX,VKA,Viking Mines Limited,market_cap,below_min_market_cap:17994853
+VMC.AX,VMC,Venus Metals Corporation Limited,market_cap,below_min_market_cap:15194869
+VML.AX,VML,Vital Metals Limited,market_cap,below_min_market_cap:16102828
+VMM.AX,VMM,Viridis Mining and Minerals Limited,financial_data,insufficient_annual_history:0
+VMS.AX,VMS,Venari Minerals NL,market_cap,below_min_market_cap:14089827
+VMT.AX,VMT,Vmoto Limited,market_cap,below_min_market_cap:19704177
+VNL.AX,VNL,Vinyl Group Ltd,market_cap,below_min_market_cap:37296967
+VPR.AX,VPR,Volt Group Limited,market_cap,below_min_market_cap:14238063
+VR1.AX,VR1,Vection Technologies Limited,market_cap,below_min_market_cap:26413558
+VR8.AX,VR8,Vanadium Resources Limited,market_cap,below_min_market_cap:19585547
+VRC.AX,VRC,Volt Resources Limited,market_cap,below_min_market_cap:14657906
+VRL.AX,VRL,Verity Resources Limited,market_cap,below_min_market_cap:3772417
+VRS.AX,VRS,Veris Limited,market_cap,below_min_market_cap:18173344
+VRX.AX,VRX,VRX Silica Limited,market_cap,below_min_market_cap:21314286
+VSR.AX,VSR,Voltaic Strategic Resources Limited,market_cap,below_min_market_cap:8966502
+VTA.AX,VTA,Vita Resources NL,market_cap,below_min_market_cap:1605088
+VTM.AX,VTM,Victory Metals Limited,financial_data,insufficient_annual_history:0
+VTX.AX,VTX,Vertex Minerals Limited,market_cap,below_min_market_cap:18969923
+VUL.AX,VUL,Vulcan Energy Resources Limited,financial_data,ttm_ebitda_not_positive
+VYS.AX,VYS,Vysarn Limited,expected_fcf,expected_fcf_not_positive
+W2V.AX,W2V,Way 2 Vat Ltd,market_cap,below_min_market_cap:8048267
+WA1.AX,WA1,WA1 Resources Ltd,financial_data,insufficient_annual_history:1
+WAG.AX,WAG,The Australian Wealth Advisors Group Limited,identity,excluded_sector:Financial Services
+WAU.AX,WAU,WA Gold Limited,market_cap,below_min_market_cap:11469927
+WBC.AX,WBC,Westpac Banking Corporation,identity,excluded_sector:Financial Services
+WBT.AX,WBT,Weebit Nano Limited,financial_data,ttm_ebitda_not_positive
+WC1.AX,WC1,West Cobar Metals Limited,market_cap,below_min_market_cap:3776891
+WC8.AX,WC8,Wildcat Resources Limited,financial_data,insufficient_annual_history:0
+WCE.AX,WCE,West Coast Silver Limited,market_cap,below_min_market_cap:18566830
+WCN.AX,WCN,White Cliff Minerals Limited,financial_data,insufficient_annual_history:0
+WEC.AX,WEC,White Energy Company Limited,financial_data,insufficient_annual_history:1
+WEL.AX,WEL,Winchester Energy Limited,market_cap,below_min_market_cap:1196577
+WGR.AX,WGR,Western Gold Resources Limited,market_cap,below_min_market_cap:15522033
+WHK.AX,WHK,WhiteHawk Limited,market_cap,below_min_market_cap:2931674
+WIA.AX,WIA,WIA Gold Limited,financial_data,insufficient_annual_history:0
+WIN.AX,WIN,WIN Metals Ltd,market_cap,below_min_market_cap:13201773
+WJL.AX,WJL,Webjet Group Limited,financial_data,insufficient_annual_history:2
+WLC.AX,WLC,WhiteRock Lithium Corp.,financial_data,insufficient_annual_history:0
+WMG.AX,WMG,Western Mines Group Ltd,market_cap,below_min_market_cap:11383376
+WNR.AX,WNR,Wingara AG Limited,market_cap,below_min_market_cap:858338
+WNX.AX,WNX,Wellnex Life Limited,market_cap,below_min_market_cap:3672765
+WOA.AX,WOA,Wide Open Agriculture Limited,market_cap,below_min_market_cap:5942868
+WOT.AX,WOT,WOTSO,financial_data,ttm_fcf_unavailable
+WOW.AX,WOW,Woolworths Group Limited,market_cap,market_cap_unavailable
+WRK.AX,WRK,Wrkr Ltd,financial_data,ttm_ebitda_not_positive
+WRX.AX,WRX,Western Ridge Resources Limited,market_cap,below_min_market_cap:6032190
+WSI.AX,WSI,WestStar Industrial Limited,market_cap,below_min_market_cap:6009671
+WSR.AX,WSR,Westar Resources Limited,market_cap,below_min_market_cap:2822024
+WTL.AX,WTL,WT Financial Group Limited,identity,excluded_sector:Financial Services
+WTM.AX,WTM,Waratah Minerals Limited,financial_data,insufficient_annual_history:1
+WWG.AX,WWG,Wiseway Group Limited,market_cap,below_min_market_cap:29944357
+WWI.AX,WWI,West Wits Mining Limited,financial_data,insufficient_annual_history:1
+WYX.AX,WYX,Western Yilgarn NL,market_cap,below_min_market_cap:4565585
+WZR.AX,WZR,Wisr Limited,identity,excluded_sector:Financial Services
+X2M.AX,X2M,X2M Connect Limited,market_cap,below_min_market_cap:8155536
+XEN.AX,XEN,Xenitra Limited,market_cap,below_min_market_cap:6340495
+XF1.AX,XF1,Xref Limited,market_cap,below_min_market_cap:6918162
+XGL.AX,XGL,Xamble Group Limited,market_cap,below_min_market_cap:2148413
+XPD.AX,XPD,Xpedra Resources Limited,market_cap,below_min_market_cap:11871442
+XPN.AX,XPN,XPON Technologies Group Limited,market_cap,below_min_market_cap:4238807
+XRA.AX,XRA,Xenora Minerals Limited,market_cap,below_min_market_cap:11060419
+XRG.AX,XRG,xReality Group Limited,market_cap,below_min_market_cap:30997327
+XST.AX,XST,Xstate Resources Limited,market_cap,below_min_market_cap:3352144
+YAR.AX,YAR,Yari Resources Ltd,market_cap,below_min_market_cap:3092297
+YOJ.AX,YOJ,Yojee Limited,financial_data,ttm_ebitda_not_positive
+YOW.AX,YOW,Yowie Group Limited,market_cap,below_min_market_cap:2243050
+YRL.AX,YRL,Yandal Resources Limited,market_cap,below_min_market_cap:25659004
+YUG.AX,YUG,Yugo Metals Limited,market_cap,below_min_market_cap:15056602
+ZAG.AX,ZAG,Zuleika Gold Limited,market_cap,below_min_market_cap:23244815
+ZEO.AX,ZEO,Zeotech Limited,financial_data,insufficient_annual_history:0
+ZEU.AX,ZEU,Zeus Resources Limited,market_cap,below_min_market_cap:5873507
+ZGL.AX,ZGL,Zicom Group Limited,market_cap,below_min_market_cap:22588016
+ZIM.AX,ZIM,Zimplats Holdings Limited,expected_fcf,expected_fcf_not_positive
+ZIP.AX,ZIP,Zip Co Limited,identity,excluded_sector:Financial Services
+ZLD.AX,ZLD,Zelira Therapeutics Limited,market_cap,below_min_market_cap:4591770
+ZMI.AX,ZMI,Zinc of Ireland Limited,market_cap,below_min_market_cap:17952092
+ZMM.AX,ZMM,Zimi Limited,market_cap,below_min_market_cap:3212733
+ZNC.AX,ZNC,Zenith Minerals Limited,market_cap,below_min_market_cap:33109049
+ZNO.AX,ZNO,Zoono Group Limited,market_cap,below_min_market_cap:13619843

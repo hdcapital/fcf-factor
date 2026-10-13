@@ -2,71 +2,70 @@
 
 _Signal generated after market close. Forward-test execution occurs at the next available market open._
 
-- Methodology version: `1.0.0`
-- Configuration hash: `7e666b5744a0450723db7089b9c2f7c857c3a6052fe9950061bc670bb4bb61eb`
-- Latest signal: **2026-09-15** (2026 Q3)
-- Signal generated at: `2026-09-15T23:15:39+00:00`
+- Methodology version: `1.1.0`
+- Configuration hash: `9703847e245dccba74be302da8c006c20f6817b02e381b95dc00c5ba6e4d205b`
+- Latest signal: **2026-10-13** (2026 Q4)
+- Signal generated at: `2026-10-13T22:25:29+00:00`
 - Data provider: `yahoo`
 
 ## Universe and coverage
 
 | Stage | Count |
 |---|---|
-| Raw universe | 1714 |
-| Provider metadata resolved | 1714 |
-| Passed security-type / sector filters | 1590 |
-| Above US$50,000,000 market cap | 642 |
-| Fully eligible (financial data complete) | 273 |
-| FCF-yield shortlist | 52 |
-| Selected | 35 |
+| Raw universe | 1712 |
+| Provider metadata resolved | 1712 |
+| Passed security-type / sector filters | 1587 |
+| Above US$50,000,000 market cap | 631 |
+| Fully eligible (financial data complete) | 270 |
+| FCF-yield shortlist | 51 |
+| Selected | 34 |
 
-Metadata coverage: 100.00% - financial-data coverage of market-cap-qualified names: 42.52%
+Metadata coverage: 100.00% - financial-data coverage of market-cap-qualified names: 42.79%
 
 ## Latest picks
 
 | Ticker | Company | Sector | Mkt cap (USD) | FCF yield | Growth score | Weight |
 |---|---|---|---|---|---|---|
-| AX1.AX | Accent Group Limited | Consumer Cyclical | 291.5m | 11.86% | -0.555 | 3.00% |
-| BOL.AX | Boom Logistics Limited | Industrials | 56.9m | 14.86% | -0.148 | 3.00% |
-| DPM.AX | DPM Metals Inc. | Basic Materials | 9,103.2m | 9.51% | 0.438 | 3.00% |
-| DRR.AX | Deterra Royalties Limited | Basic Materials | 1,532.8m | 10.56% | -0.392 | 3.00% |
-| DUG.AX | DUG Technology Ltd | Technology | 169.3m | 13.29% | 0.059 | 3.00% |
-| EDU.AX | EDU Holdings Limited | Consumer Defensive | 100.3m | 17.26% | 2.213 | 3.00% |
-| FEX.AX | Fenix Resources Limited | Basic Materials | 142.9m | 13.33% | 0.501 | 3.00% |
-| FWD.AX | Fleetwood Limited | Industrials | 181.2m | 16.28% | -0.232 | 3.00% |
-| GDF.AX | Garda Property Group | Real Estate | 143.8m | 15.22% | 0.144 | 3.00% |
-| GNP.AX | GenusPlus Group Ltd | Industrials | 1,191.6m | 8.85% | 0.886 | 3.00% |
-| HLO.AX | Helloworld Travel Limited | Consumer Cyclical | 165.1m | 23.64% | 1.474 | 3.00% |
-| JIN.AX | Jumbo Interactive Limited | Consumer Cyclical | 300.4m | 14.52% | -0.066 | 3.00% |
-| JYC.AX | Joyce Corporation Ltd | Consumer Cyclical | 128.6m | 20.78% | -0.208 | 3.00% |
-| OML.AX | oOh!media Limited | Communication Services | 621.4m | 9.98% | -0.397 | 3.00% |
-| ORE.AX | Orezone Gold Corporation | Basic Materials | 1,324.3m | 10.57% | 0.969 | 3.00% |
-| REG.AX | Regis Healthcare Limited | Healthcare | 974.8m | 33.82% | 0.704 | 3.00% |
-| RMS.AX | Ramelius Resources Limited | Basic Materials | 4,848.8m | 9.69% | 0.558 | 3.00% |
-| RRL.AX | Regis Resources Limited | Basic Materials | 4,084.2m | 11.87% | 0.890 | 3.00% |
-| RSG.AX | Resolute Mining Limited | Basic Materials | 1,996.4m | 10.68% | 0.203 | 3.00% |
-| SEG.AX | Sports Entertainment Group Limited | Communication Services | 58.5m | 28.64% | 0.088 | 3.00% |
-| SKT.AX | SKY Network Television Limited | Communication Services | 284.7m | 12.39% | -0.417 | 3.00% |
-| SRV.AX | Servcorp Limited | Real Estate | 438.6m | 15.73% | -0.260 | 3.00% |
-| TLC.AX | The Lottery Corporation Limited | Consumer Cyclical | 7,712.8m | 10.71% | -0.479 | 3.00% |
-| UOS.AX | United Overseas Australia Ltd | Real Estate | 837.3m | 10.18% | 0.307 | 3.00% |
-| WAF.AX | West African Resources Limited | Basic Materials | 3,001.5m | 19.53% | 0.828 | 3.00% |
-| WGX.AX | Westgold Resources Limited | Basic Materials | 3,621.5m | 10.37% | 1.309 | 3.00% |
-| UNI.AX | Universal Store Holdings Limited | Consumer Cyclical | 387.8m | 9.65% | -0.133 | 2.94% |
-| SSG.AX | Shaver Shop Group Limited | Consumer Cyclical | 120.5m | 13.05% | -0.538 | 2.87% |
-| MLG.AX | MLG Oz Limited | Basic Materials | 96.0m | 11.09% | 0.411 | 2.76% |
-| KGN.AX | Kogan.com Ltd | Consumer Cyclical | 222.7m | 10.83% | -0.366 | 2.68% |
-| A1N.AX | ARN Media Limited | Communication Services | 63.6m | 9.11% | 1.116 | 2.50% |
-| AR1.AX | Austral Resources Australia Ltd | Basic Materials | 132.5m | 10.67% | 0.552 | 2.27% |
-| ANG.AX | Austin Engineering Limited | Industrials | 73.3m | 9.52% | -0.327 | 2.04% |
-| VLS.AX | Vita Life Sciences Limited | Healthcare | 107.5m | 11.38% | -0.098 | 1.99% |
-| TWD.AX | Tamawood Limited | Consumer Cyclical | 73.7m | 11.74% | 0.352 | 1.95% |
+| AEL.AX | Amplitude Energy Limited | Energy | 371.8m | 13.15% | 0.076 | 3.00% |
+| AX1.AX | Accent Group Limited | Consumer Cyclical | 275.1m | 17.59% | -0.559 | 3.00% |
+| BOL.AX | Boom Logistics Limited | Industrials | 62.5m | 25.54% | -0.151 | 3.00% |
+| CAA.AX | Capral Limited | Basic Materials | 132.8m | 16.13% | -0.456 | 3.00% |
+| DGL.AX | DGL Group Limited | Basic Materials | 50.8m | 14.01% | -0.248 | 3.00% |
+| EDU.AX | EDU Holdings Limited | Consumer Defensive | 80.4m | 24.69% | 2.230 | 3.00% |
+| FEX.AX | Fenix Resources Limited | Basic Materials | 113.1m | 15.77% | 0.521 | 3.00% |
+| FML.AX | Focus Minerals Limited | Basic Materials | 353.3m | 19.88% | 2.756 | 3.00% |
+| FRI.AX | Finbar Group Limited | Real Estate | 131.2m | 30.53% | 0.786 | 3.00% |
+| FWD.AX | Fleetwood Limited | Industrials | 144.8m | 35.60% | -0.236 | 3.00% |
+| GDF.AX | Garda Property Group | Real Estate | 153.5m | 28.29% | 0.115 | 3.00% |
+| HLO.AX | Helloworld Travel Limited | Consumer Cyclical | 155.5m | 24.84% | 1.506 | 3.00% |
+| IPH.AX | IPH Limited | Industrials | 634.9m | 12.74% | -0.107 | 3.00% |
+| JIN.AX | Jumbo Interactive Limited | Consumer Cyclical | 262.6m | 20.66% | -0.064 | 3.00% |
+| MLG.AX | MLG Oz Limited | Basic Materials | 86.8m | 20.13% | 0.415 | 3.00% |
+| NXL.AX | Nuix Limited | Technology | 388.8m | 13.75% | 0.832 | 3.00% |
+| OCA.AX | Oceania Healthcare Limited | Healthcare | 272.0m | 13.20% | -0.464 | 3.00% |
+| PMV.AX | Premier Investments Limited | Consumer Cyclical | 1,387.7m | 12.61% | -0.472 | 3.00% |
+| REG.AX | Regis Healthcare Limited | Healthcare | 927.5m | 34.61% | 0.722 | 3.00% |
+| RRL.AX | Regis Resources Limited | Basic Materials | 3,725.6m | 18.99% | 0.894 | 3.00% |
+| SRV.AX | Servcorp Limited | Real Estate | 391.3m | 20.47% | -0.263 | 3.00% |
+| THL.AX | Tourism Holdings Limited | Consumer Cyclical | 348.1m | 12.58% | -0.172 | 3.00% |
+| UOS.AX | United Overseas Australia Ltd | Real Estate | 801.9m | 18.01% | 0.311 | 3.00% |
+| WAF.AX | West African Resources Limited | Basic Materials | 2,935.2m | 17.05% | 0.840 | 3.00% |
+| WGX.AX | Westgold Resources Limited | Basic Materials | 3,356.8m | 12.54% | 1.287 | 3.00% |
+| SKT.AX | SKY Network Television Limited | Communication Services | 279.5m | 12.25% | -0.422 | 2.96% |
+| CUV.AX | Clinuvel Pharmaceuticals Limited | Healthcare | 274.0m | 18.16% | -0.428 | 2.96% |
+| KGN.AX | Kogan.com Ltd | Consumer Cyclical | 218.2m | 13.11% | -0.388 | 2.93% |
+| SEG.AX | Sports Entertainment Group Limited | Communication Services | 60.0m | 27.27% | 0.086 | 2.93% |
+| ANG.AX | Austin Engineering Limited | Industrials | 67.5m | 20.85% | -0.326 | 2.91% |
+| MXI.AX | MaxiPARTS Limited | Consumer Cyclical | 72.2m | 16.67% | -0.046 | 2.78% |
+| AR1.AX | Austral Resources Australia Ltd | Basic Materials | 118.7m | 13.89% | 0.561 | 2.68% |
+| SSG.AX | Shaver Shop Group Limited | Consumer Cyclical | 118.1m | 13.05% | -0.545 | 2.60% |
+| ATG.AX | Articore Group Limited | Consumer Cyclical | 77.0m | 15.27% | 0.617 | 2.25% |
 
 ## Changes versus the previous rebalance
 
 Previous signal: `none`
 
-- **Additions (35):** `A1N.AX`, `ANG.AX`, `AR1.AX`, `AX1.AX`, `BOL.AX`, `DPM.AX`, `DRR.AX`, `DUG.AX`, `EDU.AX`, `FEX.AX`, `FWD.AX`, `GDF.AX`, `GNP.AX`, `HLO.AX`, `JIN.AX`, `JYC.AX`, `KGN.AX`, `MLG.AX`, `OML.AX`, `ORE.AX`, `REG.AX`, `RMS.AX`, `RRL.AX`, `RSG.AX`, `SEG.AX`, `SKT.AX`, `SRV.AX`, `SSG.AX`, `TLC.AX`, `TWD.AX`, `UNI.AX`, `UOS.AX`, `VLS.AX`, `WAF.AX`, `WGX.AX`
+- **Additions (34):** `AEL.AX`, `ANG.AX`, `AR1.AX`, `ATG.AX`, `AX1.AX`, `BOL.AX`, `CAA.AX`, `CUV.AX`, `DGL.AX`, `EDU.AX`, `FEX.AX`, `FML.AX`, `FRI.AX`, `FWD.AX`, `GDF.AX`, `HLO.AX`, `IPH.AX`, `JIN.AX`, `KGN.AX`, `MLG.AX`, `MXI.AX`, `NXL.AX`, `OCA.AX`, `PMV.AX`, `REG.AX`, `RRL.AX`, `SEG.AX`, `SKT.AX`, `SRV.AX`, `SSG.AX`, `THL.AX`, `UOS.AX`, `WAF.AX`, `WGX.AX`
 - **Removals (0):** _none_
 - **Retained (0):** _none_
 
@@ -76,57 +75,59 @@ Previous signal: `none`
 
 | Min | P25 | Median | P75 | Max |
 |---|---|---|---|---|
-| 8.85% | 10.47% | 11.74% | 15.04% | 33.82% |
+| 12.25% | 13.34% | 17.32% | 20.80% | 35.60% |
 
 | Bucket | Count |
 |---|---|
-| 0.0885 to 0.138 | 24 |
-| 0.138 to 0.188 | 6 |
-| 0.188 to 0.238 | 3 |
-| 0.238 to 0.288 | 1 |
-| 0.288 to 0.338 | 1 |
+| 0.123 to 0.169 | 16 |
+| 0.169 to 0.216 | 10 |
+| 0.216 to 0.263 | 3 |
+| 0.263 to 0.309 | 3 |
+| 0.309 to 0.356 | 2 |
 
 ### Growth score
 
 | Min | P25 | Median | P75 | Max |
 |---|---|---|---|---|
-| -0.555 | -0.246 | 0.144 | 0.631 | 2.213 |
+| -0.559 | -0.310 | 0.015 | 0.696 | 2.756 |
 
 | Bucket | Count |
 |---|---|
-| -0.555 to -0.00143 | 15 |
-| -0.00143 to 0.552 | 9 |
-| 0.552 to 1.11 | 7 |
-| 1.11 to 1.66 | 3 |
-| 1.66 to 2.21 | 1 |
+| -0.559 to 0.104 | 19 |
+| 0.104 to 0.767 | 7 |
+| 0.767 to 1.43 | 5 |
+| 1.43 to 2.09 | 1 |
+| 2.09 to 2.76 | 2 |
 
 ### Sector weights
 
 | Sector | Weight |
 |---|---|
-| Basic Materials | 32.03% |
-| Consumer Cyclical | 25.44% |
-| Communication Services | 11.50% |
-| Industrials | 11.04% |
-| Real Estate | 9.00% |
-| Healthcare | 4.99% |
+| Basic Materials | 26.68% |
+| Consumer Cyclical | 25.56% |
+| Real Estate | 12.00% |
+| Industrials | 11.91% |
+| Healthcare | 8.96% |
+| Communication Services | 5.89% |
 | Consumer Defensive | 3.00% |
+| Energy | 3.00% |
 | Technology | 3.00% |
 
 ## Exclusion reasons
 
 | Reason | Count |
 |---|---|
-| below_min_market_cap | 915 |
-| insufficient_annual_history | 191 |
+| below_min_market_cap | 938 |
+| insufficient_annual_history | 183 |
 | excluded_sector | 103 |
-| ttm_ebitda_not_positive | 99 |
-| expected_fcf_not_positive | 65 |
-| market_cap_unavailable | 33 |
+| ttm_ebitda_not_positive | 94 |
+| expected_fcf_not_positive | 64 |
 | excluded_industry | 18 |
+| market_cap_unavailable | 18 |
+| nci_present_share_unknown | 7 |
 | ttm_fcf_unavailable | 7 |
-| ttm_revenue_unavailable | 4 |
-| quote_type | 3 |
+| quote_type | 4 |
+| ttm_revenue_unavailable | 3 |
 | fx_rate_unavailable | 2 |
 | no_secondary_trend_available | 1 |
 
@@ -134,76 +135,35 @@ Previous signal: `none`
 
 | Flag | Count |
 |---|---|
-| ebitda_ttm_from_provider | 420 |
-| fcf_ttm_from_provider_fcf_field | 419 |
-| revenue_ttm_from_provider | 413 |
-| preferred_stock_assumed_zero | 264 |
-| reporting_currency_differs | 123 |
-| annual_history_below_preferred | 76 |
-| stale_statements | 58 |
-| growth_clamped_high | 53 |
-| growth_clamped_low | 11 |
-| revenue_ttm_from_latest_fy | 10 |
-| ev_from_provider_fallback | 7 |
-| ebitda_ttm_from_latest_fy | 6 |
-| total_debt_unavailable | 6 |
-| ttm_quarter_window_unusable | 6 |
+| ebitda_ttm_from_provider | 418 |
+| fcf_ttm_from_provider_fcf_field | 416 |
+| revenue_ttm_from_provider | 410 |
+| preferred_stock_assumed_zero | 263 |
+| reporting_currency_differs | 129 |
+| nci_adjusted | 89 |
+| annual_history_below_preferred | 78 |
+| lease_inclusion_assumed | 59 |
+| stale_statements | 57 |
+| growth_clamped_high | 56 |
+| nci_share_negative_floored | 24 |
+| lease_liabilities_not_reported | 18 |
+| growth_clamped_low | 13 |
+| revenue_ttm_from_latest_fy | 11 |
+| nci_adjusted_from_book | 8 |
+| provider_returned_no_statements | 8 |
+| statement_date_unknown | 8 |
+| ebitda_ttm_from_latest_fy | 5 |
+| ev_from_provider_fallback | 5 |
 | cash_unavailable | 4 |
-| provider_returned_no_statements | 4 |
-| statement_date_unknown | 4 |
+| total_debt_unavailable | 4 |
+| ttm_quarter_window_unusable | 4 |
 | market_cap_discrepancy | 3 |
 | growth_from_yoy_only | 2 |
-| capex_reported_positive | 1 |
-| fcf_ttm_from_latest_fy | 1 |
-| financial_currency_missing_assumed_quote_currency | 1 |
-| minority_interest_assumed_zero | 1 |
-| provider_ev_implausible | 1 |
+| provider_ev_implausible | 2 |
 
 ## Forward-test performance
 
-| Metric | Value |
-|---|---|
-| NAV | 97.5580 |
-| Inception date | 2026-09-16 |
-| As at | 2026-10-13 |
-| Since-inception return | -2.44% |
-| Return since last rebalance | -1.73% |
-| Latest daily return | -0.36% |
-| Holdings | 29 |
-| Turnover at last rebalance | 50.00% |
-| Sessions recorded | 19 |
+The portfolio has not executed yet. NAV starts at 100.00 on the first trading session after the first signal.
 
-### Current positions (drifted weights)
-
-| Ticker | Target weight | Drifted weight | Entry price | Last price |
-|---|---|---|---|---|
-| UNI.AX | 2.94% | 4.21% | 7.0000 | 8.1600 |
-| BOL.AX | 3.00% | 4.21% | 2.1600 | 2.4700 |
-| GNP.AX | 3.00% | 4.17% | 8.3700 | 9.4900 |
-| TLC.AX | 3.00% | 3.98% | 4.8400 | 5.2350 |
-| JYC.AX | 3.00% | 3.77% | 6.0000 | 6.1400 |
-| RMS.AX | 3.00% | 3.76% | 3.5900 | 3.6650 |
-| DPM.AX | 3.00% | 3.74% | 58.1600 | 59.1100 |
-| OML.AX | 3.00% | 3.71% | 1.6500 | 1.6620 |
-| SKT.AX | 3.00% | 3.68% | 2.8400 | 2.8400 |
-| WAF.AX | 3.00% | 3.68% | 3.6800 | 3.6750 |
-| REG.AX | 3.00% | 3.65% | 4.4700 | 4.4300 |
-| DRR.AX | 3.00% | 3.62% | 4.0500 | 3.9800 |
-| SSG.AX | 2.87% | 3.53% | 1.2900 | 1.2950 |
-| HLO.AX | 3.00% | 3.53% | 1.4250 | 1.3650 |
-| AX1.AX | 3.00% | 3.52% | 0.6850 | 0.6550 |
-| WGX.AX | 3.00% | 3.45% | 5.4100 | 5.0750 |
-| RRL.AX | 3.00% | 3.44% | 7.5000 | 7.0000 |
-| DUG.AX | 3.00% | 3.32% | 1.7500 | 1.5800 |
-| SRV.AX | 3.00% | 3.32% | 6.0600 | 5.4700 |
-| KGN.AX | 2.68% | 3.26% | 3.3100 | 3.2900 |
-| JIN.AX | 3.00% | 3.23% | 6.7600 | 5.9250 |
-| RSG.AX | 3.00% | 3.14% | 1.3000 | 1.1100 |
-| MLG.AX | 2.76% | 3.14% | 0.8350 | 0.7750 |
-| EDU.AX | 3.00% | 3.05% | 1.1100 | 0.9200 |
-| FEX.AX | 3.00% | 3.04% | 0.2600 | 0.2150 |
-| FWD.AX | 3.00% | 2.98% | 2.8200 | 2.2800 |
-| AR1.AX | 2.27% | 2.59% | 0.0700 | 0.0650 |
-| VLS.AX | 1.99% | 2.53% | 2.7800 | 2.8800 |
-| ANG.AX | 2.04% | 2.27% | 0.1650 | 0.1500 |
+Pending signal awaiting execution: `2026-10-13`
 
