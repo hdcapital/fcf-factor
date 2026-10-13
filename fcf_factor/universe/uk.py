@@ -30,9 +30,11 @@ from .filters import classify_security
 from .symbols import to_yahoo_symbol
 
 LSE_ISSUER_URLS = (
+    # The instrument list carries TIDMs (tickers); the issuer list may not.
+    "https://docs.londonstockexchange.com/sites/default/files/reports/Instrument%20list_0.xlsx",
+    "https://docs.londonstockexchange.com/sites/default/files/reports/Instrument%20list.xlsx",
     "https://docs.londonstockexchange.com/sites/default/files/reports/Issuer%20list_0.xlsx",
     "https://docs.londonstockexchange.com/sites/default/files/reports/Issuer%20list.xlsx",
-    "https://docs.londonstockexchange.com/sites/default/files/reports/List%20of%20all%20companies_0.xlsx",
 )
 
 _TIDM_KEYS = ("tidm", "mnemonic", "ticker", "symbol", "trading symbol")
@@ -67,6 +69,35 @@ def _rows_from_xlsx(payload: bytes) -> list[list[str]]:
             rows = sheet_rows
     workbook.close()
     return rows
+
+
+def describe_workbook(payload: bytes, max_rows: int = 8) -> str:
+    """Summarise a spreadsheet's sheets and first rows for an error message.
+
+    When an exchange changes its file layout the parser fails, and this text
+    in the log is what lets the parser be fixed without guessing.
+    """
+    from openpyxl import load_workbook
+
+    try:
+        workbook = load_workbook(io.BytesIO(payload), read_only=True, data_only=True)
+    except Exception as exc:  # noqa: BLE001
+        return f"(not a readable workbook: {exc}; first bytes {payload[:60]!r})"
+    parts = []
+    for sheet in workbook.worksheets:
+        shown = 0
+        lines = []
+        for row in sheet.iter_rows(values_only=True):
+            cells = ["" if c is None else str(c).strip() for c in row]
+            if not any(cells):
+                continue
+            lines.append(" | ".join(cells)[:220])
+            shown += 1
+            if shown >= max_rows:
+                break
+        parts.append(f"[sheet {sheet.title!r}] " + " // ".join(lines))
+    workbook.close()
+    return " ;; ".join(parts)
 
 
 def _rows_from_csv(payload: bytes) -> list[list[str]]:
@@ -158,7 +189,12 @@ class UKUniverseAdapter(UniverseAdapter):
             try:
                 payload = http_get(url)
                 rows = _rows_from_xlsx(payload) if url.endswith(".xlsx") else _rows_from_csv(payload)
-                entries, excluded = parse_lse_rows(rows)
+                try:
+                    entries, excluded = parse_lse_rows(rows)
+                except UniverseFetchError as exc:
+                    if url.endswith(".xlsx"):
+                        raise UniverseFetchError(f"{exc}. Layout: {describe_workbook(payload)}") from exc
+                    raise
                 if not entries:
                     raise UniverseFetchError("parsed zero LSE entries")
                 result.entries = dedupe_entries(entries, result)
