@@ -5,7 +5,11 @@ name: Quarterly FCF factor
 # generates a signal, so the schedule itself stays simple and auditable.
 on:
   schedule:
+    # Saturday, plus a Sunday backup in case GitHub skips or badly delays the
+    # Saturday trigger. A market whose snapshot already exists is skipped, so
+    # the backup can never produce a second signal.
     - cron: "0 6 * 3,6,9,12 6"
+    - cron: "0 6 * 3,6,9,12 0"
   workflow_dispatch:
     inputs:
       markets:
@@ -46,6 +50,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+
+      # The decision imports the package, which needs its dependencies. This
+      # step was missing, so every scheduled run failed here in September.
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Decide
         id: decide

@@ -46,8 +46,8 @@ def test_rebalance_is_due_on_the_saturday_after_the_first_friday():
     assert decision.signal_date == date(2026, 9, 4)
 
 
-def test_no_rebalance_on_later_saturdays_in_the_month():
-    for day in (date(2026, 9, 12), date(2026, 9, 19), date(2026, 9, 26)):
+def test_no_rebalance_on_later_weekends_in_the_month():
+    for day in (date(2026, 9, 12), date(2026, 9, 13), date(2026, 9, 19), date(2026, 9, 27)):
         assert scheduled_rebalance_decision(day).due is False
 
 
@@ -56,8 +56,32 @@ def test_no_rebalance_outside_the_four_rebalance_months():
     assert "not a rebalance month" in scheduled_rebalance_decision(date(2026, 10, 3)).reason
 
 
-def test_no_rebalance_on_a_non_saturday():
+def test_no_rebalance_on_a_weekday():
     assert scheduled_rebalance_decision(date(2026, 9, 4)).due is False
+    assert scheduled_rebalance_decision(date(2026, 9, 7)).due is False
+
+
+def test_a_late_sunday_run_still_rebalances_for_the_same_friday():
+    """GitHub runs scheduled jobs late; Sunday must still find Friday's signal."""
+    decision = scheduled_rebalance_decision(date(2026, 12, 6))
+    assert decision.due is True
+    assert decision.signal_date == date(2026, 12, 4)
+
+
+def test_the_december_2026_rebalance_falls_on_saturday_5_december():
+    decision = scheduled_rebalance_decision(date(2026, 12, 5))
+    assert decision.due is True
+    assert decision.signal_date == date(2026, 12, 4)
+
+
+def test_the_check_command_runs_on_the_installed_package(capsys):
+    """Regression: the workflow's decision step crashed before deciding."""
+    import json
+
+    from fcf_factor.cli import main
+
+    assert main(["check-rebalance", "--date", "2026-12-06"]) == 0
+    assert json.loads(capsys.readouterr().out)["due"] == "true"
 
 
 def test_manual_runs_use_the_latest_completed_session():

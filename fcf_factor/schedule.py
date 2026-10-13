@@ -73,27 +73,26 @@ class RebalanceDecision:
 
 
 def scheduled_rebalance_decision(run_date: date) -> RebalanceDecision:
-    """Decide whether ``run_date`` (a scheduled Saturday) is a rebalance day.
+    """Decide whether a scheduled run on ``run_date`` is a rebalance run.
 
-    A rebalance happens when ``run_date`` is the Saturday immediately after the
-    first Friday of March, June, September or December.  Everything else is a
-    no-op, which is what stops the weekly cron from generating twelve signals a
-    quarter.
+    It is when ``run_date`` is the Saturday or Sunday immediately after the
+    first Friday of March, June, September or December.  Sunday is accepted
+    because GitHub starts scheduled jobs late and sometimes skips them, and the
+    workflow has a Sunday backup trigger.  Running twice is harmless: a market
+    whose snapshot already exists is skipped, never overwritten.  Every other
+    day is a no-op, which is what stops the weekly cron from generating a
+    signal every weekend.
     """
-    if run_date.weekday() != calendar.SATURDAY:
-        return RebalanceDecision(False, None, f"{run_date} is not a Saturday")
-    previous_day = run_date - timedelta(days=1)
-    if not is_rebalance_month(previous_day.month):
+    if run_date.weekday() not in (calendar.SATURDAY, calendar.SUNDAY):
+        return RebalanceDecision(False, None, f"{run_date} is not a weekend day")
+    friday = run_date - timedelta(days=run_date.weekday() - calendar.FRIDAY)
+    if not is_rebalance_month(friday.month):
+        return RebalanceDecision(False, None, f"{friday:%B} is not a rebalance month")
+    if not is_first_friday(friday):
         return RebalanceDecision(
-            False, None, f"{previous_day:%B} is not a rebalance month"
+            False, None, f"{friday} is not the first Friday of {friday:%B %Y}"
         )
-    if not is_first_friday(previous_day):
-        return RebalanceDecision(
-            False, None, f"{previous_day} is not the first Friday of {previous_day:%B %Y}"
-        )
-    return RebalanceDecision(
-        True, previous_day, f"{previous_day} was the first Friday of {previous_day:%B %Y}"
-    )
+    return RebalanceDecision(True, friday, f"{friday} was the first Friday of {friday:%B %Y}")
 
 
 def last_completed_session(market: str, now: datetime | None = None) -> date:

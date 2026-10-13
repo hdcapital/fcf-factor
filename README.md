@@ -451,7 +451,7 @@ fcf_factor/
 
 data/                    the research record (committed - see data/README.md)
 reports/latest/          one markdown report per market, plus an index
-tests/                   287 tests, none of which touch the network
+tests/                   290 tests, none of which touch the network
 .github/workflows/       quarterly_factor.yml, daily_prices.yml, tests.yml
 ```
 
@@ -609,7 +609,7 @@ Three workflows, all with `workflow_dispatch`:
 
 | Workflow | Schedule | What it does |
 |---|---|---|
-| `quarterly_factor.yml` | `0 6 * 3,6,9,12 6` — Saturdays in the rebalance months | Checks whether yesterday was the first Friday; if so, screens all five markets in parallel, emails the picks, and commits once |
+| `quarterly_factor.yml` | 06:00 UTC Saturdays and Sundays in the rebalance months | Checks whether the preceding Friday was the first Friday; if so, screens all five markets in parallel, emails the picks, and commits once. Sunday is a backup for a late or skipped Saturday trigger; markets already screened are skipped |
 | `daily_prices.yml` | `35 23 * * 1-5` | Captures daily bars, executes pending signals, rolls NAV, commits |
 | `tests.yml` | on push and pull request | Lint, tests, offline smoke test |
 
@@ -741,7 +741,7 @@ provider switch is visible in the audit trail.
 
 ## Tests
 
-287 tests, none of which touch the network — a fixture makes any accidental HTTP
+290 tests, none of which touch the network — a fixture makes any accidental HTTP
 call fail immediately.
 
 ```bash
