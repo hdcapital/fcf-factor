@@ -68,6 +68,13 @@ class IncomeCashflowPeriod:
     basic_shares: float | None = None
     #: True when ``ebitda`` was reconstructed as EBIT + D&A rather than reported.
     ebitda_is_derived: bool = False
+    #: Group net income, including the share belonging to minority holders.
+    net_income_incl_nci: float | None = None
+    #: Earnings attributable to non-controlling (minority) interests.
+    nci_earnings: float | None = None
+    #: True when ``nci_earnings`` came from the provider's own minority line
+    #: rather than from group minus parent net income.
+    nci_earnings_from_minority_row: bool = False
 
 
 @dataclass(frozen=True)
@@ -77,10 +84,20 @@ class BalanceSheetSnapshot:
     period_end: date
     period_type: str  # "annual" | "quarterly"
     currency: str | None = None
+    #: The provider's total debt figure.  May or may not include lease
+    #: liabilities -- :func:`fcf_factor.factor.valuation.resolve_debt` decides.
     total_debt: float | None = None
+    #: Interest-bearing borrowings *excluding* lease liabilities.
+    borrowings: float | None = None
+    #: Capitalised lease liabilities (IFRS 16 / ASC 842).
+    lease_liabilities: float | None = None
     cash_and_equivalents: float | None = None
     preferred_stock: float | None = None
+    #: Book value of non-controlling interests.  Used only as a fallback to
+    #: estimate the minorities' economic share; never added to enterprise value.
     minority_interest: float | None = None
+    #: Total equity *including* non-controlling interests.
+    total_equity_incl_nci: float | None = None
     shares_outstanding: float | None = None
 
 

@@ -117,6 +117,17 @@ def last_completed_session(market: str, now: datetime | None = None) -> date:
     return day
 
 
+def session_close_utc(market: str, day: date) -> datetime:
+    """When ``market``'s session on local date ``day`` is safely closed, in UTC.
+
+    Includes the settling buffer in :data:`MARKET_CLOSE_LOCAL`.  A price bar
+    retrieved before this moment is an intraday snapshot, not a close.
+    """
+    tz = ZoneInfo(MARKET_TIMEZONE[market.upper()])
+    local_close = datetime.combine(day, MARKET_CLOSE_LOCAL[market.upper()], tzinfo=tz)
+    return local_close.astimezone(UTC)
+
+
 def next_business_day(day: date) -> date:
     """Next weekday strictly after ``day`` (weekends only, no holidays)."""
     candidate = day + timedelta(days=1)

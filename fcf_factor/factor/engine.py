@@ -37,6 +37,7 @@ from .growth import (
     forward_revenue,
     normalized_fcf_margin,
 )
+from .nci import nci_share
 from .quality import (
     assess_market_cap,
     currency_mismatch_flag,
@@ -46,7 +47,7 @@ from .quality import (
     statement_freshness_flag,
 )
 from .trends import normalized_trend, per_share_series
-from .valuation import calculate_enterprise_value, fcf_yield
+from .valuation import calculate_enterprise_value, fcf_yield, resolve_debt
 
 
 @dataclass
@@ -80,10 +81,19 @@ class CompanyFactors:
     latest_yoy_growth: float | None = None
     forward_revenue: float | None = None
     forward_fcf: float | None = None
+    #: Expected FCF of the whole consolidated group, before minorities.
+    expected_fcf_group: float | None = None
+    #: Minorities' economic share of group cash flow, and how it was measured.
+    nci_share: float | None = None
+    nci_share_source: str | None = None
+    #: Expected FCF attributable to the listed company's own shareholders.
+    #: This is the figure ranked and weighted.
     expected_fcf: float | None = None
     expected_fcf_usd: float | None = None
 
     total_debt_usd: float | None = None
+    lease_liabilities_usd: float | None = None
+    lease_treatment: str | None = None
     cash_usd: float | None = None
     enterprise_value_usd: float | None = None
     enterprise_value_calculated_usd: float | None = None
@@ -148,9 +158,14 @@ class CompanyFactors:
             "latest_yoy_growth": self.latest_yoy_growth,
             "forward_revenue": self.forward_revenue,
             "forward_fcf": self.forward_fcf,
+            "expected_fcf_group": self.expected_fcf_group,
+            "nci_share": self.nci_share,
+            "nci_share_source": self.nci_share_source or "",
             "expected_fcf": self.expected_fcf,
             "expected_fcf_usd": self.expected_fcf_usd,
             "total_debt_usd": self.total_debt_usd,
+            "lease_liabilities_usd": self.lease_liabilities_usd,
+            "lease_treatment": self.lease_treatment or "",
             "cash_usd": self.cash_usd,
             "enterprise_value_usd": self.enterprise_value_usd,
             "enterprise_value_calculated_usd": self.enterprise_value_calculated_usd,
@@ -296,20 +311,43 @@ def evaluate_company(
 
     factors.forward_revenue = forward_revenue(ttm.revenue, growth.growth)
     factors.forward_fcf = forward_fcf(factors.forward_revenue, margin)
-    factors.expected_fcf = expected_fcf(ttm.fcf, factors.forward_fcf, config)
-    if factors.expected_fcf is None:
+    factors.expected_fcf_group = expected_fcf(ttm.fcf, factors.forward_fcf, config)
+    if factors.expected_fcf_group is None:
         return factors.exclude("expected_fcf_unavailable")
-    if factors.expected_fcf <= 0:
+    if factors.expected_fcf_group <= 0:
         return factors.exclude("expected_fcf_not_positive")
+
+    # ---- minority interests: scale to the parent's share ---------------
+    # Consolidated cash flow includes 100% of partly-owned subsidiaries.  The
+    # minorities' slice is removed here, and minorities are kept OUT of
+    # enterprise value so they are not counted twice.
+    nci = nci_share(annual, fundamentals.latest_balance)
+    for flag in nci.flags:
+        factors.add_flag(flag)
+    factors.nci_share = nci.share
+    factors.nci_share_source = nci.source
+    if nci.parent_share is None:
+        return factors.exclude("nci_present_share_unknown")
+    factors.expected_fcf = factors.expected_fcf_group * nci.parent_share
     factors.expected_fcf_usd = fx.to_usd(factors.expected_fcf, financial_currency)
     if factors.expected_fcf_usd is None:
         return factors.exclude(f"fx_rate_unavailable:{financial_currency}")
 
     # ---- enterprise value ------------------------------------------------
     balance = fundamentals.latest_balance
-    debt_available = balance is not None and balance.total_debt is not None
+    debt = (
+        resolve_debt(balance.total_debt, balance.borrowings, balance.lease_liabilities)
+        if balance is not None
+        else None
+    )
+    if debt is not None:
+        for flag in debt.flags:
+            factors.add_flag(flag)
+        factors.lease_treatment = debt.treatment
+        factors.lease_liabilities_usd = fx.to_usd(debt.lease_liabilities, financial_currency)
+    debt_available = debt is not None and debt.debt is not None
     cash_available = balance is not None and balance.cash_and_equivalents is not None
-    factors.total_debt_usd = fx.to_usd(balance.total_debt, financial_currency) if debt_available else None
+    factors.total_debt_usd = fx.to_usd(debt.debt, financial_currency) if debt_available else None
     factors.cash_usd = (
         fx.to_usd(balance.cash_and_equivalents, financial_currency) if cash_available else None
     )
@@ -322,18 +360,33 @@ def evaluate_company(
     if ev_sanity:
         factors.add_flag(ev_sanity)
         provider_ev_usd = None
+    # The provider's EV includes minority interests.  Our methodology removes
+    # them from the cash flow instead, so take them out of the fallback EV too.
+    provider_nci_note = None
+    if provider_ev_usd is not None and (factors.nci_share or 0) > 0:
+        book_nci_usd = (
+            fx.to_usd(balance.minority_interest, financial_currency)
+            if balance is not None and balance.minority_interest
+            else None
+        )
+        if book_nci_usd:
+            provider_ev_usd -= book_nci_usd
+            provider_nci_note = "provider_ev_nci_removed"
+        else:
+            provider_nci_note = "provider_ev_may_include_nci"
     ev = calculate_enterprise_value(
         market_cap_usd=factors.market_cap_usd,
         total_debt_usd=factors.total_debt_usd,
         cash_usd=factors.cash_usd,
         preferred_usd=fx.to_usd(balance.preferred_stock, financial_currency) if balance else None,
-        minority_interest_usd=fx.to_usd(balance.minority_interest, financial_currency) if balance else None,
         provider_ev_usd=provider_ev_usd,
         debt_field_available=debt_available,
         cash_field_available=cash_available,
     )
     for flag in ev.flags:
         factors.add_flag(flag)
+    if ev.source == "provider" and provider_nci_note:
+        factors.add_flag(provider_nci_note)
     factors.enterprise_value_calculated_usd = ev.calculated
     factors.enterprise_value_provider_usd = ev.provider
     factors.enterprise_value_source = ev.source

@@ -157,9 +157,9 @@ def _price_row(day: str, ticker: str, close: float) -> dict:
 
 def test_duplicate_date_ticker_rows_are_never_created(data_root):
     rows = [_price_row("2026-09-07", "BHP.AX", 40.0), _price_row("2026-09-08", "BHP.AX", 41.0)]
-    assert upsert_prices("AU", rows) == {"added": 2, "skipped_existing": 0, "replaced_placeholder": 0}
+    assert upsert_prices("AU", rows) == {"added": 2, "skipped_existing": 0, "replaced_placeholder": 0, "replaced_provisional": 0}
     # Re-running the same job (the 7-10 day lookback) must add nothing.
-    assert upsert_prices("AU", rows) == {"added": 0, "skipped_existing": 2, "replaced_placeholder": 0}
+    assert upsert_prices("AU", rows) == {"added": 0, "skipped_existing": 2, "replaced_placeholder": 0, "replaced_provisional": 0}
     assert len(load_prices("AU")) == 2
 
 
@@ -181,7 +181,7 @@ def test_backfilling_a_gap_adds_only_the_missing_session(data_root):
             _price_row("2026-09-09", "BHP.AX", 42.0),
         ],
     )
-    assert stats == {"added": 1, "skipped_existing": 2, "replaced_placeholder": 0}
+    assert stats == {"added": 1, "skipped_existing": 2, "replaced_placeholder": 0, "replaced_provisional": 0}
     assert [r["date"] for r in load_prices("AU")] == ["2026-09-07", "2026-09-08", "2026-09-09"]
 
 
@@ -247,3 +247,85 @@ def test_has_price_rejects_blank_and_non_numeric_closes():
     assert has_price({"close": None}) is False
     assert has_price({"close": "0"}) is False
     assert has_price({}) is False
+
+
+# --------------------------------------------------------------------------
+# Mid-session bars (GitHub runs the daily job hours late)
+# --------------------------------------------------------------------------
+def test_a_bar_fetched_mid_session_is_provisional():
+    from fcf_factor.storage import is_provisional
+
+    # 03:00 UTC on 13 Oct is 14:00 in Sydney: the ASX is still trading.
+    midday = _price_row("2026-10-13", "BHP.AX", 40.0) | {"retrieved_at": "2026-10-13T03:00:00+00:00"}
+    after = _price_row("2026-10-13", "BHP.AX", 40.0) | {"retrieved_at": "2026-10-13T23:35:00+00:00"}
+    assert is_provisional("AU", midday) is True
+    assert is_provisional("AU", after) is False
+
+
+def test_a_provisional_bar_is_replaced_by_the_real_close(data_root):
+    midday = _price_row("2026-10-13", "BHP.AX", 40.0) | {"retrieved_at": "2026-10-13T03:00:00+00:00"}
+    final = _price_row("2026-10-13", "BHP.AX", 41.5) | {"retrieved_at": "2026-10-14T03:00:00+00:00"}
+    upsert_prices("AU", [midday])
+    stats = upsert_prices("AU", [final])
+    assert stats["replaced_provisional"] == 1
+    assert float(load_prices("AU")[0]["close"]) == pytest.approx(41.5)
+
+
+def test_a_final_close_is_never_replaced_even_by_another_final_fetch(data_root):
+    first = _price_row("2026-10-13", "BHP.AX", 41.5) | {"retrieved_at": "2026-10-14T03:00:00+00:00"}
+    later = _price_row("2026-10-13", "BHP.AX", 99.0) | {"retrieved_at": "2026-10-20T03:00:00+00:00"}
+    upsert_prices("AU", [first])
+    assert upsert_prices("AU", [later])["skipped_existing"] == 1
+    assert float(load_prices("AU")[0]["close"]) == pytest.approx(41.5)
+
+
+def test_a_provisional_bar_is_not_replaced_by_another_provisional_bar(data_root):
+    a = _price_row("2026-10-13", "BHP.AX", 40.0) | {"retrieved_at": "2026-10-13T01:00:00+00:00"}
+    b = _price_row("2026-10-13", "BHP.AX", 40.7) | {"retrieved_at": "2026-10-13T03:00:00+00:00"}
+    upsert_prices("AU", [a])
+    assert upsert_prices("AU", [b])["skipped_existing"] == 1
+
+
+def test_collection_skips_the_session_that_is_still_trading(data_root):
+    """At 03:00 UTC on Tuesday 13 Oct only Monday's ASX session is complete."""
+    from datetime import UTC, datetime
+
+    from fcf_factor.portfolio.prices import collect_prices
+    from tests.conftest import bar
+
+    class Fake:
+        name = "fake"
+
+        def get_prices(self, symbol, start, end):
+            return [bar(date(2026, 10, 12), 40.0), bar(date(2026, 10, 13), 40.5)]
+
+        def get_fx_rate(self, base, quote="USD"):
+            return 0.65
+
+    result = collect_prices(
+        "AU", Fake(), ["BHP.AX"], end=date(2026, 10, 13),
+        now=datetime(2026, 10, 13, 3, 0, tzinfo=UTC),
+    )
+    assert result.skipped_open_session == 1
+    assert [r["date"] for r in load_prices("AU")] == ["2026-10-12"]
+
+
+def test_us_bars_are_kept_once_new_york_has_closed(data_root):
+    from datetime import UTC, datetime
+
+    from fcf_factor.portfolio.prices import collect_prices
+    from tests.conftest import bar
+
+    class Fake:
+        name = "fake"
+
+        def get_prices(self, symbol, start, end):
+            return [bar(date(2026, 10, 12), 100.0, currency="USD")]
+
+        def get_fx_rate(self, base, quote="USD"):
+            return 1.0
+
+    # 03:00 UTC Tuesday is 23:00 Monday in New York: Monday is closed.
+    collect_prices("US", Fake(), ["AAPL"], end=date(2026, 10, 13),
+                   now=datetime(2026, 10, 13, 3, 0, tzinfo=UTC))
+    assert [r["date"] for r in load_prices("US")] == ["2026-10-12"]

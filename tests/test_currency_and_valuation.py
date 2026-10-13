@@ -80,17 +80,79 @@ def test_enterprise_value_preferred_calculation():
         total_debt_usd=300.0,
         cash_usd=100.0,
         preferred_usd=50.0,
-        minority_interest_usd=20.0,
     )
-    assert ev.value == pytest.approx(1_270.0)
+    assert ev.value == pytest.approx(1_250.0)
     assert ev.source == "calculated"
 
 
-def test_absent_preferred_and_minority_are_treated_as_zero_and_flagged():
+def test_enterprise_value_never_includes_minority_interests():
+    """Minorities are removed from cash flow instead, so EV must not carry them."""
+    import inspect
+
+    assert "minority" not in " ".join(inspect.signature(calculate_enterprise_value).parameters)
+
+
+def test_absent_preferred_is_treated_as_zero_and_flagged():
     ev = calculate_enterprise_value(1_000.0, 300.0, 100.0)
     assert ev.value == pytest.approx(1_200.0)
     assert "preferred_stock_assumed_zero" in ev.flags
-    assert "minority_interest_assumed_zero" in ev.flags
+
+
+# --------------------------------------------------------------------------
+# Leases as debt
+# --------------------------------------------------------------------------
+from fcf_factor.factor.valuation import resolve_debt  # noqa: E402
+
+
+def test_leases_already_inside_total_debt_are_not_added_twice():
+    """Accent Group's shape: tiny borrowings, large leases, total = both."""
+    r = resolve_debt(total_debt=442.0, borrowings=12.0, lease_liabilities=430.0)
+    assert r.debt == pytest.approx(442.0)
+    assert r.treatment == "leases_included_verified"
+    assert r.flags == []
+
+
+def test_leases_missing_from_total_debt_are_added():
+    r = resolve_debt(total_debt=12.0, borrowings=12.0, lease_liabilities=430.0)
+    assert r.debt == pytest.approx(442.0)
+    assert r.treatment == "leases_added"
+    assert "lease_liabilities_added_to_debt" in r.flags
+
+
+def test_total_debt_smaller_than_leases_cannot_contain_them():
+    r = resolve_debt(total_debt=50.0, borrowings=None, lease_liabilities=430.0)
+    assert r.debt == pytest.approx(480.0)
+    assert r.treatment == "leases_added"
+
+
+def test_ambiguous_inclusion_is_assumed_and_flagged():
+    r = resolve_debt(total_debt=500.0, borrowings=None, lease_liabilities=430.0)
+    assert r.debt == pytest.approx(500.0)
+    assert r.treatment == "leases_included_assumed"
+    assert "lease_inclusion_assumed" in r.flags
+
+
+def test_no_lease_data_keeps_total_debt_and_says_so():
+    r = resolve_debt(total_debt=300.0, borrowings=300.0, lease_liabilities=None)
+    assert r.debt == pytest.approx(300.0)
+    assert "lease_liabilities_not_reported" in r.flags
+
+
+def test_zero_leases_needs_no_adjustment():
+    r = resolve_debt(total_debt=300.0, borrowings=300.0, lease_liabilities=0.0)
+    assert r.debt == pytest.approx(300.0)
+    assert r.treatment == "no_leases"
+
+
+def test_total_debt_is_rebuilt_when_missing():
+    r = resolve_debt(total_debt=None, borrowings=100.0, lease_liabilities=250.0)
+    assert r.debt == pytest.approx(350.0)
+    assert "total_debt_rebuilt" in r.flags
+
+
+def test_no_debt_information_at_all_is_unavailable_not_zero():
+    r = resolve_debt(total_debt=None, borrowings=None, lease_liabilities=None)
+    assert r.debt is None
 
 
 def test_missing_debt_does_not_become_zero_debt():

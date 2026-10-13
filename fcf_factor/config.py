@@ -19,7 +19,12 @@ from pathlib import Path
 # --------------------------------------------------------------------------
 # Methodology version.  Bump this whenever the factor definition changes.
 # --------------------------------------------------------------------------
-METHODOLOGY_VERSION = "1.0.0"
+METHODOLOGY_VERSION = "1.1.0"
+#: 1.0.0 (2026-09-14) initial release.
+#: 1.1.0 (2026-10-13) minority interests removed from enterprise value and
+#:       deducted from free cash flow instead; lease liabilities verified to be
+#:       inside the debt figure (added when the provider omits them); price bars
+#:       are stored only once their session has closed.
 
 # --------------------------------------------------------------------------
 # Markets

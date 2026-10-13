@@ -129,25 +129,61 @@ excluded with `forward_growth_unavailable`.
 ### Expected free cash flow
 
 ```
-ExpectedFCF = 0.50 * CurrentTTMFCF + 0.50 * ForwardFCF
+ExpectedFCF_group = 0.50 * CurrentTTMFCF + 0.50 * ForwardFCF
+ExpectedFCF       = ExpectedFCF_group * (1 - NCIShare)
 ```
 
 A company must have `ExpectedFCF > 0` and positive operating profitability
 (`TTM EBITDA > 0`, or latest-FY EBITDA > 0 with the fallback flagged).
 
+### Minority interests
+
+When a company consolidates a subsidiary it only partly owns, 100% of that
+subsidiary's cash flow lands in group operating cash flow, even though minority
+holders own a slice of it. So expected free cash flow is scaled down to the
+listed company's own share, and minority interests are **not** added to
+enterprise value, which would count them twice.
+
+```
+NCIShare = sum(NCI earnings) / sum(group net income)     latest three fiscal years
+```
+
+If the group made losses over that window, the fallback is
+`NCI book value / total equity including NCI`. A company that shows minority
+interests on its balance sheet but gives no way to measure their share is
+excluded as `nci_present_share_unknown`, never assumed to be zero. Both
+`expected_fcf_group` and the attributable `expected_fcf` are stored.
+
 ### Enterprise value
 
 ```
-EV = MarketCap + TotalDebt + PreferredStock + MinorityInterest - Cash
+EV = MarketCap + Debt + PreferredStock - Cash
+Debt = borrowings + lease liabilities
 ```
 
-All components are converted to USD **before** they are combined. Preferred
-stock and minority interest genuinely absent from a balance sheet are treated
-as zero — that is a real economic statement. A *missing* debt or cash field is
-not: assuming zero net debt would quietly flatter every company whose balance
-sheet failed to download, so the calculation is abandoned and the provider's
-own enterprise value is used and flagged instead. Both figures and the source
-used are stored. `EV <= 0` excludes the company.
+All components are converted to USD **before** they are combined.
+
+**Leases are debt.** Under IFRS 16 and ASC 842 a lease is a liability, and the
+principal repaid each year sits in *financing* cash flow. Free cash flow
+(operating cash flow less capex) is therefore already before lease repayments,
+so the matching denominator must carry the lease liability as debt. That is
+what lets a retailer that rents its stores compare fairly with one that owns
+them: one carries more debt, the other more capex.
+
+Yahoo publishes no lease line on the cash flow statement, only lease
+liabilities on the balance sheet, and its "total debt" figure sometimes
+includes them and sometimes does not. So the system checks every company
+rather than assuming: if total debt matches borrowings plus leases they are
+already included; if it matches borrowings alone, or is smaller than the lease
+liability, the leases are added. The outcome is stored per company as
+`lease_treatment`.
+
+Preferred stock genuinely absent from a balance sheet is treated as zero. A
+*missing* debt or cash field is not: assuming zero net debt would quietly
+flatter every company whose balance sheet failed to download, so the
+calculation is abandoned and the provider's own enterprise value is used and
+flagged instead, with minority interests removed from it. Both figures and the
+source used are stored. `EV <= 0` excludes the company.
 
 ### FCF yield
 
@@ -358,6 +394,10 @@ Checks that run on every screening pass:
 | Implausible share count | Share counts below 1,000 ignored, flagged |
 | Negative or zero EV | Excluded |
 | Missing debt or cash field | EV calculation abandoned, provider EV used, flagged |
+| Lease liabilities missing from debt | Added to debt and flagged `lease_liabilities_added_to_debt` |
+| Minority interests | Removed from cash flow; unmeasurable ones exclude the company |
+| Bar fetched while the session was trading | Not stored; any already stored is replaced by the real close |
+| Placeholder bar with no price | Not stored; any already stored is replaced by the real session |
 | Positive reported CapEx | Flagged `capex_reported_positive` |
 | Stale statements | Flagged beyond 640 days |
 | Empty provider payload | Flagged `provider_returned_no_statements` |
@@ -392,7 +432,7 @@ fcf_factor/
 
 data/                    the research record (committed - see data/README.md)
 reports/latest/          one markdown report per market, plus an index
-tests/                   244 tests, none of which touch the network
+tests/                   280 tests, none of which touch the network
 .github/workflows/       quarterly_factor.yml, daily_prices.yml, tests.yml
 ```
 
@@ -484,7 +524,10 @@ python -m fcf_factor report                         # rewrite reports/latest/
 ```
 
 `daily-prices` re-requests the last 10 calendar days every run and backfills any
-gaps, so one failed workflow run does not leave a hole. Duplicate `(date,
+gaps, so one failed workflow run does not leave a hole. A bar is stored only once
+its session has closed in that market's own timezone. That matters because
+GitHub routinely starts scheduled jobs hours late, which lands the 23:35 UTC job
+in the middle of the next Australian and New Zealand trading day. Duplicate `(date,
 ticker)` rows are impossible by construction. A market holiday simply produces no
 rows for that day.
 
@@ -679,7 +722,7 @@ provider switch is visible in the audit trail.
 
 ## Tests
 
-244 tests, none of which touch the network — a fixture makes any accidental HTTP
+280 tests, none of which touch the network — a fixture makes any accidental HTTP
 call fail immediately.
 
 ```bash
@@ -697,6 +740,19 @@ splits, duplicate daily price prevention, missing-data exclusions, snapshot
 immutability, universe parsing for all five markets, and the email.
 
 ---
+
+## Methodology changelog
+
+Every snapshot records the version that produced it in `metadata.json`.
+
+| Version | Date | Change |
+|---|---|---|
+| 1.0.0 | 2026-09-14 | Initial release |
+| 1.1.0 | 2026-10-13 | Minority interests deducted from free cash flow instead of added to enterprise value. Lease liabilities verified to be inside debt, and added when the provider omits them. Price bars stored only after their session closes. Fixed total equity being misread as minority interest. |
+
+The Australian portfolio was restarted under 1.1.0. The 1.0.0 Australian signal
+of 15 September 2026 and its four weeks of history remain in git history for
+audit; they were built on the total-equity bug and on mid-session prices.
 
 ## Disclaimer
 

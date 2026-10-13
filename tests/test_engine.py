@@ -230,3 +230,112 @@ def test_an_implausible_provider_ev_is_discarded_rather_than_used(
     company = evaluate_company(entry_factory("BADEV.L", "UK"), bundle, fx, AS_OF)
     assert company.exclusion_reasons == ["enterprise_value_unavailable"]
     assert any(f.startswith("provider_ev_implausible") for f in company.flags)
+
+
+# --------------------------------------------------------------------------
+# Methodology 1.1.0: minorities and leases
+# --------------------------------------------------------------------------
+def _with_nci(bundle, nci_fraction: float):
+    """Give every year group net income with a fixed minority slice."""
+    bundle.annual = [
+        replace(a, net_income_incl_nci=10_000_000.0, nci_earnings=10_000_000.0 * nci_fraction)
+        for a in bundle.annual
+    ]
+    return bundle
+
+
+def test_minorities_reduce_expected_fcf_not_enterprise_value(healthy_company, entry_factory, fx):
+    plain = evaluate_company(entry_factory("OWN"), healthy_company("OWN"), fx, AS_OF)
+    mixed = evaluate_company(
+        entry_factory("JYC"), _with_nci(healthy_company("JYC"), 0.20), fx, AS_OF
+    )
+    assert mixed.eligible, mixed.exclusion_reasons
+    assert mixed.nci_share == pytest.approx(0.20)
+    assert mixed.nci_share_source == "earnings"
+    assert mixed.expected_fcf_group == pytest.approx(plain.expected_fcf_group)
+    assert mixed.expected_fcf == pytest.approx(plain.expected_fcf * 0.80)
+    # Enterprise value is identical: minorities are not added to it.
+    assert mixed.enterprise_value_usd == pytest.approx(plain.enterprise_value_usd)
+    assert mixed.fcf_yield == pytest.approx(plain.fcf_yield * 0.80)
+
+
+def test_book_minority_interest_is_never_added_to_enterprise_value(
+    healthy_company, entry_factory, fx
+):
+    bundle = healthy_company("BOOK")
+    bundle.annual_balance = [
+        replace(
+            bundle.annual_balance[0],
+            minority_interest=50_000_000.0,
+            total_equity_incl_nci=500_000_000.0,
+        )
+    ]
+    bundle.quarterly_balance = []
+    no_nci = healthy_company("BOOK")
+    with_bs = evaluate_company(entry_factory("BOOK"), bundle, fx, AS_OF)
+    without = evaluate_company(entry_factory("BOOK"), no_nci, fx, AS_OF)
+    assert with_bs.eligible, with_bs.exclusion_reasons
+    assert with_bs.nci_share_source == "book_equity"
+    assert with_bs.enterprise_value_usd == pytest.approx(without.enterprise_value_usd)
+    assert with_bs.expected_fcf == pytest.approx(without.expected_fcf * 0.90)
+
+
+def test_unmeasurable_minorities_exclude_the_company(healthy_company, entry_factory, fx):
+    bundle = healthy_company("FOG")
+    bundle.annual_balance = [
+        replace(bundle.annual_balance[0], minority_interest=50_000_000.0, total_equity_incl_nci=None)
+    ]
+    bundle.quarterly_balance = []
+    company = evaluate_company(entry_factory("FOG"), bundle, fx, AS_OF)
+    assert company.exclusion_reasons == ["nci_present_share_unknown"]
+
+
+def test_the_provider_ev_fallback_has_minorities_taken_out(healthy_company, entry_factory, fx):
+    bundle = _with_nci(healthy_company("FALL"), 0.20)
+    bundle.annual_balance = [
+        replace(
+            bundle.annual_balance[0],
+            total_debt=None,
+            cash_and_equivalents=None,
+            minority_interest=40_000_000.0,
+        )
+    ]
+    bundle.quarterly_balance = []
+    company = evaluate_company(entry_factory("FALL"), bundle, fx, AS_OF)
+    assert company.enterprise_value_source == "provider"
+    assert company.enterprise_value_usd == pytest.approx(
+        bundle.metadata.enterprise_value - 40_000_000.0
+    )
+    assert "provider_ev_nci_removed" in company.flags
+
+
+def test_leases_missing_from_debt_are_added_and_lower_the_yield(
+    healthy_company, entry_factory, fx
+):
+    """A store-renting retailer must carry its leases as debt."""
+    base = healthy_company("RENT")
+    debt = base.annual_balance[0].total_debt
+    excluded = healthy_company("RENT")
+    excluded.annual_balance = [
+        replace(excluded.annual_balance[0], borrowings=debt, lease_liabilities=200_000_000.0)
+    ]
+    excluded.quarterly_balance = []
+    company = evaluate_company(entry_factory("RENT"), excluded, fx, AS_OF)
+    plain = evaluate_company(entry_factory("RENT"), base, fx, AS_OF)
+    assert company.lease_treatment == "leases_added"
+    assert company.total_debt_usd == pytest.approx(debt + 200_000_000.0)
+    assert company.enterprise_value_usd == pytest.approx(plain.enterprise_value_usd + 200_000_000.0)
+    assert company.fcf_yield < plain.fcf_yield
+
+
+def test_leases_already_in_debt_leave_enterprise_value_alone(healthy_company, entry_factory, fx):
+    base = healthy_company("OWNSIT")
+    debt = base.annual_balance[0].total_debt
+    included = healthy_company("OWNSIT")
+    included.annual_balance = [
+        replace(included.annual_balance[0], borrowings=debt * 0.25, lease_liabilities=debt * 0.75)
+    ]
+    included.quarterly_balance = []
+    company = evaluate_company(entry_factory("OWNSIT"), included, fx, AS_OF)
+    assert company.lease_treatment == "leases_included_verified"
+    assert company.total_debt_usd == pytest.approx(debt)

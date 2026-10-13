@@ -18,13 +18,14 @@ Design decisions that matter for the forward test:
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from datetime import date, timedelta
+from datetime import UTC, date, datetime, timedelta
 
 from ..config import MARKET_CURRENCY
 from ..currency import canonical_currency, minor_unit_divisor
 from ..logging_utils import get_logger
 from ..providers.base import DataProvider
-from ..storage import load_prices, upsert_prices, utc_now_iso
+from ..schedule import last_completed_session
+from ..storage import load_prices, upsert_prices
 
 log = get_logger(__name__)
 
@@ -38,6 +39,7 @@ class PriceCollectionResult:
     added: int = 0
     skipped_existing: int = 0
     replaced_placeholder: int = 0
+    skipped_open_session: int = 0
     failed: list[str] = field(default_factory=list)
     start: date | None = None
     end: date | None = None
@@ -49,6 +51,7 @@ class PriceCollectionResult:
             "rows_added": self.added,
             "rows_already_present": self.skipped_existing,
             "placeholder_rows_healed": self.replaced_placeholder,
+            "bars_skipped_session_still_open": self.skipped_open_session,
             "failed_tickers": self.failed,
             "start": self.start.isoformat() if self.start else None,
             "end": self.end.isoformat() if self.end else None,
@@ -63,6 +66,7 @@ def collect_prices(
     lookback_days: int = DEFAULT_LOOKBACK_DAYS,
     end: date | None = None,
     fx_rate_to_usd: float | None = None,
+    now: datetime | None = None,
 ) -> PriceCollectionResult:
     """Fetch and persist recent daily bars for ``tickers``.
 
@@ -79,8 +83,16 @@ def collect_prices(
     if fx_rate_to_usd is None:
         fx_rate_to_usd = provider.get_fx_rate(MARKET_CURRENCY[market], "USD")
 
+    # Never record a session that is still trading.  GitHub's scheduler runs
+    # the daily job hours late, which lands it in the middle of the next
+    # Australian and New Zealand sessions; a bar fetched then is a midday
+    # price, not a close, and the append-only rule would freeze it.
+    now = now or datetime.now(UTC)
+    last_closed = last_completed_session(market, now)
+    result.end = min(end, last_closed)
+
     rows: list[dict] = []
-    retrieved_at = utc_now_iso()
+    retrieved_at = now.isoformat(timespec="seconds")
     for ticker in tickers:
         try:
             bars = provider.get_prices(ticker, start, end)
@@ -91,6 +103,9 @@ def collect_prices(
         if not bars:
             continue
         for bar in bars:
+            if bar.date > last_closed:
+                result.skipped_open_session += 1
+                continue
             if bar.close is None or bar.close <= 0:
                 # A session that has not opened yet comes back as a blank bar.
                 # Storing it would create a phantom session the NAV engine
@@ -127,7 +142,9 @@ def collect_prices(
         stats = upsert_prices(market, rows)
         result.added = stats["added"]
         result.skipped_existing = stats["skipped_existing"]
-        result.replaced_placeholder = stats.get("replaced_placeholder", 0)
+        result.replaced_placeholder = stats.get("replaced_placeholder", 0) + stats.get(
+            "replaced_provisional", 0
+        )
     return result
 
 

@@ -245,12 +245,18 @@ SELECTED_COLUMNS = [
     "market_cap_usd",
     "enterprise_value_usd",
     "enterprise_value_source",
+    "total_debt_usd",
+    "lease_liabilities_usd",
+    "lease_treatment",
     "ttm_fcf",
     "ttm_fcf_usd",
     "normalized_fcf_margin",
     "forward_growth",
     "forward_revenue",
     "forward_fcf",
+    "expected_fcf_group",
+    "nci_share",
+    "nci_share_source",
     "expected_fcf",
     "expected_fcf_usd",
     "fcf_yield",
@@ -330,6 +336,28 @@ def has_price(row: dict) -> bool:
     return value == value and value > 0
 
 
+def is_provisional(market: str, row: dict) -> bool:
+    """True when a stored bar was fetched before its session had closed.
+
+    Such a bar holds a midday price, not a close.  Rows without a retrieval
+    timestamp are treated as final.
+    """
+    from .schedule import session_close_utc
+
+    stamp = row.get("retrieved_at")
+    day = str(row.get("date", ""))[:10]
+    if not stamp or not day:
+        return False
+    try:
+        retrieved = datetime.fromisoformat(str(stamp))
+        session_day = date.fromisoformat(day)
+    except ValueError:
+        return False
+    if retrieved.tzinfo is None:
+        retrieved = retrieved.replace(tzinfo=UTC)
+    return retrieved < session_close_utc(market, session_day)
+
+
 def upsert_prices(market: str, rows: Sequence[dict]) -> dict[str, int]:
     """Merge new price rows into the monthly files without creating duplicates.
 
@@ -338,10 +366,15 @@ def upsert_prices(market: str, rows: Sequence[dict]) -> dict[str, int]:
     what keeps the forward test honest when a provider retroactively re-adjusts
     a series.
 
-    The one exception is a stored *placeholder* -- a row with no closing price,
-    captured before the session opened.  That is not an observation, so it is
-    replaced once the real session data arrives.  Without this, a single early
-    fetch would leave a permanent hole in the series.
+    Two kinds of stored row are not observations and are replaced once the
+    real session data arrives:
+
+    * a *placeholder* -- no closing price, captured before the session opened;
+    * a *provisional* bar -- captured while the session was still trading, so
+      its "close" is really a midday price.
+
+    Without this, one early fetch would leave a permanent hole or a permanent
+    wrong price in the series.
     """
     by_month: dict[str, list[dict]] = {}
     for row in rows:
@@ -350,7 +383,7 @@ def upsert_prices(market: str, rows: Sequence[dict]) -> dict[str, int]:
             continue
         by_month.setdefault(day[:7], []).append(row)
 
-    stats = {"added": 0, "skipped_existing": 0, "replaced_placeholder": 0}
+    stats = {"added": 0, "skipped_existing": 0, "replaced_placeholder": 0, "replaced_provisional": 0}
     for month, month_rows in by_month.items():
         path = price_path(market, month)
         merged = read_csv(path)
@@ -362,11 +395,16 @@ def upsert_prices(market: str, rows: Sequence[dict]) -> dict[str, int]:
             key = (str(row.get("date", ""))[:10], str(row.get("ticker", "")))
             position = index.get(key)
             if position is not None:
-                if has_price(merged[position]) or not has_price(row):
+                stored = merged[position]
+                incoming_final = has_price(row) and not is_provisional(market, row)
+                if not has_price(stored) and has_price(row):
+                    merged[position] = row
+                    stats["replaced_placeholder"] += 1
+                elif is_provisional(market, stored) and incoming_final:
+                    merged[position] = row
+                    stats["replaced_provisional"] += 1
+                else:
                     stats["skipped_existing"] += 1
-                    continue
-                merged[position] = row
-                stats["replaced_placeholder"] += 1
                 continue
             index[key] = len(merged)
             merged.append(row)

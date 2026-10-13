@@ -74,8 +74,25 @@ DILUTED_SHARE_LABELS = ("Diluted Average Shares", "DilutedAverageShares")
 BASIC_SHARE_LABELS = ("Basic Average Shares", "BasicAverageShares")
 
 TOTAL_DEBT_LABELS = ("Total Debt", "TotalDebt")
-LONG_TERM_DEBT_LABELS = ("Long Term Debt", "LongTermDebt", "Long Term Debt And Capital Lease Obligation")
-SHORT_TERM_DEBT_LABELS = ("Current Debt", "Short Long Term Debt", "Current Debt And Capital Lease Obligation")
+#: Borrowings only -- these Yahoo lines exclude capitalised leases.
+LONG_TERM_BORROWING_LABELS = ("Long Term Debt", "LongTermDebt")
+SHORT_TERM_BORROWING_LABELS = ("Current Debt", "Short Long Term Debt", "CurrentDebt")
+#: Borrowings plus leases, used only to rebuild total debt when it is missing.
+LONG_TERM_DEBT_AND_LEASE_LABELS = ("Long Term Debt And Capital Lease Obligation",)
+SHORT_TERM_DEBT_AND_LEASE_LABELS = ("Current Debt And Capital Lease Obligation",)
+#: Capitalised lease liabilities.  Yahoo publishes no lease line on the cash
+#: flow statement, so the balance sheet is the only place leases appear.
+LEASE_TOTAL_LABELS = ("Capital Lease Obligations", "CapitalLeaseObligations")
+LEASE_LONG_TERM_LABELS = ("Long Term Capital Lease Obligation",)
+LEASE_CURRENT_LABELS = ("Current Capital Lease Obligation",)
+TOTAL_EQUITY_INCL_NCI_LABELS = ("Total Equity Gross Minority Interest",)
+#: Income statement: group net income, parent net income, and the NCI line.
+NET_INCOME_INCL_NCI_LABELS = (
+    "Net Income Including Noncontrolling Interests",
+    "NetIncomeIncludingNoncontrollingInterests",
+)
+NET_INCOME_PARENT_LABELS = ("Net Income", "NetIncome", "Net Income Common Stockholders")
+NCI_EARNINGS_LABELS = ("Minority Interests", "MinorityInterests")
 CASH_LABELS = (
     "Cash And Cash Equivalents",
     "Cash Cash Equivalents And Short Term Investments",
@@ -328,6 +345,21 @@ class YahooProvider(DataProvider):
             if ebitda is None and ebit is not None and da is not None:
                 ebitda = ebit + abs(da)
                 derived = True
+            ni_group = _first(inc, NET_INCOME_INCL_NCI_LABELS)
+            ni_parent = _first(inc, NET_INCOME_PARENT_LABELS)
+            nci_row = _first(inc, NCI_EARNINGS_LABELS)
+            nci_from_row = False
+            if ni_group is not None and ni_parent is not None:
+                # Sign-safe: whatever the group earned that the parent didn't.
+                nci = ni_group - ni_parent
+            elif nci_row is not None:
+                # Yahoo shows the NCI deduction as a negative number.  Taking
+                # abs() is the conservative reading: it assumes the minorities
+                # took profit rather than absorbed losses.
+                nci = abs(nci_row)
+                nci_from_row = True
+            else:
+                nci = None
             out.append(
                 IncomeCashflowPeriod(
                     period_end=period_end,
@@ -342,6 +374,9 @@ class YahooProvider(DataProvider):
                     diluted_shares=_first(inc, DILUTED_SHARE_LABELS),
                     basic_shares=_first(inc, BASIC_SHARE_LABELS),
                     ebitda_is_derived=derived,
+                    net_income_incl_nci=ni_group,
+                    nci_earnings=nci,
+                    nci_earnings_from_minority_row=nci_from_row,
                 )
             )
         return out
@@ -365,19 +400,33 @@ class YahooProvider(DataProvider):
                 continue
             total_debt = _first(values, TOTAL_DEBT_LABELS)
             if total_debt is None:
-                lt = _first(values, LONG_TERM_DEBT_LABELS)
-                st = _first(values, SHORT_TERM_DEBT_LABELS)
+                lt = _first(values, LONG_TERM_DEBT_AND_LEASE_LABELS)
+                st = _first(values, SHORT_TERM_DEBT_AND_LEASE_LABELS)
                 if lt is not None or st is not None:
                     total_debt = (lt or 0.0) + (st or 0.0)
+            lt_borrow = _first(values, LONG_TERM_BORROWING_LABELS)
+            st_borrow = _first(values, SHORT_TERM_BORROWING_LABELS)
+            borrowings = None
+            if lt_borrow is not None or st_borrow is not None:
+                borrowings = (lt_borrow or 0.0) + (st_borrow or 0.0)
+            leases = _first(values, LEASE_TOTAL_LABELS)
+            if leases is None:
+                lt_lease = _first(values, LEASE_LONG_TERM_LABELS)
+                st_lease = _first(values, LEASE_CURRENT_LABELS)
+                if lt_lease is not None or st_lease is not None:
+                    leases = (lt_lease or 0.0) + (st_lease or 0.0)
             out.append(
                 BalanceSheetSnapshot(
                     period_end=period_end,
                     period_type=period,
                     currency=currency,
                     total_debt=total_debt,
+                    borrowings=borrowings,
+                    lease_liabilities=leases,
                     cash_and_equivalents=_first(values, CASH_LABELS),
                     preferred_stock=_first(values, PREFERRED_LABELS),
                     minority_interest=_first(values, MINORITY_LABELS),
+                    total_equity_incl_nci=_first(values, TOTAL_EQUITY_INCL_NCI_LABELS),
                     shares_outstanding=_first(values, SHARES_LABELS),
                 )
             )
