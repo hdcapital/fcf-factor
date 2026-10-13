@@ -263,9 +263,13 @@ def test_lse_instrument_list_in_its_real_layout():
         lse_row("CCJI", "CC JAPAN INCOME & GROWTH TRUST PLC", "ORD GBP0.01", "SHRS", "MAIN MARKET", "Premium Equity Closed Ended Investment Funds", "SSMM"),
         lse_row("FAIR", "FAIR OAKS INCOME LIMITED", "ORD NPV", "SHRS", "MAIN MARKET - SFS", "", "SFM1"),
         lse_row("BA29", "MORGAN ADVANCED MATERIALS PLC", "5.5% CUM PRF GBP1", "SHRS", "MAIN MARKET", "Standard Shares", "SSMU"),
+        lse_row("MAY", "MAYFLOWER ACQUISITION LIMITED", "ORD NPV", "SHRS", "MAIN MARKET", "Equity shares (shell companies)", "SSMU"),
+        lse_row("NVS", "EXAMPLE PLC", "NON VTG ORD", "SHRS", "MAIN MARKET", "Non-equity shares and non-voting equity shares", "SSMU"),
+        lse_row("FORX", "FOREIGN CORP", "COM SHS", "SHRS", "MAIN MARKET", "Equity shares (international commercial companies secondary listing)", "SSMM"),
+        lse_row("RTO", "RENTOKIL INITIAL PLC", "ORD 1P", "SHRS", "MAIN MARKET", "Equity shares (commercial companies)", "SET0"),
     ]
     entries, excluded = parse_lse_rows(rows)
-    assert {e.yahoo_symbol for e in entries} == {"BP.L", "RR.L", "BT-A.L", "ANGS.L"}
+    assert {e.yahoo_symbol for e in entries} == {"BP.L", "RR.L", "BT-A.L", "ANGS.L", "RTO.L"}
     reasons = {e["exchange_symbol"]: e["reason"] for e in excluded}
     assert reasons["BOE"] == "international_order_book"
     assert reasons["XYZ"].startswith("market_not_targeted")
@@ -274,6 +278,9 @@ def test_lse_instrument_list_in_its_real_layout():
     assert reasons["CCJI"] == "investment_company"
     assert reasons["FAIR"].startswith("market_not_targeted")
     assert reasons["BA29"] == "non_ordinary_instrument"
+    assert reasons["MAY"] == "shell"
+    assert reasons["NVS"] == "non_ordinary_instrument"
+    assert reasons["FORX"] == "secondary_listing"
     bp = next(e for e in entries if e.exchange_symbol == "BP.")
     assert bp.name == "BP PLC"
 

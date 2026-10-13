@@ -58,9 +58,17 @@ _LISTING_CATEGORY_KEYS = ("fca listing category",)
 #: carries ETFS (exchange-traded funds) and DPRS (depositary receipts).
 _ORDINARY_MIFIR = "SHRS"
 #: FCA listing categories that are funds or non-equity, by keyword.
+#: Covers both the pre-2024 names and the UK Listing Rules categories that
+#: replaced them ("Equity shares (shell companies)" and so on).
 _REJECTED_CATEGORY = (
     ("investment fund", "investment_company"),
     ("investment compan", "investment_company"),
+    ("shell compan", "shell"),
+    ("non-equity", "non_ordinary_instrument"),
+    ("non-voting", "non_ordinary_instrument"),
+    ("secondary listing", "secondary_listing"),
+    ("depositary receipt", "depositary_receipt"),
+    ("depository receipt", "depositary_receipt"),
     ("gdr", "depositary_receipt"),
     ("debt", "debt"),
     ("misc", "other"),
