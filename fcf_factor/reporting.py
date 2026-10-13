@@ -285,6 +285,29 @@ def _performance_section(summary: PerformanceSummary) -> list[str]:
                 ],
             )
         )
+    if summary.awaiting_purchase:
+        lines.append("### Waiting for a first trade")
+        lines.append("")
+        lines.append(
+            "These names had no trade on the rebalance day. Their cash is set aside and they "
+            "are bought at the first open where the stock trades."
+        )
+        lines.append("")
+        lines.append(
+            _table(
+                ["Ticker", "Target weight", "Cash set aside", "Waiting since"],
+                [
+                    [a["ticker"], _pct(a.get("target_weight")), _num(a.get("cash"), 4), a.get("since") or ""]
+                    for a in summary.awaiting_purchase
+                ],
+            )
+        )
+    if summary.awaiting_sale:
+        lines.append(
+            "Exits not yet completed (no trade since the rebalance, still held): "
+            + ", ".join(f"`{t}`" for t in summary.awaiting_sale)
+        )
+        lines.append("")
     if summary.pending_signal_date:
         lines.append(f"Pending signal awaiting execution: `{summary.pending_signal_date}`")
         lines.append("")

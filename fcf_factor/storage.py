@@ -439,6 +439,7 @@ PERFORMANCE_COLUMNS = [
     "cumulative_return",
     "holdings",
     "cash",
+    "reserved_cash",
     "event",
     "signal_date",
     "turnover",

@@ -305,6 +305,23 @@ Every execution record stores `signal_date`, `signal_timestamp`,
 rebalances the portfolio drifts naturally; it is never rebalanced back to target
 weights daily.
 
+**Stocks that do not trade on the rebalance day.** Thinly traded small caps often
+have no trade on a given day, and nothing can be bought or sold at a price that
+never printed. So:
+
+- a new purchase that cannot trade has its cash set aside, and is bought at the
+  first later open where the stock trades;
+- an exit that cannot trade stays in the book at its last price, and is sold at
+  the first later open where it trades;
+- a retained holding that cannot trade keeps its shares.
+
+Each completed deferred trade is logged in `fills` in the state file and as a
+`filled:` or `sold:` event in the performance file. A purchase still waiting at
+the next rebalance is cancelled and its cash returns to the pool. While an exit
+is waiting, its replacement has already been bought, so cash can briefly be
+negative until the sale completes. Transaction costs are charged at the
+rebalance on the full intended turnover.
+
 Total return uses the dividends and splits that were observable at the time,
 from raw (non dividend-adjusted) price bars, so a later re-adjustment of Yahoo's
 series cannot rewrite past returns.
@@ -432,7 +449,7 @@ fcf_factor/
 
 data/                    the research record (committed - see data/README.md)
 reports/latest/          one markdown report per market, plus an index
-tests/                   280 tests, none of which touch the network
+tests/                   285 tests, none of which touch the network
 .github/workflows/       quarterly_factor.yml, daily_prices.yml, tests.yml
 ```
 
@@ -722,7 +739,7 @@ provider switch is visible in the audit trail.
 
 ## Tests
 
-280 tests, none of which touch the network — a fixture makes any accidental HTTP
+285 tests, none of which touch the network — a fixture makes any accidental HTTP
 call fail immediately.
 
 ```bash
@@ -748,6 +765,7 @@ Every snapshot records the version that produced it in `metadata.json`.
 | Version | Date | Change |
 |---|---|---|
 | 1.0.0 | 2026-09-14 | Initial release |
+| 1.1.1 | 2026-10-13 | Purchases and sales that cannot trade on the rebalance day wait for the first real trade instead of being redistributed or sold at a stale price. |
 | 1.1.0 | 2026-10-13 | Minority interests deducted from free cash flow instead of added to enterprise value. Lease liabilities verified to be inside debt, and added when the provider omits them. Price bars stored only after their session closes. Fixed total equity being misread as minority interest. |
 
 The Australian portfolio was restarted under 1.1.0. The 1.0.0 Australian signal

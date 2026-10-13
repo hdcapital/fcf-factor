@@ -82,6 +82,9 @@ def test_execution_happens_at_the_next_open_not_the_signal_close(data_root):
     execution = update.executions[0]
     assert execution["execution_date"] == "2026-09-07"
     assert execution["signal_date"] == "2026-09-04"
+    from fcf_factor.config import METHODOLOGY_VERSION
+
+    assert execution["execution_methodology_version"] == METHODOLOGY_VERSION
     assert execution["positions"][0]["execution_open_price"] == pytest.approx(20.0)
     # Bought at 20.00 and marked at 22.00: +10% on the day, never +120%.
     assert update.nav == pytest.approx(CONFIG.STARTING_NAV * 1.10)
@@ -205,17 +208,111 @@ def test_transaction_costs_are_applied_when_configured(data_root, monkeypatch):
     assert update.nav == pytest.approx(99.5)
 
 
-def test_a_missing_opening_price_redistributes_that_weight(data_root):
+def test_an_untradeable_purchase_is_held_in_cash_until_the_stock_trades(data_root):
+    """No trade on rebalance day: set the cash aside, buy at the first real open."""
     write_signal({"AAA.AX": 0.5, "HALTED.AX": 0.5})
     upsert_prices(
         MARKET,
-        [price("2026-09-04", "AAA.AX", 10.0, 10.0), price("2026-09-07", "AAA.AX", 10.0, 10.0)],
+        [
+            price("2026-09-07", "AAA.AX", 10.0, 10.0),
+            # HALTED does not trade on the 7th...
+            price("2026-09-08", "AAA.AX", 10.0, 10.0),
+            # ...and first trades on the 8th.
+            price("2026-09-08", "HALTED.AX", 20.0, 22.0),
+        ],
     )
     update = update_portfolio(MARKET)
     execution = update.executions[0]
-    assert execution["missing_at_execution"] == ["HALTED.AX"]
-    assert execution["positions"][0]["effective_target_weight"] == pytest.approx(1.0)
-    assert update.nav == pytest.approx(100.0)
+    assert execution["awaiting_first_trade"] == ["HALTED.AX"]
+    # The weight is NOT handed to AAA: it buys exactly its own half.
+    assert execution["positions"][0]["shares"] == pytest.approx(5.0)
+
+    rows = load_performance(MARKET)
+    assert float(rows[0]["reserved_cash"]) == pytest.approx(50.0)
+    assert float(rows[0]["nav"]) == pytest.approx(100.0)
+    assert "filled:HALTED.AX" in rows[1]["event"]
+
+    state = load_state(MARKET)
+    assert state["reserved_cash"] == {}
+    assert state["positions"]["HALTED.AX"]["entry_price"] == pytest.approx(20.0)
+    assert state["positions"]["HALTED.AX"]["shares"] == pytest.approx(2.5)
+    fill = state["fills"][0]
+    assert (fill["ticker"], fill["side"], fill["date"]) == ("HALTED.AX", "buy", "2026-09-08")
+    # 50 in AAA plus 2.5 shares closing at 22.
+    assert state["nav"] == pytest.approx(105.0)
+
+
+def test_reserved_cash_keeps_the_price_tracked(data_root):
+    write_signal({"AAA.AX": 0.5, "HALTED.AX": 0.5})
+    upsert_prices(MARKET, [price("2026-09-07", "AAA.AX", 10.0, 10.0)])
+    update_portfolio(MARKET)
+    assert "HALTED.AX" in active_tickers(MARKET)
+
+
+def test_an_untradeable_sale_stays_in_the_book_until_it_trades(data_root):
+    """An exit with no trade is sold at its next real open, not a stale price."""
+    write_signal({"OLD.AX": 1.0}, date(2026, 6, 5))
+    write_signal({"NEW.AX": 1.0}, date(2026, 9, 4))
+    upsert_prices(
+        MARKET,
+        [
+            price("2026-06-08", "OLD.AX", 10.0, 10.0),
+            # 7 Sep: NEW trades, OLD does not.
+            price("2026-09-07", "NEW.AX", 20.0, 20.0),
+            # 8 Sep: OLD finally trades, at 12.
+            price("2026-09-08", "OLD.AX", 12.0, 12.0),
+            price("2026-09-08", "NEW.AX", 20.0, 20.0),
+        ],
+    )
+    update = update_portfolio(MARKET)
+    rebalance = update.executions[1]
+    assert rebalance["sale_awaiting_trade"] == ["OLD.AX"]
+    assert rebalance["sold"] == []
+
+    state = load_state(MARKET)
+    assert "OLD.AX" not in state["positions"]
+    sale = [f for f in state["fills"] if f["side"] == "sell"][0]
+    assert sale["price"] == pytest.approx(12.0)
+    assert sale["date"] == "2026-09-08"
+    # 100 into NEW at 20, then OLD's 10 shares sold at 12 rather than 10.
+    assert state["nav"] == pytest.approx(120.0)
+    assert state["cash"] == pytest.approx(20.0)
+
+
+def test_a_retained_holding_that_cannot_trade_keeps_its_shares(data_root):
+    write_signal({"AAA.AX": 1.0}, date(2026, 6, 5))
+    write_signal({"AAA.AX": 0.5, "BBB.AX": 0.5}, date(2026, 9, 4))
+    upsert_prices(
+        MARKET,
+        [
+            price("2026-06-08", "AAA.AX", 10.0, 10.0),
+            price("2026-09-07", "BBB.AX", 10.0, 10.0),
+        ],
+    )
+    update = update_portfolio(MARKET)
+    assert update.executions[1]["held_without_trade"] == ["AAA.AX"]
+    assert load_state(MARKET)["positions"]["AAA.AX"]["shares"] == pytest.approx(10.0)
+
+
+def test_unfilled_purchases_are_cancelled_by_the_next_rebalance(data_root):
+    write_signal({"AAA.AX": 0.5, "GHOST.AX": 0.5}, date(2026, 6, 5))
+    write_signal({"BBB.AX": 1.0}, date(2026, 9, 4))
+    upsert_prices(
+        MARKET,
+        [
+            price("2026-06-08", "AAA.AX", 10.0, 10.0),
+            price("2026-09-07", "AAA.AX", 10.0, 10.0),
+            price("2026-09-07", "BBB.AX", 25.0, 25.0),
+        ],
+    )
+    update = update_portfolio(MARKET)
+    rebalance = update.executions[1]
+    assert rebalance["cancelled_unfilled_purchases"] == ["GHOST.AX"]
+    state = load_state(MARKET)
+    assert state["reserved_cash"] == {}
+    assert set(state["positions"]) == {"BBB.AX"}
+    assert state["positions"]["BBB.AX"]["shares"] == pytest.approx(4.0)
+    assert state["nav"] == pytest.approx(100.0)
 
 
 def test_a_missing_close_carries_the_last_price_forward(data_root):

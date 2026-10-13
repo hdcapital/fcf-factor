@@ -248,3 +248,20 @@ def test_the_report_shows_live_nav_once_the_portfolio_has_executed(snapshot):
     assert "Since-inception return" in report
     assert "10.00%" in report
     assert "Current positions (drifted weights)" in report
+
+
+def test_the_report_lists_names_waiting_for_a_first_trade(data_root):
+    from fcf_factor.portfolio.nav import update_portfolio
+    from fcf_factor.storage import upsert_prices
+
+    write_signal_snapshot(
+        "AU", SIGNAL_DATE, universe_rows=[], raw_financial_rows=[], factor_rows=[],
+        selected_rows=[{"ticker": "AAA.AX", "target_weight": 0.5}, {"ticker": "THIN.AX", "target_weight": 0.5}],
+        excluded_rows=[], metadata={"signal_timestamp": "t0", "coverage": {}, "universe": {}},
+    )
+    upsert_prices("AU", [{"date": "2026-09-07", "ticker": "AAA.AX", "market": "AU", "currency": "AUD",
+                          "open": 10.0, "close": 10.0, "dividend": 0.0, "split": 0.0}])
+    update_portfolio("AU")
+    report = build_market_report("AU", SIGNAL_DATE)
+    assert "Waiting for a first trade" in report
+    assert "THIN.AX" in report

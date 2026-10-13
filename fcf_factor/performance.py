@@ -44,6 +44,10 @@ class PerformanceSummary:
     pending_signal_date: str | None = None
     sessions_recorded: int = 0
     positions: list[dict] = field(default_factory=list)
+    #: Purchases whose cash is set aside until the stock first trades.
+    awaiting_purchase: list[dict] = field(default_factory=list)
+    #: Exits still held because the stock has not traded since the rebalance.
+    awaiting_sale: list[str] = field(default_factory=list)
 
     def to_dict(self) -> dict:
         return {
@@ -101,6 +105,18 @@ def performance_summary(market: str) -> PerformanceSummary:
         for ticker, info in sorted(positions.items())
     ]
     summary.positions.sort(key=lambda p: -(p.get("drifted_weight") or 0.0))
+    summary.awaiting_purchase = [
+        {
+            "ticker": ticker,
+            "cash": _f(order.get("cash")),
+            "target_weight": _f(order.get("target_weight")),
+            "since": order.get("since"),
+        }
+        for ticker, order in sorted((state.get("reserved_cash") or {}).items())
+    ]
+    summary.awaiting_sale = sorted(
+        ticker for ticker, info in positions.items() if info.get("pending_sale")
+    )
 
     if not rows:
         summary.nav = _f(state.get("nav"), summary.starting_nav)
