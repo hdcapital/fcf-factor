@@ -45,4 +45,4 @@ jobs:
 
       - name: Probe source freshness
         if: github.event.inputs.probe == 'true'
-        run: python -m fcf_factor probe-sources
+        run: python -m fcf_factor probe-sources --scan

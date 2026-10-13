@@ -339,3 +339,34 @@ def _latest_dates(rows: list[list[str]], header_index: int | None) -> dict:
         if values:
             latest[name] = values[-1]
     return latest
+
+
+def scan_numbered_uploads(max_n: int = 160, pause: float = 0.15) -> list[dict]:
+    """Find newer copies of the LSE reports.
+
+    The LSE site is built on Drupal, which saves a re-uploaded file with the
+    same name as ``name_1.xlsx``, ``name_2.xlsx`` and so on.  The un-numbered
+    and ``_0`` URLs stopped changing in 2020, so later monthly reports, if they
+    exist, sit at higher numbers.  HEAD requests only, politely paced.
+    """
+    import time
+
+    import requests
+
+    from .base import USER_AGENT
+
+    base = "https://docs.londonstockexchange.com/sites/default/files/reports/"
+    found: list[dict] = []
+    for stem in ("Instrument%20list", "Issuer%20list"):
+        for n in range(1, max_n + 1):
+            url = f"{base}{stem}_{n}.xlsx"
+            try:
+                response = requests.head(
+                    url, timeout=20, headers={"User-Agent": USER_AGENT}, allow_redirects=True
+                )
+            except Exception:  # noqa: BLE001
+                continue
+            if response.status_code == 200:
+                found.append({"url": url, "last_modified": response.headers.get("Last-Modified")})
+            time.sleep(pause)
+    return found

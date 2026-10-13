@@ -231,9 +231,12 @@ def _print_picks(market: str, signal_date: date, result) -> None:
 
 def cmd_probe_sources(args: argparse.Namespace) -> int:
     """Show how current each candidate exchange file is (UK only for now)."""
-    from .universe.uk import probe_sources
+    from .universe.uk import probe_sources, scan_numbered_uploads
 
-    _emit({"command": "probe-sources", "market": "UK", "sources": probe_sources()})
+    payload = {"command": "probe-sources", "market": "UK", "sources": probe_sources()}
+    if args.scan:
+        payload["numbered_uploads"] = scan_numbered_uploads()
+    _emit(payload)
     return 0
 
 
@@ -510,6 +513,7 @@ def build_parser() -> argparse.ArgumentParser:
     p_email.set_defaults(func=cmd_send_email)
 
     p_probe = sub.add_parser("probe-sources", help="report how current each LSE source file is")
+    p_probe.add_argument("--scan", action="store_true", help="also look for newer numbered uploads")
     p_probe.set_defaults(func=cmd_probe_sources)
 
     p_check = sub.add_parser("check-rebalance", help="is a scheduled rebalance due today?")
