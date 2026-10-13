@@ -231,3 +231,47 @@ def test_a_healthy_universe_raises_nothing():
 
 def test_integrity_error_is_available_for_callers():
     assert issubclass(UniverseIntegrityError, RuntimeError)
+
+
+LSE_HEADER = [
+    "TIDM", "Issuer Name", "Instrument Name", "ISIN", "MiFIR Identifier Code",
+    "MiFIR Identifier Description", "ICB Industry", "ICB Super-Sector Name", "Start date",
+    "Country of Incorporation", "Trading Currency", "LSE Market", "FCA Listing Category",
+    "Market Segment Code", "Market Sector Code",
+]
+
+
+def lse_row(tidm, issuer, instrument, mifir, market, category, segment, industry="Industrials"):
+    desc = {"SHRS": "Shares", "ETFS": "ETFs", "DPRS": "Depositary receipts"}.get(mifir, "")
+    return [tidm, issuer, instrument, "GB0000000000", mifir, desc, industry, "", "2000-01-01",
+            "United Kingdom", "GBX", market, category, segment, ""]
+
+
+def test_lse_instrument_list_in_its_real_layout():
+    """Built from the columns and problem rows seen in the live LSE file."""
+    rows = [
+        LSE_HEADER,
+        lse_row("BP.", "BP PLC", "ORD USD0.25", "SHRS", "MAIN MARKET", "Premium Equity Commercial Companies", "SET0"),
+        lse_row("RR.", "ROLLS-ROYCE HOLDINGS PLC", "ORD SHS 20P", "SHRS", "MAIN MARKET", "Premium Equity Commercial Companies", "SET0"),
+        lse_row("BT.A", "BT GROUP PLC", "ORD 5P", "SHRS", "MAIN MARKET", "Premium Equity Commercial Companies", "SET0"),
+        lse_row("ANGS", "ANGUS ENERGY PLC", "ORD GBP0.002", "SHRS", "AIM", "", "AMSM"),
+        lse_row("BOE", "BOEING CO.", "COM STK USD5", "SHRS", "ADMISSION TO TRADING ONLY", "", "IOBU"),
+        lse_row("XYZ", "FOREIGN CO", "ORD", "SHRS", "ADMISSION TO TRADING ONLY", "", "MISC"),
+        lse_row("05IS", "MANDO MACHINERY CORPORATION", "GDR", "DPRS", "MAIN MARKET", "Standard GDRs", "IOBE"),
+        lse_row("XDWM", "XTRACKERS (IE) PLC", "1C", "ETFS", "MAIN MARKET", "", "ETFS"),
+        lse_row("CCJI", "CC JAPAN INCOME & GROWTH TRUST PLC", "ORD GBP0.01", "SHRS", "MAIN MARKET", "Premium Equity Closed Ended Investment Funds", "SSMM"),
+        lse_row("FAIR", "FAIR OAKS INCOME LIMITED", "ORD NPV", "SHRS", "MAIN MARKET - SFS", "", "SFM1"),
+        lse_row("BA29", "MORGAN ADVANCED MATERIALS PLC", "5.5% CUM PRF GBP1", "SHRS", "MAIN MARKET", "Standard Shares", "SSMU"),
+    ]
+    entries, excluded = parse_lse_rows(rows)
+    assert {e.yahoo_symbol for e in entries} == {"BP.L", "RR.L", "BT-A.L", "ANGS.L"}
+    reasons = {e["exchange_symbol"]: e["reason"] for e in excluded}
+    assert reasons["BOE"] == "international_order_book"
+    assert reasons["XYZ"].startswith("market_not_targeted")
+    assert reasons["05IS"] == "depositary_receipt"
+    assert reasons["XDWM"] == "etf"
+    assert reasons["CCJI"] == "investment_company"
+    assert reasons["FAIR"].startswith("market_not_targeted")
+    assert reasons["BA29"] == "non_ordinary_instrument"
+    bp = next(e for e in entries if e.exchange_symbol == "BP.")
+    assert bp.name == "BP PLC"

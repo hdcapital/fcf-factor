@@ -39,17 +39,43 @@ LSE_ISSUER_URLS = (
 
 _TIDM_KEYS = ("tidm", "mnemonic", "ticker", "symbol", "trading symbol")
 _NAME_KEYS = ("issuer name", "company", "company name", "name", "issuer")
-_MARKET_KEYS = ("market", "mkt", "market segment", "exchange")
+_MARKET_KEYS = ("lse market", "market", "mkt", "exchange")
+_INSTRUMENT_NAME_KEYS = ("instrument name", "security name", "instrument")
+_MIFIR_KEYS = ("mifir identifier code",)
+_SEGMENT_KEYS = ("market segment code",)
+_LISTING_CATEGORY_KEYS = ("fca listing category",)
+
+#: MiFIR instrument type for ordinary shares.  The LSE instrument list also
+#: carries ETFS (exchange-traded funds) and DPRS (depositary receipts).
+_ORDINARY_MIFIR = "SHRS"
+#: FCA listing categories that are funds or non-equity, by keyword.
+_REJECTED_CATEGORY = (
+    ("investment fund", "investment_company"),
+    ("investment compan", "investment_company"),
+    ("gdr", "depositary_receipt"),
+    ("debt", "debt"),
+    ("misc", "other"),
+)
+#: Preference-share and other non-ordinary wording in an LSE instrument name.
+_NON_ORDINARY_INSTRUMENT_RE = re.compile(
+    r"\bprf\b|\bpref\b|\bprefs?\b|\bwts?\b|\bwarrants?\b|\bnts\b|\bbds\b|\bloan\b|\bdeb\b|\bnil pd\b",
+    re.IGNORECASE,
+)
 _INDUSTRY_KEYS = ("icb industry", "industry", "icb super-sector", "sector", "icb sector")
 
 #: Markets this strategy covers.
 _ACCEPTED_MARKET_RE = re.compile(r"main\s*market|aim\b|\bhgs\b|international main", re.IGNORECASE)
 #: Debt / specialist venues that must never enter the equity universe.
 _REJECTED_MARKET_RE = re.compile(
-    r"professional securities|retail bond|orb\b|debt|gilt|specialist fund|closed[- ]end", re.IGNORECASE
+    r"professional securities|retail bond|orb\b|debt|gilt|specialist fund|\bsfs\b"
+    r"|closed[- ]end|admission to trading only",
+    re.IGNORECASE,
 )
 
-_TIDM_RE = re.compile(r"^[A-Z0-9]{2,4}(\.[A-Z])?$")
+#: TIDMs are two to four characters, optionally with a class letter after a
+#: dot (``BT.A``) -- or a bare trailing dot, which many large companies have
+#: (``BP.``, ``BA.`` for BAE Systems, ``RR.`` for Rolls-Royce).
+_TIDM_RE = re.compile(r"^[A-Z0-9]{2,4}(\.[A-Z]?)?$")
 
 
 def _rows_from_xlsx(payload: bytes) -> list[list[str]]:
@@ -149,6 +175,24 @@ def _column_value_counts(rows: list[list[str]], header_index: int) -> dict:
     return out
 
 
+def _instrument_rejection(mifir: str, segment: str, category: str, instrument_name: str) -> str | None:
+    """Reject non-ordinary lines using the type columns the LSE file provides.
+
+    These are checked before any name-based heuristic, because the file states
+    each line's type directly.
+    """
+    if mifir and mifir != _ORDINARY_MIFIR:
+        return {"ETFS": "etf", "DPRS": "depositary_receipt"}.get(mifir, f"instrument_type:{mifir}")
+    if segment.startswith("IOB"):
+        return "international_order_book"
+    for key, reason in _REJECTED_CATEGORY:
+        if key in category:
+            return reason
+    if instrument_name and _NON_ORDINARY_INSTRUMENT_RE.search(instrument_name):
+        return "non_ordinary_instrument"
+    return None
+
+
 def parse_lse_rows(rows: list[list[str]]) -> tuple[list[UniverseEntry], list[dict]]:
     header_index = _find_header(rows)
     if header_index is None:
@@ -165,7 +209,16 @@ def parse_lse_rows(rows: list[list[str]]) -> tuple[list[UniverseEntry], list[dic
         name = _pick(row, _NAME_KEYS)
         market_text = _pick(row, _MARKET_KEYS)
         industry = _pick(row, _INDUSTRY_KEYS)
+        instrument_name = _pick(row, _INSTRUMENT_NAME_KEYS)
+        mifir = _pick(row, _MIFIR_KEYS).upper()
+        segment = _pick(row, _SEGMENT_KEYS).upper()
+        category = _pick(row, _LISTING_CATEGORY_KEYS).lower()
         if not tidm:
+            continue
+
+        type_reason = _instrument_rejection(mifir, segment, category, instrument_name)
+        if type_reason:
+            excluded.append({"exchange_symbol": tidm, "name": name, "reason": type_reason, "exchange": "LSE"})
             continue
         if market_text:
             if _REJECTED_MARKET_RE.search(market_text) or not _ACCEPTED_MARKET_RE.search(market_text):
@@ -183,7 +236,7 @@ def parse_lse_rows(rows: list[list[str]]) -> tuple[list[UniverseEntry], list[dic
                 {"exchange_symbol": tidm, "name": name, "reason": "non_ordinary_code", "exchange": "LSE"}
             )
             continue
-        reason = classify_security(name, tidm)
+        reason = classify_security(name, tidm) or classify_security(instrument_name)
         if reason:
             excluded.append({"exchange_symbol": tidm, "name": name, "reason": reason, "exchange": "LSE"})
             continue
@@ -201,7 +254,7 @@ def parse_lse_rows(rows: list[list[str]]) -> tuple[list[UniverseEntry], list[dic
                 yahoo_symbol=yahoo,
                 name=name or None,
                 industry=industry or None,
-                source="lse:issuer-list",
+                source="lse:instrument-list",
             )
         )
     return entries, excluded
