@@ -145,10 +145,12 @@ listed company's own share, and minority interests are **not** added to
 enterprise value, which would count them twice.
 
 ```
-NCIShare = sum(NCI earnings) / sum(group net income)     latest three fiscal years
+NCIShare = sum(NCI earnings) / sum(group net income)     profitable years among the latest three
 ```
 
-If the group made losses over that window, the fallback is
+Loss years are left out, because adding a loss to two profitable years shrinks
+the denominator towards zero and inflates the ratio. If every year in the window
+was a loss, the fallback is
 `NCI book value / total equity including NCI`. A company that shows minority
 interests on its balance sheet but gives no way to measure their share is
 excluded as `nci_present_share_unknown`, never assumed to be zero. Both
@@ -449,7 +451,7 @@ fcf_factor/
 
 data/                    the research record (committed - see data/README.md)
 reports/latest/          one markdown report per market, plus an index
-tests/                   285 tests, none of which touch the network
+tests/                   287 tests, none of which touch the network
 .github/workflows/       quarterly_factor.yml, daily_prices.yml, tests.yml
 ```
 
@@ -739,7 +741,7 @@ provider switch is visible in the audit trail.
 
 ## Tests
 
-285 tests, none of which touch the network — a fixture makes any accidental HTTP
+287 tests, none of which touch the network — a fixture makes any accidental HTTP
 call fail immediately.
 
 ```bash
@@ -765,6 +767,7 @@ Every snapshot records the version that produced it in `metadata.json`.
 | Version | Date | Change |
 |---|---|---|
 | 1.0.0 | 2026-09-14 | Initial release |
+| 1.1.2 | 2026-10-13 | The minorities' earnings share ignores loss years. |
 | 1.1.1 | 2026-10-13 | Purchases and sales that cannot trade on the rebalance day wait for the first real trade instead of being redistributed or sold at a stale price. |
 | 1.1.0 | 2026-10-13 | Minority interests deducted from free cash flow instead of added to enterprise value. Lease liabilities verified to be inside debt, and added when the provider omits them. Price bars stored only after their session closes. Fixed total equity being misread as minority interest. |
 

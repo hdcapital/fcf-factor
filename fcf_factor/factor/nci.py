@@ -13,8 +13,9 @@ Treatment (methodology 1.1.0):
 
 The minorities' share is measured, in order of preference:
 
-1. **Earnings** -- NCI earnings / group net income, summed over the latest
-   three fiscal years so one odd year cannot dominate.
+1. **Earnings** -- NCI earnings / group net income, summed over the
+   profitable years among the latest three, so one odd year cannot dominate
+   and a loss year cannot shrink the denominator towards zero.
 2. **Book equity** -- NCI book value / total equity including NCI, used only
    when earnings cannot give a sensible answer (for example group losses).
 
@@ -67,22 +68,31 @@ def nci_share(
     result = NciShare()
     recent = sorted(annual, key=lambda p: p.period_end)[-NCI_LOOKBACK_YEARS:]
 
-    paired = [
+    all_paired = [
         (p.nci_earnings, p.net_income_incl_nci)
         for p in recent
         if p.nci_earnings is not None and p.net_income_incl_nci is not None
     ]
+    # Only profitable years measure an ownership split.  Summing a loss year
+    # with profitable ones shrinks the denominator towards zero and inflates
+    # the ratio: DUG Technology read 55% this way against 17% and 31% in each
+    # of its profitable years.
+    paired = [(n, g) for n, g in all_paired if g > 0]
+    loss_years = len(all_paired) - len(paired)
     nci_total = sum(n for n, _ in paired)
     group_total = sum(g for _, g in paired)
     book_nci = balance.minority_interest if balance is not None else None
     has_book_nci = book_nci is not None and abs(book_nci) > 0
-    has_nci_earnings = any(abs(n) > 0 for n, _ in paired)
+    has_nci_earnings = any(abs(n) > 0 for n, _ in all_paired)
 
     if not has_book_nci and not has_nci_earnings:
         return result  # genuinely wholly owned: share stays 0
 
     if any(p.nci_earnings_from_minority_row for p in recent):
         result.flags.append("nci_earnings_from_minority_row")
+
+    if loss_years:
+        result.flags.append(f"nci_loss_years_excluded:{loss_years}")
 
     if paired and group_total > 0:
         result.share = _clamp(nci_total / group_total, result)

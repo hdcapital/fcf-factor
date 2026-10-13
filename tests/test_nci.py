@@ -79,3 +79,23 @@ def test_an_implausible_share_is_capped_and_flagged():
     r = nci_share([year(2025, 10.0, 9.99)], bs(minority=5.0, equity=50.0))
     assert r.share == pytest.approx(NCI_SHARE_CEILING)
     assert "nci_share_capped" in r.flags
+
+
+def test_a_loss_year_does_not_inflate_the_minorities_share():
+    """DUG Technology's real figures: a loss year once pushed this to 55%."""
+    annual = [
+        year(2024, 3_324_000.0, 555_000.0),
+        year(2025, -4_408_000.0, -516_000.0),
+        year(2026, 2_641_000.0, 821_000.0),
+    ]
+    r = nci_share(annual, bs(minority=1_168_000.0, equity=60_000_000.0))
+    assert r.share == pytest.approx((555_000.0 + 821_000.0) / (3_324_000.0 + 2_641_000.0))
+    assert r.share < 0.25
+    assert "nci_loss_years_excluded:1" in r.flags
+
+
+def test_all_loss_years_fall_back_to_book_equity():
+    annual = [year(2024, -1.0, 0.2), year(2025, -2.0, 0.3)]
+    r = nci_share(annual, bs(minority=10.0, equity=100.0))
+    assert r.source == "book_equity"
+    assert r.share == pytest.approx(0.10)
