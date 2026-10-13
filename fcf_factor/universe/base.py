@@ -62,6 +62,9 @@ class UniverseResult:
     is_stale: bool = False
     stale_reason: str | None = None
     warnings: list[str] = field(default_factory=list)
+    #: Column headings of the source file, where it has them.  Recorded so an
+    #: exchange format change is visible in the universe check output.
+    source_columns: list[str] = field(default_factory=list)
 
     @property
     def size(self) -> int:

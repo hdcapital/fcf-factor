@@ -200,6 +200,9 @@ class UKUniverseAdapter(UniverseAdapter):
                 result.entries = dedupe_entries(entries, result)
                 result.excluded.extend(excluded)
                 result.sources.append(url)
+                header_index = _find_header(rows)
+                if header_index is not None:
+                    result.source_columns = [c for c in rows[header_index] if c]
                 return result
             except Exception as exc:  # noqa: BLE001
                 errors.append(f"{url}: {exc}")

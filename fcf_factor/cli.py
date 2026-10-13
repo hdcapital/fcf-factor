@@ -87,14 +87,24 @@ def cmd_universe(args: argparse.Namespace) -> int:
                 persist=not args.dry_run,
                 allow_integrity_failure=args.allow_integrity_failure,
             )
+            from collections import Counter
+
+            step = max(1, universe.size // 30)
+            reasons = Counter(str(e.get("reason", "")).split(":")[0] for e in universe.excluded)
             results[market] = {
                 "size": universe.size,
                 "sources": universe.sources,
                 "is_stale": universe.is_stale,
                 "stale_reason": universe.stale_reason,
+                "source_columns": universe.source_columns,
                 "parse_exclusions": len(universe.excluded),
+                "exclusion_reasons": dict(reasons.most_common()),
                 "warnings": universe.warnings,
-                "sample": [e.yahoo_symbol for e in universe.entries[:10]],
+                # A spread across the whole list, not just the alphabetical head.
+                "sample": [
+                    f"{e.yahoo_symbol} {e.name or ''}".strip()
+                    for e in universe.entries[::step][:30]
+                ],
             }
         except Exception as exc:  # noqa: BLE001
             log.error("universe build failed for %s: %s", market, exc)
