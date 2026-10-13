@@ -229,6 +229,14 @@ def _print_picks(market: str, signal_date: date, result) -> None:
     print("", file=sys.stderr)
 
 
+def cmd_probe_sources(args: argparse.Namespace) -> int:
+    """Show how current each candidate exchange file is (UK only for now)."""
+    from .universe.uk import probe_sources
+
+    _emit({"command": "probe-sources", "market": "UK", "sources": probe_sources()})
+    return 0
+
+
 def cmd_quarterly_run(args: argparse.Namespace) -> int:
     """Full quarterly pipeline: screen, freeze, price, execute, report, email."""
     run_date = _parse_date(args.run_date) or datetime.now(UTC).date()
@@ -500,6 +508,9 @@ def build_parser() -> argparse.ArgumentParser:
     p_email.add_argument("--signal-date", default=None)
     p_email.add_argument("--dry-run", action="store_true", help="build the message but do not send")
     p_email.set_defaults(func=cmd_send_email)
+
+    p_probe = sub.add_parser("probe-sources", help="report how current each LSE source file is")
+    p_probe.set_defaults(func=cmd_probe_sources)
 
     p_check = sub.add_parser("check-rebalance", help="is a scheduled rebalance due today?")
     p_check.add_argument("--date", default=None)

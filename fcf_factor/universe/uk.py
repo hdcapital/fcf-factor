@@ -289,3 +289,53 @@ class UKUniverseAdapter(UniverseAdapter):
             except Exception as exc:  # noqa: BLE001
                 errors.append(f"{url}: {exc}")
         raise UniverseFetchError("UK universe sources all failed: " + "; ".join(errors))
+
+
+def probe_sources(urls: tuple[str, ...] = LSE_ISSUER_URLS) -> list[dict]:
+    """Report how current each candidate LSE file is.
+
+    For every URL: HTTP status, Last-Modified, size, the latest date found in
+    any date-like column, and the sheet layout.  The latest listing date is the
+    tell-tale: a file that stopped being updated years ago still downloads
+    cleanly and parses, but silently omits every company listed since.
+    """
+    import requests
+
+    from .base import USER_AGENT
+
+    out: list[dict] = []
+    for url in urls:
+        entry: dict = {"url": url}
+        try:
+            response = requests.get(url, timeout=45, headers={"User-Agent": USER_AGENT})
+            entry["status"] = response.status_code
+            entry["last_modified"] = response.headers.get("Last-Modified")
+            entry["bytes"] = len(response.content)
+            if response.ok and url.endswith(".xlsx"):
+                rows = _rows_from_xlsx(response.content)
+                header_index = _find_header(rows)
+                entry["layout"] = describe_workbook(response.content, max_rows=4)
+                entry["latest_dates"] = _latest_dates(rows, header_index)
+        except Exception as exc:  # noqa: BLE001
+            entry["error"] = str(exc)[:200]
+        out.append(entry)
+    return out
+
+
+def _latest_dates(rows: list[list[str]], header_index: int | None) -> dict:
+    """Latest value in each column whose heading mentions a date."""
+    if header_index is None:
+        return {}
+    header = [c.strip().lower() for c in rows[header_index]]
+    latest: dict = {}
+    for position, name in enumerate(header):
+        if "date" not in name:
+            continue
+        values = sorted(
+            str(row[position])[:10]
+            for row in rows[header_index + 1 :]
+            if position < len(row) and str(row[position])[:4].isdigit()
+        )
+        if values:
+            latest[name] = values[-1]
+    return latest

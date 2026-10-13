@@ -11,6 +11,11 @@ on:
         description: "Markets to check (comma separated, or 'all')"
         required: false
         default: "all"
+      probe:
+        description: "Also report how current each LSE source file is"
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: read
@@ -37,3 +42,7 @@ jobs:
           python -m fcf_factor universe \
             --markets "${{ github.event.inputs.markets || 'all' }}" \
             --dry-run --allow-integrity-failure
+
+      - name: Probe source freshness
+        if: github.event.inputs.probe == 'true'
+        run: python -m fcf_factor probe-sources
