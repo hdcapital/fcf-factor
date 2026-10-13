@@ -97,6 +97,7 @@ def cmd_universe(args: argparse.Namespace) -> int:
                 "is_stale": universe.is_stale,
                 "stale_reason": universe.stale_reason,
                 "source_columns": universe.source_columns,
+                "source_value_counts": universe.diagnostics,
                 "parse_exclusions": len(universe.excluded),
                 "exclusion_reasons": dict(reasons.most_common()),
                 "warnings": universe.warnings,

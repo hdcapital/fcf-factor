@@ -65,6 +65,8 @@ class UniverseResult:
     #: Column headings of the source file, where it has them.  Recorded so an
     #: exchange format change is visible in the universe check output.
     source_columns: list[str] = field(default_factory=list)
+    #: Value counts of the source's classification columns, for the same reason.
+    diagnostics: dict = field(default_factory=dict)
 
     @property
     def size(self) -> int:

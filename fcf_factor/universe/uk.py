@@ -121,6 +121,34 @@ def _pick(row: dict[str, str], keys: tuple[str, ...]) -> str:
     return ""
 
 
+#: Classification columns whose values are summarised by the universe check.
+_DIAGNOSTIC_COLUMNS = (
+    "lse market",
+    "mifir identifier code",
+    "mifir identifier description",
+    "market segment code",
+    "fca listing category",
+)
+
+
+def _column_value_counts(rows: list[list[str]], header_index: int) -> dict:
+    from collections import Counter
+
+    header = [c.strip().lower() for c in rows[header_index]]
+    out: dict = {}
+    for column in _DIAGNOSTIC_COLUMNS:
+        if column not in header:
+            continue
+        position = header.index(column)
+        counts = Counter(
+            (row[position].strip() if position < len(row) else "") or "(blank)"
+            for row in rows[header_index + 1 :]
+            if any(str(c).strip() for c in row)
+        )
+        out[column] = dict(counts.most_common(25))
+    return out
+
+
 def parse_lse_rows(rows: list[list[str]]) -> tuple[list[UniverseEntry], list[dict]]:
     header_index = _find_header(rows)
     if header_index is None:
@@ -203,6 +231,7 @@ class UKUniverseAdapter(UniverseAdapter):
                 header_index = _find_header(rows)
                 if header_index is not None:
                     result.source_columns = [c for c in rows[header_index] if c]
+                    result.diagnostics = _column_value_counts(rows, header_index)
                 return result
             except Exception as exc:  # noqa: BLE001
                 errors.append(f"{url}: {exc}")
