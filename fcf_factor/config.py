@@ -28,9 +28,10 @@ METHODOLOGY_VERSION = "1.1.3"
 #: 1.1.1 (2026-10-13) purchases and sales with no trade on the rebalance day
 #:       wait for the first real trade instead of being redistributed.
 #: 1.1.2 (2026-10-13) the minorities' earnings share ignores loss years.
-#: 1.1.3 (2026-10-14) a TTM window must be four consecutive quarters, and a
-#:       TTM revenue with a spiked quarter or far from the latest fiscal year
-#:       is rejected; a provider EV on a disputed share basis is not used;
+#: 1.1.3 (2026-10-14) direct-method operating cash flow is read; the latest
+#:       fiscal year's CFO - CapEx comes before the provider's levered FCF
+#:       field; a TTM window must be four consecutive quarters, and a TTM
+#:       revenue far from the latest fiscal year is rejected; a provider EV on a disputed share basis is not used;
 #:       securities lost to provider throttling are re-fetched, and a screen
 #:       still missing more than 3% of its universe is refused.
 

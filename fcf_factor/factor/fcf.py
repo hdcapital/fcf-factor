@@ -122,24 +122,37 @@ def revenue_outlier_reason(
 ) -> str | None:
     """Why a TTM revenue figure cannot be trusted, or ``None`` if it can.
 
-    Two independent checks: one quarter towering over the other three, and
-    the four-quarter total disagreeing wildly with the latest fiscal year.
-    Either one means a misreported number, and a revenue that is 20x too large
-    flows straight into forward FCF and the yield.
+    The four-quarter total is compared with the latest fiscal year; a wild
+    disagreement means a misreported number, and a revenue 20x too large flows
+    straight into forward FCF and the yield.  Only when there is no recent
+    fiscal year to compare with does the weaker test apply: one quarter
+    towering over the other three.  (It is the weaker test because seasonal
+    businesses legitimately have such a quarter -- H&R Block earns most of
+    its year in tax season -- and their four quarters still add up to the
+    fiscal year.)
     """
+    fy_usable = (
+        latest_fy is not None
+        and latest_fy.revenue is not None
+        and latest_fy.revenue > 0
+        and (
+            ttm_period_end is None
+            or (ttm_period_end - latest_fy.period_end).days <= MAX_FY_CROSSCHECK_AGE_DAYS
+        )
+    )
+    if fy_usable:
+        if ttm_revenue is None:
+            return None
+        ratio = float(ttm_revenue) / float(latest_fy.revenue)
+        if ratio > MAX_TTM_REVENUE_RATIO_TO_FY or ratio < 1.0 / MAX_TTM_REVENUE_RATIO_TO_FY:
+            return f"fy_ratio={ratio:.3g}"
+        return None
     if quarterly_revenues and len(quarterly_revenues) >= 4:
         for i, value in enumerate(quarterly_revenues):
             others = sorted(abs(v) for j, v in enumerate(quarterly_revenues) if j != i)
             median = others[len(others) // 2]
             if median > 0 and abs(value) > MAX_QUARTER_SPIKE_RATIO * median:
                 return "quarter_spike"
-    if ttm_revenue is None or latest_fy is None or not latest_fy.revenue or latest_fy.revenue <= 0:
-        return None
-    if ttm_period_end is not None and (ttm_period_end - latest_fy.period_end).days > MAX_FY_CROSSCHECK_AGE_DAYS:
-        return None
-    ratio = float(ttm_revenue) / float(latest_fy.revenue)
-    if ratio > MAX_TTM_REVENUE_RATIO_TO_FY or ratio < 1.0 / MAX_TTM_REVENUE_RATIO_TO_FY:
-        return f"fy_ratio={ratio:.3g}"
     return None
 
 
@@ -230,16 +243,21 @@ def build_ttm(
         result.fcf = free_cash_flow(result.operating_cashflow, result.capex)
         result.fcf_source = "provider_ttm"
         result.flags.append("fcf_ttm_from_provider")
+    elif latest_fy is not None and free_cash_flow(latest_fy.operating_cashflow, latest_fy.capex) is not None:
+        # The latest fiscal year's CFO - |CapEx| comes before the provider's
+        # ``freeCashflow`` field, because that field is not this definition:
+        # it is a *levered* FCF estimate (after interest, built from EBITDA
+        # and working capital), and was 3x the reported figure for Harbour
+        # Energy.  Half-yearly reporters (most of the UK, Australia and New
+        # Zealand) have no quarterly window, so this rung decides their FCF.
+        result.operating_cashflow = latest_fy.operating_cashflow
+        result.capex = latest_fy.capex
+        result.fcf = free_cash_flow(latest_fy.operating_cashflow, latest_fy.capex)
+        result.fcf_source = "latest_fiscal_year"
+        result.flags.append("fcf_ttm_from_latest_fy")
     elif metadata is not None and metadata.ttm_free_cashflow is not None:
         result.fcf, result.fcf_source = float(metadata.ttm_free_cashflow), "provider_ttm_fcf_field"
         result.flags.append("fcf_ttm_from_provider_fcf_field")
-    elif latest_fy is not None:
-        fy_fcf = free_cash_flow(latest_fy.operating_cashflow, latest_fy.capex)
-        if fy_fcf is not None:
-            result.operating_cashflow = latest_fy.operating_cashflow
-            result.capex = latest_fy.capex
-            result.fcf, result.fcf_source = fy_fcf, "latest_fiscal_year"
-            result.flags.append("fcf_ttm_from_latest_fy")
 
     for period in (window or []):
         flag = capex_sign_flag(period.capex)

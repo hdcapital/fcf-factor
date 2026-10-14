@@ -68,7 +68,13 @@ CFO_LABELS = (
     "Operating Cash Flow",
     "Cash Flow From Continuing Operating Activities",
     "Total Cash From Operating Activities",
+    # Australian and New Zealand companies mostly report operating cash flow
+    # by the *direct* method (receipts from customers less payments to
+    # suppliers), which Yahoo files under this line and not the ones above.
+    # Without it nine in ten ASX and NZX companies had no annual FCF history.
+    "Cash Flowsfromusedin Operating Activities Direct",
     "OperatingCashFlow",
+    "CashFlowsfromusedinOperatingActivitiesDirect",
 )
 CAPEX_LABELS = (
     "Capital Expenditure",

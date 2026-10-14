@@ -251,3 +251,14 @@ def test_a_failed_statement_fetch_is_not_cached(tmp_path):
     provider = _provider_with(tmp_path, Boom())
     assert provider._statement_records("ABC", "income", "annual") == []
     assert provider._cache.get("stmt:ABC:income:annual") is None
+
+
+def test_direct_method_operating_cash_flow_is_read():
+    """ASX and NZX companies mostly report CFO by the direct method."""
+    from fcf_factor.providers.yahoo import CFO_LABELS
+
+    row = {"Cash Flowsfromusedin Operating Activities Direct": 123.0, "Capital Expenditure": -20.0}
+    assert _first(row, CFO_LABELS) == 123.0
+    # The indirect-method total still wins when both are present.
+    row["Operating Cash Flow"] = 120.0
+    assert _first(row, CFO_LABELS) == 120.0

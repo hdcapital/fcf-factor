@@ -230,6 +230,40 @@ def _print_picks(market: str, signal_date: date, result) -> None:
     print("", file=sys.stderr)
 
 
+def cmd_probe_statements(args: argparse.Namespace) -> int:
+    """Show the raw cash-flow labels and the parsed FCF inputs for a few symbols.
+
+    A diagnostic for label mapping: it prints which operating-cash-flow lines
+    Yahoo actually returned, so a missing alias shows up immediately.
+    """
+    from .providers.yahoo import YahooProvider
+
+    provider = YahooProvider()
+    out: dict = {}
+    for symbol in [s.strip() for s in args.symbols.split(",") if s.strip()]:
+        records = provider._statement_records(symbol, "cashflow", "annual")
+        labels = sorted({k for r in records for k in r["values"]})
+        annual = provider.get_annual_financials(symbol)
+        info = provider._raw_info(symbol) or {}
+        out[symbol] = {
+            "operating_labels": [k for k in labels if "operat" in k.lower()],
+            "capex_labels": [k for k in labels if "capital" in k.lower() or "ppe" in k.lower()],
+            "parsed": [
+                {
+                    "period_end": p.period_end.isoformat(),
+                    "operating_cashflow": p.operating_cashflow,
+                    "capex": p.capex,
+                    "revenue": p.revenue,
+                }
+                for p in annual
+            ],
+            "info_operating_cashflow": info.get("operatingCashflow"),
+            "info_free_cashflow": info.get("freeCashflow"),
+        }
+    _emit({"command": "probe-statements", "symbols": out})
+    return 0
+
+
 def cmd_probe_sources(args: argparse.Namespace) -> int:
     """Show how current each candidate exchange file is (UK only for now)."""
     from .universe.uk import probe_sources, scan_numbered_uploads
@@ -526,6 +560,10 @@ def build_parser() -> argparse.ArgumentParser:
     p_probe.add_argument("--scan", action="store_true", help="look for newer numbered uploads")
     p_probe.add_argument("--max-n", type=int, default=200)
     p_probe.set_defaults(func=cmd_probe_sources)
+
+    p_stmt = sub.add_parser("probe-statements", help="show raw cash-flow labels for some symbols")
+    p_stmt.add_argument("--symbols", required=True, help="comma-separated Yahoo symbols")
+    p_stmt.set_defaults(func=cmd_probe_statements)
 
     p_check = sub.add_parser("check-rebalance", help="is a scheduled rebalance due today?")
     p_check.add_argument("--date", default=None)

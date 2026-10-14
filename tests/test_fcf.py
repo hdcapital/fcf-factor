@@ -143,7 +143,7 @@ def test_a_misreported_quarter_does_not_become_the_ttm_revenue():
     annual = [make_annual(date(2024, 12, 31), 100.0, 24.0, -4.0)]
     metadata = CompanyMetadata(symbol="X", ttm_revenue=1_975.0)
     ttm = build_ttm(quarters, annual, metadata)
-    assert any(f.startswith("ttm_revenue_quarterly_rejected:quarter_spike") for f in ttm.flags)
+    assert any(f.startswith("ttm_revenue_quarterly_rejected:fy_ratio") for f in ttm.flags)
     # The provider's TTM is built from the same bad quarter, so it goes too.
     assert any(f.startswith("ttm_revenue_provider_rejected") for f in ttm.flags)
     assert ttm.revenue == 100.0
@@ -171,3 +171,42 @@ def test_genuine_fast_growth_is_not_mistaken_for_a_bad_quarter():
     ttm = build_ttm(quarters, annual)
     assert ttm.revenue_source == "quarterly_sum"
     assert ttm.revenue == 215.0
+
+
+def test_a_spiked_quarter_is_rejected_when_there_is_no_fiscal_year_to_check():
+    quarters = _four_quarters()
+    quarters[2] = make_quarter(date(2025, 9, 30), 1_900.0, 6.0, -1.0)
+    ttm = build_ttm(quarters, [])
+    assert any(f.startswith("ttm_revenue_quarterly_rejected:quarter_spike") for f in ttm.flags)
+    assert ttm.revenue is None
+
+
+def test_a_seasonal_business_keeps_its_quarterly_revenue():
+    """H&R Block earns most of its year in one quarter; the four still add up."""
+    quarters = [
+        make_quarter(date(2025, 3, 31), 10.0, 6.0, -1.0),
+        make_quarter(date(2025, 6, 30), 70.0, 6.0, -1.0),
+        make_quarter(date(2025, 9, 30), 8.0, 6.0, -1.0),
+        make_quarter(date(2025, 12, 31), 12.0, 6.0, -1.0),
+    ]
+    annual = [make_annual(date(2024, 12, 31), 95.0, 24.0, -4.0)]
+    ttm = build_ttm(quarters, annual)
+    assert ttm.revenue_source == "quarterly_sum"
+    assert ttm.revenue == 100.0
+
+
+def test_reported_fcf_comes_before_the_providers_levered_fcf_field():
+    """Harbour Energy: Yahoo's freeCashflow field was 3x the reported CFO - CapEx."""
+    metadata = CompanyMetadata(symbol="X", ttm_revenue=100.0, ttm_free_cashflow=48.0)
+    annual = [make_annual(date(2025, 12, 31), 100.0, 20.0, -4.0)]
+    ttm = build_ttm([], annual, metadata)
+    assert ttm.fcf == pytest.approx(16.0)
+    assert ttm.fcf_source == "latest_fiscal_year"
+
+
+def test_the_providers_fcf_field_is_the_last_resort():
+    metadata = CompanyMetadata(symbol="X", ttm_revenue=100.0, ttm_free_cashflow=48.0)
+    annual = [make_annual(date(2025, 12, 31), 100.0, None, -4.0)]
+    ttm = build_ttm([], annual, metadata)
+    assert ttm.fcf == pytest.approx(48.0)
+    assert ttm.fcf_source == "provider_ttm_fcf_field"

@@ -95,14 +95,23 @@ For revenue, EBITDA and free cash flow independently, in order:
 2. the **provider's own TTM figure**,
 3. the **most recent fiscal year**.
 
+For free cash flow the third rung is split. The latest fiscal year's
+`CFO - |CapEx|` comes before the provider's own `freeCashflow` field, because
+that field is not this definition: it is a levered FCF estimate (after
+interest, built from EBITDA and working capital) and was 3x the reported figure
+for Harbour Energy. Half-yearly reporters (most of the UK, Australia and New
+Zealand) have no usable quarterly window, so this rung decides their FCF.
+
 Whichever rung was used is written into every snapshot as `ttm_source`, for
 example `revenue=quarterly_sum|ebitda=provider_ttm|fcf=latest_fiscal_year`.
 
 Revenue is cross-checked before it is accepted, because one misreported quarter
 flows straight through forward FCF into the yield (Yahoo once reported a
-C$1.2bn Cascades quarter as C$91bn). The quarterly sum is rejected when any one
-quarter is more than 4x the median of the other three, or when the total is
-more than 3x away from the latest fiscal year (in either direction). The
+C$1.2bn Cascades quarter as C$91bn). The quarterly sum is rejected when the
+total is more than 3x away from the latest fiscal year (in either direction).
+Only when there is no fiscal year from the last 18 months is the weaker test
+used instead: one quarter more than 4x the median of the other three. It is
+weaker because seasonal businesses (H&R Block) have such a quarter honestly. The
 provider's TTM is built from the same quarters, so it gets the fiscal-year
 check too. A rejection is flagged `ttm_revenue_quarterly_rejected` or
 `ttm_revenue_provider_rejected` and the next rung is used.
@@ -486,7 +495,7 @@ fcf_factor/
 
 data/                    the research record (committed - see data/README.md)
 reports/latest/          one markdown report per market, plus an index
-tests/                   309 tests, none of which touch the network
+tests/                   314 tests, none of which touch the network
 .github/workflows/       quarterly_factor.yml, daily_prices.yml, tests.yml
 ```
 
@@ -776,7 +785,7 @@ provider switch is visible in the audit trail.
 
 ## Tests
 
-309 tests, none of which touch the network — a fixture makes any accidental HTTP
+314 tests, none of which touch the network — a fixture makes any accidental HTTP
 call fail immediately.
 
 ```bash
@@ -803,7 +812,7 @@ Every snapshot records the version that produced it in `metadata.json`.
 |---|---|---|
 | 1.0.0 | 2026-09-14 | Initial release |
 | 1.1.2 | 2026-10-13 | The minorities' earnings share ignores loss years. |
-| 1.1.3 | 2026-10-14 | TTM windows must be four consecutive quarters; a TTM revenue with one quarter more than 4x the others, or more than 3x away from the latest fiscal year, is rejected and the next rung of the ladder used. A provider EV is not used when the market cap and price x shares disagree. Securities that came back empty (usually provider throttling) are re-fetched after a cool-down, and a screen still missing more than 3% of its universe fails instead of publishing. |
+| 1.1.3 | 2026-10-14 | Direct-method operating cash flow (most ASX and NZX companies) is read; before this nine in ten had no annual FCF history. The latest fiscal year's CFO - CapEx now comes before the provider's levered `freeCashflow` field. TTM windows must be four consecutive quarters; a TTM revenue more than 3x away from the latest fiscal year (or, with no recent fiscal year, with one quarter more than 4x the others) is rejected and the next rung of the ladder used. A provider EV is not used when the market cap and price x shares disagree. Securities that came back empty (usually provider throttling) are re-fetched after a cool-down, and a screen still missing more than 3% of its universe fails instead of publishing. |
 | 1.1.1 | 2026-10-13 | Purchases and sales that cannot trade on the rebalance day wait for the first real trade instead of being redistributed or sold at a stale price. |
 | 1.1.0 | 2026-10-13 | Minority interests deducted from free cash flow instead of added to enterprise value. Lease liabilities verified to be inside debt, and added when the provider omits them. Price bars stored only after their session closes. Fixed total equity being misread as minority interest. |
 
