@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-10-13",
+  "excluded_count": 4128,
+  "fetched_at": "2026-10-14T02:53:43.108855+00:00",
+  "market": "UK",
+  "path": "2026-10-13.csv",
+  "size": 1084,
+  "sources": [
+    "https://docs.londonstockexchange.com/sites/default/files/reports/Instrument%20list_84.xlsx"
+  ],
+  "warnings": [
+    "LSE instrument list as at 2026-09-30 (upload 84)"
+  ]
+}

@@ -1,0 +1,1085 @@
+market,exchange,exchange_symbol,yahoo_symbol,name,industry,source
+UK,LSE,1947,1947.L,1947 OIL & GAS PLC,Energy,lse:instrument-list
+UK,LSE,1SN,1SN.L,FIRST TIN PLC,Basic Materials,lse:instrument-list
+UK,LSE,4BB,4BB.L,4BASEBIO PLC,Health Care,lse:instrument-list
+UK,LSE,80M,80M.L,80 MILE PLC,Basic Materials,lse:instrument-list
+UK,LSE,88E,88E.L,88 ENERGY LIMITED,Energy,lse:instrument-list
+UK,LSE,AAF,AAF.L,AIRTEL AFRICA PLC,Telecommunications,lse:instrument-list
+UK,LSE,AAL,AAL.L,ANGLO AMERICAN PLC,Basic Materials,lse:instrument-list
+UK,LSE,AAU,AAU.L,ARIANA RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,AAZ,AAZ.L,ANGLO ASIAN MINING PLC,Basic Materials,lse:instrument-list
+UK,LSE,ABDN,ABDN.L,ABERDEEN GROUP PLC,Financials,lse:instrument-list
+UK,LSE,ABDP,ABDP.L,AB DYNAMICS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,ABDX,ABDX.L,ABINGDON HEALTH PLC,Health Care,lse:instrument-list
+UK,LSE,ABF,ABF.L,ASSOCIATED BRITISH FOODS PLC,Consumer Staples,lse:instrument-list
+UK,LSE,AC8,AC8.L,ACCELER8 VENTURES PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,ACG,ACG.L,ACG METALS LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,ACRM,ACRM.L,ACUITY RM GROUP PLC,Technology,lse:instrument-list
+UK,LSE,ACSO,ACSO.L,ACCESSO TECHNOLOGY GROUP PLC,Technology,lse:instrument-list
+UK,LSE,ADF,ADF.L,FACILITIES BY ADF PLC,Industrials,lse:instrument-list
+UK,LSE,ADM,ADM.L,ADMIRAL GROUP PLC,Financials,lse:instrument-list
+UK,LSE,ADME,ADME.L,ADM ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,ADVT,ADVT.L,ADVANCEDADVT LIMITED,Technology,lse:instrument-list
+UK,LSE,AEG,AEG.L,ACTIVE ENERGY GROUP PLC,Energy,lse:instrument-list
+UK,LSE,AEO,AEO.L,AEOREMA COMMUNICATIONS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,AEP,AEP.L,AEP PLANTATIONS PLC,Consumer Staples,lse:instrument-list
+UK,LSE,AET,AET.L,AFENTRA PLC,Energy,lse:instrument-list
+UK,LSE,AEX,AEX.L,AMINEX PLC,Energy,lse:instrument-list
+UK,LSE,AFP,AFP.L,AFRICAN PIONEER PLC,Basic Materials,lse:instrument-list
+UK,LSE,AGI,AGI.L,POTENTIALLY AI PLC,Technology,lse:instrument-list
+UK,LSE,AGY,AGY.L,ALLERGY THERAPEUTICS PLC,Health Care,lse:instrument-list
+UK,LSE,AIBG,AIBG.L,AIB GROUP PLC,Financials,lse:instrument-list
+UK,LSE,AIEA,AIEA.L,AIREA PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,AIQ,AIQ.L,AIQ LIMITED,Technology,lse:instrument-list
+UK,LSE,AJB,AJB.L,AJ BELL PLC,Financials,lse:instrument-list
+UK,LSE,AKN,AKN.L,ARKADIAN STRATEGIC METALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,ALFA,ALFA.L,ALFA FINANCIAL SOFTWARE HOLDINGS PLC,Technology,lse:instrument-list
+UK,LSE,ALL,ALL.L,ATLANTIC LITHIUM LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,ALNA,ALNA.L,ALINA HOLDINGS PLC,Real Estate,lse:instrument-list
+UK,LSE,ALRT,ALRT.L,DEFENCE HOLDINGS PLC,Industrials,lse:instrument-list
+UK,LSE,ALT,ALT.L,ALTITUDE GROUP PLC,Technology,lse:instrument-list
+UK,LSE,ALTN,ALTN.L,ALTYNGOLD PLC,Basic Materials,lse:instrument-list
+UK,LSE,ALU,ALU.L,ALUMASC GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,AMCO,AMCO.L,AMCOMRI GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,AMG,AMG.L,ATLAS METALS GROUP PLC,Basic Materials,lse:instrument-list
+UK,LSE,AMGO,AMGO.L,AMIGO RESOURCES PLC,Financials,lse:instrument-list
+UK,LSE,AMIF,AMIF.L,AMICORP FS (UK) PLC,Financials,lse:instrument-list
+UK,LSE,AML,AML.L,ASTON MARTIN LAGONDA GLOBAL HOLDINGS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,AMOI,AMOI.L,ANEMOI INTERNATIONAL LTD,Technology,lse:instrument-list
+UK,LSE,AMP,AMP.L,AMPEAK ENERGY LIMITED,Energy,lse:instrument-list
+UK,LSE,AMRQ,AMRQ.L,AMAROQ LTD.,Basic Materials,lse:instrument-list
+UK,LSE,AMS,AMS.L,ADVANCED MEDICAL SOLUTIONS GROUP PLC,Health Care,lse:instrument-list
+UK,LSE,ANG,ANG.L,ANGLING DIRECT PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,ANGS,ANGS.L,ANGUS ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,ANIC,ANIC.L,AGRONOMICS LIMITED,Health Care,lse:instrument-list
+UK,LSE,ANP,ANP.L,ANPARIO PLC,Consumer Staples,lse:instrument-list
+UK,LSE,ANTO,ANTO.L,ANTOFAGASTA PLC,Basic Materials,lse:instrument-list
+UK,LSE,AO.,AO.L,AO WORLD PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,AOM,AOM.L,ACTIVEOPS PLC,Technology,lse:instrument-list
+UK,LSE,AOTI,AOTI.L,"AOTI, INC.",Health Care,lse:instrument-list
+UK,LSE,APN,APN.L,APPLIED NUTRITION PLC,Consumer Staples,lse:instrument-list
+UK,LSE,APTA,APTA.L,APTAMER GROUP PLC,Health Care,lse:instrument-list
+UK,LSE,APTD,APTD.L,APTITUDE SOFTWARE GROUP PLC,Technology,lse:instrument-list
+UK,LSE,ARBB,ARBB.L,ARBUTHNOT BANKING GROUP PLC,Financials,lse:instrument-list
+UK,LSE,ARBN,ARBN.L,ARBUTHNOT BANKING GROUP PLC,Financials,lse:instrument-list
+UK,LSE,ARC,ARC.L,ARCONTECH GROUP PLC,Technology,lse:instrument-list
+UK,LSE,ARCM,ARCM.L,ARC MINERALS LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,AREC,AREC.L,ARECOR THERAPEUTICS PLC,Health Care,lse:instrument-list
+UK,LSE,ARK,ARK.L,ARKLE RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,ARS,ARS.L,ASIAMET RESOURCES LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,ART,ART.L,THE ARTISANAL SPIRITS COMPANY PLC,Consumer Staples,lse:instrument-list
+UK,LSE,ASAI,ASAI.L,ASA INTERNATIONAL GROUP PLC,Financials,lse:instrument-list
+UK,LSE,ASC,ASC.L,ASOS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,ASHM,ASHM.L,ASHMORE GROUP PLC,Financials,lse:instrument-list
+UK,LSE,ASIA,ASIA.L,ASIA STRATEGIC HOLDINGS LIMITED,Consumer Discretionary,lse:instrument-list
+UK,LSE,ASPL,ASPL.L,ASEANA PROPERTIES LIMITED,Real Estate,lse:instrument-list
+UK,LSE,AST,AST.L,ASCENT RESOURCES PLC,Energy,lse:instrument-list
+UK,LSE,ASY,ASY.L,ANDREWS SYKES GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,AT.,AT.L,ASHTEAD TECHNOLOGY HOLDINGS PLC,Energy,lse:instrument-list
+UK,LSE,ATC,ATC.L,ATC MUSIC GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,ATG,ATG.L,AUCTION TECHNOLOGY GROUP PLC,Technology,lse:instrument-list
+UK,LSE,ATM,ATM.L,ANDRADA MINING LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,ATN,ATN.L,ATERIAN PLC,Basic Materials,lse:instrument-list
+UK,LSE,ATOM,ATOM.L,ATOME PLC,Basic Materials,lse:instrument-list
+UK,LSE,ATYM,ATYM.L,"ATALAYA MINING COPPER, S.A.",Basic Materials,lse:instrument-list
+UK,LSE,AURA,AURA.L,AURA ENERGY LIMITED,Energy,lse:instrument-list
+UK,LSE,AURR,AURR.L,AURRIGO INTERNATIONAL PLC,Technology,lse:instrument-list
+UK,LSE,AUTG,AUTG.L,AUTINS GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,AUTO,AUTO.L,AUTOTRADER GROUP PLC,Technology,lse:instrument-list
+UK,LSE,AV.,AV.L,AVIVA PLC,Financials,lse:instrument-list
+UK,LSE,AVAP,AVAP.L,AVATION PLC,Industrials,lse:instrument-list
+UK,LSE,AVCT,AVCT.L,AVACTA GROUP PLC,Health Care,lse:instrument-list
+UK,LSE,AVG,AVG.L,AVINGTRANS PLC,Industrials,lse:instrument-list
+UK,LSE,AVON,AVON.L,AVON TECHNOLOGIES PLC,Industrials,lse:instrument-list
+UK,LSE,AXL,AXL.L,ARROW EXPLORATION CORP.,Energy,lse:instrument-list
+UK,LSE,AXS,AXS.L,ACCSYS TECHNOLOGIES PLC,Industrials,lse:instrument-list
+UK,LSE,AYM,AYM.L,ANGLESEY MINING PLC,Basic Materials,lse:instrument-list
+UK,LSE,AZN,AZN.L,ASTRAZENECA PLC,Health Care,lse:instrument-list
+UK,LSE,B90,B90.L,B90 HOLDINGS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,BA.,BA.L,BAE SYSTEMS PLC,Industrials,lse:instrument-list
+UK,LSE,BAB,BAB.L,BABCOCK INTERNATIONAL GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,BAG,BAG.L,BARR (A.G.) PLC,Consumer Staples,lse:instrument-list
+UK,LSE,BANK,BANK.L,FIINU PLC,Financials,lse:instrument-list
+UK,LSE,BARC,BARC.L,BARCLAYS PLC,Financials,lse:instrument-list
+UK,LSE,BATS,BATS.L,BRITISH AMERICAN TOBACCO PLC,Consumer Staples,lse:instrument-list
+UK,LSE,BBSN,BBSN.L,BRAVE BISON GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,BBY,BBY.L,BALFOUR BEATTY PLC,Industrials,lse:instrument-list
+UK,LSE,BCE,BCE.L,BEACON ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,BCG,BCG.L,BALTIC CLASSIFIEDS GROUP PLC,Technology,lse:instrument-list
+UK,LSE,BEM,BEM.L,BEOWULF MINING PLC,Basic Materials,lse:instrument-list
+UK,LSE,BEZ,BEZ.L,BEAZLEY PLC,Financials,lse:instrument-list
+UK,LSE,BGEO,BGEO.L,LION FINANCE GROUP PLC,Financials,lse:instrument-list
+UK,LSE,BGO,BGO.L,BANGO PLC,Technology,lse:instrument-list
+UK,LSE,BHL,BHL.L,BRADDA HEAD LITHIUM LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,BIG,BIG.L,BIG TECHNOLOGIES PLC,Technology,lse:instrument-list
+UK,LSE,BILN,BILN.L,BILLINGTON HOLDINGS PLC,Industrials,lse:instrument-list
+UK,LSE,BIRD,BIRD.L,BLACKBIRD PLC,Technology,lse:instrument-list
+UK,LSE,BKG,BKG.L,BERKELEY GROUP HOLDINGS (THE) PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,BKS,BKS.L,BEEKS FINANCIAL CLOUD GROUP PLC,Technology,lse:instrument-list
+UK,LSE,BLND,BLND.L,BRITISH LAND COMPANY PLC,Real Estate,lse:instrument-list
+UK,LSE,BLOE,BLOE.L,BLOCK ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,BLU,BLU.L,BLUE STAR CAPITAL PLC,Financials,lse:instrument-list
+UK,LSE,BME,BME.L,B&M EUROPEAN VALUE RETAIL PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,BMIN,BMIN.L,BOTSWANA MINERALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,BMS,BMS.L,BRAEMAR PLC,Industrials,lse:instrument-list
+UK,LSE,BMT,BMT.L,BRAIME GROUP PLC,Basic Materials,lse:instrument-list
+UK,LSE,BMTO,BMTO.L,BRAIME GROUP PLC,Basic Materials,lse:instrument-list
+UK,LSE,BMV,BMV.L,BLUEBIRD MINING VENTURES LTD,Basic Materials,lse:instrument-list
+UK,LSE,BMY,BMY.L,BLOOMSBURY PUBLISHING PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,BNZL,BNZL.L,BUNZL PLC,Industrials,lse:instrument-list
+UK,LSE,BOKU,BOKU.L,"BOKU, INC.",Industrials,lse:instrument-list
+UK,LSE,BOOM,BOOM.L,AUDIOBOOM GROUP PLC,Technology,lse:instrument-list
+UK,LSE,BOOT,BOOT.L,BOOT (HENRY) PLC,Real Estate,lse:instrument-list
+UK,LSE,BOR,BOR.L,BORDERS & SOUTHERN PETROLEUM PLC,Energy,lse:instrument-list
+UK,LSE,BOW,BOW.L,BOW STREET GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,BOWL,BOWL.L,HOLLYWOOD BOWL GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,BOY,BOY.L,BODYCOTE PLC,Industrials,lse:instrument-list
+UK,LSE,BP.,BP.L,BP PLC,Energy,lse:instrument-list
+UK,LSE,BPM,BPM.L,B.P. MARSH & PARTNERS PLC,Financials,lse:instrument-list
+UK,LSE,BPT,BPT.L,BRIDGEPOINT GROUP PLC,Financials,lse:instrument-list
+UK,LSE,BRBY,BRBY.L,BURBERRY GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,BRCK,BRCK.L,BRCK GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,BREE,BREE.L,BREEDON GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,BRES,BRES.L,BLENCOWE RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,BRK,BRK.L,BROOKS MACDONALD GROUP PLC,Financials,lse:instrument-list
+UK,LSE,BSFA,BSFA.L,BSF ENTERPRISE PLC,Health Care,lse:instrument-list
+UK,LSE,BT.A,BT-A.L,BT GROUP PLC,Telecommunications,lse:instrument-list
+UK,LSE,BTC,BTC.L,LONDON BTC COMPANY LIMITED,Financials,lse:instrument-list
+UK,LSE,BTG,BTG.L,BTG CONSULTING PLC,Industrials,lse:instrument-list
+UK,LSE,BTRW,BTRW.L,BARRATT REDROW PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,BUC,BUC.L,BUILT CYBERNETICS PLC,Industrials,lse:instrument-list
+UK,LSE,BUCE,BUCE.L,BUCCANEER ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,BUR,BUR.L,BURFORD CAPITAL LIMITED,Financials,lse:instrument-list
+UK,LSE,BVC,BVC.L,BATM ADVANCED COMMUNICATIONS LD,Health Care,lse:instrument-list
+UK,LSE,BVS,BVS.L,BRAVURA SOLUTIONS LIMITED,Technology,lse:instrument-list
+UK,LSE,BVXP,BVXP.L,BIOVENTIX PLC,Health Care,lse:instrument-list
+UK,LSE,BWY,BWY.L,BELLWAY PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,BYG,BYG.L,BIG YELLOW GROUP PLC,Real Estate,lse:instrument-list
+UK,LSE,BYIT,BYIT.L,BYTES TECHNOLOGY GROUP PLC,Technology,lse:instrument-list
+UK,LSE,BZT,BZT.L,BEZANT RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,CABA,CABA.L,CAB PAYMENTS HOLDINGS PLC,Financials,lse:instrument-list
+UK,LSE,CABB,CABB.L,CAB PAYMENTS HOLDINGS PLC,Financials,lse:instrument-list
+UK,LSE,CABP,CABP.L,CAB PAYMENTS HOLDINGS PLC,Financials,lse:instrument-list
+UK,LSE,CAD,CAD.L,CADOGAN ENERGY SOLUTIONS PLC,Energy,lse:instrument-list
+UK,LSE,CAGL,CAGL.L,COASTAL AFRICA GROUP LIMITED,Financials,lse:instrument-list
+UK,LSE,CAM,CAM.L,CAMELLIA PLC,Consumer Staples,lse:instrument-list
+UK,LSE,CAML,CAML.L,CENTRAL ASIA METALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,CAN,CAN.L,CANAL+ S.A,Consumer Discretionary,lse:instrument-list
+UK,LSE,CAPD,CAPD.L,CAPITAL LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,CAR,CAR.L,CARCLO PLC,Industrials,lse:instrument-list
+UK,LSE,CARD,CARD.L,CARD FACTORY PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,CASP,CASP.L,CASPIAN SUNRISE PLC,Energy,lse:instrument-list
+UK,LSE,CAV,CAV.L,CAVENDISH PLC,Financials,lse:instrument-list
+UK,LSE,CBG,CBG.L,CLOSE BROTHERS GROUP PLC,Financials,lse:instrument-list
+UK,LSE,CBOX,CBOX.L,CAKE BOX HOLDINGS PLC,Consumer Staples,lse:instrument-list
+UK,LSE,CCC,CCC.L,COMPUTACENTER PLC,Technology,lse:instrument-list
+UK,LSE,CCEP,CCEP.L,COCA-COLA EUROPACIFIC PARTNERS PLC,Consumer Staples,lse:instrument-list
+UK,LSE,CCH,CCH.L,COCA-COLA HBC AG,Consumer Staples,lse:instrument-list
+UK,LSE,CCP,CCP.L,CELTIC PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,CCR,CCR.L,C&C GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,CCT,CCT.L,THE CHARACTER GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,CDFF,CDFF.L,CARDIFF PROPERTY PLC,Real Estate,lse:instrument-list
+UK,LSE,CDGP,CDGP.L,CHAPEL DOWN GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,CDL,CDL.L,CLOUDBREAK DISCOVERY PLC,Energy,lse:instrument-list
+UK,LSE,CEPS,CEPS.L,CEPS PLC,Financials,lse:instrument-list
+UK,LSE,CER,CER.L,CERILLION PLC,Technology,lse:instrument-list
+UK,LSE,CFX,CFX.L,COLEFAX GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,CFYN,CFYN.L,CAFFYNS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,CGEO,CGEO.L,GEORGIA CAPITAL PLC,Financials,lse:instrument-list
+UK,LSE,CGI,CGI.L,"CANADIAN GENERAL INVESTMENTS, LD",Financials,lse:instrument-list
+UK,LSE,CGNR,CGNR.L,CONROY GOLD & NATURAL RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,CGO,CGO.L,CONTANGO HOLDINGS PLC,Energy,lse:instrument-list
+UK,LSE,CGS,CGS.L,CASTINGS PLC,Basic Materials,lse:instrument-list
+UK,LSE,CHAR,CHAR.L,CHARIOT LIMITED,Energy,lse:instrument-list
+UK,LSE,CHF,CHF.L,CHESTERFIELD RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,CHG,CHG.L,CHEMRING GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,CHH,CHH.L,CHURCHILL CHINA PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,CHL,CHL.L,CLOUDIFIED HOLDINGS LIMITED,Technology,lse:instrument-list
+UK,LSE,CHLL,CHLL.L,CHILL BRANDS GROUP PLC,Health Care,lse:instrument-list
+UK,LSE,CHP,CHP.L,CALEDONIAN HOLDINGS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,CHRT,CHRT.L,COHORT PLC,Industrials,lse:instrument-list
+UK,LSE,CHRY,CHRY.L,CHRYSALIS INVESTMENTS LIMITED,Financials,lse:instrument-list
+UK,LSE,CHSS,CHSS.L,WORLD CHESS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,CINH,CINH.L,CINDRIGO HOLDINGS LIMITED,Energy,lse:instrument-list
+UK,LSE,CIZ,CIZ.L,CIZZLE BIOTECHNOLOGY HOLDINGS PLC,Health Care,lse:instrument-list
+UK,LSE,CKN,CKN.L,CLARKSON PLC,Industrials,lse:instrument-list
+UK,LSE,CKT,CKT.L,CHECKIT PLC,Technology,lse:instrument-list
+UK,LSE,CLA,CLA.L,CELSIUS RESOURCES LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,CLBS,CLBS.L,CELEBRUS TECHNOLOGIES PLC,Technology,lse:instrument-list
+UK,LSE,CLBX,CLBX.L,CELLBXHEALTH PLC,Health Care,lse:instrument-list
+UK,LSE,CLCO,CLCO.L,CLOUDCOCO GROUP PLC,Technology,lse:instrument-list
+UK,LSE,CLI,CLI.L,CLS HOLDINGS PLC,Real Estate,lse:instrument-list
+UK,LSE,CLIG,CLIG.L,CITY OF LONDON INVESTMENT GROUP PLC,Financials,lse:instrument-list
+UK,LSE,CLON,CLON.L,CLONTARF ENERGY PLC,Basic Materials,lse:instrument-list
+UK,LSE,CLX,CLX.L,CALNEX SOLUTIONS PLC,Telecommunications,lse:instrument-list
+UK,LSE,CMCL,CMCL.L,CALEDONIA MINING CORPORATION PLC,Basic Materials,lse:instrument-list
+UK,LSE,CMCX,CMCX.L,CMC MARKETS PLC,Financials,lse:instrument-list
+UK,LSE,CMET,CMET.L,CAPITAL METALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,CML,CML.L,CML MICROSYSTEMS PLC,Technology,lse:instrument-list
+UK,LSE,CMRS,CMRS.L,CRITICAL MINERAL RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,CMX,CMX.L,CATALYST MEDIA GROUP PLC,Telecommunications,lse:instrument-list
+UK,LSE,CNA,CNA.L,CENTRICA PLC,Utilities,lse:instrument-list
+UK,LSE,CNC,CNC.L,CONCURRENT TECHNOLOGIES PLC,Technology,lse:instrument-list
+UK,LSE,CNE,CNE.L,CAPRICORN ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,CNS,CNS.L,CORERO NETWORK SECURITY PLC,Technology,lse:instrument-list
+UK,LSE,CNSL,CNSL.L,CAMBRIDGE NUTRITIONAL SCIENCES PLC,Health Care,lse:instrument-list
+UK,LSE,COA,COA.L,COATS GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,COBR,COBR.L,COBRA RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,CODE,CODE.L,NORTHCODERS GROUP PLC,Technology,lse:instrument-list
+UK,LSE,COG,COG.L,CAMBRIDGE COGNITION HOLDINGS PLC,Health Care,lse:instrument-list
+UK,LSE,COIL,COIL.L,COILED THERAPEUTICS PLC,Health Care,lse:instrument-list
+UK,LSE,COM,COM.L,COMPTOIR GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,COPC,COPC.L,COPPA COLLECTIVE PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,COR,COR.L,CORPUS RESOURCES PLC,Energy,lse:instrument-list
+UK,LSE,CORA,CORA.L,CORA GOLD LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,CORO,CORO.L,CORO ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,COST,COST.L,COSTAIN GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,CPG,CPG.L,COMPASS GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,CPH2,CPH2.L,CLEAN POWER HYDROGEN PLC,Energy,lse:instrument-list
+UK,LSE,CPI,CPI.L,CAPITA PLC,Industrials,lse:instrument-list
+UK,LSE,CPX,CPX.L,CAP-XX LIMITED,Industrials,lse:instrument-list
+UK,LSE,CRCL,CRCL.L,CORCEL PLC,Energy,lse:instrument-list
+UK,LSE,CRDA,CRDA.L,CRODA INTERNATIONAL PLC,Basic Materials,lse:instrument-list
+UK,LSE,CRE,CRE.L,CONDUIT HOLDINGS LIMITED,Financials,lse:instrument-list
+UK,LSE,CREO,CREO.L,CREO MEDICAL GROUP PLC,Health Care,lse:instrument-list
+UK,LSE,CRPR,CRPR.L,CROPPER (JAMES) PLC,Basic Materials,lse:instrument-list
+UK,LSE,CRS,CRS.L,CRYSTAL AMBER FUND LIMITED,Financials,lse:instrument-list
+UK,LSE,CRST,CRST.L,CREST NICHOLSON HOLDINGS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,CRTA,CRTA.L,CIRATA PLC,Technology,lse:instrument-list
+UK,LSE,CRTM,CRTM.L,CRITICAL METALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,CRTX,CRTX.L,CRISM THERAPEUTICS CORPORATION,Health Care,lse:instrument-list
+UK,LSE,CRU,CRU.L,CORAL PRODUCTS PLC,Industrials,lse:instrument-list
+UK,LSE,CRW,CRW.L,CRANEWARE PLC,Health Care,lse:instrument-list
+UK,LSE,CSC,CSC.L,CHESTERFIELD SPECIAL CYLINDERS HOLDINGS PLC,Industrials,lse:instrument-list
+UK,LSE,CSN,CSN.L,CHESNARA PLC,Financials,lse:instrument-list
+UK,LSE,CSSG,CSSG.L,CROMA SECURITY SOLUTIONS GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,CTA,CTA.L,CT AUTOMOTIVE GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,CTAI,CTAI.L,CATENAI PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,CTEC,CTEC.L,CONVATEC GROUP PLC,Health Care,lse:instrument-list
+UK,LSE,CTG,CTG.L,CHRISTIE GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,CTL,CTL.L,CLEANTECH LITHIUM PLC,Basic Materials,lse:instrument-list
+UK,LSE,CURY,CURY.L,CURRYS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,CVSG,CVSG.L,CVS GROUP PLC,Health Care,lse:instrument-list
+UK,LSE,CWK,CWK.L,CRANSWICK PLC,Consumer Staples,lse:instrument-list
+UK,LSE,CWR,CWR.L,CERES POWER HOLDINGS PLC,Energy,lse:instrument-list
+UK,LSE,CYKL,CYKL.L,CYKEL AI PLC,Technology,lse:instrument-list
+UK,LSE,DAR,DAR.L,DAR GLOBAL PLC,Real Estate,lse:instrument-list
+UK,LSE,DATA,DATA.L,GLOBALDATA PLC,Industrials,lse:instrument-list
+UK,LSE,DBOX,DBOX.L,DIGITALBOX PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,DCC,DCC.L,DCC ENERGY PLC,Industrials,lse:instrument-list
+UK,LSE,DCI,DCI.L,DCI ADVISORS LTD,Real Estate,lse:instrument-list
+UK,LSE,DEBS,DEBS.L,BOOHOO GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,DFCH,DFCH.L,DISTRIBUTION FINANCE CAPITAL HOLDINGS PLC,Financials,lse:instrument-list
+UK,LSE,DFI,DFI.L,DFI RETAIL GROUP HOLDINGS LIMITED,Consumer Staples,lse:instrument-list
+UK,LSE,DFIB,DFIB.L,DFI RETAIL GROUP HOLDINGS LIMITED,Consumer Staples,lse:instrument-list
+UK,LSE,DFIJ,DFIJ.L,DFI RETAIL GROUP HOLDINGS LIMITED,Consumer Staples,lse:instrument-list
+UK,LSE,DFS,DFS.L,DFS FURNITURE PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,DGE,DGE.L,DIAGEO PLC,Consumer Staples,lse:instrument-list
+UK,LSE,DIA,DIA.L,DIALIGHT PLC,Industrials,lse:instrument-list
+UK,LSE,DIAL,DIAL.L,DIALES GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,DIS,DIS.L,DISTIL PLC,Consumer Staples,lse:instrument-list
+UK,LSE,DKL,DKL.L,DEKEL AGRI-VISION PLC,Consumer Staples,lse:instrument-list
+UK,LSE,DLN,DLN.L,DERWENT LONDON PLC,Real Estate,lse:instrument-list
+UK,LSE,DNLM,DNLM.L,DUNELM GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,DNM,DNM.L,DIANOMI PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,DOCS,DOCS.L,DR. MARTENS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,DOM,DOM.L,DOMINO'S PIZZA GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,DOTD,DOTD.L,DOTDIGITAL GROUP PLC,Technology,lse:instrument-list
+UK,LSE,DOTL,DOTL.L,DOTLINES GLOBAL LIMITED,Telecommunications,lse:instrument-list
+UK,LSE,DPLM,DPLM.L,DIPLOMA PLC,Industrials,lse:instrument-list
+UK,LSE,DPP,DPP.L,DP POLAND PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,DRX,DRX.L,DRAX GROUP PLC,Utilities,lse:instrument-list
+UK,LSE,DSCV,DSCV.L,DISCOVERIE GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,DSG,DSG.L,DILLISTONE GROUP PLC,Technology,lse:instrument-list
+UK,LSE,DSW,DSW.L,DSW CAPITAL PLC,Financials,lse:instrument-list
+UK,LSE,DUKE,DUKE.L,DUKE CAPITAL LIMITED,Financials,lse:instrument-list
+UK,LSE,DVT,DVT.L,DAVICTUS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,DXRX,DXRX.L,DIACEUTICS PLC,Health Care,lse:instrument-list
+UK,LSE,EAAS,EAAS.L,EENERGY GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,EAH,EAH.L,ECO ANIMAL HEALTH GROUP PLC,Health Care,lse:instrument-list
+UK,LSE,EARN,EARN.L,EARNZ PLC,Industrials,lse:instrument-list
+UK,LSE,EBQ,EBQ.L,EBIQUITY PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,ECEL,ECEL.L,EUROCELL PLC,Industrials,lse:instrument-list
+UK,LSE,ECO,ECO.L,ECO (ATLANTIC) OIL & GAS LTD,Energy,lse:instrument-list
+UK,LSE,ECOB,ECOB.L,ECO BUILDINGS GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,ECOR,ECOR.L,ECORA ROYALTIES PLC,Basic Materials,lse:instrument-list
+UK,LSE,ECR,ECR.L,ECR MINERALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,EDEN,EDEN.L,EDEN RESEARCH PLC,Basic Materials,lse:instrument-list
+UK,LSE,EDV,EDV.L,ENDEAVOUR MINING PLC,Basic Materials,lse:instrument-list
+UK,LSE,EDX,EDX.L,EDX MEDICAL GROUP PLC,Health Care,lse:instrument-list
+UK,LSE,EEE,EEE.L,EMPIRE METALS LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,EGT,EGT.L,EUROPEAN GREEN TRANSITION PLC,Basic Materials,lse:instrument-list
+UK,LSE,EKF,EKF.L,EKF DIAGNOSTICS HOLDINGS PLC,Health Care,lse:instrument-list
+UK,LSE,ELCO,ELCO.L,ELECO PUBLIC LIMITED COMPANY,Technology,lse:instrument-list
+UK,LSE,ELEG,ELEG.L,ELECTRIC GUITAR PLC,Financials,lse:instrument-list
+UK,LSE,ELIX,ELIX.L,ELIXIRR INTERNATIONAL PLC,Industrials,lse:instrument-list
+UK,LSE,ELM,ELM.L,ELEMENTIS PLC,Basic Materials,lse:instrument-list
+UK,LSE,EMAN,EMAN.L,EVERYMAN MEDIA GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,EME,EME.L,EMPYREAN ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,EMG,EMG.L,MAN GROUP PLC,Financials,lse:instrument-list
+UK,LSE,EMH,EMH.L,EUROPEAN METALS HOLDINGS LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,EML,EML.L,EMMERSON PLC,Basic Materials,lse:instrument-list
+UK,LSE,EMR,EMR.L,EMPRESARIA GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,EMVC,EMVC.L,EMV CAPITAL PLC,Health Care,lse:instrument-list
+UK,LSE,ENET,ENET.L,ETHERNITY NETWORKS LTD,Telecommunications,lse:instrument-list
+UK,LSE,ENOG,ENOG.L,ENERGEAN PLC,Energy,lse:instrument-list
+UK,LSE,ENQ,ENQ.L,ENQUEST PLC,Energy,lse:instrument-list
+UK,LSE,ENSI,ENSI.L,ENSILICA PLC,Technology,lse:instrument-list
+UK,LSE,ENT,ENT.L,ENTAIN PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,ENW,ENW.L,ENWELL ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,EOG,EOG.L,EUROPA OIL & GAS (HOLDINGS) PLC,Energy,lse:instrument-list
+UK,LSE,EPP,EPP.L,ENERGYPATHWAYS PLC,Energy,lse:instrument-list
+UK,LSE,ESNT,ESNT.L,ESSENTRA PLC,Industrials,lse:instrument-list
+UK,LSE,ESO,ESO.L,EPE SPECIAL OPPORTUNITIES LIMITED,Financials,lse:instrument-list
+UK,LSE,EST,EST.L,EAST STAR RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,EUA,EUA.L,EURASIA MINING PLC,Basic Materials,lse:instrument-list
+UK,LSE,EVOK,EVOK.L,EVOKE PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,EVPL,EVPL.L,EVERPLAY GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,EVR,EVR.L,EVRAZ PLC,Basic Materials,lse:instrument-list
+UK,LSE,EVST,EVST.L,EVEREST GLOBAL PLC,Consumer Staples,lse:instrument-list
+UK,LSE,EWG,EWG.L,W.A.G PAYMENT SOLUTIONS PLC,Industrials,lse:instrument-list
+UK,LSE,EXPN,EXPN.L,EXPERIAN PLC,Industrials,lse:instrument-list
+UK,LSE,EXR,EXR.L,ENGAGE XR HOLDINGS PLC,Technology,lse:instrument-list
+UK,LSE,EYE,EYE.L,EAGLE EYE SOLUTIONS GROUP PLC,Technology,lse:instrument-list
+UK,LSE,EZJ,EZJ.L,EASYJET PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,FAB,FAB.L,FUSION ANTIBODIES PLC,Health Care,lse:instrument-list
+UK,LSE,FADL,FADL.L,"FADEL PARTNERS, INC.",Technology,lse:instrument-list
+UK,LSE,FAN,FAN.L,VOLUTION GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,FAR,FAR.L,FERRO-ALLOY RESOURCES LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,FARN,FARN.L,FARON PHARMACEUTICALS OY,Health Care,lse:instrument-list
+UK,LSE,FCH,FCH.L,FUNDING CIRCLE HOLDINGS PLC,Financials,lse:instrument-list
+UK,LSE,FCM,FCM.L,FIRST CLASS METALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,FDBK,FDBK.L,FEEDBACK PLC,Health Care,lse:instrument-list
+UK,LSE,FDEV,FDEV.L,FRONTIER DEVELOPMENTS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,FDM,FDM.L,FDM GROUP (HOLDINGS) PLC,Technology,lse:instrument-list
+UK,LSE,FDR,FDR.L,FIRST DEVELOPMENT RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,FEVR,FEVR.L,FEVERTREE DRINKS PLC,Consumer Staples,lse:instrument-list
+UK,LSE,FGP,FGP.L,FIRSTGROUP PLC,Industrials,lse:instrument-list
+UK,LSE,FIH,FIH.L,FIH GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,FIL,FIL.L,FAIRVIEW INTERNATIONAL PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,FIN,FIN.L,FINSETA PLC,Industrials,lse:instrument-list
+UK,LSE,FIPP,FIPP.L,FRONTIER IP GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,FKE,FKE.L,FISKE PLC,Financials,lse:instrument-list
+UK,LSE,FLK,FLK.L,FLETCHER KING PLC,Real Estate,lse:instrument-list
+UK,LSE,FLO,FLO.L,FLOWTECH FLUIDPOWER PLC,Industrials,lse:instrument-list
+UK,LSE,FMET,FMET.L,FULCRUM METALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,FNTL,FNTL.L,FINTEL PLC,Industrials,lse:instrument-list
+UK,LSE,FNX,FNX.L,FONIX PLC,Industrials,lse:instrument-list
+UK,LSE,FORF,FORF.L,FORTIS FRONTIER PLC,Financials,lse:instrument-list
+UK,LSE,FORG,FORG.L,FORGENT PLC,Energy,lse:instrument-list
+UK,LSE,FORT,FORT.L,FORTERRA PLC,Industrials,lse:instrument-list
+UK,LSE,FOUR,FOUR.L,4IMPRINT GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,FOX,FOX.L,FOCUS XPLORE PLC,Basic Materials,lse:instrument-list
+UK,LSE,FOXT,FOXT.L,FOXTONS GROUP PLC,Real Estate,lse:instrument-list
+UK,LSE,FPO,FPO.L,FIRST PROPERTY GROUP PLC,Financials,lse:instrument-list
+UK,LSE,FRAN,FRAN.L,FRANCHISE BRANDS PLC,Industrials,lse:instrument-list
+UK,LSE,FRAS,FRAS.L,FRASERS GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,FRES,FRES.L,FRESNILLO PLC,Basic Materials,lse:instrument-list
+UK,LSE,FRG,FRG.L,FIRERING STRATEGIC MINERALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,FRP,FRP.L,FRP ADVISORY GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,FSG,FSG.L,FORESIGHT GROUP HOLDINGS LIMITED,Financials,lse:instrument-list
+UK,LSE,FSJ,FSJ.L,FISHER (JAMES) & SONS PLC,Industrials,lse:instrument-list
+UK,LSE,FSTA,FSTA.L,"FULLER, SMITH & TURNER PLC",Consumer Discretionary,lse:instrument-list
+UK,LSE,FTC,FTC.L,FILTRONIC PLC,Telecommunications,lse:instrument-list
+UK,LSE,FUM,FUM.L,FUTURA MEDICAL PLC,Health Care,lse:instrument-list
+UK,LSE,FUTR,FUTR.L,FUTURE PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,FVA,FVA.L,FEVARA PLC,Consumer Staples,lse:instrument-list
+UK,LSE,FXPO,FXPO.L,FERREXPO PLC,Basic Materials,lse:instrument-list
+UK,LSE,G4M,G4M.L,GEAR4MUSIC (HOLDINGS) PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,GAL,GAL.L,GALANTAS GOLD CORPORATION,Basic Materials,lse:instrument-list
+UK,LSE,GAMA,GAMA.L,GAMMA COMMUNICATIONS PLC,Telecommunications,lse:instrument-list
+UK,LSE,GANA,GANA.L,GANA MEDIA GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,GATC,GATC.L,GATTACA PLC,Industrials,lse:instrument-list
+UK,LSE,GAW,GAW.L,GAMES WORKSHOP GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,GBG,GBG.L,GB GROUP PLC,Technology,lse:instrument-list
+UK,LSE,GCM,GCM.L,GCM RESOURCES PLC,Energy,lse:instrument-list
+UK,LSE,GDP,GDP.L,GOLDPLAT PLC,Basic Materials,lse:instrument-list
+UK,LSE,GDR,GDR.L,GENEDRIVE PLC,Health Care,lse:instrument-list
+UK,LSE,GDWN,GDWN.L,GOODWIN PLC,Industrials,lse:instrument-list
+UK,LSE,GELN,GELN.L,GELION PLC,Industrials,lse:instrument-list
+UK,LSE,GEM,GEM.L,GEMFIELDS GROUP LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,GEMD,GEMD.L,GEM DIAMONDS LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,GEMR,GEMR.L,GEM RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,GEN,GEN.L,GENUIT GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,GENF,GENF.L,GENFLOW BIOSCIENCES PLC,Health Care,lse:instrument-list
+UK,LSE,GENI,GENI.L,GENINCODE PLC,Health Care,lse:instrument-list
+UK,LSE,GENL,GENL.L,GENEL ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,GEO,GEO.L,GEO EXPLORATION LIMITED,Energy,lse:instrument-list
+UK,LSE,GETB,GETB.L,GETBUSY PLC,Technology,lse:instrument-list
+UK,LSE,GEX,GEX.L,GEORGINA ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,GFIN,GFIN.L,GFINITY PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,GFM,GFM.L,GRIFFIN MINING LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,GFRD,GFRD.L,GALLIFORD TRY HOLDINGS PLC,Industrials,lse:instrument-list
+UK,LSE,GGP,GGP.L,GREATLAND RESOURCES LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,GHH,GHH.L,GOOCH & HOUSEGO PLC,Technology,lse:instrument-list
+UK,LSE,GKP,GKP.L,GULF KEYSTONE PETROLEUM LTD,Energy,lse:instrument-list
+UK,LSE,GLE,GLE.L,MJ GLEESON PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,GLEN,GLEN.L,GLENCORE PLC,Basic Materials,lse:instrument-list
+UK,LSE,GLR,GLR.L,GALILEO RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,GMET,GMET.L,GUARDIAN METAL RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,GMR,GMR.L,GAMING REALMS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,GMS,GMS.L,GULF MARINE SERVICES PLC,Energy,lse:instrument-list
+UK,LSE,GNC,GNC.L,GREENCORE GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,GNIP,GNIP.L,GENIP PLC,Technology,lse:instrument-list
+UK,LSE,GNS,GNS.L,GENUS PLC,Health Care,lse:instrument-list
+UK,LSE,GPE,GPE.L,GREAT PORTLAND ESTATES PLC,Real Estate,lse:instrument-list
+UK,LSE,GR1T,GR1T.L,GRIT REAL ESTATE INCOME GROUP LIMITED,Real Estate,lse:instrument-list
+UK,LSE,GRG,GRG.L,GREGGS PLC,Consumer Staples,lse:instrument-list
+UK,LSE,GRI,GRI.L,GRAINGER PLC,Real Estate,lse:instrument-list
+UK,LSE,GRL,GRL.L,GOLDSTONE RESOURCES LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,GROC,GROC.L,GREENROC STRATEGIC MATERIALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,GRP,GRP.L,GREENCOAT RENEWABLES PLC,Utilities,lse:instrument-list
+UK,LSE,GSCU,GSCU.L,GREAT SOUTHERN COPPER PLC,Basic Materials,lse:instrument-list
+UK,LSE,GSK,GSK.L,GSK PLC,Health Care,lse:instrument-list
+UK,LSE,GST,GST.L,GSTECHNOLOGIES LTD,Industrials,lse:instrument-list
+UK,LSE,GTC,GTC.L,GETECH GROUP PLC,Energy,lse:instrument-list
+UK,LSE,GTLY,GTLY.L,GATELEY (HOLDINGS) PLC,Industrials,lse:instrument-list
+UK,LSE,GUN,GUN.L,GUNSYND PLC,Health Care,lse:instrument-list
+UK,LSE,GVMH,GVMH.L,GRAND VISION MEDIA HOLDINGS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,GWI,GWI.L,GLOBALWORTH REAL ESTATE INVESTMENTS LIMITED,Real Estate,lse:instrument-list
+UK,LSE,GWMO,GWMO.L,GREAT WESTERN MINING CORPORATION PLC,Basic Materials,lse:instrument-list
+UK,LSE,GYM,GYM.L,THE GYM GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,HALO,HALO.L,HALO MINERALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,HAMA,HAMA.L,HAMAK STRATEGY LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,HAS,HAS.L,HAYS PLC,Industrials,lse:instrument-list
+UK,LSE,HAYD,HAYD.L,HAYDALE PLC,Basic Materials,lse:instrument-list
+UK,LSE,HBR,HBR.L,HARBOUR ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,HCM,HCM.L,HUTCHMED (CHINA) LIMITED,Health Care,lse:instrument-list
+UK,LSE,HDD,HDD.L,HARDIDE PLC,Basic Materials,lse:instrument-list
+UK,LSE,HE1,HE1.L,HELIUM ONE GLOBAL LTD,Energy,lse:instrument-list
+UK,LSE,HEAD,HEAD.L,HEADLAM GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,HELD,HELD.L,HELLENIC DYNAMICS PLC,Health Care,lse:instrument-list
+UK,LSE,HEMO,HEMO.L,HEMOGENYX PHARMACEUTICALS PLC,Health Care,lse:instrument-list
+UK,LSE,HERC,HERC.L,HERCULES PLC,Industrials,lse:instrument-list
+UK,LSE,HEX,HEX.L,HELIX EXPLORATION PLC,Energy,lse:instrument-list
+UK,LSE,HFD,HFD.L,HALFORDS GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,HFG,HFG.L,HILTON FOOD GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,HID,HID.L,HIDONG ESTATE PLC,Consumer Staples,lse:instrument-list
+UK,LSE,HIK,HIK.L,HIKMA PHARMACEUTICALS PLC,Health Care,lse:instrument-list
+UK,LSE,HILS,HILS.L,HILL & SMITH PLC,Basic Materials,lse:instrument-list
+UK,LSE,HKLB,HKLB.L,HONG KONG LAND HOLDINGS LD,Real Estate,lse:instrument-list
+UK,LSE,HKLD,HKLD.L,HONG KONG LAND HOLDINGS LD,Real Estate,lse:instrument-list
+UK,LSE,HKLJ,HKLJ.L,HONG KONG LAND HOLDINGS LD,Real Estate,lse:instrument-list
+UK,LSE,HLCL,HLCL.L,HELICAL PLC,Real Estate,lse:instrument-list
+UK,LSE,HLMA,HLMA.L,HALMA PLC,Industrials,lse:instrument-list
+UK,LSE,HLN,HLN.L,HALEON PLC,Health Care,lse:instrument-list
+UK,LSE,HMI,HMI.L,HARVEST MINERALS LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,HMSO,HMSO.L,HAMMERSON PLC,Real Estate,lse:instrument-list
+UK,LSE,HOC,HOC.L,HOCHSCHILD MINING PLC,Basic Materials,lse:instrument-list
+UK,LSE,HPOW,HPOW.L,H-POWER PLC,Energy,lse:instrument-list
+UK,LSE,HREE,HREE.L,HARENA RARE EARTHS PLC,Basic Materials,lse:instrument-list
+UK,LSE,HSBA,HSBA.L,HSBC HOLDINGS PLC,Financials,lse:instrument-list
+UK,LSE,HSD,HSD.L,HANSARD GLOBAL PLC,Financials,lse:instrument-list
+UK,LSE,HSM,HSM.L,HEATH (SAMUEL) & SONS PLC,Industrials,lse:instrument-list
+UK,LSE,HSP,HSP.L,HARGREAVES SERVICES PLC,Industrials,lse:instrument-list
+UK,LSE,HSW,HSW.L,HOSTELWORLD GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,HSX,HSX.L,HISCOX LTD,Financials,lse:instrument-list
+UK,LSE,HTG,HTG.L,HUNTING PLC,Energy,lse:instrument-list
+UK,LSE,HTWS,HTWS.L,HELIOS TOWERS PLC,Telecommunications,lse:instrument-list
+UK,LSE,HUD,HUD.L,HUDDLED GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,HUI,HUI.L,HYDROGEN UTOPIA INTERNATIONAL PLC,Energy,lse:instrument-list
+UK,LSE,HUW,HUW.L,HELIOS UNDERWRITING PLC,Financials,lse:instrument-list
+UK,LSE,HVO,HVO.L,HVIVO PLC,Health Care,lse:instrument-list
+UK,LSE,HVT,HVT.L,HEAVITREE BREWERY PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,HVTA,HVTA.L,HEAVITREE BREWERY PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,HWDN,HWDN.L,HOWDEN JOINERY GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,HWG,HWG.L,HARWORTH GROUP PLC,Real Estate,lse:instrument-list
+UK,LSE,HWGA,HWGA.L,HARWORTH GROUP PLC,Real Estate,lse:instrument-list
+UK,LSE,IAG,IAG.L,INTERNATIONAL CONSOLIDATED AIRLINES GROUP S.A.,Consumer Discretionary,lse:instrument-list
+UK,LSE,IBAI,IBAI.L,IMAGING BIOMETRICS LIMITED,Health Care,lse:instrument-list
+UK,LSE,IBST,IBST.L,IBSTOCK PLC,Industrials,lse:instrument-list
+UK,LSE,ICFG,ICFG.L,ICFG LIMITED,Financials,lse:instrument-list
+UK,LSE,ICG,ICG.L,ICG PLC,Financials,lse:instrument-list
+UK,LSE,ICGC,ICGC.L,IRISH CONTINENTAL GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,IDHC,IDHC.L,INTEGRATED DIAGNOSTICS HOLDINGS PLC,Health Care,lse:instrument-list
+UK,LSE,IES,IES.L,INVINITY ENERGY SYSTEMS PLC,Industrials,lse:instrument-list
+UK,LSE,IFRX,IFRX.L,IFOREX FINANCIAL TRADING HOLDINGS LTD.,Financials,lse:instrument-list
+UK,LSE,IGE,IGE.L,IMAGE SCAN HOLDINGS PLC,Technology,lse:instrument-list
+UK,LSE,IGG,IGG.L,IG GROUP HOLDINGS PLC,Financials,lse:instrument-list
+UK,LSE,IGP,IGP.L,INTERCEDE GROUP PLC,Technology,lse:instrument-list
+UK,LSE,IGR,IGR.L,IG DESIGN GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,IHC,IHC.L,INSPIRATION HEALTHCARE GROUP PLC,Health Care,lse:instrument-list
+UK,LSE,IHG,IHG.L,INTERCONTINENTAL HOTELS GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,IHP,IHP.L,INTEGRAFIN HOLDINGS PLC,Financials,lse:instrument-list
+UK,LSE,IKA,IKA.L,ILIKA PLC,Industrials,lse:instrument-list
+UK,LSE,IMB,IMB.L,IMPERIAL BRANDS PLC,Consumer Staples,lse:instrument-list
+UK,LSE,IMC,IMC.L,IMC EXPLORATION GROUP PLC,Basic Materials,lse:instrument-list
+UK,LSE,IMI,IMI.L,IMI PLC,Industrials,lse:instrument-list
+UK,LSE,IMM,IMM.L,IMMUPHARMA PLC,Health Care,lse:instrument-list
+UK,LSE,INAC,INAC.L,INVESTACC GROUP LIMITED,Financials,lse:instrument-list
+UK,LSE,INCH,INCH.L,INCHCAPE PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,INF,INF.L,INFORMA PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,ING,ING.L,INGENTA PLC,Technology,lse:instrument-list
+UK,LSE,INSG,INSG.L,INSIG AI PLC,Technology,lse:instrument-list
+UK,LSE,INVP,INVP.L,INVESTEC PLC,Financials,lse:instrument-list
+UK,LSE,IOF,IOF.L,IOFINA PLC,Basic Materials,lse:instrument-list
+UK,LSE,IOM,IOM.L,IOMART GROUP PLC,Technology,lse:instrument-list
+UK,LSE,IPO,IPO.L,IP GROUP PLC,Financials,lse:instrument-list
+UK,LSE,IPX,IPX.L,IMPAX ASSET MANAGEMENT GROUP PLC,Financials,lse:instrument-list
+UK,LSE,IQE,IQE.L,IQE PLC,Technology,lse:instrument-list
+UK,LSE,IRON,IRON.L,IRONVELD PLC,Basic Materials,lse:instrument-list
+UK,LSE,ITH,ITH.L,ITHACA ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,ITIM,ITIM.L,ITIM GROUP PLC,Technology,lse:instrument-list
+UK,LSE,ITM,ITM.L,ITM POWER PLC,Energy,lse:instrument-list
+UK,LSE,ITRK,ITRK.L,INTERTEK GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,ITV,ITV.L,ITV PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,ITX,ITX.L,ITACONIX PLC,Industrials,lse:instrument-list
+UK,LSE,IWG,IWG.L,INTERNATIONAL WORKPLACE GROUP PLC,Real Estate,lse:instrument-list
+UK,LSE,IXI,IXI.L,IXICO PLC,Health Care,lse:instrument-list
+UK,LSE,JAN,JAN.L,JANGADA MINES PLC,Basic Materials,lse:instrument-list
+UK,LSE,JAR,JAR.L,JARDINE MATHESON HOLDINGS LD,Industrials,lse:instrument-list
+UK,LSE,JARB,JARB.L,JARDINE MATHESON HOLDINGS LD,Industrials,lse:instrument-list
+UK,LSE,JARJ,JARJ.L,JARDINE MATHESON HOLDINGS LD,Industrials,lse:instrument-list
+UK,LSE,JD.,JD.L,JD SPORTS FASHION PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,JDG,JDG.L,JUDGES SCIENTIFIC PLC,Industrials,lse:instrument-list
+UK,LSE,JDW,JDW.L,WETHERSPOON ( J.D.) PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,JEL,JEL.L,JERSEY ELECTRICITY PLC,Utilities,lse:instrument-list
+UK,LSE,JET2,JET2.L,JET2 PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,JHD,JHD.L,JAMES HALSTEAD PLC,Industrials,lse:instrument-list
+UK,LSE,JIM,JIM.L,JARVIS SECURITIES PLC,Financials,lse:instrument-list
+UK,LSE,JLP,JLP.L,JUBILEE METALS GROUP PLC,Basic Materials,lse:instrument-list
+UK,LSE,JMAT,JMAT.L,JOHNSON MATTHEY PLC,Basic Materials,lse:instrument-list
+UK,LSE,JNEO,JNEO.L,JOURNEO PLC,Industrials,lse:instrument-list
+UK,LSE,JOG,JOG.L,JERSEY OIL AND GAS PLC,Energy,lse:instrument-list
+UK,LSE,JSE,JSE.L,JADESTONE ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,JSG,JSG.L,JOHNSON SERVICE GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,JUP,JUP.L,JUPITER FUND MANAGEMENT PLC,Financials,lse:instrument-list
+UK,LSE,KAV,KAV.L,KAVANGO RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,KDNC,KDNC.L,CADENCE MINERALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,KDR,KDR.L,KARELIAN DIAMOND RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,KEFI,KEFI.L,KEFI GOLD AND COPPER PLC,Basic Materials,lse:instrument-list
+UK,LSE,KEN,KEN.L,KENDRICK RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,KETL,KETL.L,STRIX GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,KEYS,KEYS.L,KEYSTONE LAW GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,KGF,KGF.L,KINGFISHER PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,KGH,KGH.L,KNIGHTS GROUP HOLDINGS PLC,Industrials,lse:instrument-list
+UK,LSE,KIE,KIE.L,KIER GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,KIST,KIST.L,KISTOS HOLDINGS PLC,Energy,lse:instrument-list
+UK,LSE,KLR,KLR.L,KELLER GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,KLSO,KLSO.L,KELSO GROUP HOLDINGS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,KMK,KMK.L,KROMEK GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,KMR,KMR.L,KENMARE RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,KNB,KNB.L,KANABO GROUP PLC,Health Care,lse:instrument-list
+UK,LSE,KNOS,KNOS.L,KAINOS GROUP PLC,Technology,lse:instrument-list
+UK,LSE,KOD,KOD.L,KODAL MINERALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,KOO,KOO.L,KOOTH PLC,Technology,lse:instrument-list
+UK,LSE,KP2,KP2.L,KORE POTASH PLC,Basic Materials,lse:instrument-list
+UK,LSE,KR1,KR1.L,KR1 PLC,Financials,lse:instrument-list
+UK,LSE,KRM,KRM.L,KRM22 PLC,Technology,lse:instrument-list
+UK,LSE,KRPZ,KRPZ.L,KROPZ PLC,Basic Materials,lse:instrument-list
+UK,LSE,KRS,KRS.L,KERAS RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,KYGA,KYGA.L,KERRY GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,KZG,KZG.L,KAZERA GLOBAL PLC,Basic Materials,lse:instrument-list
+UK,LSE,LAND,LAND.L,LAND SECURITIES GROUP PLC,Real Estate,lse:instrument-list
+UK,LSE,LBG,LBG.L,LBG MEDIA PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,LDG,LDG.L,LOGISTICS DEVELOPMENT GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,LEND,LEND.L,SANCUS LENDING GROUP LIMITED,Financials,lse:instrument-list
+UK,LSE,LEX,LEX.L,LEXINGTON GOLD LTD,Basic Materials,lse:instrument-list
+UK,LSE,LGEN,LGEN.L,LEGAL & GENERAL GROUP PLC,Financials,lse:instrument-list
+UK,LSE,LIKE,LIKE.L,LIKEWISE GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,LINV,LINV.L,LENDINVEST PLC,Financials,lse:instrument-list
+UK,LSE,LIO,LIO.L,LIONTRUST ASSET MANAGEMENT PLC,Financials,lse:instrument-list
+UK,LSE,LIT,LIT.L,LITIGATION CAPITAL MANAGEMENT LIMITED,Financials,lse:instrument-list
+UK,LSE,LIV,LIV.L,LIVERMORE INVESTMENTS GROUP LIMITED,Financials,lse:instrument-list
+UK,LSE,LLOY,LLOY.L,LLOYDS BANKING GROUP PLC,Financials,lse:instrument-list
+UK,LSE,LMP,LMP.L,LONDONMETRIC PROPERTY PLC,Real Estate,lse:instrument-list
+UK,LSE,LND,LND.L,LANDORE RESOURCES LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,LORD,LORD.L,LORDS GROUP TRADING PLC,Industrials,lse:instrument-list
+UK,LSE,LPA,LPA.L,LPA GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,LRE,LRE.L,LANCASHIRE HOLDINGS LIMITED,Financials,lse:instrument-list
+UK,LSE,LRES,LRES.L,LANSDOWNE RESOURCES PLC,Energy,lse:instrument-list
+UK,LSE,LSC,LSC.L,LONDON SECURITY PLC,Industrials,lse:instrument-list
+UK,LSE,LSEG,LSEG.L,LONDON STOCK EXCHANGE GROUP PLC,Financials,lse:instrument-list
+UK,LSE,LSL,LSL.L,LSL PROPERTY SERVICES PLC,Real Estate,lse:instrument-list
+UK,LSE,LST,LST.L,LIGHT SCIENCE TECHNOLOGIES HOLDINGS PLC,Industrials,lse:instrument-list
+UK,LSE,LTHM,LTHM.L,LATHAM (JAMES) PLC,Industrials,lse:instrument-list
+UK,LSE,LUCE,LUCE.L,LUCECO PLC,Industrials,lse:instrument-list
+UK,LSE,MAB,MAB.L,MITCHELLS & BUTLERS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,MAB1,MAB1.L,MORTGAGE ADVICE BUREAU (HOLDINGS) PLC,Financials,lse:instrument-list
+UK,LSE,MAC,MAC.L,MARECHALE CAPITAL PLC,Financials,lse:instrument-list
+UK,LSE,MACF,MACF.L,MACFARLANE GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,MAFL,MAFL.L,MINERAL & FINANCIAL INVESTMENTS LIMITED,Financials,lse:instrument-list
+UK,LSE,MAI,MAI.L,MAINTEL HOLDINGS PLC,Telecommunications,lse:instrument-list
+UK,LSE,MANO,MANO.L,MANOLETE PARTNERS PLC,Financials,lse:instrument-list
+UK,LSE,MARS,MARS.L,MARSTON'S PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,MATD,MATD.L,PETRO MATAD LIMITED,Energy,lse:instrument-list
+UK,LSE,MBH,MBH.L,MICHELMERSH BRICK HOLDINGS PLC,Industrials,lse:instrument-list
+UK,LSE,MBO,MBO.L,MOBILITYONE LIMITED,Industrials,lse:instrument-list
+UK,LSE,MCB,MCB.L,MCBRIDE PLC,Consumer Staples,lse:instrument-list
+UK,LSE,MCG,MCG.L,MOBICO GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,MCON,MCON.L,MINCON GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,MDH,MDH.L,MENDELL HELIUM PLC,Basic Materials,lse:instrument-list
+UK,LSE,MDZ,MDZ.L,MEDIAZEST PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,MEGP,MEGP.L,ME GROUP INTERNATIONAL PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,MER,MER.L,MEARS GROUP PLC,Real Estate,lse:instrument-list
+UK,LSE,MERC,MERC.L,MERCIA ASSET MANAGEMENT PLC,Financials,lse:instrument-list
+UK,LSE,MET,MET.L,METIR PLC,Industrials,lse:instrument-list
+UK,LSE,MET1,MET1.L,METALS ONE PLC,Basic Materials,lse:instrument-list
+UK,LSE,MEX,MEX.L,TORTILLA MEXICAN GRILL PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,MFAI,MFAI.L,MINDFLAIR PLC,Financials,lse:instrument-list
+UK,LSE,MFX,MFX.L,MANX FINANCIAL GROUP PLC,Financials,lse:instrument-list
+UK,LSE,MGAM,MGAM.L,MORGAN ADVANCED MATERIALS PLC,Industrials,lse:instrument-list
+UK,LSE,MGNS,MGNS.L,MORGAN SINDALL GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,MHA,MHA.L,MHA PLC,Industrials,lse:instrument-list
+UK,LSE,MICC,MICC.L,THE MAGNUM ICE CREAM COMPANY N.V.,Consumer Staples,lse:instrument-list
+UK,LSE,MIDW,MIDW.L,MIDWICH GROUP PLC,Technology,lse:instrument-list
+UK,LSE,MILA,MILA.L,MILA RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,MIND,MIND.L,MIND GYM PLC,Industrials,lse:instrument-list
+UK,LSE,MIRI,MIRI.L,MIRRIAD ADVERTISING PLC,Financials,lse:instrument-list
+UK,LSE,MKA,MKA.L,MKANGO MAGNETIC MATERIALS LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,MKS,MKS.L,MARKS AND SPENCER GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,MLHL,MLHL.L,MALIBU LIFE HOLDINGS LIMITED,Financials,lse:instrument-list
+UK,LSE,MLVN,MLVN.L,MALVERN INTERNATIONAL PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,MNDI,MNDI.L,MONDI PLC,Industrials,lse:instrument-list
+UK,LSE,MNG,MNG.L,M&G PLC,Financials,lse:instrument-list
+UK,LSE,MNO,MNO.L,MERIDIAN MINING PLC,Basic Materials,lse:instrument-list
+UK,LSE,MNTL,MNTL.L,TECHNOLOGY MINERALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,MOH,MOH.L,MOH NIPPON PLC,Real Estate,lse:instrument-list
+UK,LSE,MONY,MONY.L,MONY GROUP PLC,Technology,lse:instrument-list
+UK,LSE,MOON,MOON.L,MOONPIG GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,MOTR,MOTR.L,MOTORPOINT GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,MPAC,MPAC.L,MPAC GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,MPAL,MPAL.L,MEDPAL AI PLC,Health Care,lse:instrument-list
+UK,LSE,MPE,MPE.L,M.P. EVANS GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,MPL,MPL.L,MERCANTILE PORTS & LOGISTICS LIMITED,Industrials,lse:instrument-list
+UK,LSE,MRK,MRK.L,MARKS ELECTRICAL GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,MRO,MRO.L,MELROSE INDUSTRIES PLC,Industrials,lse:instrument-list
+UK,LSE,MSI,MSI.L,MS INTERNATIONAL PLC,Industrials,lse:instrument-list
+UK,LSE,MSLH,MSLH.L,MARSHALLS PLC,Industrials,lse:instrument-list
+UK,LSE,MTC,MTC.L,MOTHERCARE PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,MTEC,MTEC.L,MADE TECH GROUP PLC,Technology,lse:instrument-list
+UK,LSE,MTL,MTL.L,METALS EXPLORATION PLC,Basic Materials,lse:instrument-list
+UK,LSE,MTLN,MTLN.L,METLEN ENERGY & METALS PLC,Utilities,lse:instrument-list
+UK,LSE,MTO,MTO.L,MITIE GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,MTRO,MTRO.L,METRO BANK HOLDINGS PLC,Financials,lse:instrument-list
+UK,LSE,MTVW,MTVW.L,MOUNTVIEW ESTATES PLC,Real Estate,lse:instrument-list
+UK,LSE,MUL,MUL.L,MULBERRY GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,MWE,MWE.L,MTI WIRELESS EDGE LTD.,Telecommunications,lse:instrument-list
+UK,LSE,MYX,MYX.L,MYCELX TECHNOLOGIES CORPORATION,Industrials,lse:instrument-list
+UK,LSE,N91,N91.L,NINETY ONE PLC,Financials,lse:instrument-list
+UK,LSE,NAH,NAH.L,NAHL GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,NANO,NANO.L,NANOCO GROUP PLC,Technology,lse:instrument-list
+UK,LSE,NAR,NAR.L,NORTHAMBER PLC,Technology,lse:instrument-list
+UK,LSE,NARF,NARF.L,NARF INDUSTRIES PLC,Technology,lse:instrument-list
+UK,LSE,NBB,NBB.L,NORMAN BROADBENT PLC,Industrials,lse:instrument-list
+UK,LSE,NCC,NCC.L,NCC GROUP PLC,Technology,lse:instrument-list
+UK,LSE,NCYT,NCYT.L,NOVACYT S.A.,Health Care,lse:instrument-list
+UK,LSE,NEO,NEO.L,NEO ENERGY METALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,NET,NET.L,NETCALL PLC,Technology,lse:instrument-list
+UK,LSE,NEWS,NEWS.L,PATHOS COMMUNICATIONS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,NEXS,NEXS.L,NEXUS INFRASTRUCTURE PLC,Industrials,lse:instrument-list
+UK,LSE,NFG,NFG.L,NEXT 15 GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,NFM,NFM.L,NEW FRONTIER MINERALS LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,NFX,NFX.L,NUFORMIX PLC,Health Care,lse:instrument-list
+UK,LSE,NG.,NG.L,NATIONAL GRID PLC,Utilities,lse:instrument-list
+UK,LSE,NICL,NICL.L,NICHOLS PLC,Consumer Staples,lse:instrument-list
+UK,LSE,NIOX,NIOX.L,NIOX GROUP PLC,Health Care,lse:instrument-list
+UK,LSE,NOG,NOG.L,NOSTRUM OIL & GAS PLC,Energy,lse:instrument-list
+UK,LSE,NTBR,NTBR.L,NORTHERN BEAR PLC,Industrials,lse:instrument-list
+UK,LSE,NTVO,NTVO.L,NATIVO RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,NWF,NWF.L,NWF GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,NWG,NWG.L,NATWEST GROUP PLC,Financials,lse:instrument-list
+UK,LSE,NWT,NWT.L,NEWMARK SECURITY PLC,Industrials,lse:instrument-list
+UK,LSE,NXQ,NXQ.L,NEXTEQ PLC,Technology,lse:instrument-list
+UK,LSE,NXR,NXR.L,NORCROS PLC,Industrials,lse:instrument-list
+UK,LSE,NXT,NXT.L,NEXT PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,OBD,OBD.L,OXFORD BIODYNAMICS PLC,Health Care,lse:instrument-list
+UK,LSE,OBI,OBI.L,ONDINE BIOMEDICAL INC.,Health Care,lse:instrument-list
+UK,LSE,OCDO,OCDO.L,OCADO GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,OGN,OGN.L,ORIGIN ENTERPRISES PLC,Consumer Staples,lse:instrument-list
+UK,LSE,OHGR,OHGR.L,ONE HEALTH GROUP PLC,Health Care,lse:instrument-list
+UK,LSE,OMG,OMG.L,OXFORD METRICS PLC,Technology,lse:instrument-list
+UK,LSE,OMI,OMI.L,OROSUR MINING INC,Basic Materials,lse:instrument-list
+UK,LSE,OMIP,OMIP.L,ONE MEDIA IP GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,ONDO,ONDO.L,ONDO INSURTECH PLC,Industrials,lse:instrument-list
+UK,LSE,ONT,ONT.L,OXFORD NANOPORE TECHNOLOGIES PLC,Health Care,lse:instrument-list
+UK,LSE,OPT,OPT.L,OPTIMA HEALTH PLC,Health Care,lse:instrument-list
+UK,LSE,OPTI,OPTI.L,OPTIBIOTIX HEALTH PLC,Health Care,lse:instrument-list
+UK,LSE,ORCA,ORCA.L,ORCADIAN ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,ORCH,ORCH.L,ORCHARD FUNDING GROUP PLC,Financials,lse:instrument-list
+UK,LSE,ORCP,ORCP.L,ORACLE POWER PLC,Energy,lse:instrument-list
+UK,LSE,ORNT,ORNT.L,ORIENT TELECOMS PLC,Telecommunications,lse:instrument-list
+UK,LSE,ORR,ORR.L,ORIOLE RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,OSB,OSB.L,OSB GROUP PLC,Financials,lse:instrument-list
+UK,LSE,OTB,OTB.L,ON THE BEACH GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,OXB,OXB.L,OXFORD BIOMEDICA PLC,Health Care,lse:instrument-list
+UK,LSE,OXIG,OXIG.L,OXFORD INSTRUMENTS PLC,Industrials,lse:instrument-list
+UK,LSE,PACS,PACS.L,PACSCO LIMITED,Financials,lse:instrument-list
+UK,LSE,PAF,PAF.L,PAN AFRICAN RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,PAG,PAG.L,PARAGON BANKING GROUP PLC,Financials,lse:instrument-list
+UK,LSE,PAGE,PAGE.L,MICHAEL PAGE PLC,Industrials,lse:instrument-list
+UK,LSE,PALM,PALM.L,PANTHER METALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,PAM,PAM.L,POTTER & MOORE PLC,Consumer Staples,lse:instrument-list
+UK,LSE,PANR,PANR.L,PANTHEON RESOURCES PLC,Energy,lse:instrument-list
+UK,LSE,PAT,PAT.L,PANTHERA RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,PAY,PAY.L,PAYPOINT PLC,Industrials,lse:instrument-list
+UK,LSE,PBEE,PBEE.L,PENSIONBEE GROUP PLC,Financials,lse:instrument-list
+UK,LSE,PCA,PCA.L,PALACE CAPITAL PLC,Real Estate,lse:instrument-list
+UK,LSE,PCH,PCH.L,PACIFIC GLOBAL HOLDINGS PLC,Financials,lse:instrument-list
+UK,LSE,PCIP,PCIP.L,PCI-PAL PLC,Technology,lse:instrument-list
+UK,LSE,PDL,PDL.L,PETRA DIAMONDS LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,PEB,PEB.L,PEBBLE BEACH SYSTEMS GROUP PLC,Technology,lse:instrument-list
+UK,LSE,PEBB,PEBB.L,THE PEBBLE GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,PEEL,PEEL.L,PEEL HUNT LIMITED,Financials,lse:instrument-list
+UK,LSE,PEG,PEG.L,PETARDS GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,PEN,PEN.L,PENNANT INTERNATIONAL GROUP PLC,Technology,lse:instrument-list
+UK,LSE,PET,PET.L,PETREL RESOURCES PLC,Energy,lse:instrument-list
+UK,LSE,PETS,PETS.L,PETS AT HOME GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,PFD,PFD.L,PREMIER FOODS PLC,Consumer Staples,lse:instrument-list
+UK,LSE,PGH,PGH.L,PERSONAL GROUP HOLDINGS PLC,Financials,lse:instrument-list
+UK,LSE,PHAR,PHAR.L,PHAROS ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,PHE,PHE.L,POWERHOUSE ENERGY GROUP PLC,Energy,lse:instrument-list
+UK,LSE,PHP,PHP.L,PRIMARY HEALTH PROPERTIES PLC,Real Estate,lse:instrument-list
+UK,LSE,PHSC,PHSC.L,PHSC PLC,Industrials,lse:instrument-list
+UK,LSE,PINE,PINE.L,PINEWOOD TECHNOLOGIES GROUP PLC,Technology,lse:instrument-list
+UK,LSE,PIP,PIP.L,PIPEHAWK PLC,Technology,lse:instrument-list
+UK,LSE,PLAZ,PLAZ.L,PLAZA CENTERS N.V.,Real Estate,lse:instrument-list
+UK,LSE,PLSR,PLSR.L,PULSAR HELIUM INC.,Energy,lse:instrument-list
+UK,LSE,PLUS,PLUS.L,PLUS500 LTD,Financials,lse:instrument-list
+UK,LSE,PMG,PMG.L,PARKMEAD GROUP (THE) PLC,Energy,lse:instrument-list
+UK,LSE,PMI,PMI.L,PREMIER MITON GROUP PLC,Financials,lse:instrument-list
+UK,LSE,PMP,PMP.L,PORTMEIRION GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,PNN,PNN.L,PENNON GROUP PLC,Utilities,lse:instrument-list
+UK,LSE,PNS,PNS.L,PANTHER SECURITIES PLC,Real Estate,lse:instrument-list
+UK,LSE,POLB,POLB.L,POOLBEG PHARMA PLC,Health Care,lse:instrument-list
+UK,LSE,POLN,POLN.L,POLLEN STREET GROUP LIMITED,Financials,lse:instrument-list
+UK,LSE,POLR,POLR.L,POLAR CAPITAL HOLDINGS PLC,Financials,lse:instrument-list
+UK,LSE,POS,POS.L,PLEXUS HOLDINGS PLC,Energy,lse:instrument-list
+UK,LSE,POW,POW.L,POWER METAL RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,PPH,PPH.L,PPHE HOTEL GROUP LIMITED,Consumer Discretionary,lse:instrument-list
+UK,LSE,PPHC,PPHC.L,"PUBLIC POLICY HOLDING COMPANY, INC.",Industrials,lse:instrument-list
+UK,LSE,PPP,PPP.L,PENNPETRO ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,PR1,PR1.L,PRI0R1TY INTELLIGENCE GROUP PLC,Technology,lse:instrument-list
+UK,LSE,PRD,PRD.L,PREDATOR OIL & GAS HOLDINGS PLC,Energy,lse:instrument-list
+UK,LSE,PRE,PRE.L,PENSANA PLC,Basic Materials,lse:instrument-list
+UK,LSE,PREM,PREM.L,PREMIER AFRICAN MINERALS LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,PRM,PRM.L,PROTEOME SCIENCES PLC,Health Care,lse:instrument-list
+UK,LSE,PRN,PRN.L,PRINCES GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,PRO,PRO.L,PROSERVICE BUILDING SERVICES MARKETPLACE PLC,Industrials,lse:instrument-list
+UK,LSE,PROC,PROC.L,PROCOOK GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,PRTC,PRTC.L,PURETECH HEALTH PLC,Health Care,lse:instrument-list
+UK,LSE,PRU,PRU.L,PRUDENTIAL PLC,Financials,lse:instrument-list
+UK,LSE,PRV,PRV.L,PORVAIR PLC,Industrials,lse:instrument-list
+UK,LSE,PSN,PSN.L,PERSIMMON PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,PSON,PSON.L,PEARSON PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,PTAL,PTAL.L,PETROTAL CORPORATION,Energy,lse:instrument-list
+UK,LSE,PTEC,PTEC.L,PLAYTECH PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,PULS,PULS.L,PULSAR GROUP PLC,Technology,lse:instrument-list
+UK,LSE,PWR,PWR.L,POWER PROBE PLC,Industrials,lse:instrument-list
+UK,LSE,PXC,PXC.L,PHOENIX COPPER LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,PXEN,PXEN.L,PROSPEX ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,PXS,PXS.L,PROVEXIS PLC,Consumer Staples,lse:instrument-list
+UK,LSE,PYC,PYC.L,PHYSIOMICS PLC,Health Care,lse:instrument-list
+UK,LSE,PZC,PZC.L,PZ CUSSONS PLC,Consumer Staples,lse:instrument-list
+UK,LSE,QBT,QBT.L,QUANTUM BLOCKCHAIN TECHNOLOGIES PLC,Financials,lse:instrument-list
+UK,LSE,QDE,QDE.L,QUANTUM DATA ENERGY PLC,Utilities,lse:instrument-list
+UK,LSE,QED,QED.L,QUADRISE PLC,Energy,lse:instrument-list
+UK,LSE,QHE,QHE.L,QUANTUM HELIUM LIMITED,Energy,lse:instrument-list
+UK,LSE,QLT,QLT.L,QUILTER PLC,Financials,lse:instrument-list
+UK,LSE,QQ.,QQ.L,QINETIQ GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,QTX,QTX.L,QUARTIX TECHNOLOGIES PLC,Technology,lse:instrument-list
+UK,LSE,QUBE,QUBE.L,QUANTUM BASE HOLDINGS PLC,Industrials,lse:instrument-list
+UK,LSE,RAT,RAT.L,RATHBONES GROUP PLC,Financials,lse:instrument-list
+UK,LSE,RBD,RBD.L,REABOLD RESOURCES PLC,Energy,lse:instrument-list
+UK,LSE,RBN,RBN.L,ROBINSON PLC,Industrials,lse:instrument-list
+UK,LSE,RBW,RBW.L,RAINBOW RARE EARTHS LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,RCFX,RCFX.L,RC FORNAX PLC,Industrials,lse:instrument-list
+UK,LSE,RCGH,RCGH.L,RC365 HOLDING PLC,Industrials,lse:instrument-list
+UK,LSE,RCH,RCH.L,REACH PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,RCN,RCN.L,REDCENTRIC PLC,Technology,lse:instrument-list
+UK,LSE,RDT,RDT.L,ROSSLYN DATA TECHNOLOGIES PLC,Technology,lse:instrument-list
+UK,LSE,RE.,RE.L,R.E.A. HOLDINGS PLC,Consumer Staples,lse:instrument-list
+UK,LSE,REAT,REAT.L,REACT GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,REC,REC.L,RECORD PLC,Financials,lse:instrument-list
+UK,LSE,REL,REL.L,RELX PLC,Technology,lse:instrument-list
+UK,LSE,RENX,RENX.L,RENALYTIX PLC,Health Care,lse:instrument-list
+UK,LSE,REVB,REVB.L,REVOLUTION BEAUTY GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,RFX,RFX.L,RAMSDENS HOLDINGS PLC,Financials,lse:instrument-list
+UK,LSE,RGG,RGG.L,RENTGUARANTOR HOLDINGS PLC,Real Estate,lse:instrument-list
+UK,LSE,RHIM,RHIM.L,RHI MAGNESITA N.V.,Basic Materials,lse:instrument-list
+UK,LSE,RHR,RHR.L,RICHMOND HILL RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,RIFT,RIFT.L,RIFT HELIUM PLC,Energy,lse:instrument-list
+UK,LSE,RIO,RIO.L,RIO TINTO PLC,Basic Materials,lse:instrument-list
+UK,LSE,RKH,RKH.L,ROCKHOPPER EXPLORATION PLC,Energy,lse:instrument-list
+UK,LSE,RKT,RKT.L,RECKITT BENCKISER GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,RLE,RLE.L,REAL ESTATE INVESTORS PLC,Real Estate,lse:instrument-list
+UK,LSE,RM.,RM.L,RM PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,RMR,RMR.L,ROME RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,RMV,RMV.L,RIGHTMOVE PLC,Real Estate,lse:instrument-list
+UK,LSE,RNK,RNK.L,RANK GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,RNWH,RNWH.L,RENEW HOLDINGS PLC,Industrials,lse:instrument-list
+UK,LSE,ROAD,ROAD.L,ROADSIDE REAL ESTATE PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,ROCK,ROCK.L,ROCKFIRE RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,ROR,ROR.L,ROTORK PLC,Industrials,lse:instrument-list
+UK,LSE,ROSE,ROSE.L,ROSEBANK INDUSTRIES PLC,Industrials,lse:instrument-list
+UK,LSE,RPI,RPI.L,RASPBERRY PI HOLDINGS PLC,Technology,lse:instrument-list
+UK,LSE,RR.,RR.L,ROLLS-ROYCE HOLDINGS PLC,Industrials,lse:instrument-list
+UK,LSE,RRR,RRR.L,RED ROCK RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,RS1,RS1.L,RS GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,RST,RST.L,RESTORE PLC,Industrials,lse:instrument-list
+UK,LSE,RSW,RSW.L,RENISHAW PLC,Industrials,lse:instrument-list
+UK,LSE,RTC,RTC.L,RTC GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,RTO,RTO.L,RENTOKIL INITIAL PLC,Industrials,lse:instrument-list
+UK,LSE,RUA,RUA.L,RUA LIFE SCIENCES PLC,Health Care,lse:instrument-list
+UK,LSE,RVRB,RVRB.L,RIVER GLOBAL PLC,Financials,lse:instrument-list
+UK,LSE,RVRG,RVRG.L,RIVER GLOBAL PLC,Financials,lse:instrument-list
+UK,LSE,RWA,RWA.L,ROBERT WALTERS PLC,Industrials,lse:instrument-list
+UK,LSE,RWS,RWS.L,RWS HOLDINGS PLC,Industrials,lse:instrument-list
+UK,LSE,SAA,SAA.L,M&C SAATCHI PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,SAAS,SAAS.L,MICROLISE GROUP PLC,Technology,lse:instrument-list
+UK,LSE,SAFE,SAFE.L,SAFESTORE HOLDINGS PLC,Real Estate,lse:instrument-list
+UK,LSE,SAG,SAG.L,SCIENCE GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,SAGA,SAGA.L,SAGA PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,SAL,SAL.L,SPACEANDPEOPLE PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,SALT,SALT.L,MICROSALT PLC,Consumer Staples,lse:instrument-list
+UK,LSE,SAR,SAR.L,SAREUM HOLDINGS PLC,Health Care,lse:instrument-list
+UK,LSE,SATS,SATS.L,SATSUMA TECHNOLOGY PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,SAV,SAV.L,SAVANNAH RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,SAVE,SAVE.L,SAVANNAH ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,SBAR,SBAR.L,SUNDAE BAR AI PLC,Technology,lse:instrument-list
+UK,LSE,SBRE,SBRE.L,SABRE INSURANCE GROUP PLC,Financials,lse:instrument-list
+UK,LSE,SBRY,SBRY.L,SAINSBURY (J) PLC,Consumer Staples,lse:instrument-list
+UK,LSE,SBTX,SBTX.L,SKINBIOTHERAPEUTICS PLC,Health Care,lse:instrument-list
+UK,LSE,SCGL,SCGL.L,SEALAND CAPITAL GALAXY LIMITED,Technology,lse:instrument-list
+UK,LSE,SCLP,SCLP.L,SCANCELL HOLDINGS PLC,Health Care,lse:instrument-list
+UK,LSE,SCT,SCT.L,SOFTCAT PLC,Technology,lse:instrument-list
+UK,LSE,SDG,SDG.L,SANDERSON DESIGN GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,SDI,SDI.L,SDI GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,SDLF,SDLF.L,STANDARD LIFE PLC,Financials,lse:instrument-list
+UK,LSE,SDR,SDR.L,SCHRODERS PLC,Financials,lse:instrument-list
+UK,LSE,SDY,SDY.L,SPEEDY HIRE PLC,Industrials,lse:instrument-list
+UK,LSE,SEA,SEA.L,SEASCAPE ENERGY ASIA PLC,Energy,lse:instrument-list
+UK,LSE,SEE,SEE.L,SEEING MACHINES LIMITED,Technology,lse:instrument-list
+UK,LSE,SEED,SEED.L,SEED INNOVATIONS LIMITED,Financials,lse:instrument-list
+UK,LSE,SEEN,SEEN.L,SEEEN PLC,Technology,lse:instrument-list
+UK,LSE,SEFA,SEFA.L,SHEFA GEMS LTD,Basic Materials,lse:instrument-list
+UK,LSE,SEI,SEI.L,SINTANA ENERGY INC.,Energy,lse:instrument-list
+UK,LSE,SELK,SELK.L,SELKIRK GROUP PLC,Financials,lse:instrument-list
+UK,LSE,SFOR,SFOR.L,S4 CAPITAL PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,SFR,SFR.L,SEVERFIELD PLC,Industrials,lse:instrument-list
+UK,LSE,SFT,SFT.L,SOFTWARE CIRCLE PLC,Technology,lse:instrument-list
+UK,LSE,SGE,SGE.L,THE SAGE GROUP PLC,Technology,lse:instrument-list
+UK,LSE,SGRO,SGRO.L,SEGRO PLC,Real Estate,lse:instrument-list
+UK,LSE,SHAW,SHAW.L,SHAWBROOK GROUP PLC,Financials,lse:instrument-list
+UK,LSE,SHC,SHC.L,SHAFTESBURY CAPITAL PLC,Real Estate,lse:instrument-list
+UK,LSE,SHEL,SHEL.L,SHELL PLC,Energy,lse:instrument-list
+UK,LSE,SHI,SHI.L,SIG PLC,Industrials,lse:instrument-list
+UK,LSE,SHOE,SHOE.L,SHOE ZONE PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,SHR,SHR.L,SHAIRES HOLDINGS LTD,Financials,lse:instrument-list
+UK,LSE,SIHL,SIHL.L,SYMPHONY INTERNATIONAL HOLDINGS LD,Financials,lse:instrument-list
+UK,LSE,SKA,SKA.L,SHUKA MINERALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,SKL,SKL.L,SKILLCAST GROUP PLC,Technology,lse:instrument-list
+UK,LSE,SLP,SLP.L,SYLVANIA PLATINUM LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,SMIN,SMIN.L,SMITHS GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,SMJ,SMJ.L,SMART (J.) & CO. (CONTRACTORS) PLC,Industrials,lse:instrument-list
+UK,LSE,SML,SML.L,STRATEGIC MINERALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,SMWH,SMWH.L,WH SMITH PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,SN.,SN.L,SMITH & NEPHEW PLC,Health Care,lse:instrument-list
+UK,LSE,SNDA,SNDA.L,SUNDA ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,SNR,SNR.L,SENIOR PLC,Industrials,lse:instrument-list
+UK,LSE,SNT,SNT.L,SABIEN TECHNOLOGY GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,SNWS,SNWS.L,SMITHS NEWS PLC,Industrials,lse:instrument-list
+UK,LSE,SNX,SNX.L,SYNECTICS PLC,Industrials,lse:instrument-list
+UK,LSE,SOLI,SOLI.L,SOLID STATE PLC,Industrials,lse:instrument-list
+UK,LSE,SOM,SOM.L,SOMERO ENTERPRISE INC.,Industrials,lse:instrument-list
+UK,LSE,SORT,SORT.L,SORTED GROUP HOLDINGS PLC,Financials,lse:instrument-list
+UK,LSE,SOS,SOS.L,SOSANDAR PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,SOU,SOU.L,SOUND ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,SOUC,SOUC.L,SOUTHERN ENERGY CORP.,Energy,lse:instrument-list
+UK,LSE,SPEC,SPEC.L,INSPECS GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,SPI,SPI.L,SPIRE HEALTHCARE GROUP PLC,Health Care,lse:instrument-list
+UK,LSE,SPR,SPR.L,SPRINGFIELD PROPERTIES PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,SPSC,SPSC.L,SPECTRA SYSTEMS CORPORATION,Industrials,lse:instrument-list
+UK,LSE,SPSY,SPSY.L,SPECTRA SYSTEMS CORPORATION,Industrials,lse:instrument-list
+UK,LSE,SPX,SPX.L,SPIRAX GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,SQZ,SQZ.L,SERICA ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,SRAD,SRAD.L,STELRAD GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,SRB,SRB.L,SERABI GOLD PLC,Basic Materials,lse:instrument-list
+UK,LSE,SRC,SRC.L,SIGMAROC PLC,Industrials,lse:instrument-list
+UK,LSE,SRE,SRE.L,SIRIUS REAL ESTATE LD,Real Estate,lse:instrument-list
+UK,LSE,SRES,SRES.L,SUNRISE RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,SRP,SRP.L,SERCO GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,SRT,SRT.L,SRT MARINE SYSTEMS PLC,Telecommunications,lse:instrument-list
+UK,LSE,SRVL,SRVL.L,SERVAL RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,SSE,SSE.L,SSE PLC,Utilities,lse:instrument-list
+UK,LSE,SSPG,SSPG.L,SSP GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,SSTY,SSTY.L,SAFESTAY PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,STAF,STAF.L,STAFFLINE GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,STAN,STAN.L,STANDARD CHARTERED PLC,Financials,lse:instrument-list
+UK,LSE,STAR,STAR.L,STAR ENERGY GROUP PLC,Energy,lse:instrument-list
+UK,LSE,STB,STB.L,SECURE TRUST BANK PLC,Financials,lse:instrument-list
+UK,LSE,STCM,STCM.L,STEPPE CEMENT LTD,Industrials,lse:instrument-list
+UK,LSE,STEM,STEM.L,STHREE PLC,Industrials,lse:instrument-list
+UK,LSE,STG,STG.L,STRIP TINNING HOLDINGS PLC,Industrials,lse:instrument-list
+UK,LSE,STJ,STJ.L,ST. JAMES'S PLACE PLC,Financials,lse:instrument-list
+UK,LSE,STVG,STVG.L,STV GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,STX,STX.L,SHIELD THERAPEUTICS PLC,Health Care,lse:instrument-list
+UK,LSE,SUN,SUN.L,SURGICAL INNOVATIONS GROUP PLC,Health Care,lse:instrument-list
+UK,LSE,SUP,SUP.L,SUPREME PLC,Consumer Staples,lse:instrument-list
+UK,LSE,SUS,SUS.L,S & U PLC,Financials,lse:instrument-list
+UK,LSE,SVML,SVML.L,SOVEREIGN METALS LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,SVNS,SVNS.L,SOLVONIS THERAPEUTICS PLC,Health Care,lse:instrument-list
+UK,LSE,SVS,SVS.L,SAVILLS PLC,Real Estate,lse:instrument-list
+UK,LSE,SVT,SVT.L,SEVERN TRENT PLC,Utilities,lse:instrument-list
+UK,LSE,SWC,SWC.L,THE SMARTER WEB COMPANY PLC,Technology,lse:instrument-list
+UK,LSE,SWG,SWG.L,SHEARWATER GROUP PLC,Technology,lse:instrument-list
+UK,LSE,SWT,SWT.L,SWITCH METALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,SYM,SYM.L,SYMPHONY ENVIRONMENTAL TECHNOLOGIES PLC,Industrials,lse:instrument-list
+UK,LSE,SYME,SYME.L,SUPPLY@ME CAPITAL PLC,Industrials,lse:instrument-list
+UK,LSE,SYN,SYN.L,SYNERGIA ENERGY LTD,Energy,lse:instrument-list
+UK,LSE,SYNT,SYNT.L,SYNTHOMER PLC,Basic Materials,lse:instrument-list
+UK,LSE,SYS,SYS.L,SYSGROUP PLC,Technology,lse:instrument-list
+UK,LSE,SYS1,SYS1.L,SYSTEM1 GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,SYSA,SYSA.L,SYSTEM1 GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,SYSB,SYSB.L,SYSTEM1 GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,TAM,TAM.L,TATTON ASSET MANAGEMENT PLC,Financials,lse:instrument-list
+UK,LSE,TAN,TAN.L,TANFIELD GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,TAND,TAND.L,TAN DELTA SYSTEMS PLC,Industrials,lse:instrument-list
+UK,LSE,TAP,TAP.L,TAP GLOBAL GROUP PLC,Financials,lse:instrument-list
+UK,LSE,TAPH,TAPH.L,TAPIR HOLDINGS LTD.,Financials,lse:instrument-list
+UK,LSE,TAR,TAR.L,TALON RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,TATE,TATE.L,TATE & LYLE PLC,Consumer Staples,lse:instrument-list
+UK,LSE,TBCG,TBCG.L,TBC BANK GROUP PLC,Financials,lse:instrument-list
+UK,LSE,TBLD,TBLD.L,TINYBUILD INC.,Consumer Discretionary,lse:instrument-list
+UK,LSE,TBTG,TBTG.L,THE BEAUTY TECH GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,TCAP,TCAP.L,TP ICAP GROUP PLC,Financials,lse:instrument-list
+UK,LSE,TCF,TCF.L,THERACRYF PLC,Health Care,lse:instrument-list
+UK,LSE,TEAM,TEAM.L,TEAM PLC,Financials,lse:instrument-list
+UK,LSE,TEK,TEK.L,TEKCAPITAL PLC,Technology,lse:instrument-list
+UK,LSE,TENG,TENG.L,TEN TECHNOLOGIES GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,TEP,TEP.L,TELECOM PLUS PLC,Utilities,lse:instrument-list
+UK,LSE,TERA,TERA.L,NEOTERRA GROUP PLC,Basic Materials,lse:instrument-list
+UK,LSE,TERN,TERN.L,TERN PLC,Financials,lse:instrument-list
+UK,LSE,TFW,TFW.L,THORPE (F.W.) PLC,Technology,lse:instrument-list
+UK,LSE,TGP,TGP.L,TEKMAR GROUP PLC,Energy,lse:instrument-list
+UK,LSE,TGR,TGR.L,TOTAL GRAPHITE PLC,Basic Materials,lse:instrument-list
+UK,LSE,THAL,THAL.L,THALASSA HOLDINGS LIMITED,Real Estate,lse:instrument-list
+UK,LSE,THAT,THAT.L,THALIA THERAPEUTICS PLC,Health Care,lse:instrument-list
+UK,LSE,THG,THG.L,THG PLC,Consumer Staples,lse:instrument-list
+UK,LSE,THR,THR.L,THOR ENERGY PLC,Basic Materials,lse:instrument-list
+UK,LSE,THRU,THRU.L,THRUVISION GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,THS,THS.L,THARISA PLC,Basic Materials,lse:instrument-list
+UK,LSE,THX,THX.L,THOR EXPLORATIONS LTD,Basic Materials,lse:instrument-list
+UK,LSE,TIA,TIA.L,TIALIS ESSENTIAL IT PLC,Technology,lse:instrument-list
+UK,LSE,TIDE,TIDE.L,CRIMSON TIDE PLC,Technology,lse:instrument-list
+UK,LSE,TIG,TIG.L,TEAM INTERNET GROUP PLC,Technology,lse:instrument-list
+UK,LSE,TIME,TIME.L,TIME FINANCE PLC,Financials,lse:instrument-list
+UK,LSE,TIN,TIN.L,CORNISH METALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,TLM,TLM.L,TALISMAN METALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,TLW,TLW.L,TULLOW OIL PLC,Energy,lse:instrument-list
+UK,LSE,TMG,TMG.L,THE MISSION GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,TMI,TMI.L,TAYLOR MARITIME LIMITED,Industrials,lse:instrument-list
+UK,LSE,TMIP,TMIP.L,TAYLOR MARITIME LIMITED,Industrials,lse:instrument-list
+UK,LSE,TMO,TMO.L,TIME OUT GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,TND,TND.L,TANDEM GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,TNE,TNE.L,TECHNOLOGIES NEW ENERGY PLC,Industrials,lse:instrument-list
+UK,LSE,TOM,TOM.L,TOMCO ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,TON,TON.L,TITON HOLDINGS PLC,Industrials,lse:instrument-list
+UK,LSE,TOO,TOO.L,TOORU PLC,Consumer Staples,lse:instrument-list
+UK,LSE,TOWN,TOWN.L,TOWN CENTRE SECURITIES PLC,Real Estate,lse:instrument-list
+UK,LSE,TPFG,TPFG.L,PROPERTY FRANCHISE GROUP PLC (THE),Real Estate,lse:instrument-list
+UK,LSE,TPK,TPK.L,TRAVIS PERKINS PLC,Industrials,lse:instrument-list
+UK,LSE,TPT,TPT.L,TOPPS TILES PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,TPX,TPX.L,TPXIMPACT HOLDINGS PLC,Technology,lse:instrument-list
+UK,LSE,TRAC,TRAC.L,T42 IOT TRACKING SOLUTIONS PLC,Technology,lse:instrument-list
+UK,LSE,TRAF,TRAF.L,TRAFALGAR MINERALS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,TRB,TRB.L,TRIBAL GROUP PLC,Technology,lse:instrument-list
+UK,LSE,TRCS,TRCS.L,TRACSIS PLC,Technology,lse:instrument-list
+UK,LSE,TRD,TRD.L,TRIAD GROUP PLC,Technology,lse:instrument-list
+UK,LSE,TRI,TRI.L,TRIFAST PLC,Industrials,lse:instrument-list
+UK,LSE,TRLS,TRLS.L,TRELLUS HEALTH PLC,Health Care,lse:instrument-list
+UK,LSE,TRN,TRN.L,TRAINLINE PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,TRP,TRP.L,TOWER RESOURCES PLC,Energy,lse:instrument-list
+UK,LSE,TRST,TRST.L,TRUSTPILOT GROUP PLC,Technology,lse:instrument-list
+UK,LSE,TRT,TRT.L,TRANSENSE TECHNOLOGIES PLC,Industrials,lse:instrument-list
+UK,LSE,TRU,TRU.L,TRUFIN PLC,Financials,lse:instrument-list
+UK,LSE,TRUE,TRUE.L,TRUETIDE PLC,Financials,lse:instrument-list
+UK,LSE,TSCO,TSCO.L,TESCO PLC,Consumer Staples,lse:instrument-list
+UK,LSE,TST,TST.L,TOUCHSTAR PLC,Technology,lse:instrument-list
+UK,LSE,TSTL,TSTL.L,TRISTEL PLC,Health Care,lse:instrument-list
+UK,LSE,TTG,TTG.L,TT ELECTRONICS PLC,Technology,lse:instrument-list
+UK,LSE,TUN,TUN.L,TUNGSTEN WEST PLC,Basic Materials,lse:instrument-list
+UK,LSE,TUNE,TUNE.L,FOCUSRITE PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,TW.,TW.L,TAYLOR WIMPEY PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,TXP,TXP.L,TOUCHSTONE EXPLORATION INC,Energy,lse:instrument-list
+UK,LSE,TYM,TYM.L,TERTIARY MINERALS PLC,Basic Materials,lse:instrument-list
+UK,LSE,UFO,UFO.L,ALIEN METALS LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,UJO,UJO.L,UNION JACK OIL PLC,Energy,lse:instrument-list
+UK,LSE,UKEN,UKEN.L,UK ENERGY GROUP PLC,Energy,lse:instrument-list
+UK,LSE,UKR,UKR.L,UKRPRODUCT GROUP LIMITED,Consumer Staples,lse:instrument-list
+UK,LSE,ULTP,ULTP.L,ULTIMATE PRODUCTS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,ULVR,ULVR.L,UNILEVER PLC,Consumer Staples,lse:instrument-list
+UK,LSE,UMR,UMR.L,UNICORN MINERAL RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,UOG,UOG.L,UNITED OIL & GAS PLC,Energy,lse:instrument-list
+UK,LSE,UPL,UPL.L,UPLAND RESOURCES LIMITED,Energy,lse:instrument-list
+UK,LSE,UPR,UPR.L,UNIPHAR PLC,Consumer Staples,lse:instrument-list
+UK,LSE,URU,URU.L,URU METALS LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,UTG,UTG.L,UNITE GROUP PLC,Real Estate,lse:instrument-list
+UK,LSE,UU.,UU.L,UNITED UTILITIES GROUP PLC,Utilities,lse:instrument-list
+UK,LSE,VAL,VAL.L,VALIRX PLC,Health Care,lse:instrument-list
+UK,LSE,VANQ,VANQ.L,VANQUIS BANKING GROUP PLC,Financials,lse:instrument-list
+UK,LSE,VAST,VAST.L,VAST RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,VCP,VCP.L,VICTORIA PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,VCT,VCT.L,VICTREX PLC,Basic Materials,lse:instrument-list
+UK,LSE,VEL,VEL.L,VELOCITY COMPOSITES PLC,Industrials,lse:instrument-list
+UK,LSE,VIC,VIC.L,VICTORIAN PLUMBING GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,VID,VID.L,VIDENDUM PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,VINO,VINO.L,VIRGIN WINES UK PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,VLE,VLE.L,VOLVERE PLC,Financials,lse:instrument-list
+UK,LSE,VLG,VLG.L,VENTURE LIFE GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,VLX,VLX.L,VOLEX PLC,Industrials,lse:instrument-list
+UK,LSE,VNET,VNET.L,VIANET GROUP PLC,Technology,lse:instrument-list
+UK,LSE,VOD,VOD.L,VODAFONE GROUP PLC,Telecommunications,lse:instrument-list
+UK,LSE,VOX,VOX.L,VOX VALOR CAPITAL LIMITED,Consumer Discretionary,lse:instrument-list
+UK,LSE,VP.,VP.L,VP PLC,Industrials,lse:instrument-list
+UK,LSE,VRCI,VRCI.L,VERICI DX PLC,Health Care,lse:instrument-list
+UK,LSE,VSVS,VSVS.L,VESUVIUS PLC,Industrials,lse:instrument-list
+UK,LSE,VTU,VTU.L,VERTU MOTORS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,VTY,VTY.L,VISTRY GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,VUL,VUL.L,VULCAN TWO GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,W7L,W7L.L,WARPAINT LONDON PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,WATR,WATR.L,WATER INTELLIGENCE PLC,Industrials,lse:instrument-list
+UK,LSE,WEIR,WEIR.L,WEIR PLC,Industrials,lse:instrument-list
+UK,LSE,WGP,WGP.L,WORLDLINK GROUP PLC,Financials,lse:instrument-list
+UK,LSE,WIL,WIL.L,WILMINGTON PLC,Industrials,lse:instrument-list
+UK,LSE,WINE,WINE.L,NAKED WINES PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,WINK,WINK.L,M WINKWORTH PLC,Real Estate,lse:instrument-list
+UK,LSE,WISE,WISE.L,WISE GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,WIX,WIX.L,WICKES GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,WIZZ,WIZZ.L,WIZZ AIR HOLDINGS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,WJG,WJG.L,WATKIN JONES PLC,Real Estate,lse:instrument-list
+UK,LSE,WKP,WKP.L,WORKSPACE GROUP PLC,Real Estate,lse:instrument-list
+UK,LSE,WKS,WKS.L,WINKING STUDIOS LIMITED,Industrials,lse:instrument-list
+UK,LSE,WNX,WNX.L,WELLNEX LIFE LIMITED,Consumer Discretionary,lse:instrument-list
+UK,LSE,WOSG,WOSG.L,WATCHES OF SWITZERLAND GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,WPHO,WPHO.L,WINDAR PHOTONICS PLC,Industrials,lse:instrument-list
+UK,LSE,WPP,WPP.L,WPP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,WRKS,WRKS.L,THEWORKS PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,WRN,WRN.L,WORTHINGTON GROUP PLC,Basic Materials,lse:instrument-list
+UK,LSE,WSBN,WSBN.L,WISHBONE GOLD PLC,Basic Materials,lse:instrument-list
+UK,LSE,WSP,WSP.L,WYNNSTAY PROPERTIES PLC,Real Estate,lse:instrument-list
+UK,LSE,WTB,WTB.L,WHITBREAD PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,WTE,WTE.L,WESTMOUNT ENERGY LIMITED,Energy,lse:instrument-list
+UK,LSE,WVIA,WVIA.L,WINVIA ENTERTAINMENT PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,WYN,WYN.L,WYNNSTAY GROUP PLC,Consumer Staples,lse:instrument-list
+UK,LSE,XAR,XAR.L,XAAR PLC,Industrials,lse:instrument-list
+UK,LSE,XPF,XPF.L,XP FACTORY PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,XPP,XPP.L,XP POWER LIMITED,Industrials,lse:instrument-list
+UK,LSE,XPS,XPS.L,XPS PENSIONS GROUP PLC,Financials,lse:instrument-list
+UK,LSE,XSG,XSG.L,XEROS TECHNOLOGY GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,XTR,XTR.L,XTRACT RESOURCES PLC,Basic Materials,lse:instrument-list
+UK,LSE,YCA,YCA.L,YELLOW CAKE PLC,Basic Materials,lse:instrument-list
+UK,LSE,YNGA,YNGA.L,YOUNG & CO'S BREWERY PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,YOU,YOU.L,YOUGOV PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,YU.,YU.L,YU GROUP PLC,Utilities,lse:instrument-list
+UK,LSE,ZAM,ZAM.L,ZAMBEEF PRODUCTS PLC,Consumer Staples,lse:instrument-list
+UK,LSE,ZED,ZED.L,ZENOVA GROUP PLC,Industrials,lse:instrument-list
+UK,LSE,ZEG,ZEG.L,ZEGONA COMMUNICATIONS PLC,Telecommunications,lse:instrument-list
+UK,LSE,ZEN,ZEN.L,ZENITH ENERGY LTD.,Energy,lse:instrument-list
+UK,LSE,ZIG,ZIG.L,ZIGUP PLC,Industrials,lse:instrument-list
+UK,LSE,ZIN,ZIN.L,ZINC MEDIA GROUP PLC,Consumer Discretionary,lse:instrument-list
+UK,LSE,ZIOC,ZIOC.L,ZANAGA IRON ORE COMPANY LIMITED,Basic Materials,lse:instrument-list
+UK,LSE,ZOO,ZOO.L,ZOO DIGITAL GROUP PLC,Technology,lse:instrument-list
+UK,LSE,ZOYO,ZOYO.L,ZOYO LIMITED,Financials,lse:instrument-list
+UK,LSE,ZPHR,ZPHR.L,ZEPHYR ENERGY PLC,Energy,lse:instrument-list
+UK,LSE,ZTF,ZTF.L,ZOTEFOAMS PLC,Basic Materials,lse:instrument-list

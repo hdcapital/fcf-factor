@@ -1,0 +1,702 @@
+yahoo_symbol,exchange_symbol,name,stage,reasons
+1947.L,1947,1947 Oil & Gas plc,financial_data,insufficient_annual_history:0
+1SN.L,1SN,First Tin Plc,financial_data,ttm_ebitda_not_positive
+4BB.L,4BB,4basebio PLC,financial_data,ttm_ebitda_not_positive
+80M.L,80M,80 Mile Plc,financial_data,ttm_ebitda_not_positive
+88E.L,88E,88 Energy Limited,market_cap,below_min_market_cap:20312610
+AAU.L,AAU,Ariana Resources plc,market_cap,below_min_market_cap:49993880
+ABDN.L,ABDN,Aberdeen Group Plc,identity,excluded_sector:Financial Services
+ABDX.L,ABDX,Abingdon Health Plc,market_cap,below_min_market_cap:31865634
+AC8.L,AC8,Intuitive Investments Group Plc,identity,excluded_sector:Financial Services
+ACG.L,ACG,ACG Metals Limited,expected_fcf,expected_fcf_not_positive
+ACRM.L,ACRM,Acuity RM Group Plc Ord,market_cap,below_min_market_cap:5614915
+ADF.L,ADF,Facilities by ADF plc,market_cap,below_min_market_cap:14640989
+ADM.L,ADM,Admiral Group plc,identity,excluded_sector:Financial Services
+ADME.L,ADME,ADM Energy plc,market_cap,below_min_market_cap:797248
+AEG.L,AEG,Active Energy Group Plc,market_cap,below_min_market_cap:7166055
+AEO.L,AEO,Aeorema Communications plc,market_cap,below_min_market_cap:10547729
+AEX.L,AEX,Aminex PLC,financial_data,ttm_ebitda_not_positive
+AFP.L,AFP,African Pioneer PLC,market_cap,below_min_market_cap:13838150
+AGI.L,AGI,Potentially AI PLC,market_cap,below_min_market_cap:19045049
+AGY.L,AGY,Allergy Therapeutics plc,financial_data,ttm_ebitda_not_positive
+AIBG.L,AIBG,AIB Group plc,identity,excluded_sector:Financial Services
+AIEA.L,AIEA,AIREA plc,market_cap,below_min_market_cap:12670523
+AIQ.L,AIQ,AIQ Limited,market_cap,below_min_market_cap:5156656
+AJB.L,AJB,AJ Bell plc,identity,excluded_sector:Financial Services
+AKN.L,AKN,Arkadian Strategic Metals Plc,market_cap,below_min_market_cap:2955202
+ALL.L,ALL,Atlantic Lithium Limited,financial_data,ttm_ebitda_not_positive
+ALNA.L,ALNA,Alina Holdings Plc,market_cap,below_min_market_cap:2756146
+ALRT.L,ALRT,Defence Holdings PLC,market_cap,below_min_market_cap:22157383
+ALT.L,ALT,Altitude Group plc,market_cap,below_min_market_cap:19898035
+AMG.L,AMG,Atlas Metals Group plc,market_cap,below_min_market_cap:3759392
+AMGO.L,AMGO,Amigo Resources PLC,market_cap,below_min_market_cap:47649125
+AMIF.L,AMIF,Amicorp FS (UK) plc,identity,excluded_sector:Financial Services
+AML.L,AML,Aston Martin Lagonda Global Holdings plc,expected_fcf,expected_fcf_not_positive
+AMOI.L,AMOI,Anemoi International Limited,market_cap,below_min_market_cap:2709339
+AMP.L,AMP,AMPEAK ENERGY LIMITED,market_cap,below_min_market_cap:18371199
+AMRQ.L,AMRQ,Amaroq Ltd.,expected_fcf,forward_growth_unavailable
+ANG.L,ANG,Angling Direct PLC,market_cap,below_min_market_cap:49338954
+ANGS.L,ANGS,Angus Energy plc,market_cap,below_min_market_cap:19670351
+ANIC.L,ANIC,Agronomics Limited,identity,excluded_sector:Financial Services
+AOTI.L,AOTI,"AOTI, Inc.",expected_fcf,expected_fcf_not_positive
+APTA.L,APTA,Aptamer Group PLC,market_cap,below_min_market_cap:14958145
+ARBB.L,ARBB,Arbuthnot Banking Group PLC,identity,excluded_sector:Financial Services
+ARBN.L,ARBN,Arbuthnot Banking Group PLC,identity,excluded_sector:Financial Services
+ARC.L,ARC,Arcontech Group plc,market_cap,below_min_market_cap:14641377
+ARCM.L,ARCM,Arc Minerals Limited,market_cap,below_min_market_cap:19584781
+AREC.L,AREC,Arecor Therapeutics plc,market_cap,below_min_market_cap:44898822
+ARK.L,ARK,Arkle Resources PLC,market_cap,below_min_market_cap:16226952
+ARS.L,ARS,Asiamet Resources Limited,market_cap,below_min_market_cap:12677275
+ART.L,ART,The Artisanal Spirits Company plc,market_cap,below_min_market_cap:22081803
+ASAI.L,ASAI,ASA International Group PLC,identity,excluded_sector:Financial Services
+ASC.L,ASC,ASOS Plc,financial_data,ttm_ebitda_not_positive
+ASHM.L,ASHM,Ashmore Group Plc,identity,excluded_sector:Financial Services
+ASIA.L,ASIA,Asia Strategic Holdings Limited,market_cap,below_min_market_cap:12843160
+ASPL.L,ASPL,Aseana Properties Limited,market_cap,below_min_market_cap:21723936
+AST.L,AST,Ascent Resources Plc,market_cap,below_min_market_cap:5149156
+ATM.L,ATM,Andrada Mining Limited,expected_fcf,expected_fcf_not_positive
+ATN.L,ATN,Aterian plc,market_cap,below_min_market_cap:6107967
+ATOM.L,ATOM,Atome Plc,market_cap,below_min_market_cap:21646525
+AURA.L,AURA,Aura Energy Limited,financial_data,ttm_revenue_unavailable
+AURR.L,AURR,Aurrigo International plc,financial_data,ttm_ebitda_not_positive
+AUTG.L,AUTG,Autins Group plc,market_cap,below_min_market_cap:7608430
+AV.L,AV.,Aviva plc,identity,excluded_sector:Financial Services
+AVCT.L,AVCT,Avacta Group Plc,financial_data,ttm_ebitda_not_positive
+AVG.L,AVG,Avingtrans plc,expected_fcf,expected_fcf_not_positive
+AXL.L,AXL,Arrow Exploration Corp.,expected_fcf,expected_fcf_not_positive
+AYM.L,AYM,Anglesey Mining plc,market_cap,below_min_market_cap:5657636
+B90.L,B90,B90 Holdings PLC,market_cap,below_min_market_cap:23400295
+BANK.L,BANK,Fiinu Plc,identity,excluded_sector:Financial Services
+BARC.L,BARC,Barclays PLC,identity,excluded_sector:Financial Services
+BCE.L,BCE,Beacon Energy plc,market_cap,below_min_market_cap:3974627
+BEM.L,BEM,Beowulf Mining plc,market_cap,below_min_market_cap:4575069
+BEZ.L,BEZ,Beazley PLC,identity,excluded_sector:Financial Services
+BGEO.L,BGEO,Lion Finance Group PLC,identity,excluded_sector:Financial Services
+BHL.L,BHL,Bradda Head Lithium Limited,market_cap,below_min_market_cap:12104204
+BIG.L,BIG,Big Technologies PLC,expected_fcf,expected_fcf_not_positive
+BILN.L,BILN,Billington Holdings Plc,expected_fcf,expected_fcf_not_positive
+BIRD.L,BIRD,Blackbird plc,market_cap,below_min_market_cap:15934266
+BLND.L,BLND,British Land Company PLC,identity,excluded_industry:reit
+BLOE.L,BLOE,Block Energy Plc,market_cap,below_min_market_cap:15116486
+BLU.L,BLU,Blue Star Capital plc,identity,excluded_sector:Financial Services
+BMIN.L,BMIN,Botswana Minerals plc,market_cap,below_min_market_cap:4510704
+BMT.L,BMT,Braime Group PLC,market_cap,below_min_market_cap:28233215
+BMTO.L,BMTO,Braime Group PLC,market_cap,below_min_market_cap:45864742
+BMV.L,BMV,Bluebird Mining Ventures Ltd,market_cap,below_min_market_cap:1532209
+BOOT.L,BOOT,Henry Boot PLC,expected_fcf,expected_fcf_not_positive
+BOR.L,BOR,Borders & Southern Petroleum plc,financial_data,ttm_ebitda_not_positive
+BOW.L,BOW,Bow Street Group plc,market_cap,below_min_market_cap:11103498
+BPM.L,BPM,B.P. Marsh & Partners PLC,identity,excluded_sector:Financial Services
+BPT.L,BPT,Bridgepoint Group plc,identity,excluded_sector:Financial Services
+BRES.L,BRES,Blencowe Resources Plc,market_cap,below_min_market_cap:45901965
+BRK.L,BRK,Brooks Macdonald Group plc,identity,excluded_sector:Financial Services
+BSFA.L,BSFA,BSF Enterprise Plc,market_cap,below_min_market_cap:2975824
+BTC.L,BTC,London BTC Company Limited,identity,excluded_sector:Financial Services
+BUC.L,BUC,Built Cybernetics plc,market_cap,below_min_market_cap:8673708
+BUCE.L,BUCE,Buccaneer Energy plc.,market_cap,below_min_market_cap:3381739
+BUR.L,BUR,Burford Capital Limited,identity,excluded_sector:Financial Services
+BVS.L,BVS,Bravura Solutions Limited,market_cap,market_cap_unavailable
+BYG.L,BYG,Big Yellow Group Plc,identity,excluded_industry:reit
+BZT.L,BZT,Bezant Resources Plc,market_cap,below_min_market_cap:39555128
+CABA.L,CABA,CAB PAYMENTS HOLDINGS PLC,identity,quote_type:NONE
+CABB.L,CABB,CAB PAYMENTS HOLDINGS PLC,identity,quote_type:NONE
+CABP.L,CABP,CAB Payments Holdings plc,identity,excluded_sector:Financial Services
+CAD.L,CAD,Cadogan Energy Solutions PLC,market_cap,below_min_market_cap:13330950
+CAGL.L,CAGL,Coastal Africa Group Limited,market_cap,market_cap_unavailable
+CAM.L,CAM,Camellia Plc,expected_fcf,expected_fcf_not_positive
+CAR.L,CAR,Carclo plc,market_cap,below_min_market_cap:38973987
+CASP.L,CASP,Caspian Sunrise plc,expected_fcf,expected_fcf_not_positive
+CAV.L,CAV,Cavendish plc,identity,excluded_sector:Financial Services
+CBG.L,CBG,Close Brothers Group plc,identity,excluded_sector:Financial Services
+CCP.L,CCP,Celtic plc,financial_data,ttm_ebitda_not_positive
+CDFF.L,CDFF,Cardiff Property Plc,market_cap,below_min_market_cap:36035248
+CDGP.L,CDGP,Chapel Down Group Plc,expected_fcf,expected_fcf_not_positive
+CDL.L,CDL,Cloudbreak Discovery Plc,market_cap,below_min_market_cap:11027592
+CEPS.L,CEPS,CEPS PLC,market_cap,below_min_market_cap:10868988
+CFYN.L,CFYN,Caffyns plc,market_cap,below_min_market_cap:18455698
+CGEO.L,CGEO,Georgia Capital PLC,identity,excluded_sector:Financial Services
+CGI.L,CGI,Canadian General Investments Ord,financial_data,ttm_fcf_unavailable
+CGNR.L,CGNR,Conroy Gold and Natural Resources plc,market_cap,below_min_market_cap:9292580
+CGO.L,CGO,Contango Holdings plc,market_cap,below_min_market_cap:7041424
+CHAR.L,CHAR,Chariot Limited,financial_data,ttm_ebitda_not_positive
+CHF.L,CHF,Chesterfield Resources plc,market_cap,below_min_market_cap:2053898
+CHG.L,CHG,Chemring Group PLC,expected_fcf,expected_fcf_not_positive
+CHL.L,CHL,Cloudfield Holdings Limited,identity,excluded_sector:Financial Services
+CHLL.L,CHLL,Chill Brands Group PLC,market_cap,below_min_market_cap:1214461
+CHP.L,CHP,Caledonian Holdings PLC,identity,excluded_sector:Financial Services
+CHRY.L,CHRY,Chrysalis Investments Limited,identity,excluded_sector:Financial Services
+CHSS.L,CHSS,World Chess PLC,market_cap,below_min_market_cap:8316154
+CINH.L,CINH,Cindrigo Holdings Limited,identity,excluded_sector:Financial Services
+CIZ.L,CIZ,Cizzle Biotechnology Holdings Plc,market_cap,below_min_market_cap:7895590
+CKT.L,CKT,Checkit plc,market_cap,below_min_market_cap:22934189
+CLA.L,CLA,Celsius Resources Limited,market_cap,below_min_market_cap:13593304
+CLBS.L,CLBS,Celebrus Technologies plc,market_cap,below_min_market_cap:25772691
+CLBX.L,CLBX,CelLBxHealth plc,market_cap,below_min_market_cap:13950161
+CLCO.L,CLCO,CloudCoCo Group plc,market_cap,below_min_market_cap:2979240
+CLI.L,CLI,CLS Holdings plc,identity,excluded_industry:reit
+CLIG.L,CLIG,City of London Investment Group Plc,identity,excluded_sector:Financial Services
+CLON.L,CLON,Clontarf Energy plc,market_cap,below_min_market_cap:1631009
+CLX.L,CLX,Calnex Solutions plc,expected_fcf,expected_fcf_not_positive
+CMCX.L,CMCX,CMC Markets Plc,identity,excluded_sector:Financial Services
+CMET.L,CMET,Capital Metals plc,market_cap,below_min_market_cap:24191539
+CML.L,CML,CML Microsystems plc,financial_data,ttm_ebitda_not_positive
+CMRS.L,CMRS,Critical Mineral Resources PLC,market_cap,below_min_market_cap:11998063
+CMX.L,CMX,Catalyst Media Group plc,market_cap,below_min_market_cap:11862475
+CNS.L,CNS,Corero Network Security plc,expected_fcf,expected_fcf_not_positive
+CNSL.L,CNSL,Cambridge Nutritional Sciences plc,market_cap,below_min_market_cap:4894674
+COBR.L,COBR,Cobra Resources plc,market_cap,below_min_market_cap:46346709
+CODE.L,CODE,Northcoders Group PLC,market_cap,below_min_market_cap:2285892
+COG.L,COG,Cambridge Cognition Holdings Plc,market_cap,below_min_market_cap:20058918
+COIL.L,COIL,Coiled Therapeutics plc,market_cap,below_min_market_cap:38231785
+COM.L,COM,Comptoir Group PLC,market_cap,below_min_market_cap:6918639
+COPC.L,COPC,Coppa Collective plc,market_cap,below_min_market_cap:30199443
+COR.L,COR,Corpus Resources Plc,market_cap,below_min_market_cap:968179
+CORA.L,CORA,Cora Gold Limited,financial_data,ttm_ebitda_not_positive
+CORO.L,CORO,Coro Energy plc,market_cap,below_min_market_cap:4248844
+CPH2.L,CPH2,Clean Power Hydrogen plc,market_cap,below_min_market_cap:15481910
+CPX.L,CPX,CAP-XX Limited,market_cap,below_min_market_cap:12315519
+CRCL.L,CRCL,Corcel Plc,financial_data,ttm_ebitda_not_positive
+CRDA.L,CRDA,Croda International Plc,market_cap,market_cap_unavailable
+CRE.L,CRE,Conduit Holdings Limited,identity,excluded_sector:Financial Services
+CREO.L,CREO,Creo Medical Group PLC,financial_data,ttm_ebitda_not_positive
+CRS.L,CRS,Crystal Amber Fund Limited,identity,excluded_sector:Financial Services
+CRST.L,CRST,Crest Nicholson Holdings plc,expected_fcf,expected_fcf_not_positive
+CRTA.L,CRTA,Cirata plc,market_cap,below_min_market_cap:16632092
+CRTM.L,CRTM,Critical Metals Plc,market_cap,below_min_market_cap:47267800
+CRTX.L,CRTX,CRISM Therapeutics Corporation,market_cap,below_min_market_cap:9195106
+CRU.L,CRU,Coral Products PLC,market_cap,below_min_market_cap:3065044
+CSC.L,CSC,Chesterfield Special Cylinders Holdings Plc,market_cap,below_min_market_cap:18473536
+CSN.L,CSN,Chesnara plc,identity,excluded_sector:Financial Services
+CSSG.L,CSSG,Croma Security Solutions Group plc,market_cap,below_min_market_cap:13064421
+CTA.L,CTA,CT Automotive Group plc,market_cap,below_min_market_cap:20999408
+CTAI.L,CTAI,Catenai PLC,market_cap,below_min_market_cap:2093171
+CTL.L,CTL,CleanTech Lithium Plc,market_cap,below_min_market_cap:33925338
+CWR.L,CWR,Ceres Power Holdings plc,financial_data,ttm_ebitda_not_positive
+CYKL.L,CYKL,Cykel AI PLC,market_cap,below_min_market_cap:1988758
+DAR.L,DAR,Dar Global PLC,expected_fcf,expected_fcf_not_positive
+DBOX.L,DBOX,Digitalbox plc,market_cap,below_min_market_cap:6964102
+DCI.L,DCI,DCI Advisors Limited,financial_data,ttm_ebitda_not_positive
+DEBS.L,DEBS,boohoo group plc,expected_fcf,expected_fcf_not_positive
+DFCH.L,DFCH,Distribution Finance Capital Holdings plc,identity,excluded_sector:Financial Services
+DFI.L,DFI,DFI Retail Group Holdings Limited,market_cap,market_cap_unavailable
+DFIB.L,DFIB,DFI Retail Group Holdings Limited,identity,quote_type:MUTUALFUND
+DFIJ.L,DFIJ,DFI Retail Group Holdings Limited,identity,quote_type:MUTUALFUND
+DIAL.L,DIAL,Diales Group Plc,market_cap,below_min_market_cap:21022024
+DIS.L,DIS,Distil Plc,market_cap,below_min_market_cap:1619438
+DKL.L,DKL,Dekel Agri-Vision plc,market_cap,below_min_market_cap:5620753
+DLN.L,DLN,Derwent London Plc,identity,excluded_industry:reit
+DNM.L,DNM,Dianomi plc,market_cap,below_min_market_cap:25703422
+DSG.L,DSG,Dillistone Group Plc,market_cap,below_min_market_cap:7755565
+DSW.L,DSW,DSW Capital plc,market_cap,below_min_market_cap:15174986
+DUKE.L,DUKE,Duke Capital Limited,identity,excluded_sector:Financial Services
+DVT.L,DVT,daVictus plc,market_cap,below_min_market_cap:752966
+DXRX.L,DXRX,Diaceutics PLC,expected_fcf,expected_fcf_not_positive
+EAAS.L,EAAS,eEnergy Group Plc,market_cap,below_min_market_cap:1849995
+EARN.L,EARN,EARNZ plc,market_cap,below_min_market_cap:20152735
+EBQ.L,EBQ,Ebiquity plc,market_cap,below_min_market_cap:16826936
+ECO.L,ECO,Eco (Atlantic) Oil & Gas Ltd.,financial_data,ttm_ebitda_not_positive
+ECOB.L,ECOB,Eco Buildings Group plc,market_cap,below_min_market_cap:20154970
+ECR.L,ECR,ECR Minerals plc,market_cap,below_min_market_cap:7768585
+EDEN.L,EDEN,Eden BioSolutions plc,market_cap,below_min_market_cap:26120600
+EDX.L,EDX,EDX Medical Group Plc,market_cap,below_min_market_cap:42935803
+EEE.L,EEE,Empire Metals Limited,financial_data,ttm_ebitda_not_positive
+EGT.L,EGT,European Green Transition plc,identity,excluded_sector:Financial Services
+ELEG.L,ELEG,Electric Guitar PLC,identity,excluded_sector:Financial Services
+EME.L,EME,Empyrean Energy Plc,market_cap,below_min_market_cap:5482085
+EMG.L,EMG,Man Group Plc,identity,excluded_sector:Financial Services
+EMH.L,EMH,European Metals Holdings Limited,market_cap,below_min_market_cap:24459802
+EML.L,EML,Emmerson PLC,market_cap,below_min_market_cap:24828971
+EMR.L,EMR,Empresaria Group plc,market_cap,below_min_market_cap:20831028
+EMVC.L,EMVC,EMV Capital plc,identity,excluded_sector:Financial Services
+ENET.L,ENET,Ethernity Networks Ltd.,market_cap,below_min_market_cap:737702
+ENSI.L,ENSI,EnSilica plc,expected_fcf,expected_fcf_not_positive
+ENT.L,ENT,Entain Plc,expected_fcf,expected_fcf_not_positive
+ENW.L,ENW,Enwell Energy plc,market_cap,below_min_market_cap:48934797
+EOG.L,EOG,Europa Oil & Gas (Holdings) plc,market_cap,below_min_market_cap:29706665
+EPP.L,EPP,EnergyPathways plc,market_cap,below_min_market_cap:19540906
+ESO.L,ESO,EPE Special Opportunities Limited,identity,excluded_sector:Financial Services
+EST.L,EST,East Star Resources Plc,financial_data,ttm_ebitda_not_positive
+EUA.L,EUA,Eurasia Mining Plc,expected_fcf,expected_fcf_not_positive
+EVOK.L,EVOK,Evoke plc,expected_fcf,expected_fcf_not_positive
+EVR.L,EVR,EVRAZ PLC,identity,quote_type_missing
+EVST.L,EVST,Everest Global Plc,market_cap,below_min_market_cap:564868
+EXR.L,EXR,ENGAGE XR Holdings plc,market_cap,below_min_market_cap:1567122
+EZJ.L,EZJ,easyJet plc,expected_fcf,expected_fcf_not_positive
+FAB.L,FAB,Fusion Antibodies plc,market_cap,below_min_market_cap:16194389
+FADL.L,FADL,"Fadel Partners, Inc.",market_cap,below_min_market_cap:6441988
+FAR.L,FAR,Ferro-Alloy Resources Limited,market_cap,below_min_market_cap:46221335
+FARN.L,FARN,Faron Pharmaceuticals Oy,financial_data,ttm_ebitda_not_positive
+FCH.L,FCH,Funding Circle Holdings plc,identity,excluded_sector:Financial Services
+FCM.L,FCM,First Class Metals PLC,market_cap,below_min_market_cap:16359313
+FDBK.L,FDBK,Feedback plc,market_cap,below_min_market_cap:3895836
+FDR.L,FDR,First Development Resources Plc,market_cap,below_min_market_cap:2955574
+FIH.L,FIH,FIH group plc,market_cap,below_min_market_cap:22015166
+FIL.L,FIL,Fairview International PLC,financial_data,insufficient_annual_history:2
+FIN.L,FIN,Finseta Plc,market_cap,below_min_market_cap:5140952
+FIPP.L,FIPP,Frontier IP Group Plc,identity,excluded_sector:Financial Services
+FKE.L,FKE,Fiske plc,identity,excluded_sector:Financial Services
+FLK.L,FLK,Fletcher King Plc,market_cap,below_min_market_cap:4285812
+FMET.L,FMET,Fulcrum Metals plc,market_cap,below_min_market_cap:14027664
+FNX.L,FNX,Fonix Plc,market_cap,market_cap_unavailable
+FORF.L,FORF,Fortis Frontier PLC,identity,excluded_sector:Financial Services
+FORG.L,FORG,Forgent plc,market_cap,below_min_market_cap:8381661
+FOX.L,FOX,Focus Xplore Plc,market_cap,below_min_market_cap:1033963
+FPO.L,FPO,First Property Group plc,market_cap,below_min_market_cap:31883035
+FRES.L,FRES,Fresnillo plc,market_cap,market_cap_unavailable
+FRG.L,FRG,Firering Strategic Minerals Plc,market_cap,below_min_market_cap:7008407
+FRP.L,FRP,FRP Advisory Group plc,identity,excluded_sector:Financial Services
+FSG.L,FSG,Foresight Group Holdings Limited,identity,excluded_sector:Financial Services
+FUM.L,FUM,Futura Medical plc,market_cap,below_min_market_cap:4524570
+FXPO.L,FXPO,Ferrexpo plc,financial_data,ttm_ebitda_not_positive
+GAL.L,GAL,Galantas Gold Corporation,financial_data,ttm_ebitda_not_positive
+GANA.L,GANA,Gana Media Group PLC,market_cap,below_min_market_cap:25851938
+GCM.L,GCM,GCM Resources Plc,financial_data,ttm_ebitda_not_positive
+GDP.L,GDP,Goldplat PLC,market_cap,below_min_market_cap:45024791
+GDR.L,GDR,genedrive plc,market_cap,below_min_market_cap:22905643
+GDWN.L,GDWN,Goodwin PLC,expected_fcf,expected_fcf_not_positive
+GELN.L,GELN,Gelion plc,market_cap,below_min_market_cap:40341788
+GEMD.L,GEMD,Gem Diamonds Limited,market_cap,below_min_market_cap:16907902
+GEMR.L,GEMR,Gem Resources Plc,market_cap,below_min_market_cap:4374301
+GENF.L,GENF,Genflow Biosciences plc,market_cap,below_min_market_cap:14202179
+GENI.L,GENI,GENinCode Plc,market_cap,below_min_market_cap:6246028
+GENL.L,GENL,Genel Energy plc,expected_fcf,expected_fcf_not_positive
+GEO.L,GEO,Geo Exploration Limited,market_cap,below_min_market_cap:6202214
+GETB.L,GETB,GetBusy plc,financial_data,ttm_ebitda_not_positive
+GEX.L,GEX,Georgina Energy PLC,market_cap,below_min_market_cap:47709811
+GFIN.L,GFIN,Gfinity plc,market_cap,below_min_market_cap:5374014
+GKP.L,GKP,Gulf Keystone Petroleum Limited,expected_fcf,expected_fcf_not_positive
+GLR.L,GLR,Galileo Resources Plc,market_cap,below_min_market_cap:13346072
+GMET.L,GMET,Guardian Metal Resources PLC,financial_data,ttm_ebitda_not_positive
+GNIP.L,GNIP,GenIP plc,market_cap,below_min_market_cap:897404
+GPE.L,GPE,Great Portland Estates Plc,identity,excluded_industry:reit
+GR1T.L,GR1T,Grit Real Estate Income Group Limited,market_cap,below_min_market_cap:42407172
+GRL.L,GRL,Goldstone Resources Limited,market_cap,below_min_market_cap:9677336
+GROC.L,GROC,GreenRoc Strategic Materials Plc,market_cap,below_min_market_cap:14306768
+GRP.L,GRP,Greencoat Renewables,financial_data,ttm_fcf_unavailable
+GSCU.L,GSCU,Great Southern Copper PLC,market_cap,below_min_market_cap:17704422
+GST.L,GST,GSTechnologies Ltd.,market_cap,below_min_market_cap:10182695
+GTC.L,GTC,Getech Group plc,market_cap,below_min_market_cap:9330892
+GUN.L,GUN,Gunsynd Plc,identity,excluded_sector:Financial Services
+GVMH.L,GVMH,Grand Vision Media Holdings Plc,market_cap,below_min_market_cap:766698
+GWMO.L,GWMO,Great Western Mining Corporation PLC,market_cap,below_min_market_cap:18619318
+HALO.L,HALO,Halo Minerals PLC,market_cap,market_cap_unavailable
+HAMA.L,HAMA,Hamak Strategy Limited,market_cap,below_min_market_cap:3054896
+HAYD.L,HAYD,Haydale plc,market_cap,market_cap_unavailable
+HCM.L,HCM,HUTCHMED (China) Limited,financial_data,ttm_ebitda_not_positive
+HE1.L,HE1,Helium One Global Limited,financial_data,ttm_ebitda_not_positive
+HEAD.L,HEAD,Headlam Group plc,market_cap,below_min_market_cap:11187069
+HELD.L,HELD,Hellenic Dynamics Plc,market_cap,below_min_market_cap:1852135
+HEMO.L,HEMO,Hemogenyx Pharmaceuticals Plc,financial_data,ttm_ebitda_not_positive
+HERC.L,HERC,Hercules Plc,market_cap,below_min_market_cap:36896184
+HEX.L,HEX,Helix Exploration PLC,financial_data,insufficient_annual_history:2
+HID.L,HID,HIDONG ESTATE PLC,identity,quote_type_missing
+HKLB.L,HKLB,Hongkong Land Holdings Limited,financial_data,insufficient_annual_history:0
+HKLJ.L,HKLJ,Hongkong Land Holdings Limited,market_cap,market_cap_unavailable
+HLCL.L,HLCL,Helical plc,expected_fcf,expected_fcf_not_positive
+HLMA.L,HLMA,Halma plc,market_cap,market_cap_unavailable
+HMI.L,HMI,Harvest Minerals Limited,market_cap,below_min_market_cap:1802106
+HMSO.L,HMSO,Hammerson Plc,identity,excluded_industry:reit
+HPOW.L,HPOW,H-Power plc,financial_data,ttm_ebitda_not_positive
+HREE.L,HREE,Harena Rare Earths Plc,market_cap,below_min_market_cap:26508327
+HSBA.L,HSBA,HSBC Holdings plc,identity,excluded_sector:Financial Services
+HSD.L,HSD,Hansard Global plc,identity,excluded_sector:Financial Services
+HSM.L,HSM,Samuel Heath & Sons plc,market_cap,below_min_market_cap:8576443
+HSX.L,HSX,Hiscox Ltd,identity,excluded_sector:Financial Services
+HUD.L,HUD,Huddled Group Plc,market_cap,below_min_market_cap:8882673
+HUI.L,HUI,Hydrogen Utopia International PLC,market_cap,below_min_market_cap:13241639
+HUW.L,HUW,Helios Underwriting plc,identity,excluded_sector:Financial Services
+HVO.L,HVO,hVIVO plc,financial_data,ttm_ebitda_not_positive
+HVT.L,HVT,The Heavitree Brewery PLC,market_cap,below_min_market_cap:18882854
+HVTA.L,HVTA,The Heavitree Brewery PLC,market_cap,below_min_market_cap:14762259
+HWG.L,HWG,Harworth Group plc,financial_data,ttm_ebitda_not_positive
+HWGA.L,HWGA,HARWORTH GROUP PLC,identity,quote_type:NONE
+IBAI.L,IBAI,Imaging Biometrics Ltd.,market_cap,below_min_market_cap:2864834
+IBST.L,IBST,Ibstock plc,expected_fcf,expected_fcf_not_positive
+ICFG.L,ICFG,ICFG Limited,identity,excluded_sector:Financial Services
+ICG.L,ICG,ICG plc,identity,excluded_sector:Financial Services
+IDHC.L,IDHC,Integrated Diagnostics Holdings plc,market_cap,fx_rate_unavailable:EGP
+IES.L,IES,Invinity Energy Systems plc,financial_data,ttm_ebitda_not_positive
+IFRX.L,IFRX,iFOREX Financial Trading Holdings Ltd.,identity,excluded_sector:Financial Services
+IGE.L,IGE,Image Scan Holdings Plc,market_cap,below_min_market_cap:6084283
+IGG.L,IGG,IG Group Holdings plc,identity,excluded_sector:Financial Services
+IHC.L,IHC,Inspiration Healthcare Group plc,market_cap,below_min_market_cap:22013650
+IHP.L,IHP,IntegraFin Holdings plc,identity,excluded_sector:Financial Services
+IKA.L,IKA,Ilika plc,financial_data,ttm_ebitda_not_positive
+IMC.L,IMC,IMC Exploration Group Public Limited Company,market_cap,below_min_market_cap:10878428
+IMM.L,IMM,ImmuPharma plc,market_cap,below_min_market_cap:31782130
+INAC.L,INAC,InvestAcc Group Limited,identity,excluded_sector:Financial Services
+ING.L,ING,Ingenta plc,market_cap,below_min_market_cap:13416121
+INSG.L,INSG,Insig AI Plc,market_cap,below_min_market_cap:15081753
+INVP.L,INVP,Investec Group,identity,excluded_sector:Financial Services
+IOM.L,IOM,iomart Group plc,market_cap,below_min_market_cap:17561579
+IPO.L,IPO,IP Group Plc,identity,excluded_sector:Financial Services
+IPX.L,IPX,Impax Asset Management Group Plc,identity,excluded_sector:Financial Services
+IQE.L,IQE,IQE plc,financial_data,ttm_ebitda_not_positive
+IRON.L,IRON,Ironveld Plc,market_cap,below_min_market_cap:5636975
+ITIM.L,ITIM,Itim Group Plc,market_cap,below_min_market_cap:11048328
+ITM.L,ITM,ITM Power Plc,financial_data,ttm_ebitda_not_positive
+ITRK.L,ITRK,Intertek Group plc,market_cap,market_cap_unavailable
+ITX.L,ITX,Itaconix plc,market_cap,below_min_market_cap:33557809
+IXI.L,IXI,IXICO plc,market_cap,below_min_market_cap:22521643
+JAN.L,JAN,Jangada Mines Plc,market_cap,below_min_market_cap:7401922
+JARB.L,JARB,Jardine Matheson Holdings Limited,financial_data,insufficient_annual_history:0
+JARJ.L,JARJ,JARDINE MATHESON HOLDINGS LD,identity,quote_type:NONE
+JEL.L,JEL,Jersey Electricity plc,expected_fcf,expected_fcf_not_positive
+JIM.L,JIM,Jarvis Securities plc,identity,excluded_sector:Financial Services
+JLP.L,JLP,Jubilee Metals Group PLC,financial_data,ttm_ebitda_not_positive
+JMAT.L,JMAT,Johnson Matthey Plc,expected_fcf,expected_fcf_not_positive
+JOG.L,JOG,Jersey Oil and Gas Plc,market_cap,below_min_market_cap:44870735
+JUP.L,JUP,Jupiter Fund Management Plc,identity,excluded_sector:Financial Services
+KAV.L,KAV,Kavango Resources Plc,market_cap,below_min_market_cap:40835132
+KDNC.L,KDNC,Cadence Minerals Plc,market_cap,below_min_market_cap:29825043
+KDR.L,KDR,Karelian Diamond Resources Plc,market_cap,below_min_market_cap:1955184
+KEFI.L,KEFI,KEFI Gold and Copper Plc,financial_data,ttm_ebitda_not_positive
+KEN.L,KEN,Kendrick Resources PLC,market_cap,below_min_market_cap:31908329
+KIST.L,KIST,Kistos Holdings Plc,expected_fcf,expected_fcf_not_positive
+KLSO.L,KLSO,Kelso Group Holdings Plc,identity,excluded_sector:Financial Services
+KMK.L,KMK,Kromek Group plc,expected_fcf,expected_fcf_not_positive
+KMR.L,KMR,Kenmare Resources plc,expected_fcf,expected_fcf_not_positive
+KNB.L,KNB,Kanabo Group Plc,market_cap,below_min_market_cap:1888420
+KOD.L,KOD,Kodal Minerals PLC,financial_data,ttm_ebitda_not_positive
+KP2.L,KP2,Kore Potash plc,financial_data,ttm_ebitda_not_positive
+KR1.L,KR1,KR1 Plc,identity,excluded_sector:Financial Services
+KRM.L,KRM,KRM22 Plc,identity,excluded_sector:Financial Services
+KRPZ.L,KRPZ,Kropz plc,market_cap,below_min_market_cap:9269613
+KRS.L,KRS,Keras Resources Plc,market_cap,below_min_market_cap:3851459
+KZG.L,KZG,Kazera Global plc,identity,excluded_sector:Financial Services
+LAND.L,LAND,Land Securities Group Plc,identity,excluded_industry:reit
+LDG.L,LDG,Logistics Development Group plc,financial_data,ttm_fcf_unavailable
+LEND.L,LEND,Sancus Lending Group Limited,identity,excluded_sector:Financial Services
+LEX.L,LEX,Lexington Gold Ltd,market_cap,below_min_market_cap:14755598
+LGEN.L,LGEN,Legal & General Group Plc,identity,excluded_sector:Financial Services
+LINV.L,LINV,LendInvest plc,identity,excluded_sector:Financial Services
+LIO.L,LIO,Liontrust Asset Management PLC,identity,excluded_sector:Financial Services
+LIT.L,LIT,Litigation Capital Management Limited,identity,excluded_sector:Financial Services
+LIV.L,LIV,Livermore Investments Group Limited,identity,excluded_sector:Financial Services
+LLOY.L,LLOY,Lloyds Banking Group plc,identity,excluded_sector:Financial Services
+LMP.L,LMP,LondonMetric Property Plc,identity,excluded_industry:reit
+LND.L,LND,Landore Resources Limited,market_cap,below_min_market_cap:7658326
+LORD.L,LORD,Lords Group Trading plc,market_cap,below_min_market_cap:25924385
+LPA.L,LPA,LPA Group Plc,market_cap,below_min_market_cap:14466657
+LRE.L,LRE,Lancashire Holdings Limited,identity,excluded_sector:Financial Services
+LRES.L,LRES,Lansdowne Resources Plc,market_cap,below_min_market_cap:2539099
+LSEG.L,LSEG,London Stock Exchange Group plc,identity,excluded_sector:Financial Services
+LST.L,LST,Light Science Technologies Holdings Plc,market_cap,below_min_market_cap:13386614
+LTHM.L,LTHM,James Latham plc,expected_fcf,expected_fcf_not_positive
+MAB1.L,MAB1,Mortgage Advice Bureau (Holdings) plc,identity,excluded_sector:Financial Services
+MAC.L,MAC,Marechale Capital Plc,identity,excluded_sector:Financial Services
+MAFL.L,MAFL,Mineral & Financial Investments Limited,identity,excluded_sector:Financial Services
+MAI.L,MAI,Maintel Holdings Plc,market_cap,below_min_market_cap:15287699
+MANO.L,MANO,Manolete Partners Plc,market_cap,below_min_market_cap:21014637
+MATD.L,MATD,Petro Matad Limited,market_cap,below_min_market_cap:19734585
+MBO.L,MBO,MobilityOne Limited,market_cap,below_min_market_cap:16928355
+MCG.L,MCG,Mobico Group Plc,financial_data,ttm_fcf_unavailable
+MDH.L,MDH,Mendell Helium plc,market_cap,below_min_market_cap:18129872
+MDZ.L,MDZ,MediaZest plc,market_cap,below_min_market_cap:2113333
+MERC.L,MERC,Mercia Asset Management PLC,identity,excluded_sector:Financial Services
+MET.L,MET,Metir plc,market_cap,below_min_market_cap:1617619
+MET1.L,MET1,Metals One PLC,market_cap,below_min_market_cap:16453557
+MEX.L,MEX,Tortilla Mexican Grill plc,market_cap,below_min_market_cap:36430970
+MFAI.L,MFAI,Mindflair Plc,identity,excluded_sector:Financial Services
+MFX.L,MFX,Manx Financial Group PLC,identity,excluded_sector:Financial Services
+MILA.L,MILA,Mila Resources Plc,identity,excluded_sector:Financial Services
+MIND.L,MIND,Mind Gym plc,market_cap,market_cap_unavailable
+MIRI.L,MIRI,Mirriad Advertising plc,market_cap,below_min_market_cap:543763
+MKA.L,MKA,Mkango Magnetic Materials Limited,financial_data,ttm_ebitda_not_positive
+MLHL.L,MLHL,Malibu Life Holdings Limited,identity,excluded_sector:Financial Services
+MLVN.L,MLVN,Malvern International Plc,market_cap,below_min_market_cap:7329377
+MNG.L,MNG,M&G plc,identity,excluded_sector:Financial Services
+MNO.L,MNO,Meridian Mining Plc,financial_data,ttm_ebitda_not_positive
+MNTL.L,MNTL,Technology Minerals Plc,market_cap,below_min_market_cap:15069777
+MOH.L,MOH,MOH Nippon Plc,identity,excluded_sector:Financial Services
+MOTR.L,MOTR,Motorpoint Group Plc,expected_fcf,expected_fcf_not_positive
+MPAC.L,MPAC,Mpac Group plc,expected_fcf,expected_fcf_not_positive
+MPAL.L,MPAL,MedPal AI PLC,financial_data,ttm_ebitda_not_positive
+MPL.L,MPL,Mercantile Ports & Logistics Limited,market_cap,below_min_market_cap:20096733
+MRK.L,MRK,Marks Electrical Group PLC,expected_fcf,expected_fcf_not_positive
+MSLH.L,MSLH,Marshalls plc,market_cap,market_cap_unavailable
+MTC.L,MTC,Mothercare plc,market_cap,below_min_market_cap:1634927
+MTRO.L,MTRO,Metro Bank Holdings PLC,identity,excluded_sector:Financial Services
+MUL.L,MUL,Mulberry Group plc,financial_data,ttm_ebitda_not_positive
+MYX.L,MYX,MYCELX Technologies Corporation,market_cap,below_min_market_cap:14711668
+N91.L,N91,Ninety One Group,identity,excluded_sector:Financial Services
+NAH.L,NAH,NAHL Group Plc,market_cap,below_min_market_cap:28620448
+NANO.L,NANO,Nanoco Group plc,market_cap,below_min_market_cap:6174029
+NAR.L,NAR,Northamber plc,market_cap,below_min_market_cap:8995581
+NARF.L,NARF,Narf Industries Plc,market_cap,below_min_market_cap:8447260
+NBB.L,NBB,Norman Broadbent plc,market_cap,below_min_market_cap:6272233
+NCC.L,NCC,NCC Group plc,expected_fcf,expected_fcf_not_positive
+NCYT.L,NCYT,Novacyt S.A.,market_cap,below_min_market_cap:37525805
+NEO.L,NEO,Neo Energy Metals Plc,market_cap,below_min_market_cap:22567715
+NEWS.L,NEWS,Pathos Communications PLC,market_cap,below_min_market_cap:19464203
+NEXS.L,NEXS,Nexus Infrastructure plc,market_cap,below_min_market_cap:11210156
+NFM.L,NFM,New Frontier Minerals Limited,market_cap,below_min_market_cap:7497430
+NFX.L,NFX,Nuformix plc,market_cap,below_min_market_cap:4329263
+NG.L,NG.,National Grid plc,expected_fcf,expected_fcf_not_positive
+NOG.L,NOG,Nostrum Oil & Gas PLC,market_cap,below_min_market_cap:1576124
+NTBR.L,NTBR,Northern Bear PLC,market_cap,below_min_market_cap:17896101
+NTVO.L,NTVO,Nativo Resources plc,market_cap,below_min_market_cap:6675262
+NWG.L,NWG,NatWest Group plc,identity,excluded_sector:Financial Services
+NWT.L,NWT,Newmark Security plc,market_cap,below_min_market_cap:13445557
+NXQ.L,NXQ,Nexteq plc,market_cap,below_min_market_cap:30418747
+OBD.L,OBD,Oxford BioDynamics Plc,market_cap,below_min_market_cap:17837498
+OBI.L,OBI,Ondine Biomedical Inc.,financial_data,ttm_ebitda_not_positive
+OMI.L,OMI,Orosur Mining Inc.,financial_data,ttm_revenue_unavailable
+OMIP.L,OMIP,One Media iP Group Plc,market_cap,below_min_market_cap:13432033
+ONDO.L,ONDO,Ondo InsurTech Plc,market_cap,below_min_market_cap:25518808
+ONT.L,ONT,Oxford Nanopore Technologies plc,financial_data,ttm_ebitda_not_positive
+OPTI.L,OPTI,OptiBiotix Health Plc,market_cap,below_min_market_cap:7745603
+ORCA.L,ORCA,Orcadian Energy Plc,market_cap,below_min_market_cap:14912016
+ORCH.L,ORCH,Orchard Funding Group plc,identity,excluded_sector:Financial Services
+ORCP.L,ORCP,Oracle Power PLC,market_cap,below_min_market_cap:7882987
+ORNT.L,ORNT,Orient Telecoms Plc,market_cap,below_min_market_cap:597197
+ORR.L,ORR,Oriole Resources PLC,market_cap,below_min_market_cap:17545659
+OSB.L,OSB,OSB Group Plc,identity,excluded_sector:Financial Services
+OXB.L,OXB,Oxford Biomedica plc,financial_data,ttm_ebitda_not_positive
+PACS.L,PACS,PACSCo Limited,market_cap,below_min_market_cap:300272
+PAG.L,PAG,Paragon Banking Group PLC,identity,excluded_sector:Financial Services
+PALM.L,PALM,Panther Metals PLC,market_cap,below_min_market_cap:26730158
+PAM.L,PAM,Potter & Moore Plc,market_cap,below_min_market_cap:20916876
+PANR.L,PANR,Pantheon Resources Plc,financial_data,ttm_ebitda_not_positive
+PAT.L,PAT,Panthera Resources PLC,financial_data,ttm_ebitda_not_positive
+PBEE.L,PBEE,PensionBee Group plc,identity,excluded_sector:Financial Services
+PCA.L,PCA,Palace Capital Plc,identity,excluded_industry:reit
+PCH.L,PCH,Pacific Global Holdings Plc,identity,excluded_sector:Financial Services
+PCIP.L,PCIP,PCI-PAL PLC,financial_data,ttm_ebitda_not_positive
+PDL.L,PDL,Petra Diamonds Limited,market_cap,below_min_market_cap:15343042
+PEEL.L,PEEL,Peel Hunt Limited,identity,excluded_sector:Financial Services
+PEG.L,PEG,Petards Group plc,market_cap,below_min_market_cap:6847765
+PEN.L,PEN,Pennant International Group plc,market_cap,below_min_market_cap:20859536
+PET.L,PET,Petrel Resources Plc,market_cap,below_min_market_cap:1929304
+PGH.L,PGH,Personal Group Holdings Plc,identity,excluded_sector:Financial Services
+PHE.L,PHE,PowerHouse Energy Group Plc,market_cap,below_min_market_cap:12914248
+PHP.L,PHP,Primary Health Properties Plc,identity,excluded_industry:reit
+PHSC.L,PHSC,PHSC plc,market_cap,below_min_market_cap:1057392
+PINE.L,PINE,Pinewood Technologies Group PLC,financial_data,ttm_ebitda_not_positive
+PIP.L,PIP,PipeHawk plc,market_cap,below_min_market_cap:915627
+PLAZ.L,PLAZ,Plaza Centers N.V.,market_cap,below_min_market_cap:1319224
+PLSR.L,PLSR,Pulsar Helium Inc.,financial_data,ttm_ebitda_not_positive
+PLUS.L,PLUS,Plus500 Ltd.,identity,excluded_sector:Financial Services
+PMG.L,PMG,The Parkmead Group plc,market_cap,below_min_market_cap:28276691
+PMI.L,PMI,Premier Miton Group plc,identity,excluded_sector:Financial Services
+PMP.L,PMP,Portmeirion Group PLC,market_cap,below_min_market_cap:31984739
+PNN.L,PNN,Pennon Group Plc,expected_fcf,expected_fcf_not_positive
+POLB.L,POLB,Poolbeg Pharma PLC,financial_data,ttm_ebitda_not_positive
+POLN.L,POLN,Pollen Street Group Limited,identity,excluded_sector:Financial Services
+POLR.L,POLR,Polar Capital Holdings Plc,identity,excluded_sector:Financial Services
+POS.L,POS,Plexus Holdings plc,market_cap,below_min_market_cap:6760796
+POW.L,POW,Power Metal Resources plc,market_cap,below_min_market_cap:15734432
+PPHC.L,PPHC,"Public Policy Holding Company, Inc.",financial_data,ttm_ebitda_not_positive
+PPP.L,PPP,Pennpetro Energy Plc,market_cap,below_min_market_cap:14232619
+PR1.L,PR1,Pri0r1ty Intelligence Group PLC,market_cap,below_min_market_cap:2769601
+PRD.L,PRD,Predator Oil & Gas Holdings Plc,market_cap,below_min_market_cap:34208101
+PRE.L,PRE,Pensana Plc,financial_data,ttm_ebitda_not_positive
+PREM.L,PREM,Premier African Minerals Limited,market_cap,below_min_market_cap:2890740
+PRM.L,PRM,Proteome Sciences plc,market_cap,below_min_market_cap:6330103
+PRO.L,PRO,ProService Building Services Marketplace Plc,market_cap,below_min_market_cap:46631421
+PRTC.L,PRTC,PureTech Health plc,financial_data,ttm_ebitda_not_positive
+PRU.L,PRU,Prudential plc,identity,excluded_sector:Financial Services
+PSN.L,PSN,Persimmon Plc,expected_fcf,expected_fcf_not_positive
+PULS.L,PULS,Pulsar Group plc,market_cap,below_min_market_cap:24742677
+PXC.L,PXC,Phoenix Copper Limited,market_cap,below_min_market_cap:6338453
+PXEN.L,PXEN,Prospex Energy Plc,market_cap,below_min_market_cap:32526487
+PXS.L,PXS,Provexis plc,market_cap,below_min_market_cap:34245682
+PYC.L,PYC,Physiomics Plc,market_cap,below_min_market_cap:2856913
+QBT.L,QBT,Quantum Blockchain Technologies Plc,identity,excluded_sector:Financial Services
+QDE.L,QDE,Quantum Data Energy PLC,market_cap,below_min_market_cap:8362561
+QED.L,QED,Quadrise Plc,market_cap,below_min_market_cap:27774416
+QHE.L,QHE,Quantum Helium Limited,market_cap,below_min_market_cap:9950378
+QLT.L,QLT,Quilter plc,identity,excluded_sector:Financial Services
+QUBE.L,QUBE,Quantum Base Holdings PLC,market_cap,below_min_market_cap:21273176
+RAT.L,RAT,Rathbones Group Plc,identity,excluded_sector:Financial Services
+RBD.L,RBD,Reabold Resources Plc,market_cap,below_min_market_cap:12412788
+RBN.L,RBN,Robinson plc,market_cap,below_min_market_cap:27236132
+RBW.L,RBW,Rainbow Rare Earths Limited,financial_data,ttm_ebitda_not_positive
+RCFX.L,RCFX,RC Fornax Plc,market_cap,below_min_market_cap:6493627
+RCGH.L,RCGH,RC365 Holding plc,market_cap,below_min_market_cap:14086720
+RDT.L,RDT,Rosslyn Data Technologies plc,market_cap,below_min_market_cap:1642929
+REAT.L,REAT,REACT Group PLC,market_cap,below_min_market_cap:13017827
+REC.L,REC,Record plc,identity,excluded_sector:Financial Services
+RENX.L,RENX,Renalytix Plc,market_cap,below_min_market_cap:47602681
+REVB.L,REVB,Revolution Beauty Group plc,financial_data,ttm_ebitda_not_positive
+RGG.L,RGG,RentGuarantor Holdings PLC,financial_data,ttm_ebitda_not_positive
+RHR.L,RHR,Richmond Hill Resources Plc,market_cap,below_min_market_cap:11211168
+RIFT.L,RIFT,Rift Helium plc,market_cap,below_min_market_cap:11571336
+RKH.L,RKH,Rockhopper Exploration plc,financial_data,ttm_ebitda_not_positive
+RLE.L,RLE,Real Estate Investors Plc,identity,excluded_industry:reit
+RM.L,RM.,RM plc,expected_fcf,expected_fcf_not_positive
+RMR.L,RMR,Rome Resources Plc,market_cap,below_min_market_cap:22648257
+ROAD.L,ROAD,Roadside Real Estate plc,financial_data,ttm_ebitda_not_positive
+ROCK.L,ROCK,Rockfire Resources plc,market_cap,below_min_market_cap:21311837
+ROSE.L,ROSE,Rosebank Industries plc,identity,excluded_sector:Financial Services
+RPI.L,RPI,Raspberry Pi Holdings plc,expected_fcf,expected_fcf_not_positive
+RRR.L,RRR,Red Rock Resources Plc,market_cap,below_min_market_cap:2220930
+RTC.L,RTC,RTC Group plc,market_cap,below_min_market_cap:15401151
+RUA.L,RUA,RUA Life Sciences plc,market_cap,below_min_market_cap:24708146
+RVRB.L,RVRB,River Global Plc,identity,excluded_sector:Financial Services
+RVRG.L,RVRG,River Global Plc,identity,excluded_sector:Financial Services
+RWA.L,RWA,Robert Walters plc,financial_data,ttm_ebitda_not_positive
+SAFE.L,SAFE,Safestore Holdings Plc,identity,excluded_industry:reit
+SAL.L,SAL,SpaceandPeople plc,market_cap,below_min_market_cap:3951643
+SALT.L,SALT,MicroSalt plc,market_cap,below_min_market_cap:25426885
+SAR.L,SAR,Sareum Holdings plc,financial_data,ttm_ebitda_not_positive
+SATS.L,SATS,Satsuma Technology PLC,market_cap,below_min_market_cap:31164376
+SAV.L,SAV,Savannah Resources Plc,financial_data,ttm_ebitda_not_positive
+SAVE.L,SAVE,Savannah Energy PLC,expected_fcf,expected_fcf_not_positive
+SBAR.L,SBAR,Sundae Bar AI PLC,market_cap,below_min_market_cap:25250921
+SBRE.L,SBRE,Sabre Insurance Group plc,identity,excluded_sector:Financial Services
+SBTX.L,SBTX,SkinBioTherapeutics plc,market_cap,below_min_market_cap:20636640
+SCGL.L,SCGL,Sealand Capital Galaxy Limited,market_cap,below_min_market_cap:44203908
+SCLP.L,SCLP,Scancell Holdings plc,financial_data,ttm_revenue_unavailable
+SDLF.L,SDLF,Standard Life plc,identity,excluded_sector:Financial Services
+SDR.L,SDR,Schroders PLC,identity,excluded_sector:Financial Services
+SEA.L,SEA,Seascape Energy Asia plc,financial_data,ttm_ebitda_not_positive
+SEE.L,SEE,Seeing Machines Limited,financial_data,ttm_ebitda_not_positive
+SEED.L,SEED,Seed Innovations Limited,identity,excluded_sector:Financial Services
+SEEN.L,SEEN,SEEEN plc,market_cap,below_min_market_cap:10450815
+SEFA.L,SEFA,Shefa Gems Ltd,market_cap,market_cap_unavailable
+SEI.L,SEI,Sintana Energy Inc.,financial_data,ttm_ebitda_not_positive
+SELK.L,SELK,Selkirk Group Plc,identity,excluded_sector:Financial Services
+SGRO.L,SGRO,SEGRO Plc,identity,excluded_industry:reit
+SHAW.L,SHAW,Shawbrook Group PLC,identity,excluded_sector:Financial Services
+SHC.L,SHC,Shaftesbury Capital PLC,identity,excluded_industry:reit
+SHOE.L,SHOE,Shoe Zone plc,market_cap,below_min_market_cap:46548737
+SHR.L,SHR,Shaires Holdings Ltd,identity,excluded_sector:Financial Services
+SIHL.L,SIHL,Symphony International Holdings Limited,identity,excluded_sector:Financial Services
+SKA.L,SKA,Shuka Minerals Plc,market_cap,below_min_market_cap:7808218
+SKL.L,SKL,Skillcast Group plc,market_cap,below_min_market_cap:49414233
+SML.L,SML,Strategic Minerals Plc,financial_data,ttm_ebitda_not_positive
+SNDA.L,SNDA,Sunda Energy Plc,market_cap,below_min_market_cap:10684322
+SNT.L,SNT,Sabien Technology Group Plc,market_cap,below_min_market_cap:1305213
+SNX.L,SNX,Synectics plc,market_cap,below_min_market_cap:44012011
+SORT.L,SORT,Sorted Group Holdings Plc,market_cap,below_min_market_cap:912481
+SOS.L,SOS,Sosandar Plc,market_cap,below_min_market_cap:30654449
+SOU.L,SOU,Sound Energy plc,market_cap,below_min_market_cap:4560766
+SOUC.L,SOUC,Southern Energy Corp.,market_cap,below_min_market_cap:17012056
+SPSC.L,SPSC,Spectra Systems Corporation,market_cap,below_min_market_cap:1092487
+SRES.L,SRES,Sunrise Resources plc,market_cap,below_min_market_cap:2138211
+SRT.L,SRT,SRT Marine Systems plc,expected_fcf,expected_fcf_not_positive
+SRVL.L,SRVL,Serval Resources Plc,market_cap,below_min_market_cap:13709350
+SSE.L,SSE,SSE plc,expected_fcf,expected_fcf_not_positive
+SSTY.L,SSTY,Safestay plc,market_cap,below_min_market_cap:7324968
+STAN.L,STAN,Standard Chartered PLC,identity,excluded_sector:Financial Services
+STAR.L,STAR,Star Energy Group Plc,expected_fcf,expected_fcf_not_positive
+STB.L,STB,Secure Trust Bank PLC,identity,excluded_sector:Financial Services
+STG.L,STG,Strip Tinning Holdings plc,market_cap,below_min_market_cap:5683851
+STJ.L,STJ,St. James's Place plc,identity,excluded_sector:Financial Services
+STVG.L,STVG,STV Group plc,financial_data,ttm_ebitda_not_positive
+STX.L,STX,Shield Therapeutics plc,financial_data,ttm_ebitda_not_positive
+SUN.L,SUN,Surgical Innovations Group plc,market_cap,below_min_market_cap:4951780
+SUS.L,SUS,S&U plc,identity,excluded_sector:Financial Services
+SVML.L,SVML,Sovereign Metals Limited,financial_data,insufficient_annual_history:0
+SVNS.L,SVNS,Solvonis Therapeutics plc,market_cap,below_min_market_cap:10387732
+SVT.L,SVT,Severn Trent PLC,expected_fcf,expected_fcf_not_positive
+SWC.L,SWC,The Smarter Web Company Plc,expected_fcf,forward_growth_unavailable
+SWG.L,SWG,Shearwater Group plc,market_cap,below_min_market_cap:22453414
+SWT.L,SWT,Switch Metals Plc,market_cap,below_min_market_cap:9150528
+SYM.L,SYM,Symphony Environmental Technologies plc,market_cap,below_min_market_cap:20389187
+SYME.L,SYME,Supply@ME Capital plc,market_cap,below_min_market_cap:2475121
+SYN.L,SYN,Synergia Energy Ltd,market_cap,below_min_market_cap:2066533
+SYS.L,SYS,SysGroup plc,market_cap,below_min_market_cap:43333712
+SYSA.L,SYSA,SYSTEM1 GROUP PLC,identity,quote_type:NONE
+SYSB.L,SYSB,SYSTEM1 GROUP PLC,identity,quote_type:NONE
+TAM.L,TAM,Tatton Asset Management plc,identity,excluded_sector:Financial Services
+TAN.L,TAN,Tanfield Group PLC,identity,excluded_sector:Financial Services
+TAND.L,TAND,Tan Delta Systems plc,market_cap,below_min_market_cap:21864523
+TAP.L,TAP,Tap Global Group Plc,market_cap,below_min_market_cap:11858101
+TAPH.L,TAPH,Tapir Holdings Ltd.,identity,excluded_sector:Financial Services
+TAR.L,TAR,Talon Resources plc,identity,excluded_sector:Financial Services
+TBCG.L,TBCG,TBC Bank Group PLC,identity,excluded_sector:Financial Services
+TBLD.L,TBLD,"tinyBuild, Inc.",financial_data,ttm_ebitda_not_positive
+TBTG.L,TBTG,The Beauty Tech Group plc,financial_data,insufficient_annual_history:2
+TCAP.L,TCAP,TP ICAP Group PLC,identity,excluded_sector:Financial Services
+TCF.L,TCF,Theracryf Plc,market_cap,below_min_market_cap:4990824
+TEAM.L,TEAM,TEAM plc,identity,excluded_sector:Financial Services
+TEK.L,TEK,Tekcapital plc,identity,excluded_sector:Financial Services
+TERA.L,TERA,NeoTerra Group Plc,market_cap,below_min_market_cap:9414248
+TERN.L,TERN,Tern Plc,identity,excluded_sector:Financial Services
+TGP.L,TGP,Tekmar Group plc,market_cap,below_min_market_cap:21799091
+TGR.L,TGR,Total Graphite plc,market_cap,below_min_market_cap:8274039
+THAL.L,THAL,Thalassa Holdings Limited,market_cap,below_min_market_cap:5083930
+THAT.L,THAT,Thalia Therapeutics Plc,market_cap,below_min_market_cap:14728548
+THR.L,THR,Thor Energy Plc,market_cap,below_min_market_cap:7518578
+THRU.L,THRU,Thruvision Group plc,market_cap,below_min_market_cap:11012770
+THS.L,THS,Tharisa plc,expected_fcf,expected_fcf_not_positive
+TIA.L,TIA,Tialis Essential IT PLC,market_cap,below_min_market_cap:21980280
+TIDE.L,TIDE,Crimson Tide plc,market_cap,below_min_market_cap:8507393
+TIME.L,TIME,Time Finance plc,identity,excluded_sector:Financial Services
+TIN.L,TIN,Cornish Metals plc,financial_data,ttm_ebitda_not_positive
+TLM.L,TLM,Talisman Metals PLC,market_cap,below_min_market_cap:8047824
+TMG.L,TMG,The Mission Group plc,market_cap,below_min_market_cap:30058297
+TMI.L,TMI,Taylor Maritime Limited,financial_data,ttm_ebitda_not_positive
+TMIP.L,TMIP,Taylor Maritime Limited,financial_data,ttm_ebitda_not_positive
+TMO.L,TMO,Time Out Group plc,market_cap,below_min_market_cap:49419361
+TND.L,TND,Tandem Group plc,market_cap,below_min_market_cap:12814509
+TNE.L,TNE,Technologies New Energy plc,identity,excluded_sector:Financial Services
+TOM.L,TOM,TomCo Energy Plc,market_cap,below_min_market_cap:2820246
+TON.L,TON,Titon Holdings Plc,market_cap,below_min_market_cap:11569409
+TOO.L,TOO,Tooru Ord,market_cap,below_min_market_cap:4360500
+TOWN.L,TOWN,Town Centre Securities Plc,identity,excluded_industry:reit
+TRAC.L,TRAC,t42 IoT Tracking Solutions PLC,market_cap,below_min_market_cap:2232963
+TRAF.L,TRAF,Trafalgar Minerals Plc,market_cap,below_min_market_cap:10069336
+TRLS.L,TRLS,Trellus Health plc,market_cap,below_min_market_cap:684976
+TRP.L,TRP,Tower Resources plc,market_cap,below_min_market_cap:9088083
+TRT.L,TRT,Transense Technologies plc,market_cap,below_min_market_cap:9291256
+TRU.L,TRU,TruFin plc,identity,excluded_sector:Financial Services
+TRUE.L,TRUE,Truetide plc,identity,excluded_sector:Financial Services
+TST.L,TST,Touchstar plc,market_cap,below_min_market_cap:7428529
+TTG.L,TTG,TT Electronics plc,financial_data,ttm_ebitda_not_positive
+TUN.L,TUN,Tungsten West PLC,financial_data,ttm_ebitda_not_positive
+TUNE.L,TUNE,Focusrite plc,financial_data,ttm_fcf_unavailable
+TXP.L,TXP,Touchstone Exploration Inc.,expected_fcf,expected_fcf_not_positive
+TYM.L,TYM,Tertiary Minerals plc,market_cap,below_min_market_cap:5934112
+UFO.L,UFO,Alien Metals Limited,market_cap,below_min_market_cap:10582318
+UJO.L,UJO,Union Jack Oil plc,market_cap,below_min_market_cap:4570944
+UKEN.L,UKEN,UK Energy Group PLC,market_cap,below_min_market_cap:3180716
+UKR.L,UKR,Ukrproduct Group Limited,market_cap,below_min_market_cap:3948771
+ULTP.L,ULTP,Ultimate Products Plc,market_cap,below_min_market_cap:49824972
+UMR.L,UMR,Unicorn Mineral Resources Public Limited Company,market_cap,below_min_market_cap:4473055
+UOG.L,UOG,United Oil & Gas Plc,market_cap,below_min_market_cap:13535471
+UPL.L,UPL,Upland Resources Limited,financial_data,ttm_ebitda_not_positive
+UPR.L,UPR,Uniphar plc,expected_fcf,expected_fcf_not_positive
+URU.L,URU,URU Metals Limited,market_cap,below_min_market_cap:5168460
+UTG.L,UTG,Unite Group PLC,identity,excluded_industry:reit
+UU.L,UU.,United Utilities Group PLC,expected_fcf,expected_fcf_not_positive
+VAL.L,VAL,ValiRx plc,market_cap,below_min_market_cap:2277831
+VANQ.L,VANQ,Vanquis Banking Group plc,identity,excluded_sector:Financial Services
+VAST.L,VAST,Vast Resources PLC,financial_data,ttm_ebitda_not_positive
+VCP.L,VCP,Victoria PLC,financial_data,ttm_ebitda_not_positive
+VEL.L,VEL,Velocity Composites plc,market_cap,below_min_market_cap:10520038
+VID.L,VID,Videndum Plc,financial_data,ttm_ebitda_not_positive
+VINO.L,VINO,Virgin Wines UK PLC,market_cap,below_min_market_cap:16100461
+VLE.L,VLE,Volvere plc,expected_fcf,expected_fcf_not_positive
+VNET.L,VNET,Vianet Group plc,market_cap,below_min_market_cap:25651757
+VOX.L,VOX,Vox Valor Capital Limited,identity,excluded_sector:Financial Services
+VRCI.L,VRCI,Verici Dx plc,market_cap,below_min_market_cap:6829879
+VSVS.L,VSVS,Vesuvius plc,market_cap,market_cap_unavailable
+VUL.L,VUL,Vulcan Two Group PLC,identity,excluded_sector:Financial Services
+WGP.L,WGP,WORLDLINK GROUP PLC,identity,quote_type_missing
+WINK.L,WINK,M Winkworth PLC,market_cap,below_min_market_cap:29551527
+WISE.L,WISE,Wise Group plc,enterprise_value,enterprise_value_not_positive
+WJG.L,WJG,Watkin Jones Plc,financial_data,ttm_ebitda_not_positive
+WKP.L,WKP,Workspace Group Plc,identity,excluded_industry:reit
+WKS.L,WKS,Winking Studios Limited,financial_data,ttm_ebitda_not_positive
+WNX.L,WNX,Wellnex Life Limited,market_cap,below_min_market_cap:5330283
+WPHO.L,WPHO,Windar Photonics PLC,market_cap,below_min_market_cap:10694917
+WRN.L,WRN,WORTHINGTON GROUP PLC,identity,quote_type_missing
+WSBN.L,WSBN,Wishbone Gold Plc,market_cap,below_min_market_cap:8944777
+WSP.L,WSP,Wynnstay Properties Plc,market_cap,below_min_market_cap:32208239
+WTE.L,WTE,Westmount Energy Limited,market_cap,below_min_market_cap:5257214
+XPF.L,XPF,XP Factory Plc,market_cap,below_min_market_cap:36132987
+XSG.L,XSG,Xeros Technology Group plc,market_cap,below_min_market_cap:12009685
+XTR.L,XTR,Xtract Resources Plc,market_cap,below_min_market_cap:16253647
+YCA.L,YCA,Yellow Cake plc,expected_fcf,forward_growth_unavailable
+ZAM.L,ZAM,Zambeef Products PLC,market_cap,below_min_market_cap:40416364
+ZED.L,ZED,Zenova Group Plc,market_cap,below_min_market_cap:1010625
+ZEG.L,ZEG,Zegona Communications plc,expected_fcf,forward_growth_unavailable
+ZEN.L,ZEN,Zenith Energy Ltd.,market_cap,below_min_market_cap:39829359
+ZIN.L,ZIN,Zinc Media Group plc,market_cap,below_min_market_cap:18827288
+ZIOC.L,ZIOC,Zanaga Iron Ore Company Limited,market_cap,below_min_market_cap:43404762
+ZOO.L,ZOO,ZOO Digital Group plc,market_cap,below_min_market_cap:18278156
+ZOYO.L,ZOYO,Zoyo Limited,financial_data,ttm_fcf_unavailable
+ZPHR.L,ZPHR,Zephyr Energy plc,expected_fcf,expected_fcf_not_positive
