@@ -393,6 +393,14 @@ def evaluate_company(
     factors.enterprise_value_usd = ev.value
     if ev.value is None:
         return factors.exclude("enterprise_value_unavailable")
+    if ev.source == "provider" and cap.ratio is not None and any(
+        f.startswith("market_cap_discrepancy") for f in cap.flags
+    ):
+        # The provider's EV is built on *its* share basis.  When that basis
+        # already disagrees with price x shares (dual-class and Up-C
+        # structures), nothing here can check which basis the EV used, and
+        # Symbotic's came out at a seventh of its market cap.
+        return factors.exclude(f"provider_ev_basis_unverifiable:ratio={cap.ratio:.3g}")
     if ev.value <= 0:
         return factors.exclude("enterprise_value_not_positive")
 

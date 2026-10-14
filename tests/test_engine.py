@@ -339,3 +339,27 @@ def test_leases_already_in_debt_leave_enterprise_value_alone(healthy_company, en
     company = evaluate_company(entry_factory("OWNSIT"), included, fx, AS_OF)
     assert company.lease_treatment == "leases_included_verified"
     assert company.total_debt_usd == pytest.approx(debt)
+
+
+def test_a_provider_ev_on_a_disputed_share_basis_is_not_used(healthy_company, entry_factory, fx):
+    """Symbotic: market cap 4.7x price x shares, provider EV a seventh of it."""
+    bundle = healthy_company("UPC", price=10.0, shares=50_000_000.0)
+    bundle.metadata = replace(
+        bundle.metadata, market_cap=2_330_000_000.0, enterprise_value=340_000_000.0
+    )
+    bundle.annual_balance = []
+    bundle.quarterly_balance = []
+    company = evaluate_company(entry_factory("UPC"), bundle, fx, AS_OF)
+    assert company.eligible is False
+    assert any(r.startswith("provider_ev_basis_unverifiable") for r in company.exclusion_reasons)
+
+
+def test_a_calculated_ev_is_still_used_when_the_share_basis_is_disputed(
+    healthy_company, entry_factory, fx
+):
+    """Dual-class companies keep their place when EV is built from the balance sheet."""
+    bundle = healthy_company("DUAL2", price=10.0, shares=50_000_000.0)
+    bundle.metadata = replace(bundle.metadata, market_cap=1_500_000_000.0)
+    company = evaluate_company(entry_factory("DUAL2"), bundle, fx, AS_OF)
+    assert company.eligible is True, company.exclusion_reasons
+    assert company.enterprise_value_source == "calculated"

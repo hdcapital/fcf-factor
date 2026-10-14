@@ -90,13 +90,22 @@ FCF_margin = FCF / Revenue        (undefined when Revenue <= 0)
 For revenue, EBITDA and free cash flow independently, in order:
 
 1. the **sum of the latest four quarterly statements** (accepted only when
-   those four quarter-ends span 240-400 days and every quarter carries the
-   field),
+   those four quarter-ends span 240-400 days, are each 60-120 days apart, so
+   no quarter is missing, and every quarter carries the field),
 2. the **provider's own TTM figure**,
 3. the **most recent fiscal year**.
 
 Whichever rung was used is written into every snapshot as `ttm_source`, for
 example `revenue=quarterly_sum|ebitda=provider_ttm|fcf=latest_fiscal_year`.
+
+Revenue is cross-checked before it is accepted, because one misreported quarter
+flows straight through forward FCF into the yield (Yahoo once reported a
+C$1.2bn Cascades quarter as C$91bn). The quarterly sum is rejected when any one
+quarter is more than 4x the median of the other three, or when the total is
+more than 3x away from the latest fiscal year (in either direction). The
+provider's TTM is built from the same quarters, so it gets the fiscal-year
+check too. A rejection is flagged `ttm_revenue_quarterly_rejected` or
+`ttm_revenue_provider_rejected` and the next rung is used.
 
 ### Normalised FCF margin
 
@@ -372,6 +381,17 @@ A suffix is never assumed to be correct. If the provider returns nothing for a
 mapped symbol, the company is excluded with `symbol_unresolved` and appears in
 `excluded.csv` — so a broken suffix shows up as a visible hole, not a silent one.
 
+**Provider throttling.** Yahoo throttles heavy use ("Too Many Requests"). A
+throttle pauses every worker (30s, doubling up to 5 minutes) without using up
+the ordinary retries, and a failed fetch is never cached. After the first pass,
+every security that came back without metadata or statements is fetched again,
+one at a time, after a two-minute cool-down (two passes). If more than 3% of the
+universe is still unresolved, the screen **fails** rather than publishing: on
+14 October 2026 a throttle silently removed most of the US list after "K" and
+the Canadian list after "S", which is a screen of part of the alphabet, not of
+the market. `refetched`, `refetch_recovered` and `provider_throttle_events` are
+recorded in the coverage summary.
+
 **If a universe refresh fails**, the most recently stored universe is reused,
 `is_stale` is set, and the reason travels into `metadata.json`, the market report
 and the email. A stale universe is never presented as a fresh one. If the raw
@@ -436,6 +456,9 @@ Checks that run on every screening pass:
 | Duplicate tickers | De-duplicated at universe build, each collision recorded |
 | Universe shrinkage | Run fails beyond a 35% drop, or below the per-market floor |
 | Exchange suffix errors | Surface as `symbol_unresolved` exclusions |
+| Provider throttling | Shared pause, re-fetch passes; run fails above 3% unresolved |
+| Missing or misreported quarter | TTM window rejected; revenue cross-checked against the fiscal year |
+| Provider EV on a disputed share basis | Not used (`provider_ev_basis_unverifiable`) |
 
 A coverage summary is produced every run and appears in `metadata.json`, the
 market report and the email.
@@ -463,7 +486,7 @@ fcf_factor/
 
 data/                    the research record (committed - see data/README.md)
 reports/latest/          one markdown report per market, plus an index
-tests/                   297 tests, none of which touch the network
+tests/                   309 tests, none of which touch the network
 .github/workflows/       quarterly_factor.yml, daily_prices.yml, tests.yml
 ```
 
@@ -753,7 +776,7 @@ provider switch is visible in the audit trail.
 
 ## Tests
 
-297 tests, none of which touch the network — a fixture makes any accidental HTTP
+309 tests, none of which touch the network — a fixture makes any accidental HTTP
 call fail immediately.
 
 ```bash
@@ -780,6 +803,7 @@ Every snapshot records the version that produced it in `metadata.json`.
 |---|---|---|
 | 1.0.0 | 2026-09-14 | Initial release |
 | 1.1.2 | 2026-10-13 | The minorities' earnings share ignores loss years. |
+| 1.1.3 | 2026-10-14 | TTM windows must be four consecutive quarters; a TTM revenue with one quarter more than 4x the others, or more than 3x away from the latest fiscal year, is rejected and the next rung of the ladder used. A provider EV is not used when the market cap and price x shares disagree. Securities that came back empty (usually provider throttling) are re-fetched after a cool-down, and a screen still missing more than 3% of its universe fails instead of publishing. |
 | 1.1.1 | 2026-10-13 | Purchases and sales that cannot trade on the rebalance day wait for the first real trade instead of being redistributed or sold at a stale price. |
 | 1.1.0 | 2026-10-13 | Minority interests deducted from free cash flow instead of added to enterprise value. Lease liabilities verified to be inside debt, and added when the provider omits them. Price bars stored only after their session closes. Fixed total equity being misread as minority interest. |
 

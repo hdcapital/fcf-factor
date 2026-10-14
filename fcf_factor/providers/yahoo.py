@@ -25,7 +25,14 @@ import time
 from datetime import date, datetime
 from typing import Any
 
-from ..config import PROVIDER_BACKOFF_BASE, PROVIDER_MAX_RETRIES, PROVIDER_REQUEST_PAUSE
+from ..config import (
+    PROVIDER_BACKOFF_BASE,
+    PROVIDER_MAX_RETRIES,
+    PROVIDER_REQUEST_PAUSE,
+    PROVIDER_THROTTLE_MAX_PAUSE,
+    PROVIDER_THROTTLE_MAX_WAITS,
+    PROVIDER_THROTTLE_PAUSE,
+)
 from ..currency import canonical_currency, minor_unit_divisor
 from ..logging_utils import get_logger
 from .base import (
@@ -154,19 +161,44 @@ def _to_date(value: Any) -> date | None:
         return None
 
 
+#: Sentinel for "the call failed", as opposed to "the call returned nothing".
+#: Only the second may be cached.
+_FAILED = object()
+
+
+def is_rate_limit_error(exc: BaseException) -> bool:
+    """True for Yahoo's throttling responses, whatever wrapper they arrive in."""
+    if "ratelimit" in type(exc).__name__.lower():
+        return True
+    text = str(exc).lower()
+    return "too many requests" in text or "rate limit" in text or "429" in text
+
+
 class RateLimiter:
-    """Serialises provider calls and enforces a minimum gap between them."""
+    """Serialises provider calls and enforces a minimum gap between them.
+
+    It also holds a shared pause: once any worker is throttled, *every* worker
+    waits, because the throttle applies to the whole runner's IP address.
+    """
 
     def __init__(self, min_interval: float):
         self.min_interval = max(0.0, float(min_interval))
         self._lock = threading.Lock()
         self._last = 0.0
+        self._paused_until = 0.0
+
+    def pause_all(self, seconds: float) -> None:
+        with self._lock:
+            self._paused_until = max(self._paused_until, time.monotonic() + max(0.0, seconds))
 
     def wait(self) -> None:
-        if self.min_interval <= 0:
-            return
         with self._lock:
             now = time.monotonic()
+            if self._paused_until > now:
+                time.sleep(self._paused_until - now)
+                now = time.monotonic()
+            if self.min_interval <= 0:
+                return
             gap = now - self._last
             if gap < self.min_interval:
                 time.sleep(self.min_interval - gap)
@@ -184,10 +216,19 @@ class YahooProvider(DataProvider):
         backoff_base: float = PROVIDER_BACKOFF_BASE,
         request_pause: float = PROVIDER_REQUEST_PAUSE,
         cache_ttl_hours: float | None = None,
+        throttle_pause: float = PROVIDER_THROTTLE_PAUSE,
+        throttle_max_pause: float = PROVIDER_THROTTLE_MAX_PAUSE,
+        throttle_max_waits: int = PROVIDER_THROTTLE_MAX_WAITS,
     ):
         self.max_retries = int(max_retries)
         self.backoff_base = float(backoff_base)
         self.limiter = RateLimiter(request_pause)
+        self.throttle_pause = float(throttle_pause)
+        self.throttle_max_pause = float(throttle_max_pause)
+        self.throttle_max_waits = int(throttle_max_waits)
+        self.throttle_events = 0
+        self._throttle_streak = 0
+        self._throttle_lock = threading.Lock()
         self._cache = JsonCache("yahoo", ttl_hours=cache_ttl_hours)
         self._fx_cache: dict[str, float | None] = {}
         self._fx_lock = threading.Lock()
@@ -203,22 +244,59 @@ class YahooProvider(DataProvider):
                 self._tickers[symbol] = yf.Ticker(symbol)
             return self._tickers[symbol]
 
+    def forget(self, symbol: str) -> None:
+        """Drop the cached ``yf.Ticker`` so a re-fetch starts from scratch."""
+        with self._ticker_lock:
+            self._tickers.pop(symbol, None)
+
     def _retry(self, what: str, fn, *args, **kwargs):
-        """Call ``fn`` with exponential backoff and jitter.  Never raises."""
+        """Call ``fn`` with backoff.  Never raises; ``None`` on failure."""
+        value = self._attempt(what, fn, *args, **kwargs)
+        return None if value is _FAILED else value
+
+    def _throttled(self, what: str) -> None:
+        with self._throttle_lock:
+            self.throttle_events += 1
+            self._throttle_streak += 1
+            pause = min(self.throttle_max_pause, self.throttle_pause * (2 ** (self._throttle_streak - 1)))
+        log.warning("%s: provider is throttling requests; pausing all workers for %.0fs", what, pause)
+        self.limiter.pause_all(pause)
+
+    def _attempt(self, what: str, fn, *args, **kwargs):
+        """Call ``fn`` with backoff; ``_FAILED`` if every attempt failed.
+
+        Throttling ("Too Many Requests") is handled apart from ordinary errors:
+        it pauses every worker, and up to ``throttle_max_waits`` of those
+        pauses do not use up the ordinary retries.  Before this a throttle
+        burnt the four retries in about four seconds and the security was
+        recorded as unresolved, so a single throttle window silently removed a
+        whole run of the alphabet from the screen.
+        """
         last_exc: Exception | None = None
-        for attempt in range(self.max_retries):
+        attempt = 0
+        throttle_waits = 0
+        while attempt < self.max_retries:
             self.limiter.wait()
             try:
-                return fn(*args, **kwargs)
+                value = fn(*args, **kwargs)
             except Exception as exc:  # noqa: BLE001 - provider errors are varied
                 last_exc = exc
-                if attempt == self.max_retries - 1:
+                if is_rate_limit_error(exc) and throttle_waits < self.throttle_max_waits:
+                    throttle_waits += 1
+                    self._throttled(what)
+                    continue
+                attempt += 1
+                if attempt >= self.max_retries:
                     break
-                delay = (self.backoff_base ** attempt) + random.uniform(0.0, 0.4)
+                delay = (self.backoff_base ** (attempt - 1)) + random.uniform(0.0, 0.4)
                 log.debug("%s failed (%s); retrying in %.1fs", what, exc, delay)
                 time.sleep(delay)
+                continue
+            with self._throttle_lock:
+                self._throttle_streak = 0
+            return value
         log.warning("%s failed after %d attempts: %s", what, self.max_retries, last_exc)
-        return None
+        return _FAILED
 
     @staticmethod
     def _frame_to_periods(frame, period_type: str) -> list[dict[str, Any]]:
@@ -245,8 +323,12 @@ class YahooProvider(DataProvider):
         cached = self._cache.get(cache_key)
         if cached is not None:
             return cached or None
-        info = self._retry(f"info({symbol})", lambda: self._ticker(symbol).get_info())
-        if not info:
+        info = self._attempt(f"info({symbol})", lambda: self._ticker(symbol).get_info())
+        if info is _FAILED or not info:
+            return None
+        if not any(info.get(k) for k in ("quoteType", "longName", "shortName")):
+            # A throttled or half-answered request comes back as a near-empty
+            # dict.  Caching it would freeze "unknown security" for a day.
             return None
         slim = {
             k: info.get(k)
@@ -318,7 +400,11 @@ class YahooProvider(DataProvider):
             ("balance", "quarterly"): "quarterly_balance_sheet",
         }[(kind, period)]
 
-        frame = self._retry(f"{attr}({symbol})", lambda: getattr(self._ticker(symbol), attr))
+        frame = self._attempt(f"{attr}({symbol})", lambda: getattr(self._ticker(symbol), attr))
+        if frame is _FAILED:
+            # Not cached: a failed fetch must be retried, never remembered as
+            # "this company has no statements".
+            return []
         records = self._frame_to_periods(frame, period)
         self._cache.set(cache_key, records)
         return records

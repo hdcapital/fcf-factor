@@ -8,6 +8,7 @@ writes, so what you inspect locally is what CI would have committed.
 
 from __future__ import annotations
 
+import time
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
 from datetime import date
@@ -15,8 +16,11 @@ from datetime import date
 from .config import (
     CONFIG,
     MARKET_CURRENCY,
+    MAX_UNRESOLVED_SHARE,
     METHODOLOGY_VERSION,
     PROVIDER_MAX_WORKERS,
+    PROVIDER_REFETCH_COOLDOWN,
+    PROVIDER_REFETCH_PASSES,
     FactorConfig,
 )
 from .factor.cross_section import MarketFactorResult, run_market_factor
@@ -30,6 +34,14 @@ from .universe.base import UniverseEntry, UniverseResult
 from .universe.registry import build_universe
 
 log = get_logger(__name__)
+
+
+class ProviderCoverageError(RuntimeError):
+    """Too much of the universe could not be fetched for the screen to stand.
+
+    Raised rather than publishing a snapshot that silently screened only part
+    of the market.
+    """
 
 
 class SyntheticDataRefused(RuntimeError):
@@ -195,6 +207,53 @@ def _raw_financial_rows(symbol: str, bundle: CompanyFundamentals) -> list[dict]:
     return rows
 
 
+def _needs_refetch(bundle: CompanyFundamentals | None) -> bool:
+    """A fetch that came back without metadata or without any statements."""
+    if bundle is None or bundle.metadata is None:
+        return True
+    return not bundle.annual and not bundle.quarterly
+
+
+def _refetch_failures(
+    provider: DataProvider,
+    entries: list[UniverseEntry],
+    bundles: dict[str, CompanyFundamentals],
+    *,
+    passes: int,
+    cooldown: float,
+) -> dict[str, int]:
+    """Fetch the failures again, slowly, after letting the provider cool down.
+
+    Returns how many securities were retried and how many came back.
+    """
+    retried: set[str] = set()
+    recovered = 0
+    for attempt in range(1, max(0, passes) + 1):
+        todo = [e for e in entries if _needs_refetch(bundles.get(e.yahoo_symbol))]
+        if not todo:
+            break
+        log.warning(
+            "re-fetching %d securities that came back empty (pass %d of %d) after a %.0fs pause",
+            len(todo), attempt, passes, cooldown,
+        )
+        if cooldown > 0:
+            time.sleep(cooldown)
+        for entry in todo:
+            symbol = entry.yahoo_symbol
+            retried.add(symbol)
+            forget = getattr(provider, "forget", None)
+            if forget is not None:
+                forget(symbol)
+            fresh = provider.get_fundamentals(symbol)
+            old = bundles.get(symbol)
+            if not _needs_refetch(fresh):
+                recovered += 1
+                bundles[symbol] = fresh
+            elif old is None or (old.metadata is None and fresh.metadata is not None):
+                bundles[symbol] = fresh
+    return {"retried": len(retried), "recovered": recovered}
+
+
 def _fetch_all(
     provider: DataProvider, entries: list[UniverseEntry], max_workers: int
 ) -> dict[str, CompanyFundamentals]:
@@ -226,6 +285,10 @@ def run_screen(
     config: FactorConfig = CONFIG,
     max_workers: int = PROVIDER_MAX_WORKERS,
     universe: UniverseResult | None = None,
+    refetch_passes: int | None = None,
+    refetch_cooldown: float | None = None,
+    max_unresolved_share: float | None = None,
+    allow_provider_coverage_failure: bool = False,
 ) -> ScreenResult:
     """Run the complete factor for one market as at ``signal_date``."""
     market = market.upper()
@@ -268,6 +331,33 @@ def run_screen(
     result.fx_rates = fx.rates
 
     bundles = _fetch_all(provider, entries, max_workers)
+    # Read at call time so tests (and operators) can change them.
+    refetch_passes = PROVIDER_REFETCH_PASSES if refetch_passes is None else refetch_passes
+    refetch_cooldown = PROVIDER_REFETCH_COOLDOWN if refetch_cooldown is None else refetch_cooldown
+    if max_unresolved_share is None:
+        max_unresolved_share = MAX_UNRESOLVED_SHARE
+    refetch = _refetch_failures(
+        provider, entries, bundles, passes=refetch_passes, cooldown=refetch_cooldown
+    )
+    result.coverage.refetched = refetch["retried"]
+    result.coverage.refetch_recovered = refetch["recovered"]
+    result.coverage.provider_throttle_events = int(getattr(provider, "throttle_events", 0) or 0)
+
+    unresolved = sum(
+        1 for e in entries if bundles.get(e.yahoo_symbol) is None or bundles[e.yahoo_symbol].metadata is None
+    )
+    if entries and unresolved / len(entries) > max_unresolved_share:
+        message = (
+            f"{market}: {unresolved} of {len(entries)} securities "
+            f"({unresolved / len(entries):.1%}) could not be fetched from the {provider.name} "
+            f"provider even after {refetch_passes} re-fetch passes; the limit is "
+            f"{max_unresolved_share:.0%}. Refusing to publish a screen of part of the market."
+        )
+        # The synthetic provider breaks some securities on purpose, to exercise
+        # the exclusion paths; it can never be persisted, so it is exempt.
+        if not allow_provider_coverage_failure and provider.name != "synthetic":
+            raise ProviderCoverageError(message)
+        result.coverage.warnings.append(message)
 
     factors: list[CompanyFactors] = []
     raw_rows: list[dict] = []

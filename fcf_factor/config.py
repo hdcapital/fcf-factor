@@ -19,7 +19,7 @@ from pathlib import Path
 # --------------------------------------------------------------------------
 # Methodology version.  Bump this whenever the factor definition changes.
 # --------------------------------------------------------------------------
-METHODOLOGY_VERSION = "1.1.2"
+METHODOLOGY_VERSION = "1.1.3"
 #: 1.0.0 (2026-09-14) initial release.
 #: 1.1.0 (2026-10-13) minority interests removed from enterprise value and
 #:       deducted from free cash flow instead; lease liabilities verified to be
@@ -28,6 +28,11 @@ METHODOLOGY_VERSION = "1.1.2"
 #: 1.1.1 (2026-10-13) purchases and sales with no trade on the rebalance day
 #:       wait for the first real trade instead of being redistributed.
 #: 1.1.2 (2026-10-13) the minorities' earnings share ignores loss years.
+#: 1.1.3 (2026-10-14) a TTM window must be four consecutive quarters, and a
+#:       TTM revenue with a spiked quarter or far from the latest fiscal year
+#:       is rejected; a provider EV on a disputed share basis is not used;
+#:       securities lost to provider throttling are re-fetched, and a screen
+#:       still missing more than 3% of its universe is refused.
 
 # --------------------------------------------------------------------------
 # Markets
@@ -216,6 +221,22 @@ PROVIDER_MAX_WORKERS: int = _env_int("PROVIDER_MAX_WORKERS", 4)
 PROVIDER_MAX_RETRIES: int = _env_int("PROVIDER_MAX_RETRIES", 4)
 PROVIDER_BACKOFF_BASE: float = _env_float("PROVIDER_BACKOFF_BASE", 1.5)
 PROVIDER_REQUEST_PAUSE: float = _env_float("PROVIDER_REQUEST_PAUSE", 0.25)
+#: When Yahoo answers "Too Many Requests" every worker stops for this long,
+#: doubling on each consecutive throttle up to ``PROVIDER_THROTTLE_MAX_PAUSE``.
+PROVIDER_THROTTLE_PAUSE: float = _env_float("PROVIDER_THROTTLE_PAUSE", 30.0)
+PROVIDER_THROTTLE_MAX_PAUSE: float = _env_float("PROVIDER_THROTTLE_MAX_PAUSE", 300.0)
+#: Throttle waits allowed per call, on top of the ordinary retries.
+PROVIDER_THROTTLE_MAX_WAITS: int = _env_int("PROVIDER_THROTTLE_MAX_WAITS", 6)
+#: After the first pass, securities whose fetch failed are fetched again,
+#: one at a time, after this cool-down.  Up to ``PROVIDER_REFETCH_PASSES``.
+PROVIDER_REFETCH_COOLDOWN: float = _env_float("PROVIDER_REFETCH_COOLDOWN", 120.0)
+PROVIDER_REFETCH_PASSES: int = _env_int("PROVIDER_REFETCH_PASSES", 2)
+#: A screen in which more than this share of the universe still could not be
+#: resolved is refused outright: a gap that size is the provider failing, not
+#: securities being delisted, and it is never evenly spread (a throttle hits
+#: whatever is being fetched at the time, which for these lists is a run of
+#: the alphabet).  AU and NZ resolve every symbol on a healthy run.
+MAX_UNRESOLVED_SHARE: float = _env_float("MAX_UNRESOLVED_SHARE", 0.03)
 #: Fundamentals cache time-to-live, in hours.
 CACHE_TTL_HOURS: float = _env_float("CACHE_TTL_HOURS", 20.0)
 

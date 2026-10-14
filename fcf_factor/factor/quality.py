@@ -210,6 +210,10 @@ class CoverageSummary:
     exclusion_counts: dict[str, int] = field(default_factory=dict)
     flag_counts: dict[str, int] = field(default_factory=dict)
     warnings: list[str] = field(default_factory=list)
+    #: Securities fetched a second time because the first fetch came back empty.
+    refetched: int = 0
+    refetch_recovered: int = 0
+    provider_throttle_events: int = 0
 
     @property
     def metadata_coverage(self) -> float:
@@ -238,5 +242,8 @@ class CoverageSummary:
             "financial_coverage": round(self.financial_coverage, 6),
             "exclusion_counts": dict(sorted(self.exclusion_counts.items())),
             "flag_counts": dict(sorted(self.flag_counts.items())),
+            "refetched": self.refetched,
+            "refetch_recovered": self.refetch_recovered,
+            "provider_throttle_events": self.provider_throttle_events,
             "warnings": list(self.warnings),
         }

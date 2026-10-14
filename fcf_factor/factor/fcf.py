@@ -27,6 +27,20 @@ from ..providers.base import CompanyMetadata, IncomeCashflowPeriod
 MIN_TTM_SPAN_DAYS = 240
 MAX_TTM_SPAN_DAYS = 400
 
+#: Consecutive quarter-ends sit about 91 days apart (84-98 for 13-week
+#: quarters).  A larger gap means a quarter is missing from the window, and
+#: four quarters with a hole in them are not twelve months.
+MIN_QUARTER_GAP_DAYS = 60
+MAX_QUARTER_GAP_DAYS = 120
+
+#: A summed TTM revenue this far from the latest fiscal year is not growth, it
+#: is a bad quarter (Yahoo once reported a C$1.2bn quarter as C$91bn).
+MAX_TTM_REVENUE_RATIO_TO_FY = 3.0
+#: One quarter this many times the median of the other three is a data error.
+MAX_QUARTER_SPIKE_RATIO = 4.0
+#: The fiscal-year cross-check only applies if that year is recent.
+MAX_FY_CROSSCHECK_AGE_DAYS = 550
+
 
 def free_cash_flow(operating_cashflow: float | None, capex: float | None) -> float | None:
     """``CFO - |CapEx|``.  Returns ``None`` if either input is missing."""
@@ -93,7 +107,40 @@ def _latest_four_quarters(quarters: list[IncomeCashflowPeriod]) -> list[IncomeCa
     span = (window[-1].period_end - window[0].period_end).days
     if not (MIN_TTM_SPAN_DAYS <= span <= MAX_TTM_SPAN_DAYS):
         return None
+    for earlier, later in zip(window, window[1:], strict=False):
+        gap = (later.period_end - earlier.period_end).days
+        if not (MIN_QUARTER_GAP_DAYS <= gap <= MAX_QUARTER_GAP_DAYS):
+            return None
     return window
+
+
+def revenue_outlier_reason(
+    quarterly_revenues: list[float] | None,
+    ttm_revenue: float | None,
+    latest_fy: IncomeCashflowPeriod | None,
+    ttm_period_end: date | None,
+) -> str | None:
+    """Why a TTM revenue figure cannot be trusted, or ``None`` if it can.
+
+    Two independent checks: one quarter towering over the other three, and
+    the four-quarter total disagreeing wildly with the latest fiscal year.
+    Either one means a misreported number, and a revenue that is 20x too large
+    flows straight into forward FCF and the yield.
+    """
+    if quarterly_revenues and len(quarterly_revenues) >= 4:
+        for i, value in enumerate(quarterly_revenues):
+            others = sorted(abs(v) for j, v in enumerate(quarterly_revenues) if j != i)
+            median = others[len(others) // 2]
+            if median > 0 and abs(value) > MAX_QUARTER_SPIKE_RATIO * median:
+                return "quarter_spike"
+    if ttm_revenue is None or latest_fy is None or not latest_fy.revenue or latest_fy.revenue <= 0:
+        return None
+    if ttm_period_end is not None and (ttm_period_end - latest_fy.period_end).days > MAX_FY_CROSSCHECK_AGE_DAYS:
+        return None
+    ratio = float(ttm_revenue) / float(latest_fy.revenue)
+    if ratio > MAX_TTM_REVENUE_RATIO_TO_FY or ratio < 1.0 / MAX_TTM_REVENUE_RATIO_TO_FY:
+        return f"fy_ratio={ratio:.3g}"
+    return None
 
 
 def _sum_field(window: list[IncomeCashflowPeriod] | None, attr: str) -> float | None:
@@ -134,11 +181,27 @@ def build_ttm(
         result.flags.append("ttm_quarter_window_unusable")
 
     # ---- revenue ---------------------------------------------------------
+    # Both the quarterly sum and the provider's TTM are cross-checked, because
+    # the provider builds its TTM from the same quarterly statements and
+    # inherits any misreported quarter.
     revenue = _sum_field(window, "revenue")
     if revenue is not None:
+        reason = revenue_outlier_reason(
+            [p.revenue for p in window], revenue, latest_fy, result.period_end
+        )
+        if reason:
+            result.flags.append(f"ttm_revenue_quarterly_rejected:{reason}")
+            revenue = None
+    provider_revenue = metadata.ttm_revenue if metadata is not None else None
+    if revenue is None and provider_revenue is not None:
+        reason = revenue_outlier_reason(None, provider_revenue, latest_fy, result.period_end)
+        if reason:
+            result.flags.append(f"ttm_revenue_provider_rejected:{reason}")
+            provider_revenue = None
+    if revenue is not None:
         result.revenue, result.revenue_source = revenue, "quarterly_sum"
-    elif metadata is not None and metadata.ttm_revenue is not None:
-        result.revenue, result.revenue_source = float(metadata.ttm_revenue), "provider_ttm"
+    elif provider_revenue is not None:
+        result.revenue, result.revenue_source = float(provider_revenue), "provider_ttm"
         result.flags.append("revenue_ttm_from_provider")
     elif latest_fy is not None and latest_fy.revenue is not None:
         result.revenue, result.revenue_source = float(latest_fy.revenue), "latest_fiscal_year"

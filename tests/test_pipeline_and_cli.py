@@ -197,3 +197,54 @@ def test_cli_report_writes_every_markdown_file(data_root, capsys):
     assert main(["report"]) == 0
     payload = json.loads(capsys.readouterr().out)
     assert len(payload["written"]) == 6  # five markets plus the index
+
+
+# ---- provider failures (methodology 1.1.3) ------------------------------
+
+
+class _Throttled(SyntheticProvider):
+    """A live-looking provider that loses some securities on the first pass."""
+
+    name = "throttled-test"
+
+    def __init__(self, fail_first: set[str], fail_always: set[str] = frozenset(), **kwargs):
+        super().__init__(**kwargs)
+        self.fail_first = set(fail_first)
+        self.fail_always = set(fail_always)
+
+    def get_company_metadata(self, symbol):
+        if symbol in self.fail_always:
+            return None
+        if symbol in self.fail_first:
+            self.fail_first.discard(symbol)
+            return None
+        return super().get_company_metadata(symbol)
+
+
+def _healthy_symbols(market: str, count: int) -> list[str]:
+    base = SyntheticProvider(today=SIGNAL_DATE)
+    return [s for s in synthetic_universe_symbols(market, count) if base.get_company_metadata(s)]
+
+
+def test_securities_lost_to_a_throttle_are_fetched_again(data_root):
+    symbols = _healthy_symbols("NZ", 80)
+    lost = set(symbols[40:60])
+    universe = offline_universe("NZ", 80)
+    universe.entries = [e for e in universe.entries if e.yahoo_symbol in symbols]
+    result = run_screen(
+        "NZ", _Throttled(lost, today=SIGNAL_DATE), SIGNAL_DATE, universe=universe, max_workers=2
+    )
+    assert result.coverage.refetched == 20
+    assert result.coverage.refetch_recovered == 20
+    assert result.coverage.metadata_resolved == len(symbols)
+
+
+def test_a_screen_missing_a_run_of_the_universe_is_refused(data_root):
+    from fcf_factor.pipeline import ProviderCoverageError
+
+    symbols = _healthy_symbols("NZ", 80)
+    universe = offline_universe("NZ", 80)
+    universe.entries = [e for e in universe.entries if e.yahoo_symbol in symbols]
+    provider = _Throttled(set(), fail_always=set(symbols[40:]), today=SIGNAL_DATE)
+    with pytest.raises(ProviderCoverageError, match="could not be fetched"):
+        run_screen("NZ", provider, SIGNAL_DATE, universe=universe, max_workers=2)

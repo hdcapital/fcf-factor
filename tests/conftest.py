@@ -42,6 +42,12 @@ def no_network(monkeypatch):
     monkeypatch.setattr("requests.post", blocked, raising=False)
 
 
+@pytest.fixture(autouse=True)
+def no_refetch_cooldown(monkeypatch):
+    """Re-fetch passes run, but without the real two-minute cool-down."""
+    monkeypatch.setattr("fcf_factor.pipeline.PROVIDER_REFETCH_COOLDOWN", 0.0)
+
+
 @pytest.fixture
 def data_root(tmp_path, monkeypatch):
     """Redirect all persistence into a temporary directory."""

@@ -117,3 +117,57 @@ def test_ttm_requires_all_four_quarters_to_carry_the_field():
     assert ttm.revenue_source == "latest_fiscal_year"
     # Cash flow was complete across all four quarters, so FCF still uses them.
     assert ttm.fcf_source == "quarterly_sum"
+
+
+# ---- bad quarters (methodology 1.1.3) -----------------------------------
+
+
+def test_ttm_rejects_four_quarters_with_a_missing_quarter_inside():
+    """Jun, Dec, Mar, Jun spans a year but leaves September out."""
+    quarters = [
+        make_quarter(date(2025, 6, 30), 25.0, 6.0, -1.0),
+        make_quarter(date(2025, 12, 31), 25.0, 6.0, -1.0),
+        make_quarter(date(2026, 3, 31), 25.0, 6.0, -1.0),
+        make_quarter(date(2026, 6, 30), 25.0, 6.0, -1.0),
+    ]
+    annual = [make_annual(date(2025, 12, 31), 100.0, 24.0, -4.0)]
+    ttm = build_ttm(quarters, annual)
+    assert "ttm_quarter_window_unusable" in ttm.flags
+    assert ttm.revenue_source == "latest_fiscal_year"
+
+
+def test_a_misreported_quarter_does_not_become_the_ttm_revenue():
+    """Cascades: one C$1.2bn quarter reported as C$91bn."""
+    quarters = _four_quarters()
+    quarters[2] = make_quarter(date(2025, 9, 30), 1_900.0, 6.0, -1.0)
+    annual = [make_annual(date(2024, 12, 31), 100.0, 24.0, -4.0)]
+    metadata = CompanyMetadata(symbol="X", ttm_revenue=1_975.0)
+    ttm = build_ttm(quarters, annual, metadata)
+    assert any(f.startswith("ttm_revenue_quarterly_rejected:quarter_spike") for f in ttm.flags)
+    # The provider's TTM is built from the same bad quarter, so it goes too.
+    assert any(f.startswith("ttm_revenue_provider_rejected") for f in ttm.flags)
+    assert ttm.revenue == 100.0
+    assert ttm.revenue_source == "latest_fiscal_year"
+    # Cash flow from the same window is still a clean quarterly sum.
+    assert ttm.fcf_source == "quarterly_sum"
+
+
+def test_a_ttm_revenue_far_from_the_latest_fiscal_year_is_rejected():
+    quarters = [make_quarter(q.period_end, 250.0, 6.0, -1.0) for q in _four_quarters()]
+    annual = [make_annual(date(2024, 12, 31), 100.0, 24.0, -4.0)]
+    ttm = build_ttm(quarters, annual)
+    assert any(f.startswith("ttm_revenue_quarterly_rejected:fy_ratio=10") for f in ttm.flags)
+    assert ttm.revenue_source == "latest_fiscal_year"
+
+
+def test_genuine_fast_growth_is_not_mistaken_for_a_bad_quarter():
+    quarters = [
+        make_quarter(date(2025, 3, 31), 30.0, 6.0, -1.0),
+        make_quarter(date(2025, 6, 30), 45.0, 6.0, -1.0),
+        make_quarter(date(2025, 9, 30), 60.0, 6.0, -1.0),
+        make_quarter(date(2025, 12, 31), 80.0, 6.0, -1.0),
+    ]
+    annual = [make_annual(date(2024, 12, 31), 100.0, 24.0, -4.0)]
+    ttm = build_ttm(quarters, annual)
+    assert ttm.revenue_source == "quarterly_sum"
+    assert ttm.revenue == 215.0

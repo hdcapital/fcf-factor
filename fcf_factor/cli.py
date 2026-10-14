@@ -141,6 +141,7 @@ def cmd_screen(args: argparse.Namespace) -> int:
                 allow_universe_integrity_failure=args.allow_integrity_failure or args.limit is not None,
                 max_workers=args.max_workers,
                 universe=universe,
+                allow_provider_coverage_failure=args.limit is not None,
             )
         except Exception as exc:  # noqa: BLE001
             log.error("screen failed for %s: %s", market, exc)

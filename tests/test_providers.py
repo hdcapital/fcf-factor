@@ -184,3 +184,70 @@ def test_total_equity_is_never_mistaken_for_minority_interest():
     assert _first(equity_only, MINORITY_LABELS) is None
     real_nci = {"Minority Interest": 6_500_000.0, "Total Equity Gross Minority Interest": 1.2e9}
     assert _first(real_nci, MINORITY_LABELS) == 6_500_000.0
+
+
+# ---- throttling (methodology 1.1.3) -------------------------------------
+
+
+class YFRateLimitError(Exception):
+    """Stand-in with yfinance's class name."""
+
+
+class _FakeTicker:
+    def __init__(self, outcomes):
+        self.outcomes = list(outcomes)
+        self.calls = 0
+
+    def get_info(self):
+        self.calls += 1
+        outcome = self.outcomes.pop(0)
+        if isinstance(outcome, Exception):
+            raise outcome
+        return outcome
+
+
+def _provider_with(tmp_path, ticker):
+    provider = YahooProvider(
+        max_retries=2, backoff_base=0.0, request_pause=0.0, throttle_pause=0.0
+    )
+    provider._cache = JsonCache("yahoo", root=tmp_path)
+    provider._tickers["ABC"] = ticker
+    return provider
+
+
+def test_a_throttle_waits_instead_of_using_up_the_retries(tmp_path):
+    ticker = _FakeTicker(
+        [YFRateLimitError("Too Many Requests. Rate limited. Try after a while.")] * 4
+        + [{"quoteType": "EQUITY", "longName": "ABC Corp"}]
+    )
+    provider = _provider_with(tmp_path, ticker)
+    metadata = provider.get_company_metadata("ABC")
+    assert metadata is not None and metadata.name == "ABC Corp"
+    assert provider.throttle_events == 4
+
+
+def test_a_failed_fetch_is_not_cached_as_an_unknown_security(tmp_path):
+    ticker = _FakeTicker([RuntimeError("boom"), RuntimeError("boom")])
+    provider = _provider_with(tmp_path, ticker)
+    assert provider.get_company_metadata("ABC") is None
+    assert provider._cache.get("info:ABC") is None
+    provider._tickers["ABC"] = _FakeTicker([{"quoteType": "EQUITY", "longName": "ABC Corp"}])
+    assert provider.get_company_metadata("ABC").name == "ABC Corp"
+
+
+def test_a_near_empty_info_payload_is_treated_as_a_failure(tmp_path):
+    ticker = _FakeTicker([{"trailingPegRatio": None}])
+    provider = _provider_with(tmp_path, ticker)
+    assert provider.get_company_metadata("ABC") is None
+    assert provider._cache.get("info:ABC") is None
+
+
+def test_a_failed_statement_fetch_is_not_cached(tmp_path):
+    class Boom:
+        @property
+        def income_stmt(self):
+            raise RuntimeError("boom")
+
+    provider = _provider_with(tmp_path, Boom())
+    assert provider._statement_records("ABC", "income", "annual") == []
+    assert provider._cache.get("stmt:ABC:income:annual") is None
