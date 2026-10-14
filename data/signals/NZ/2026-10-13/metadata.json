@@ -1,0 +1,144 @@
+{
+  "config": {
+    "CURRENT_FCF_WEIGHT": 0.5,
+    "EXTREME_FCF_YIELD": 0.5,
+    "FCF_YIELD_WEIGHT_CAP": 0.15,
+    "FORWARD_FCF_WEIGHT": 0.5,
+    "FORWARD_GROWTH_CAGR_WEIGHT": 0.6,
+    "FORWARD_GROWTH_MAX": 0.3,
+    "FORWARD_GROWTH_MIN": -0.15,
+    "FORWARD_GROWTH_YOY_WEIGHT": 0.4,
+    "GROWTH_KEEP_RATIO": 0.6666666666666666,
+    "MARKET_CAP_HARD_TOLERANCE": 5.0,
+    "MARKET_CAP_TOLERANCE_HIGH": 2.0,
+    "MARKET_CAP_TOLERANCE_LOW": 0.5,
+    "MAX_SECTOR_WEIGHT": 0.35,
+    "MAX_STATEMENT_AGE_DAYS": 640,
+    "MAX_STOCK_WEIGHT": 0.03,
+    "MIN_ANNUAL_PERIODS": 3,
+    "MIN_MARKET_CAP_USD": 50000000.0,
+    "MIN_RAW_UNIVERSE": {
+      "AU": 400,
+      "CA": 500,
+      "NZ": 40,
+      "UK": 400,
+      "US": 1500
+    },
+    "PREFERRED_ANNUAL_PERIODS": 4,
+    "STARTING_NAV": 100.0,
+    "TRANSACTION_COST_BPS": 0.0,
+    "UNIVERSE_SHRINK_WARN": 0.35,
+    "VALUE_SCREEN_PERCENTILE": 0.1875,
+    "Z_SCORE_CLIP": 3.0
+  },
+  "config_hash": "a01a831b73d82521082e27573c2b5238500102705d87846b35b5a931d9d193dd",
+  "coverage": {
+    "above_market_cap": 74,
+    "eligible": 48,
+    "exclusion_counts": {
+      "below_min_market_cap": 31,
+      "ebitda_unavailable": 1,
+      "excluded_industry": 8,
+      "excluded_sector": 10,
+      "expected_fcf_not_positive": 10,
+      "insufficient_annual_history": 5,
+      "market_cap_unavailable": 45,
+      "quote_type": 1,
+      "quote_type_missing": 1,
+      "ttm_ebitda_not_positive": 5,
+      "ttm_fcf_unavailable": 4,
+      "ttm_revenue_unavailable": 1
+    },
+    "financial_coverage": 0.648649,
+    "flag_counts": {
+      "annual_history_below_preferred": 9,
+      "ebitda_ttm_from_latest_fy": 1,
+      "ebitda_ttm_from_provider": 63,
+      "fcf_ttm_from_provider_fcf_field": 64,
+      "growth_clamped_high": 2,
+      "growth_clamped_low": 1,
+      "lease_inclusion_assumed": 7,
+      "lease_liabilities_not_reported": 6,
+      "market_cap_from_price_times_shares": 4,
+      "nci_adjusted": 19,
+      "nci_adjusted_from_book": 1,
+      "nci_loss_years_excluded": 7,
+      "nci_share_negative_floored": 4,
+      "preferred_stock_assumed_zero": 48,
+      "provider_returned_no_statements": 3,
+      "reporting_currency_differs": 10,
+      "revenue_ttm_from_latest_fy": 4,
+      "revenue_ttm_from_provider": 64,
+      "stale_statements": 5,
+      "statement_date_unknown": 3,
+      "ttm_quarter_window_unusable": 1
+    },
+    "metadata_coverage": 1.0,
+    "metadata_resolved": 170,
+    "passed_financial_filters": 48,
+    "passed_security_filters": 150,
+    "selected": 6,
+    "universe_size": 170,
+    "value_shortlist": 9,
+    "warnings": []
+  },
+  "data_provider": "yahoo",
+  "execution_rule": "Signal generated after market close. Execution occurs at the next available market open; same-session closing prices are never used as entry prices.",
+  "fx_rates_to_usd": {
+    "AUD": 0.6985679268836975,
+    "CAD": 0.7033486366271973,
+    "CHF": 1.200855016708374,
+    "CNY": 0.14966250956058502,
+    "DKK": 0.149859219789505,
+    "EUR": 1.1203227043151855,
+    "GBP": 1.3256797790527344,
+    "HKD": 0.12741920351982117,
+    "ILS": 0.3261472284793854,
+    "JPY": 0.006314885336905718,
+    "NOK": 0.10508804768323898,
+    "NZD": 0.5614507794380188,
+    "SEK": 0.10038084536790848,
+    "SGD": 0.7815003395080566,
+    "USD": 1.0,
+    "ZAR": 0.06067703664302826
+  },
+  "listing_currency": "NZD",
+  "market": "NZ",
+  "methodology_version": "1.1.2",
+  "notes": [
+    "stock cap relaxed from 0.0300 to 0.1667: 6 holdings cannot fill 100% at the configured cap"
+  ],
+  "selection": {
+    "eligible": 48,
+    "growth_keep_ratio": 0.6666666666666666,
+    "n_final": 6,
+    "n_value": 9,
+    "value_screen_percentile": 0.1875
+  },
+  "signal_date": "2026-10-13",
+  "signal_timestamp": "2026-10-13T23:38:34+00:00",
+  "universe": {
+    "fetched_at": "2026-10-13T23:38:29.011147+00:00",
+    "is_stale": false,
+    "parse_exclusions": 1,
+    "size": 170,
+    "sources": [
+      "https://www.nzx.com/markets/NZSX"
+    ],
+    "stale_reason": null,
+    "warnings": []
+  },
+  "weighting": {
+    "effective_sector_cap": 0.35,
+    "effective_stock_cap": 0.16666666666666666,
+    "notes": [
+      "stock cap relaxed from 0.0300 to 0.1667: 6 holdings cannot fill 100% at the configured cap"
+    ],
+    "sector_weights": {
+      "Communication Services": 0.16666666666666666,
+      "Consumer Cyclical": 0.3333333333333333,
+      "Consumer Defensive": 0.33333333333333337,
+      "Real Estate": 0.16666666666666666
+    }
+  }
+}

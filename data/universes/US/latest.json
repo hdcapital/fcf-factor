@@ -1,0 +1,13 @@
+{
+  "as_of": "2026-10-13",
+  "excluded_count": 7627,
+  "fetched_at": "2026-10-13T23:38:27.504856+00:00",
+  "market": "US",
+  "path": "2026-10-13.csv",
+  "size": 5658,
+  "sources": [
+    "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
+    "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt"
+  ],
+  "warnings": []
+}

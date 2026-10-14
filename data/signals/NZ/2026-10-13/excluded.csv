@@ -1,0 +1,123 @@
+yahoo_symbol,exchange_symbol,name,stage,reasons
+AFC.NZ,AFC,AFC Group Holdings Limited,market_cap,below_min_market_cap:2057277
+AFI.NZ,AFI,Australian Foundation Investment Company Limited,identity,excluded_sector:Financial Services
+AFT.NZ,AFT,AFT Pharmaceuticals Limited,expected_fcf,expected_fcf_not_positive
+AGG.NZ,AGG,Smart Global Aggregate Bond ETF,market_cap,market_cap_unavailable
+AGL.NZ,AGL,Accordant Group Limited,market_cap,below_min_market_cap:6305706
+AIA.NZ,AIA,Auckland International Airport Limited,expected_fcf,expected_fcf_not_positive
+AIR.NZ,AIR,Air New Zealand Limited,expected_fcf,expected_fcf_not_positive
+ALF.NZ,ALF,Allied Farmers Limited,market_cap,below_min_market_cap:9671286
+ANZ.NZ,ANZ,ANZ Group Holdings Limited,identity,excluded_sector:Financial Services
+AOF.NZ,AOF,AoFrio Limited,market_cap,below_min_market_cap:12677596
+APA.NZ,APA,Smart Asia Pacific ETF,market_cap,market_cap_unavailable
+APL.NZ,APL,Asset Plus Limited,identity,excluded_industry:reit
+ARB.NZ,ARB,ArborGen Holdings Limited,market_cap,below_min_market_cap:18791118
+ARG.NZ,ARG,Argosy Property Limited,identity,excluded_industry:reit
+ASD.NZ,ASD,Smart Australian Dividend ETF,market_cap,market_cap_unavailable
+ASF.NZ,ASF,Smart Australian Financials ETF,market_cap,market_cap_unavailable
+ASP.NZ,ASP,Smart Australian Property ETF,market_cap,market_cap_unavailable
+ASR.NZ,ASR,Smart Australian Resources ETF,market_cap,market_cap_unavailable
+AUE.NZ,AUE,Smart Australian ESG ET,market_cap,market_cap_unavailable
+AUS.NZ,AUS,Smart Australian Top 200 ETF,market_cap,market_cap_unavailable
+BAI.NZ,BAI,Being AI Limited,market_cap,below_min_market_cap:591113
+BFG.NZ,BFG,Burger Fuel Group Limited,market_cap,below_min_market_cap:6726275
+BIF.NZ,BIF,Booster Investment Management Limited - Booster Innovation Fund,market_cap,market_cap_unavailable
+BIT.NZ,BIT,Bankers Ord,financial_data,ttm_fcf_unavailable
+BLT.NZ,BLT,BLIS Technologies Limited,market_cap,below_min_market_cap:19393152
+BOT.NZ,BOT,Smart Automation and Robotics ETF,market_cap,market_cap_unavailable
+BPG.NZ,BPG,Black Pearl Group Limited,market_cap,below_min_market_cap:13528025
+BRM.NZ,BRM,Barramundi Limited,financial_data,ttm_revenue_unavailable
+BRW.NZ,BRW,Bremworth Limited,market_cap,below_min_market_cap:23274170
+BTC.NZ,BTC,Smart Bitcoin ETF,market_cap,market_cap_unavailable
+CCC.NZ,CCC,Cooks Coffee Company Limited,market_cap,below_min_market_cap:4847855
+CRP.NZ,CRP,Chatham Rock Phosphate Limited,market_cap,below_min_market_cap:2462304
+DIV.NZ,DIV,Smart NZ Dividend ETF,market_cap,market_cap_unavailable
+DOW.NZ,DOW,,identity,quote_type_missing
+EMF.NZ,EMF,Smart Emerging Markets ETF,market_cap,market_cap_unavailable
+EMG.NZ,EMG,Smart Emerging Markets ESG ETF,market_cap,market_cap_unavailable
+ENS.NZ,ENS,Enprise Group Limited,market_cap,below_min_market_cap:5015386
+ESG.NZ,ESG,Smart Global ESG ETF,market_cap,market_cap_unavailable
+EUF.NZ,EUF,Smart Europe ETF,market_cap,market_cap_unavailable
+EUG.NZ,EUG,Smart Europe ESG ETF,market_cap,market_cap_unavailable
+FCT.NZ,FCT,F&C Investment Trust PLC,financial_data,insufficient_annual_history:0
+FNZ.NZ,FNZ,Smart NZ Top 50 ETF,market_cap,market_cap_unavailable
+FSF.NZ,FSF,Fonterra Shareholders Fund,identity,excluded_sector:Financial Services
+FWL.NZ,FWL,Foley Wines Limited,market_cap,below_min_market_cap:23436332
+GBF.NZ,GBF,Smart Global Bond ETF,market_cap,market_cap_unavailable
+GEN.NZ,GEN,General Capital Limited,identity,excluded_sector:Financial Services
+GGB.NZ,GGB,Smart Global Government Bond ETF,market_cap,market_cap_unavailable
+GLD.NZ,GLD,Smart Gold ETF,market_cap,market_cap_unavailable
+GNZ.NZ,GNZ,Goodman Property Trust,identity,excluded_industry:reit
+GPR.NZ,GPR,Smart Global Property ETF,market_cap,market_cap_unavailable
+HFL.NZ,HFL,Henderson Far East Income Limited,financial_data,ebitda_unavailable
+HGH.NZ,HGH,Heartland Group Holdings Limited,identity,excluded_sector:Financial Services
+IKE.NZ,IKE,ikeGPS Group Limited,financial_data,ttm_ebitda_not_positive
+INF.NZ,INF,Smart Global Infrastructure ETF,market_cap,market_cap_unavailable
+IPL.NZ,IPL,Investore Property Limited,identity,excluded_industry:reit
+IPR.NZ,IPR,,identity,quote_type:NONE
+JPN.NZ,JPN,Smart Japan ESG ETF,market_cap,market_cap_unavailable
+KFL.NZ,KFL,Kingfish Limited,financial_data,ttm_fcf_unavailable
+KPG.NZ,KPG,Kiwi Property Group Limited,identity,excluded_industry:reit
+LIV.NZ,LIV,Smart Healthcare Innovation ETF,market_cap,market_cap_unavailable
+LOC.NZ,LOC,Locate Technologies Limited,market_cap,below_min_market_cap:6925699
+MDZ.NZ,MDZ,Smart NZ Mid Cap ETF,market_cap,market_cap_unavailable
+MEE.NZ,MEE,Me Today Limited,market_cap,below_min_market_cap:4723181
+MEX.NZ,MEX,Minerals Exploration Limited,market_cap,below_min_market_cap:7886349
+MFB.NZ,MFB,My Food Bag Group Limited,market_cap,below_min_market_cap:43587252
+MKR.NZ,MKR,Manuka Resources Limited,financial_data,ttm_ebitda_not_positive
+MLN.NZ,MLN,Marlin Global Limited,financial_data,ttm_fcf_unavailable
+MOV.NZ,MOV,MOVE Logistics Group Limited,market_cap,below_min_market_cap:12180328
+MPG.NZ,MPG,Metro Performance Glass Limited,market_cap,below_min_market_cap:12012000
+MZY.NZ,MZY,Smart Australian Mid Cap ETF,financial_data,insufficient_annual_history:0
+NGB.NZ,NGB,Smart S&P/NZX NZ Government Bond ETF,market_cap,market_cap_unavailable
+NPF.NZ,NPF,Smart NZ Property ETF,market_cap,market_cap_unavailable
+NPH.NZ,NPH,Napier Port Holdings Limited,expected_fcf,expected_fcf_not_positive
+NTL.NZ,NTL,New Talisman Gold Mines Limited,market_cap,below_min_market_cap:2672551
+NZB.NZ,NZB,Smart NZ Bond ETF,market_cap,market_cap_unavailable
+NZC.NZ,NZC,Smart NZ Cash ETF,market_cap,market_cap_unavailable
+NZG.NZ,NZG,Smart S&P/NZX 50 ETF,market_cap,market_cap_unavailable
+NZK.NZ,NZK,New Zealand King Salmon Investments Limited,financial_data,ttm_fcf_unavailable
+NZT.NZ,NZT,Smart S&P/NZX 20 ETF,market_cap,market_cap_unavailable
+NZX.NZ,NZX,NZX Limited,identity,excluded_sector:Financial Services
+OZY.NZ,OZY,Smart Australian Top 20 ETF,market_cap,market_cap_unavailable
+PCT.NZ,PCT,Precinct Properties NZ Ltd & Precinct Properties Investments Ltd,identity,excluded_industry:reit
+PEB.NZ,PEB,Pacific Edge Limited,financial_data,ttm_ebitda_not_positive
+PFI.NZ,PFI,Property For Industry Limited,identity,excluded_industry:reit
+PHL.NZ,PHL,Promisia Healthcare Limited,market_cap,below_min_market_cap:20014853
+PLP.NZ,PLP,Private Land And Property Fund,identity,excluded_sector:Financial Services
+POT.NZ,POT,Port of Tauranga Limited,expected_fcf,expected_fcf_not_positive
+PYS.NZ,PYS,PaySauce Limited,market_cap,below_min_market_cap:18693256
+RGI.NZ,RGI,Rua Gold Inc.,financial_data,insufficient_annual_history:1
+RTO.NZ,RTO,RTO Limited,identity,excluded_sector:Financial Services
+RUA.NZ,RUA,Rua Bioscience Limited,market_cap,below_min_market_cap:5526814
+SDL.NZ,SDL,Solution Dynamics Limited,market_cap,below_min_market_cap:4896825
+SKC.NZ,SKC,SkyCity Entertainment Group Limited,expected_fcf,expected_fcf_not_positive
+SKO.NZ,SKO,Serko Limited,financial_data,ttm_ebitda_not_positive
+SMI.NZ,SMI,Santana Minerals Limited,financial_data,insufficient_annual_history:0
+SML.NZ,SML,Synlait Milk Limited,financial_data,ttm_ebitda_not_positive
+STU.NZ,STU,Steel & Tube Holdings Limited,market_cap,below_min_market_cap:31961109
+SUM.NZ,SUM,Summerset Group Holdings Limited,expected_fcf,expected_fcf_not_positive
+SVR.NZ,SVR,Savor Limited,market_cap,below_min_market_cap:7975119
+TAH.NZ,TAH,Third Age Health Services Limited,market_cap,below_min_market_cap:25541532
+TCM.NZ,TCM,Taiko Critical Minerals Limited,market_cap,market_cap_unavailable
+TEM.NZ,TEM,Templeton Emerging Markets Investment Trust plc,financial_data,insufficient_annual_history:0
+TNZ.NZ,TNZ,Smart NZ Top 10 ETF,market_cap,market_cap_unavailable
+TRA.NZ,TRA,Turners Automotive Group Limited,expected_fcf,expected_fcf_not_positive
+TRU.NZ,TRU,TruScreen Group Limited,market_cap,below_min_market_cap:7058911
+TWF.NZ,TWF,Smart Total World ETF,market_cap,market_cap_unavailable
+TWH.NZ,TWH,Smart Total World (NZD Hedged) ETF,market_cap,market_cap_unavailable
+TWL.NZ,TWL,Trade Window Holdings Limited,market_cap,below_min_market_cap:11206470
+TWR.NZ,TWR,Tower Limited,identity,excluded_sector:Financial Services
+USA.NZ,USA,Smart US ESG ETF,market_cap,market_cap_unavailable
+USF.NZ,USF,Smart US 500 ETF,market_cap,market_cap_unavailable
+USG.NZ,USG,Smart US Large Growth ETF,market_cap,market_cap_unavailable
+USH.NZ,USH,Smart US 500 (NZD Hedged) ETF,market_cap,market_cap_unavailable
+USM.NZ,USM,Smart US Mid Cap ETF,market_cap,market_cap_unavailable
+USS.NZ,USS,Smart US Small Cap ETF,market_cap,market_cap_unavailable
+UST.NZ,UST,Smart US Technology (NZD Hedged) ETF,market_cap,market_cap_unavailable
+USV.NZ,USV,Smart US Large Value ETF,market_cap,market_cap_unavailable
+VCT.NZ,VCT,Vector Limited,expected_fcf,expected_fcf_not_positive
+VGL.NZ,VGL,Vista Group International Limited,expected_fcf,expected_fcf_not_positive
+VHP.NZ,VHP,Vital Healthcare Property Trust,identity,excluded_industry:reit
+WBC.NZ,WBC,Westpac Banking Corporation,identity,excluded_sector:Financial Services
+WCO.NZ,WCO,WasteCo Group Limited,market_cap,below_min_market_cap:4523073

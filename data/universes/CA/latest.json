@@ -1,0 +1,13 @@
+{
+  "as_of": "2026-10-13",
+  "excluded_count": 2239,
+  "fetched_at": "2026-10-13T23:38:25.336061+00:00",
+  "market": "CA",
+  "path": "2026-10-13.csv",
+  "size": 3606,
+  "sources": [
+    "https://www.tsx.com/json/company-directory/search/tsx/A-Z",
+    "https://www.tsx.com/json/company-directory/search/tsxv/A-Z"
+  ],
+  "warnings": []
+}

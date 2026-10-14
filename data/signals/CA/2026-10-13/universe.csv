@@ -1,0 +1,3607 @@
+market,exchange,exchange_symbol,yahoo_symbol,name,industry,source
+CA,TSXV,AAAJ.P,AAAJ-P.V,AAJ Capital 3 Corp.,,tmx:tsxv
+CA,TSX,AAB,AAB.TO,Aberdeen Int'l. J,,tmx:tsx
+CA,TSXV,AAG,AAG.V,Aftermath Silver Ltd.,,tmx:tsxv
+CA,TSXV,AAN,AAN.V,Aton Resources Inc.,,tmx:tsxv
+CA,TSX,AAPL,AAPL.TO,Apple CDR CAD HD,,tmx:tsx
+CA,TSX,AAPU,AAPU.TO,SavvyLong (2X) AAPL,,tmx:tsx
+CA,TSX,AAUC,AAUC.TO,Allied Gold Corp,,tmx:tsx
+CA,TSX,AAV,AAV.TO,Advantage Energy Ltd,,tmx:tsx
+CA,TSXV,AAZ,AAZ.V,Azincourt Energy Corp.,,tmx:tsxv
+CA,TSXV,ABA,ABA.V,Abasca Resources Inc.,,tmx:tsxv
+CA,TSX,ABBV,ABBV.TO,AbbVie CDR CAN Hgd,,tmx:tsx
+CA,TSXV,ABC,ABC.V,Absolutely Critical Resources Corp.,,tmx:tsxv
+CA,TSXV,ABI,ABI.V,Abcourt Mines Inc.,,tmx:tsxv
+CA,TSXV,ABM,ABM.V,Aben Gold Corp.,,tmx:tsxv
+CA,TSX,ABNB,ABNB.TO,Airbnb CDR CAN Hgd,,tmx:tsx
+CA,TSXV,ABR,ABR.V,Arbor Metals Corp.,,tmx:tsxv
+CA,TSX,ABRA,ABRA.TO,AbraSilver Resrce Co,,tmx:tsx
+CA,TSX,ABT,ABT.TO,AbbottLab CDR Hgd,,tmx:tsx
+CA,TSX,ABX,ABX.TO,Barrick Mining Corpo,,tmx:tsx
+CA,TSX,ABXU,ABXU.TO,SavvyLong2x BarriETF,,tmx:tsx
+CA,TSX,ABXX,ABXX.TO,Abaxx Technologies I,,tmx:tsx
+CA,TSXV,ABZ,ABZ.V,ASIABASEMETALS INC.,,tmx:tsxv
+CA,TSX,AC,AC.TO,Air Canada Vote & VV,,tmx:tsx
+CA,TSXV,ACAP.P,ACAP-P.V,Atlas One Capital Corporation,,tmx:tsxv
+CA,TSX,ACB,ACB.TO,Aurora Cannabis J,,tmx:tsx
+CA,TSX,ACD,ACD.TO,Accord Financial,,tmx:tsx
+CA,TSXV,ACDC,ACDC.V,AC/DC Battery Metals Inc.,,tmx:tsxv
+CA,TSX,ACHP,ACHP.TO,Glbl X Asia Semi Ind,,tmx:tsx
+CA,TSX,ACO.X,ACO-X.TO,ATCO Ltd. Cl I NV,,tmx:tsx
+CA,TSX,ACQ,ACQ.TO,AutoCanada Inc.,,tmx:tsx
+CA,TSXV,ACS,ACS.V,Archon Minerals Ltd.,,tmx:tsxv
+CA,TSX,ACT,ACT.TO,Aduro Clean Tech,,tmx:tsx
+CA,TSX,ACX,ACX.TO,ACT Energy Tech Ltd.,,tmx:tsx
+CA,TSXV,ADAD.P,ADAD-P.V,Adagio 2 Capital Inc.,,tmx:tsxv
+CA,TSX,ADBE,ADBE.TO,Adobe CDR CAN Hgd,,tmx:tsx
+CA,TSX,ADCO,ADCO.TO,Adcore Inc. J,,tmx:tsx
+CA,TSXV,ADE,ADE.V,Adex Mining Inc,,tmx:tsxv
+CA,TSX,ADEN,ADEN.TO,ADENTRA Inc.,,tmx:tsx
+CA,TSX,ADIV,ADIV.TO,Arrow EC EqAdvntgAlt,,tmx:tsx
+CA,TSXV,ADK,ADK.V,Diagnos Inc.,,tmx:tsxv
+CA,TSX,ADN,ADN.TO,Acadian Timber Corp.,,tmx:tsx
+CA,TSXV,ADY,ADY.V,Adyton Resources Corporation,,tmx:tsxv
+CA,TSXV,ADZ,ADZ.V,Adamera Minerals Corp.,,tmx:tsxv
+CA,TSXV,AE,AE.V,American Eagle Gold Corp.,,tmx:tsxv
+CA,TSXV,AEC,AEC.V,Anfield Energy Inc.,,tmx:tsxv
+CA,TSXV,AEF,AEF.V,AE Fuels Corporation,,tmx:tsxv
+CA,TSX,AEG,AEG.TO,Aegis Brands Inc.,,tmx:tsx
+CA,TSX,AEM,AEM.TO,Agnico Eagle Mines,,tmx:tsx
+CA,TSXV,AEMC,AEMC.V,Alaska Energy Metals Corporation,,tmx:tsxv
+CA,TSX,AEME,AEME.TO,Harvest Agnico Eagle,,tmx:tsx
+CA,TSX,AENP,AENP.TO,AGF Enh US Inc Plus,,tmx:tsx
+CA,TSXV,AEP,AEP.V,Atlas Engineered Products Ltd.,,tmx:tsxv
+CA,TSXV,AFC.P,AFC-P.V,AF3 Capital Corp.,,tmx:tsxv
+CA,TSXV,AFE,AFE.V,Africa Energy Corp.,,tmx:tsxv
+CA,TSXV,AFM,AFM.V,Alphamin Resources Corp.,,tmx:tsxv
+CA,TSX,AFN,AFN.TO,Ag Growth Int'l Inc.,,tmx:tsx
+CA,TSX,AG,AG.TO,First Majestic J,,tmx:tsx
+CA,TSXV,AGA,AGA.V,Silver47 Exploration Corp.,,tmx:tsxv
+CA,TSXV,AGAG,AGAG.V,Argenta Silver Corp.,,tmx:tsxv
+CA,TSXV,AGET,AGET.V,AGEDB Technology Ltd.,,tmx:tsxv
+CA,TSX,AGF.B,AGF-B.TO,AGF Management B NV,,tmx:tsx
+CA,TSX,AGG,AGG.TO,EvCd AgBd EnY FndETF,,tmx:tsx
+CA,TSX,AGGX,AGGX.TO,Glbl X Cdn Uni BD In,,tmx:tsx
+CA,TSX,AGI,AGI.TO,Alamos Gold Inc. J,,tmx:tsx
+CA,TSXV,AGLD,AGLD.V,Austral Gold Limited,,tmx:tsxv
+CA,TSX,AGMR,AGMR.TO,Silver Mntn Rsrc Inc,,tmx:tsx
+CA,TSX,AGTF,AGTF.TO,AGT Food&Ingr Inc,,tmx:tsx
+CA,TSXV,AGX,AGX.V,Silver X Mining Corp.,,tmx:tsxv
+CA,TSXV,AHR,AHR.V,Amarc Resources Ltd.,,tmx:tsxv
+CA,TSX,AI,AI.TO,Atrium Mtg Invest,,tmx:tsx
+CA,TSX,AIAI,AIAI.TO,NetraMark Hlding Inc,,tmx:tsx
+CA,TSX,AIDX,AIDX.TO,HealWELL AI J SV A,,tmx:tsx
+CA,TSX,AIF,AIF.TO,Altus Group Limited,,tmx:tsx
+CA,TSX,AIM,AIM.TO,Aimia Inc.,,tmx:tsx
+CA,TSXV,AIME.P,AIME-P.V,AIM5 Ventures Inc.,,tmx:tsxv
+CA,TSX,AIQ,AIQ.TO,GlobalX AI&TechInd A,,tmx:tsx
+CA,TSXV,AIR,AIR.V,Clean Air Metals Inc.,,tmx:tsxv
+CA,TSXV,AIS,AIS.V,A.I.S. Resources Limited,,tmx:tsxv
+CA,TSXV,AISX,AISX.V,Aisix Solutions Inc.,,tmx:tsxv
+CA,TSXV,AIVC,AIVC.V,AI Artificial Intelligence Ventures Inc.,,tmx:tsxv
+CA,TSX,AKT,AKT.TO,Akita Drilling,,tmx:tsx
+CA,TSX,ALA,ALA.TO,AltaGas Ltd.,,tmx:tsx
+CA,TSXV,ALAB.P,ALAB-P.V,A-Labs Capital II Corp.,,tmx:tsxv
+CA,TSXV,ALBT.P,ALBT-P.V,Albatros Acquisition Corporation Inc.,,tmx:tsxv
+CA,TSX,ALC,ALC.TO,Algoma Central Corp,,tmx:tsx
+CA,TSXV,ALCH,ALCH.V,Alchemy Labs Inc.,,tmx:tsxv
+CA,TSXV,ALDD.P,ALDD-P.V,ALDD Ventures Corp.,,tmx:tsxv
+CA,TSXV,ALDE,ALDE.V,Aldebaran Resources Inc.,,tmx:tsxv
+CA,TSXV,ALEX,ALEX.V,Alpha Exploration Ltd.,,tmx:tsxv
+CA,TSXV,ALGR,ALGR.V,Algo Grande Copper Corp.,,tmx:tsxv
+CA,TSX,ALK,ALK.TO,Alkane Resources Ltd,,tmx:tsx
+CA,TSXV,ALM,ALM.V,Alliance Mining Corp.,,tmx:tsxv
+CA,TSX,ALPU,ALPU.TO,SavvyLong 2X GOOGL E,,tmx:tsx
+CA,TSX,ALS,ALS.TO,Altius Minerals Corp,,tmx:tsx
+CA,TSXV,ALT,ALT.V,Alturas Minerals Corp,,tmx:tsxv
+CA,TSXV,ALTA,ALTA.V,Altamira Gold Corp.,,tmx:tsxv
+CA,TSXV,ALTN,ALTN.V,Aeonian Resources Corp.,,tmx:tsxv
+CA,TSXV,ALTR.P,ALTR-P.V,Alterego Ventures 24 Corp.,,tmx:tsxv
+CA,TSXV,ALTU,ALTU.V,Altura Energy Corp.,,tmx:tsxv
+CA,TSXV,ALV,ALV.V,Alvopetro Energy Ltd.,,tmx:tsxv
+CA,TSXV,ALX,ALX.V,Alex Metals Corp.,,tmx:tsxv
+CA,TSX,ALYA,ALYA.TO,Alithya Group J A SV,,tmx:tsx
+CA,TSX,ALZ,ALZ.TO,Allianz CDR CAD Hed,,tmx:tsx
+CA,TSXV,ALZI,ALZI.V,Alzai Health Corp.,,tmx:tsxv
+CA,TSX,AMAP,AMAP.TO,Amapa Mineral Hldgs,,tmx:tsx
+CA,TSX,AMAT,AMAT.TO,ApplMatl CDR Hgd,,tmx:tsx
+CA,TSX,AMC,AMC.TO,Arizona Mtls Corp. J,,tmx:tsx
+CA,TSXV,AMCO,AMCO.V,Americore Resources Corp.,,tmx:tsxv
+CA,TSX,AMD,AMD.TO,AMD CDR CAD Hedged,,tmx:tsx
+CA,TSXV,AME,AME.V,Abacus Mining & Exploration Corporation,,tmx:tsxv
+CA,TSX,AMGN,AMGN.TO,Amgen CDR CAN Hgd,,tmx:tsx
+CA,TSX,AMGR,AMGR.TO,AGF Amrcn Grwth Fd E,,tmx:tsx
+CA,TSX,AMHE.U,AMHE-U.TO,HvAmzn EnhHIShr ETFU,,tmx:tsx
+CA,TSX,AMHE,AMHE.TO,HvAmzn EnhHIShr ETFA,,tmx:tsx
+CA,TSXV,AML,AML.V,Akwaaba Mining Ltd.,,tmx:tsxv
+CA,TSXV,AMM,AMM.V,Almaden Minerals Ltd.,,tmx:tsxv
+CA,TSXV,AMT,AMT.V,AmeriTrust Financial Technologies Inc.,,tmx:tsxv
+CA,TSXV,AMV.P,AMV-P.V,AMV II Capital Corporation,,tmx:tsxv
+CA,TSXV,AMX,AMX.V,Amex Gold Mining Inc.,,tmx:tsxv
+CA,TSXV,AMY,AMY.V,RecycLiCo Battery Materials Inc.,,tmx:tsxv
+CA,TSXV,AMYA.P,AMYA-P.V,Amaya Big Sky Capital Corp.,,tmx:tsxv
+CA,TSX,AMZH.U,AMZH-U.TO,HvAmzn HghInShr ETFU,,tmx:tsx
+CA,TSX,AMZH,AMZH.TO,HvAmzn HghInShr ETFA,,tmx:tsx
+CA,TSX,AMZN,AMZN.TO,Amazon.comCDR CAD HD,,tmx:tsx
+CA,TSX,AMZU,AMZU.TO,SavvyLong (2X) AMZN,,tmx:tsx
+CA,TSXV,ANDC,ANDC.V,Andina Copper Corporation,,tmx:tsxv
+CA,TSX,ANET,ANET.TO,Arista CDR CAN Hgd,,tmx:tsx
+CA,TSXV,ANK,ANK.V,Angkor Resources Corp.,,tmx:tsxv
+CA,TSXV,ANOR,ANOR.V,AnorTech Inc.,,tmx:tsxv
+CA,TSX,ANRG,ANRG.TO,Anaergia Inc.,,tmx:tsx
+CA,TSXV,ANTL,ANTL.V,Antler Gold Inc.,,tmx:tsxv
+CA,TSXV,AOCC.P,AOCC-P.V,Artrari One Capital Corp.,,tmx:tsxv
+CA,TSXV,AORO,AORO.V,Aloro Mining Corp.,,tmx:tsxv
+CA,TSXV,APGO,APGO.V,Apollo Silver Corp.,,tmx:tsxv
+CA,TSX,APH,APH.TO,Amphnl CDR CAD Hdg,,tmx:tsx
+CA,TSXV,APL,APL.V,Appulse Corporation,,tmx:tsxv
+CA,TSX,APLE,APLE.TO,Harvest Apl EnhHigIn,,tmx:tsx
+CA,TSX,APM,APM.TO,Andean Prec Meta Cor,,tmx:tsx
+CA,TSXV,APMI,APMI.V,Apogee Minerals Ltd.,,tmx:tsxv
+CA,TSXV,APN,APN.V,Altiplano Metals Inc.,,tmx:tsxv
+CA,TSX,APPS,APPS.TO,AppLovin CDR CAD Hgd,,tmx:tsx
+CA,TSX,APTX,APTX.TO,Apotex Health Corp,,tmx:tsx
+CA,TSXV,APX,APX.V,Apex Resources Inc.,,tmx:tsxv
+CA,TSX,AQN,AQN.TO,Algonquin Pwr & Util,,tmx:tsx
+CA,TSX,ARA,ARA.TO,Aclara Res Inc. J,,tmx:tsx
+CA,TSX,ARB,ARB.TO,Accelerate ArbitrgUn,,tmx:tsx
+CA,TSXV,ARCH,ARCH.V,Arch Biopartners Inc.,,tmx:tsxv
+CA,TSX,ARE,ARE.TO,Aecon Group Inc.,,tmx:tsx
+CA,TSX,ARG,ARG.TO,Amerigo Resources J,,tmx:tsx
+CA,TSXV,ARGH,ARGH.V,Argo Corporation,,tmx:tsxv
+CA,TSXV,ARIC,ARIC.V,Awale Resources Limited,,tmx:tsxv
+CA,TSX,ARIS,ARIS.TO,Aris Mng Corp.,,tmx:tsx
+CA,TSXV,ARK,ARK.V,Arras Minerals Corp.,,tmx:tsxv
+CA,TSXV,ARL,ARL.V,Aurum Lake Mining Corporation.,,tmx:tsxv
+CA,TSX,ARN,ARN.TO,Asarian Energy Ltd,,tmx:tsx
+CA,TSXV,ARO,ARO.V,Arc Mineral Royalties Ltd.,,tmx:tsxv
+CA,TSXV,AROC.P,AROC-P.V,Argo Opportunity Corp.,,tmx:tsxv
+CA,TSXV,AROW.P,AROW-P.V,Four Arrows Capital Corp.,,tmx:tsxv
+CA,TSXV,ARTG,ARTG.V,Artemis Gold Inc.,,tmx:tsxv
+CA,TSX,ARTI,ARTI.TO,Evl Art Int Fnd UN,,tmx:tsx
+CA,TSXV,ARU,ARU.V,Aurania Resources Ltd.,,tmx:tsxv
+CA,TSXV,ASE,ASE.V,Asante Gold Corporation,,tmx:tsxv
+CA,TSXV,ASG,ASG.V,Aurora Spine Corporation,,tmx:tsxv
+CA,TSX,ASHR,ASHR.TO,Mulvihill Sp Cap S E,,tmx:tsx
+CA,TSXV,ASL,ASL.V,Argentum Silver Corp,,tmx:tsxv
+CA,TSX,ASM,ASM.TO,Avino Silver & Gld J,,tmx:tsx
+CA,TSX,ASME,ASME.TO,HVST ASML Ehn HiIc S,,tmx:tsx
+CA,TSX,ASML,ASML.TO,ASML CDR CAD Hedged,,tmx:tsx
+CA,TSXV,AST,AST.V,Astron Connect Inc.,,tmx:tsxv
+CA,TSX,ASTL,ASTL.TO,Algoma Steel Grp Inc,,tmx:tsx
+CA,TSXV,ASTN.P,ASTN-P.V,Auston Capital Corp.,,tmx:tsxv
+CA,TSXV,ASTR,ASTR.V,Astra Exploration Inc.,,tmx:tsxv
+CA,TSX,ATD,ATD.TO,Alimentation Couche,,tmx:tsx
+CA,TSX,ATH,ATH.TO,Athabasca Oil Corp,,tmx:tsx
+CA,TSXV,ATLE,ATLE.V,Atlas Energy Corp.,,tmx:tsxv
+CA,TSXV,ATLH.P,ATLH-P.V,Atlantic Horizon Capital Corp.,,tmx:tsxv
+CA,TSXV,ATOI,ATOI.V,Asiatel Outsourcing Inc.,,tmx:tsxv
+CA,TSXV,ATOM,ATOM.V,Atomic Minerals Corporation,,tmx:tsxv
+CA,TSX,ATRL,ATRL.TO,AtkinsRealis GrpInc,,tmx:tsx
+CA,TSX,ATS,ATS.TO,ATS Corporation,,tmx:tsx
+CA,TSX,ATSX,ATSX.TO,AccelerateCA LSEQ FN,,tmx:tsx
+CA,TSX,ATX,ATX.TO,Atex Resources Inc,,tmx:tsx
+CA,TSXV,ATY,ATY.V,Atico Mining Corporation,,tmx:tsxv
+CA,TSX,ATZ,ATZ.TO,Aritzia Inc. SV,,tmx:tsx
+CA,TSXV,AUAU,AUAU.V,A2 Gold Corp.,,tmx:tsxv
+CA,TSXV,AUEN,AUEN.V,Golden Sky Minerals Corp.,,tmx:tsxv
+CA,TSX,AUGB.F,AUGB-F.TO,1stTr VestUSEqAug Hg,,tmx:tsx
+CA,TSXV,AUGC,AUGC.V,Au Gold Corp.,,tmx:tsxv
+CA,TSXV,AUM,AUM.V,AuMega Metals Ltd.,,tmx:tsxv
+CA,TSXV,AUMB,AUMB.V,1911 Gold Corporation,,tmx:tsxv
+CA,TSXV,AUME,AUME.V,Auriginal Mining Corp.,,tmx:tsxv
+CA,TSX,AUMN,AUMN.TO,Golden Minerals J,,tmx:tsx
+CA,TSXV,AUNK.P,AUNK-P.V,Ankh II Capital Inc.,,tmx:tsxv
+CA,TSXV,AUQ,AUQ.V,AuQ Gold Mining Inc.,,tmx:tsxv
+CA,TSXV,AURA,AURA.V,Auranova Resources Inc.,,tmx:tsxv
+CA,TSXV,AURO,AURO.V,Auro Metals Inc.,,tmx:tsxv
+CA,TSXV,AUTO,AUTO.V,Agereh Technologies Inc.,,tmx:tsxv
+CA,TSXV,AUUA,AUUA.V,Aluula Composites Inc.,,tmx:tsxv
+CA,TSXV,AUX,AUX.V,Golden Cross Resources Inc.,,tmx:tsxv
+CA,TSXV,AUXX,AUXX.V,Gold X2 Mining Inc.,,tmx:tsxv
+CA,TSX,AVCN,AVCN.TO,Avicanna Inc. J,,tmx:tsx
+CA,TSXV,AVCR,AVCR.V,Avricore Health Inc.,,tmx:tsxv
+CA,TSXV,AVG,AVG.V,Avidian Gold Corp.,,tmx:tsxv
+CA,TSX,AVGO,AVGO.TO,Broadcom CDR Hgd,,tmx:tsx
+CA,TSXV,AVII.P,AVII-P.V,Antera Ventures II Corp.,,tmx:tsxv
+CA,TSX,AVL,AVL.TO,Avalon Advncd Mtrl J,,tmx:tsx
+CA,TSXV,AVN,AVN.V,Avanti Helium Corp.,,tmx:tsxv
+CA,TSX,AVNT,AVNT.TO,Avant Brands Inc. J,,tmx:tsx
+CA,TSXV,AVR,AVR.V,Avaron Mining Corp.,,tmx:tsxv
+CA,TSXV,AVTS,AVTS.V,Aventus Capital Inc.,,tmx:tsxv
+CA,TSXV,AVU,AVU.V,Avrupa Minerals Ltd.,,tmx:tsxv
+CA,TSXV,AVX,AVX.V,Altair Resources Inc.,,tmx:tsxv
+CA,TSX,AW,AW.TO,A&W Food Serv Canada,,tmx:tsx
+CA,TSXV,AWE,AWE.V,Thunderstruck Resources Ltd.,,tmx:tsxv
+CA,TSXV,AWI,AWI.V,Advent-AWI Holdings Inc.,,tmx:tsxv
+CA,TSXV,AWM,AWM.V,Angel Wing Metals Inc.,,tmx:tsxv
+CA,TSXV,AWX,AWX.V,Arcwest Exploration Inc.,,tmx:tsxv
+CA,TSXV,AXE,AXE.V,Acceleware Ltd.,,tmx:tsxv
+CA,TSXV,AXET.P,AXET-P.V,Axe2 Acquisitions Inc.,,tmx:tsxv
+CA,TSXV,AXL,AXL.V,Arrow Exploration Corp.,,tmx:tsxv
+CA,TSXV,AXO,AXO.V,Axo Metals Corp.,,tmx:tsxv
+CA,TSX,AXP,AXP.TO,American Ex CDR Hgd,,tmx:tsx
+CA,TSX,AYA,AYA.TO,Aya Gold & Silvr J,,tmx:tsx
+CA,TSXV,AZC.P,AZC-P.V,A2ZCryptocap Inc.,,tmx:tsxv
+CA,TSXV,AZEM,AZEM.V,Arizona Eagle Mining Corp.,,tmx:tsxv
+CA,TSXV,AZM,AZM.V,Azimut Exploration Inc.,,tmx:tsxv
+CA,TSX,AZO,AZO.TO,AutoZone CDR Hgd,,tmx:tsx
+CA,TSXV,AZR,AZR.V,Azarga Metals Corp.,,tmx:tsxv
+CA,TSXV,AZS,AZS.V,Arizona Gold & Silver Inc.,,tmx:tsxv
+CA,TSXV,AZT,AZT.V,Aztec Minerals Corp.,,tmx:tsxv
+CA,TSXV,B,B.V,BCM Resources Corporation,,tmx:tsxv
+CA,TSX,BA,BA.TO,Boeing CDR CAN Hgd,,tmx:tsx
+CA,TSX,BAAA.U,BAAA-U.TO,Bromp WeS AAA CLO US,,tmx:tsx
+CA,TSX,BAAA,BAAA.TO,Brompton WeS AAA CLO,,tmx:tsx
+CA,TSXV,BAG,BAG.V,Blende Silver Corp.,,tmx:tsxv
+CA,TSX,BAM,BAM.TO,Brookfld AstMgt LV A,,tmx:tsx
+CA,TSX,BAMI,BAMI.TO,Blue Ant Media Corp,,tmx:tsx
+CA,TSX,BANK,BANK.TO,EvolveCdnBk&LfeCA UH,,tmx:tsx
+CA,TSXV,BARK,BARK.V,Black Spruce Exploration Inc.,,tmx:tsxv
+CA,TSXV,BARU,BARU.V,Baru Gold Corp.,,tmx:tsxv
+CA,TSX,BASE.B,BASE-B.TO,EvolveGlbMatMinUnheg,,tmx:tsx
+CA,TSX,BASE,BASE.TO,Evolve GlbMatMin Heg,,tmx:tsx
+CA,TSXV,BAT,BAT.V,Batero Gold Corp,,tmx:tsxv
+CA,TSXV,BAU,BAU.V,Blue Star Gold Corp.,,tmx:tsxv
+CA,TSXV,BAY,BAY.V,Aston Bay Holdings Ltd.,,tmx:tsxv
+CA,TSX,BB,BB.TO,BlackBerry Limited,,tmx:tsx
+CA,TSXV,BBB,BBB.V,Brixton Metals Corporation,,tmx:tsxv
+CA,TSX,BBBB.U,BBBB-U.TO,Br Wl Sq In Gd C E U,,tmx:tsx
+CA,TSX,BBBB,BBBB.TO,Br Wl Sq Inv Grd C E,,tmx:tsx
+CA,TSX,BBD.A,BBD-A.TO,Bombardier Cl A MV,,tmx:tsx
+CA,TSX,BBD.B,BBD-B.TO,Bombardier Cl B SV,,tmx:tsx
+CA,TSX,BBUC,BBUC.TO,Brookfld Bus Corp A,,tmx:tsx
+CA,TSX,BCE,BCE.TO,BCE Inc.,,tmx:tsx
+CA,TSX,BCEE,BCEE.TO,Harvest BCE Enh HiIn,,tmx:tsx
+CA,TSXV,BCF,BCF.V,Builders Capital Mortgage Corp.,,tmx:tsxv
+CA,TSX,BCHT,BCHT.TO,Birchtech Corp,,tmx:tsx
+CA,TSX,BCT,BCT.TO,BriaCell TherapeutcJ,,tmx:tsx
+CA,TSXV,BCU,BCU.V,Bell Copper Corporation,,tmx:tsxv
+CA,TSX,BDGI,BDGI.TO,Badger Infras Solutn,,tmx:tsx
+CA,TSX,BDI,BDI.TO,Black Diamond Group,,tmx:tsx
+CA,TSX,BDIV,BDIV.TO,BromptonGlblDivGroCA,,tmx:tsx
+CA,TSX,BDT,BDT.TO,Bird Construction,,tmx:tsx
+CA,TSXV,BEA,BEA.V,Belmont Resources Inc.,,tmx:tsxv
+CA,TSXV,BEAR,BEAR.V,Big Bear Gold Corp.,,tmx:tsxv
+CA,TSXV,BECN,BECN.V,Beacn Wizardry & Magic Inc.,,tmx:tsxv
+CA,TSXV,BEEP,BEEP.V,Geiger Energy Corporation,,tmx:tsxv
+CA,TSX,BEK.B,BEK-B.TO,Becker Milk Cl B NV,,tmx:tsx
+CA,TSXV,BEM,BEM.V,Brasnova Energy Materials Inc.,,tmx:tsxv
+CA,TSX,BENZ,BENZ.TO,MercedesBenzCDR CaHD,,tmx:tsx
+CA,TSX,BEPC,BEPC.TO,Brookfld RenewA ExSV,,tmx:tsx
+CA,TSX,BEPR.U,BEPR-U.TO,BromptnFlhrtyCrmPrUS,,tmx:tsx
+CA,TSX,BEPR,BEPR.TO,BromptnFlhrtyCrmPrUn,,tmx:tsx
+CA,TSXV,BES,BES.V,Braille Energy Systems Inc.,,tmx:tsxv
+CA,TSX,BESG,BESG.TO,InvescoESG CA CorBnd,,tmx:tsx
+CA,TSXV,BEW,BEW.V,BeWhere Holdings Inc.,,tmx:tsxv
+CA,TSXV,BEX,BEX.V,Benton Resources Inc.,,tmx:tsxv
+CA,TSX,BFIN.U,BFIN-U.TO,BromptonNA FinDiv US,,tmx:tsx
+CA,TSX,BFIN,BFIN.TO,BromptonNA FinDivCAD,,tmx:tsx
+CA,TSXV,BFM,BFM.V,Bedford Metals Corp.,,tmx:tsxv
+CA,TSX,BGAU,BGAU.TO,Blossom Gold Inc,,tmx:tsx
+CA,TSX,BGC,BGC.TO,BristolGate CdnEtyUn,,tmx:tsx
+CA,TSXV,BGD,BGD.V,Bullion Gold Discoveries Corp.,,tmx:tsxv
+CA,TSXV,BGF,BGF.V,Beauce Gold Fields Inc.,,tmx:tsxv
+CA,TSX,BGU.U,BGU-U.TO,Bristol GateUSEq USD,,tmx:tsx
+CA,TSX,BGU,BGU.TO,Bristol GateUS Eq Un,,tmx:tsx
+CA,TSX,BHC,BHC.TO,Bausch Health Co,,tmx:tsx
+CA,TSXV,BHS,BHS.V,Bayhorse Silver Inc.,,tmx:tsxv
+CA,TSXV,BIG,BIG.V,Hercules Metals Corp.,,tmx:tsxv
+CA,TSXV,BIGT,BIGT.V,Big Tree Carbon Inc.,,tmx:tsxv
+CA,TSX,BIGY,BIGY.TO,Evolve US Eq UY C Hg,,tmx:tsx
+CA,TSXV,BILD,BILD.V,BuildDirect.Com Technologies Inc.,,tmx:tsxv
+CA,TSX,BIPC,BIPC.TO,Brookfld Infras A SV,,tmx:tsx
+CA,TSX,BIR,BIR.TO,Birchcliff Energy,,tmx:tsx
+CA,TSXV,BIRD,BIRD.V,Thunderbird Minerals Corp.,,tmx:tsxv
+CA,TSX,BITI.U,BITI-U.TO,BetaPro InvrsBitcnUS,,tmx:tsx
+CA,TSX,BITI,BITI.TO,BetaPro InversBitcn,,tmx:tsx
+CA,TSXV,BITK,BITK.V,Blockchaink2 Corp.,,tmx:tsxv
+CA,TSX,BIVU,BIVU.TO,CapstoneBibUS EqFund,,tmx:tsx
+CA,TSX,BK,BK.TO,Cdn Banc Corp Cl 'A',,tmx:tsx
+CA,TSX,BKCC,BKCC.TO,GblX EqlWt Cn BnkCv,,tmx:tsx
+CA,TSX,BKCL,BKCL.TO,GblX EnEqWgtCdnBk Cv,,tmx:tsx
+CA,TSX,BKI,BKI.TO,Black Iron Inc. J,,tmx:tsx
+CA,TSXV,BKM,BKM.V,Pacific Booker Minerals Inc.,,tmx:tsxv
+CA,TSXV,BKMT,BKMT.V,Blockmint Technologies Inc.,,tmx:tsxv
+CA,TSX,BKNG,BKNG.TO,Booking CDR Hgd,,tmx:tsx
+CA,TSXV,BLCC.P,BLCC-P.V,Bow Lake Capital Corp.,,tmx:tsxv
+CA,TSX,BLCK,BLCK.TO,1st TrIdx InnovTrans,,tmx:tsx
+CA,TSX,BLCO,BLCO.TO,Bausch + Lomb Corp.,,tmx:tsx
+CA,TSX,BLDP,BLDP.TO,Ballard Power Sys,,tmx:tsx
+CA,TSXV,BLDS,BLDS.V,Badlands Resources Inc.,,tmx:tsxv
+CA,TSX,BLK,BLK.TO,BlackRock CDR Hgd,,tmx:tsx
+CA,TSX,BLKY,BLKY.TO,Harv Blk Enh Hi In E,,tmx:tsx
+CA,TSXV,BLM,BLM.V,BluMetric Environmental Inc.,,tmx:tsxv
+CA,TSX,BLOV,BLOV.TO,BromptonNA LwVolDvCA,,tmx:tsx
+CA,TSXV,BLU,BLU.V,BluEnergies Ltd.,,tmx:tsxv
+CA,TSXV,BM,BM.V,BC Moly Ltd.,,tmx:tsxv
+CA,TSX,BMAX,BMAX.TO,Bromptn EnhMultAsset,,tmx:tsx
+CA,TSXV,BMM,BMM.V,Black Mammoth Metals Corporation,,tmx:tsxv
+CA,TSX,BMO,BMO.TO,Bank of Montreal,,tmx:tsx
+CA,TSXV,BMR,BMR.V,Battery Mineral Resources Corp.,,tmx:tsxv
+CA,TSXV,BMV,BMV.V,Bathurst Metals Corp.,,tmx:tsxv
+CA,TSX,BMW,BMW.TO,BMW CDR CAD Hedged,,tmx:tsx
+CA,TSX,BN,BN.TO,Brookfield Corp A LV,,tmx:tsx
+CA,TSX,BNC,BNC.TO,Purpose Cdn Fin Incm,,tmx:tsx
+CA,TSX,BND.U,BND-U.TO,Purpose Glbl Bd USD,,tmx:tsx
+CA,TSX,BNE,BNE.TO,Bonterra Energy Corp,,tmx:tsx
+CA,TSX,BNG,BNG.TO,Bengal Energy Ltd. J,,tmx:tsx
+CA,TSX,BNK,BNK.TO,Big BancSplt Corp A,,tmx:tsx
+CA,TSX,BNKL,BNKL.TO,GblX EnEqWgtBnk Idx,,tmx:tsx
+CA,TSX,BNKR,BNKR.TO,Bunker Hill Min Corp,,tmx:tsx
+CA,TSX,BNKU,BNKU.TO,MegaLong 3X Cdn Bank,,tmx:tsx
+CA,TSX,BNS,BNS.TO,Bank of Nova Scotia,,tmx:tsx
+CA,TSX,BNT,BNT.TO,Brookfld Wlth SolLtd,,tmx:tsx
+CA,TSXV,BNZ,BNZ.V,Bonanza Mining Corporation,,tmx:tsxv
+CA,TSXV,BOCA,BOCA.V,Bocana Resources Corp.,,tmx:tsxv
+CA,TSX,BOFA,BOFA.TO,BofA CDR CAN Hgd,,tmx:tsx
+CA,TSXV,BOGO,BOGO.V,Borealis Mining Company Limited,,tmx:tsxv
+CA,TSX,BOIL,BOIL.TO,Beyond Oil Ltd,,tmx:tsx
+CA,TSXV,BOL,BOL.V,Bold Ventures Inc.,,tmx:tsxv
+CA,TSX,BOND.B,BOND-B.TO,Ev Enh Yld Bnd C Uhg,,tmx:tsx
+CA,TSX,BOND.U,BOND-U.TO,Ev Enh Yld Bnd U Uhg,,tmx:tsx
+CA,TSX,BOND,BOND.TO,Evolve EnhnYldBnd Hg,,tmx:tsx
+CA,TSXV,BONE,BONE.V,Boron One Holdings Inc.,,tmx:tsxv
+CA,TSX,BOS,BOS.TO,Airboss of America J,,tmx:tsx
+CA,TSXV,BPAG,BPAG.V,BP Silver Corp.,,tmx:tsxv
+CA,TSXV,BPR,BPR.V,Black Pine Resources Corp.,,tmx:tsxv
+CA,TSX,BPRF.U,BPRF-U.TO,Brompton CrumInvPrUS,,tmx:tsx
+CA,TSX,BPRF,BPRF.TO,Brompton CrumInvPrCA,,tmx:tsx
+CA,TSXV,BQE,BQE.V,BQE Water Inc.,,tmx:tsxv
+CA,TSX,BR,BR.TO,Big Rock Brewery Inc,,tmx:tsx
+CA,TSX,BRAG,BRAG.TO,Bragg Gaming Grp Inc,,tmx:tsx
+CA,TSXV,BRAU,BRAU.V,Big Ridge Gold Corp.,,tmx:tsxv
+CA,TSXV,BRC,BRC.V,Blackrock Silver Corp.,,tmx:tsxv
+CA,TSXV,BRCB.P,BRCB-P.V,Brachium2 Capital Corp.,,tmx:tsxv
+CA,TSX,BRE,BRE.TO,Bridgemarq Rl Est RV,,tmx:tsx
+CA,TSXV,BRED,BRED.V,Purebread Brands Inc.,,tmx:tsxv
+CA,TSX,BRK,BRK.TO,Berk Hath CDR CAD HD,,tmx:tsx
+CA,TSX,BRKE,BRKE.TO,HVST Brkshr Htwy EHI,,tmx:tsx
+CA,TSXV,BRM,BRM.V,Biorem Inc.,,tmx:tsxv
+CA,TSXV,BRO,BRO.V,Barksdale Resources Corp.,,tmx:tsxv
+CA,TSXV,BRON,BRON.V,Bronco Resources Corp.,,tmx:tsxv
+CA,TSXV,BRVO,BRVO.V,Bravo Mining Corp.,,tmx:tsxv
+CA,TSXV,BRW,BRW.V,Brunswick Exploration Inc.,,tmx:tsxv
+CA,TSX,BRY,BRY.TO,Bri-Chem Corp.,,tmx:tsx
+CA,TSXV,BSK,BSK.V,Blue Sky Uranium Corp.,,tmx:tsxv
+CA,TSX,BSKT,BSKT.TO,Manulife SmrtCoreBnd,,tmx:tsx
+CA,TSXV,BST,BST.V,Bessor Minerals Inc.,,tmx:tsxv
+CA,TSX,BSX,BSX.TO,Belo Sun Mining J,,tmx:tsx
+CA,TSX,BTCC.B,BTCC-B.TO,Purpose BitcnCA NCHg,,tmx:tsx
+CA,TSX,BTCC.J,BTCC-J.TO,PurposeBitcnCA CrbHg,,tmx:tsx
+CA,TSX,BTCC.U,BTCC-U.TO,Purpose BitcnUS NCHg,,tmx:tsx
+CA,TSX,BTCC,BTCC.TO,Purpose BitcnCA CrHg,,tmx:tsx
+CA,TSX,BTCO.B,BTCO-B.TO,Purpose CorBit CA HD,,tmx:tsx
+CA,TSX,BTCO.U,BTCO-U.TO,Purpose CorBit US HD,,tmx:tsx
+CA,TSX,BTCQ.U,BTCQ-U.TO,3iQ Bitcoin USF,,tmx:tsx
+CA,TSXV,BTCT,BTCT.V,Bitcoin Treasury Corporation,,tmx:tsxv
+CA,TSXV,BTCW,BTCW.V,Bitcoin Well Inc.,,tmx:tsxv
+CA,TSX,BTCX.U,BTCX-U.TO,CI GalBitcnETF UH US,,tmx:tsx
+CA,TSX,BTCY.B,BTCY-B.TO,Purpose BtcnYldNC HG,,tmx:tsx
+CA,TSX,BTCY.U,BTCY-U.TO,PurposeBtcnYldNCH US,,tmx:tsx
+CA,TSX,BTCY,BTCY.TO,Purpose Btcn Yld Un,,tmx:tsx
+CA,TSX,BTE,BTE.TO,Baytex Energy Corp.,,tmx:tsx
+CA,TSX,BTO,BTO.TO,B2Gold Corp.,,tmx:tsx
+CA,TSXV,BTR,BTR.V,Bonterra Resources Inc.,,tmx:tsxv
+CA,TSXV,BTT,BTT.V,Bitterroot Resources Ltd.,,tmx:tsxv
+CA,TSXV,BTU,BTU.V,BTU Metals Corp.,,tmx:tsxv
+CA,TSX,BU,BU.TO,Burcon NutraSci J,,tmx:tsx
+CA,TSXV,BUFF,BUFF.V,Buffalo Potash Corporation,,tmx:tsxv
+CA,TSXV,BUSH.P,BUSH-P.V,Bushido Capital Corp.,,tmx:tsxv
+CA,TSXV,BUZ.P,BUZ-P.V,Buzz Capital Inc.,,tmx:tsxv
+CA,TSXV,BUZH.P,BUZH-P.V,Buzz Capital 2 Inc.,,tmx:tsxv
+CA,TSXV,BVA,BVA.V,Bravada Gold Corporation,,tmx:tsxv
+CA,TSXV,BWLK,BWLK.V,Boardwalktech Software Corp.,,tmx:tsxv
+CA,TSXV,BWR,BWR.V,BWR Exploration Inc.,,tmx:tsxv
+CA,TSX,BX,BX.TO,BlackStone CDR Hgd,,tmx:tsx
+CA,TSX,BXF,BXF.TO,CI 1-5YrLddrGvtBndUn,,tmx:tsx
+CA,TSX,BYD,BYD.TO,Boyd Group Services,,tmx:tsx
+CA,TSX,BYL,BYL.TO,Baylin Tech Inc. J,,tmx:tsx
+CA,TSXV,BYN,BYN.V,Banyan Gold Corp.,,tmx:tsxv
+CA,TSXV,BZ,BZ.V,Benz Mining Corp.,,tmx:tsxv
+CA,TSX,CACB,CACB.TO,CIBC ActvInvCorpBond,,tmx:tsx
+CA,TSX,CACE,CACE.TO,Avantis CIBC CAND EQ,,tmx:tsx
+CA,TSXV,CAD,CAD.V,Colonial Coal International Corp,,tmx:tsxv
+CA,TSX,CADE,CADE.TO,Avants CIBC Int Eq E,,tmx:tsx
+CA,TSX,CADY,CADY.TO,Cadillac Mines Corp,,tmx:tsx
+CA,TSX,CAE,CAE.TO,CAE Inc.,,tmx:tsx
+CA,TSX,CAEM,CAEM.TO,Avantis CIBC EM Eq E,,tmx:tsx
+CA,TSXV,CAF,CAF.V,Canaf Investments Inc.,,tmx:tsxv
+CA,TSXV,CAG,CAG.V,Composite Alliance Group Inc.,,tmx:tsxv
+CA,TSX,CAGE,CAGE.TO,Avant CIBC All Eq AA,,tmx:tsx
+CA,TSX,CAGR,CAGR.TO,Avant CIBC Grwth AA,,tmx:tsx
+CA,TSX,CAGS,CAGS.TO,CI CA STerm Bnd NonH,,tmx:tsx
+CA,TSX,CAGX,CAGX.TO,Avant CIBC Wrld Eq E,,tmx:tsx
+CA,TSXV,CAI,CAI.V,Capitan Investment Ltd.,,tmx:tsxv
+CA,TSX,CAKE,CAKE.TO,Avant CIBC Blnc AA,,tmx:tsx
+CA,TSX,CALL.B,CALL-B.TO,Evolve USBkEnhYldUhg,,tmx:tsx
+CA,TSX,CALL.U,CALL-U.TO,Evolve USBkEnhnUhgUS,,tmx:tsx
+CA,TSX,CALL,CALL.TO,Evolve USBkEnhanc Hg,,tmx:tsx
+CA,TSX,CALV,CALV.TO,Avantis US LrgCap Vl,,tmx:tsx
+CA,TSXV,CAM,CAM.V,Cascadia Minerals Ltd.,,tmx:tsxv
+CA,TSXV,CAMB,CAMB.V,Cambria Gold Mines Inc.,,tmx:tsxv
+CA,TSX,CAMO.B,CAMO-B.TO,Evolve Glb Def Ar UH,,tmx:tsx
+CA,TSX,CAMO,CAMO.TO,Evolve Glb Def Ar Hd,,tmx:tsx
+CA,TSXV,CAN,CAN.V,Canadian Gold Resources Ltd.,,tmx:tsxv
+CA,TSX,CANL,CANL.TO,GblX EnhnSP/TSX60Inx,,tmx:tsx
+CA,TSXV,CANX,CANX.V,Canex Metals Inc.,,tmx:tsxv
+CA,TSXV,CAPL.P,CAPL-P.V,Caplink Ventures Inc.,,tmx:tsxv
+CA,TSX,CAPN,CAPN.TO,Cap Grp Intl Dev Eq,,tmx:tsx
+CA,TSX,CAPQ,CAPQ.TO,CapGrp Gbl De Eq Sel,,tmx:tsx
+CA,TSXV,CAPT,CAPT.V,Capitan Silver Corp.,,tmx:tsxv
+CA,TSX,CAPU,CAPU.TO,Captal Grp US Eq Sel,,tmx:tsx
+CA,TSX,CARS.B,CARS-B.TO,Evolve AutoInnovUnHg,,tmx:tsx
+CA,TSX,CARS.U,CARS-U.TO,Evolve AutomobUnhgUS,,tmx:tsx
+CA,TSX,CARS,CARS.TO,Evolve AutoInnov Heg,,tmx:tsx
+CA,TSX,CAS,CAS.TO,Cascades Inc.,,tmx:tsx
+CA,TSXV,CASA,CASA.V,CASA Minerals Inc.,,tmx:tsxv
+CA,TSX,CASV,CASV.TO,Avants CIBC Glb Sm C,,tmx:tsx
+CA,TSX,CATR,CATR.TO,Caterpillar CDR Hgd,,tmx:tsx
+CA,TSXV,CATX,CATX.V,Catalyst One Exploration Corp.,,tmx:tsxv
+CA,TSX,CAUS,CAUS.TO,Avantis CIBC ACap Eq,,tmx:tsx
+CA,TSX,CAUV,CAUV.TO,Avantis US SmlCap Vl,,tmx:tsx
+CA,TSXV,CBA,CBA.V,Champion Bear Resources Ltd.,,tmx:tsxv
+CA,TSXV,CBAR.P,CBAR-P.V,Castlebar Capital Corp.,,tmx:tsxv
+CA,TSX,CBCX,CBCX.TO,CI Galaxy Blkchn Un,,tmx:tsx
+CA,TSXV,CBG,CBG.V,Chibougamau Independent Mines Inc.,,tmx:tsxv
+CA,TSX,CBGR,CBGR.TO,CI Bal GrowAsst Aloc,,tmx:tsx
+CA,TSX,CBH,CBH.TO,iShre 1-10CorpBnd Un,,tmx:tsx
+CA,TSXV,CBI,CBI.V,Colibri Resource Corporation,,tmx:tsxv
+CA,TSX,CBIL,CBIL.TO,GblX 0-3 Mon T-bl E,,tmx:tsx
+CA,TSX,CBIN,CBIN.TO,CI Bal IncmAst Alloc,,tmx:tsx
+CA,TSX,CBL,CBL.TO,FranklinCoreETF Port,,tmx:tsx
+CA,TSXV,CBLU,CBLU.V,Clear Blue Technologies International Inc.,,tmx:tsxv
+CA,TSX,CBND,CBND.TO,Manulife SmrtCorp Un,,tmx:tsx
+CA,TSX,CBNK,CBNK.TO,Mulvihill CdnBnk Yld,,tmx:tsx
+CA,TSX,CBO,CBO.TO,iShre 1-5 CorpBnd Un,,tmx:tsx
+CA,TSXV,CBR,CBR.V,Cabral Gold Inc.,,tmx:tsxv
+CA,TSX,CBUG,CBUG.TO,CI Digital Sec Un,,tmx:tsx
+CA,TSX,CCA,CCA.TO,Cogeco Commun Inc SV,,tmx:tsx
+CA,TSXV,CCCM,CCCM.V,C3 Metals Inc.,,tmx:tsxv
+CA,TSXV,CCD,CCD.V,Cascadero Copper Corporation,,tmx:tsxv
+CA,TSXV,CCDS,CCDS.V,Carrier Connect Data Solutions Inc.,,tmx:tsxv
+CA,TSXV,CCEC,CCEC.V,CanCambria Energy Corp.,,tmx:tsxv
+CA,TSX,CCEI,CCEI.TO,CIBC MS Cdn Eqty Un,,tmx:tsx
+CA,TSX,CCGP,CCGP.TO,CP Gl CIBC Gl Perman,,tmx:tsx
+CA,TSX,CCIP,CCIP.TO,CP Gl CIBC Intl Perm,,tmx:tsx
+CA,TSX,CCL.A,CCL-A.TO,CCL Industries Cl A,,tmx:tsx
+CA,TSX,CCL.B,CCL-B.TO,CCL Industries Cl B,,tmx:tsx
+CA,TSX,CCM,CCM.TO,Canagold Res Ltd. J,,tmx:tsx
+CA,TSXV,CCMC,CCMC.V,Core Critical Metals Corp.,,tmx:tsxv
+CA,TSXV,CCMI,CCMI.V,Canadian Critical Minerals Inc.,,tmx:tsxv
+CA,TSXV,CCMM,CCMM.V,Coyote Copper Mines Inc.,,tmx:tsxv
+CA,TSX,CCNS,CCNS.TO,CIBC ConservFixdIncm,,tmx:tsx
+CA,TSX,CCNV,CCNV.TO,CI Conserv AsstAlloc,,tmx:tsx
+CA,TSX,CCO,CCO.TO,Cameco Corporation,,tmx:tsx
+CA,TSX,CCOE,CCOE.TO,Harvest Cameco EnHiI,,tmx:tsx
+CA,TSX,CCOM,CCOM.TO,CI Auspice Cmdty Heg,,tmx:tsx
+CA,TSX,CCRE,CCRE.TO,CIBC CoreFixdIncm Un,,tmx:tsx
+CA,TSX,CCUL,CCUL.TO,CP Global US Lg Cap,,tmx:tsx
+CA,TSX,CCUS,CCUS.TO,CP Glbl CIBC USSmCap,,tmx:tsx
+CA,TSXV,CD,CD.V,Cantex Mine Development Corp.,,tmx:tsxv
+CA,TSXV,CDA,CDA.V,Canuc Resources Corporation,,tmx:tsxv
+CA,TSXV,CDB,CDB.V,Cordoba Minerals Corp.,,tmx:tsxv
+CA,TSX,CDE,CDE.TO,Coeur Mining Inc,,tmx:tsx
+CA,TSX,CDEF,CDEF.TO,Manulife SmtDefEq Un,,tmx:tsx
+CA,TSX,CDIV,CDIV.TO,Manulife SmartDiv Un,,tmx:tsx
+CA,TSX,CDLB.B,CDLB-B.TO,CI DbleLnUS$BondC$Uh,,tmx:tsx
+CA,TSX,CDLB.U,CDLB-U.TO,CI DbleLnTotUS$BndUS,,tmx:tsx
+CA,TSX,CDLB,CDLB.TO,CI DbleLnTotUS$BndC$,,tmx:tsx
+CA,TSXV,CDPR,CDPR.V,Cerro De Pasco Resources Inc.,,tmx:tsxv
+CA,TSX,CDR,CDR.TO,Condor Energies J,,tmx:tsx
+CA,TSX,CDZ,CDZ.TO,iShr CdnDivAristo Un,,tmx:tsx
+CA,TSXV,CEC,CEC.V,Canasia Energy Corp.,,tmx:tsxv
+CA,TSX,CEF.U,CEF-U.TO,Sprott PhyGld&Sil US,,tmx:tsx
+CA,TSX,CEF,CEF.TO,Sprott PhyGld&Sil Tr,,tmx:tsx
+CA,TSX,CEGS,CEGS.TO,Constl Enrgy CDR HG,,tmx:tsx
+CA,TSXV,CEI,CEI.V,Coelacanth Energy Inc.,,tmx:tsxv
+CA,TSXV,CELL,CELL.V,Grid Battery Metals Inc.,,tmx:tsxv
+CA,TSX,CEMI,CEMI.TO,CIBC MSEmrg Mkt Eq U,,tmx:tsx
+CA,TSX,CEMX,CEMX.TO,Cematrix Corporation,,tmx:tsx
+CA,TSXV,CENT,CENT.V,Centauri Minerals Inc.,,tmx:tsxv
+CA,TSXV,CEQ,CEQ.V,Criterium Energy Ltd.,,tmx:tsxv
+CA,TSX,CEQT,CEQT.TO,CI Eqty Asset Alloc,,tmx:tsx
+CA,TSXV,CERT,CERT.V,Cerrado Gold Inc.,,tmx:tsxv
+CA,TSX,CEU,CEU.TO,CES Energy Solutn,,tmx:tsx
+CA,TSX,CF,CF.TO,Canaccord Genuity,,tmx:tsx
+CA,TSX,CFF,CFF.TO,Conifex Timber Inc.,,tmx:tsx
+CA,TSX,CFIN,CFIN.TO,Evolve Cdn Fin Yld E,,tmx:tsx
+CA,TSX,CFLX,CFLX.TO,CIBC FlexYldCA-Hg Un,,tmx:tsx
+CA,TSX,CFOD,CFOD.TO,BetaProSPTSX Fin -2x,,tmx:tsx
+CA,TSX,CFOU,CFOU.TO,BetaProSPTSXFin 2xBl,,tmx:tsx
+CA,TSX,CFP,CFP.TO,Canfor Corporation,,tmx:tsx
+CA,TSX,CFRN,CFRN.TO,CIBC ActvInvFltgBond,,tmx:tsx
+CA,TSX,CFRT,CFRT.TO,CI Fltg Rate Incm C$,,tmx:tsx
+CA,TSX,CFW,CFW.TO,Calfrac Well Serv,,tmx:tsx
+CA,TSXV,CFY,CFY.V,CF Energy Corp.,,tmx:tsxv
+CA,TSX,CG,CG.TO,Centerra Gold Inc.,,tmx:tsx
+CA,TSX,CGAA,CGAA.TO,CI GlbAsstAlloc C$Sr,,tmx:tsx
+CA,TSX,CGBI,CGBI.TO,CIBC Glb Bnd exCA-HG,,tmx:tsx
+CA,TSXV,CGD,CGD.V,Carlin Gold Corporation,,tmx:tsxv
+CA,TSX,CGDV.B,CGDV-B.TO,CI GlbMinDwnVolty UH,,tmx:tsx
+CA,TSX,CGDV,CGDV.TO,CI GlbMinDwnVoltyHEG,,tmx:tsx
+CA,TSX,CGG,CGG.TO,China Gld Intl Res J,,tmx:tsx
+CA,TSX,CGHY.U,CGHY-U.TO,CI HiYldBondPrvHegUS,,tmx:tsx
+CA,TSX,CGHY,CGHY.TO,CI HiYldBondPriv C$,,tmx:tsx
+CA,TSX,CGI,CGI.TO,Canadian General Inv,,tmx:tsx
+CA,TSX,CGIN.U,CGIN-U.TO,CI GlbInvestGrdHg US,,tmx:tsx
+CA,TSX,CGIN,CGIN.TO,CI Glbl InvestGrd CA,,tmx:tsx
+CA,TSX,CGL.C,CGL-C.TO,iShare GldBul Nn-Hdg,,tmx:tsx
+CA,TSX,CGL,CGL.TO,iShare GldBulHdgd Un,,tmx:tsx
+CA,TSX,CGLO,CGLO.TO,CIBC Glbl Growth Un,,tmx:tsx
+CA,TSXV,CGM,CGM.V,Canadian Goldfields Discovery Corp.,,tmx:tsxv
+CA,TSX,CGMD,CGMD.TO,MegaShort-3X Cdn Gol,,tmx:tsx
+CA,TSX,CGMU,CGMU.TO,MegaLong 3X Cdn Gold,,tmx:tsx
+CA,TSXV,CGNT,CGNT.V,Copper Giant Resources Corp.,,tmx:tsxv
+CA,TSX,CGO,CGO.TO,Cogeco Inc. SV,,tmx:tsx
+CA,TSX,CGRA,CGRA.TO,CI GlbRlAsetPrivPlC$,,tmx:tsx
+CA,TSX,CGRB.U,CGRB-U.TO,CI GlbGreenBnd HgUS$,,tmx:tsx
+CA,TSX,CGRB,CGRB.TO,CI Glbl GreenBond C$,,tmx:tsx
+CA,TSX,CGRN.U,CGRN-U.TO,CI SustInfras HgUS$,,tmx:tsx
+CA,TSX,CGRN,CGRN.TO,CI Glb SustInfras C$,,tmx:tsx
+CA,TSX,CGRO,CGRO.TO,CI Grwth AssetAlloc,,tmx:tsx
+CA,TSX,CGRW,CGRW.TO,CIBC Blncd Grw E Prt,,tmx:tsx
+CA,TSX,CGX,CGX.TO,Cineplex Inc.,,tmx:tsx
+CA,TSX,CGXF.U,CGXF-U.TO,CI Gold+GiantCovr US,,tmx:tsx
+CA,TSX,CGXF,CGXF.TO,CI Gld+GiantCovr Heg,,tmx:tsx
+CA,TSX,CGY,CGY.TO,Calian Group Ltd.,,tmx:tsx
+CA,TSXV,CH,CH.V,Charbone Corporation,,tmx:tsxv
+CA,TSXV,CHER,CHER.V,Cheelcare Inc.,,tmx:tsxv
+CA,TSXV,CHII.P,CHII-P.V,Chicane Capital II Corp.,,tmx:tsxv
+CA,TSX,CHLT,CHLT.TO,Custom Health Holdgs,,tmx:tsx
+CA,TSX,CHNA.B,CHNA-B.TO,CI ICBCUBS SPCh500NH,,tmx:tsx
+CA,TSX,CHQQ,CHQQ.TO,GlbX ChnHangSnTechIn,,tmx:tsx
+CA,TSX,CHR,CHR.TO,Chorus Aviation V&VV,,tmx:tsx
+CA,TSXV,CHS,CHS.V,Comprehensive Healthcare Systems Inc.,,tmx:tsxv
+CA,TSX,CIA,CIA.TO,Champion Iron Ord J,,tmx:tsx
+CA,TSX,CIBR,CIBR.TO,1st Tr NasdqCybrsec,,tmx:tsx
+CA,TSX,CIC,CIC.TO,CI CdnBks CovCalIncm,,tmx:tsx
+CA,TSX,CIEH,CIEH.TO,CIBC MSEA Eq CA-Hgd,,tmx:tsx
+CA,TSX,CIEI,CIEI.TO,CIBC MS EA Eq Idx Un,,tmx:tsx
+CA,TSX,CIEM.U,CIEM-U.TO,CI EmergMktAlphUS HG,,tmx:tsx
+CA,TSX,CIEM,CIEM.TO,CI EmergMktAlphCA UH,,tmx:tsx
+CA,TSX,CIGI,CIGI.TO,Colliers Intl Grp SV,,tmx:tsx
+CA,TSX,CINF,CINF.TO,CI GlbInfrasPrivPl$C,,tmx:tsx
+CA,TSX,CINT,CINT.TO,CIBC Int'l Equity Un,,tmx:tsx
+CA,TSX,CINV.U,CINV-U.TO,CI Glb AlphaInnov US,,tmx:tsx
+CA,TSX,CINV,CINV.TO,CI Glb AlphaInnov CA,,tmx:tsx
+CA,TSXV,CIO,CIO.V,Central Iron Ore Limited,,tmx:tsxv
+CA,TSX,CITI,CITI.TO,Citigroup CDR Hgd,,tmx:tsx
+CA,TSX,CJ,CJ.TO,Cardinal Energy,,tmx:tsx
+CA,TSX,CJT,CJT.TO,Cargojet Inc. Com&VV,,tmx:tsx
+CA,TSXV,CKG,CKG.V,Chesapeake Gold Corp.,,tmx:tsxv
+CA,TSX,CKI,CKI.TO,Clarke Inc.,,tmx:tsx
+CA,TSX,CLCH,CLCH.TO,Clinch Resources Ltd,,tmx:tsx
+CA,TSXV,CLCO,CLCO.V,Culico Metals Inc.,,tmx:tsxv
+CA,TSX,CLF,CLF.TO,iShre 1-5 GovtBnd Un,,tmx:tsx
+CA,TSX,CLG,CLG.TO,iShre 1-10GovtBnd Un,,tmx:tsx
+CA,TSX,CLHI,CLHI.TO,Ninept Celest HghShr,,tmx:tsx
+CA,TSXV,CLIC,CLIC.V,Comet Lithium Corporation,,tmx:tsxv
+CA,TSXV,CLIP,CLIP.V,Clip Money Inc.,,tmx:tsxv
+CA,TSX,CLML.U,CLML-U.TO,CI GlbClimateLdrHgUS,,tmx:tsx
+CA,TSX,CLML,CLML.TO,CI Mnro Glb En Tr C$,,tmx:tsx
+CA,TSX,CLS,CLS.TO,Celestica Inc,,tmx:tsx
+CA,TSXV,CLUS,CLUS.V,Colossus Resources Corp.,,tmx:tsxv
+CA,TSXV,CLV,CLV.V,Canoe Mining Ventures Corp.,,tmx:tsxv
+CA,TSXV,CLZ,CLZ.V,Canasil Resources Inc.,,tmx:tsxv
+CA,TSX,CM,CM.TO,Cdn Imperial Bank,,tmx:tsx
+CA,TSX,CMAG.U,CMAG-U.TO,CI MunroAlGlbGroUSHg,,tmx:tsx
+CA,TSX,CMAG,CMAG.TO,CI MunroAltGlbGrowC$,,tmx:tsx
+CA,TSX,CMAR.U,CMAR-U.TO,CI MarretAltRetBndUS,,tmx:tsx
+CA,TSX,CMAR,CMAR.TO,CI Marret RetBondC$,,tmx:tsx
+CA,TSX,CMAX,CMAX.TO,Ham CDN Eq Yld Max E,,tmx:tsx
+CA,TSX,CMCC,CMCC.TO,Glbl X Ain1 C P Eq C,,tmx:tsx
+CA,TSXV,CMCG,CMCG.V,Chilean Metals Inc.,,tmx:tsxv
+CA,TSX,CMCL,CMCL.TO,GX Ehn AIO Cmdty CC,,tmx:tsx
+CA,TSX,CMCX.B,CMCX-B.TO,CI Galxy MltCryNa CA,,tmx:tsx
+CA,TSX,CMCX.U,CMCX-U.TO,CI GalxyMltCryNav US,,tmx:tsx
+CA,TSX,CMCX,CMCX.TO,CI Galxy MltCryNa HD,,tmx:tsx
+CA,TSX,CMDO.U,CMDO-U.TO,CI AltDiversOpportUS,,tmx:tsx
+CA,TSX,CMDO,CMDO.TO,CI AltDiversOpportC$,,tmx:tsx
+CA,TSX,CMEY.U,CMEY-U.TO,CI MarretEnhanYld U$,,tmx:tsx
+CA,TSX,CMEY,CMEY.TO,CI MarretAltEnhYldC$,,tmx:tsx
+CA,TSX,CMG,CMG.TO,Computer Modelling,,tmx:tsx
+CA,TSX,CMGG.U,CMGG-U.TO,CI MunroGrwthEqUS Hg,,tmx:tsx
+CA,TSX,CMGG,CMGG.TO,CI Munro GrowthEq C$,,tmx:tsx
+CA,TSX,CMGS,CMGS.TO,Chipotle CDR Hgd,,tmx:tsx
+CA,TSXV,CMI,CMI.V,C-COM Satellite Systems Inc.,,tmx:tsxv
+CA,TSX,CMIG.U,CMIG-U.TO,CI Munro Int Gr Eq U,,tmx:tsx
+CA,TSX,CMIG,CMIG.TO,CI Munro Int Gr Eq C,,tmx:tsx
+CA,TSXV,CMIL,CMIL.V,Capella Minerals Limited,,tmx:tsxv
+CA,TSX,CMOM.B,CMOM-B.TO,CI US EnhncMomntm UH,,tmx:tsx
+CA,TSX,CMOM,CMOM.TO,CI US EnhncMomntm Hg,,tmx:tsx
+CA,TSXV,CMU,CMU.V,Comet Industries Ltd.,,tmx:tsxv
+CA,TSX,CMVP,CMVP.TO,HAMILTON CHAM CAD Di,,tmx:tsx
+CA,TSXV,CN,CN.V,Condor Resources Inc,,tmx:tsxv
+CA,TSX,CNAO.U,CNAO-U.TO,CI Alt NA Oppor HgUS,,tmx:tsx
+CA,TSX,CNAO,CNAO.TO,CI Alt NA OpporC$ Un,,tmx:tsx
+CA,TSXV,CNC,CNC.V,Canada Nickel Company Inc.,,tmx:tsxv
+CA,TSX,CNCC,CNCC.TO,GblX SP X60 Cv Cal E,,tmx:tsx
+CA,TSX,CNCL,CNCL.TO,GblX EnhnSP/TSX60 Cv,,tmx:tsx
+CA,TSX,CNDC,CNDC.TO,Glbl X SP/TSX CC Ind,,tmx:tsx
+CA,TSX,CNDD,CNDD.TO,BetaProS&PTSX60-2xBr,,tmx:tsx
+CA,TSX,CNDI,CNDI.TO,BetaPro60 DailyInvrs,,tmx:tsx
+CA,TSX,CNDU,CNDU.TO,BetaProS&PTSX60 2xBl,,tmx:tsx
+CA,TSX,CNDX,CNDX.TO,GblX SP/TSX60 Inx A,,tmx:tsx
+CA,TSXV,CNJ.P,CNJ-P.V,CNJ Capital Investments Inc.,,tmx:tsxv
+CA,TSX,CNL,CNL.TO,Collective Mining J,,tmx:tsx
+CA,TSXV,CNO,CNO.V,California Nanotechnologies Corp,,tmx:tsxv
+CA,TSX,CNQ,CNQ.TO,Canadian Natural Res,,tmx:tsx
+CA,TSX,CNQE,CNQE.TO,Harvest CNQ Enh HiIn,,tmx:tsx
+CA,TSX,CNQU,CNQU.TO,SavvyLng2XCdnNResETF,,tmx:tsx
+CA,TSX,CNR,CNR.TO,Cdn Nat'l Railway,,tmx:tsx
+CA,TSXV,CNRI,CNRI.V,Canadian North Resources Inc.,,tmx:tsxv
+CA,TSXV,CNS,CNS.V,Contagious Gaming Inc.,,tmx:tsxv
+CA,TSXV,CNST.P,CNST-P.V,Constellation Capital Corp.,,tmx:tsxv
+CA,TSX,CNT,CNT.TO,Century Glbl Cmdty J,,tmx:tsx
+CA,TSXV,CNVI,CNVI.V,Conavi Medical Corp.,,tmx:tsxv
+CA,TSXV,COCO,COCO.V,Coast Copper Corp.,,tmx:tsxv
+CA,TSX,COIN,COIN.TO,Coinbase CDR CAD Hdg,,tmx:tsx
+CA,TSX,COIU,COIU.TO,SavvyLong 2X COIN E,,tmx:tsx
+CA,TSX,COLA,COLA.TO,Coca-Cola CDR CAD HD,,tmx:tsx
+CA,TSXV,COLL.P,COLL-P.V,Collingwood Resources Corp.,,tmx:tsxv
+CA,TSX,COMM,COMM.TO,BMO Global Commun Un,,tmx:tsx
+CA,TSXV,COMP,COMP.V,Uniserve Communications Corporation,,tmx:tsxv
+CA,TSX,COMU,COMU.TO,SavvyLg2XCIBC EqtETF,,tmx:tsx
+CA,TSX,COMX,COMX.TO,Glb x AlIn1 Com Pr E,,tmx:tsx
+CA,TSXV,CONE,CONE.V,Canada One Mining Corp.,,tmx:tsxv
+CA,TSXV,COO,COO.V,Ostrom Climate Solutions Inc.,,tmx:tsxv
+CA,TSX,COP.U,COP-U.TO,Sprott Phys Copp Usd,,tmx:tsx
+CA,TSX,COPP,COPP.TO,GblX Copper Ppd InxA,,tmx:tsx
+CA,TSX,COPR,COPR.TO,Coppernico MetalsInc,,tmx:tsx
+CA,TSXV,COR,COR.V,Camino Minerals Corporation,,tmx:tsxv
+CA,TSX,CORB,CORB.TO,Manulife Corp Bond F,,tmx:tsx
+CA,TSX,CORE,CORE.TO,Pimco CdCr BndFndETF,,tmx:tsx
+CA,TSX,CORS,CORS.TO,Corus Entrtnm Hl Inc,,tmx:tsx
+CA,TSXV,COS,COS.V,Coniagas Battery Metals Inc.,,tmx:tsxv
+CA,TSXV,COSA,COSA.V,Cosa Resources Corp.,,tmx:tsxv
+CA,TSX,COST,COST.TO,Costco CDR CAD HD,,tmx:tsx
+CA,TSXV,COV,COV.V,Covalon Technologies Ltd.,,tmx:tsxv
+CA,TSX,CP,CP.TO,Cdn Pacific Kansas,,tmx:tsx
+CA,TSXV,CPAU,CPAU.V,Copaur Minerals Inc.,,tmx:tsxv
+CA,TSX,CPCC,CPCC.TO,Glbl X Cop Pro E CC,,tmx:tsx
+CA,TSXV,CPER,CPER.V,CopperCorp Resources Inc.,,tmx:tsxv
+CA,TSX,CPH,CPH.TO,Cipher Pharma,,tmx:tsx
+CA,TSXV,CPI,CPI.V,Carlton Precious Inc.,,tmx:tsxv
+CA,TSX,CPKR,CPKR.TO,Canada Packers Inc,,tmx:tsx
+CA,TSXV,CPL,CPL.V,Copper Lake Resources Ltd.,,tmx:tsxv
+CA,TSX,CPLS,CPLS.TO,CIBC Core+Fixed Incm,,tmx:tsx
+CA,TSXV,CPS,CPS.V,Canadian Premium Sand Inc.,,tmx:tsxv
+CA,TSX,CPX,CPX.TO,Capital Power Corp.,,tmx:tsx
+CA,TSX,CQHI,CQHI.TO,Ninepoint Cdn NaReHi,,tmx:tsx
+CA,TSXV,CQR,CQR.V,Conquest Resources Limited,,tmx:tsxv
+CA,TSXV,CRB,CRB.V,Cariboo Rose Resources Ltd,,tmx:tsxv
+CA,TSX,CRCY,CRCY.TO,Harv Crc Enh H I S E,,tmx:tsx
+CA,TSXV,CRD,CRD.V,Copper Road Resources Inc.,,tmx:tsxv
+CA,TSX,CRDL,CRDL.TO,Cardiol Therapeutc A,,tmx:tsx
+CA,TSXV,CRE,CRE.V,Critical Elements Lithium Corporation,,tmx:tsxv
+CA,TSX,CRED.U,CRED-U.TO,CI AltInvest CredtUS,,tmx:tsx
+CA,TSX,CRED,CRED.TO,CI AltInvest CredtC$,,tmx:tsx
+CA,TSXV,CRG,CRG.V,Crossroads Gold Corp.,,tmx:tsxv
+CA,TSXV,CRI,CRI.V,Churchill Resources Inc.,,tmx:tsxv
+CA,TSX,CRM,CRM.TO,Salesforce CDR Hgd,,tmx:tsx
+CA,TSX,CRON,CRON.TO,Cronos Group Inc. J,,tmx:tsx
+CA,TSX,CROP.U,CROP-U.TO,PurposeCredOppNCH US,,tmx:tsx
+CA,TSX,CROP,CROP.TO,Purpose CreditOpp Un,,tmx:tsx
+CA,TSX,CRRX,CRRX.TO,CareRx Corp. J,,tmx:tsx
+CA,TSX,CRWD,CRWD.TO,CrowdStrike CDR Hgd,,tmx:tsx
+CA,TSX,CRWV,CRWV.TO,CoreWeave CDR CAD Hd,,tmx:tsx
+CA,TSX,CRWY,CRWY.TO,Harv CrwdStrk En H E,,tmx:tsx
+CA,TSX,CS,CS.TO,Capstone Copper J,,tmx:tsx
+CA,TSX,CSAV,CSAV.TO,CI HiInterestSvgs Un,,tmx:tsx
+CA,TSX,CSBI,CSBI.TO,CIBC Cdn ST Bond Idx,,tmx:tsx
+CA,TSX,CSCI,CSCI.TO,COSCIENS Biophrm Inc,,tmx:tsx
+CA,TSX,CSCO,CSCO.TO,Cisco CDR CAD Hedged,,tmx:tsx
+CA,TSXV,CSG,CSG.V,Cosigo Resources Ltd.,,tmx:tsxv
+CA,TSX,CSHI,CSHI.TO,NineptCon Sof HiShr,,tmx:tsx
+CA,TSX,CSMD,CSMD.TO,CI US SmM CapEqPriPo,,tmx:tsx
+CA,TSXV,CSOC.A,CSOC-A.V,Canso Select Opportunities Corporation A,,tmx:tsxv
+CA,TSXV,CSOC.B,CSOC-B.V,Canso Select Opportunities Corporation B,,tmx:tsxv
+CA,TSXV,CSTL.P,CSTL-P.V,Castlecap Capital Inc.,,tmx:tsxv
+CA,TSXV,CSTR,CSTR.V,Cryptostar Corp.,,tmx:tsxv
+CA,TSX,CSU,CSU.TO,Constellation Softwr,,tmx:tsx
+CA,TSX,CSUC,CSUC.TO,Ninept Constl CrShr,,tmx:tsx
+CA,TSX,CSW.A,CSW-A.TO,Corby Spirit&Wine A,,tmx:tsx
+CA,TSX,CSW.B,CSW-B.TO,Corby Spirit&Wn B NV,,tmx:tsx
+CA,TSXV,CSX,CSX.V,Clean Seed Capital Group Ltd.,,tmx:tsxv
+CA,TSXV,CT.P,CT-P.V,CarbonTech Capital Corp.,,tmx:tsxv
+CA,TSXV,CTA,CTA.V,Centaurus Energy Inc.,,tmx:tsxv
+CA,TSX,CTC.A,CTC-A.TO,Canadian Tire A NV,,tmx:tsx
+CA,TSX,CTC,CTC.TO,Canadian Tire Corp,,tmx:tsx
+CA,TSXV,CTEK,CTEK.V,Cleantek Industries Inc.,,tmx:tsxv
+CA,TSX,CTGO,CTGO.TO,Contango Silv & Gold,,tmx:tsx
+CA,TSXV,CTH,CTH.V,CoTec Holdings Corp.,,tmx:tsxv
+CA,TSXV,CTM,CTM.V,Canterra Minerals Corporation,,tmx:tsxv
+CA,TSX,CTMA,CTMA.TO,CI Trg 2028 Inv Grd,,tmx:tsx
+CA,TSX,CTMB,CTMB.TO,CI Trg 2029 Inv Grd,,tmx:tsx
+CA,TSX,CTMC,CTMC.TO,CI Trg 2030 Inv Grd,,tmx:tsx
+CA,TSXV,CTN,CTN.V,Centurion Minerals Ltd.,,tmx:tsxv
+CA,TSXV,CTRL,CTRL.V,Edge Total Intelligence Inc.,,tmx:tsxv
+CA,TSXV,CTV,CTV.V,CleanTech Vanadium Mining Corp.,,tmx:tsxv
+CA,TSXV,CTZ,CTZ.V,Namsys Inc.,,tmx:tsxv
+CA,TSX,CU,CU.TO,Cdn Utilities A NV,,tmx:tsx
+CA,TSX,CUBD,CUBD.TO,CI Gl Uncon Bond Fnd,,tmx:tsx
+CA,TSXV,CUCU,CUCU.V,Global Copper Corp.,,tmx:tsxv
+CA,TSX,CUD,CUD.TO,iShare US DivGrow Un,,tmx:tsx
+CA,TSX,CUDV.B,CUDV-B.TO,CI US MinDwnsVoltyUH,,tmx:tsx
+CA,TSX,CUDV,CUDV.TO,CI US MinDwnsVoltyHG,,tmx:tsx
+CA,TSX,CUEH,CUEH.TO,CIBCMs US EqIdx C Hg,,tmx:tsx
+CA,TSX,CUEI,CUEI.TO,CIBC M US Eqty Idx U,,tmx:tsx
+CA,TSXV,CUEX,CUEX.V,CopperEx Resources Corporation,,tmx:tsxv
+CA,TSX,CUIG.U,CUIG-U.TO,CIUS Mipp US$ HSrETF,,tmx:tsx
+CA,TSX,CUIG,CUIG.TO,CI US Mipp C$ SrETF,,tmx:tsx
+CA,TSX,CUP.U,CUP-U.TO,Caribbean Ut Cl A US,,tmx:tsx
+CA,TSX,CURA,CURA.TO,Curaleaf Holdings J,,tmx:tsx
+CA,TSX,CUSD.U,CUSD-U.TO,CIBC US Pre Cash Mgt,,tmx:tsx
+CA,TSX,CUTE,CUTE.TO,Evolve Cdn Util Yld,,tmx:tsx
+CA,TSX,CUTL.B,CUTL-B.TO,CI Util GianCal Unhg,,tmx:tsx
+CA,TSX,CUTL,CUTL.TO,CI Util GianCall Heg,,tmx:tsx
+CA,TSXV,CUU,CUU.V,Copper Fox Metals Inc.,,tmx:tsxv
+CA,TSXV,CVB,CVB.V,Compass Gold Corporation,,tmx:tsxv
+CA,TSX,CVE,CVE.TO,Cenovus Energy Inc.,,tmx:tsx
+CA,TSX,CVG,CVG.TO,Clairvest Group Inc,,tmx:tsx
+CA,TSXV,CVI.P,CVI-P.V,Compass Venture Inc.,,tmx:tsxv
+CA,TSX,CVLU.B,CVLU-B.TO,CI US EnhancVal UnHg,,tmx:tsx
+CA,TSX,CVLU,CVLU.TO,CI US Enhanc Val Heg,,tmx:tsx
+CA,TSX,CVO,CVO.TO,Coveo Solution J SV,,tmx:tsx
+CA,TSX,CVS,CVS.TO,CVS Health CDR Hgd,,tmx:tsx
+CA,TSXV,CVV,CVV.V,Canalaska Uranium Ltd.,,tmx:tsxv
+CA,TSX,CVVY,CVVY.TO,Cavvy Energy Ltd,,tmx:tsx
+CA,TSXV,CVW,CVW.V,CVW Sustainable Royalties Inc.,,tmx:tsxv
+CA,TSX,CVX,CVX.TO,Chevron CDR Hgd,,tmx:tsx
+CA,TSX,CWEB,CWEB.TO,Charlotte's Web Hldg,,tmx:tsx
+CA,TSX,CWL,CWL.TO,Caldwell Partners,,tmx:tsx
+CA,TSX,CXF,CXF.TO,CI Cdn Conv Bond Un,,tmx:tsx
+CA,TSX,CXI,CXI.TO,Currency Exch Int'l,,tmx:tsx
+CA,TSX,CYB,CYB.TO,Cymbria Corp Cl A NV,,tmx:tsx
+CA,TSXV,CYBE,CYBE.V,"CyberCatch Holdings, Inc.",,tmx:tsxv
+CA,TSX,CYBR.B,CYBR-B.TO,Evolve CyberSecUnHg,,tmx:tsx
+CA,TSX,CYBR.U,CYBR-U.TO,EvolveCybrSec UnhgUS,,tmx:tsx
+CA,TSX,CYBR,CYBR.TO,Evolve Cyber Sec Heg,,tmx:tsx
+CA,TSXV,CYF,CYF.V,Canyon Creek Food Company Ltd.,,tmx:tsxv
+CA,TSXV,CYG,CYG.V,Cygnus Metals Limited,,tmx:tsxv
+CA,TSXV,CYM,CYM.V,Cymat Technologies Ltd.,,tmx:tsxv
+CA,TSXV,CZZ,CZZ.V,Cleghorn Minerals Ltd,,tmx:tsxv
+CA,TSX,DACL,DACL.TO,Desj Cdn Equity Ldr,,tmx:tsx
+CA,TSX,DACU,DACU.TO,Desj Act Can Bd Univ,,tmx:tsx
+CA,TSX,DAMG.U,DAMG-U.TO,Desjard AbReGl Hg US,,tmx:tsx
+CA,TSX,DAMG,DAMG.TO,Desjard AbReGl Eq Hg,,tmx:tsx
+CA,TSXV,DAN,DAN.V,Arianne Phosphate Inc.,,tmx:tsxv
+CA,TSX,DANC.U,DANC-U.TO,Desjardn MktNe Hd US,,tmx:tsx
+CA,TSX,DANC,DANC.TO,Desjardins MktNe UHN,,tmx:tsx
+CA,TSXV,DAR,DAR.V,Darelle Online Solutions Inc.,,tmx:tsxv
+CA,TSX,DATA.B,DATA-B.TO,Evolve ComputeUnhgCA,,tmx:tsx
+CA,TSX,DATA,DATA.TO,Evolve Compute HegCA,,tmx:tsx
+CA,TSXV,DAU,DAU.V,Desert Gold Ventures Inc.,,tmx:tsxv
+CA,TSXV,DB,DB.V,Decibel Cannabis Company Inc.,,tmx:tsxv
+CA,TSXV,DBAY,DBAY.V,Elton Resources Corp.,,tmx:tsxv
+CA,TSXV,DBG,DBG.V,Doubleview Gold Corp.,,tmx:tsxv
+CA,TSX,DBM,DBM.TO,Doman Bldg Materials,,tmx:tsx
+CA,TSX,DBO,DBO.TO,D-Box Tech Inc. A J,,tmx:tsx
+CA,TSX,DC.A,DC-A.TO,Dundee Corp. Cl A SV,,tmx:tsx
+CA,TSX,DCBC,DCBC.TO,DesCad CrpBnd IdxEtf,,tmx:tsx
+CA,TSX,DCBO,DCBO.TO,Docebo Inc. J,,tmx:tsx
+CA,TSX,DCC,DCC.TO,Desjardins 1-5yrCorp,,tmx:tsx
+CA,TSX,DCG,DCG.TO,Desjardins 1-5yrGovt,,tmx:tsx
+CA,TSX,DCM,DCM.TO,Data Commun Mgt,,tmx:tsx
+CA,TSXV,DCOP,DCOP.V,District Copper Corp.,,tmx:tsxv
+CA,TSX,DCP,DCP.TO,Desjardins Cdn Pref,,tmx:tsx
+CA,TSX,DCS,DCS.TO,Desjardins CdnST Bnd,,tmx:tsx
+CA,TSX,DCU,DCU.TO,DesjardinCA UnivBnd,,tmx:tsx
+CA,TSXV,DCY,DCY.V,Discovery-Corp Enterprises Inc.,,tmx:tsxv
+CA,TSXV,DDD,DDD.V,Metavista3D Inc.,,tmx:tsxv
+CA,TSXV,DE,DE.V,Decisive Dividend Corporation,,tmx:tsxv
+CA,TSXV,DEAL,DEAL.V,Playgon Games Inc.,,tmx:tsxv
+CA,TSXV,DEC,DEC.V,Decade Resources Ltd.,,tmx:tsxv
+CA,TSX,DEER,DEER.TO,Deere CDR CAN Hgd,,tmx:tsx
+CA,TSXV,DEF,DEF.V,Defiance Silver Corp.,,tmx:tsxv
+CA,TSXV,DEFN,DEFN.V,Defense Metals Corp.,,tmx:tsxv
+CA,TSXV,DELX,DELX.V,DelphX Capital Markets Inc.,,tmx:tsxv
+CA,TSXV,DEX,DEX.V,Almadex Minerals Ltd.,,tmx:tsxv
+CA,TSX,DF,DF.TO,Dividend 15Split 2 A,,tmx:tsx
+CA,TSX,DFN,DFN.TO,Dividend 15 Splt A,,tmx:tsx
+CA,TSXV,DFR,DFR.V,DFR Gold Inc.,,tmx:tsxv
+CA,TSXV,DFSC,DFSC.V,DEFSEC Technologies Inc.,,tmx:tsxv
+CA,TSX,DFY,DFY.TO,Definity Fin Corp.,,tmx:tsx
+CA,TSXV,DGC,DGC.V,Daura Gold Corp.,,tmx:tsxv
+CA,TSX,DGGB,DGGB.TO,Desj Glb Gov Bnd Ind,,tmx:tsx
+CA,TSXV,DGL.P,DGL-P.V,DGL Investments No. 1 Inc.,,tmx:tsxv
+CA,TSX,DGR.B,DGR-B.TO,CI USDivGrIdx ETFNHG,,tmx:tsx
+CA,TSX,DGR.U,DGR-U.TO,CI USQlyDiv GrIdxETF,,tmx:tsx
+CA,TSX,DGR,DGR.TO,CI USDiv GrIdx ETFH,,tmx:tsx
+CA,TSX,DGRC,DGRC.TO,CICA QualDvGr ETFNH,,tmx:tsx
+CA,TSX,DGS,DGS.TO,Div Growth Splt Cl A,,tmx:tsx
+CA,TSXV,DHB,DHB.V,Delivra Health Brands Inc.,,tmx:tsxv
+CA,TSX,DHI,DHI.TO,DR Hortn CDR CAD Hdg,,tmx:tsx
+CA,TSX,DHT.U,DHT-U.TO,DRI Healthcare Tr US,,tmx:tsx
+CA,TSX,DIAM,DIAM.TO,Star Diamond Corp J,,tmx:tsx
+CA,TSX,DII.A,DII-A.TO,Dorel Ind Inc A MV,,tmx:tsx
+CA,TSX,DII.B,DII-B.TO,Dorel Ind Inc B SV,,tmx:tsx
+CA,TSX,DIS,DIS.TO,Walt Disney CDR Hgd,,tmx:tsx
+CA,TSX,DISC,DISC.TO,BMO Glbl ConsmrDiscr,,tmx:tsx
+CA,TSX,DIV,DIV.TO,Divers Rylty Corp.,,tmx:tsx
+CA,TSX,DIVS,DIVS.TO,Evolve CA Pref UnHeg,,tmx:tsx
+CA,TSX,DIVY.U,DIVY-U.TO,Glbl X Act US Dv E U,,tmx:tsx
+CA,TSX,DIVY,DIVY.TO,Glbl X Act US Dv E C,,tmx:tsx
+CA,TSXV,DLC,DLC.V,DLC Holdings Corp.,,tmx:tsxv
+CA,TSX,DLCG,DLCG.TO,Dominion Lending J A,,tmx:tsx
+CA,TSXV,DLP,DLP.V,DLP Resources Inc.,,tmx:tsxv
+CA,TSX,DLR.U,DLR-U.TO,GblX US$Cur A USF E,,tmx:tsx
+CA,TSX,DLR,DLR.TO,GblX US$ Cur A Un E,,tmx:tsx
+CA,TSXV,DLTA,DLTA.V,Delta Resources Limited,,tmx:tsxv
+CA,TSXV,DMCU,DMCU.V,Domestic Metals Corp.,,tmx:tsxv
+CA,TSXV,DME,DME.V,Desert Mountain Energy Corp.,,tmx:tsxv
+CA,TSXV,DMGI,DMGI.V,DMG Blockchain Solutions Inc.,,tmx:tsxv
+CA,TSX,DMID,DMID.TO,Desjardins Ame MiCaE,,tmx:tsx
+CA,TSX,DML,DML.TO,Denison Mines Corp,,tmx:tsx
+CA,TSX,DMQC,DMQC.TO,Desjardins Quebec Eq,,tmx:tsx
+CA,TSXV,DMX,DMX.V,District Metals Corp.,,tmx:tsxv
+CA,TSX,DND,DND.TO,Dye & Durham Ltd. J,,tmx:tsx
+CA,TSX,DNG,DNG.TO,Dynacor Group J,,tmx:tsx
+CA,TSXV,DNO,DNO.V,Dinero Ventures Ltd.,,tmx:tsxv
+CA,TSX,DOL,DOL.TO,Dollarama Inc.,,tmx:tsx
+CA,TSX,DOO,DOO.TO,BRP Inc. SV,,tmx:tsx
+CA,TSXV,DOS,DOS.V,Dios Exploration Inc,,tmx:tsxv
+CA,TSXV,DPF,DPF.V,Dr. Phone Fix Canada Corporation,,tmx:tsxv
+CA,TSX,DPM,DPM.TO,DPM Metals Inc.,,tmx:tsx
+CA,TSX,DR,DR.TO,Medical Facilities,,tmx:tsx
+CA,TSX,DRAM,DRAM.TO,Glbl X AI Mem Ind E,,tmx:tsx
+CA,TSXV,DRAX.P,DRAX-P.V,Draxos Capital Corp.,,tmx:tsxv
+CA,TSX,DRCU,DRCU.TO,Desjardins RI CA Bnd,,tmx:tsx
+CA,TSX,DRFC,DRFC.TO,DesjardnsRI CA MF0Em,,tmx:tsx
+CA,TSX,DRFD,DRFD.TO,DesjardinsRI DevUSCA,,tmx:tsx
+CA,TSX,DRFE,DRFE.TO,DesjardnRI EmergMkMF,,tmx:tsx
+CA,TSX,DRFG,DRFG.TO,Desjardins RI GblETF,,tmx:tsx
+CA,TSX,DRFU,DRFU.TO,DesjardnRI US MFN0Em,,tmx:tsx
+CA,TSX,DRM,DRM.TO,DREAM Unltd Cl A SV,,tmx:tsx
+CA,TSX,DRMC,DRMC.TO,DesjardinsRI CdaNZEm,,tmx:tsx
+CA,TSX,DRMD,DRMD.TO,DesjardnRIDvUS-CA NZ,,tmx:tsx
+CA,TSX,DRME,DRME.TO,DesjardnRI EmgMktNZ,,tmx:tsx
+CA,TSX,DRMU,DRMU.TO,DesjardnsRI US NZ Em,,tmx:tsx
+CA,TSX,DRT,DRT.TO,DIRTT Env Solution J,,tmx:tsx
+CA,TSX,DRX,DRX.TO,ADF Group Inc. SV,,tmx:tsx
+CA,TSXV,DRY,DRY.V,Dryden Gold Corp.,,tmx:tsxv
+CA,TSX,DS,DS.TO,Dividend Select 15Eq,,tmx:tsx
+CA,TSX,DSG,DSG.TO,Descartes Systems,,tmx:tsx
+CA,TSX,DSV,DSV.TO,Discovery Mining Ltd,,tmx:tsx
+CA,TSXV,DSY,DSY.V,Destiny Media Technologies Inc.,,tmx:tsxv
+CA,TSXV,DTEA,DTEA.V,DAVIDsTEA Inc.,,tmx:tsxv
+CA,TSX,DTOL,DTOL.TO,D2L Inc. J SV,,tmx:tsx
+CA,TSXV,DTWO,DTWO.V,D2 Lithium Corp.,,tmx:tsxv
+CA,TSX,DUIG,DUIG.TO,Dej US InvGr C B I E,,tmx:tsx
+CA,TSXV,DWS,DWS.V,Diamond Estates Wines & Spirits Inc.,,tmx:tsxv
+CA,TSX,DXB,DXB.TO,Dynamic ActvTact Bnd,,tmx:tsx
+CA,TSX,DXBC,DXBC.TO,Dynamic ActvCdnBond,,tmx:tsx
+CA,TSX,DXBU,DXBU.TO,DynamicUS InvCorpBnd,,tmx:tsx
+CA,TSX,DXC,DXC.TO,Dynamic ActvCA DivUn,,tmx:tsx
+CA,TSX,DXDB,DXDB.TO,Dynamic Discount Bnd,,tmx:tsx
+CA,TSX,DXDU.U,DXDU-U.TO,Dynamic Active US DB,,tmx:tsx
+CA,TSX,DXEM,DXEM.TO,DynamicActvEmrgMktUn,,tmx:tsx
+CA,TSX,DXF,DXF.TO,Dynamic ActGlbFinSrv,,tmx:tsx
+CA,TSX,DXG.U,DXG-U.TO,Dyna Actv GlblDiv US,,tmx:tsx
+CA,TSX,DXG,DXG.TO,Dynamic Actv GlblDiv,,tmx:tsx
+CA,TSX,DXGE,DXGE.TO,Dynamic ActGlbEqIncm,,tmx:tsx
+CA,TSX,DXID.U,DXID-U.TO,Dynamic Act I&D USD,,tmx:tsx
+CA,TSX,DXID,DXID.TO,Dynamic Act I&D CAD,,tmx:tsx
+CA,TSX,DXIF,DXIF.TO,DynamicActvInt'l Un,,tmx:tsx
+CA,TSX,DXN,DXN.TO,DynamicActvGlbInfras,,tmx:tsx
+CA,TSX,DXO,DXO.TO,Dynamic ActvCrossBnd,,tmx:tsx
+CA,TSX,DXP,DXP.TO,Dynamic Actv Pref Un,,tmx:tsx
+CA,TSX,DXQ,DXQ.TO,DynamicActvYldCovrOp,,tmx:tsx
+CA,TSX,DXR,DXR.TO,Dynamic Retir Inc Fd,,tmx:tsx
+CA,TSX,DXT,DXT.TO,Dexterra Group Inc,,tmx:tsx
+CA,TSX,DXU.U,DXU-U.TO,Dy ActvUS DivETF USD,,tmx:tsx
+CA,TSX,DXU,DXU.TO,Dynamic ActvUS DivUn,,tmx:tsx
+CA,TSX,DXUS.U,DXUS-U.TO,Dyn Actv USEqty USD,,tmx:tsx
+CA,TSX,DXUS,DXUS.TO,Dynamic Actv US Eqty,,tmx:tsx
+CA,TSX,DXW,DXW.TO,Dynamic ActvIntl Div,,tmx:tsx
+CA,TSX,DXZ,DXZ.TO,Dynamic ActUS MidCap,,tmx:tsx
+CA,TSX,DYA,DYA.TO,dynaCERT Inc. J,,tmx:tsx
+CA,TSXV,DYG,DYG.V,Dynasty Gold Corp.,,tmx:tsxv
+CA,TSX,E,E.TO,Evolution PowerX Crp,,tmx:tsx
+CA,TSX,EAGR,EAGR.TO,East Side Games J,,tmx:tsx
+CA,TSXV,EAM,EAM.V,East Africa Metals Inc.,,tmx:tsxv
+CA,TSX,EARN,EARN.TO,EvolveActvGlbFxdIncm,,tmx:tsx
+CA,TSX,EASY,EASY.TO,Evolve AllIn1 UltY E,,tmx:tsx
+CA,TSXV,EAU,EAU.V,Engineer Gold Mines Ltd.,,tmx:tsxv
+CA,TSXV,EBCD.P,EBCD-P.V,Eureka Capital Corp.,,tmx:tsxv
+CA,TSXV,EBM,EBM.V,Eastwood Bio-Medical Canada Inc.,,tmx:tsxv
+CA,TSX,EBNK.B,EBNK-B.TO,EvolveEU BkYldUnhgCA,,tmx:tsx
+CA,TSX,EBNK.U,EBNK-U.TO,EvolveEU BkYldUnhgUS,,tmx:tsx
+CA,TSX,EBNK,EBNK.TO,Evolve EU BkYld HgCA,,tmx:tsx
+CA,TSXV,ECAP.P,ECAP-P.V,Endurance Capital Corp.,,tmx:tsxv
+CA,TSXV,ECCF.P,ECCF-P.V,ECC Ventures 4 Corp.,,tmx:tsxv
+CA,TSXV,ECCS.P,ECCS-P.V,ECC Ventures 6 Corp.,,tmx:tsxv
+CA,TSXV,ECCV.P,ECCV-P.V,ECC Ventures 5 Corp.,,tmx:tsxv
+CA,TSX,ECO,ECO.TO,EcoSynthetix Inc. J,,tmx:tsx
+CA,TSXV,ECOM,ECOM.V,Emerge Commerce Ltd.,,tmx:tsxv
+CA,TSX,ECOR,ECOR.TO,Ecora Royalties PLC,,tmx:tsx
+CA,TSXV,ECR,ECR.V,Cartier Resources Inc,,tmx:tsxv
+CA,TSXV,ECU,ECU.V,Element 29 Resources Inc.,,tmx:tsxv
+CA,TSX,EDCU,EDCU.TO,Edge Copper Corp,,tmx:tsx
+CA,TSXV,EDDY,EDDY.V,Edison Lithium Corp.,,tmx:tsxv
+CA,TSXV,EDG,EDG.V,Endurance Gold Corporation,,tmx:tsxv
+CA,TSX,EDGE.U,EDGE-U.TO,Evolve InnovUS Unheg,,tmx:tsx
+CA,TSX,EDGE,EDGE.TO,Evolve Innovation Un,,tmx:tsx
+CA,TSX,EDGF,EDGF.TO,Brompton EU DivGroCA,,tmx:tsx
+CA,TSX,EDHI,EDHI.TO,Ninepoint Enh Aer DH,,tmx:tsx
+CA,TSXV,EDM,EDM.V,EDM Resources Inc.,,tmx:tsxv
+CA,TSX,EDR,EDR.TO,Endeavour Silver J,,tmx:tsx
+CA,TSX,EDT,EDT.TO,Spectral Medical Inc,,tmx:tsx
+CA,TSX,EDV,EDV.TO,Endeavour Mining Ord,,tmx:tsx
+CA,TSXV,EDY,EDY.V,Eddy Smart Home Solutions Ltd.,,tmx:tsxv
+CA,TSXV,EESH.P,EESH-P.V,Aneesh Capital Corp.,,tmx:tsxv
+CA,TSXV,EFF,EFF.V,1844 Resources Inc.,,tmx:tsxv
+CA,TSX,EFN,EFN.TO,Element Fleet Mgt,,tmx:tsx
+CA,TSX,EFR,EFR.TO,Energy Fuels Inc. J,,tmx:tsx
+CA,TSX,EFX,EFX.TO,Enerflex Ltd.,,tmx:tsx
+CA,TSX,EGIF,EGIF.TO,Exemplar GrwthIncmUn,,tmx:tsx
+CA,TSXV,EGLT,EGLT.V,EGL Technology Inc.,,tmx:tsxv
+CA,TSX,EGLX,EGLX.TO,Enthusiast GameHldgJ,,tmx:tsx
+CA,TSXV,EGM,EGM.V,Engold Mines Ltd.,,tmx:tsxv
+CA,TSXV,EGR,EGR.V,EGR Exploration Ltd.,,tmx:tsxv
+CA,TSX,EHE.B,EHE-B.TO,CIEur HEq IDXETF NHg,,tmx:tsx
+CA,TSX,EHE,EHE.TO,CIEur HGEq IDXETF Hg,,tmx:tsx
+CA,TSX,EIF,EIF.TO,Exchange Income Corp,,tmx:tsx
+CA,TSXV,EIRE.P,EIRE-P.V,Monaghan Capital Fund Ltd.,,tmx:tsxv
+CA,TSXV,EK,EK.V,Everkind Wellness Inc.,,tmx:tsxv
+CA,TSXV,EKG,EKG.V,"CardioComm Solutions, Inc.",,tmx:tsxv
+CA,TSXV,ELBM,ELBM.V,Electra Battery Materials Corporation,,tmx:tsxv
+CA,TSXV,ELC,ELC.V,Elysee Development Corp.,,tmx:tsxv
+CA,TSX,ELD,ELD.TO,Eldorado Gold Corp.,,tmx:tsx
+CA,TSX,ELE,ELE.TO,Elemental Rylty Corp,,tmx:tsx
+CA,TSXV,ELEC,ELEC.V,Electric Royalties Ltd.,,tmx:tsxv
+CA,TSX,ELEF,ELEF.TO,Silver Elephant J,,tmx:tsx
+CA,TSX,ELF,ELF.TO,E-L Financial Corp.,,tmx:tsx
+CA,TSXV,ELM,ELM.V,Element Lifestyle Retirement Inc.,,tmx:tsxv
+CA,TSX,ELO,ELO.TO,Eloro Resources J,,tmx:tsx
+CA,TSX,ELR,ELR.TO,Eastern Platinum J,,tmx:tsx
+CA,TSX,ELVA,ELVA.TO,Electrovaya Inc.,,tmx:tsx
+CA,TSXV,EM,EM.V,Errington Metals Corp.,,tmx:tsxv
+CA,TSX,EMA,EMA.TO,Emera Incorporated,,tmx:tsx
+CA,TSXV,EML,EML.V,Electric Metals (USA) Limited,,tmx:tsxv
+CA,TSXV,EMM,EMM.V,Giyani Metals Corp.,,tmx:tsxv
+CA,TSXV,EMN,EMN.V,Euro Manganese Inc.,,tmx:tsxv
+CA,TSXV,EMNT,EMNT.V,Eminent Gold Corp.,,tmx:tsxv
+CA,TSXV,EMO,EMO.V,Emerita Resources Corp.,,tmx:tsxv
+CA,TSX,EMP.A,EMP-A.TO,Empire Co Cl A NV,,tmx:tsx
+CA,TSXV,EMPR,EMPR.V,Empress Royalty Corp.,,tmx:tsxv
+CA,TSXV,EMR,EMR.V,Emergent Metals Corp.,,tmx:tsxv
+CA,TSXV,ENA,ENA.V,Enablence Technologies Inc.,,tmx:tsxv
+CA,TSX,ENB,ENB.TO,Enbridge Inc.,,tmx:tsx
+CA,TSX,ENBE,ENBE.TO,Harvest Enbridge Enh,,tmx:tsx
+CA,TSX,ENCC,ENCC.TO,GblX CA O&G Eq Cal E,,tmx:tsx
+CA,TSX,ENCL,ENCL.TO,GblX EhCdn O&GEqCvCl,,tmx:tsx
+CA,TSXV,ENDR,ENDR.V,Enduro Metals Corporation,,tmx:tsxv
+CA,TSXV,ENEV,ENEV.V,Enerev5 Metals Inc.,,tmx:tsxv
+CA,TSX,ENGH,ENGH.TO,Enghouse Systems Ltd,,tmx:tsx
+CA,TSXV,ENRG,ENRG.V,New Energy Metals Corp.,,tmx:tsxv
+CA,TSX,ENS,ENS.TO,E Split Corp. Cl A,,tmx:tsx
+CA,TSXV,ENW,ENW.V,EnWave Corporation,,tmx:tsxv
+CA,TSXV,EOG,EOG.V,Eco (Atlantic) Oil & Gas Ltd.,,tmx:tsxv
+CA,TSXV,EOX,EOX.V,Euromax Resources Ltd.,,tmx:tsxv
+CA,TSXV,EPL,EPL.V,Eagle Plains Resources Ltd.,,tmx:tsxv
+CA,TSX,EPRX,EPRX.TO,Eupraxia Pharma J,,tmx:tsx
+CA,TSXV,EQ,EQ.V,EQ Inc.,,tmx:tsxv
+CA,TSX,EQB,EQB.TO,EQB Inc.,,tmx:tsx
+CA,TSX,EQCC,EQCC.TO,GblX Eqty AsAllo Cv,,tmx:tsx
+CA,TSX,EQCL,EQCL.TO,GblX EhEqAstAlocCvCl,,tmx:tsx
+CA,TSX,EQL.F,EQL-F.TO,CI Invsc SP500EqCAH,,tmx:tsx
+CA,TSX,EQL.U,EQL-U.TO,CI Invsc SP500Eq USF,,tmx:tsx
+CA,TSX,EQL,EQL.TO,CI Invsc SP500 EqWgt,,tmx:tsx
+CA,TSX,EQLI.F,EQLI-F.TO,INV S&P500 Ew Ic CA,,tmx:tsx
+CA,TSX,EQLI.U,EQLI-U.TO,INV S&P500 Ew Ic USD,,tmx:tsx
+CA,TSX,EQLI,EQLI.TO,IvSP500 EqWInc AdETF,,tmx:tsx
+CA,TSX,EQLT,EQLT.TO,CI S&P TSX60 EW Idx,,tmx:tsx
+CA,TSXV,EQTY,EQTY.V,Equity Metals Corporation,,tmx:tsxv
+CA,TSX,EQX,EQX.TO,Equinox Gold Corp. J,,tmx:tsx
+CA,TSX,EQY,EQY.TO,Frankl AL-Eqt ETFPor,,tmx:tsx
+CA,TSXV,ERA,ERA.V,Elcora Advanced Materials Corp.,,tmx:tsxv
+CA,TSX,ERD,ERD.TO,Erdene Res Dev J,,tmx:tsx
+CA,TSXV,ERDA,ERDA.V,Erda Resource Opportunities Inc.,,tmx:tsxv
+CA,TSX,ERO,ERO.TO,Ero Copper Corp. J,,tmx:tsx
+CA,TSXV,ESAF,ESAF.V,Syntholene Energy Corp.,,tmx:tsxv
+CA,TSXV,ESBL,ESBL.V,Eshbal Functional Food Inc.,,tmx:tsxv
+CA,TSX,ESG.F,ESG-F.TO,CI S&P500ESG Heg,,tmx:tsx
+CA,TSX,ESG,ESG.TO,CI S&P500ESG Un,,tmx:tsx
+CA,TSX,ESGA,ESGA.TO,BMO MSCI CA SelEqETF,,tmx:tsx
+CA,TSX,ESGC,ESGC.TO,CI S&PTSXComESG,,tmx:tsx
+CA,TSX,ESGE,ESGE.TO,BMO MSCI EAFE SelEq,,tmx:tsx
+CA,TSX,ESGY.F,ESGY-F.TO,BMO MSCIUS SelEqETF,,tmx:tsx
+CA,TSX,ESI,ESI.TO,Ensign Engy Services,,tmx:tsx
+CA,TSXV,ESK,ESK.V,Eskay Mining Corp,,tmx:tsxv
+CA,TSXV,ESKR,ESKR.V,Esker Infrastructure Corp.,,tmx:tsxv
+CA,TSX,ESM,ESM.TO,Euro Sun Mining J,,tmx:tsx
+CA,TSX,ESP,ESP.TO,Brompton Engy Splt A,,tmx:tsx
+CA,TSXV,ESPN,ESPN.V,Hispania Resources Inc.,,tmx:tsxv
+CA,TSX,ESPX.B,ESPX-B.TO,Evolve 500EnhcYld UH,,tmx:tsx
+CA,TSX,ESPX.U,ESPX-U.TO,Evolve 500EnYldUH US,,tmx:tsx
+CA,TSX,ESPX,ESPX.TO,Evolve 500EnhcYld HG,,tmx:tsx
+CA,TSXV,ESXR,ESXR.V,Essex Resources Corp.,,tmx:tsxv
+CA,TSX,ET,ET.TO,Evertz Technologies,,tmx:tsx
+CA,TSX,ETC.U,ETC-U.TO,EvolveCryptocurUH US,,tmx:tsx
+CA,TSX,ETC,ETC.TO,EvolveCryptocurUH CA,,tmx:tsx
+CA,TSXV,ETF,ETF.V,Eastfield Resources Ltd.,,tmx:tsxv
+CA,TSX,ETG,ETG.TO,Entree Resources J,,tmx:tsx
+CA,TSX,ETHH.B,ETHH-B.TO,Purpose EthrCA NC Hg,,tmx:tsx
+CA,TSX,ETHH.U,ETHH-U.TO,Purpose EthrUS$NC Hg,,tmx:tsx
+CA,TSX,ETHH,ETHH.TO,Purpose EthrCA CurHg,,tmx:tsx
+CA,TSX,ETHI,ETHI.TO,GblX GlbSustLdr Inx,,tmx:tsx
+CA,TSX,ETHO.B,ETHO-B.TO,Purpose CoEth CAD HD,,tmx:tsx
+CA,TSX,ETHO.U,ETHO-U.TO,Purpose CoEth USD HD,,tmx:tsx
+CA,TSX,ETHQ.U,ETHQ-U.TO,3iQ Ether Staking US,,tmx:tsx
+CA,TSX,ETHQ,ETHQ.TO,3iQ Ether Staking Un,,tmx:tsx
+CA,TSX,ETHX.B,ETHX-B.TO,CI GalxyEthermCA UHG,,tmx:tsx
+CA,TSX,ETHX.U,ETHX-U.TO,CI GalxyEthermUS UH,,tmx:tsx
+CA,TSX,ETHY.B,ETHY-B.TO,Purpose EthrYld ncHg,,tmx:tsx
+CA,TSX,ETHY.U,ETHY-U.TO,PurposeEthrYldncHgUS,,tmx:tsx
+CA,TSX,ETHY,ETHY.TO,Purpose Ether Yld Un,,tmx:tsx
+CA,TSXV,ETL,ETL.V,E3 Lithium Ltd.,,tmx:tsxv
+CA,TSX,ETP,ETP.TO,1st Tr Glb RskMngeUn,,tmx:tsx
+CA,TSX,ETSX,ETSX.TO,Evolve 60EnhcYld UH,,tmx:tsx
+CA,TSXV,EU,EU.V,Encore Energy Corp.,,tmx:tsxv
+CA,TSXV,EVER,EVER.V,Evergold Corp.,,tmx:tsxv
+CA,TSXV,EVGN,EVGN.V,EverGen Infrastructure Corp.,,tmx:tsxv
+CA,TSXV,EVI,EVI.V,Eastport Critical Metals Corp.,,tmx:tsxv
+CA,TSXV,EVNI,EVNI.V,EV Nickel Inc.,,tmx:tsxv
+CA,TSXV,EVNT,EVNT.V,Eventer Technologies Ltd.,,tmx:tsxv
+CA,TSXV,EVOC.P,EVOC-P.V,Evocati Capital Resources Inc.,,tmx:tsxv
+CA,TSX,EVT,EVT.TO,Economic Investment,,tmx:tsx
+CA,TSXV,EW,EW.V,East West Minerals Ltd.,,tmx:tsxv
+CA,TSXV,EWK,EWK.V,Earthworks Industries Inc.,,tmx:tsxv
+CA,TSXV,EXCL,EXCL.V,Excalibur Metals Corp.,,tmx:tsxv
+CA,TSX,EXE,EXE.TO,Extendicare Inc.,,tmx:tsx
+CA,TSXV,EXG,EXG.V,ExGen Resources Inc.,,tmx:tsxv
+CA,TSXV,EXN,EXN.V,Excellon Resources Inc.,,tmx:tsxv
+CA,TSX,F,F.TO,Ford CDR CAN Hgd,,tmx:tsx
+CA,TSXV,FA,FA.V,Fountain Asset Corp.,,tmx:tsxv
+CA,TSXV,FAIR,FAIR.V,Fairchild Gold Corp.,,tmx:tsxv
+CA,TSXV,FAN,FAN.V,First Atlantic Nickel & Cobalt Corp.,,tmx:tsxv
+CA,TSX,FAP,FAP.TO,abrdn Asia-PacifcVCC,,tmx:tsx
+CA,TSX,FAR,FAR.TO,Foraco Int'l SA,,tmx:tsx
+CA,TSXV,FAS,FAS.V,First Andes Silver Ltd.,,tmx:tsxv
+CA,TSX,FAUS.U,FAUS-U.TO,Fidelity AdvUS Eq US,,tmx:tsx
+CA,TSX,FAUS,FAUS.TO,Fidelty Adv US EqETF,,tmx:tsx
+CA,TSXV,FBF,FBF.V,Fab-Form Industries Ltd.,,tmx:tsxv
+CA,TSX,FBGO,FBGO.TO,Frankln BrandyIncmOp,,tmx:tsx
+CA,TSX,FBT,FBT.TO,1st Tr NYSE Arca Bio,,tmx:tsx
+CA,TSX,FBTC.U,FBTC-U.TO,Fidelity Adv Btcn US,,tmx:tsx
+CA,TSX,FBTC,FBTC.TO,Fidelity AdvBtcnL Un,,tmx:tsx
+CA,TSX,FC,FC.TO,Firm Cap Mtg Invest,,tmx:tsx
+CA,TSX,FCAB.U,FCAB-U.TO,Fidelity Abs Inc USF,,tmx:tsx
+CA,TSX,FCAE,FCAE.TO,Fidelity Amrcn Eq Fd,,tmx:tsx
+CA,TSX,FCCD,FCCD.TO,Fidelity Cdn Div L,,tmx:tsx
+CA,TSX,FCCQ,FCCQ.TO,FidelityCdnHiQual L,,tmx:tsx
+CA,TSX,FCCV,FCCV.TO,Fidelity CdnVal L Un,,tmx:tsx
+CA,TSXV,FCI,FCI.V,First Canadian Graphite Inc.,,tmx:tsxv
+CA,TSX,FCID,FCID.TO,Fidelity Int'l Div L,,tmx:tsx
+CA,TSX,FCII,FCII.TO,Frankln ClrBrdgInfr,,tmx:tsx
+CA,TSX,FCIQ.U,FCIQ-U.TO,Fidelity IntlHiQuaUS,,tmx:tsx
+CA,TSX,FCIQ,FCIQ.TO,Fidelity IntlHiQual,,tmx:tsx
+CA,TSX,FCIV,FCIV.TO,Fidelity Intl Val L,,tmx:tsx
+CA,TSXV,FCLX,FCLX.V,FCL-X Fire & Safety Inc.,,tmx:tsxv
+CA,TSX,FCQH,FCQH.TO,FidelityUS HiCurNatr,,tmx:tsx
+CA,TSX,FCRC,FCRC.TO,Franklin Cdn CoEq Fd,,tmx:tsx
+CA,TSX,FCRI,FCRI.TO,Franklin Inter CorEq,,tmx:tsx
+CA,TSX,FCRR.U,FCRR-U.TO,Fidelity US DivRt US,,tmx:tsx
+CA,TSX,FCRR,FCRR.TO,Fidelity US DivRise,,tmx:tsx
+CA,TSX,FCRU,FCRU.TO,Franklin US Core Eqt,,tmx:tsx
+CA,TSX,FCUD.U,FCUD-U.TO,Fidelity US HiDiv US,,tmx:tsx
+CA,TSX,FCUD,FCUD.TO,Fidelity US HiDiv Un,,tmx:tsx
+CA,TSX,FCUH,FCUH.TO,Fidelity US DivCur L,,tmx:tsx
+CA,TSX,FCUQ.U,FCUQ-U.TO,FidelityUS HiQual US,,tmx:tsx
+CA,TSX,FCUQ,FCUQ.TO,FidelityUS HiQual L,,tmx:tsx
+CA,TSX,FCUV.U,FCUV-U.TO,Fidelity US Val L US,,tmx:tsx
+CA,TSX,FCUV,FCUV.TO,Fidelity US Val L Un,,tmx:tsx
+CA,TSX,FCVH,FCVH.TO,Fidelity USValCurNeu,,tmx:tsx
+CA,TSX,FCXS,FCXS.TO,Freeport MMoRan CDR,,tmx:tsx
+CA,TSXV,FDI,FDI.V,Findev Inc.,,tmx:tsxv
+CA,TSX,FDL,FDL.TO,1st TrMornDvLdrCA-Hg,,tmx:tsx
+CA,TSX,FDN.F,FDN-F.TO,1st Tr DJ InterntHeg,,tmx:tsx
+CA,TSX,FDN,FDN.TO,1st Tr DJ Internt Un,,tmx:tsx
+CA,TSXV,FDR,FDR.V,Founders Metals Inc.,,tmx:tsxv
+CA,TSX,FDY,FDY.TO,Faraday Copper CorpJ,,tmx:tsx
+CA,TSX,FEBB.F,FEBB-F.TO,1st Tr VestUSEqFb Hg,,tmx:tsx
+CA,TSX,FEC,FEC.TO,Frontera Energy Corp,,tmx:tsx
+CA,TSX,FEMO,FEMO.TO,Fidelity EM Opp Fd,,tmx:tsx
+CA,TSXV,FEO,FEO.V,Oceanic Iron Ore Corp,,tmx:tsxv
+CA,TSX,FETH.U,FETH-U.TO,Fidelity Advantg US$,,tmx:tsx
+CA,TSX,FETH,FETH.TO,Fidelity Advantg C$,,tmx:tsx
+CA,TSXV,FEX,FEX.V,Fjordland Exploration Inc.,,tmx:tsxv
+CA,TSX,FF,FF.TO,First Mining Gold J,,tmx:tsx
+CA,TSX,FFAB,FFAB.TO,Fidelity Alt Bond F,,tmx:tsx
+CA,TSXV,FFC.P,FFC-P.V,Fife Capital Corp.,,tmx:tsxv
+CA,TSX,FFH.U,FFH-U.TO,Fairfax Fin SV USF,,tmx:tsx
+CA,TSX,FFH,FFH.TO,Fairfax Financial SV,,tmx:tsx
+CA,TSX,FFM,FFM.TO,FireFly Metals Ltd,,tmx:tsx
+CA,TSX,FFN,FFN.TO,NA Fin 15 Split A,,tmx:tsx
+CA,TSXV,FFOX,FFOX.V,Firefox Gold Corp.,,tmx:tsxv
+CA,TSXV,FFP,FFP.V,Cons Firstfund Capital Corp.,,tmx:tsxv
+CA,TSXV,FFU,FFU.V,F4 Uranium Corp.,,tmx:tsxv
+CA,TSXV,FG,FG.V,Falcon Gold Corp.,,tmx:tsxv
+CA,TSX,FGCV,FGCV.TO,Fidelity Gbl Con Val,,tmx:tsx
+CA,TSX,FGO.U,FGO-U.TO,CI EnhancGvtBndHG US,,tmx:tsx
+CA,TSX,FGO,FGO.TO,CI EnhancGovtBnd Heg,,tmx:tsx
+CA,TSX,FGOV,FGOV.TO,Franklin Cdn Gov Bnd,,tmx:tsx
+CA,TSX,FGQE,FGQE.TO,FIDELITY Glbl Qnt Et,,tmx:tsx
+CA,TSX,FGRW,FGRW.TO,Forstrong GlbGrowth,,tmx:tsx
+CA,TSX,FGSM,FGSM.TO,Fidelity Gbl Sll Md,,tmx:tsx
+CA,TSX,FHG.F,FHG-F.TO,1stTr AlphDEX US Heg,,tmx:tsx
+CA,TSX,FHG,FHG.TO,1stTr AlphDEX US Ind,,tmx:tsx
+CA,TSX,FHH.F,FHH-F.TO,1stTr AlpDXUSHlth Hg,,tmx:tsx
+CA,TSX,FHH,FHH.TO,1stTr AlpDEX US Hlth,,tmx:tsx
+CA,TSX,FHI.B,FHI-B.TO,CI HlthCr GiaCovUnHg,,tmx:tsx
+CA,TSX,FHI.U,FHI-U.TO,CI HlthCareCovrHegUS,,tmx:tsx
+CA,TSX,FHI,FHI.TO,CI HealthCareCovr HG,,tmx:tsx
+CA,TSX,FHIS,FHIS.TO,FranklinCdn UltShBnd,,tmx:tsx
+CA,TSX,FHQ.F,FHQ-F.TO,1stTr AlpDEXUSTechHg,,tmx:tsx
+CA,TSX,FHQ,FHQ.TO,1stTr AlpDEX US Tech,,tmx:tsx
+CA,TSXV,FHR,FHR.V,Fiddlehead Resources Corp.,,tmx:tsxv
+CA,TSXV,FHYD,FHYD.V,First Hydrogen Corp.,,tmx:tsxv
+CA,TSX,FIG.U,FIG-U.TO,CI InvestGrdBndHG US,,tmx:tsx
+CA,TSX,FIG,FIG.TO,CI Invest GrdBnd Heg,,tmx:tsx
+CA,TSX,FIH.U,FIH-U.TO,Fairfax India SV USF,,tmx:tsx
+CA,TSXV,FIN,FIN.V,Grit Metals Corp.,,tmx:tsxv
+CA,TSX,FINC,FINC.TO,Forstrong Glbl Incm,,tmx:tsx
+CA,TSX,FINT,FINT.TO,1st TrIntlCapStrngth,,tmx:tsx
+CA,TSXV,FINV.P,FINV-P.V,Faction Investment Group Corp.,,tmx:tsxv
+CA,TSXV,FINX,FINX.V,FinEx Metals Ltd.,,tmx:tsxv
+CA,TSXV,FISH,FISH.V,Sailfish Royalty Corp.,,tmx:tsxv
+CA,TSX,FISV,FISV.TO,Fiserv CDR CAN Hgd,,tmx:tsx
+CA,TSXV,FL,FL.V,Frontier Lithium Inc.,,tmx:tsxv
+CA,TSX,FLCI,FLCI.TO,Franklin Cdn CorpBnd,,tmx:tsx
+CA,TSXV,FLCN,FLCN.V,Falcon Energy Materials plc,,tmx:tsxv
+CA,TSX,FLCP,FLCP.TO,Franklin Cdn Cor+Bnd,,tmx:tsx
+CA,TSX,FLGA,FLGA.TO,Franklin GlbCorBndUn,,tmx:tsx
+CA,TSX,FLI,FLI.TO,CI US&CA LifecoCv HG,,tmx:tsx
+CA,TSX,FLNT,FLNT.TO,FLINT Corp.,,tmx:tsx
+CA,TSX,FLSD,FLSD.TO,Frankln Cdn SH Bnd,,tmx:tsx
+CA,TSX,FLSE,FLSE.TO,Fidelity Glb Op LgSh,,tmx:tsx
+CA,TSX,FLT,FLT.TO,Volatus Aerspce Inc,,tmx:tsx
+CA,TSX,FLUS,FLUS.TO,Franklin US LargeCap,,tmx:tsx
+CA,TSX,FLX.B,FLX-B.TO,PurposeGlbFlxCrCA Un,,tmx:tsx
+CA,TSX,FLX.U,FLX-U.TO,PurposeGlbflxNCHG US,,tmx:tsx
+CA,TSX,FLX,FLX.TO,Purpose GlbFlxCredUn,,tmx:tsx
+CA,TSX,FM,FM.TO,First Quantum Mnrl J,,tmx:tsx
+CA,TSX,FMAB,FMAB.TO,Fidelity Mlti-Alt BF,,tmx:tsx
+CA,TSX,FMAE,FMAE.TO,Fidelity MulAlt EqFd,,tmx:tsx
+CA,TSXV,FMAN,FMAN.V,Freeman Gold Corp.,,tmx:tsxv
+CA,TSXV,FMM,FMM.V,Full Metal Minerals Ltd.,,tmx:tsxv
+CA,TSXV,FMN,FMN.V,Fidelity Minerals Corp.,,tmx:tsxv
+CA,TSX,FMPB,FMPB.TO,Fidelity GBl BalcPor,,tmx:tsx
+CA,TSX,FMPG,FMPG.TO,Fidelity Glb GrowPol,,tmx:tsx
+CA,TSX,FMPI,FMPI.TO,Fidelity Glb InC Pol,,tmx:tsx
+CA,TSX,FMR,FMR.TO,Future Mnrl Res Inc,,tmx:tsx
+CA,TSXV,FMS,FMS.V,Focus Graphite Inc.,,tmx:tsxv
+CA,TSXV,FNR,FNR.V,49 North Resources Inc.,,tmx:tsxv
+CA,TSX,FNV,FNV.TO,Franco-Nevada Corp.,,tmx:tsx
+CA,TSXV,FOBI,FOBI.V,Fobi AI Inc.,,tmx:tsxv
+CA,TSXV,FONC.P,FONC-P.V,Florence One Capital Inc.,,tmx:tsxv
+CA,TSXV,FOR,FOR.V,Fortune Bay Corp.,,tmx:tsxv
+CA,TSX,FORA,FORA.TO,VerticalScope J SV,,tmx:tsx
+CA,TSXV,FORT,FORT.V,Fort Technology Inc.,,tmx:tsxv
+CA,TSXV,FOXT,FOXT.V,Fox Tungsten Ltd.,,tmx:tsxv
+CA,TSXV,FP,FP.V,FP Newspapers Inc.,,tmx:tsxv
+CA,TSXV,FPC,FPC.V,Falco Resources Ltd.,,tmx:tsxv
+CA,TSX,FPR,FPR.TO,CI Preferred Shr Un,,tmx:tsx
+CA,TSXV,FPX,FPX.V,FPX Nickel Corp.,,tmx:tsxv
+CA,TSXV,FPY.P,FPY-P.V,Fairplay Ventures Inc.,,tmx:tsxv
+CA,TSXV,FRAS.P,FRAS-P.V,Fraser Big Sky Capital Corp.,,tmx:tsxv
+CA,TSXV,FRED,FRED.V,Fredonia Mining Inc.,,tmx:tsxv
+CA,TSXV,FREQ,FREQ.V,Frequency Exchange Corp.,,tmx:tsxv
+CA,TSXV,FRI,FRI.V,Freeport Resources Inc.,,tmx:tsxv
+CA,TSXV,FRNT,FRNT.V,FRNT Financial Inc.,,tmx:tsxv
+CA,TSXV,FROG,FROG.V,Bullfrog Gold Corporation,,tmx:tsxv
+CA,TSXV,FRSH,FRSH.V,The Fresh Factory B.C. Ltd.,,tmx:tsxv
+CA,TSX,FRU,FRU.TO,Freehold Royalties,,tmx:tsx
+CA,TSX,FRX,FRX.TO,Fennec Pharmaceut J,,tmx:tsx
+CA,TSX,FSB.U,FSB-U.TO,CI EnhancShrtBnd US,,tmx:tsx
+CA,TSX,FSB,FSB.TO,CI Enhnc ShrtDur Bnd,,tmx:tsx
+CA,TSX,FSF,FSF.TO,CI Glbl Fin Sectr Un,,tmx:tsx
+CA,TSX,FSL,FSL.TO,1st Tr SnrLoan Cad-H,,tmx:tsx
+CA,TSX,FST,FST.TO,1st Tr CdnCapStrngUn,,tmx:tsx
+CA,TSXV,FSTV.P,FSTV-P.V,Falconstar Ventures Inc.,,tmx:tsxv
+CA,TSX,FSV,FSV.TO,FirstService Corp.,,tmx:tsx
+CA,TSX,FSZ,FSZ.TO,Fiera Capital A SV,,tmx:tsx
+CA,TSX,FT,FT.TO,Fortune Minerals J,,tmx:tsx
+CA,TSXV,FTEC,FTEC.V,Fintech Select Ltd.,,tmx:tsxv
+CA,TSX,FTG,FTG.TO,Firan Tech Grp Corp.,,tmx:tsx
+CA,TSX,FTHI,FTHI.TO,FidTac HghIncFndETF,,tmx:tsx
+CA,TSXV,FTJ,FTJ.V,Fort St. James Nickel Corp.,,tmx:tsxv
+CA,TSX,FTLS,FTLS.TO,First Trust Lg Sh Eq,,tmx:tsx
+CA,TSX,FTN,FTN.TO,Financial 15 Splt A,,tmx:tsx
+CA,TSXV,FTRC,FTRC.V,The FUTR Corporation,,tmx:tsxv
+CA,TSX,FTS,FTS.TO,Fortis Inc.,,tmx:tsx
+CA,TSX,FTT,FTT.TO,Finning Int'l Inc.,,tmx:tsx
+CA,TSX,FTU,FTU.TO,US Financial 15 Cl A,,tmx:tsx
+CA,TSXV,FTUR,FTUR.V,Future Fuels Inc.,,tmx:tsxv
+CA,TSXV,FTZ,FTZ.V,Fitzroy Minerals Inc.,,tmx:tsxv
+CA,TSX,FUD,FUD.TO,1st Tr ValLnDivCA-Hg,,tmx:tsx
+CA,TSXV,FUN.P,FUN-P.V,Fountainhall Capital Corp.,,tmx:tsxv
+CA,TSX,FURY,FURY.TO,Fury Gld Mines Ltd J,,tmx:tsx
+CA,TSXV,FUSE,FUSE.V,Fuse Battery Metals Inc.,,tmx:tsxv
+CA,TSXV,FUU,FUU.V,F3 Uranium Corp.,,tmx:tsxv
+CA,TSX,FVI,FVI.TO,Fortuna Mining Corp.,,tmx:tsx
+CA,TSX,FVL,FVL.TO,Freegold Limited,,tmx:tsx
+CA,TSXV,FWTC,FWTC.V,Forward Water Technologies Corp.,,tmx:tsxv
+CA,TSXV,FWZ,FWZ.V,Fireweed Metals Corp.,,tmx:tsxv
+CA,TSX,FXM,FXM.TO,CI Mornstr CA Val Un,,tmx:tsx
+CA,TSXV,FYL,FYL.V,Finlay Minerals Ltd,,tmx:tsxv
+CA,TSXV,GAL,GAL.V,Galantas Gold Corporation,,tmx:tsxv
+CA,TSXV,GAMA,GAMA.V,Gamma Resources Ltd.,,tmx:tsxv
+CA,TSX,GASX,GASX.TO,NG Energy Int Corp S,,tmx:tsx
+CA,TSX,GAU,GAU.TO,Galiano Gold Inc. J,,tmx:tsx
+CA,TSXV,GBML,GBML.V,Global Battery Metals Ltd.,,tmx:tsxv
+CA,TSX,GBT,GBT.TO,BMTC Group Inc.,,tmx:tsx
+CA,TSXV,GBU,GBU.V,Gabriel Resources Ltd.,,tmx:tsxv
+CA,TSX,GBUL,GBUL.TO,Ninepoint Gld Bulion,,tmx:tsx
+CA,TSX,GCBD,GCBD.TO,Guardian Cdn Bond Un,,tmx:tsx
+CA,TSX,GCEI,GCEI.TO,Guardian Cdn Eq Incm,,tmx:tsx
+CA,TSX,GCFE,GCFE.TO,Guardian CdnFocus Eq,,tmx:tsx
+CA,TSX,GCIG,GCIG.TO,Glbl X 1-10 Yr C CrB,,tmx:tsx
+CA,TSXV,GCN,GCN.V,Goldcliff Resource Corporation,,tmx:tsxv
+CA,TSX,GCNS,GCNS.TO,iShr ESG Conserv Bal,,tmx:tsx
+CA,TSXV,GCOM,GCOM.V,Green Shift Commodities Ltd.,,tmx:tsxv
+CA,TSX,GCSC,GCSC.TO,Guardian CDN DivCoEq,,tmx:tsx
+CA,TSX,GCTB,GCTB.TO,Guard Ult-Sh CdnT-bl,,tmx:tsx
+CA,TSX,GCU,GCU.TO,Gunnison Copper Corp,,tmx:tsx
+CA,TSXV,GCUC,GCUC.V,Green Canada Uranium Corp.,,tmx:tsxv
+CA,TSXV,GCV,GCV.V,Golden Star Capital Ventures Inc.,,tmx:tsxv
+CA,TSX,GDC,GDC.TO,Genesis Land Dev,,tmx:tsx
+CA,TSX,GDL,GDL.TO,Goodfellow Inc.,,tmx:tsx
+CA,TSXV,GDP,GDP.V,Golden Pursuit Resources Ltd.,,tmx:tsxv
+CA,TSX,GDV,GDV.TO,Glbl Div GrowSplit A,,tmx:tsx
+CA,TSX,GDXD,GDXD.TO,BetaProCdnGldMn-2xBr,,tmx:tsx
+CA,TSX,GDXU,GDXU.TO,BetaProCdnGldMnr2xBl,,tmx:tsx
+CA,TSX,GE,GE.TO,GE Aerospace CDR Hgd,,tmx:tsx
+CA,TSX,GEC,GEC.TO,Glbl Education Com J,,tmx:tsx
+CA,TSX,GEI,GEI.TO,Gibson Energy Inc,,tmx:tsx
+CA,TSXV,GEL,GEL.V,Graphano Energy Ltd.,,tmx:tsxv
+CA,TSXV,GEMC,GEMC.V,Global Energy Metals Corporation,,tmx:tsxv
+CA,TSXV,GEMG,GEMG.V,Gemdale Gold Inc.,,tmx:tsxv
+CA,TSX,GENM,GENM.TO,Generation Mining J,,tmx:tsx
+CA,TSXV,GENX,GENX.V,Genix Pharmaceuticals Corporation,,tmx:tsxv
+CA,TSX,GEO,GEO.TO,Geodrill Limited Ord,,tmx:tsx
+CA,TSX,GEQT,GEQT.TO,iShr ESG Eqty Portfl,,tmx:tsx
+CA,TSXV,GERA,GERA.V,Goldera Exploration Ltd.,,tmx:tsxv
+CA,TSX,GEV,GEV.TO,GE Vernova CDR Hgd,,tmx:tsx
+CA,TSXV,GFG,GFG.V,GFG Resources Inc.,,tmx:tsxv
+CA,TSX,GFGE,GFGE.TO,Grdn Fndmtl Gbl Eq,,tmx:tsx
+CA,TSX,GFL,GFL.TO,GFL Environment SV,,tmx:tsx
+CA,TSXV,GFOR.P,GFOR-P.V,Good2Go4 Corp.,,tmx:tsxv
+CA,TSX,GFP,GFP.TO,Green1st ForestProdJ,,tmx:tsx
+CA,TSX,GFR,GFR.TO,Greenfire Res Ltd.,,tmx:tsx
+CA,TSXV,GFTA,GFTA.V,Grafta Nanotech Corp.,,tmx:tsxv
+CA,TSXV,GG,GG.V,Golconda Gold Ltd.,,tmx:tsxv
+CA,TSXV,GGAU,GGAU.V,Galactic Gold Corp.,,tmx:tsxv
+CA,TSX,GGD,GGD.TO,GoGold Resources J,,tmx:tsx
+CA,TSX,GGEP.F,GGEP-F.TO,Guardian DirEqPth Hg,,tmx:tsx
+CA,TSX,GGEP,GGEP.TO,Guardian DirEq Pth P,,tmx:tsx
+CA,TSXV,GGI,GGI.V,Garibaldi Resources Corp.,,tmx:tsxv
+CA,TSXV,GGL,GGL.V,GGL Resources Corp.,,tmx:tsxv
+CA,TSXV,GGM,GGM.V,Granada Gold Mine Inc.,,tmx:tsxv
+CA,TSXV,GGO,GGO.V,Galleon Gold Corp.,,tmx:tsxv
+CA,TSX,GGPY.F,GGPY-F.TO,Guardian PremYld Heg,,tmx:tsx
+CA,TSX,GGPY,GGPY.TO,Guardian Dir PremYld,,tmx:tsx
+CA,TSX,GGRO,GGRO.TO,iShrESG GrowthPortfl,,tmx:tsx
+CA,TSXV,GGX,GGX.V,GGX Gold Corp.,,tmx:tsxv
+CA,TSXV,GHL,GHL.V,Goldhills Holding Ltd.,,tmx:tsxv
+CA,TSXV,GHRT,GHRT.V,Greenheart Gold Inc.,,tmx:tsxv
+CA,TSX,GIAI,GIAI.TO,Guardian i3 AI TI Iv,,tmx:tsx
+CA,TSX,GIB.A,GIB-A.TO,CGI Inc. Cl A SV,,tmx:tsx
+CA,TSX,GICD,GICD.TO,Guardian i3 Cd DivGr,,tmx:tsx
+CA,TSX,GIDY,GIDY.TO,Guard I3 GlDv Py Fnd,,tmx:tsx
+CA,TSX,GIES,GIES.TO,Guardian Intl EqSlct,,tmx:tsx
+CA,TSXV,GIG,GIG.V,XAU Resources Inc.,,tmx:tsxv
+CA,TSXV,GIGA,GIGA.V,Giga Metals Corporation,,tmx:tsxv
+CA,TSX,GIGC,GIGC.TO,Guard Inv Gr CorpBnd,,tmx:tsx
+CA,TSX,GIGD,GIGD.TO,Guardian i3 Gl DivGF,,tmx:tsx
+CA,TSX,GIGF.F,GIGF-F.TO,Guard i3 GlbCor Eq H,,tmx:tsx
+CA,TSX,GIGF,GIGF.TO,Guard i3 GlbCor E UH,,tmx:tsx
+CA,TSXV,GIII,GIII.V,ReGen III Corp.,,tmx:tsxv
+CA,TSX,GIL,GIL.TO,Gildan Activewear,,tmx:tsx
+CA,TSX,GILD,GILD.TO,GileadSci CDR Hgd,,tmx:tsx
+CA,TSX,GIUS.F,GIUS-F.TO,Gu i3 US Core Eq F H,,tmx:tsx
+CA,TSX,GIUS,GIUS.TO,Gu i3 US Core Eq Fnd,,tmx:tsx
+CA,TSXV,GKO,GKO.V,Geekco Technologies Corporation,,tmx:tsxv
+CA,TSXV,GLAD,GLAD.V,Gladiator Metals Corp.,,tmx:tsxv
+CA,TSXV,GLB,GLB.V,Goldbank Mining Corporation,,tmx:tsxv
+CA,TSX,GLCC,GLCC.TO,GblX Gld Eq CvCll E,,tmx:tsx
+CA,TSX,GLCL,GLCL.TO,Globl X Enh Gold Pro,,tmx:tsx
+CA,TSXV,GLD,GLD.V,Gold Finder Resources Ltd.,,tmx:tsxv
+CA,TSXV,GLDC,GLDC.V,Cassiar Gold Corp.,,tmx:tsxv
+CA,TSX,GLDD,GLDD.TO,BetaPro GldBul-2x Br,,tmx:tsx
+CA,TSX,GLDE,GLDE.TO,Ninepoint Gold&Pre M,,tmx:tsx
+CA,TSXV,GLDN,GLDN.V,Golden Ridge Resources Ltd.,,tmx:tsxv
+CA,TSX,GLDU,GLDU.TO,BetaPro GldBul 2x Bl,,tmx:tsx
+CA,TSX,GLO,GLO.TO,Global Atomic Corp J,,tmx:tsx
+CA,TSXV,GMA,GMA.V,Geomega Resources Inc,,tmx:tsxv
+CA,TSXV,GMG,GMG.V,Graphene Manufacturing Group Ltd.,,tmx:tsxv
+CA,TSX,GMIN,GMIN.TO,G Mining Ventures J,,tmx:tsx
+CA,TSXV,GMV,GMV.V,GMV Minerals Inc,,tmx:tsxv
+CA,TSX,GMX,GMX.TO,Globex Mining Ent J,,tmx:tsx
+CA,TSXV,GNG,GNG.V,Golden Goliath Resources Ltd.,,tmx:tsxv
+CA,TSX,GOHI,GOHI.TO,Ninep Alphabet HiShr,,tmx:tsx
+CA,TSXV,GOK,GOK.V,GINSMS Inc.,,tmx:tsxv
+CA,TSX,GOLD,GOLD.TO,GoldMining Inc. J,,tmx:tsx
+CA,TSXV,GOOD,GOOD.V,Good Gamer Entertainment Inc.,,tmx:tsxv
+CA,TSX,GOOG,GOOG.TO,Alphabet CDR CAD HD,,tmx:tsx
+CA,TSX,GOOS,GOOS.TO,Cda Goose Hldgs SV,,tmx:tsx
+CA,TSXV,GORO,GORO.V,Goldgroup Mining Inc.,,tmx:tsxv
+CA,TSXV,GOST.P,GOST-P.V,Georgia Street Capital Corp.,,tmx:tsxv
+CA,TSXV,GOT,GOT.V,Goliath Resources Limited,,tmx:tsxv
+CA,TSXV,GPAC,GPAC.V,Great Pacific Gold Corp.,,tmx:tsxv
+CA,TSXV,GPCC.P,GPCC-P.V,Green Panda Capital Corp.,,tmx:tsxv
+CA,TSXV,GPG,GPG.V,Grande Portage Resources Ltd.,,tmx:tsxv
+CA,TSXV,GPH,GPH.V,Graphite One Inc.,,tmx:tsxv
+CA,TSXV,GPM,GPM.V,GPM Metals Inc.,,tmx:tsxv
+CA,TSXV,GPS,GPS.V,Great Plains Metals Corp.,,tmx:tsxv
+CA,TSXV,GPUS,GPUS.V,Alset AI Ventures Inc.,,tmx:tsxv
+CA,TSXV,GQC,GQC.V,GoldQuest Mining Corp.,,tmx:tsxv
+CA,TSXV,GR,GR.V,Great Atlantic Resources Corp.,,tmx:tsxv
+CA,TSX,GRA,GRA.TO,NanoXplore Inc. J,,tmx:tsx
+CA,TSXV,GRB,GRB.V,Greenbriar Sustainable Living Inc.,,tmx:tsxv
+CA,TSX,GRC,GRC.TO,Gold Springs Res J,,tmx:tsx
+CA,TSX,GRCC,GRCC.TO,GblX GroAstAlocCvCl,,tmx:tsx
+CA,TSXV,GRD,GRD.V,Grounded Lithium Corp.,,tmx:tsxv
+CA,TSXV,GRDM,GRDM.V,Grid Metals Corp.,,tmx:tsxv
+CA,TSXV,GRF,GRF.V,Green Rise Foods Inc.,,tmx:tsxv
+CA,TSXV,GRG,GRG.V,Golden Arrow Resources Corporation,,tmx:tsxv
+CA,TSX,GRGD,GRGD.TO,Gr Dynamite SubV Sh,,tmx:tsx
+CA,TSXV,GRI,GRI.V,Galore Resources Inc,,tmx:tsxv
+CA,TSX,GRID,GRID.TO,Tantalus Sys Hldg J,,tmx:tsx
+CA,TSXV,GRL,GRL.V,GreenLight Metals Inc.,,tmx:tsxv
+CA,TSXV,GRMI,GRMI.V,Global Receivables Management Inc.,,tmx:tsxv
+CA,TSX,GRN,GRN.TO,Greenlane Renew J,,tmx:tsx
+CA,TSXV,GRSL,GRSL.V,GR Silver Mining Ltd.,,tmx:tsxv
+CA,TSXV,GRZ,GRZ.V,Gold Reserve Ltd.,,tmx:tsxv
+CA,TSX,GS,GS.TO,Goldman CDR Hgd,,tmx:tsx
+CA,TSXV,GSD,GSD.V,Devonian Health Group Inc.,,tmx:tsxv
+CA,TSX,GSDB,GSDB.TO,Grdn Short Dur Bnd,,tmx:tsx
+CA,TSXV,GSI,GSI.V,Gatekeeper Systems Inc.,,tmx:tsxv
+CA,TSXV,GSKR,GSKR.V,Goldsky Resources Corp.,,tmx:tsxv
+CA,TSXV,GSP,GSP.V,Gensource Potash Corporation,,tmx:tsxv
+CA,TSXV,GSPR,GSPR.V,GSP Resource Corp.,,tmx:tsxv
+CA,TSXV,GSR,GSR.V,Gold Strike Resources Corp.,,tmx:tsxv
+CA,TSXV,GSS,GSS.V,Gossan Resources Limited,,tmx:tsxv
+CA,TSXV,GST,GST.V,Gold Strategy Inc.,,tmx:tsxv
+CA,TSXV,GSTM,GSTM.V,Goldstorm Metals Corp.,,tmx:tsxv
+CA,TSXV,GSVR,GSVR.V,Guanajuato Silver Company Ltd.,,tmx:tsxv
+CA,TSX,GSY,GSY.TO,goeasy Ltd.,,tmx:tsx
+CA,TSXV,GT,GT.V,GT Resources Inc.,,tmx:tsxv
+CA,TSXV,GTC,GTC.V,Getty Copper Inc.,,tmx:tsxv
+CA,TSX,GTE,GTE.TO,Gran Tierra Energy,,tmx:tsx
+CA,TSX,GTRI,GTRI.TO,IA Clarngtn Agl Glb,,tmx:tsx
+CA,TSX,GUD,GUD.TO,Knight Therapeutics,,tmx:tsx
+CA,TSXV,GUF,GUF.V,Gulf & Pacific Equities Corp.,,tmx:tsxv
+CA,TSXV,GUN,GUN.V,Gunpoint Exploration Ltd,,tmx:tsxv
+CA,TSX,GURU,GURU.TO,GURU Organic Energy,,tmx:tsx
+CA,TSX,GUTB.U,GUTB-U.TO,Guard Ult-Sh US T-bl,,tmx:tsx
+CA,TSX,GVC,GVC.TO,Glacier Media Inc. J,,tmx:tsx
+CA,TSXV,GVR,GVR.V,Grosvenor Resource Corporation,,tmx:tsxv
+CA,TSXV,GWM,GWM.V,Galway Metals Inc.,,tmx:tsxv
+CA,TSX,GWO,GWO.TO,Great-West Lifeco,,tmx:tsx
+CA,TSXV,GX,GX.V,Guardian Exploration Inc.,,tmx:tsxv
+CA,TSXV,GXY.P,GXY-P.V,Galaxy Ventures Inc.,,tmx:tsxv
+CA,TSXV,GZD,GZD.V,Grizzly Discoveries Inc.,,tmx:tsxv
+CA,TSX,H,H.TO,Hydro One Limited,,tmx:tsx
+CA,TSX,HAB,HAB.TO,GblX Act CorBnd E Un,,tmx:tsx
+CA,TSX,HAC,HAC.TO,GblX Sznal Rota E Un,,tmx:tsx
+CA,TSX,HAD,HAD.TO,GblX ActvCdnBnd E Un,,tmx:tsx
+CA,TSX,HAF,HAF.TO,GblX ActiveGlbl E,,tmx:tsx
+CA,TSX,HAI,HAI.TO,Haivision Systems,,tmx:tsx
+CA,TSX,HALO,HALO.TO,Russell Iv Falln Ang,,tmx:tsx
+CA,TSXV,HAM,HAM.V,Highwood Asset Management Ltd.,,tmx:tsxv
+CA,TSXV,HAN,HAN.V,Hannan Metals Ltd.,,tmx:tsxv
+CA,TSXV,HANS,HANS.V,Hanstone Gold Corp.,,tmx:tsxv
+CA,TSXV,HAR,HAR.V,Harfang Exploration Inc.,,tmx:tsxv
+CA,TSXV,HART,HART.V,Gold Hart Copper Corp.,,tmx:tsxv
+CA,TSXV,HASH,HASH.V,Simply Solventless Concentrates Ltd.,,tmx:tsxv
+CA,TSXV,HAW.P,HAW-P.V,Haw Capital 2 Corp.,,tmx:tsxv
+CA,TSXV,HAY,HAY.V,Hayasa Metals Inc.,,tmx:tsxv
+CA,TSX,HAZ,HAZ.TO,GblX Act Gb Div E Un,,tmx:tsx
+CA,TSX,HBA,HBA.TO,Hamilton AusBk=Wgt E,,tmx:tsx
+CA,TSX,HBAL,HBAL.TO,GlblX Bal Ast Aloc E,,tmx:tsx
+CA,TSX,HBB,HBB.TO,GblX Cdn SlctUniv BD,,tmx:tsx
+CA,TSX,HBDV,HBDV.TO,Hmls NA Div Growth E,,tmx:tsx
+CA,TSX,HBF.B,HBF-B.TO,HVST US EqL Inc UNH,,tmx:tsx
+CA,TSX,HBF.U,HBF-U.TO,HVST US EqL Inc USD,,tmx:tsx
+CA,TSX,HBF,HBF.TO,HVST US Eq Ldr Inc,,tmx:tsx
+CA,TSX,HBGD.U,HBGD-U.TO,GblX BigDataHrdwrUS,,tmx:tsx
+CA,TSX,HBGD,HBGD.TO,GblX BigDataHrdwr A,,tmx:tsx
+CA,TSX,HBIL.U,HBIL-U.TO,HamUS TBYld MaxETF U,,tmx:tsx
+CA,TSX,HBIL,HBIL.TO,HamUS TBYld MaxETF C,,tmx:tsx
+CA,TSX,HBLK,HBLK.TO,Blockchain Tech A Un,,tmx:tsx
+CA,TSX,HBM,HBM.TO,Hudbay Minerals Inc.,,tmx:tsx
+CA,TSX,HBNK,HBNK.TO,GblX EqWgtBanksIdx E,,tmx:tsx
+CA,TSX,HBOP,HBOP.TO,Humilis Fndmtl Opp E,,tmx:tsx
+CA,TSX,HBP,HBP.TO,Helix BioPharma,,tmx:tsx
+CA,TSX,HBTA,HBTA.TO,Hmls NAm Tacti Eq Fd,,tmx:tsx
+CA,TSXV,HC,HC.V,Hypercharge Networks Corp.,,tmx:tsxv
+CA,TSX,HCA,HCA.TO,Hamilton CadBkRev Un,,tmx:tsx
+CA,TSX,HCAL,HCAL.TO,Hamilton EnhanCA Bk,,tmx:tsx
+CA,TSXV,HCH,HCH.V,Hot Chili Limited,,tmx:tsxv
+CA,TSX,HCLN,HCLN.TO,Harvest CleanEngy Un,,tmx:tsx
+CA,TSXV,HCO.P,HCO-P.V,Hansco Capital Corp.,,tmx:tsxv
+CA,TSX,HCON,HCON.TO,GblX Cosv Ast Aloc E,,tmx:tsx
+CA,TSX,HD,HD.TO,Home Depot CDR Hgd,,tmx:tsx
+CA,TSX,HDGE.U,HDGE-U.TO,Accel AbsolRet FndUS,,tmx:tsx
+CA,TSX,HDGE,HDGE.TO,Accel Absol Ret Fnd,,tmx:tsx
+CA,TSX,HDIF,HDIF.TO,Harvest DiverMoIncmA,,tmx:tsx
+CA,TSX,HDIV,HDIV.TO,HamiltonEnhnCadSecCl,,tmx:tsx
+CA,TSXV,HDRO,HDRO.V,Primary Hydrogen Corp.,,tmx:tsxv
+CA,TSX,HEB,HEB.TO,Hamilton Chm Cd B EQ,,tmx:tsx
+CA,TSXV,HEC.P,HEC-P.V,Haviland Enviro Corp.,,tmx:tsxv
+CA,TSXV,HELI,HELI.V,First Helium Inc.,,tmx:tsxv
+CA,TSXV,HEM,HEM.V,Hemostemix Inc.,,tmx:tsxv
+CA,TSX,HEQL,HEQL.TO,GblX EhEq AsstAlloc,,tmx:tsx
+CA,TSX,HEQT,HEQT.TO,GblX Eq Ast Alloc E,,tmx:tsx
+CA,TSX,HERO,HERO.TO,Evolve E-Gaming HgUn,,tmx:tsx
+CA,TSXV,HEVI,HEVI.V,Helium Evolution Incorporated,,tmx:tsxv
+CA,TSX,HEWB,HEWB.TO,GblX EqlWgtCaBnk Inx,,tmx:tsx
+CA,TSXV,HFC,HFC.V,Hampton Financial Corporation,,tmx:tsxv
+CA,TSX,HFG,HFG.TO,Hamilton Glbl Fin E,,tmx:tsx
+CA,TSX,HFIN,HFIN.TO,Hamilton EnhanCA Fin,,tmx:tsx
+CA,TSX,HFN,HFN.TO,Hamilton Chm Cd Fi E,,tmx:tsx
+CA,TSX,HFPC.U,HFPC-U.TO,Helios Fairfax SV US,,tmx:tsx
+CA,TSX,HFR,HFR.TO,Glbl X Act UltST Bnd,,tmx:tsx
+CA,TSX,HGGG,HGGG.TO,Harvest Glb GldGiant,,tmx:tsx
+CA,TSX,HGR,HGR.TO,HarvestGlblREITLdr A,,tmx:tsx
+CA,TSX,HGRW,HGRW.TO,GblX GroAsstAlloc,,tmx:tsx
+CA,TSXV,HHH,HHH.V,Helius Minerals Limited,,tmx:tsxv
+CA,TSX,HHIC,HHIC.TO,Harvest Cdn High Inc,,tmx:tsx
+CA,TSX,HHII,HHII.TO,Harvest Intl HI Shrs,,tmx:tsx
+CA,TSX,HHL.B,HHL-B.TO,HarvestHealthcrB U-H,,tmx:tsx
+CA,TSX,HHL.U,HHL-U.TO,HarvestHealthcare US,,tmx:tsx
+CA,TSX,HHL,HHL.TO,Harvest HlthcrLdr Un,,tmx:tsx
+CA,TSX,HHLE,HHLE.TO,Harvest HlthcrIncm A,,tmx:tsx
+CA,TSXV,HI,HI.V,Highland Copper Company Inc.,,tmx:tsxv
+CA,TSXV,HIDE,HIDE.V,Hydaway Digital Corp.,,tmx:tsxv
+CA,TSX,HIG.U,HIG-U.TO,Brompton GlbHlthcrUS,,tmx:tsx
+CA,TSX,HIG,HIG.TO,Brompton GlbHlthcrCA,,tmx:tsx
+CA,TSX,HISU.U,HISU-U.TO,US HiIntrstSvgUNH US,,tmx:tsx
+CA,TSX,HISU.V,HISU-V.TO,US Hi Int Sav Ac Fnd,,tmx:tsx
+CA,TSXV,HITI,HITI.V,High Tide Inc.,,tmx:tsxv
+CA,TSX,HIVE,HIVE.TO,HIVE Digital Tech L,,tmx:tsx
+CA,TSX,HLF,HLF.TO,High Liner Foods Inc,,tmx:tsx
+CA,TSX,HLIF,HLIF.TO,HVST Can Div Ldr Inc,,tmx:tsx
+CA,TSX,HLIT,HLIT.TO,GblX LithiumProd Inx,,tmx:tsx
+CA,TSX,HLPR,HLPR.TO,GblX LadrdCA PrShInx,,tmx:tsx
+CA,TSX,HLS,HLS.TO,HLS Therapeutics J,,tmx:tsx
+CA,TSXV,HLU,HLU.V,Homeland Uranium Corp.,,tmx:tsxv
+CA,TSXV,HMCC.P,HMCC-P.V,High Mountain 2 Capital Corporation,,tmx:tsxv
+CA,TSXV,HME,HME.V,Hemisphere Energy Corporation,,tmx:tsxv
+CA,TSX,HMM.A,HMM-A.TO,Hammond Mfg Cl A SV,,tmx:tsx
+CA,TSX,HMMC,HMMC.TO,Hemlo Mining Corp,,tmx:tsx
+CA,TSX,HMMJ.U,HMMJ-U.TO,GblX Marij LfeSci US,,tmx:tsx
+CA,TSX,HMMJ,HMMJ.TO,GblX Marij Lfe Sci A,,tmx:tsx
+CA,TSX,HMP,HMP.TO,Glbl X ActCn MunBd E,,tmx:tsx
+CA,TSXV,HMR,HMR.V,Homerun Resources Inc.,,tmx:tsxv
+CA,TSXV,HMT,HMT.V,Halmont Properties Corporation cl A vtg shrs,,tmx:tsxv
+CA,TSX,HND,HND.TO,BetaProNatGas Lev Br,,tmx:tsx
+CA,TSX,HNU,HNU.TO,BetaPro NatGasLevBul,,tmx:tsx
+CA,TSXV,HO.P,HO-P.V,H2 Ventures 1 Inc.,,tmx:tsxv
+CA,TSX,HOD,HOD.TO,BetaPro CrdOilInvrBr,,tmx:tsx
+CA,TSX,HODY,HODY.TO,Harv Rbnh EnH H In E,,tmx:tsx
+CA,TSXV,HOH,HOH.V,High Arctic Overseas Holdings Corp.,,tmx:tsxv
+CA,TSX,HON,HON.TO,Honeywell Te CDR Hgd,,tmx:tsx
+CA,TSX,HONA,HONA.TO,Honeywell Aerospce C,,tmx:tsx
+CA,TSX,HONE,HONE.TO,HVST AIn1 Hi Inc Shr,,tmx:tsx
+CA,TSX,HOOD,HOOD.TO,Robinhood CDR CAD HD,,tmx:tsx
+CA,TSX,HOT.U,HOT-U.TO,American Hotl Un USF,,tmx:tsx
+CA,TSX,HOU,HOU.TO,BetaPro CrdOilLevBul,,tmx:tsx
+CA,TSX,HPF.U,HPF-U.TO,HVST Energy Ldr USD,,tmx:tsx
+CA,TSX,HPF,HPF.TO,HVST Energy Ldr Inc,,tmx:tsx
+CA,TSXV,HPL,HPL.V,Horizon Petroleum Ltd.,,tmx:tsxv
+CA,TSXV,HPM,HPM.V,Halcones Precious Metals Corp.,,tmx:tsxv
+CA,TSXV,HPQ,HPQ.V,HPQ Silicon Inc.,,tmx:tsxv
+CA,TSX,HPS.A,HPS-A.TO,Hammond Power A SV,,tmx:tsx
+CA,TSX,HPYG,HPYG.TO,Harvest PremYielGld,,tmx:tsx
+CA,TSX,HPYM.U,HPYM-U.TO,Harvst PremYld7-10US,,tmx:tsx
+CA,TSX,HPYM,HPYM.TO,Harvst PremYld7-10Yr,,tmx:tsx
+CA,TSX,HPYT.U,HPYT-U.TO,Harvst PremYldTreaUS,,tmx:tsx
+CA,TSX,HPYT,HPYT.TO,Harvest PremYldTreas,,tmx:tsx
+CA,TSXV,HRC.P,HRC-P.V,Hoshi Resource Corp.,,tmx:tsxv
+CA,TSX,HRIF,HRIF.TO,Harvest Divers Eq Un,,tmx:tsx
+CA,TSX,HRMS,HRMS.TO,Hermes CDR CAD Hedg,,tmx:tsx
+CA,TSX,HSAV,HSAV.TO,GblX CshMaxShare Cls,,tmx:tsx
+CA,TSX,HSH,HSH.TO,GblX SP500CAHegd Inx,,tmx:tsx
+CA,TSX,HSLV,HSLV.TO,Highlander Silver Co,,tmx:tsx
+CA,TSX,HSTR,HSTR.TO,Heliostar Metals Ltd,,tmx:tsx
+CA,TSX,HSUV.U,HSUV-U.TO,GblX USD CshMax CIUS,,tmx:tsx
+CA,TSX,HTA.B,HTA-B.TO,HVST TechLdr Inc UNH,,tmx:tsx
+CA,TSX,HTA.U,HTA-U.TO,HVST TechLdr Inc USD,,tmx:tsx
+CA,TSX,HTA,HTA.TO,HVST Tech Ldr Inc ET,,tmx:tsx
+CA,TSX,HTAE,HTAE.TO,HVST Tech Ldr Enh,,tmx:tsx
+CA,TSX,HTB.U,HTB-U.TO,GblX US7-10TreaBdUS,,tmx:tsx
+CA,TSX,HTB,HTB.TO,GblX US7-10TreasBd,,tmx:tsx
+CA,TSX,HUBL.U,HUBL-U.TO,Harvest USBkLeadr US,,tmx:tsx
+CA,TSX,HUBL,HUBL.TO,Harvest US BkLeadrUn,,tmx:tsx
+CA,TSX,HULC.U,HULC-U.TO,GblX LrgCapIdx CI US,,tmx:tsx
+CA,TSX,HULC,HULC.TO,GblX US LrgCapIdx CI,,tmx:tsx
+CA,TSX,HUM,HUM.TO,Hamilton USMidFinEtf,,tmx:tsx
+CA,TSX,HUN,HUN.TO,Glbl X NatrlGasETF,,tmx:tsx
+CA,TSX,HURA,HURA.TO,GblX Uranium Inx E A,,tmx:tsx
+CA,TSX,HUT,HUT.TO,Hut 8 Corp J,,tmx:tsx
+CA,TSX,HUTE,HUTE.TO,HVST Util LdrEnh Inc,,tmx:tsx
+CA,TSX,HUTL,HUTL.TO,HVST Util Ldr Inc,,tmx:tsx
+CA,TSX,HUTS,HUTS.TO,Hamilton EnhncUtil E,,tmx:tsx
+CA,TSXV,HVG,HVG.V,Harvest Gold Corp.,,tmx:tsxv
+CA,TSX,HVOI,HVOI.TO,Harvst LoVo CaEq Inc,,tmx:tsx
+CA,TSX,HVOL,HVOL.TO,Harvest LowVol Ca Eq,,tmx:tsx
+CA,TSX,HWO,HWO.TO,High Arctic Engy Inc,,tmx:tsx
+CA,TSX,HWX,HWX.TO,Headwater Expl Inc.,,tmx:tsx
+CA,TSXV,HWY,HWY.V,Highway 50 Gold Corp.,,tmx:tsxv
+CA,TSX,HXCN,HXCN.TO,GblX SPTSXCap IdxCr,,tmx:tsx
+CA,TSX,HXDM.U,HXDM-U.TO,GblX IntlDivMktEqUS,,tmx:tsx
+CA,TSX,HXDM,HXDM.TO,GblX IntlDivMkts Eq,,tmx:tsx
+CA,TSX,HXE,HXE.TO,GblX SPTSXCapEngyIdx,,tmx:tsx
+CA,TSX,HXEM,HXEM.TO,GblX EmergMkt EqIdx,,tmx:tsx
+CA,TSX,HXF,HXF.TO,GblX SPTSXCapFin Idx,,tmx:tsx
+CA,TSX,HXH,HXH.TO,GblX CdnHiDivInxShr,,tmx:tsx
+CA,TSX,HXQ.U,HXQ-U.TO,GblX NASDAQ100x CIUS,,tmx:tsx
+CA,TSX,HXQ,HXQ.TO,GblX NASDAQ100x Ci,,tmx:tsx
+CA,TSX,HXS.U,HXS-U.TO,GblX SP500Inx US Shr,,tmx:tsx
+CA,TSX,HXS,HXS.TO,GblX SP500InxCls Shr,,tmx:tsx
+CA,TSX,HXT.U,HXT-U.TO,GblX SP/TSX60 Inx US,,tmx:tsx
+CA,TSX,HXT,HXT.TO,GblX SP/TSX60 Inx CI,,tmx:tsx
+CA,TSX,HXX,HXX.TO,GblX EURO 50IndxShr,,tmx:tsx
+CA,TSX,HYBR,HYBR.TO,GblX Act Hy Bnd&Pr E,,tmx:tsx
+CA,TSX,HYLD.U,HYLD-U.TO,Hamilton USCvClUH US,,tmx:tsx
+CA,TSX,HYLD,HYLD.TO,Hamilton USCvClHG C$,,tmx:tsx
+CA,TSX,IAG,IAG.TO,iA Financial Corp.,,tmx:tsx
+CA,TSX,IAU,IAU.TO,i-80 Gold Corp. J,,tmx:tsx
+CA,TSXV,IB,IB.V,IBC Advanced Alloys Corp.,,tmx:tsxv
+CA,TSXV,IBAT,IBAT.V,International Battery Metals Ltd.,,tmx:tsxv
+CA,TSX,IBM,IBM.TO,IBM CDR (CAD Hedged),,tmx:tsx
+CA,TSX,ICAE,ICAE.TO,CI S&P TSXCdnDvESG,,tmx:tsx
+CA,TSX,ICCB,ICCB.TO,InvCad CrePl BndETF,,tmx:tsx
+CA,TSX,ICE,ICE.TO,Canlan Ice Sports,,tmx:tsx
+CA,TSXV,ICGH,ICGH.V,IC Group Holdings Inc.,,tmx:tsxv
+CA,TSXV,ICM,ICM.V,Iconic Minerals Ltd.,,tmx:tsxv
+CA,TSX,ICPB,ICPB.TO,IA ClaringtnCore Fnd,,tmx:tsx
+CA,TSXV,ICRS,ICRS.V,Icarus Capital Corp.,,tmx:tsxv
+CA,TSXV,ICWY.P,ICWY-P.V,ICWHY Capital Ventures Inc.,,tmx:tsxv
+CA,TSXV,ID,ID.V,Secure Blockchain Development Corp.,,tmx:tsxv
+CA,TSX,IDEF.B,IDEF-B.TO,Manulife IntlDefEqUH,,tmx:tsx
+CA,TSXV,IDEX,IDEX.V,IDEX Metals Corp.,,tmx:tsxv
+CA,TSX,IDIV.B,IDIV-B.TO,Manulife Intl Div UH,,tmx:tsx
+CA,TSXV,IDL,IDL.V,Imaging Dynamics Company Ltd.,,tmx:tsxv
+CA,TSX,IDUV.U,IDUV-U.TO,Manulife Sm Int D U,,tmx:tsx
+CA,TSX,IE,IE.TO,Ivanhoe Electric J,,tmx:tsx
+CA,TSXV,IEI,IEI.V,Imperial Equities Inc.,,tmx:tsxv
+CA,TSX,IFA,IFA.TO,iFabric Corp. J,,tmx:tsx
+CA,TSX,IFC,IFC.TO,Intact Fin Corp.,,tmx:tsx
+CA,TSXV,IFOS,IFOS.V,Itafos Inc.,,tmx:tsxv
+CA,TSX,IFP,IFP.TO,Interfor Corporation,,tmx:tsx
+CA,TSXV,IFR,IFR.V,International Frontier Resources Corporation,,tmx:tsxv
+CA,TSX,IFRF,IFRF.TO,IA ClaringtonFltg Un,,tmx:tsx
+CA,TSX,IGAF,IGAF.TO,IA Claringtn LoomGlb,,tmx:tsx
+CA,TSX,IGB,IGB.TO,Purpose Glbl Bond Cl,,tmx:tsx
+CA,TSX,IGCF,IGCF.TO,PIMCO InvGrdCreditCA,,tmx:tsx
+CA,TSX,IGEO,IGEO.TO,IA Claringtn GlbEqOp,,tmx:tsx
+CA,TSX,IGET.F,IGET-F.TO,CI MS Enrgy Tr Ix Hg,,tmx:tsx
+CA,TSX,IGET,IGET.TO,CI MS Glb EngyTr Idx,,tmx:tsx
+CA,TSX,IGM,IGM.TO,IGM Financial Inc.,,tmx:tsx
+CA,TSXV,IGO,IGO.V,Independence Gold Corp.,,tmx:tsxv
+CA,TSX,IIAE.F,IIAE-F.TO,CI S&PIntDvDv Ar Hg,,tmx:tsx
+CA,TSX,IIAE,IIAE.TO,CI S&P IntlDevDv Ar,,tmx:tsx
+CA,TSX,IICE.F,IICE-F.TO,CI S&P IntDvESGCHg,,tmx:tsx
+CA,TSX,IICE,IICE.TO,CI S&P IntlDvESG IxC,,tmx:tsx
+CA,TSX,III,III.TO,Imperial Metals Corp,,tmx:tsx
+CA,TSX,IIME,IIME.TO,IA Clar Intl Ml EqFn,,tmx:tsx
+CA,TSX,IIMF.F,IIMF-F.TO,CI InvescoIntlDevHg,,tmx:tsx
+CA,TSX,IIMF,IIMF.TO,CI InvescoIntlDevMF,,tmx:tsx
+CA,TSXV,IKC.P,IKC-P.V,Ikigai Capital Corp.,,tmx:tsxv
+CA,TSXV,ILC,ILC.V,ILC Critical Minerals Ltd.,,tmx:tsxv
+CA,TSX,ILGB,ILGB.TO,IA ClaringtLooMltBnd,,tmx:tsx
+CA,TSXV,ILI,ILI.V,Imagine Lithium Inc.,,tmx:tsxv
+CA,TSX,ILLM,ILLM.TO,illumin Holdings J,,tmx:tsx
+CA,TSX,IMAX,IMAX.TO,Ham Int Eq Yld Max E,,tmx:tsx
+CA,TSX,IMFE,IMFE.TO,IA ClarGbl Multi EqF,,tmx:tsx
+CA,TSX,IMG,IMG.TO,Iamgold Corporation,,tmx:tsx
+CA,TSXV,IMI,IMI.V,Ironman International Ltd.,,tmx:tsxv
+CA,TSXV,IMM,IMM.V,International Metals Mining Corp.,,tmx:tsxv
+CA,TSX,IMO,IMO.TO,Imperial Oil Ltd.,,tmx:tsx
+CA,TSX,IMP,IMP.TO,Intermap Technology,,tmx:tsx
+CA,TSXV,IMPT,IMPT.V,Impact Development Group Inc.,,tmx:tsxv
+CA,TSXV,IMR,IMR.V,iMetal Resources Inc.,,tmx:tsxv
+CA,TSXV,IN,IN.V,Infield Minerals Corp.,,tmx:tsxv
+CA,TSX,INAI.F,INAI-F.TO,CI Mrn Glb NxGenAIHg,,tmx:tsx
+CA,TSX,INAI,INAI.TO,CI Mrn Glb NxtGenAI,,tmx:tsx
+CA,TSX,INCM.B,INCM-B.TO,Accele Div CreInc HD,,tmx:tsx
+CA,TSX,INCM.U,INCM-U.TO,Acceler DivrsCreIcUS,,tmx:tsx
+CA,TSX,INCM,INCM.TO,Accelera DivrsCre IC,,tmx:tsx
+CA,TSXV,INEO,INEO.V,INEO Tech Corp.,,tmx:tsxv
+CA,TSXV,INFI,INFI.V,Infinitum Copper Corp.,,tmx:tsxv
+CA,TSXV,INFM,INFM.V,Infinico Metals Corp.,,tmx:tsxv
+CA,TSX,INFR,INFR.TO,Ninepoint Glbl Infra,,tmx:tsx
+CA,TSX,INGS,INGS.TO,ING CDR CAD Hedged,,tmx:tsx
+CA,TSX,INHI,INHI.TO,Ninept Intel HiShr E,,tmx:tsx
+CA,TSXV,INIK,INIK.V,Ionik Corporation,,tmx:tsxv
+CA,TSX,INOC,INOC.TO,GblX InovestCdnEq,,tmx:tsx
+CA,TSX,INTC,INTC.TO,Intel CDR Hgd,,tmx:tsx
+CA,TSX,INTE,INTE.TO,HVST Intel EnhHi Ic,,tmx:tsx
+CA,TSXV,INTR,INTR.V,Intrepid Metals Corp.,,tmx:tsxv
+CA,TSX,INTU,INTU.TO,Intuit CDR CAD Hgd,,tmx:tsx
+CA,TSX,INTY,INTY.TO,Evolve Int Eq UltY E,,tmx:tsx
+CA,TSXV,INX,INX.V,Intouch Insight Ltd.,,tmx:tsxv
+CA,TSXV,INXS,INXS.V,GoldInxs Mining Corp.,,tmx:tsxv
+CA,TSXV,IOT,IOT.V,Innovotech Inc.,,tmx:tsxv
+CA,TSX,IPCO,IPCO.TO,Int'l Pete Corp.,,tmx:tsx
+CA,TSXV,IPD,IPD.V,Intl Parkside Products Inc.,,tmx:tsxv
+CA,TSX,IPO,IPO.TO,InPlay Oil Corp.,,tmx:tsx
+CA,TSXV,IPT,IPT.V,IMPACT Silver Corp.,,tmx:tsxv
+CA,TSXV,IQ,IQ.V,AirIQ Inc,,tmx:tsxv
+CA,TSX,IQD.B,IQD-B.TO,CI IntQ DivGr ETFNHG,,tmx:tsx
+CA,TSX,IQD,IQD.TO,CI IntlQ DivGr ETFHG,,tmx:tsx
+CA,TSXV,IRO,IRO.V,Inter-Rock Minerals Inc.,,tmx:tsxv
+CA,TSXV,IRR,IRR.V,Irruptive Metals Corp.,,tmx:tsxv
+CA,TSX,IS,IS.TO,Infr're DivSplit A U,,tmx:tsx
+CA,TSX,ISCB,ISCB.TO,IA Claringtn CorpBnd,,tmx:tsx
+CA,TSXV,ISGI,ISGI.V,Insuraguest Technologies Inc.,,tmx:tsxv
+CA,TSX,ISIF,ISIF.TO,IA ClaringtnStrtegic,,tmx:tsx
+CA,TSX,ISO,ISO.TO,IsoEnergy Ltd.,,tmx:tsx
+CA,TSX,ISRG,ISRG.TO,Intuitive CDR Hgd,,tmx:tsx
+CA,TSX,ITH,ITH.TO,Int'l Tower Hill J,,tmx:tsx
+CA,TSX,ITIN,ITIN.TO,IA Claring Thm Innov,,tmx:tsx
+CA,TSXV,ITR,ITR.V,Integra Resources Corp.,,tmx:tsxv
+CA,TSX,IUAE.F,IUAE-F.TO,CI S&P USvArisESG H,,tmx:tsx
+CA,TSX,IUAE,IUAE.TO,CI S&P USvArist ESG,,tmx:tsx
+CA,TSX,IUFR.U,IUFR-U.TO,CI USTreasNt US,,tmx:tsx
+CA,TSX,IUMF.F,IUMF-F.TO,CI InvcoRus1000MFHg,,tmx:tsx
+CA,TSX,IUMF,IUMF.TO,CI InvescoRus1000MF,,tmx:tsx
+CA,TSX,IVN,IVN.TO,Ivanhoe Mines Cl A J,,tmx:tsx
+CA,TSX,IVQ.U,IVQ-U.TO,Invesque Inc. USF,,tmx:tsx
+CA,TSX,IVQ,IVQ.TO,Invesque Inc.,,tmx:tsx
+CA,TSXV,IVS,IVS.V,Inventus Mining Corp.,,tmx:tsxv
+CA,TSXV,IVX,IVX.V,Inventronics Limited,,tmx:tsxv
+CA,TSX,IWEB,IWEB.TO,IA Wealth Bond Pool,,tmx:tsx
+CA,TSXV,IZN,IZN.V,InZinc Mining Ltd.,,tmx:tsxv
+CA,TSXV,IZZ,IZZ.V,International Prospect Ventures Ltd.,,tmx:tsxv
+CA,TSXV,JAB.P,JAB-P.V,Jabbo Capital Corp.,,tmx:tsxv
+CA,TSXV,JADE,JADE.V,Jade Leader Corp.,,tmx:tsxv
+CA,TSX,JAG,JAG.TO,Jaguar Mining Inc. J,,tmx:tsx
+CA,TSXV,JAY,JAY.V,Blue Jay Gold Corp.,,tmx:tsxv
+CA,TSX,JBND,JBND.TO,JPMorgan US Bd Act E,,tmx:tsx
+CA,TSX,JCOR,JCOR.TO,JPMorgan US Core Act,,tmx:tsx
+CA,TSXV,JDN,JDN.V,Jayden Resources Inc.,,tmx:tsxv
+CA,TSXV,JEC,JEC.V,Jura Energy Corporation,,tmx:tsxv
+CA,TSX,JEPH,JEPH.TO,JPMorgan US Eq P C H,,tmx:tsx
+CA,TSX,JEPI,JEPI.TO,JPM USEq PInc ActETF,,tmx:tsx
+CA,TSX,JEPQ,JEPQ.TO,JPM NdEq PInc ActETF,,tmx:tsx
+CA,TSXV,JES.P,JES-P.V,Jesmond Capital Ltd.,,tmx:tsxv
+CA,TSXV,JEV,JEV.V,Jericho Energy Ventures Inc.,,tmx:tsxv
+CA,TSXV,JG,JG.V,Japan Gold Corp.,,tmx:tsxv
+CA,TSX,JGLO,JGLO.TO,JPMorgan Glb SeEqAct,,tmx:tsx
+CA,TSX,JIDE,JIDE.TO,JPMorgan ID EqyAcETF,,tmx:tsx
+CA,TSXV,JJ,JJ.V,Jackpot Digital Inc.,,tmx:tsxv
+CA,TSXV,JJJJ,JJJJ.V,J4 Ventures Resources Corp.,,tmx:tsxv
+CA,TSX,JNJ,JNJ.TO,J&J CDR CAN Hgd,,tmx:tsx
+CA,TSX,JNJY,JNJY.TO,Harv JnJ En Hi Inc E,,tmx:tsx
+CA,TSXV,JOJO.P,JOJO-P.V,Jo-Jo Capital Canada Ltd.,,tmx:tsxv
+CA,TSX,JOY,JOY.TO,Journey Energy Inc.,,tmx:tsx
+CA,TSX,JPHE,JPHE.TO,Harv JPHE En H Inc E,,tmx:tsx
+CA,TSX,JPIE,JPIE.TO,JPMorgan Inc Actv E,,tmx:tsx
+CA,TSX,JPM,JPM.TO,JPMorgan CDR Hgd,,tmx:tsx
+CA,TSX,JPQH,JPQH.TO,JPMorgan NSDQ Eq C H,,tmx:tsx
+CA,TSX,JPST,JPST.TO,JPMrgn US UlShrt I A,,tmx:tsx
+CA,TSXV,JSPX,JSPX.V,JasperX Technologies Inc.,,tmx:tsxv
+CA,TSXV,JTC,JTC.V,Jemtec Inc.,,tmx:tsxv
+CA,TSXV,JTWO,JTWO.V,J2 Metals Inc.,,tmx:tsxv
+CA,TSXV,JUGR,JUGR.V,Juggernaut Exploration Ltd.,,tmx:tsxv
+CA,TSXV,JUN.A,JUN-A.V,Juno International Corporation,,tmx:tsxv
+CA,TSXV,JVR.P,JVR-P.V,JVR Ventures Inc.,,tmx:tsxv
+CA,TSX,JWEL,JWEL.TO,Jamieson Wellness,,tmx:tsx
+CA,TSXV,JZR,JZR.V,JZR Gold Inc.,,tmx:tsxv
+CA,TSX,K,K.TO,Kinross Gold Corp.,,tmx:tsx
+CA,TSXV,KALM.P,KALM-P.V,Kalma Capital Corp.,,tmx:tsxv
+CA,TSXV,KALO,KALO.V,Kalo Gold Corp.,,tmx:tsxv
+CA,TSXV,KAPA,KAPA.V,Kapa Gold Inc.,,tmx:tsxv
+CA,TSX,KBL,KBL.TO,K-Bro Linen Inc.,,tmx:tsx
+CA,TSXV,KBRA,KBRA.V,Kubera Gold Corp.,,tmx:tsxv
+CA,TSXV,KC,KC.V,Kutcho Copper Corp.,,tmx:tsxv
+CA,TSXV,KCC,KCC.V,Kincora Copper Limited,,tmx:tsxv
+CA,TSXV,KCP,KCP.V,King Copper Discovery Corp.,,tmx:tsxv
+CA,TSXV,KDA,KDA.V,KDA Group Inc.,,tmx:tsxv
+CA,TSXV,KDK,KDK.V,Kodiak Copper Corp.,,tmx:tsxv
+CA,TSXV,KDOZ,KDOZ.V,Kidoz Inc.,,tmx:tsxv
+CA,TSXV,KDSX,KDSX.V,Kadestone Capital Corp.,,tmx:tsxv
+CA,TSXV,KEEK,KEEK.V,KEEK Social Inc.,,tmx:tsxv
+CA,TSX,KEEL,KEEL.TO,Keel Infrstutre Corp,,tmx:tsx
+CA,TSX,KEI,KEI.TO,Kolibri Glb Energy,,tmx:tsx
+CA,TSX,KEL,KEL.TO,Kelt Expl Ltd.,,tmx:tsx
+CA,TSX,KEY,KEY.TO,Keyera Corp.,,tmx:tsx
+CA,TSXV,KFR,KFR.V,Kingfisher Metals Corp.,,tmx:tsxv
+CA,TSXV,KG,KG.V,Klondike Gold Corp,,tmx:tsxv
+CA,TSXV,KGC,KGC.V,Kestrel Gold Inc.,,tmx:tsxv
+CA,TSX,KGHI,KGHI.TO,Ninept KinrGol HiShr,,tmx:tsx
+CA,TSXV,KGS,KGS.V,Kingman Minerals Ltd.,,tmx:tsxv
+CA,TSXV,KIB,KIB.V,Kiboko Gold Inc.,,tmx:tsxv
+CA,TSX,KILO.B,KILO-B.TO,Purpose Gld Nn-curHg,,tmx:tsx
+CA,TSX,KILO.U,KILO-U.TO,PurposeGldUS$nnCurHg,,tmx:tsx
+CA,TSX,KILO,KILO.TO,Purpose Gold Bul Un,,tmx:tsx
+CA,TSXV,KIP,KIP.V,Kiplin Metals Inc.,,tmx:tsxv
+CA,TSXV,KIRO,KIRO.V,Kairos Gold Inc.,,tmx:tsxv
+CA,TSX,KITS,KITS.TO,Kits Eyecare Ltd.,,tmx:tsx
+CA,TSXV,KKL.P,KKL-P.V,Kelly Ventures Ltd.,,tmx:tsxv
+CA,TSX,KKR,KKR.TO,KKR CDR Hgd,,tmx:tsx
+CA,TSX,KLAC,KLAC.TO,KLA CDR CAD Hdg,,tmx:tsx
+CA,TSXV,KLD,KLD.V,Kenorland Minerals Ltd.,,tmx:tsxv
+CA,TSXV,KLDC,KLDC.V,Kirkland Lake Discoveries Corp.,,tmx:tsxv
+CA,TSX,KLS,KLS.TO,Kelso Technologies,,tmx:tsx
+CA,TSXV,KNE,KNE.V,Kane Biotech Inc.,,tmx:tsxv
+CA,TSXV,KNG,KNG.V,Kingsmen Resources Ltd.,,tmx:tsxv
+CA,TSX,KNGG,KNGG.TO,Brmptn Gbl CFl Kng E,,tmx:tsx
+CA,TSX,KNGX,KNGX.TO,BrmpInt CshFl kngETF,,tmx:tsx
+CA,TSXV,KNOX,KNOX.V,Vault Strategic Mining Corp.,,tmx:tsxv
+CA,TSX,KNT,KNT.TO,K92 Mining Inc. J,,tmx:tsx
+CA,TSXV,KORE,KORE.V,Kore Mining Ltd.,,tmx:tsxv
+CA,TSX,KORX.U,KORX-U.TO,Glbl X KorKOSPI200 U,,tmx:tsx
+CA,TSX,KORX,KORX.TO,Glbl X Kor KOSPI 200,,tmx:tsx
+CA,TSXV,KOVO,KOVO.V,Kovo+ Holdings Inc.,,tmx:tsxv
+CA,TSXV,KPEN.P,KPEN-P.V,KP3993 Resources Inc.,,tmx:tsxv
+CA,TSX,KPT,KPT.TO,KP Tissue Inc.,,tmx:tsx
+CA,TSXV,KRI,KRI.V,Kobo Resources Inc.,,tmx:tsxv
+CA,TSX,KRN,KRN.TO,Karnalyte Res J,,tmx:tsx
+CA,TSXV,KRY,KRY.V,Koryx Copper S.A.,,tmx:tsxv
+CA,TSXV,KTN,KTN.V,Kootenay Silver Inc.,,tmx:tsxv
+CA,TSXV,KTO,KTO.V,K2 Gold Corporation,,tmx:tsxv
+CA,TSXV,KTRI,KTRI.V,Kootenay Resources Inc.,,tmx:tsxv
+CA,TSXV,KUAI.P,KUAI-P.V,Kua Investments Inc.,,tmx:tsxv
+CA,TSX,KXS,KXS.TO,Kinaxis Inc. J,,tmx:tsx
+CA,TSX,L,L.TO,Loblaw Companies Ltd,,tmx:tsx
+CA,TSXV,LA,LA.V,Los Andes Copper Ltd.,,tmx:tsxv
+CA,TSXV,LAB,LAB.V,Labrador Gold Corp.,,tmx:tsxv
+CA,TSX,LABS,LABS.TO,MediPharm LabsCorp J,,tmx:tsx
+CA,TSX,LAC,LAC.TO,Lithium Americas J,,tmx:tsx
+CA,TSXV,LAF,LAF.V,Lithium Africa Corp.,,tmx:tsxv
+CA,TSXV,LALI,LALI.V,Latam Lithium Corp.,,tmx:tsxv
+CA,TSX,LAM,LAM.TO,Laramide Resources J,,tmx:tsx
+CA,TSX,LAR,LAR.TO,Lithium Argentina AG,,tmx:tsx
+CA,TSX,LAS.A,LAS-A.TO,Lassonde Ind Cl A SV,,tmx:tsx
+CA,TSX,LB,LB.TO,Laurentian Bk of Can,,tmx:tsx
+CA,TSXV,LBNK,LBNK.V,LithiumBank Resources Corp.,,tmx:tsxv
+CA,TSX,LBS,LBS.TO,Life & Banc Split A,,tmx:tsx
+CA,TSXV,LCE,LCE.V,Century Lithium Corp.,,tmx:tsxv
+CA,TSX,LCFS,LCFS.TO,Tidewater Renew,,tmx:tsx
+CA,TSX,LCS,LCS.TO,Brompton Life Splt A,,tmx:tsx
+CA,TSXV,LCX,LCX.V,Lycos Energy Inc.,,tmx:tsxv
+CA,TSX,LEAD.B,LEAD-B.TO,Evolve FutLead Unheg,,tmx:tsx
+CA,TSX,LEAD.U,LEAD-U.TO,EvolveFutrLdr UnhgUS,,tmx:tsx
+CA,TSX,LEAD,LEAD.TO,Evolve FutrLeadr Heg,,tmx:tsx
+CA,TSXV,LEAP,LEAP.V,Quantum Critical Metals Corp.,,tmx:tsxv
+CA,TSXV,LEGY,LEGY.V,Legacy Gold Mines Ltd.,,tmx:tsxv
+CA,TSXV,LEM,LEM.V,Leading Edge Materials Corp.,,tmx:tsxv
+CA,TSXV,LFC.P,LFC-P.V,Left Field Capital Corp.,,tmx:tsxv
+CA,TSX,LFE,LFE.TO,Cdn Life Co Split A,,tmx:tsx
+CA,TSXV,LFST,LFST.V,Lifeist Wellness Inc.,,tmx:tsxv
+CA,TSXV,LG,LG.V,Lahontan Gold Corp.,,tmx:tsxv
+CA,TSXV,LGC,LGC.V,Lavras Gold Corp.,,tmx:tsxv
+CA,TSX,LGD,LGD.TO,Liberty Gold Corp. J,,tmx:tsx
+CA,TSXV,LGN,LGN.V,Logan Energy Corp.,,tmx:tsxv
+CA,TSX,LGO,LGO.TO,Largo Inc. J,,tmx:tsx
+CA,TSXV,LI,LI.V,American Lithium Corp.,,tmx:tsxv
+CA,TSXV,LIB,LIB.V,LibertyStream Infrastructure Partners Inc.,,tmx:tsxv
+CA,TSX,LIF,LIF.TO,Labrador Iron Ore,,tmx:tsx
+CA,TSX,LIFE.B,LIFE-B.TO,EvolveGlbHealth Unhg,,tmx:tsx
+CA,TSX,LIFE.U,LIFE-U.TO,Evolve GlbHlthUnhgUS,,tmx:tsx
+CA,TSX,LIFE,LIFE.TO,Evolve GlbHlthYldHeg,,tmx:tsx
+CA,TSXV,LIFT,LIFT.V,Li-FT Power Ltd.,,tmx:tsxv
+CA,TSXV,LILL.P,LILL-P.V,Little Fish Acquisition I Corp.,,tmx:tsxv
+CA,TSXV,LIO,LIO.V,Lion One Metals Limited,,tmx:tsxv
+CA,TSXV,LIT,LIT.V,Argentina Lithium & Energy Corp.,,tmx:tsxv
+CA,TSXV,LITH,LITH.V,Lithium Chile Inc.,,tmx:tsxv
+CA,TSXV,LITT,LITT.V,Futuregen Industries Corp.,,tmx:tsxv
+CA,TSX,LLHE.U,LLHE-U.TO,HELily EnHIn ShrETFU,,tmx:tsx
+CA,TSX,LLHE,LLHE.TO,HELily EnHIn ShrETFA,,tmx:tsx
+CA,TSX,LLY,LLY.TO,Eli Lilly CDR Hgd,,tmx:tsx
+CA,TSX,LLYH.U,LLYH-U.TO,HELily HInc ShrETFU,,tmx:tsx
+CA,TSX,LLYH,LLYH.TO,HELily HInc ShrETFA,,tmx:tsx
+CA,TSX,LMCU,LMCU.TO,Lumina Metals Corp,,tmx:tsx
+CA,TSXV,LME,LME.V,Laurion Mineral Exploration Inc,,tmx:tsxv
+CA,TSXV,LMG,LMG.V,Lincoln Gold Mining Inc.,,tmx:tsxv
+CA,TSXV,LMN,LMN.V,Lumine Group Inc.,,tmx:tsxv
+CA,TSXV,LMS,LMS.V,Latin Metals Inc.,,tmx:tsxv
+CA,TSX,LMT,LMT.TO,Lockheed Martin CDR,,tmx:tsx
+CA,TSX,LNF,LNF.TO,Leon's Furniture Ltd,,tmx:tsx
+CA,TSX,LNR,LNR.TO,Linamar Corporation,,tmx:tsx
+CA,TSXV,LOD,LOD.V,Lode Gold Resources Inc.,,tmx:tsxv
+CA,TSX,LONG,LONG.TO,CI GlbLongevtyEconC$,,tmx:tsx
+CA,TSX,LORL,LORL.TO,LOreal CDR CAD Hed,,tmx:tsx
+CA,TSXV,LOT,LOT.V,TomaGold Corporation,,tmx:tsxv
+CA,TSX,LOVE,LOVE.TO,Cannara Biotech Inc,,tmx:tsx
+CA,TSX,LPAY.U,LPAY-U.TO,GblX LTrmUS TreaprUS,,tmx:tsx
+CA,TSX,LPAY,LPAY.TO,GblX LTrmUS Trea Prm,,tmx:tsx
+CA,TSXV,LPK,LPK.V,Lupaka Gold Corp.,,tmx:tsxv
+CA,TSXV,LPS,LPS.V,Legend Power Systems Inc.,,tmx:tsxv
+CA,TSXV,LQWD,LQWD.V,LQWD Technologies Corp.,,tmx:tsxv
+CA,TSXV,LRA,LRA.V,Lara Exploration Ltd.,,tmx:tsxv
+CA,TSX,LRCX,LRCX.TO,Lam Res CDR CAD Hdg,,tmx:tsx
+CA,TSXV,LSL,LSL.V,LSL Pharma Group Inc.,,tmx:tsxv
+CA,TSX,LSPD,LSPD.TO,Lightspeed Commrc SV,,tmx:tsx
+CA,TSXV,LSTR,LSTR.V,Lodestar Metals Corp.,,tmx:tsxv
+CA,TSXV,LTC,LTC.V,Lotus Creek Exploration Inc.,,tmx:tsxv
+CA,TSXV,LTH,LTH.V,Lithium Ionic Corp.,,tmx:tsxv
+CA,TSXV,LTNG,LTNG.V,Lightning Resource Corp.,,tmx:tsxv
+CA,TSXV,LTV,LTV.V,Leonovus Inc.,,tmx:tsxv
+CA,TSXV,LTX,LTX.V,Labrador Resources Inc.,,tmx:tsxv
+CA,TSX,LUC,LUC.TO,Lucara Diamond J,,tmx:tsx
+CA,TSXV,LUCA,LUCA.V,Luca Mining Corp.,,tmx:tsxv
+CA,TSX,LUG,LUG.TO,Lundin Gold Inc. J,,tmx:tsx
+CA,TSXV,LUKA.P,LUKA-P.V,Luka Capital Corp.,,tmx:tsxv
+CA,TSX,LULU,LULU.TO,lululemon CDR Hgd,,tmx:tsx
+CA,TSX,LUN,LUN.TO,Lundin Mining Corp,,tmx:tsx
+CA,TSX,LUNR,LUNR.TO,LunR Royalties Corp,,tmx:tsx
+CA,TSXV,LUXR,LUXR.V,Luxor Metals Ltd.,,tmx:tsxv
+CA,TSXV,LVG,LVG.V,Lake Victoria Gold Ltd.,,tmx:tsxv
+CA,TSX,LVMH,LVMH.TO,LVMH CDR CAD Hedged,,tmx:tsx
+CA,TSXV,LVX,LVX.V,Leviathan Metals Corp.,,tmx:tsxv
+CA,TSXV,LWR,LWR.V,Lake Winn Resources Corp.,,tmx:tsxv
+CA,TSXV,LXE,LXE.V,Latin Explore Inc.,,tmx:tsxv
+CA,TSXV,LXM,LXM.V,Lux Metals Corp.,,tmx:tsxv
+CA,TSX,LYCT,LYCT.TO,LysanderCan CrpTreas,,tmx:tsx
+CA,TSX,LYFR,LYFR.TO,LysanderCan FltgActv,,tmx:tsx
+CA,TSX,MA,MA.TO,Mastercard CDR Hgd,,tmx:tsx
+CA,TSXV,MACK,MACK.V,Mackay Gold & Silver Corp.,,tmx:tsxv
+CA,TSX,MAEC,MAEC.TO,Mid Act En Div Cls E,,tmx:tsx
+CA,TSX,MAGF,MAGF.TO,Midfld Alt Glb FI F,,tmx:tsx
+CA,TSX,MAGV,MAGV.TO,Mackenzie Glb Val E,,tmx:tsx
+CA,TSXV,MAH,MAH.V,Marksmen Energy Inc.,,tmx:tsxv
+CA,TSX,MAI,MAI.TO,Mining Americas Inc,,tmx:tsx
+CA,TSX,MAK.U,MAK-U.TO,MAK AcquisCorClA Shr,,tmx:tsx
+CA,TSX,MAL,MAL.TO,Magellan Aerospace,,tmx:tsx
+CA,TSX,MALX,MALX.TO,Mackenzie GQE US Alp,,tmx:tsx
+CA,TSXV,MAN.P,MAN-P.V,Mandala Capital Inc.,,tmx:tsxv
+CA,TSXV,MAND.P,MAND-P.V,Mandeville Ventures Inc.,,tmx:tsxv
+CA,TSXV,MANU,MANU.V,Manhattan Uranium Discovery Corp.,,tmx:tsxv
+CA,TSXV,MAP,MAP.V,Maple Peak Investments Inc.,,tmx:tsxv
+CA,TSXV,MAPS,MAPS.V,ProStar Holdings Inc.,,tmx:tsxv
+CA,TSX,MARI,MARI.TO,Marimaca Copper J,,tmx:tsx
+CA,TSXV,MASS,MASS.V,Masivo Silver Corp.,,tmx:tsxv
+CA,TSXV,MATA,MATA.V,Matador Technologies Inc.,,tmx:tsxv
+CA,TSXV,MATE,MATE.V,Blockmate Ventures Inc.,,tmx:tsxv
+CA,TSX,MATR,MATR.TO,Mattr Corp.,,tmx:tsx
+CA,TSX,MAU,MAU.TO,Montage Gold Corp,,tmx:tsx
+CA,TSX,MAUG,MAUG.TO,Macknzi US All Cap G,,tmx:tsx
+CA,TSX,MAUV,MAUV.TO,Mackenzie US Value E,,tmx:tsx
+CA,TSXV,MAX,MAX.V,MAX Resource Corp.,,tmx:tsxv
+CA,TSX,MAYB.F,MAYB-F.TO,1stTr VestUSEqMay Hg,,tmx:tsx
+CA,TSX,MBAL,MBAL.TO,Mackenzie Bal Alloc,,tmx:tsx
+CA,TSX,MBAP,MBAP.TO,Manulife Balnce Port,,tmx:tsx
+CA,TSX,MBNK,MBNK.TO,Mulvihill Cdn Bnk ET,,tmx:tsx
+CA,TSXV,MBO,MBO.V,Mobio Technologies Inc.,,tmx:tsxv
+CA,TSX,MBQG,MBQG.TO,Mackenzie GQE Glb B,,tmx:tsx
+CA,TSX,MBX,MBX.TO,Microbix Biosystms J,,tmx:tsx
+CA,TSX,MCAD,MCAD.TO,Premium CashMgt Unhg,,tmx:tsx
+CA,TSX,MCAN,MCAN.TO,Manulife Cdn Eqt Cls,,tmx:tsx
+CA,TSX,MCAP,MCAP.TO,Manulife Cons Portfo,,tmx:tsx
+CA,TSX,MCB,MCB.TO,McCoy Global Inc.,,tmx:tsx
+CA,TSXV,MCC,MCC.V,Morocco Strategic Minerals Corporation,,tmx:tsxv
+CA,TSXV,MCCP.P,MCCP-P.V,Michichi Capital Corp.,,tmx:tsxv
+CA,TSX,MCD,MCD.TO,McDonalds CDR Hgd,,tmx:tsx
+CA,TSXV,MCF,MCF.V,MCF Energy Ltd.,,tmx:tsxv
+CA,TSXV,MCI,MCI.V,Minnova Corp.,,tmx:tsxv
+CA,TSX,MCLC,MCLC.TO,Manulfe MltCdnLrgUnh,,tmx:tsx
+CA,TSXV,MCM.A,MCM-A.V,Matachewan Consolidated Mines Ltd. cl A,,tmx:tsxv
+CA,TSX,MCON,MCON.TO,Mackenzie ConsrvAllo,,tmx:tsx
+CA,TSX,MCOR,MCOR.TO,Manulife Cor Pl Bd F,,tmx:tsx
+CA,TSXV,MCS,MCS.V,McChip Resources Inc.,,tmx:tsxv
+CA,TSX,MCSB,MCSB.TO,MackenzieCA FixdIncm,,tmx:tsx
+CA,TSX,MCSM,MCSM.TO,ManulfMultfCdSMID Un,,tmx:tsx
+CA,TSXV,MCT.P,MCT-P.V,M3 Capital Corp.,,tmx:tsxv
+CA,TSXV,MD,MD.V,Midland Exploration Inc,,tmx:tsxv
+CA,TSX,MDA,MDA.TO,MDA Space Ltd,,tmx:tsx
+CA,TSX,MDI,MDI.TO,Major Drilling Group,,tmx:tsx
+CA,TSX,MDIF,MDIF.TO,Manulife Divd Inc Fd,,tmx:tsx
+CA,TSX,MDIV,MDIV.TO,Midfld Glb Div Grwer,,tmx:tsx
+CA,TSXV,MDK.P,MDK-P.V,MDK Acquisition Inc.,,tmx:tsxv
+CA,TSXV,MDM,MDM.V,Madoro Metals Corp.,,tmx:tsxv
+CA,TSX,MDNA,MDNA.TO,Medicenna Therapeu J,,tmx:tsx
+CA,TSX,MDP,MDP.TO,Medexus Pharma J,,tmx:tsx
+CA,TSXV,MDX,MDX.V,Medx Health Corp,,tmx:tsxv
+CA,TSX,MEDX,MEDX.TO,Globl X EqWe Gl Heal,,tmx:tsx
+CA,TSXV,MEED.P,MEED-P.V,Meed Growth Corp.,,tmx:tsxv
+CA,TSXV,MEGO.P,MEGO-P.V,Amego Capital Corp.,,tmx:tsxv
+CA,TSXV,MEK,MEK.V,Metals Creek Resources Corp.,,tmx:tsxv
+CA,TSX,MEME.B,MEME-B.TO,Manulife Emrg MktsUn,,tmx:tsx
+CA,TSXV,MENE,MENE.V,Mene Inc.,,tmx:tsxv
+CA,TSX,MEQ,MEQ.TO,Mainstreet Equity J,,tmx:tsx
+CA,TSX,MEQT,MEQT.TO,Mackenzie AllEqAlloc,,tmx:tsx
+CA,TSX,MER,MER.TO,Meren Energy Inc,,tmx:tsx
+CA,TSXV,MERG,MERG.V,Metal Energy Corp.,,tmx:tsxv
+CA,TSXV,MET,MET.V,Metalore Resources Limited,,tmx:tsxv
+CA,TSX,META,META.TO,Meta CDR CAD Hedged,,tmx:tsx
+CA,TSX,MFC,MFC.TO,Manulife Financial,,tmx:tsx
+CA,TSXV,MFG,MFG.V,Mayfair Gold Corp.,,tmx:tsxv
+CA,TSX,MFI,MFI.TO,Maple Leaf Foods Inc,,tmx:tsx
+CA,TSX,MFT,MFT.TO,Mackenzie FltgRate E,,tmx:tsx
+CA,TSX,MFUN,MFUN.TO,Manulife Fdml Eqt Fd,,tmx:tsx
+CA,TSX,MG,MG.TO,Magna Int'l Inc.,,tmx:tsx
+CA,TSX,MGA,MGA.TO,Mega Uranium Ltd. J,,tmx:tsx
+CA,TSX,MGAB,MGAB.TO,Mackenzie GlbFixIncm,,tmx:tsx
+CA,TSX,MGAP,MGAP.TO,Manulife Growth Port,,tmx:tsx
+CA,TSX,MGB,MGB.TO,Mackenzie GlbFxIncmE,,tmx:tsx
+CA,TSX,MGEG,MGEG.TO,Mackenzie Glb EqGldO,,tmx:tsx
+CA,TSX,MGFI,MGFI.TO,Midfld Gbl MS Fi F,,tmx:tsx
+CA,TSXV,MGG,MGG.V,Minaurum Silver Inc.,,tmx:tsxv
+CA,TSXV,MGM,MGM.V,Maple Gold Mines Ltd.,,tmx:tsxv
+CA,TSXV,MGMA,MGMA.V,Magma Silver Corp.,,tmx:tsxv
+CA,TSXV,MGRO,MGRO.V,MustGrow Biologics Corp.,,tmx:tsxv
+CA,TSX,MGRW,MGRW.TO,Mackenzie GrwthAlloc,,tmx:tsx
+CA,TSX,MHC.U,MHC-U.TO,FlagshpCommunREIT US,,tmx:tsx
+CA,TSX,MHCD,MHCD.TO,Middlefld Hlthcr Div,,tmx:tsx
+CA,TSXV,MHUB,MHUB.V,Minehub Technologies Inc.,,tmx:tsxv
+CA,TSXV,MILE,MILE.V,Twenty Mile Metals Inc.,,tmx:tsxv
+CA,TSXV,MIM,MIM.V,MiMedia Holdings Inc.,,tmx:tsxv
+CA,TSXV,MINE,MINE.V,Inomin Mines Inc.,,tmx:tsxv
+CA,TSX,MINF,MINF.TO,Midfldf GlbInfrasDiv,,tmx:tsx
+CA,TSXV,MINK,MINK.V,Mink Ventures Corporation,,tmx:tsxv
+CA,TSX,MINT.B,MINT-B.TO,Manulfe MltDevIntUnh,,tmx:tsx
+CA,TSX,MINT,MINT.TO,Manulfe MltDevInt Un,,tmx:tsx
+CA,TSX,MIPC,MIPC.TO,Mid Income Pls Cls E,,tmx:tsx
+CA,TSXV,MIR,MIR.V,MedMira Inc.,,tmx:tsxv
+CA,TSX,MIVG,MIVG.TO,Mackenzie IvyGlbEq E,,tmx:tsx
+CA,TSXV,MIVO,MIVO.V,Miivo AI Inc.,,tmx:tsxv
+CA,TSX,MIX,MIX.TO,Hamilton Enh Mix A A,,tmx:tsx
+CA,TSXV,MJS,MJS.V,Majestic Gold Corp.,,tmx:tsxv
+CA,TSXV,MKA,MKA.V,Mkango Magnetic Materials Limited,,tmx:tsxv
+CA,TSX,MKB,MKB.TO,Mackenzie Cdn StFxIn,,tmx:tsx
+CA,TSXV,MKO,MKO.V,Mako Mining Corp.,,tmx:tsxv
+CA,TSX,MKP,MKP.TO,MCAN Mortgage Corp.,,tmx:tsx
+CA,TSXV,MKR,MKR.V,Melkior Resources Inc.,,tmx:tsxv
+CA,TSXV,MKT,MKT.V,Prospect Prediction Markets Inc.,,tmx:tsxv
+CA,TSXV,MLO,MLO.V,Metalero Mining Corp.,,tmx:tsxv
+CA,TSXV,MLP,MLP.V,Millennial Potash Corp.,,tmx:tsxv
+CA,TSX,MLRG,MLRG.TO,Madison US Lrg Cap E,,tmx:tsx
+CA,TSXV,MMA,MMA.V,Midnight Sun Mining Corp,,tmx:tsxv
+CA,TSX,MMAC,MMAC.TO,Mnulfe CQS Mlt A C F,,tmx:tsx
+CA,TSX,MMCY,MMCY.TO,Mackenzie MCyc Tlt E,,tmx:tsx
+CA,TSX,MMDC,MMDC.TO,Mackenzi M C HDivY E,,tmx:tsx
+CA,TSX,MMDF,MMDF.TO,Mackenzie MDef Tlt E,,tmx:tsx
+CA,TSX,MMDU,MMDU.TO,Mackenzie MUS HD Y E,,tmx:tsx
+CA,TSX,MMEA,MMEA.TO,Mackenzie Mod Int Eq,,tmx:tsx
+CA,TSXV,MMET,MMET.V,Miata Metals Corp.,,tmx:tsxv
+CA,TSXV,MMG,MMG.V,Metallic Minerals Corp.,,tmx:tsxv
+CA,TSX,MMGL,MMGL.TO,Mackenzie Mod Gl Eq,,tmx:tsx
+CA,TSX,MMID,MMID.TO,Madison US Mid Cap E,,tmx:tsx
+CA,TSXV,MMM,MMM.V,Minco Capital Corp.,,tmx:tsxv
+CA,TSX,MMMM,MMMM.TO,3M CDR Hgd,,tmx:tsx
+CA,TSX,MMSD,MMSD.TO,Mackenzie Md Gl SM C,,tmx:tsx
+CA,TSXV,MMX,MMX.V,Mustang Minerals Limited,,tmx:tsxv
+CA,TSXV,MMY,MMY.V,Monument Mining Limited,,tmx:tsxv
+CA,TSXV,MN,MN.V,Manganese X Energy Corp.,,tmx:tsxv
+CA,TSXV,MNLX,MNLX.V,Miniluxe Holding Corp.,,tmx:tsxv
+CA,TSX,MNO,MNO.TO,Meridian Mining PLC,,tmx:tsx
+CA,TSXV,MNRG,MNRG.V,Monumental Energy Corp.,,tmx:tsxv
+CA,TSX,MNS.U,MNS-U.TO,Ry CA MintSil ETR US,,tmx:tsx
+CA,TSX,MNS,MNS.TO,Ry Cdn Mint-Sil ETR,,tmx:tsx
+CA,TSX,MNT.U,MNT-U.TO,Ry CA MintGld ETR US,,tmx:tsx
+CA,TSX,MNT,MNT.TO,Ry Cdn Mint-Gold ETR,,tmx:tsx
+CA,TSX,MNU.U,MNU-U.TO,PurposeCshMgtNC HgUS,,tmx:tsx
+CA,TSX,MNXT,MNXT.TO,Mck BlWtr NGen GrETF,,tmx:tsx
+CA,TSX,MNY,MNY.TO,Purpose Cash Mgt Un,,tmx:tsx
+CA,TSXV,MOG,MOG.V,Mogotes Metals Inc.,,tmx:tsxv
+CA,TSXV,MOGL,MOGL.V,Mogul Mountain Ventures Corporation,,tmx:tsxv
+CA,TSX,MOLY,MOLY.TO,Greenland Resrce Inc,,tmx:tsx
+CA,TSXV,MON,MON.V,Montero Mining and Exploration Ltd.,,tmx:tsxv
+CA,TSXV,MONA.P,MONA-P.V,Monarch West Ventures Inc.,,tmx:tsxv
+CA,TSXV,MONY.P,MONY-P.V,Harmony Acquisitions Corp.,,tmx:tsxv
+CA,TSXV,MOO,MOO.V,Moon River Moly Ltd.,,tmx:tsxv
+CA,TSXV,MOON,MOON.V,Blue Moon Metals Inc.,,tmx:tsxv
+CA,TSXV,MOX,MOX.V,Morien Resources Corp.,,tmx:tsxv
+CA,TSX,MPAY.U,MPAY-U.TO,GblX MTrmUS TreaprUS,,tmx:tsx
+CA,TSX,MPAY,MPAY.TO,GblX MTrmUS Trea Prm,,tmx:tsx
+CA,TSX,MPC.C,MPC-C.TO,Madison Pacific NV C,,tmx:tsx
+CA,TSX,MPC,MPC.TO,Madison Pacific Cl B,,tmx:tsx
+CA,TSXV,MPH,MPH.V,Medicure Inc.,,tmx:tsxv
+CA,TSXV,MPV.P,MPV-P.V,Matchpoint Ventures Corp.,,tmx:tsxv
+CA,TSX,MPY,MPY.TO,Mulvihill PremiumYld,,tmx:tsx
+CA,TSXV,MQM,MQM.V,Metalquest Mining Inc.,,tmx:tsxv
+CA,TSX,MRC,MRC.TO,Morguard Corporation,,tmx:tsx
+CA,TSX,MRD,MRD.TO,Melcor Developments,,tmx:tsx
+CA,TSX,MRE,MRE.TO,Martinrea Int'l Inc.,,tmx:tsx
+CA,TSX,MREL,MREL.TO,Middlefld Rl Est Div,,tmx:tsx
+CA,TSX,MRK,MRK.TO,Merck CDR Hgd,,tmx:tsx
+CA,TSXV,MRKI.P,MRKI-P.V,"Meraki Acquisition One, Inc.",,tmx:tsxv
+CA,TSX,MRU,MRU.TO,Metro Inc.,,tmx:tsx
+CA,TSX,MRV,MRV.TO,Marvll Tech CDR Hdg,,tmx:tsx
+CA,TSXV,MRVL,MRVL.V,Marvel Biosciences Corp.,,tmx:tsxv
+CA,TSXV,MRZ,MRZ.V,Mirasol Resources Ltd.,,tmx:tsxv
+CA,TSXV,MRZL,MRZL.V,Mont Royal Resources Limited.,,tmx:tsxv
+CA,TSX,MS,MS.TO,MorganStan CDR Hgd,,tmx:tsx
+CA,TSX,MSA,MSA.TO,Mineros S.A.,,tmx:tsx
+CA,TSX,MSBP,MSBP.TO,Midfld Sh Du Bd Pl E,,tmx:tsx
+CA,TSXV,MSC,MSC.V,Millennium Silver Corp.,,tmx:tsxv
+CA,TSX,MSCL,MSCL.TO,Satellos Bioscience,,tmx:tsx
+CA,TSX,MSFH.U,MSFH-U.TO,HvMsft HghIn ShrETFU,,tmx:tsx
+CA,TSX,MSFH,MSFH.TO,HvMsft HghIn ShrETFA,,tmx:tsx
+CA,TSX,MSFT,MSFT.TO,Microsoft CDR CAD HD,,tmx:tsx
+CA,TSX,MSFU,MSFU.TO,SavvyLong (2X) MSFT,,tmx:tsx
+CA,TSXV,MSG,MSG.V,Mithril Silver and Gold Limited,,tmx:tsxv
+CA,TSX,MSHE.U,MSHE-U.TO,HvMsft EHgIn ShrETFU,,tmx:tsx
+CA,TSX,MSHE,MSHE.TO,HvMsft EHgIn ShrETFA,,tmx:tsx
+CA,TSXV,MSR,MSR.V,Minsud Resources Corp.,,tmx:tsxv
+CA,TSX,MSTE,MSTE.TO,Harv St In Enh H I S,,tmx:tsx
+CA,TSX,MSTR,MSTR.TO,Strategy CDR CAD HD,,tmx:tsx
+CA,TSX,MSTU,MSTU.TO,SavvyLong 2X MSTR E,,tmx:tsx
+CA,TSX,MSTZ,MSTZ.TO,SavvyShort 2X MSTR E,,tmx:tsx
+CA,TSX,MSV,MSV.TO,Minco Silver Corp J,,tmx:tsx
+CA,TSXV,MT,MT.V,M3 Metals Corp.,,tmx:tsxv
+CA,TSXV,MTA,MTA.V,Metalla Royalty & Streaming Ltd.,,tmx:tsxv
+CA,TSX,MTBA,MTBA.TO,Macknzie Tg2027 NAIG,,tmx:tsx
+CA,TSX,MTBB,MTBB.TO,Macknzie Tg2029 NAIG,,tmx:tsx
+CA,TSX,MTEK,MTEK.TO,Metatek-Group Ltd,,tmx:tsx
+CA,TSXV,MTH,MTH.V,Mammoth Resources Corp.,,tmx:tsxv
+CA,TSX,MTL,MTL.TO,Mullen Group Ltd.,,tmx:tsx
+CA,TSXV,MTLO,MTLO.V,Martello Technologies Group Inc.,,tmx:tsxv
+CA,TSXV,MTS,MTS.V,Metallis Resources Inc.,,tmx:tsxv
+CA,TSXV,MTT,MTT.V,Magna Terra Minerals Inc.,,tmx:tsxv
+CA,TSXV,MTX,MTX.V,Metalex Ventures Ltd,,tmx:tsxv
+CA,TSX,MTY,MTY.TO,MTY Food Group Inc.,,tmx:tsx
+CA,TSX,MU,MU.TO,Micron CDR Hgd,,tmx:tsx
+CA,TSX,MUB,MUB.TO,Mackenzie Uncnstrn E,,tmx:tsx
+CA,TSX,MUHE,MUHE.TO,HVST Micrn EnhIc Sh,,tmx:tsx
+CA,TSX,MULC.B,MULC-B.TO,Manulf MltUSLrgCpUnh,,tmx:tsx
+CA,TSX,MULC,MULC.TO,Manulfe MltUSLrgCpHg,,tmx:tsx
+CA,TSX,MUMC.B,MUMC-B.TO,Manulfe MultUSMdUnhg,,tmx:tsx
+CA,TSX,MUMC,MUMC.TO,Manulfe MultUS MidHg,,tmx:tsx
+CA,TSXV,MUN,MUN.V,Mundoro Capital Inc.,,tmx:tsxv
+CA,TSXV,MUR,MUR.V,Murchison Minerals Ltd.,,tmx:tsxv
+CA,TSX,MUSA,MUSA.TO,Middlefld US EqtyDiv,,tmx:tsx
+CA,TSX,MUSC.B,MUSC-B.TO,ManulfUSSmallCap U-H,,tmx:tsx
+CA,TSX,MUSC,MUSC.TO,Manulf US SmallCapUn,,tmx:tsx
+CA,TSX,MUSD.U,MUSD-U.TO,US PremiumCshMgUH US,,tmx:tsx
+CA,TSXV,MUSH,MUSH.V,Mercanto Holdings Inc.,,tmx:tsxv
+CA,TSX,MUU,MUU.TO,SavvyLong2X Micro ET,,tmx:tsx
+CA,TSX,MUX,MUX.TO,McEwen Inc. J,,tmx:tsx
+CA,TSX,MX,MX.TO,Methanex Corporation,,tmx:tsx
+CA,TSX,MXG,MXG.TO,Maxim Power Corp.,,tmx:tsx
+CA,TSXV,MYID,MYID.V,Reklaim Ltd.,,tmx:tsxv
+CA,TSX,NA,NA.TO,Nat'l Bank of Canada,,tmx:tsx
+CA,TSX,NACO,NACO.TO,Ninept Alt Cr Opp Fd,,tmx:tsx
+CA,TSXV,NAIA,NAIA.V,NAIA Relief Inc.,,tmx:tsxv
+CA,TSX,NALT,NALT.TO,NBI Liquid Alternatv,,tmx:tsx
+CA,TSXV,NAM,NAM.V,New Age Metals Inc.,,tmx:tsxv
+CA,TSX,NANO,NANO.TO,Nano One Materials J,,tmx:tsx
+CA,TSXV,NAP,NAP.V,Napoleon Resources Inc.,,tmx:tsxv
+CA,TSXV,NAR,NAR.V,North Arrow Minerals Inc.,,tmx:tsxv
+CA,TSXV,NAU,NAU.V,Nevgold Corp.,,tmx:tsxv
+CA,TSXV,NAV,NAV.V,NAVCO Pharmaceuticals Inc.,,tmx:tsxv
+CA,TSX,NBAL,NBAL.TO,Ninepoint Blncd+ F,,tmx:tsx
+CA,TSX,NBBX,NBBX.TO,NBI Cdn Bond Indx Fd,,tmx:tsx
+CA,TSX,NBCG,NBCG.TO,NBI Can Eq Growth Fd,,tmx:tsx
+CA,TSX,NBCU,NBCU.TO,SavvyLng2xNB EQTETF,,tmx:tsx
+CA,TSX,NBCX,NBCX.TO,NBI Can Equity IdxFd,,tmx:tsx
+CA,TSX,NBEM,NBEM.TO,NBI Div EmerMkr Eq,,tmx:tsx
+CA,TSX,NBGE.F,NBGE-F.TO,NBI Gl Eqty Fnd ETFH,,tmx:tsx
+CA,TSX,NBIE.F,NBIE-F.TO,NBI Intl EqtyFd ETFH,,tmx:tsx
+CA,TSX,NBIV,NBIV.TO,NBI Intl Value Fd Et,,tmx:tsx
+CA,TSX,NBIX,NBIX.TO,NBI Intl Eq Idx Fd,,tmx:tsx
+CA,TSXV,NBLC,NBLC.V,Nobel Resources Corp.,,tmx:tsxv
+CA,TSXV,NBM,NBM.V,NEO Battery Materials Ltd.,,tmx:tsxv
+CA,TSX,NBND,NBND.TO,Ninept Divers Bnd ET,,tmx:tsx
+CA,TSX,NBQC,NBQC.TO,NBI Quebec Grwth Fd,,tmx:tsx
+CA,TSX,NBSC.F,NBSC-F.TO,NBI Glb Sl CpFd ETFH,,tmx:tsx
+CA,TSX,NBUE.F,NBUE-F.TO,NBI US Eqty Fd ETFH,,tmx:tsx
+CA,TSX,NBUX,NBUX.TO,NBI US Eq Idx Fd,,tmx:tsx
+CA,TSXV,NBVA,NBVA.V,Nubeva Technologies Ltd.,,tmx:tsxv
+CA,TSXV,NBY,NBY.V,Niobay Metals Inc.,,tmx:tsxv
+CA,TSXV,NCAU,NCAU.V,Newcore Gold Ltd.,,tmx:tsxv
+CA,TSX,NCF,NCF.TO,Northcliff Res Ltd J,,tmx:tsx
+CA,TSXV,NCI,NCI.V,NTG Clarity Networks Inc.,,tmx:tsxv
+CA,TSX,NCNS,NCNS.TO,NBI Cons Portfolio,,tmx:tsx
+CA,TSXV,NCP,NCP.V,Nickel Creek Platinum Corp.,,tmx:tsxv
+CA,TSXV,NCX,NCX.V,NorthIsle Copper and Gold Inc.,,tmx:tsxv
+CA,TSXV,NDA,NDA.V,Neptune Digital Assets Corp.,,tmx:tsxv
+CA,TSX,NDIV,NDIV.TO,NBI Cdn Div Incom Un,,tmx:tsx
+CA,TSX,NDM,NDM.TO,Nthrn Dynasty Min J,,tmx:tsx
+CA,TSXV,NED,NED.V,New Destiny Mining Corp.,,tmx:tsxv
+CA,TSX,NEE,NEE.TO,NextEra CDR Hgd,,tmx:tsx
+CA,TSX,NEO,NEO.TO,Neo Perform Material,,tmx:tsx
+CA,TSX,NEQT,NEQT.TO,NBI Eq Portfolio,,tmx:tsx
+CA,TSXV,NEV,NEV.V,Nevada Sunrise Metals Corporation,,tmx:tsxv
+CA,TSXV,NEXE,NEXE.V,Nexe Innovations Inc.,,tmx:tsxv
+CA,TSXV,NEXG,NEXG.V,NeXGold Mining Corp.,,tmx:tsxv
+CA,TSXV,NEXM,NEXM.V,NexMetals Mining Corp.,,tmx:tsxv
+CA,TSX,NEXT,NEXT.TO,NextSource Materl J,,tmx:tsx
+CA,TSX,NFGC,NFGC.TO,New Found Gold Corp,,tmx:tsx
+CA,TSX,NFI,NFI.TO,NFI Group Inc.,,tmx:tsx
+CA,TSX,NFLX,NFLX.TO,Netflix CDR Hgd,,tmx:tsx
+CA,TSX,NG,NG.TO,NovaGold Resources J,,tmx:tsx
+CA,TSXV,NGC,NGC.V,Northern Graphite Corporation,,tmx:tsxv
+CA,TSX,NGEX,NGEX.TO,NGEx Minerals Ltd.,,tmx:tsx
+CA,TSXV,NGMD,NGMD.V,Nugen Medical Devices Inc.,,tmx:tsxv
+CA,TSX,NGPE,NGPE.TO,NBI GlblPrivateEq Un,,tmx:tsx
+CA,TSXV,NHHH,NHHH.V,FuelPositive Corporation,,tmx:tsxv
+CA,TSX,NHYB,NHYB.TO,NBI HighYld Bond Un,,tmx:tsx
+CA,TSX,NICC,NICC.TO,NBI SmtDt Intl EqCcF,,tmx:tsx
+CA,TSXV,NICE,NICE.V,Ni-Co Energy inc.,,tmx:tsxv
+CA,TSXV,NICN,NICN.V,NICAN Limited,,tmx:tsxv
+CA,TSX,NICU,NICU.TO,Magna Mining Inc,,tmx:tsx
+CA,TSXV,NILI,NILI.V,Surge Battery Metals Inc.,,tmx:tsxv
+CA,TSXV,NIM,NIM.V,Nicola Mining Inc.,,tmx:tsxv
+CA,TSX,NINT,NINT.TO,NBI ActiveIntl Eq Un,,tmx:tsx
+CA,TSX,NINV.F,NINV-F.TO,NBI Innvtors Fd ETFH,,tmx:tsx
+CA,TSXV,NIO,NIO.V,Nio Strategic Metals Inc.,,tmx:tsxv
+CA,TSXV,NIS.P,NIS-P.V,Cann-is Capital Corp.,,tmx:tsxv
+CA,TSX,NKE,NKE.TO,NIKE CDR Hgd,,tmx:tsx
+CA,TSXV,NKG,NKG.V,Nevada King Gold Corp.,,tmx:tsxv
+CA,TSXV,NKL,NKL.V,Nickel 28 Capital Corp.,,tmx:tsxv
+CA,TSXV,NL,NL.V,Northern Lion Gold Corp.,,tmx:tsxv
+CA,TSXV,NLH,NLH.V,Nova Leap Health Corp.,,tmx:tsxv
+CA,TSXV,NLII.P,NLII-P.V,NL2 Capital Inc.,,tmx:tsxv
+CA,TSXV,NMB,NMB.V,NorthMin Corporation,,tmx:tsxv
+CA,TSX,NMBL,NMBL.TO,Meri Tactcl Bal Port,,tmx:tsx
+CA,TSXV,NMC,NMC.V,Nuvau Minerals Inc.,,tmx:tsxv
+CA,TSX,NMEQ,NMEQ.TO,Meri Tactcl Eqt Port,,tmx:tsx
+CA,TSX,NMGR,NMGR.TO,Meri Tactcl Grwth Po,,tmx:tsx
+CA,TSXV,NMI,NMI.V,Namibia Critical Metals Inc.,,tmx:tsxv
+CA,TSX,NMMO,NMMO.TO,Meri Tac Mod Port ET,,tmx:tsx
+CA,TSX,NMNG,NMNG.TO,Ninepnt Mining EvFnd,,tmx:tsx
+CA,TSX,NNRG.U,NNRG-U.TO,Ninepoint En Fd USF,,tmx:tsx
+CA,TSXV,NNX,NNX.V,Nickel North Exploration Corp.,,tmx:tsxv
+CA,TSX,NOA,NOA.TO,N.A. Construction,,tmx:tsx
+CA,TSXV,NOAL,NOAL.V,NOA Lithium Brines Inc.,,tmx:tsxv
+CA,TSXV,NOB,NOB.V,Noble Mineral Exploration Inc.,,tmx:tsxv
+CA,TSXV,NOBL,NOBL.V,Noble Plains Uranium Corp.,,tmx:tsxv
+CA,TSX,NOC,NOC.TO,Northrp Grmn CDR Hdg,,tmx:tsx
+CA,TSX,NOU,NOU.TO,Nouveau Mond Gra Inc,,tmx:tsx
+CA,TSXV,NOVA,NOVA.V,EraNova Metals Inc.,,tmx:tsxv
+CA,TSX,NOVB.F,NOVB-F.TO,1st Tr VestUSEqNv Hg,,tmx:tsx
+CA,TSX,NOVO,NOVO.TO,Novo NordiskCDR CAHg,,tmx:tsx
+CA,TSX,NOVY,NOVY.TO,Harv Novo Enh H In E,,tmx:tsx
+CA,TSXV,NOW,NOW.V,NowVertical Group Inc.,,tmx:tsxv
+CA,TSX,NOWS,NOWS.TO,ServiceNow CDR Hgd,,tmx:tsx
+CA,TSX,NPI,NPI.TO,Northland Power Inc.,,tmx:tsx
+CA,TSX,NPK,NPK.TO,Verde Agritech J Ord,,tmx:tsx
+CA,TSXV,NPR,NPR.V,North Peak Resources Ltd.,,tmx:tsxv
+CA,TSX,NPRF,NPRF.TO,NBI ActvCdnPrShr Un,,tmx:tsx
+CA,TSX,NPS,NPS.TO,Cdn LCap L SplCr ClA,,tmx:tsx
+CA,TSXV,NPTH,NPTH.V,Neupath Health Inc.,,tmx:tsxv
+CA,TSXV,NPV,NPV.V,Next Phase Ventures Ltd.,,tmx:tsxv
+CA,TSXV,NQC,NQC.V,Nordique Critical Metals Inc.,,tmx:tsxv
+CA,TSXV,NRC,NRC.V,Nations Royalty Corp.,,tmx:tsxv
+CA,TSX,NREA,NREA.TO,NBI GlblRl AssetIncm,,tmx:tsx
+CA,TSX,NRGD,NRGD.TO,BetaProS&PTSXEngy-2x,,tmx:tsx
+CA,TSX,NRGI,NRGI.TO,Ninept Energy Inc Fd,,tmx:tsx
+CA,TSX,NRGU,NRGU.TO,BetaProS&PTSX Engy2x,,tmx:tsx
+CA,TSXV,NRM,NRM.V,Noram Lithium Corp.,,tmx:tsxv
+CA,TSXV,NRN,NRN.V,Northern Shield Resources Inc.,,tmx:tsxv
+CA,TSXV,NRX,NRX.V,NurExone Biologic Inc.,,tmx:tsxv
+CA,TSX,NSAV,NSAV.TO,Ninept Cash Mngmt FD,,tmx:tsx
+CA,TSX,NSCB,NSCB.TO,NBI SustainCdnBnd Un,,tmx:tsx
+CA,TSX,NSCC,NSCC.TO,NBI SustainCA CrpBnd,,tmx:tsx
+CA,TSX,NSCE,NSCE.TO,NBI SustainCdnEq Un,,tmx:tsx
+CA,TSXV,NSCI,NSCI.V,Nanalysis Scientific Corp.,,tmx:tsxv
+CA,TSX,NSDC,NSDC.TO,NBI SmrtDta Cdn Eq F,,tmx:tsx
+CA,TSX,NSDG,NSDG.TO,NBI SmartDt Gbl EqFd,,tmx:tsx
+CA,TSX,NSDI.F,NSDI-F.TO,NBI SmDta IntEq ETFH,,tmx:tsx
+CA,TSX,NSDU.F,NSDU-F.TO,NBI SmData USEq ETFH,,tmx:tsx
+CA,TSXV,NSE,NSE.V,New Stratus Energy Inc.,,tmx:tsxv
+CA,TSX,NSGE,NSGE.TO,NBI SustainGlblEq Un,,tmx:tsx
+CA,TSX,NSSB,NSSB.TO,NBI SustainCdnST Bnd,,tmx:tsx
+CA,TSX,NSTL,NSTL.TO,Nestle CDR CAD Hedg,,tmx:tsx
+CA,TSXV,NSU,NSU.V,North Shore Uranium Ltd.,,tmx:tsxv
+CA,TSX,NSUY,NSUY.TO,NBI SmtD EnhYdUS EqF,,tmx:tsx
+CA,TSXV,NTB,NTB.V,New Tymbal Resources Ltd.,,tmx:tsxv
+CA,TSXV,NTE,NTE.V,Network Media Group Inc.,,tmx:tsxv
+CA,TSX,NTGA,NTGA.TO,NBI Ta2026 InGrBd Fd,,tmx:tsx
+CA,TSX,NTGB,NTGB.TO,NBI Ta2027 InGrBd Fd,,tmx:tsx
+CA,TSX,NTGC,NTGC.TO,NBI Ta2028 InGrBd Fd,,tmx:tsx
+CA,TSX,NTGE,NTGE.TO,NBI Trgt 2030 Inv Fd,,tmx:tsx
+CA,TSX,NTGF,NTGF.TO,NBI Trgt 2031 Inv GB,,tmx:tsx
+CA,TSX,NTGG,NTGG.TO,NBI Tgt 2032 Inv GBF,,tmx:tsx
+CA,TSXV,NTH,NTH.V,Nord Precious Metals Mining Inc.,,tmx:tsxv
+CA,TSX,NTHM,NTHM.TO,NBI Theme Rot Ptf,,tmx:tsx
+CA,TSXV,NTLX,NTLX.V,NeuroThera Labs Inc.,,tmx:tsxv
+CA,TSX,NTR,NTR.TO,Nutrien Ltd.,,tmx:tsx
+CA,TSXV,NTX,NTX.V,NeoTerrex Minerals Inc.,,tmx:tsxv
+CA,TSX,NUAG,NUAG.TO,New Pacific Metals J,,tmx:tsx
+CA,TSX,NUBF,NUBF.TO,NBI Unconstr FxdIncm,,tmx:tsx
+CA,TSX,NUCC,NUCC.TO,NBI SmtData US EqCC,,tmx:tsx
+CA,TSXV,NUG,NUG.V,NuLegacy Gold Corporation,,tmx:tsxv
+CA,TSXV,NURS,NURS.V,Hydreight Technologies Inc.,,tmx:tsxv
+CA,TSX,NUSA.F,NUSA-F.TO,NBI Active US Eq Hdg,,tmx:tsx
+CA,TSX,NUSA,NUSA.TO,NBI Active US Eq Un,,tmx:tsx
+CA,TSX,NUST,NUST.TO,NBI Ult ShtTm FixIcF,,tmx:tsx
+CA,TSX,NVDA,NVDA.TO,Nvidia CDR CAD HD,,tmx:tsx
+CA,TSX,NVDD,NVDD.TO,SavvyShort -2X NVDA,,tmx:tsx
+CA,TSX,NVDH.U,NVDH-U.TO,HvNVIDIA HInShr ETFU,,tmx:tsx
+CA,TSX,NVDH,NVDH.TO,HvNVIDIA HInShr ETFA,,tmx:tsx
+CA,TSX,NVDU,NVDU.TO,SavvyLong (2X) NVDA,,tmx:tsx
+CA,TSX,NVHE.U,NVHE-U.TO,HvNVIDIA EHInSh ETFU,,tmx:tsx
+CA,TSX,NVHE,NVHE.TO,HvNVIDIA EHInSh ETFA,,tmx:tsx
+CA,TSX,NVHI,NVHI.TO,Ninept NVIDIA HiShr,,tmx:tsx
+CA,TSXV,NVI,NVI.V,Novra Technologies Inc.,,tmx:tsxv
+CA,TSXV,NVLH,NVLH.V,Nevada Lithium Resources Inc.,,tmx:tsxv
+CA,TSXV,NVN.P,NVN-P.V,Navion Capital II Inc.,,tmx:tsxv
+CA,TSX,NVO,NVO.TO,Novo Resources J,,tmx:tsx
+CA,TSXV,NVRO,NVRO.V,NVRO Metals Limited,,tmx:tsxv
+CA,TSX,NVS,NVS.TO,Novartis CDR CAD Hed,,tmx:tsx
+CA,TSXV,NVT,NVT.V,Nortec Minerals Corp.,,tmx:tsxv
+CA,TSXV,NVX,NVX.V,NV Gold Corporation,,tmx:tsxv
+CA,TSX,NWC,NWC.TO,NW Company VarV&ComV,,tmx:tsx
+CA,TSXV,NWST,NWST.V,Northwest Copper Corp.,,tmx:tsxv
+CA,TSXV,NWX,NWX.V,Newport Exploration Ltd.,,tmx:tsxv
+CA,TSX,NXE,NXE.TO,NexGen Energy Ltd. J,,tmx:tsx
+CA,TSX,NXF.B,NXF-B.TO,CI EngyGiant UnhegUn,,tmx:tsx
+CA,TSX,NXF.U,NXF-U.TO,CI EngyGiantCovHG US,,tmx:tsx
+CA,TSX,NXF,NXF.TO,CI EnergyGiantCovHeg,,tmx:tsx
+CA,TSXV,NXG,NXG.V,NexgenRx Inc.,,tmx:tsxv
+CA,TSXV,NXH,NXH.V,Next Hydrogen Solutions Inc.,,tmx:tsxv
+CA,TSXV,NXLV,NXLV.V,NexLiving Communities Inc.,,tmx:tsxv
+CA,TSXV,NXS,NXS.V,Nexus Gold Corp.,,tmx:tsxv
+CA,TSX,NXTG,NXTG.TO,First Tr Indxx NextG,,tmx:tsx
+CA,TSXV,NZ,NZ.V,New Zealand Energy Corp.,,tmx:tsxv
+CA,TSXV,OAC.P,OAC-P.V,Oa Capital Corp.,,tmx:tsxv
+CA,TSXV,OAM,OAM.V,OverActive Media Corp.,,tmx:tsxv
+CA,TSX,OBE,OBE.TO,Obsidian Energy Ltd,,tmx:tsx
+CA,TSXV,OBUL,OBUL.V,One Bullion Limited,,tmx:tsxv
+CA,TSXV,OC,OC.V,Olive Resource Capital Inc.,,tmx:tsxv
+CA,TSXV,OCAL,OCAL.V,OCAL Financial Inc.,,tmx:tsxv
+CA,TSXV,OCAP.P,OCAP-P.V,Ocean Shore Capital Corp.,,tmx:tsxv
+CA,TSXV,OCEN,OCEN.V,Transoceanic Investments Inc.,,tmx:tsxv
+CA,TSX,OCG,OCG.TO,OutcropSil&Gold Corp,,tmx:tsx
+CA,TSXV,OCI,OCI.V,Orecap Invest Corp.,,tmx:tsxv
+CA,TSXV,OCO,OCO.V,Oroco Resource Corp,,tmx:tsxv
+CA,TSX,OGC,OGC.TO,OceanaGold Corp.,,tmx:tsx
+CA,TSX,OGD,OGD.TO,Orbit Garant Drill,,tmx:tsx
+CA,TSXV,OGG,OGG.V,Osisko Gold Group Inc.,,tmx:tsxv
+CA,TSX,OGI,OGI.TO,Organigram Global In,,tmx:tsx
+CA,TSXV,OGN,OGN.V,Orogen Royalties Inc.,,tmx:tsxv
+CA,TSXV,OGO,OGO.V,Organto Foods Inc.,,tmx:tsxv
+CA,TSXV,OGW,OGW.V,Ongwe Minerals Inc.,,tmx:tsxv
+CA,TSXV,OLV,OLV.V,Olivut Resources Ltd.,,tmx:tsxv
+CA,TSX,OLY,OLY.TO,Olympia Fin Group,,tmx:tsx
+CA,TSX,OM,OM.TO,Osisko Metals Incorp,,tmx:tsx
+CA,TSXV,OMG,OMG.V,Omai Gold Mines Corp.,,tmx:tsxv
+CA,TSXV,OMI,OMI.V,Orosur Mining Inc.,,tmx:tsxv
+CA,TSXV,OML,OML.V,Omni-Lite Industries Canada Inc.,,tmx:tsxv
+CA,TSXV,OMM,OMM.V,Omineca Mining and Metals Ltd.,,tmx:tsxv
+CA,TSXV,ONAU,ONAU.V,OnGold Resources Ltd.,,tmx:tsxv
+CA,TSXV,ONE,ONE.V,01 Quantum Inc.,,tmx:tsxv
+CA,TSX,ONEC,ONEC.TO,Accelerate1ChoiceFnd,,tmx:tsx
+CA,TSX,ONEX,ONEX.TO,Onex Corporation SV,,tmx:tsx
+CA,TSXV,ONYX,ONYX.V,Onyx Gold Corp.,,tmx:tsxv
+CA,TSXV,OOR,OOR.V,Opus One Gold Corporation,,tmx:tsxv
+CA,TSXV,OPHR,OPHR.V,Ophir Metals Corp.,,tmx:tsxv
+CA,TSXV,OPW,OPW.V,Opawica Explorations Inc.,,tmx:tsxv
+CA,TSX,OR,OR.TO,OR Royalties Inc,,tmx:tsx
+CA,TSX,ORAC,ORAC.TO,Oracle CDR Hgd,,tmx:tsx
+CA,TSX,ORBU,ORBU.TO,SavvyLong 2x SpaceX,,tmx:tsx
+CA,TSXV,ORC.A,ORC-A.V,Orca Energy Group Inc. ser A,,tmx:tsxv
+CA,TSXV,ORC.B,ORC-B.V,Orca Energy Group Inc. ser B,,tmx:tsxv
+CA,TSXV,ORCL,ORCL.V,Oracle Commodity Holding Corp.,,tmx:tsxv
+CA,TSX,ORCY,ORCY.TO,Harv Oracle E H In E,,tmx:tsx
+CA,TSX,ORE,ORE.TO,Orezone Gold Corp J,,tmx:tsx
+CA,TSX,ORIO,ORIO.TO,Orion Digital Corp,,tmx:tsx
+CA,TSXV,ORS,ORS.V,Orestone Mining Corp.,,tmx:tsxv
+CA,TSX,ORV,ORV.TO,Orvana Minerals J,,tmx:tsx
+CA,TSXV,OSM,OSM.V,Osiris One Metals Ltd.,,tmx:tsxv
+CA,TSXV,OTC,OTC.V,Ocumetics Technology Corp.,,tmx:tsxv
+CA,TSX,OTEX,OTEX.TO,Open Text Corp,,tmx:tsx
+CA,TSXV,OTMC,OTMC.V,Oreterra Metals Corp.,,tmx:tsxv
+CA,TSXV,OVT,OVT.V,Oculus Inc.,,tmx:tsxv
+CA,TSX,OVV,OVV.TO,Ovintiv Inc.,,tmx:tsx
+CA,TSXV,OWN,OWN.V,Rex Resources Corp.,,tmx:tsxv
+CA,TSX,OXY,OXY.TO,Oxy Petro CDR Hgd,,tmx:tsx
+CA,TSXV,OYL,OYL.V,CGX Energy Inc.,,tmx:tsxv
+CA,TSXV,OZ,OZ.V,Valkea Resources Corp.,,tmx:tsxv
+CA,TSXV,PA,PA.V,Palamina Corp.,,tmx:tsxv
+CA,TSX,PAAS,PAAS.TO,Pan American Silver,,tmx:tsx
+CA,TSX,PABF,PABF.TO,Purpose Actv Bal Fnd,,tmx:tsx
+CA,TSX,PACF,PACF.TO,Purpose ActvConserv,,tmx:tsx
+CA,TSX,PAGF,PAGF.TO,Purpose Actv Growth,,tmx:tsx
+CA,TSXV,PAIN,PAIN.V,Vector Science and Therapeutics Corp.,,tmx:tsxv
+CA,TSXV,PALI,PALI.V,Palisades Goldcorp Ltd.,,tmx:tsxv
+CA,TSXV,PALS,PALS.V,Paragon Advanced Labs Inc.,,tmx:tsxv
+CA,TSX,PANW,PANW.TO,Palo Alto CDR Hgd,,tmx:tsx
+CA,TSXV,PAT,PAT.V,Patterson Metals Corp.,,tmx:tsxv
+CA,TSX,PAVE.U,PAVE-U.TO,Glbl X US Infr Dev U,,tmx:tsx
+CA,TSX,PAVE,PAVE.TO,Glbl X US Infr Dev C,,tmx:tsx
+CA,TSX,PAYF,PAYF.TO,Purpose EnhncPremYld,,tmx:tsx
+CA,TSX,PAYG,PAYG.TO,BrmptnGbl Eq HiPay E,,tmx:tsx
+CA,TSX,PAYI,PAYI.TO,Brompton Ut Inf HP E,,tmx:tsx
+CA,TSX,PAYU,PAYU.TO,Brompton US Eq HP E,,tmx:tsx
+CA,TSX,PBAL,PBAL.TO,PIMCO mngd Blncd Prt,,tmx:tsx
+CA,TSX,PBH,PBH.TO,Premium Brands Hldgs,,tmx:tsx
+CA,TSX,PBI.B,PBI-B.TO,Purpose Best NnCurHg,,tmx:tsx
+CA,TSX,PBI,PBI.TO,Purpose Best Ideas,,tmx:tsx
+CA,TSX,PBL,PBL.TO,Pollard Banknote Ltd,,tmx:tsx
+CA,TSXV,PBM,PBM.V,Pacific Bay Minerals Ltd.,,tmx:tsxv
+CA,TSX,PBY,PBY.TO,Lysander-Can Cr I AE,,tmx:tsx
+CA,TSX,PCA,PCA.TO,Phoenix MetalsCrp,,tmx:tsx
+CA,TSXV,PCAA.P,PCAA-P.V,PC 1 Corp.,,tmx:tsxv
+CA,TSXV,PCLO,PCLO.V,Pharmacielo Ltd.,,tmx:tsxv
+CA,TSX,PCON,PCON.TO,PIMCO MngdConsvBndPl,,tmx:tsx
+CA,TSX,PCOR,PCOR.TO,PIMCO Mngd CoreBndPl,,tmx:tsx
+CA,TSXV,PCP.P,PCP-P.V,Pender Street Capital Corp.,,tmx:tsxv
+CA,TSXV,PCQ,PCQ.V,Petrolympic Ltd,,tmx:tsxv
+CA,TSXV,PCRX,PCRX.V,PharmaCorp Rx Inc.,,tmx:tsxv
+CA,TSXV,PCU,PCU.V,Pecoy Copper Corp.,,tmx:tsxv
+CA,TSX,PD,PD.TO,Precision Drill Corp,,tmx:tsx
+CA,TSX,PDC,PDC.TO,CI Cdn Div Idx Un,,tmx:tsx
+CA,TSX,PDF,PDF.TO,Purpose Core Div Fnd,,tmx:tsx
+CA,TSX,PDI,PDI.TO,PDI Gold Limited,,tmx:tsx
+CA,TSX,PDN,PDN.TO,Paladin Energy Ltd,,tmx:tsx
+CA,TSXV,PDQ,PDQ.V,Paradigm Gold Corporation,,tmx:tsxv
+CA,TSX,PDV,PDV.TO,Prime Dividend Cl A,,tmx:tsx
+CA,TSXV,PE,PE.V,Pure Energy Minerals Limited,,tmx:tsxv
+CA,TSXV,PEAK,PEAK.V,Sun Peak Metals Corp.,,tmx:tsxv
+CA,TSXV,PEI,PEI.V,Prospera Energy Inc.,,tmx:tsxv
+CA,TSXV,PEMC,PEMC.V,Pacific Empire Minerals Corp.,,tmx:tsxv
+CA,TSX,PEP,PEP.TO,Pepsi CDR Hgd,,tmx:tsx
+CA,TSXV,PER,PER.V,Peruvian Metals Corp.,,tmx:tsxv
+CA,TSXV,PERU,PERU.V,Chakana Copper Corp.,,tmx:tsxv
+CA,TSXV,PESO,PESO.V,Pesorama Inc.,,tmx:tsxv
+CA,TSX,PET,PET.TO,Pet Valu Hldgs J,,tmx:tsx
+CA,TSXV,PEX,PEX.V,Pacific Ridge Exploration Ltd.,,tmx:tsxv
+CA,TSX,PEY,PEY.TO,Peyto Expl & Dev,,tmx:tsx
+CA,TSX,PFAA,PFAA.TO,Picton MultStgy Alph,,tmx:tsx
+CA,TSX,PFAE,PFAE.TO,Picton LnShEq 130/30,,tmx:tsx
+CA,TSX,PFCB,PFCB.TO,Picton Core Bnd Fd E,,tmx:tsx
+CA,TSX,PFCO,PFCO.TO,Picton Crdt Oppt Alt,,tmx:tsx
+CA,TSX,PFE,PFE.TO,Pfizer CDR Hgd,,tmx:tsx
+CA,TSX,PFIA,PFIA.TO,Picton LnSh Inc Alte,,tmx:tsx
+CA,TSX,PFIG,PFIG.TO,Picton Invmn Grd Alt,,tmx:tsx
+CA,TSX,PFL,PFL.TO,CI Cdn Gov FlRate Id,,tmx:tsx
+CA,TSX,PFLS,PFLS.TO,Picton LnSh Eqt Alt,,tmx:tsx
+CA,TSX,PFMN,PFMN.TO,Picton Mkt Neu Eq Al,,tmx:tsx
+CA,TSX,PFMS,PFMS.TO,Picton Mult-Stgy Alt,,tmx:tsx
+CA,TSX,PFRD,PFRD.TO,Mulvihill Sp Pr Sh E,,tmx:tsx
+CA,TSX,PG,PG.TO,P&G CDR Hgd,,tmx:tsx
+CA,TSXV,PGC,PGC.V,Plato Gold Corp.,,tmx:tsxv
+CA,TSXV,PGDC,PGDC.V,Patagonia Gold Corp.,,tmx:tsxv
+CA,TSXV,PGE,PGE.V,Stillwater Critical Minerals Corp.,,tmx:tsxv
+CA,TSX,PGIC,PGIC.TO,Prem GlInc SpF Cl A,,tmx:tsx
+CA,TSXV,PGLD,PGLD.V,P2 Gold Inc.,,tmx:tsxv
+CA,TSXV,PGP,PGP.V,Power Group Projects Corp.,,tmx:tsxv
+CA,TSX,PGRX,PGRX.TO,Purpose Gbl Resource,,tmx:tsx
+CA,TSXV,PGX,PGX.V,Prosper Gold Corp.,,tmx:tsxv
+CA,TSXV,PGZ,PGZ.V,Pan Global Resources Inc.,,tmx:tsxv
+CA,TSXV,PHD,PHD.V,Providence Gold Mines Inc.,,tmx:tsxv
+CA,TSX,PHE.B,PHE-B.TO,Purpose TacHg NN-Cur,,tmx:tsx
+CA,TSX,PHE,PHE.TO,Purpose Tact Hegd Eq,,tmx:tsx
+CA,TSXV,PHNM,PHNM.V,Phenom Resources Corp.,,tmx:tsxv
+CA,TSX,PHR,PHR.TO,Purpose Rl Est Incme,,tmx:tsx
+CA,TSX,PHW,PHW.TO,Prps Intl Enh Eq I F,,tmx:tsx
+CA,TSX,PHX,PHX.TO,PHX Energy Services,,tmx:tsx
+CA,TSX,PHYS.U,PHYS-U.TO,Sprott Phy Gld Un US,,tmx:tsx
+CA,TSX,PHYS,PHYS.TO,Sprott PhyGold CA Un,,tmx:tsx
+CA,TSX,PIC.A,PIC-A.TO,Premium Income Cl A,,tmx:tsx
+CA,TSX,PID,PID.TO,Purpose Intl Div Un,,tmx:tsx
+CA,TSX,PIF,PIF.TO,Polaris Renew Engy J,,tmx:tsx
+CA,TSX,PIN,PIN.TO,Purpose Monthly Incm,,tmx:tsx
+CA,TSX,PINC,PINC.TO,Purpose Mult-AstIncm,,tmx:tsx
+CA,TSXV,PINK,PINK.V,"Perimeter Medical Imaging AI, Inc.",,tmx:tsxv
+CA,TSXV,PINN,PINN.V,Pinnacle Silver and Gold Corp.,,tmx:tsxv
+CA,TSX,PINV,PINV.TO,Purpose GlblInnovatr,,tmx:tsx
+CA,TSXV,PJX,PJX.V,PJX Resources Inc.,,tmx:tsxv
+CA,TSXV,PKT,PKT.V,Parkit Enterprise Inc.,,tmx:tsxv
+CA,TSXV,PLAN,PLAN.V,Progressive Planet Solutions Inc.,,tmx:tsxv
+CA,TSX,PLDI,PLDI.TO,PIMCO LwDuratnMoIncm,,tmx:tsx
+CA,TSX,PLHI,PLHI.TO,Ninep Palantir HiShr,,tmx:tsx
+CA,TSXV,PLSR,PLSR.V,Pulsar Helium Inc.,,tmx:tsxv
+CA,TSX,PLTR,PLTR.TO,Palantir CDR Hgd,,tmx:tsx
+CA,TSX,PLTU,PLTU.TO,SavvyLong 2X PLTR E,,tmx:tsx
+CA,TSXV,PLUR,PLUR.V,Plurilock Security Inc.,,tmx:tsxv
+CA,TSXV,PLXX.P,PLXX-P.V,Planet X II Capital Corp.,,tmx:tsxv
+CA,TSXV,PLY,PLY.V,Playfair Mining Ltd.,,tmx:tsxv
+CA,TSX,PME,PME.TO,Sentry Prime Metal A,,tmx:tsx
+CA,TSX,PMET,PMET.TO,PMET Resources Inc,,tmx:tsx
+CA,TSXV,PMI,PMI.V,Perseverance Metals Inc.,,tmx:tsxv
+CA,TSX,PMIF.U,PMIF-U.TO,PIMCO Mthly Incm US,,tmx:tsx
+CA,TSX,PMIF,PMIF.TO,PIMCO MthlyIncmETFUn,,tmx:tsx
+CA,TSXV,PML,PML.V,Panoro Minerals Ltd.,,tmx:tsxv
+CA,TSX,PMM,PMM.TO,Purpose Mult-StgyNeu,,tmx:tsx
+CA,TSX,PMNT,PMNT.TO,PIMCO Glbl ShrtCda,,tmx:tsx
+CA,TSXV,PMX,PMX.V,ProAm Explorations Corporation,,tmx:tsxv
+CA,TSX,PNC.A,PNC-A.TO,Postmedia Ntwrk C J,,tmx:tsx
+CA,TSX,PNC.B,PNC-B.TO,Postmedia Ntwrk VV J,,tmx:tsx
+CA,TSX,PNE,PNE.TO,Pine Cliff Energy,,tmx:tsx
+CA,TSXV,PNG,PNG.V,Kraken Robotics Inc.,,tmx:tsxv
+CA,TSX,PNP,PNP.TO,Pinetree Capital J,,tmx:tsx
+CA,TSXV,PNPN,PNPN.V,Power Metallic Mines Inc.,,tmx:tsxv
+CA,TSXV,POND,POND.V,Pond Technologies Holdings Inc.,,tmx:tsxv
+CA,TSXV,POOL,POOL.V,Pool Safe Inc.,,tmx:tsxv
+CA,TSX,POU,POU.TO,Paramount Res Cl A,,tmx:tsx
+CA,TSX,POW,POW.TO,Power Corp of Cda SV,,tmx:tsx
+CA,TSX,PPL,PPL.TO,Pembina Pipeline,,tmx:tsx
+CA,TSXV,PPM,PPM.V,Pacific Imperial Mines Inc,,tmx:tsxv
+CA,TSXV,PPP,PPP.V,Prospector Metals Corp.,,tmx:tsxv
+CA,TSX,PPR,PPR.TO,Prairie Provident J,,tmx:tsx
+CA,TSX,PPTA,PPTA.TO,Perpetua Res Corp. J,,tmx:tsx
+CA,TSXV,PPX,PPX.V,PPX Mining Corp.,,tmx:tsxv
+CA,TSX,PR,PR.TO,Lysander-SlatrPrActv,,tmx:tsx
+CA,TSX,PRA,PRA.TO,Purpose DiversRl Ast,,tmx:tsx
+CA,TSX,PREF,PREF.TO,Quad Pref SplitShETF,,tmx:tsx
+CA,TSXV,PRG,PRG.V,Precipitate Gold Corp.,,tmx:tsxv
+CA,TSX,PRL,PRL.TO,Propel Holdings J,,tmx:tsx
+CA,TSX,PRM,PRM.TO,Big Pharma Split A,,tmx:tsx
+CA,TSX,PRN,PRN.TO,Profound Medical,,tmx:tsx
+CA,TSX,PRP,PRP.TO,Purpose Conserv Incm,,tmx:tsx
+CA,TSX,PRQ,PRQ.TO,Petrus Resources,,tmx:tsx
+CA,TSX,PRU,PRU.TO,Perseus Mining Ord J,,tmx:tsx
+CA,TSX,PSA,PSA.TO,Purpose High IntSvgs,,tmx:tsx
+CA,TSX,PSB,PSB.TO,CI 1-5 Ld IvCorpBndU,,tmx:tsx
+CA,TSX,PSD,PSD.TO,Pulse Seismic Inc.,,tmx:tsx
+CA,TSX,PSI,PSI.TO,Pason Systems Inc.,,tmx:tsx
+CA,TSX,PSK,PSK.TO,PrairieSky Royalty,,tmx:tsx
+CA,TSX,PSLV.U,PSLV-U.TO,Sprott Phy Silver US,,tmx:tsx
+CA,TSX,PSLV,PSLV.TO,Sprott Phy Sil Cdn,,tmx:tsx
+CA,TSX,PSU.U,PSU-U.TO,Purpose US Cash USF,,tmx:tsx
+CA,TSXV,PSVA,PSVA.V,Prospectiva Resources Ltd.,,tmx:tsxv
+CA,TSX,PSY,PSY.TO,Purpose Struc Eq Y F,,tmx:tsx
+CA,TSXV,PTC,PTC.V,Petrox Resources Corp.,,tmx:tsxv
+CA,TSXV,PTE,PTE.V,Pioneering Technology Corp,,tmx:tsxv
+CA,TSXV,PTEC,PTEC.V,Principal Technologies Inc.,,tmx:tsxv
+CA,TSXV,PTFY,PTFY.V,"Plantify Foods, Inc.",,tmx:tsxv
+CA,TSX,PTM,PTM.TO,Platinum Grp Metal J,,tmx:tsx
+CA,TSXV,PTU,PTU.V,Purepoint Uranium Group Inc.,,tmx:tsxv
+CA,TSXV,PTX,PTX.V,PTX Metals Inc.,,tmx:tsxv
+CA,TSXV,PUL,PUL.V,Pulse Oil Corp.,,tmx:tsxv
+CA,TSXV,PUMA,PUMA.V,Puma Exploration Inc.,,tmx:tsxv
+CA,TSXV,PUR,PUR.V,Premier American Uranium Inc.,,tmx:tsxv
+CA,TSXV,PURO,PURO.V,Platauro Metals Corp.,,tmx:tsxv
+CA,TSXV,PVF.A,PVF-A.V,Partners Value Investments L.P. exch sh,,tmx:tsxv
+CA,TSXV,PVIS,PVIS.V,Parvis Invest Inc.,,tmx:tsxv
+CA,TSXV,PVT,PVT.V,Pivotree Inc.,,tmx:tsxv
+CA,TSXV,PWER,PWER.V,Global Power Solutions Corp.,,tmx:tsxv
+CA,TSX,PWI,PWI.TO,Pwr&Infras Split Co,,tmx:tsx
+CA,TSXV,PWM,PWM.V,Power Metals Corp.,,tmx:tsxv
+CA,TSXV,PWRO,PWRO.V,Power One Resources Corp.,,tmx:tsxv
+CA,TSX,PWRS,PWRS.TO,Quanta Svc CDR Hdg,,tmx:tsx
+CA,TSXV,PX,PX.V,Pelangio Exploration Inc.,,tmx:tsxv
+CA,TSX,PXC,PXC.TO,CI RAFI Cdn Idx E,,tmx:tsx
+CA,TSX,PXS.U,PXS-U.TO,CI InvcoRAFI ETF2 US,,tmx:tsx
+CA,TSX,PXS,PXS.TO,CI InvcoRAFI USI2 CA,,tmx:tsx
+CA,TSX,PXT,PXT.TO,Parex Resources,,tmx:tsx
+CA,TSX,PXU.F,PXU-F.TO,CI InvcoRAFI US CaHg,,tmx:tsx
+CA,TSX,PYF.B,PYF-B.TO,Purpose PremNnCurHeg,,tmx:tsx
+CA,TSX,PYF.U,PYF-U.TO,PurposePremNnCurHgUS,,tmx:tsx
+CA,TSX,PYPL,PYPL.TO,PayPal CDR Hgd,,tmx:tsx
+CA,TSX,PYR,PYR.TO,PyroGenesis Inc.,,tmx:tsx
+CA,TSX,PZA,PZA.TO,Pizza Pizza Royalty,,tmx:tsx
+CA,TSX,PZW.F,PZW-F.TO,CI Invc RAFI SM CAHD,,tmx:tsx
+CA,TSX,PZW.U,PZW-U.TO,CI Invc RAFI SmM USF,,tmx:tsx
+CA,TSX,PZW,PZW.TO,CI Invc RAFI Gl SM E,,tmx:tsx
+CA,TSX,QAH,QAH.TO,MackenzieUS LrgCapCH,,tmx:tsx
+CA,TSX,QBB,QBB.TO,Mackenzie CdnAggrBnd,,tmx:tsx
+CA,TSX,QBR.A,QBR-A.TO,Quebecor Inc Cl A MV,,tmx:tsx
+CA,TSX,QBR.B,QBR-B.TO,Quebecor Inc Cl B SV,,tmx:tsx
+CA,TSX,QBTC.U,QBTC-U.TO,Bitcoin Fund Cl A US,,tmx:tsx
+CA,TSX,QBTC,QBTC.TO,Bitcoin Fund A CAD,,tmx:tsx
+CA,TSX,QBTL,QBTL.TO,AGF US Anti-BetaCAHg,,tmx:tsx
+CA,TSX,QCE,QCE.TO,Mackenzie CdnLrgCpEq,,tmx:tsx
+CA,TSX,QCLN,QCLN.TO,1st TrNsdqCleanGreen,,tmx:tsx
+CA,TSX,QCN,QCN.TO,Mackenzie Cdn EqtyUn,,tmx:tsx
+CA,TSX,QCOM,QCOM.TO,Qualcomm CDR Hgd,,tmx:tsx
+CA,TSX,QDX,QDX.TO,Mackenzie IntlEq Idx,,tmx:tsx
+CA,TSX,QDXB,QDXB.TO,MackenzieDvExNABndCH,,tmx:tsx
+CA,TSX,QDXH,QDXH.TO,Mackenzie IntlEq C-H,,tmx:tsx
+CA,TSX,QEBH,QEBH.TO,Mackenzie EmrgMktBnd,,tmx:tsx
+CA,TSX,QEBL,QEBL.TO,Mackenzie EmrgCurBnd,,tmx:tsx
+CA,TSX,QEC,QEC.TO,Questerre Corp.,,tmx:tsx
+CA,TSX,QEE,QEE.TO,Mackenzie EmergMktEq,,tmx:tsx
+CA,TSX,QETH.U,QETH-U.TO,The EtherFnd A Un US,,tmx:tsx
+CA,TSXV,QGR,QGR.V,Q-Gold Resources Ltd.,,tmx:tsxv
+CA,TSX,QHY,QHY.TO,Mackenzie USBndCAD-H,,tmx:tsx
+CA,TSX,QINF,QINF.TO,MackenzieGlbl Infras,,tmx:tsx
+CA,TSX,QLB,QLB.TO,MackenzieCA GvtLgBnd,,tmx:tsx
+CA,TSX,QMAX.U,QMAX-U.TO,Ham TechYldMax USD,,tmx:tsx
+CA,TSXV,QMC,QMC.V,QMC Quantum Minerals Corp,,tmx:tsxv
+CA,TSXV,QNC,QNC.V,Quantum Emotion Corp.,,tmx:tsxv
+CA,TSXV,QNTA,QNTA.V,Quanta AI Inc.,,tmx:tsxv
+CA,TSXV,QPT,QPT.V,Quest Pharmatech Inc.,,tmx:tsxv
+CA,TSX,QQC.F,QQC-F.TO,CI Invc NASDQ100 Heg,,tmx:tsx
+CA,TSX,QQC,QQC.TO,CI Invc NASDAQ100 C$,,tmx:tsx
+CA,TSX,QQCC.U,QQCC-U.TO,GblX NASDAQ100Cov US,,tmx:tsx
+CA,TSX,QQCC,QQCC.TO,GblX NASDAQ 100Cal E,,tmx:tsx
+CA,TSX,QQCE.F,QQCE-F.TO,CI ESG NAS100IdCAHG,,tmx:tsx
+CA,TSX,QQCE,QQCE.TO,CI ESG NAS100IDXCA,,tmx:tsx
+CA,TSX,QQCI.F,QQCI-F.TO,INV NASD100 IcA CAN,,tmx:tsx
+CA,TSX,QQCI.U,QQCI-U.TO,INV NDQ100IncAdv USD,,tmx:tsx
+CA,TSX,QQCI,QQCI.TO,INV NDQ100 IncAdvETF,,tmx:tsx
+CA,TSX,QQCL,QQCL.TO,GblX EhNASDQ100CvrCl,,tmx:tsx
+CA,TSX,QQD.U,QQD-U.TO,BtaProNSDQ100-2xBrUS,,tmx:tsx
+CA,TSX,QQD,QQD.TO,BetaProNSDQ100 -2xBr,,tmx:tsx
+CA,TSX,QQEQ.F,QQEQ-F.TO,CI NASDQ100= WgHeg,,tmx:tsx
+CA,TSX,QQEQ,QQEQ.TO,CI NASDQ100=WgtIdx,,tmx:tsx
+CA,TSX,QQI,QQI.TO,BtaPro Nsdq100 D I E,,tmx:tsx
+CA,TSX,QQJR.F,QQJR-F.TO,CI InvcoNASDQNxt100H,,tmx:tsx
+CA,TSX,QQJR,QQJR.TO,CI Invc NASDQNext100,,tmx:tsx
+CA,TSX,QQQD,QQQD.TO,MegaShort -3X NASDAQ,,tmx:tsx
+CA,TSX,QQQQ,QQQQ.TO,Mackenzie NASDAQ 100,,tmx:tsx
+CA,TSX,QQQT.B,QQQT-B.TO,Evolve NAS Tech Unhg,,tmx:tsx
+CA,TSX,QQQT.U,QQQT-U.TO,EvolveNAS TechUnhgUS,,tmx:tsx
+CA,TSX,QQQT,QQQT.TO,Evolve NAS Tech Heg,,tmx:tsx
+CA,TSX,QQQU,QQQU.TO,MegaLong 3X NASDAQ,,tmx:tsx
+CA,TSX,QQQX.U,QQQX-U.TO,GblX NASDAQ100 IndUS,,tmx:tsx
+CA,TSX,QQQX,QQQX.TO,GblX NASDAQ100 Ind A,,tmx:tsx
+CA,TSX,QQQY.U,QQQY-U.TO,Evolve ND Tech Enh Y,,tmx:tsx
+CA,TSX,QQQY,QQQY.TO,Evolve NASDAQ TecHeg,,tmx:tsx
+CA,TSX,QQU,QQU.TO,BetaProNASDQ100 2xBl,,tmx:tsx
+CA,TSX,QRC,QRC.TO,Queen's Rd Cap Inv J,,tmx:tsx
+CA,TSX,QRET,QRET.TO,MackenzieDevMktRlEst,,tmx:tsx
+CA,TSXV,QRO,QRO.V,Quadro Resources Ltd.,,tmx:tsxv
+CA,TSX,QSB,QSB.TO,Mackenzie CdnSTBndE,,tmx:tsx
+CA,TSX,QSR,QSR.TO,Restaurant Brnd Intl,,tmx:tsx
+CA,TSXV,QST,QST.V,Questor Technology Inc.,,tmx:tsxv
+CA,TSX,QTLT,QTLT.TO,Mackenzie USGvtLgBnd,,tmx:tsx
+CA,TSX,QTRH,QTRH.TO,Quarterhill Inc.,,tmx:tsx
+CA,TSXV,QTWO,QTWO.V,Q2 Metals Corp.,,tmx:tsxv
+CA,TSX,QUB,QUB.TO,MackenzieUSAggrBndCH,,tmx:tsx
+CA,TSX,QUIG,QUIG.TO,Mackenzie USCrpBnd E,,tmx:tsx
+CA,TSXV,QURI,QURI.V,Quri-Mayu Developments Ltd.,,tmx:tsxv
+CA,TSX,QUU,QUU.TO,Mackenzie USLrgCapEq,,tmx:tsx
+CA,TSX,QXM,QXM.TO,CI Mornstar NatBk QC,,tmx:tsx
+CA,TSXV,QYOU,QYOU.V,Qyou Media Inc.,,tmx:tsxv
+CA,TSXV,QZM,QZM.V,Quartz Mountain Resources Ltd.,,tmx:tsxv
+CA,TSXV,R.P,R-P.V,Rockport Capital Corp.,,tmx:tsxv
+CA,TSX,RAAA,RAAA.TO,Corton EnhInc FndETF,,tmx:tsx
+CA,TSXV,RAGE,RAGE.V,Renegade Gold Inc.,,tmx:tsxv
+CA,TSXV,RAK,RAK.V,Rackla Metals Inc.,,tmx:tsxv
+CA,TSXV,RAMP,RAMP.V,Ramp Metals Inc.,,tmx:tsxv
+CA,TSX,RATE,RATE.TO,Arrow EC IncmAdvanUn,,tmx:tsx
+CA,TSX,RAY,RAY.TO,StingrayGroup SVVSV,,tmx:tsx
+CA,TSX,RBA,RBA.TO,"RB Global, Inc.",,tmx:tsx
+CA,TSX,RBCU,RBCU.TO,SavvyLg2X RBC EqtETF,,tmx:tsx
+CA,TSX,RBND,RBND.TO,Russell InvCP Fx Inc,,tmx:tsx
+CA,TSX,RBNK,RBNK.TO,RBC CdnBnk Yld Indx,,tmx:tsx
+CA,TSX,RBNU,RBNU.TO,SavvyLong 2X HOOD E,,tmx:tsx
+CA,TSX,RBO,RBO.TO,RBC1-5YrCDN LdCrpBnd,,tmx:tsx
+CA,TSX,RBOT.U,RBOT-U.TO,GblX Robot&AI Inx US,,tmx:tsx
+CA,TSX,RBOT,RBOT.TO,GblX Robotics&AI Ind,,tmx:tsx
+CA,TSX,RBY,RBY.TO,Rubellite Energy Cor,,tmx:tsx
+CA,TSXV,RBZ,RBZ.V,Arya Resources Ltd.,,tmx:tsxv
+CA,TSX,RCD,RCD.TO,RBC QuantCdnDiv Lead,,tmx:tsx
+CA,TSX,RCDC,RCDC.TO,RBC Cdn DivCovCal CA,,tmx:tsx
+CA,TSX,RCH,RCH.TO,Richelieu Hardware,,tmx:tsx
+CA,TSX,RCI.A,RCI-A.TO,Rogers Comm Cl A,,tmx:tsx
+CA,TSX,RCI.B,RCI-B.TO,Rogers Comm Cl B NV,,tmx:tsx
+CA,TSXV,RCK,RCK.V,Rock Tech Lithium Inc.,,tmx:tsxv
+CA,TSXV,RCT,RCT.V,Rochester Resources Ltd.,,tmx:tsxv
+CA,TSX,RCTR,RCTR.TO,First Trst Bl Nc P E,,tmx:tsx
+CA,TSX,RDBH,RDBH.TO,RBC US DiscountBndHg,,tmx:tsx
+CA,TSX,RDDT,RDDT.TO,Reddit CDR CAD Hgd,,tmx:tsx
+CA,TSX,RDDY,RDDY.TO,Harv Rdt EnH H Inc S,,tmx:tsx
+CA,TSXV,RDG,RDG.V,Ridgeline Minerals Corp.,,tmx:tsxv
+CA,TSXV,RDS,RDS.V,Radisson Mining Resources Inc.,,tmx:tsxv
+CA,TSXV,RDU,RDU.V,Radius Gold Inc.,,tmx:tsxv
+CA,TSXV,RE,RE.V,RE Royalties Ltd.,,tmx:tsxv
+CA,TSX,REAL,REAL.TO,Real Matters Inc.,,tmx:tsx
+CA,TSXV,REC,REC.V,Record Resources Inc.,,tmx:tsxv
+CA,TSXV,RECO,RECO.V,Reconnaissance Energy Africa Ltd.,,tmx:tsxv
+CA,TSXV,REE,REE.V,ReeXploration Inc.,,tmx:tsxv
+CA,TSXV,REG,REG.V,Regulus Resources Inc.,,tmx:tsxv
+CA,TSXV,REH,REH.V,Responsible Energy Corporation,,tmx:tsxv
+CA,TSX,REIT,REIT.TO,Globl X EqWe CDN REI,,tmx:tsx
+CA,TSXV,REKO,REKO.V,Reko International Group Inc,,tmx:tsxv
+CA,TSXV,RES,RES.V,Auric Resources Corp.,,tmx:tsxv
+CA,TSXV,RET.A,RET-A.V,Reitmans (Canada) Limited Cl A,,tmx:tsxv
+CA,TSXV,RET,RET.V,Reitmans (Canada) Limited,,tmx:tsxv
+CA,TSXV,REVX,REVX.V,Rev Exploration Corp.,,tmx:tsxv
+CA,TSXV,REX,REX.V,Orex Minerals Inc.,,tmx:tsxv
+CA,TSX,RFA,RFA.TO,RFA Financial Inc,,tmx:tsx
+CA,TSXV,RFX,RFX.V,Reeflex Solutions Inc.,,tmx:tsxv
+CA,TSX,RGBM.U,RGBM-U.TO,Return Sta GlBlM USD,,tmx:tsx
+CA,TSXV,RGC,RGC.V,Relevant Gold Corp.,,tmx:tsxv
+CA,TSXV,RGI,RGI.V,Reco International Group Inc.,,tmx:tsxv
+CA,TSX,RGQP,RGQP.TO,RBC Tgt27 CDN GovBnd,,tmx:tsx
+CA,TSX,RGQQ,RGQQ.TO,RBC Tgt28 CDN GovBnd,,tmx:tsx
+CA,TSX,RGQR,RGQR.TO,RBC Tgt29 CDN GovBnd,,tmx:tsx
+CA,TSX,RGQS,RGQS.TO,RBC Tgt30CDNGovCaBnd,,tmx:tsx
+CA,TSX,RGQT,RGQT.TO,RBC Tg2031 Ca Gvt Bd,,tmx:tsx
+CA,TSX,RGSI,RGSI.TO,Rockpoint Gs Strg In,,tmx:tsx
+CA,TSX,RIC,RIC.TO,Richards Grp Inc Unt,,tmx:tsx
+CA,TSX,RID.U,RID-U.TO,RBC QuantEAFE Div US,,tmx:tsx
+CA,TSX,RID,RID.TO,RBC QuantEAFE Div Un,,tmx:tsx
+CA,TSX,RIDH,RIDH.TO,RBC Qnt EAFE DivLead,,tmx:tsx
+CA,TSX,RIFI,RIFI.TO,Russell InvstFxdIncm,,tmx:tsx
+CA,TSX,RIIN,RIIN.TO,Russl InvGlbInfrasPl,,tmx:tsx
+CA,TSX,RIO,RIO.TO,Rio2 Limited,,tmx:tsx
+CA,TSX,RIRA,RIRA.TO,Russl InvestRl Asset,,tmx:tsx
+CA,TSXV,RIWI,RIWI.V,RIWI Corp.,,tmx:tsxv
+CA,TSXV,RJX.A,RJX-A.V,RJK Explorations Ltd.,,tmx:tsxv
+CA,TSXV,RK,RK.V,Rockhaven Resources Ltd,,tmx:tsxv
+CA,TSXV,RKR,RKR.V,Rokmaster Resources Corp.,,tmx:tsxv
+CA,TSXV,RKV,RKV.V,Rakovina Therapeutics Inc.,,tmx:tsxv
+CA,TSX,RLB,RLB.TO,RBC 1-5Yr LadCdn Bnd,,tmx:tsx
+CA,TSXV,RLYG,RLYG.V,Riley Gold Corp.,,tmx:tsxv
+CA,TSX,RM,RM.TO,Roxmore Resources In,,tmx:tsx
+CA,TSXV,RMB,RMB.V,Rumbu Holdings Ltd.,,tmx:tsxv
+CA,TSXV,RMD,RMD.V,Richmond Minerals Inc.,,tmx:tsxv
+CA,TSXV,RME,RME.V,Roland Mineral Enterprises Corp.,,tmx:tsxv
+CA,TSXV,RMI,RMI.V,Ridgestone Mining Inc.,,tmx:tsxv
+CA,TSXV,RML,RML.V,Rusoro Mining Ltd,,tmx:tsxv
+CA,TSXV,RMO,RMO.V,Rainy Mountain Royalty Corp.,,tmx:tsxv
+CA,TSX,RNCC,RNCC.TO,Globl X EqWe CDN Tel,,tmx:tsx
+CA,TSXV,RNCH,RNCH.V,Ranchero Gold Corp.,,tmx:tsxv
+CA,TSX,RNCL,RNCL.TO,Glob X EnEqWe CDN Te,,tmx:tsx
+CA,TSXV,ROAR,ROAR.V,Lion Rock Resources Inc.,,tmx:tsxv
+CA,TSXV,ROB,ROB.V,Robinson Energy Limited,,tmx:tsxv
+CA,TSXV,ROCK,ROCK.V,Trident Resources Corp.,,tmx:tsxv
+CA,TSX,ROG,ROG.TO,Roche CDR CAD Hedge,,tmx:tsx
+CA,TSXV,ROI,ROI.V,Route1 Inc.,,tmx:tsxv
+CA,TSXV,ROK,ROK.V,ROK Resources Inc.,,tmx:tsxv
+CA,TSXV,ROMJ,ROMJ.V,Rubicon Organics Inc.,,tmx:tsxv
+CA,TSXV,ROOF,ROOF.V,Northstar Clean Technologies Inc.,,tmx:tsxv
+CA,TSX,ROOT,ROOT.TO,Roots Corporation,,tmx:tsx
+CA,TSXV,ROS,ROS.V,Roscan Gold Corporation,,tmx:tsxv
+CA,TSXV,ROSH.P,ROSH-P.V,Roshni Capital Inc.,,tmx:tsxv
+CA,TSX,ROSY.U,ROSY-U.TO,CortonRosenbrg GMF U,,tmx:tsx
+CA,TSX,ROSY,ROSY.TO,Corton Rosenberg GMF,,tmx:tsx
+CA,TSXV,ROX,ROX.V,Canstar Resources Inc.,,tmx:tsxv
+CA,TSX,RPD.U,RPD-U.TO,RBC Quant EU DivLdUS,,tmx:tsx
+CA,TSX,RPD,RPD.TO,RBC Quant EU DivLdCA,,tmx:tsx
+CA,TSX,RPDH,RPDH.TO,RBC Quant EUDivLdHeg,,tmx:tsx
+CA,TSX,RPF,RPF.TO,RBC Cdn Pref CA Un,,tmx:tsx
+CA,TSXV,RPP,RPP.V,Regent Pacific Properties Inc,,tmx:tsxv
+CA,TSXV,RPX,RPX.V,RPX Gold Inc.,,tmx:tsxv
+CA,TSX,RQCA,RQCA.TO,Russell InvMF Cnd Eq,,tmx:tsx
+CA,TSX,RQIN,RQIN.TO,Russell InvMF intl P,,tmx:tsx
+CA,TSX,RQP,RQP.TO,RBC Tgt27CDNCorp Bnd,,tmx:tsx
+CA,TSX,RQQ,RQQ.TO,RBC Tgt28CDNCorp Bnd,,tmx:tsx
+CA,TSX,RQR,RQR.TO,RBC Tgt29CDNCorp Bnd,,tmx:tsx
+CA,TSX,RQS,RQS.TO,RBC Tg30CDNCorpCaBnd,,tmx:tsx
+CA,TSX,RQT,RQT.TO,RBC Tg2031 Ca Cop Bd,,tmx:tsx
+CA,TSX,RQUS,RQUS.TO,Russell Inv MF US Eq,,tmx:tsx
+CA,TSXV,RRCC.P,RRCC-P.V,Raging Rhino Capital Corp.,,tmx:tsxv
+CA,TSXV,RRI,RRI.V,Riverside Resources Inc.,,tmx:tsxv
+CA,TSXV,RRRL,RRRL.V,River Road Resources Ltd.,,tmx:tsxv
+CA,TSX,RS,RS.TO,Rl Estate Split Cl A,,tmx:tsx
+CA,TSXV,RSC.P,RSC-P.V,Rockmount Capital Corporation,,tmx:tsxv
+CA,TSX,RSI,RSI.TO,Rogers Sugar Inc.,,tmx:tsx
+CA,TSXV,RSM,RSM.V,Resouro Strategic Metals Inc.,,tmx:tsxv
+CA,TSXV,RSMX,RSMX.V,Regency Silver Corp.,,tmx:tsxv
+CA,TSXV,RSS,RSS.V,Resaas Services Inc.,,tmx:tsxv
+CA,TSXV,RTE,RTE.V,Route 109 Resources Inc.,,tmx:tsxv
+CA,TSX,RTG,RTG.TO,RTG Mining Inc Ord J,,tmx:tsx
+CA,TSXV,RTH,RTH.V,Rathdowney Resources Ltd.,,tmx:tsxv
+CA,TSXV,RTM,RTM.V,RT Minerals Corp.,,tmx:tsxv
+CA,TSXV,RTO.P,RTO-P.V,Chrysalis 12 Inc.,,tmx:tsxv
+CA,TSX,RTX,RTX.TO,RTX CDR Hgd,,tmx:tsx
+CA,TSX,RUA,RUA.TO,Rua Gold Inc,,tmx:tsx
+CA,TSXV,RUCC.P,RUCC-P.V,Rupert's Crossing Capital Inc.,,tmx:tsxv
+CA,TSX,RUD.U,RUD-U.TO,RBC QntUS DivLeadUSD,,tmx:tsx
+CA,TSX,RUD,RUD.TO,RBC QntUS DivLead Un,,tmx:tsx
+CA,TSX,RUDB.U,RUDB-U.TO,RBC US DiscountBndUS,,tmx:tsx
+CA,TSX,RUDC.U,RUDC-U.TO,RBC US DivCovCall US,,tmx:tsx
+CA,TSX,RUDC,RUDC.TO,RBC US DivCovCall CA,,tmx:tsx
+CA,TSX,RUDH,RUDH.TO,RBC Quant US DivLead,,tmx:tsx
+CA,TSXV,RUM,RUM.V,Rocky Mountain Liquor Inc.,,tmx:tsxv
+CA,TSX,RUQP.U,RUQP-U.TO,RBC Tgt2027USCopBnUS,,tmx:tsx
+CA,TSX,RUQP,RUQP.TO,RBC Tgt2027USCopBnCA,,tmx:tsx
+CA,TSX,RUQQ.U,RUQQ-U.TO,RBC Tgt2028USCopBnUS,,tmx:tsx
+CA,TSX,RUQQ,RUQQ.TO,RBC Tgt2028USCopBnCA,,tmx:tsx
+CA,TSX,RUQR.U,RUQR-U.TO,RBC Tgt2029USCopBnUS,,tmx:tsx
+CA,TSX,RUQR,RUQR.TO,RBC Tgt2029USCopBnCA,,tmx:tsx
+CA,TSX,RUQS.U,RUQS-U.TO,RBC Tgt2030USCopBnUS,,tmx:tsx
+CA,TSX,RUQS,RUQS.TO,RBC Tgt2030USCopBnCA,,tmx:tsx
+CA,TSX,RUQT.U,RUQT-U.TO,RBC T2031 Us CoBd US,,tmx:tsx
+CA,TSX,RUQT,RUQT.TO,RBC Tg2031 Us Cop Bd,,tmx:tsx
+CA,TSX,RUQU.U,RUQU-U.TO,RBC Tg32USCorp Bd US,,tmx:tsx
+CA,TSX,RUQU,RUQU.TO,RBC Tg32USCorp Bd CA,,tmx:tsx
+CA,TSX,RUS,RUS.TO,Russel Metals Inc.,,tmx:tsx
+CA,TSX,RUSB.U,RUSB-U.TO,RBC ST US CorpBndUSF,,tmx:tsx
+CA,TSX,RUSB,RUSB.TO,RBC ST US CorpBndCAD,,tmx:tsx
+CA,TSXV,RUSH,RUSH.V,Carolina Rush Corporation,,tmx:tsxv
+CA,TSX,RUST,RUST.TO,RBC Cdn Ultra ST Bd,,tmx:tsx
+CA,TSXV,RVG,RVG.V,Revival Gold Inc.,,tmx:tsxv
+CA,TSX,RVX,RVX.TO,Resverlogix Corp. J,,tmx:tsx
+CA,TSXV,RW,RW.V,RenoWorks Software Inc,,tmx:tsxv
+CA,TSXV,RX,RX.V,BioSyent Inc.,,tmx:tsxv
+CA,TSX,RY,RY.TO,Royal Bank of Canada,,tmx:tsx
+CA,TSX,RYHE,RYHE.TO,Harv Enh HiInc RY L,,tmx:tsx
+CA,TSXV,RYO,RYO.V,Rio Silver Inc.,,tmx:tsxv
+CA,TSXV,RYR,RYR.V,Royal Road Minerals Limited,,tmx:tsxv
+CA,TSXV,RZL,RZL.V,RZOLV Technologies Inc.,,tmx:tsxv
+CA,TSX,S,S.TO,Sherritt Int'l Corp,,tmx:tsx
+CA,TSXV,SAC.P,SAC-P.V,Savanna Capital Corp.,,tmx:tsxv
+CA,TSXV,SAE,SAE.V,Sable Resources Ltd.,,tmx:tsxv
+CA,TSXV,SAG,SAG.V,Sterling Metals Corp.,,tmx:tsxv
+CA,TSXV,SAGA,SAGA.V,Saga Metals Corp.,,tmx:tsxv
+CA,TSXV,SAGE,SAGE.V,Sage Potash Corp.,,tmx:tsxv
+CA,TSXV,SALT,SALT.V,Atlas Salt Inc.,,tmx:tsxv
+CA,TSX,SAM,SAM.TO,Starcore Intl Mine J,,tmx:tsx
+CA,TSXV,SAO,SAO.V,South Atlantic Gold Inc.,,tmx:tsxv
+CA,TSX,SAP,SAP.TO,Saputo Inc.,,tmx:tsx
+CA,TSX,SAPS,SAPS.TO,SAP CDR CAD Hedged,,tmx:tsx
+CA,TSXV,SASK,SASK.V,Atha Energy Corp.,,tmx:tsxv
+CA,TSXV,SAT,SAT.V,Asian Television Network International Ltd.,,tmx:tsxv
+CA,TSXV,SATO,SATO.V,SATO Technologies Corp.,,tmx:tsxv
+CA,TSX,SAU,SAU.TO,St. Augustine Gld J,,tmx:tsx
+CA,TSXV,SAWC.P,SAWC-P.V,Sayward Capital Corp.,,tmx:tsxv
+CA,TSX,SBC,SBC.TO,Brompton Splt Banc A,,tmx:tsx
+CA,TSX,SBI,SBI.TO,Serabi Gld plc Ord J,,tmx:tsx
+CA,TSXV,SBIO,SBIO.V,Sabio Holdings Inc.,,tmx:tsxv
+CA,TSX,SBLG,SBLG.TO,SLGI MFS Bl Rs L V G,,tmx:tsx
+CA,TSX,SBLI,SBLI.TO,SLGI MFS Bl Rs L V I,,tmx:tsx
+CA,TSXV,SBMI,SBMI.V,Silver Bullet Mines Corp.,,tmx:tsxv
+CA,TSX,SBT.B,SBT-B.TO,PurposeSlvBlC$NCurHG,,tmx:tsx
+CA,TSX,SBT.U,SBT-U.TO,PurposeSlvrBlUSNnCur,,tmx:tsx
+CA,TSX,SBT,SBT.TO,PurposeSlvrBulCurHeg,,tmx:tsx
+CA,TSX,SBUL,SBUL.TO,Ninepoint Slvr Bulli,,tmx:tsx
+CA,TSX,SBUX,SBUX.TO,Starbucks CDR Hgd,,tmx:tsx
+CA,TSXV,SCAI,SCAI.V,SalesCloser Technologies Ltd.,,tmx:tsxv
+CA,TSXV,SCAN,SCAN.V,"Liberty Defense Holdings, Ltd.",,tmx:tsxv
+CA,TSXV,SCD,SCD.V,Scandium Canada Ltd.,,tmx:tsxv
+CA,TSX,SCHN,SCHN.TO,SchneiderElecCDR CaH,,tmx:tsx
+CA,TSX,SCHW,SCHW.TO,Chrle Schwab CDR Hgd,,tmx:tsx
+CA,TSXV,SCLT,SCLT.V,Searchlight Resources Inc.,,tmx:tsxv
+CA,TSXV,SCMI,SCMI.V,Selkirk Copper Mines Inc.,,tmx:tsxv
+CA,TSX,SCND,SCND.TO,BetaPro-3xSPTSX60 Be,,tmx:tsx
+CA,TSXV,SCOT,SCOT.V,Scottie Resources Corp.,,tmx:tsxv
+CA,TSX,SCR,SCR.TO,Strathcona Res Ltd.,,tmx:tsx
+CA,TSXV,SCY,SCY.V,Scandium International Mining Corp.,,tmx:tsxv
+CA,TSX,SCZ,SCZ.TO,Santacruz Silv Min L,,tmx:tsx
+CA,TSX,SDE,SDE.TO,Spartan Delta Corp.,,tmx:tsx
+CA,TSXV,SDI,SDI.V,Stampede Drilling Inc.,,tmx:tsxv
+CA,TSXV,SDR,SDR.V,Stroud Resources Ltd.,,tmx:tsxv
+CA,TSX,SEA,SEA.TO,Seabridge Gold Inc J,,tmx:tsx
+CA,TSX,SEC,SEC.TO,Senvest Capital Inc,,tmx:tsx
+CA,TSXV,SEGN,SEGN.V,Seegnal Inc.,,tmx:tsxv
+CA,TSXV,SEI,SEI.V,Sintana Energy Inc.,,tmx:tsxv
+CA,TSXV,SEND,SEND.V,Sendero Resources Corp.,,tmx:tsxv
+CA,TSXV,SERV,SERV.V,Elevate Service Group Inc.,,tmx:tsxv
+CA,TSXV,SEVA,SEVA.V,Seva Mining Corp.,,tmx:tsxv
+CA,TSXV,SEVN.P,SEVN-P.V,Seven Oaks Capital Corp.,,tmx:tsxv
+CA,TSXV,SF,SF.V,Safi Silver Corp.,,tmx:tsxv
+CA,TSX,SFC,SFC.TO,Sagicor Fin Co,,tmx:tsx
+CA,TSX,SFD,SFD.TO,NXT Energy Solutn J,,tmx:tsx
+CA,TSX,SFI,SFI.TO,Solution Financial J,,tmx:tsx
+CA,TSXV,SFR,SFR.V,Sandfire Resources America Inc.,,tmx:tsxv
+CA,TSXV,SGC,SGC.V,Solstice Gold Corp.,,tmx:tsxv
+CA,TSX,SGD,SGD.TO,Snowline Gold Corp,,tmx:tsx
+CA,TSXV,SGE,SGE.V,Strategem Capital Corporation,,tmx:tsxv
+CA,TSXV,SGLD,SGLD.V,Scorpio Gold Corporation,,tmx:tsxv
+CA,TSXV,SGML,SGML.V,Sigma Lithium Corporation,,tmx:tsxv
+CA,TSXV,SGO,SGO.V,Sonoro Gold Corp.,,tmx:tsxv
+CA,TSXV,SGQ,SGQ.V,SouthGobi Resources Ltd.,,tmx:tsxv
+CA,TSX,SGR.U,SGR-U.TO,Slate GroceryREIT US,,tmx:tsx
+CA,TSX,SGRD,SGRD.TO,Frst Trst NDQ Cl Edg,,tmx:tsx
+CA,TSXV,SGU,SGU.V,Signature Resources Ltd.,,tmx:tsxv
+CA,TSX,SGY,SGY.TO,Surge Energy Inc.,,tmx:tsx
+CA,TSXV,SGZ,SGZ.V,Sego Resources Inc,,tmx:tsxv
+CA,TSXV,SHK.P,SHK-P.V,Sparrowhawk Opportunity Corp.,,tmx:tsxv
+CA,TSXV,SHL,SHL.V,Homeland Nickel Inc.,,tmx:tsxv
+CA,TSX,SHLE,SHLE.TO,Source Energy Serv J,,tmx:tsx
+CA,TSXV,SHLL.P,SHLL-P.V,Shellron Capital Ltd.,,tmx:tsxv
+CA,TSX,SHOP,SHOP.TO,Shopify Inc A SV,,tmx:tsx
+CA,TSX,SHPD,SHPD.TO,Savvy Shrt -2x Shp E,,tmx:tsx
+CA,TSXV,SHRP,SHRP.V,Sherpa II Holdings Corp.,,tmx:tsxv
+CA,TSXV,SHRX,SHRX.V,Sharp Therapeutics Corp.,,tmx:tsxv
+CA,TSX,SIA,SIA.TO,Sienna Senior Living,,tmx:tsx
+CA,TSXV,SICO,SICO.V,Silverco Mining Ltd.,,tmx:tsxv
+CA,TSXV,SIEN,SIEN.V,Sienna Resources Inc.,,tmx:tsxv
+CA,TSXV,SIG,SIG.V,Sitka Gold Corp.,,tmx:tsxv
+CA,TSX,SII,SII.TO,Sprott Inc.,,tmx:tsx
+CA,TSXV,SILV,SILV.V,Silver Valley Metals Corp.,,tmx:tsxv
+CA,TSX,SIS,SIS.TO,Savaria Corp. J,,tmx:tsx
+CA,TSX,SIXY,SIXY.TO,Evolve Bg 6 Cdn B UY,,tmx:tsx
+CA,TSX,SJ,SJ.TO,Stella-Jones Inc.,,tmx:tsx
+CA,TSX,SKE,SKE.TO,Skeena Resources J,,tmx:tsx
+CA,TSXV,SKEL,SKEL.V,Skeleton Coast Uranium Corp.,,tmx:tsxv
+CA,TSXV,SKK,SKK.V,Strikewell Energy Corp,,tmx:tsxv
+CA,TSXV,SKP,SKP.V,Strikepoint Gold Inc.,,tmx:tsxv
+CA,TSXV,SKRR,SKRR.V,SKRR Exploration Inc.,,tmx:tsxv
+CA,TSXV,SKYG,SKYG.V,Sky Gold Corp.,,tmx:tsxv
+CA,TSX,SKYY,SKYY.TO,1st TrCloudComputing,,tmx:tsx
+CA,TSX,SLF,SLF.TO,Sun Life Fin Inc.,,tmx:tsx
+CA,TSXV,SLG,SLG.V,San Lorenzo Gold Corp.,,tmx:tsxv
+CA,TSX,SLGC,SLGC.TO,Sun Lfe Glb C P B F,,tmx:tsx
+CA,TSXV,SLI,SLI.V,Standard Lithium Ltd.,,tmx:tsxv
+CA,TSX,SLR,SLR.TO,Solitario Res J,,tmx:tsx
+CA,TSX,SLS,SLS.TO,Solaris Res Inc. J,,tmx:tsx
+CA,TSX,SLSC,SLSC.TO,Sun Life Crs Spcl C,,tmx:tsx
+CA,TSX,SLT.U,SLT-U.TO,Saltire Capital USD,,tmx:tsx
+CA,TSX,SLT,SLT.TO,Saltire Capital CAD,,tmx:tsx
+CA,TSX,SLVD,SLVD.TO,BetaPro Slvr -2DlyBr,,tmx:tsx
+CA,TSX,SLVR,SLVR.TO,Silver Tiger Mtl Inc,,tmx:tsx
+CA,TSX,SLVU,SLVU.TO,BetaPro Slvr 2xDlyBl,,tmx:tsx
+CA,TSX,SLVX,SLVX.TO,Glbl X Silv Min In E,,tmx:tsx
+CA,TSXV,SLX.P,SLX-P.V,Searchlight Innovations Inc.,,tmx:tsxv
+CA,TSXV,SM,SM.V,Sierra Madre Gold and Silver Ltd.,,tmx:tsxv
+CA,TSXV,SMAR.P,SMAR-P.V,Smartset Services Inc.,,tmx:tsxv
+CA,TSX,SMAX.U,SMAX-U.TO,Ham US EqYldMax USD,,tmx:tsx
+CA,TSXV,SMCD.P,SMCD-P.V,SCD Capital Corp.,,tmx:tsxv
+CA,TSX,SMCI,SMCI.TO,Supermicro CDR Hgd,,tmx:tsx
+CA,TSXV,SMD,SMD.V,Strategic Metals Ltd.,,tmx:tsxv
+CA,TSXV,SME,SME.V,Sama Resources Inc.,,tmx:tsxv
+CA,TSXV,SML,SML.V,Southstone Minerals Limited,,tmx:tsxv
+CA,TSXV,SMN,SMN.V,Sun Summit Minerals Corp.,,tmx:tsxv
+CA,TSX,SMNS,SMNS.TO,Siemens CDR CAD Hed,,tmx:tsx
+CA,TSX,SMVP.U,SMVP-U.TO,HAMILTN CHA UsDvd US,,tmx:tsx
+CA,TSX,SMVP,SMVP.TO,HAMILTON CHAM US Div,,tmx:tsx
+CA,TSXV,SMY,SMY.V,Search Minerals Inc.,,tmx:tsxv
+CA,TSXV,SNAG,SNAG.V,Silver North Resources Ltd.,,tmx:tsxv
+CA,TSX,SNDK,SNDK.TO,Sandisk CDR CAD Hgd,,tmx:tsx
+CA,TSXV,SNG,SNG.V,Silver Range Resources Ltd.,,tmx:tsxv
+CA,TSXV,SNV,SNV.V,Sonoro Energy Ltd.,,tmx:tsxv
+CA,TSX,SNY,SNY.TO,Sanofi CDR CAD Hedg,,tmx:tsx
+CA,TSX,SOBO,SOBO.TO,South Bow Corp,,tmx:tsx
+CA,TSX,SOFY,SOFY.TO,Harv SoFi En H I S E,,tmx:tsx
+CA,TSXV,SOI,SOI.V,Sirios Resources Inc.,,tmx:tsxv
+CA,TSX,SOIL,SOIL.TO,Saturn Oil & Gas Inc,,tmx:tsx
+CA,TSXV,SOLI.P,SOLI-P.V,Solid Impact Investments Corp.,,tmx:tsxv
+CA,TSX,SOLL.B,SOLL-B.TO,Purpose Sol Ca NonHd,,tmx:tsx
+CA,TSX,SOLL.U,SOLL-U.TO,Purpose Sol US NonHd,,tmx:tsx
+CA,TSX,SOLL,SOLL.TO,Purpose Solana Ca Hd,,tmx:tsx
+CA,TSXV,SOMA,SOMA.V,Soma Gold Corp.,,tmx:tsxv
+CA,TSXV,SOO.P,SOO-P.V,Spectre Capital Corp.,,tmx:tsxv
+CA,TSXV,SOU,SOU.V,Southern Energy Corp.,,tmx:tsxv
+CA,TSX,SOXD,SOXD.TO,MEGASHORT-3X US Semi,,tmx:tsx
+CA,TSX,SOXU,SOXU.TO,MegaLong(3X) US Semi,,tmx:tsx
+CA,TSXV,SPA,SPA.V,Spanish Mountain Gold Ltd,,tmx:tsxv
+CA,TSXV,SPAR,SPAR.V,Spartacus Metals Inc.,,tmx:tsxv
+CA,TSX,SPAY.U,SPAY-U.TO,GblX ST USTreas PrUS,,tmx:tsx
+CA,TSX,SPAY,SPAY.TO,GblX ST USTreas Pr,,tmx:tsx
+CA,TSX,SPB,SPB.TO,Superior Plus Corp.,,tmx:tsx
+CA,TSXV,SPC,SPC.V,SPC Nickel Corp.,,tmx:tsxv
+CA,TSX,SPCX,SPCX.TO,SpaceX CDR (CAD Hgd),,tmx:tsx
+CA,TSXV,SPD,SPD.V,Silver Predator Corp.,,tmx:tsxv
+CA,TSX,SPGI,SPGI.TO,S&PGlobal CDR Hgd,,tmx:tsx
+CA,TSXV,SPI,SPI.V,Canadian Spirit Resources Inc.,,tmx:tsxv
+CA,TSX,SPLT.U,SPLT-U.TO,Bromptn SpltCpPR USF,,tmx:tsx
+CA,TSX,SPLT,SPLT.TO,Brompton SpltPref Un,,tmx:tsx
+CA,TSXV,SPMC,SPMC.V,South Pacific Metals Corp.,,tmx:tsxv
+CA,TSXV,SPN,SPN.V,Snipp Interactive Inc.,,tmx:tsxv
+CA,TSXV,SPOT,SPOT.V,EarthLabs Inc.,,tmx:tsxv
+CA,TSX,SPPP.U,SPPP-U.TO,Sprott PhyPlat US Un,,tmx:tsx
+CA,TSX,SPPP,SPPP.TO,Sprott PhyPlat CA Un,,tmx:tsx
+CA,TSXV,SPRQ,SPRQ.V,Sparq Systems Inc.,,tmx:tsxv
+CA,TSXV,SPX,SPX.V,Stellar AfricaGold Inc.,,tmx:tsxv
+CA,TSX,SPXD,SPXD.TO,BetaPro S&P500 -2xBr,,tmx:tsx
+CA,TSX,SPXE,SPXE.TO,Harv SpaceX Enh Hi I,,tmx:tsx
+CA,TSX,SPXI,SPXI.TO,BetaProSP500DlyInvrs,,tmx:tsx
+CA,TSX,SPXU,SPXU.TO,BetaPro S&P500 2x Bl,,tmx:tsx
+CA,TSX,SPYD,SPYD.TO,MegaShort -3X S&P500,,tmx:tsx
+CA,TSX,SPYU,SPYU.TO,MegaLong (3X) S&P 50,,tmx:tsx
+CA,TSXV,SQG,SQG.V,Spackman Equities Group Inc.,,tmx:tsxv
+CA,TSXV,SR,SR.V,Strategic Resources Inc.,,tmx:tsxv
+CA,TSXV,SRC,SRC.V,Stakeholder Gold Corp.,,tmx:tsxv
+CA,TSXV,SRGE,SRGE.V,Surge Digital Inc.,,tmx:tsxv
+CA,TSXV,SRI,SRI.V,Sparton Resources Inc.,,tmx:tsxv
+CA,TSXV,SRL,SRL.V,Salazar Resources Limited,,tmx:tsxv
+CA,TSXV,SRQ,SRQ.V,SRQ Resources Inc.,,tmx:tsxv
+CA,TSXV,SRR,SRR.V,Source Rock Royalties Ltd.,,tmx:tsxv
+CA,TSX,SRSL,SRSL.TO,BtaPro 3x R Lvrg A E,,tmx:tsx
+CA,TSXV,SSA,SSA.V,Spectra Products Inc.,,tmx:tsxv
+CA,TSXV,SSE,SSE.V,Silver Spruce Resources Inc.,,tmx:tsxv
+CA,TSX,SSRM,SSRM.TO,SSR Mining Inc.,,tmx:tsx
+CA,TSXV,SSV,SSV.V,Southern Silver Exploration Corp,,tmx:tsxv
+CA,TSXV,SSX,SSX.V,Sleeping Giant Capital Corp.,,tmx:tsxv
+CA,TSX,STC,STC.TO,Sangoma Tech Corp.,,tmx:tsx
+CA,TSX,STCK,STCK.TO,Stack Capital Grp J,,tmx:tsx
+CA,TSXV,STE,STE.V,Starr Peak Mining Ltd.,,tmx:tsxv
+CA,TSX,STG,STG.TO,STRACON Grp Hldg Inc,,tmx:tsx
+CA,TSX,STGO,STGO.TO,Steppe Gold Ltd. J,,tmx:tsx
+CA,TSX,STLR,STLR.TO,STLLR Gold Inc.,,tmx:tsx
+CA,TSXV,STMP,STMP.V,Stamper Oil & Gas Corp.,,tmx:tsxv
+CA,TSX,STN,STN.TO,Stantec Inc.,,tmx:tsx
+CA,TSXV,STND,STND.V,Standard Uranium Ltd.,,tmx:tsxv
+CA,TSX,STPL,STPL.TO,BMO Glbl Consmr Stpl,,tmx:tsx
+CA,TSXV,STRM,STRM.V,Storm Exploration Inc.,,tmx:tsxv
+CA,TSXV,STS,STS.V,South Star Battery Metals Corp.,,tmx:tsxv
+CA,TSXV,STUD,STUD.V,Stallion Uranium Corp.,,tmx:tsxv
+CA,TSXV,STUV,STUV.V,Stuve Gold Corp.,,tmx:tsxv
+CA,TSXV,STW,STW.V,Stockworks Gold Inc.,,tmx:tsxv
+CA,TSX,STZ,STZ.TO,ConstellB CDR Hgd,,tmx:tsx
+CA,TSX,SU,SU.TO,Suncor Energy Inc.,,tmx:tsx
+CA,TSXV,SUGR,SUGR.V,Sucro Limited,,tmx:tsxv
+CA,TSXV,SUI,SUI.V,Superior Mining International Corporation,,tmx:tsxv
+CA,TSXV,SUM,SUM.V,Summit Royalties Ltd.,,tmx:tsxv
+CA,TSXV,SUN,SUN.V,Stardust Solar Energy Inc.,,tmx:tsxv
+CA,TSXV,SURG,SURG.V,Surge Copper Corp.,,tmx:tsxv
+CA,TSX,SVA,SVA.TO,Sernova Biothera Inc,,tmx:tsx
+CA,TSX,SVB,SVB.TO,Silver Bull Res J,,tmx:tsx
+CA,TSX,SVCC,SVCC.TO,Glbl X Silv Min CC E,,tmx:tsx
+CA,TSX,SVCL,SVCL.TO,GlblX Eh SilvMnrs CC,,tmx:tsx
+CA,TSXV,SVE,SVE.V,Silver One Resources Inc.,,tmx:tsxv
+CA,TSXV,SVG,SVG.V,Silver Grail Resources Ltd.,,tmx:tsxv
+CA,TSX,SVI,SVI.TO,StorageVault Cda,,tmx:tsx
+CA,TSX,SVM,SVM.TO,Silvercorp Metals J,,tmx:tsx
+CA,TSX,SVR.C,SVR-C.TO,iShr Sil Bul Nn-Hdgd,,tmx:tsx
+CA,TSX,SVR,SVR.TO,iShr Sil Bul Hdgd Un,,tmx:tsx
+CA,TSXV,SVRS,SVRS.V,Silver Storm Mining Ltd.,,tmx:tsxv
+CA,TSXV,SWA,SWA.V,Sarama Resources Ltd.,,tmx:tsxv
+CA,TSXV,SWAN,SWAN.V,Black Swan Graphene Inc.,,tmx:tsxv
+CA,TSXV,SWLF,SWLF.V,Silver Wolf Exploration Ltd.,,tmx:tsxv
+CA,TSX,SWP,SWP.TO,Swiss Water Coffee,,tmx:tsx
+CA,TSX,SXGC,SXGC.TO,Southern Cross Gold,,tmx:tsx
+CA,TSX,SXHI,SXHI.TO,Ninepoint SpacX HS E,,tmx:tsx
+CA,TSXV,SXL,SXL.V,SLAM Exploration Ltd,,tmx:tsxv
+CA,TSX,SXP,SXP.TO,Supremex Inc.,,tmx:tsx
+CA,TSXV,SYG,SYG.V,Sylla Gold Corp.,,tmx:tsxv
+CA,TSXV,SYH,SYH.V,Skyharbour Resources Ltd.,,tmx:tsxv
+CA,TSX,SYK,SYK.TO,Stryker CDR CAD Hgd,,tmx:tsx
+CA,TSX,SYLD,SYLD.TO,Purpose StgyYield Un,,tmx:tsx
+CA,TSX,SYZ,SYZ.TO,Sylogist Ltd.,,tmx:tsx
+CA,TSX,T,T.TO,TELUS Corporation,,tmx:tsx
+CA,TSX,TA,TA.TO,TransAlta Corp.,,tmx:tsx
+CA,TSXV,TAJ,TAJ.V,Tajiri Resources Corp.,,tmx:tsxv
+CA,TSX,TAL,TAL.TO,PetroTal Corp. J,,tmx:tsx
+CA,TSX,TALA,TALA.TO,Talamore Mining Corp,,tmx:tsx
+CA,TSXV,TAO,TAO.V,TAG Oil Ltd.,,tmx:tsxv
+CA,TSXV,TAU,TAU.V,Thesis Gold & Silver Inc.,,tmx:tsxv
+CA,TSX,TBAL,TBAL.TO,TD Balanced Port Un,,tmx:tsx
+CA,TSX,TBCK,TBCK.TO,TD Target 2031 Inv G,,tmx:tsx
+CA,TSX,TBIL,TBIL.TO,Harvest Cdn T-Bill,,tmx:tsx
+CA,TSXV,TBIX,TBIX.V,Trustbix Inc.,,tmx:tsxv
+CA,TSXV,TBK,TBK.V,Trailbreaker Resources Ltd.,,tmx:tsxv
+CA,TSX,TBL,TBL.TO,Taiga Building Prod,,tmx:tsx
+CA,TSXV,TBLL,TBLL.V,Tombill Mines Limited,,tmx:tsxv
+CA,TSXV,TBLZ.P,TBLZ-P.V,Trail Blazer Capital Corp.,,tmx:tsxv
+CA,TSX,TBNK,TBNK.TO,TD Cdn Bank Div Un,,tmx:tsx
+CA,TSX,TC,TC.TO,Tucows Inc.,,tmx:tsx
+CA,TSX,TCCB,TCCB.TO,TD Can Corp Bond Fd,,tmx:tsx
+CA,TSXV,TCCM,TCCM.V,Three Crowns Critical Metals Inc.,,tmx:tsxv
+CA,TSXV,TCG.P,TCG-P.V,Transcontinental Gold Corp.,,tmx:tsxv
+CA,TSX,TCL.A,TCL-A.TO,Transcontinentl A SV,,tmx:tsx
+CA,TSX,TCL.B,TCL-B.TO,Transcontinentl B MV,,tmx:tsx
+CA,TSX,TCLB,TCLB.TO,TD Cdn LT FedBond Un,,tmx:tsx
+CA,TSX,TCLV,TCLV.TO,TD Q Cdn LowVolty CA,,tmx:tsx
+CA,TSX,TCND,TCND.TO,BetaPro 3xSPTSX60 Bu,,tmx:tsx
+CA,TSXV,TCO,TCO.V,Transatlantic Mining Corp.,,tmx:tsxv
+CA,TSX,TCOM,TCOM.TO,TD Alt Commod Pool E,,tmx:tsx
+CA,TSX,TCON,TCON.TO,TD Conserv Port Un,,tmx:tsx
+CA,TSX,TCS,TCS.TO,Tecsys Inc. J,,tmx:tsx
+CA,TSX,TCSB,TCSB.TO,TD SlctST CorpBndLad,,tmx:tsx
+CA,TSX,TCW,TCW.TO,Trican Well Service,,tmx:tsx
+CA,TSX,TD,TD.TO,T.D. Bank,,tmx:tsx
+CA,TSX,TDB,TDB.TO,TD Cdn Aggregate Bnd,,tmx:tsx
+CA,TSXV,TDG,TDG.V,TDG Gold Corp.,,tmx:tsxv
+CA,TSX,TDHE,TDHE.TO,Hrv Enh Hi Inc TD L,,tmx:tsx
+CA,TSX,TDOC.U,TDOC-U.TO,TD GlbHlthcr LeadrUS,,tmx:tsx
+CA,TSX,TDOC,TDOC.TO,TD GlbHealthcr Leadr,,tmx:tsx
+CA,TSX,TDU,TDU.TO,SavvyLg2X TDB EqtETF,,tmx:tsx
+CA,TSX,TEC.U,TEC-U.TO,TD Glbl TechLeadrsUS,,tmx:tsx
+CA,TSX,TEC,TEC.TO,TD Glbl TechLeadrsCA,,tmx:tsx
+CA,TSX,TECH.B,TECH-B.TO,EvolveFANGMA CA UnHg,,tmx:tsx
+CA,TSX,TECH.U,TECH-U.TO,EvolveFANGMA UnHg US,,tmx:tsx
+CA,TSX,TECH,TECH.TO,Evolve FANGMA CA Heg,,tmx:tsx
+CA,TSX,TECI,TECI.TO,TD Glb Tech Innov Un,,tmx:tsx
+CA,TSX,TECK.A,TECK-A.TO,Teck Res Cl A MV,,tmx:tsx
+CA,TSX,TECK.B,TECK-B.TO,Teck Res Cl B SV,,tmx:tsx
+CA,TSXV,TECT,TECT.V,Tectonic Metals Inc.,,tmx:tsxv
+CA,TSX,TECX,TECX.TO,TD Glb TechLdr CA Hg,,tmx:tsx
+CA,TSX,TECY,TECY.TO,Evolve ND Tech Ult Y,,tmx:tsx
+CA,TSXV,TELO,TELO.V,Telo Genomics Corp.,,tmx:tsxv
+CA,TSX,TELY,TELY.TO,TelyRx Holdings SubV,,tmx:tsx
+CA,TSX,TERP.U,TERP-U.TO,TRU.XExogRiskPool Us,,tmx:tsx
+CA,TSX,TERP,TERP.TO,TRU.X Exog Risk Pool,,tmx:tsx
+CA,TSXV,TES,TES.V,Tesoro Minerals Corp.,,tmx:tsxv
+CA,TSX,TF,TF.TO,Timbercreek Fin Corp,,tmx:tsx
+CA,TSX,TFII,TFII.TO,TFI International,,tmx:tsx
+CA,TSX,TFPM,TFPM.TO,Triple Flag Precious,,tmx:tsx
+CA,TSXV,TG,TG.V,Trifecta Gold Ltd.,,tmx:tsxv
+CA,TSX,TGAF,TGAF.TO,Tralucent Glb L/S Eq,,tmx:tsx
+CA,TSXV,TGC,TGC.V,TooGood Gold Corp.,,tmx:tsxv
+CA,TSX,TGED.U,TGED-U.TO,TD ActvGlbEnhncDivUS,,tmx:tsx
+CA,TSX,TGED,TGED.TO,TD ActvGlbEnhncDivCA,,tmx:tsx
+CA,TSX,TGFI,TGFI.TO,TD Actv Glbl Incm Un,,tmx:tsx
+CA,TSX,TGGR,TGGR.TO,TD ActvGlb EqGrow CA,,tmx:tsx
+CA,TSX,TGO,TGO.TO,TeraGo Inc.,,tmx:tsx
+CA,TSXV,TGOL,TGOL.V,Thunder Gold Corp.,,tmx:tsxv
+CA,TSX,TGRE,TGRE.TO,TD Actv Glb RlEst Eq,,tmx:tsx
+CA,TSX,TGRO,TGRO.TO,TD Growth Port Un,,tmx:tsx
+CA,TSXV,TGX,TGX.V,TGX Energy & Resources Inc.,,tmx:tsxv
+CA,TSX,THE,THE.TO,TD Int'l Eqty CA Heg,,tmx:tsx
+CA,TSXV,THM,THM.V,"Thunder Mountain Gold, Inc.",,tmx:tsxv
+CA,TSX,THNC,THNC.TO,Thinkific Labs Inc.,,tmx:tsx
+CA,TSXV,THRM,THRM.V,Therma Bright Inc.,,tmx:tsxv
+CA,TSX,THU,THU.TO,TD US Eq CAD Heg Un,,tmx:tsx
+CA,TSXV,THX,THX.V,Thor Explorations Ltd,,tmx:tsxv
+CA,TSXV,THY.P,THY-P.V,Thermopylae Capital Inc.,,tmx:tsxv
+CA,TSX,TI,TI.TO,Titan Mining Corp J,,tmx:tsx
+CA,TSXV,TIDE.P,TIDE-P.V,Intertidal Capital Corp.,,tmx:tsxv
+CA,TSXV,TIE,TIE.V,Coloured Ties Capital Inc.,,tmx:tsxv
+CA,TSX,TIF,TIF.TO,Ninept Target Inc Fd,,tmx:tsx
+CA,TSXV,TIG,TIG.V,Triumph Gold Corp.,,tmx:tsxv
+CA,TSXV,TIGR,TIGR.V,Tiger Gold Corp.,,tmx:tsxv
+CA,TSX,TIH,TIH.TO,Toromont Industries,,tmx:tsx
+CA,TSX,TILV,TILV.TO,TD Q IntlLowVolatile,,tmx:tsx
+CA,TSX,TINF,TINF.TO,TD ActvGlbInfrasEqUn,,tmx:tsx
+CA,TSX,TINY,TINY.TO,Tiny Ltd,,tmx:tsx
+CA,TSXV,TITI,TITI.V,Titiminas Silver Inc.,,tmx:tsxv
+CA,TSX,TJX,TJX.TO,TJX CDR CAN Hgd,,tmx:tsx
+CA,TSXV,TK,TK.V,Tinka Resources Limited,,tmx:tsxv
+CA,TSX,TKO,TKO.TO,Trekor Metals Limite,,tmx:tsx
+CA,TSXV,TLA,TLA.V,Titan Logix Corp.,,tmx:tsxv
+CA,TSXV,TLC.P,TLC-P.V,Timeless Capital Corp.,,tmx:tsxv
+CA,TSX,TLF.U,TLF-U.TO,Brompton TechLdr USD,,tmx:tsx
+CA,TSX,TLF,TLF.TO,Brompton TechLdr CAD,,tmx:tsx
+CA,TSX,TLG,TLG.TO,Troilus Mining Corp,,tmx:tsx
+CA,TSX,TLO,TLO.TO,Talon Metals Corp. J,,tmx:tsx
+CA,TSX,TLRY,TLRY.TO,Tilray Brands J,,tmx:tsx
+CA,TSXV,TLT,TLT.V,Theralase Technologies Inc.,,tmx:tsxv
+CA,TSX,TLTX.F,TLTX-F.TO,Glbl X 20 Yr T Bd Hg,,tmx:tsx
+CA,TSX,TLTX.U,TLTX-U.TO,Glbl X 20 Yr T Bd US,,tmx:tsx
+CA,TSX,TLTX,TLTX.TO,Glbl X 20 Yr T Bd UH,,tmx:tsx
+CA,TSX,TLV,TLV.TO,CI SP Comp LwVltltyU,,tmx:tsx
+CA,TSXV,TMET,TMET.V,Torr Metals Inc.,,tmx:tsxv
+CA,TSXV,TMG,TMG.V,Thermal Energy International Inc.,,tmx:tsxv
+CA,TSX,TMO,TMO.TO,ThermoFisher CDR Hgd,,tmx:tsx
+CA,TSX,TMQ,TMQ.TO,Trilogy Metals Inc J,,tmx:tsx
+CA,TSX,TMTX.F,TMTX-F.TO,Glbl X 3-10 Yr US Hg,,tmx:tsx
+CA,TSX,TMTX.U,TMTX-U.TO,Glbl X 3-10Yr US USD,,tmx:tsx
+CA,TSX,TMTX,TMTX.TO,Glbl X 3-10 Yr US UH,,tmx:tsx
+CA,TSX,TMUS,TMUS.TO,T Mobile CDR CAD Hdg,,tmx:tsx
+CA,TSXV,TNGD,TNGD.V,Tiernan Gold Corp.,,tmx:tsxv
+CA,TSXV,TNR,TNR.V,TNR Gold Corp.,,tmx:tsxv
+CA,TSXV,TNX,TNX.V,TenX Protocols Inc.,,tmx:tsxv
+CA,TSX,TNZ,TNZ.TO,Tenaz Energy Corp.,,tmx:tsx
+CA,TSXV,TOI,TOI.V,Topicus.com Inc.,,tmx:tsxv
+CA,TSXV,TOM,TOM.V,Trinity Silver Corp.,,tmx:tsxv
+CA,TSXV,TOP.P,TOP-P.V,Transition Opportunities Corp.,,tmx:tsxv
+CA,TSXV,TORC,TORC.V,Tinone Resources Inc.,,tmx:tsxv
+CA,TSXV,TORQ,TORQ.V,Torq Resources Inc.,,tmx:tsxv
+CA,TSXV,TORR,TORR.V,Torrent Capital Ltd.,,tmx:tsxv
+CA,TSX,TOT,TOT.TO,Total Engy Serv Inc.,,tmx:tsx
+CA,TSXV,TOTC,TOTC.V,Totec Resources Ltd.,,tmx:tsxv
+CA,TSX,TOU,TOU.TO,Tourmaline Oil Corp.,,tmx:tsx
+CA,TSX,TOY,TOY.TO,Spin Master Corp SV,,tmx:tsx
+CA,TSX,TPE,TPE.TO,TD Int'l Eqty Idx Un,,tmx:tsx
+CA,TSXV,TPL,TPL.V,Tethys Petroleum Limited,,tmx:tsxv
+CA,TSX,TPRF,TPRF.TO,TD Active Pref ShrUn,,tmx:tsx
+CA,TSX,TPU.U,TPU-U.TO,TD US Eqty Index US,,tmx:tsx
+CA,TSX,TPU,TPU.TO,TD US Equity Indx Un,,tmx:tsx
+CA,TSX,TPUT,TPUT.TO,Corton Theta Alpha F,,tmx:tsx
+CA,TSX,TPX.A,TPX-A.TO,MolsonCoors Cda A LV,,tmx:tsx
+CA,TSX,TPX.B,TPX-B.TO,MolsonCoors Cda B NV,,tmx:tsx
+CA,TSX,TPZ,TPZ.TO,Topaz Energy Corp.,,tmx:tsx
+CA,TSX,TQGM,TQGM.TO,TD Q Glbl Multifact,,tmx:tsx
+CA,TSX,TQSM.U,TQSM-U.TO,TD Q US SmMiCap EqUS,,tmx:tsx
+CA,TSX,TQSM,TQSM.TO,TD Q US SmlMidCap Eq,,tmx:tsx
+CA,TSXV,TR,TR.V,Troubadour Resources Inc.,,tmx:tsxv
+CA,TSXV,TRAN,TRAN.V,Clean Energy Transition Inc.,,tmx:tsxv
+CA,TSXV,TRBC,TRBC.V,Tribeca Resources Corporation,,tmx:tsxv
+CA,TSXV,TRBE,TRBE.V,Tribe Property Technologies Inc.,,tmx:tsxv
+CA,TSXV,TRCG,TRCG.V,Thistle Resources Inc.,,tmx:tsxv
+CA,TSX,TRI,TRI.TO,Thomson Reuters Corp,,tmx:tsx
+CA,TSXV,TRO,TRO.V,Taranis Resources Inc.,,tmx:tsxv
+CA,TSX,TRP,TRP.TO,TC Energy Corp,,tmx:tsx
+CA,TSXV,TRR,TRR.V,Terra Rossa Gold Ltd.,,tmx:tsxv
+CA,TSXV,TRS,TRS.V,Tres-Or Resources Ltd.,,tmx:tsxv
+CA,TSXV,TRU,TRU.V,TRU Precious Metals Corp.,,tmx:tsxv
+CA,TSXV,TRV.P,TRV-P.V,Treviso Capital Corp.,,tmx:tsxv
+CA,TSX,TRVI,TRVI.TO,Harvest Trav & Leisr,,tmx:tsx
+CA,TSX,TRVL.U,TRVL-U.TO,Harvest Travl&LeisUS,,tmx:tsx
+CA,TSX,TRVL,TRVL.TO,Harvest Travl&LeisUn,,tmx:tsx
+CA,TSX,TRX,TRX.TO,TRX Gold Corp J,,tmx:tsx
+CA,TSX,TRZ,TRZ.TO,Transat A.T. V & VV,,tmx:tsx
+CA,TSX,TSAT,TSAT.TO,Telesat Corp A & B,,tmx:tsx
+CA,TSXV,TSD,TSD.V,Tsodilo Resources Limited,,tmx:tsxv
+CA,TSXV,TSG,TSG.V,TriStar Gold Inc.,,tmx:tsxv
+CA,TSX,TSHI,TSHI.TO,Ninept Tesla HiShr E,,tmx:tsx
+CA,TSX,TSK,TSK.TO,Talisker Res Ltd J,,tmx:tsx
+CA,TSX,TSL,TSL.TO,Tree Island Steel,,tmx:tsx
+CA,TSX,TSLA,TSLA.TO,Tesla CDR CAD HD,,tmx:tsx
+CA,TSX,TSLD,TSLD.TO,SavvyShort -2X TSLA,,tmx:tsx
+CA,TSX,TSLU,TSLU.TO,SavvyLong (2X) TSLA,,tmx:tsx
+CA,TSXV,TSLV,TSLV.V,Tier One Silver Inc.,,tmx:tsxv
+CA,TSX,TSND,TSND.TO,TerrAscend Corp. J,,tmx:tsx
+CA,TSX,TSTB,TSTB.TO,TD Short Term Bond F,,tmx:tsx
+CA,TSX,TSTX.F,TSTX-F.TO,Glb X 1-3 Yr T Bd Hg,,tmx:tsx
+CA,TSX,TSTX.U,TSTX-U.TO,Glbl X 20 Yr T Bd US,,tmx:tsx
+CA,TSX,TSTX,TSTX.TO,Glbl X 20 Yr T Bd UH,,tmx:tsx
+CA,TSX,TSU,TSU.TO,Trisura Group J,,tmx:tsx
+CA,TSXV,TT,TT.V,Total Metals Corp.,,tmx:tsxv
+CA,TSX,TTES,TTES.TO,TotalEnergiesCDRCaHg,,tmx:tsx
+CA,TSXV,TTG,TTG.V,Trans Canada Gold Corp.,,tmx:tsxv
+CA,TSXV,TTGI,TTGI.V,Turnium Technology Group Inc.,,tmx:tsxv
+CA,TSXV,TTI,TTI.V,"Thiogenesis Therapeutics, Corp.",,tmx:tsxv
+CA,TSX,TTP,TTP.TO,TD Cdn Equity Idx Un,,tmx:tsx
+CA,TSXV,TTS,TTS.V,Tintina Mines Ltd.,,tmx:tsxv
+CA,TSX,TTTX,TTTX.TO,GblX InoBluechipT100,,tmx:tsx
+CA,TSXV,TTZ,TTZ.V,Total Telcom Inc.,,tmx:tsxv
+CA,TSXV,TUD,TUD.V,Tudor Gold Corp.,,tmx:tsxv
+CA,TSX,TUED.U,TUED-U.TO,TD ActvUS EnhanDivUS,,tmx:tsx
+CA,TSX,TUED,TUED.TO,TD ActvUS EnhanDivCA,,tmx:tsx
+CA,TSX,TUEX,TUEX.TO,TD ActvUS EnhncDivHg,,tmx:tsx
+CA,TSXV,TUF,TUF.V,Honey Badger Silver Inc.,,tmx:tsxv
+CA,TSX,TUHY,TUHY.TO,TD ActvUS HiYldBndUn,,tmx:tsx
+CA,TSXV,TUK,TUK.V,Tuktu Resources Ltd.,,tmx:tsxv
+CA,TSX,TULB,TULB.TO,TD U.S. LT TreasBond,,tmx:tsx
+CA,TSX,TULV,TULV.TO,TD Q US LowVolty CAD,,tmx:tsx
+CA,TSXV,TUNG,TUNG.V,American Tungsten Corp,,tmx:tsxv
+CA,TSXV,TUO,TUO.V,Teuton Resources Corp,,tmx:tsxv
+CA,TSX,TUSB.U,TUSB-U.TO,TD SlctUS CorpBndUSF,,tmx:tsx
+CA,TSX,TUSB,TUSB.TO,TD SlctUS CorpBndlad,,tmx:tsx
+CA,TSX,TVA.B,TVA-B.TO,TVA Group Inc. B NV,,tmx:tsx
+CA,TSX,TVE,TVE.TO,Tamarack Valley Engy,,tmx:tsx
+CA,TSXV,TVI,TVI.V,Tvi Pacific Inc.,,tmx:tsxv
+CA,TSX,TVK,TVK.TO,TerraVest Industries,,tmx:tsx
+CA,TSX,TWC,TWC.TO,TWC Enterprises Ltd.,,tmx:tsx
+CA,TSX,TWM,TWM.TO,Tidewater MdStrmInfr,,tmx:tsx
+CA,TSXV,TWO,TWO.V,T2 Metals Corp.,,tmx:tsxv
+CA,TSXV,TWR,TWR.V,Tower Resources Ltd.,,tmx:tsxv
+CA,TSX,TXF.B,TXF-B.TO,CI TechGiaCovCalUnHg,,tmx:tsx
+CA,TSX,TXF.U,TXF-U.TO,CI TechGiantCvClHgUS,,tmx:tsx
+CA,TSX,TXF,TXF.TO,CI TechGntCovrCallHG,,tmx:tsx
+CA,TSX,TXG,TXG.TO,Torex Gold Res J,,tmx:tsx
+CA,TSX,TXN,TXN.TO,TexasInst CDR Hgd,,tmx:tsx
+CA,TSX,TXP,TXP.TO,Touchstone Expl Inc.,,tmx:tsx
+CA,TSX,U.U,U-U.TO,Sprott PhysUraniumUS,,tmx:tsx
+CA,TSX,UBER,UBER.TO,Uber CDR CAN Hgd,,tmx:tsx
+CA,TSX,UBIL.U,UBIL-U.TO,GblX 0-3Mon US Tbl E,,tmx:tsx
+CA,TSX,UBSS,UBSS.TO,UBS CDR CAD Hedged,,tmx:tsx
+CA,TSX,UCSH.U,UCSH-U.TO,GblX USD HiIntSvUS,,tmx:tsx
+CA,TSXV,UCU,UCU.V,Ucore Rare Metals Inc.,,tmx:tsxv
+CA,TSX,UDEF.B,UDEF-B.TO,Manulife USDefEqUnHg,,tmx:tsx
+CA,TSX,UDEF.U,UDEF-U.TO,Manulife US DefEq US,,tmx:tsx
+CA,TSX,UDEF,UDEF.TO,Manulife USDefEqHeg,,tmx:tsx
+CA,TSX,UDIV.B,UDIV-B.TO,Manulife SmrtUSDivUH,,tmx:tsx
+CA,TSX,UDIV.U,UDIV-U.TO,Manulife SmrtUSDivUS,,tmx:tsx
+CA,TSX,UDIV,UDIV.TO,Manulife SmrtUSDivHG,,tmx:tsx
+CA,TSXV,UFC,UFC.V,Urbanfund Corp.,,tmx:tsxv
+CA,TSXV,UGD,UGD.V,Unigold Inc.,,tmx:tsxv
+CA,TSXV,UIG,UIG.V,Urban Infrastructure Group Inc.,,tmx:tsxv
+CA,TSX,ULV.C,ULV-C.TO,CI Invco500LowVol CA,,tmx:tsx
+CA,TSX,ULV.F,ULV-F.TO,CI Invco500LowVolCAH,,tmx:tsx
+CA,TSX,ULV.U,ULV-U.TO,CI Invco500LowVol US,,tmx:tsx
+CA,TSX,UMI.B,UMI-B.TO,CIUS MdDv Idx ETFNHg,,tmx:tsx
+CA,TSX,UMI,UMI.TO,CI US MdDv Idx ETFHg,,tmx:tsx
+CA,TSX,UMNY.U,UMNY-U.TO,CI US Money Mkt US,,tmx:tsx
+CA,TSX,UMVP,UMVP.TO,Ham ChampsUtilInd ET,,tmx:tsx
+CA,TSX,UNC,UNC.TO,United Corporations,,tmx:tsx
+CA,TSX,UNH,UNH.TO,UnitedHealth CDR Hgd,,tmx:tsx
+CA,TSX,UNI,UNI.TO,Unisync Corp.,,tmx:tsx
+CA,TSX,UNP,UNP.TO,UnionPacif CDR Hgd,,tmx:tsx
+CA,TSX,UPS,UPS.TO,UPS CDR CAN Hgd,,tmx:tsx
+CA,TSXV,UPT.P,UPT-P.V,Upstart Investments Inc.,,tmx:tsxv
+CA,TSX,URB.A,URB-A.TO,Urbana Corp. Cl A NV,,tmx:tsx
+CA,TSX,URB,URB.TO,Urbana Corporation,,tmx:tsx
+CA,TSX,URCC,URCC.TO,Glbl X Uranium CC E,,tmx:tsx
+CA,TSX,URE,URE.TO,Ur-Energy Inc. J,,tmx:tsx
+CA,TSXV,URZ,URZ.V,URZ3 Energy Corp.,,tmx:tsxv
+CA,TSX,USA,USA.TO,Americas Gold Slvr J,,tmx:tsx
+CA,TSX,USCC.U,USCC-U.TO,GblX SP500 CvCal E U,,tmx:tsx
+CA,TSX,USCC,USCC.TO,GblX SP500 Cov Cal E,,tmx:tsx
+CA,TSX,USCL,USCL.TO,GblX EnhnSP500 CvCal,,tmx:tsx
+CA,TSXV,USCU,USCU.V,US Copper Corp.,,tmx:tsxv
+CA,TSXV,USHA,USHA.V,Usha Resources Ltd.,,tmx:tsxv
+CA,TSX,USHI,USHI.TO,Ninepoint Enh USEqHS,,tmx:tsx
+CA,TSX,USSL,USSL.TO,GblX EnhSP500 IdxETF,,tmx:tsx
+CA,TSX,USSX.U,USSX-U.TO,GblX SP/TSX500 InxUS,,tmx:tsx
+CA,TSX,USSX,USSX.TO,GblX SP/TSX500 Inx A,,tmx:tsx
+CA,TSXV,UTWO,UTWO.V,U92 Energy Corp.,,tmx:tsxv
+CA,TSXV,UVC,UVC.V,Illumisoft Lighting Corp.,,tmx:tsxv
+CA,TSXV,V,V.V,Verdera Energy Corp.,,tmx:tsxv
+CA,TSXV,VAL.P,VAL-P.V,Valencia Capital Inc.,,tmx:tsxv
+CA,TSXV,VAND,VAND.V,Largo Physical Vanadium Corp.,,tmx:tsxv
+CA,TSXV,VAU,VAU.V,Viva Gold Corp.,,tmx:tsxv
+CA,TSX,VBNK,VBNK.TO,VersaBank J,,tmx:tsx
+CA,TSXV,VCC.P,VCC-P.V,Veteran Capital Corp.,,tmx:tsxv
+CA,TSXV,VCG,VCG.V,Visionary Copper and Gold Mines Inc.,,tmx:tsxv
+CA,TSXV,VCI,VCI.V,Vitreous Glass Inc,,tmx:tsxv
+CA,TSX,VCM,VCM.TO,Vecima Networks Inc.,,tmx:tsx
+CA,TSX,VCOR,VCOR.TO,Vang Glb CorePlus B,,tmx:tsx
+CA,TSXV,VCT,VCT.V,Volt Carbon Technologies Inc.,,tmx:tsxv
+CA,TSXV,VCU,VCU.V,Vizsla Copper Corp.,,tmx:tsxv
+CA,TSXV,VCV,VCV.V,Vatic Ventures Corp,,tmx:tsxv
+CA,TSX,VDU,VDU.TO,Vangrd FTSE Dev exUS,,tmx:tsx
+CA,TSX,VEF,VEF.TO,Vangrd Dev US CA-heg,,tmx:tsx
+CA,TSXV,VENT,VENT.V,Ventra Metals Corp.,,tmx:tsxv
+CA,TSXV,VERT,VERT.V,Vertical Exploration Inc.,,tmx:tsxv
+CA,TSX,VET,VET.TO,Vermilion Energy Inc,,tmx:tsx
+CA,TSXV,VG,VG.V,Volcanic Gold Mines Inc.,,tmx:tsxv
+CA,TSX,VGC,VGC.TO,Valor Gold Corp,,tmx:tsx
+CA,TSXV,VGD,VGD.V,Visible Gold Mines Inc.,,tmx:tsxv
+CA,TSXV,VGN,VGN.V,Greencastle Resources Ltd.,,tmx:tsxv
+CA,TSX,VGZ,VGZ.TO,Vista Gold Corp,,tmx:tsx
+CA,TSX,VHI,VHI.TO,Vitalhub Corp. J,,tmx:tsx
+CA,TSX,VIDY,VIDY.TO,VanguardFTSE NADivYl,,tmx:tsx
+CA,TSX,VIGG,VIGG.TO,Vang Dev exNA D Ap I,,tmx:tsx
+CA,TSXV,VIO,VIO.V,Vior Gold Corporation Inc.,,tmx:tsxv
+CA,TSXV,VIPR,VIPR.V,Silver Viper Minerals Corp.,,tmx:tsxv
+CA,TSXV,VIS,VIS.V,Visionstate Corp.,,tmx:tsxv
+CA,TSX,VISA,VISA.TO,Visa CDR CAN Hgd,,tmx:tsx
+CA,TSXV,VITA,VITA.V,Vitalist Inc.,,tmx:tsxv
+CA,TSXV,VIZ,VIZ.V,Visionary Metals Corp.,,tmx:tsxv
+CA,TSXV,VKG,VKG.V,Norse Gold Corp.,,tmx:tsxv
+CA,TSX,VLB,VLB.TO,Vangrd CdnLT GvtBond,,tmx:tsx
+CA,TSXV,VLC,VLC.V,Velocity Minerals Ltd.,,tmx:tsxv
+CA,TSXV,VLD,VLD.V,Vinland Lithium Inc.,,tmx:tsxv
+CA,TSX,VLE,VLE.TO,Valeura Energy Inc J,,tmx:tsx
+CA,TSXV,VLI,VLI.V,Vision Lithium Inc.,,tmx:tsxv
+CA,TSXV,VLLC,VLLC.V,Argentina Metals Corp.,,tmx:tsxv
+CA,TSX,VLN,VLN.TO,Velan Inc. SV,,tmx:tsx
+CA,TSXV,VLX,VLX.V,Velox Energy Materials Inc.,,tmx:tsxv
+CA,TSXV,VM,VM.V,Voyageur Pharmaceuticals Ltd.,,tmx:tsxv
+CA,TSX,VMET,VMET.TO,Versamet Rylt Corp,,tmx:tsx
+CA,TSXV,VML,VML.V,Viscount Mining Corp.,,tmx:tsxv
+CA,TSXV,VMS,VMS.V,Vortex Metals Inc.,,tmx:tsxv
+CA,TSXV,VMXX,VMXX.V,Valhalla Metals Inc.,,tmx:tsxv
+CA,TSX,VNP,VNP.TO,5N Plus Inc.,,tmx:tsx
+CA,TSXV,VO,VO.V,Valore Metals Corp.,,tmx:tsxv
+CA,TSX,VOLX,VOLX.TO,BetaProSP500ST Futre,,tmx:tsx
+CA,TSX,VOXR,VOXR.TO,Vox Royalty Corp. J,,tmx:tsx
+CA,TSXV,VPI,VPI.V,Vitality Products Inc.,,tmx:tsxv
+CA,TSXV,VPT,VPT.V,VentriPoint Diagnostics Ltd.,,tmx:tsxv
+CA,TSXV,VQS,VQS.V,VIQ Solutions Inc.,,tmx:tsxv
+CA,TSXV,VRB,VRB.V,Vanadiumcorp Resource Inc.,,tmx:tsxv
+CA,TSXV,VRR,VRR.V,VR Resources Ltd.,,tmx:tsxv
+CA,TSX,VRT,VRT.TO,Vertiv CDR CAD Hdg,,tmx:tsx
+CA,TSX,VRTS,VRTS.TO,Vertiqal StudiosCorp,,tmx:tsx
+CA,TSXV,VRY,VRY.V,Petro-Victory Energy Corp.,,tmx:tsxv
+CA,TSXV,VTEN,VTEN.V,V Ten Metals Corp.,,tmx:tsxv
+CA,TSXV,VTT,VTT.V,Vendetta Mining Corp,,tmx:tsxv
+CA,TSXV,VTX,VTX.V,Vertex Resource Group Ltd.,,tmx:tsxv
+CA,TSX,VUDH,VUDH.TO,VangUS HiDiv Yld I E,,tmx:tsx
+CA,TSX,VUDV,VUDV.TO,Vngrd US Hi Div Yld,,tmx:tsx
+CA,TSXV,VUL,VUL.V,Vulcan Minerals Inc,,tmx:tsxv
+CA,TSXV,VUX,VUX.V,Vital Energy Inc.,,tmx:tsxv
+CA,TSXV,VVTM,VVTM.V,VVT Med Inc.,,tmx:tsxv
+CA,TSXV,VXL,VXL.V,Vaxil Bio Ltd.,,tmx:tsxv
+CA,TSX,VXM.B,VXM-B.TO,CI Morn IntlVal Unhg,,tmx:tsx
+CA,TSX,VXM.U,VXM-U.TO,CI Mornstr IntValUHG,,tmx:tsx
+CA,TSX,VXM,VXM.TO,CI Mornstr IntlValHG,,tmx:tsx
+CA,TSX,VZ,VZ.TO,Verizon CDR Hgd,,tmx:tsx
+CA,TSX,VZLA,VZLA.TO,Vizsla Silver Corp,,tmx:tsx
+CA,TSXV,VZZ,VZZ.V,Val-d'Or Mining Corporation,,tmx:tsxv
+CA,TSXV,W,W.V,Spartan Metals Corp.,,tmx:tsxv
+CA,TSXV,WAM,WAM.V,Alaska Silver Corp.,,tmx:tsxv
+CA,TSX,WAST,WAST.TO,WasteMgmt CDR Hgd,,tmx:tsx
+CA,TSXV,WAT.P,WAT-P.V,Whatcom Capital II Corp.,,tmx:tsxv
+CA,TSXV,WAVE,WAVE.V,Waverley Pharma Inc.,,tmx:tsxv
+CA,TSXV,WBE,WBE.V,WestBond Enterprises Corporation,,tmx:tsxv
+CA,TSXV,WCE,WCE.V,Wescan Energy Corp.,,tmx:tsxv
+CA,TSX,WCM.A,WCM-A.TO,Wilmington Cap A NV,,tmx:tsx
+CA,TSX,WCM.B,WCM-B.TO,Wilmington Cap B,,tmx:tsx
+CA,TSX,WCN,WCN.TO,Waste Connections,,tmx:tsx
+CA,TSX,WCP,WCP.TO,Whitecap Resources,,tmx:tsx
+CA,TSXV,WCSB,WCSB.V,Decimus Oil Corp.,,tmx:tsxv
+CA,TSXV,WCU,WCU.V,World Copper Ltd.,,tmx:tsxv
+CA,TSX,WDC,WDC.TO,Western Dgtl CDR Hd,,tmx:tsx
+CA,TSX,WDO,WDO.TO,Wesdome Gold Mines,,tmx:tsx
+CA,TSXV,WEB,WEB.V,Westbridge Renewable Energy Corp.,,tmx:tsxv
+CA,TSXV,WEC,WEC.V,Winchester Equity Corporation,,tmx:tsxv
+CA,TSX,WEED,WEED.TO,Canopy Grwth Corp J,,tmx:tsx
+CA,TSX,WEF,WEF.TO,Western Forest Prod,,tmx:tsx
+CA,TSX,WELL,WELL.TO,WELL Health Tech J,,tmx:tsx
+CA,TSXV,WEX,WEX.V,Western Exploration Inc.,,tmx:tsxv
+CA,TSX,WFC,WFC.TO,Wall Financial Corp,,tmx:tsx
+CA,TSX,WFCS,WFCS.TO,WellsFargo CDR Hgd,,tmx:tsx
+CA,TSX,WFG,WFG.TO,West Fraser Timber,,tmx:tsx
+CA,TSXV,WGF,WGF.V,Wescan Goldfields Inc.,,tmx:tsxv
+CA,TSXV,WGLD,WGLD.V,Western Gold Exploration Ltd.,,tmx:tsxv
+CA,TSXV,WGO,WGO.V,White Gold Corp.,,tmx:tsxv
+CA,TSXV,WGT,WGT.V,Westgate Energy Inc.,,tmx:tsxv
+CA,TSX,WGX,WGX.TO,Westgold Res Ltd,,tmx:tsx
+CA,TSXV,WHN,WHN.V,Westhaven Gold Corp.,,tmx:tsxv
+CA,TSXV,WHY,WHY.V,West High Yield (W.H.Y.) Resources Ltd,,tmx:tsxv
+CA,TSX,WHYP.U,WHYP-U.TO,Westcourt Ham YldP U,,tmx:tsx
+CA,TSX,WHYP,WHYP.TO,Westcourt Ham Yld P,,tmx:tsx
+CA,TSXV,WIL,WIL.V,Wilton Resources Inc,,tmx:tsxv
+CA,TSX,WILD,WILD.TO,WildBrain Ltd Com&VV,,tmx:tsx
+CA,TSXV,WINS,WINS.V,Winshear Metals Corp.,,tmx:tsxv
+CA,TSXV,WISH,WISH.V,Wishpond Technologies Ltd.,,tmx:tsxv
+CA,TSX,WJX,WJX.TO,Wajax Corporation,,tmx:tsx
+CA,TSXV,WLF,WLF.V,Wolfden Resources Corporation,,tmx:tsxv
+CA,TSX,WM,WM.TO,Wallbridge Mng Co J,,tmx:tsx
+CA,TSXV,WMK,WMK.V,Whitemud Resources Inc,,tmx:tsxv
+CA,TSXV,WML,WML.V,Wealth Minerals Ltd,,tmx:tsxv
+CA,TSXV,WMS,WMS.V,Western Metallica Resources Corp.,,tmx:tsxv
+CA,TSX,WMT,WMT.TO,Walmart CDR Hgd,,tmx:tsx
+CA,TSX,WN,WN.TO,Weston George,,tmx:tsx
+CA,TSXV,WOLF,WOLF.V,Grey Wolf Health Corp.,,tmx:tsxv
+CA,TSXV,WOOD.P,WOOD-P.V,Woodbridge Ventures II Inc.,,tmx:tsxv
+CA,TSXV,WP,WP.V,Western Pacific Trust Company,,tmx:tsxv
+CA,TSXV,WPG,WPG.V,West Point Gold Corp.,,tmx:tsxv
+CA,TSX,WPK,WPK.TO,Winpak Limited,,tmx:tsx
+CA,TSX,WPM,WPM.TO,Wheaton Precious Mtl,,tmx:tsx
+CA,TSX,WPRT,WPRT.TO,Westport Fuel Sys,,tmx:tsx
+CA,TSX,WRG,WRG.TO,Western Energy Serv,,tmx:tsx
+CA,TSXV,WRLG,WRLG.V,West Red Lake Gold Mines Ltd.,,tmx:tsxv
+CA,TSX,WRN,WRN.TO,Wstrn Copper & Gld J,,tmx:tsx
+CA,TSXV,WRR,WRR.V,Walker River Resources Corp.,,tmx:tsxv
+CA,TSXV,WSK,WSK.V,Wildsky Resources Inc.,,tmx:tsxv
+CA,TSX,WSP,WSP.TO,WSP Global Inc.,,tmx:tsx
+CA,TSX,WSRD,WSRD.TO,WealthsimpDevMktexNA,,tmx:tsx
+CA,TSX,WSRI,WSRI.TO,WealthsimplNA Social,,tmx:tsx
+CA,TSXV,WSTR,WSTR.V,WELLSTAR Technologies Corp.,,tmx:tsxv
+CA,TSX,WTE,WTE.TO,Westshore Terminals,,tmx:tsx
+CA,TSXV,WVM,WVM.V,West Vault Mining Inc.,,tmx:tsxv
+CA,TSXV,WWT,WWT.V,Water Ways Technologies Inc.,,tmx:tsxv
+CA,TSX,WXM,WXM.TO,CI MornstrCA MomntUn,,tmx:tsx
+CA,TSX,X,X.TO,TMX Group Limited,,tmx:tsx
+CA,TSX,XAD,XAD.TO,iShrs US AeroDefence,,tmx:tsx
+CA,TSX,XAGG.U,XAGG-U.TO,iShr US AggreBond US,,tmx:tsx
+CA,TSX,XAGG,XAGG.TO,iShr US AggreBnd CAD,,tmx:tsx
+CA,TSX,XAGH,XAGH.TO,iShrUS AggreBndCA-Hg,,tmx:tsx
+CA,TSX,XAU,XAU.TO,GoldMoney Inc.,,tmx:tsx
+CA,TSX,XAW.U,XAW-U.TO,iShr CoreMSCI ACWXUS,,tmx:tsx
+CA,TSX,XAW,XAW.TO,iShr CoreMSCI AC Wex,,tmx:tsx
+CA,TSX,XBB,XBB.TO,iShr Cdn Univers Bnd,,tmx:tsx
+CA,TSX,XBM,XBM.TO,iShr SP/TSXGblBseMtl,,tmx:tsx
+CA,TSXV,XBOT,XBOT.V,Realbotix Corp.,,tmx:tsxv
+CA,TSXV,XCAP.P,XCAP-P.V,Exelerate Capital Corp.,,tmx:tsxv
+CA,TSX,XCB,XCB.TO,iShr CoreCA CorpBond,,tmx:tsx
+CA,TSX,XCBG,XCBG.TO,iShrESG AdvCACorpBnd,,tmx:tsx
+CA,TSX,XCBU.U,XCBU-U.TO,iShrUS IG CorpBondUS,,tmx:tsx
+CA,TSX,XCBU,XCBU.TO,iShrUS IG CorpBondCA,,tmx:tsx
+CA,TSX,XCD,XCD.TO,iShare S&P CnsmrDscr,,tmx:tsx
+CA,TSX,XCHP,XCHP.TO,iShr Semiconductr Un,,tmx:tsx
+CA,TSX,XCLN,XCLN.TO,iShrs GlbCleanEngyCA,,tmx:tsx
+CA,TSX,XCNS,XCNS.TO,iShr CoreConservBal,,tmx:tsx
+CA,TSX,XCS,XCS.TO,IShare SP/TSX SmlCap,,tmx:tsx
+CA,TSX,XCSR,XCSR.TO,iShareESG AdvMSCI CA,,tmx:tsx
+CA,TSX,XDG.U,XDG-U.TO,iShrCorMSCI GlbDivUS,,tmx:tsx
+CA,TSX,XDG,XDG.TO,iShr CorMSCI GlblDiv,,tmx:tsx
+CA,TSX,XDGH,XDGH.TO,iShr CorGlbDivCA-Heg,,tmx:tsx
+CA,TSX,XDIV,XDIV.TO,iShare CorMSCICdnDiv,,tmx:tsx
+CA,TSX,XDNA,XDNA.TO,iShr GenomicImmun CA,,tmx:tsx
+CA,TSX,XDRV,XDRV.TO,iShr GlbElecAutoVhcl,,tmx:tsx
+CA,TSX,XDSR,XDSR.TO,iShrESG AdvMSCI EAFE,,tmx:tsx
+CA,TSX,XDU.U,XDU-U.TO,iShrCorMSCI USQuDvUS,,tmx:tsx
+CA,TSX,XDU,XDU.TO,iShr CoreMSCI USQuDv,,tmx:tsx
+CA,TSX,XDUH,XDUH.TO,iShrCorUS DivCADHg,,tmx:tsx
+CA,TSX,XEB,XEB.TO,iShr JP USD Emrg Mkt,,tmx:tsx
+CA,TSX,XEC.U,XEC-U.TO,iShrCorMSCI EmrMktUS,,tmx:tsx
+CA,TSX,XEC,XEC.TO,iShr Core EmrgMktIMI,,tmx:tsx
+CA,TSX,XEF.U,XEF-U.TO,iShr CoreMSCI IMI US,,tmx:tsx
+CA,TSX,XEF,XEF.TO,iShr CorMSCIEAFE IMI,,tmx:tsx
+CA,TSX,XEH,XEH.TO,iShr MSCI EU IMI CAD,,tmx:tsx
+CA,TSX,XEI,XEI.TO,iShr S&P/TSX HiDivUn,,tmx:tsx
+CA,TSX,XEM,XEM.TO,iShare MSCI EmergMkt,,tmx:tsx
+CA,TSX,XEMC,XEMC.TO,iShrMSCI EmrgMktChin,,tmx:tsx
+CA,TSX,XEN,XEN.TO,iShare Jantzi Social,,tmx:tsx
+CA,TSX,XEQT,XEQT.TO,iShrs CoreEqPortf Un,,tmx:tsx
+CA,TSX,XESG,XESG.TO,iShr ESG AwrMSCI CA,,tmx:tsx
+CA,TSX,XETM,XETM.TO,iShr SP/TSX EngyMtrl,,tmx:tsx
+CA,TSX,XEU,XEU.TO,iShr MSCI EU IMI Idx,,tmx:tsx
+CA,TSX,XFH,XFH.TO,iShrCrMSCI EAFEIMIHG,,tmx:tsx
+CA,TSX,XFLB,XFLB.TO,iShr Cdn 15+YrFedBnd,,tmx:tsx
+CA,TSX,XFLI.U,XFLI-U.TO,iShr FlexM IncETFUSD,,tmx:tsx
+CA,TSX,XFLI,XFLI.TO,iShr FlexM IncETFCAD,,tmx:tsx
+CA,TSX,XFLX,XFLX.TO,iShr FlMnthly CA-HGD,,tmx:tsx
+CA,TSX,XGB,XGB.TO,iShr CoreCA Govt Bnd,,tmx:tsx
+CA,TSXV,XGC,XGC.V,Xali Gold Corp.,,tmx:tsxv
+CA,TSX,XGI,XGI.TO,iShr SP Glbl Indstrl,,tmx:tsx
+CA,TSX,XHAK,XHAK.TO,iShr CybersecTech CA,,tmx:tsx
+CA,TSX,XHB,XHB.TO,iShare Cdn HYBrd Bnd,,tmx:tsx
+CA,TSX,XHC,XHC.TO,iShare Glbl Hlthcare,,tmx:tsx
+CA,TSX,XHD,XHD.TO,iShare US HighDiv Eq,,tmx:tsx
+CA,TSX,XHU,XHU.TO,iShr US HiDiv EqtyUn,,tmx:tsx
+CA,TSX,XIC,XIC.TO,iShr CoreSP/TSX Comp,,tmx:tsx
+CA,TSX,XIG,XIG.TO,iShare US IG CorpBnd,,tmx:tsx
+CA,TSX,XIGS,XIGS.TO,iShr1-5YrUS IGCorpCH,,tmx:tsx
+CA,TSXV,XIM,XIM.V,Ximen Mining Corp.,,tmx:tsxv
+CA,TSX,XIN,XIN.TO,iShare MSCI EAFE Idx,,tmx:tsx
+CA,TSX,XINC,XINC.TO,iSharesCorIncmBal Un,,tmx:tsx
+CA,TSXV,XL,XL.V,XXL Energy Corp,,tmx:tsxv
+CA,TSX,XLB,XLB.TO,iShr CoreCdnLT BndUn,,tmx:tsx
+CA,TSX,XLY,XLY.TO,Auxly Cannabis Grp J,,tmx:tsx
+CA,TSX,XMA,XMA.TO,iShare S&P/TSX Matrl,,tmx:tsx
+CA,TSX,XMC.U,XMC-U.TO,iShrS&P US Mid-CapUS,,tmx:tsx
+CA,TSX,XMC,XMC.TO,iShr S&P US MidCapUn,,tmx:tsx
+CA,TSX,XMD,XMD.TO,iShr S&P/TSX Cmpletn,,tmx:tsx
+CA,TSX,XMF.A,XMF-A.TO,M Split Corp. 14 Cap,,tmx:tsx
+CA,TSX,XMH,XMH.TO,iShr S&P USMdCpCADHG,,tmx:tsx
+CA,TSX,XMI,XMI.TO,iShare MSCIMinVlEAFE,,tmx:tsx
+CA,TSX,XML,XML.TO,iShr MinVolEAFE CA-H,,tmx:tsx
+CA,TSX,XMM,XMM.TO,iShr MinVol EmrgMkt,,tmx:tsx
+CA,TSX,XMS,XMS.TO,iShr MSCIMinVlUS C-H,,tmx:tsx
+CA,TSX,XMTM,XMTM.TO,iShrMSCIUSA MomntFtr,,tmx:tsx
+CA,TSX,XMU.U,XMU-U.TO,iShr MSCI MinVol USF,,tmx:tsx
+CA,TSX,XMU,XMU.TO,iShr MSCI MinVol USA,,tmx:tsx
+CA,TSX,XMV,XMV.TO,iShr MSCI MinVolCda,,tmx:tsx
+CA,TSX,XMW,XMW.TO,iShr MSCI MinVolGlbl,,tmx:tsx
+CA,TSX,XMY,XMY.TO,iShr MSCIMinVlGlbC-H,,tmx:tsx
+CA,TSX,XNDU,XNDU.TO,Xanadu Quant Tch Ltd,,tmx:tsx
+CA,TSX,XOM,XOM.TO,Exxon Mobil CDR Hgd,,tmx:tsx
+CA,TSXV,XOX.P,XOX-P.V,Planet X Capital Corp.,,tmx:tsxv
+CA,TSX,XPF,XPF.TO,iShr S&PTSX NA PrStk,,tmx:tsx
+CA,TSXV,XPLR,XPLR.V,Xplore Resources Corp.,,tmx:tsxv
+CA,TSX,XQB,XQB.TO,iShare HighCdnBnd Un,,tmx:tsx
+CA,TSX,XQLT,XQLT.TO,iShrMSCI USA QualFtr,,tmx:tsx
+CA,TSX,XQQ,XQQ.TO,iShare NASDAQ 100 Un,,tmx:tsx
+CA,TSX,XQQU.U,XQQU-U.TO,iShr NASDAQ 100 USF,,tmx:tsx
+CA,TSX,XQQU,XQQU.TO,iShrs NASDAQ 100 Idx,,tmx:tsx
+CA,TSX,XRB,XRB.TO,iShare Cdn RlRet Bnd,,tmx:tsx
+CA,TSX,XRPP.B,XRPP-B.TO,Purpose XRP CAD NoCu,,tmx:tsx
+CA,TSX,XRPP,XRPP.TO,Purpose XRP CAD CuHd,,tmx:tsx
+CA,TSX,XSAB,XSAB.TO,iShrESG AwreCA AgBnd,,tmx:tsx
+CA,TSX,XSB,XSB.TO,iShre Cdn Sh Trm Bnd,,tmx:tsx
+CA,TSX,XSC,XSC.TO,iShr Consv ShStgyFxd,,tmx:tsx
+CA,TSX,XSE,XSE.TO,iShr Consv Stgy Incm,,tmx:tsx
+CA,TSX,XSEA,XSEA.TO,iShrESG AwrMSCI EAFE,,tmx:tsx
+CA,TSX,XSEM,XSEM.TO,iShrESG AwrMSCI Mkts,,tmx:tsx
+CA,TSX,XSH,XSH.TO,iShrCoreCdnSTCorpBnd,,tmx:tsx
+CA,TSX,XSHG,XSHG.TO,iShrESG Advnce1-5Bnd,,tmx:tsx
+CA,TSX,XSHU.U,XSHU-U.TO,iShr1-5YrIGCorpBndUS,,tmx:tsx
+CA,TSX,XSHU,XSHU.TO,iShr1-5YrUSIGCorpBnd,,tmx:tsx
+CA,TSX,XSI,XSI.TO,iShr ST StratgFxd Un,,tmx:tsx
+CA,TSX,XSMC,XSMC.TO,iShr S&P US SmlCapUn,,tmx:tsx
+CA,TSX,XSMH,XSMH.TO,iShrS&P US SmlCpC-Hg,,tmx:tsx
+CA,TSX,XSPC,XSPC.TO,iShrsS&P5003%CapHegd,,tmx:tsx
+CA,TSX,XSTB,XSTB.TO,iShrESG AwreCA STBnd,,tmx:tsx
+CA,TSX,XSTH,XSTH.TO,iShr0-5YrTipsBndCA-H,,tmx:tsx
+CA,TSX,XSTP.U,XSTP-U.TO,iShr 0-5YrTipsBndUSD,,tmx:tsx
+CA,TSX,XSTP,XSTP.TO,iShr 0-5YrTipsBndCAD,,tmx:tsx
+CA,TSX,XSUS,XSUS.TO,iShrESG Awr MSCI USA,,tmx:tsx
+CA,TSXV,XTAO.U,XTAO-U.V,XTAO Inc.,,tmx:tsxv
+CA,TSX,XTC,XTC.TO,Exco Technologies,,tmx:tsx
+CA,TSX,XTD,XTD.TO,TDb Split Cl A,,tmx:tsx
+CA,TSX,XTG,XTG.TO,Xtra-Gold Resource J,,tmx:tsx
+CA,TSX,XTLH,XTLH.TO,iShr 20+YrUS BndHgUn,,tmx:tsx
+CA,TSX,XTLT.U,XTLT-U.TO,iShr 20+Yr US Bnd US,,tmx:tsx
+CA,TSX,XTLT,XTLT.TO,iShr 20+Yr US Bnd Un,,tmx:tsx
+CA,TSXV,XTM,XTM.V,Transition Metals Corp.,,tmx:tsxv
+CA,TSX,XTR,XTR.TO,iShare Divrs Mo Incm,,tmx:tsx
+CA,TSX,XTRA,XTRA.TO,Xtract One Tech J,,tmx:tsx
+CA,TSX,XUH,XUH.TO,iShre CoreS&P US Mkt,,tmx:tsx
+CA,TSX,XUS.U,XUS-U.TO,iShr CoreS&P500IdxUS,,tmx:tsx
+CA,TSX,XUSC.U,XUSC-U.TO,iShrs S&P5003%CapUSD,,tmx:tsx
+CA,TSX,XUSC,XUSC.TO,iShrs S&P5003%CapCan,,tmx:tsx
+CA,TSX,XUSF,XUSF.TO,iShr S&P US Fin Indx,,tmx:tsx
+CA,TSX,XUSR,XUSR.TO,iShr ESG AdvMSCI USA,,tmx:tsx
+CA,TSX,XUU.U,XUU-U.TO,iShr CorS&P USMkt US,,tmx:tsx
+CA,TSX,XUU,XUU.TO,iShr CorS&P US MktUn,,tmx:tsx
+CA,TSX,XVLU,XVLU.TO,iShrMSCI USA ValuFtr,,tmx:tsx
+CA,TSX,XWD,XWD.TO,iShare MSCI World Un,,tmx:tsx
+CA,TSXV,XX,XX.V,Avante Corp.,,tmx:tsxv
+CA,TSXV,XXIX,XXIX.V,XXIX Metal Corp.,,tmx:tsxv
+CA,TSX,Y,Y.TO,Yellow Pages Limited,,tmx:tsx
+CA,TSXV,YARR,YARR.V,Pirate Gold Corp.,,tmx:tsxv
+CA,TSXV,YAY,YAY.V,THS Maple Holdings Ltd.,,tmx:tsxv
+CA,TSX,YCM,YCM.TO,Commerce Split Cap,,tmx:tsx
+CA,TSXV,YEG,YEG.V,Yorkton Equity Group Inc.,,tmx:tsxv
+CA,TSXV,YES,YES.V,Char Technologies Ltd.,,tmx:tsxv
+CA,TSXV,YFI,YFI.V,Edgewater Wireless Systems Inc.,,tmx:tsxv
+CA,TSX,YGR,YGR.TO,Yangarra Res Ltd.,,tmx:tsx
+CA,TSXV,YGT,YGT.V,Gold Terra Resource Corp.,,tmx:tsxv
+CA,TSXV,YNV,YNV.V,Ynvisible Interactive Inc.,,tmx:tsxv
+CA,TSXV,YOO,YOO.V,Yangaroo Inc.,,tmx:tsxv
+CA,TSX,YRB,YRB.TO,Yorbeau Resources J,,tmx:tsx
+CA,TSXV,YSK.P,YSK-P.V,Space Kingdom Digital Capital Corp.,,tmx:tsxv
+CA,TSXV,YTY,YTY.V,Wi2Wi Corporation,,tmx:tsxv
+CA,TSX,ZABS.F,ZABS-F.TO,BMO Asset Bck S Hg U,,tmx:tsx
+CA,TSX,ZABS.U,ZABS-U.TO,BMO Asset Bck USD U,,tmx:tsx
+CA,TSX,ZABS,ZABS.TO,BMO Asset Bck S Cd U,,tmx:tsx
+CA,TSXV,ZAC,ZAC.V,Zacatecas Silver Corp.,,tmx:tsxv
+CA,TSX,ZACE,ZACE.TO,BMO U.S. All Cap Eq,,tmx:tsx
+CA,TSX,ZACU.F,ZACU-F.TO,BMO Str A Inc USLC H,,tmx:tsx
+CA,TSX,ZACU.U,ZACU-U.TO,BMO Str A Inc USLC U,,tmx:tsx
+CA,TSX,ZACU,ZACU.TO,BMO Str A Inc USLC C,,tmx:tsx
+CA,TSXV,ZAU,ZAU.V,Zodiac Gold Inc.,,tmx:tsxv
+CA,TSX,ZBI,ZBI.TO,BMO Cdn Bnk Incm Inx,,tmx:tsx
+CA,TSX,ZBK,ZBK.TO,BMO EqlWght US BkETF,,tmx:tsx
+CA,TSXV,ZBNI,ZBNI.V,ZEB Nickel Corp.,,tmx:tsxv
+CA,TSXV,ZC,ZC.V,Zimtu Capital Corp.,,tmx:tsxv
+CA,TSX,ZCB,ZCB.TO,BMO Corp Bond IdxETF,,tmx:tsx
+CA,TSX,ZCDB,ZCDB.TO,BMO CrpDiscountBdETF,,tmx:tsx
+CA,TSX,ZCDX.U,ZCDX-U.TO,BMO Credit St Op E U,,tmx:tsx
+CA,TSX,ZCDX,ZCDX.TO,BMO Credit Str Opp E,,tmx:tsx
+CA,TSX,ZCH,ZCH.TO,BMO MSCI China SelEq,,tmx:tsx
+CA,TSX,ZCN,ZCN.TO,BMO S&P/TSX CompIndx,,tmx:tsx
+CA,TSX,ZCRB,ZCRB.TO,BMO Core Bond Fund E,,tmx:tsx
+CA,TSX,ZCS.L,ZCS-L.TO,BMO Sh Corp BndETFAc,,tmx:tsx
+CA,TSXV,ZCT,ZCT.V,Zero Candida Technologies Inc.,,tmx:tsxv
+CA,TSX,ZDB,ZDB.TO,BMO Discount BndETF,,tmx:tsx
+CA,TSXV,ZDC,ZDC.V,Zedcor Inc.,,tmx:tsxv
+CA,TSX,ZDH,ZDH.TO,BMO Intl DivHg-CA Un,,tmx:tsx
+CA,TSX,ZDIV,ZDIV.TO,BMO MSCI CAN IMI HDY,,tmx:tsx
+CA,TSX,ZDM,ZDM.TO,BMO MSCI EAFE HegCAD,,tmx:tsx
+CA,TSX,ZEA,ZEA.TO,BMO MSCI EAFE Idx Un,,tmx:tsx
+CA,TSX,ZEF,ZEF.TO,BMO Em Mkt Bond HED,,tmx:tsx
+CA,TSX,ZEM,ZEM.TO,BMO MSCI EmrgMkts Un,,tmx:tsx
+CA,TSX,ZEMB,ZEMB.TO,BMO Emerging Mkt B F,,tmx:tsx
+CA,TSXV,ZEN,ZEN.V,Zentek Ltd.,,tmx:tsxv
+CA,TSXV,ZENI.P,ZENI-P.V,Zenith Capital Corporation,,tmx:tsxv
+CA,TSX,ZEO,ZEO.TO,BMO Eq WghtOil & Gas,,tmx:tsx
+CA,TSX,ZEQ,ZEQ.TO,BMO MSCI EU HiQltyUn,,tmx:tsx
+CA,TSX,ZEQL.F,ZEQL-F.TO,BMO MSCU US EW InE F,,tmx:tsx
+CA,TSX,ZEQL.U,ZEQL-U.TO,BMO MSCU US EW IE US,,tmx:tsx
+CA,TSX,ZEQL,ZEQL.TO,BMO MSCU US Eq W I E,,tmx:tsx
+CA,TSX,ZESM,ZESM.TO,BMO MS EA Sm M Cp I,,tmx:tsx
+CA,TSX,ZFC,ZFC.TO,BMO SIA Cdn Eqty Fnd,,tmx:tsx
+CA,TSX,ZFH,ZFH.TO,BMO Fltg RtHi Yld Un,,tmx:tsx
+CA,TSX,ZFM,ZFM.TO,BMO Mid Fed Bnd Indx,,tmx:tsx
+CA,TSXV,ZFR,ZFR.V,Zephyr Minerals Ltd.,,tmx:tsxv
+CA,TSX,ZFS.L,ZFS-L.TO,BMO ShFedrlBndETF Ac,,tmx:tsx
+CA,TSX,ZGB,ZGB.TO,BMO Gov't Bond Un,,tmx:tsx
+CA,TSX,ZGD,ZGD.TO,BMO EqWght Glb Gold,,tmx:tsx
+CA,TSX,ZGQ,ZGQ.TO,BMO MSCI AllCntryWrl,,tmx:tsx
+CA,TSX,ZHP,ZHP.TO,BMO US PrefShr Hg-CA,,tmx:tsx
+CA,TSX,ZHU,ZHU.TO,BMO EqWgtUS HlthCare,,tmx:tsx
+CA,TSX,ZID,ZID.TO,BMO MSCI India SelEq,,tmx:tsx
+CA,TSXV,ZIGY,ZIGY.V,Stardust Metal Corp.,,tmx:tsxv
+CA,TSX,ZIN,ZIN.TO,BMO EqWgtIndustlETF,,tmx:tsx
+CA,TSX,ZIU,ZIU.TO,BMO S&P/TSX 60 Indx,,tmx:tsx
+CA,TSX,ZJK.U,ZJK-U.TO,BMO HiYld CorpBdETF,,tmx:tsx
+CA,TSX,ZJK,ZJK.TO,BMO HiYldUS CorpBnd,,tmx:tsx
+CA,TSX,ZJPN,ZJPN.TO,BMO Japan Indx ETFUn,,tmx:tsx
+CA,TSX,ZLAT,ZLAT.TO,BMO MSCI L A GDP W I,,tmx:tsx
+CA,TSX,ZLD,ZLD.TO,BMO LwVol IntlEq H-C,,tmx:tsx
+CA,TSX,ZLH,ZLH.TO,BMO LowVol US Eq H-C,,tmx:tsx
+CA,TSX,ZLI,ZLI.TO,BMO LowVolIntl Eq Un,,tmx:tsx
+CA,TSX,ZLSC,ZLSC.TO,BMO Lng Short Cdn Eq,,tmx:tsx
+CA,TSX,ZLSU,ZLSU.TO,BMO Long Short US Eq,,tmx:tsx
+CA,TSXV,ZLTO,ZLTO.V,BULGOLD Inc.,,tmx:tsxv
+CA,TSXV,ZMA,ZMA.V,ZoomAway Technologies Inc.,,tmx:tsxv
+CA,TSX,ZMI.U,ZMI-U.TO,BMO Monthly Inc ETFU,,tmx:tsx
+CA,TSX,ZMI,ZMI.TO,BMO Monthly Incm Un,,tmx:tsx
+CA,TSX,ZMID.F,ZMID-F.TO,BMO S&P US MidCapHeg,,tmx:tsx
+CA,TSX,ZMID.U,ZMID-U.TO,BMO S&P US MidCpETFU,,tmx:tsx
+CA,TSX,ZMMK,ZMMK.TO,BMO MoneyMkt Fnd Un,,tmx:tsx
+CA,TSX,ZMT,ZMT.TO,BMO EqWgtGlbMtlHegCA,,tmx:tsx
+CA,TSX,ZMU,ZMU.TO,BMO MidUS IG HegBnd,,tmx:tsx
+CA,TSXV,ZNG,ZNG.V,Group Eleven Resources Corp.,,tmx:tsxv
+CA,TSX,ZNQ.U,ZNQ-U.TO,BMO Nasdaq100 EqETF,,tmx:tsx
+CA,TSX,ZNQ,ZNQ.TO,BMO Nasdaq100 Eq UN,,tmx:tsx
+CA,TSXV,ZNX,ZNX.V,Zincx Resources Corp.,,tmx:tsxv
+CA,TSXV,ZOMD,ZOMD.V,Zoomd Technologies Ltd.,,tmx:tsxv
+CA,TSXV,ZON,ZON.V,Zonte Metals Inc.,,tmx:tsxv
+CA,TSXV,ZONE,ZONE.V,Zonetail Inc.,,tmx:tsxv
+CA,TSX,ZPH,ZPH.TO,BMO US PutWrte Hg-CA,,tmx:tsx
+CA,TSX,ZPS.L,ZPS-L.TO,BMO ShProv BndETF Ac,,tmx:tsx
+CA,TSX,ZPW.U,ZPW-U.TO,BMO US Put WriteETF,,tmx:tsx
+CA,TSX,ZQB,ZQB.TO,BMO HiQual CrpBndETF,,tmx:tsx
+CA,TSX,ZRE,ZRE.TO,BMO Eql Wgt REITsETF,,tmx:tsx
+CA,TSX,ZSB,ZSB.TO,BMO ShortTrm Bond Un,,tmx:tsx
+CA,TSX,ZSML.F,ZSML-F.TO,BMO S&P US SmlCpHeg,,tmx:tsx
+CA,TSX,ZSML.U,ZSML-U.TO,BMO S&P US SmlCpETFU,,tmx:tsx
+CA,TSX,ZSML,ZSML.TO,BMO S&P US SmlCapETF,,tmx:tsx
+CA,TSX,ZSP,ZSP.TO,BMO S&P500 IdxETF Un,,tmx:tsx
+CA,TSX,ZST.L,ZST-L.TO,BMO UltraSh BndETFAc,,tmx:tsx
+CA,TSX,ZST,ZST.TO,BMO Ultra ShrtBnd Un,,tmx:tsx
+CA,TSX,ZSU,ZSU.TO,BMO Sh-Trm US CrpBnd,,tmx:tsx
+CA,TSX,ZTIP.F,ZTIP-F.TO,BMO ST US TIPS Hedg,,tmx:tsx
+CA,TSX,ZTIP.U,ZTIP-U.TO,BMO ST US TIPS US Un,,tmx:tsx
+CA,TSX,ZUAG.F,ZUAG-F.TO,BMO US AgreBndETF Hg,,tmx:tsx
+CA,TSX,ZUAG.U,ZUAG-U.TO,BMO US Aggre BndETFU,,tmx:tsx
+CA,TSX,ZUAG,ZUAG.TO,BMO US Aggre BondETF,,tmx:tsx
+CA,TSX,ZUB,ZUB.TO,BMO Eq Wgt US Banks,,tmx:tsx
+CA,TSX,ZUCM.U,ZUCM-U.TO,BMO USD Cash MmtETF,,tmx:tsx
+CA,TSX,ZUCM,ZUCM.TO,BMO USD Cash Mgmt Un,,tmx:tsx
+CA,TSX,ZUD,ZUD.TO,BMO USDiv Hdg-Cad Un,,tmx:tsx
+CA,TSX,ZUE,ZUE.TO,BMO S&P 500 Hedg-CAD,,tmx:tsx
+CA,TSX,ZUH,ZUH.TO,BMO EqWgt US Health,,tmx:tsx
+CA,TSX,ZUP,ZUP.TO,BMO US PrefShr ETFUn,,tmx:tsx
+CA,TSX,ZUQ.F,ZUQ-F.TO,BMO MSCIUSHiQltyETF,,tmx:tsx
+CA,TSX,ZUQ.U,ZUQ-U.TO,BMO MSCI USHiQtyETF,,tmx:tsx
+CA,TSX,ZUQ,ZUQ.TO,BMO MSCI US HiQltyUn,,tmx:tsx
+CA,TSX,ZUS.U,ZUS-U.TO,BMO UltraST BndETFU,,tmx:tsx
+CA,TSX,ZUS.V,ZUS-V.TO,BMO UlST BndUSETF UA,,tmx:tsx
+CA,TSX,ZVU,ZVU.TO,BMO MSCI USAValue Un,,tmx:tsx
+CA,TSX,ZWA.T,ZWA-T.TO,BMO Cvd C DJ I A H C,,tmx:tsx
+CA,TSX,ZWB.T,ZWB-T.TO,BMO Cov Cl CDN Bnk E,,tmx:tsx
+CA,TSX,ZWB.U,ZWB-U.TO,BMO CoverCallCdnBkUS,,tmx:tsx
+CA,TSX,ZWB,ZWB.TO,BMO Coverd CallCdnBk,,tmx:tsx
+CA,TSX,ZWC.T,ZWC-T.TO,BMO Cdn Hi Div Cov C,,tmx:tsx
+CA,TSX,ZWC,ZWC.TO,BMO Cdn HiDivCovCall,,tmx:tsx
+CA,TSX,ZWE.T,ZWE-T.TO,BMO EU Hi Div CC H C,,tmx:tsx
+CA,TSX,ZWE,ZWE.TO,BMO EU DivCovCal C-H,,tmx:tsx
+CA,TSX,ZWEN.T,ZWEN-T.TO,BMO Cov Call Enrgy E,,tmx:tsx
+CA,TSX,ZWEN,ZWEN.TO,BMO CovrdCallEngyETF,,tmx:tsx
+CA,TSX,ZWG.T,ZWG-T.TO,BMO Glbl Hi Div CC E,,tmx:tsx
+CA,TSX,ZWG,ZWG.TO,BMO Glbl HiDivCovCal,,tmx:tsx
+CA,TSX,ZWGD.T,ZWGD-T.TO,BMO Cov c Sprd GD B,,tmx:tsx
+CA,TSX,ZWGD,ZWGD.TO,BMO Cov Call SpGoBul,,tmx:tsx
+CA,TSX,ZWH.T,ZWH-T.TO,BMO US Hi Div CovC E,,tmx:tsx
+CA,TSX,ZWH.U,ZWH-U.TO,BMO US HighDivCov UN,,tmx:tsx
+CA,TSX,ZWH,ZWH.TO,BMO US HighDivCov Un,,tmx:tsx
+CA,TSX,ZWHC.T,ZWHC-T.TO,BMO Cov Cl Hlth Cr E,,tmx:tsx
+CA,TSX,ZWHC,ZWHC.TO,BMO CovrdCallHthETF,,tmx:tsx
+CA,TSX,ZWK.T,ZWK-T.TO,BMO Cov Call US Bnks,,tmx:tsx
+CA,TSX,ZWK,ZWK.TO,BMO CoverCalUSBkETF,,tmx:tsx
+CA,TSX,ZWP.T,ZWP-T.TO,BMO Euro H D Cov C E,,tmx:tsx
+CA,TSX,ZWP,ZWP.TO,BMO EU HiDiv CovCall,,tmx:tsx
+CA,TSX,ZWQT,ZWQT.TO,BMO Glbl Enhanc Incm,,tmx:tsx
+CA,TSX,ZWS.T,ZWS-T.TO,BMO US Hi Div CC H C,,tmx:tsx
+CA,TSX,ZWS,ZWS.TO,BMO US HiDivCovHg-CA,,tmx:tsx
+CA,TSX,ZWT.T,ZWT-T.TO,BMO Cov Call Tech E,,tmx:tsx
+CA,TSX,ZWT,ZWT.TO,BMO CoverCallTechETF,,tmx:tsx
+CA,TSX,ZWU.T,ZWU-T.TO,BMO Cov Call Util E,,tmx:tsx
+CA,TSX,ZWU,ZWU.TO,BMO CoverdUtilityETF,,tmx:tsx
+CA,TSX,ZXLC.F,ZXLC-F.TO,BMO SPDRCom SSSETFHg,,tmx:tsx
+CA,TSX,ZXLK.F,ZXLK-F.TO,BMOSPDR TechSI ETFHg,,tmx:tsx
+CA,TSX,ZXLU.F,ZXLU-F.TO,BMO SPDPR UtSI ETFHg,,tmx:tsx
+CA,TSX,ZXM.B,ZXM-B.TO,CI MornstIntlMomUnhg,,tmx:tsx
+CA,TSX,ZXM,ZXM.TO,CI MornstrIntlMomnHG,,tmx:tsx
+CA,TSX,ZYNS,ZYNS.TO,Phil Mor Hgd CDR C,,tmx:tsx
+CA,TSXV,ZYUS,ZYUS.V,ZYUS Life Sciences Corporation,,tmx:tsxv
+CA,TSX,ZZZD,ZZZD.TO,BMO Tactical Div Un,,tmx:tsx

@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-10-13",
+  "excluded_count": 1,
+  "fetched_at": "2026-10-13T23:38:29.011147+00:00",
+  "market": "NZ",
+  "path": "2026-10-13.csv",
+  "size": 170,
+  "sources": [
+    "https://www.nzx.com/markets/NZSX"
+  ],
+  "warnings": []
+}
