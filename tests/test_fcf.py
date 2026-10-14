@@ -195,18 +195,15 @@ def test_a_seasonal_business_keeps_its_quarterly_revenue():
     assert ttm.revenue == 100.0
 
 
-def test_reported_fcf_comes_before_the_providers_levered_fcf_field():
-    """Harbour Energy: Yahoo's freeCashflow field was 3x the reported CFO - CapEx."""
+def test_the_providers_levered_fcf_field_is_never_used():
+    """Yahoo's freeCashflow read +111m for a trust whose CFO was -71m."""
     metadata = CompanyMetadata(symbol="X", ttm_revenue=100.0, ttm_free_cashflow=48.0)
     annual = [make_annual(date(2025, 12, 31), 100.0, 20.0, -4.0)]
     ttm = build_ttm([], annual, metadata)
     assert ttm.fcf == pytest.approx(16.0)
     assert ttm.fcf_source == "latest_fiscal_year"
 
-
-def test_the_providers_fcf_field_is_the_last_resort():
-    metadata = CompanyMetadata(symbol="X", ttm_revenue=100.0, ttm_free_cashflow=48.0)
-    annual = [make_annual(date(2025, 12, 31), 100.0, None, -4.0)]
-    ttm = build_ttm([], annual, metadata)
-    assert ttm.fcf == pytest.approx(48.0)
-    assert ttm.fcf_source == "provider_ttm_fcf_field"
+    no_capex = [make_annual(date(2025, 12, 31), 100.0, 20.0, None)]
+    ttm = build_ttm([], no_capex, metadata)
+    assert ttm.fcf is None
+    assert "fcf_provider_field_ignored" in ttm.flags

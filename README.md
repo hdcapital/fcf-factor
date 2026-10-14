@@ -95,12 +95,14 @@ For revenue, EBITDA and free cash flow independently, in order:
 2. the **provider's own TTM figure**,
 3. the **most recent fiscal year**.
 
-For free cash flow the third rung is split. The latest fiscal year's
-`CFO - |CapEx|` comes before the provider's own `freeCashflow` field, because
-that field is not this definition: it is a levered FCF estimate (after
-interest, built from EBITDA and working capital) and was 3x the reported figure
-for Harbour Energy. Half-yearly reporters (most of the UK, Australia and New
-Zealand) have no usable quarterly window, so this rung decides their FCF.
+For free cash flow, the provider's own `freeCashflow` field is **never** used,
+not even as a last resort. It is not `CFO - |CapEx|` but a levered estimate,
+and when it was checked against the statements on 14 October 2026 it read
++A$111m for a trust whose operating cash flow was -A$71m, and about 3x the
+reported figure for Harbour Energy and Fonterra. A company with no CFO and
+CapEx is excluded (`ttm_fcf_unavailable`, flagged `fcf_provider_field_ignored`).
+Half-yearly reporters (most of the UK, Australia and New Zealand) have no
+usable quarterly window, so the latest fiscal year decides their FCF.
 
 Whichever rung was used is written into every snapshot as `ttm_source`, for
 example `revenue=quarterly_sum|ebitda=provider_ttm|fcf=latest_fiscal_year`.
@@ -495,7 +497,7 @@ fcf_factor/
 
 data/                    the research record (committed - see data/README.md)
 reports/latest/          one markdown report per market, plus an index
-tests/                   314 tests, none of which touch the network
+tests/                   313 tests, none of which touch the network
 .github/workflows/       quarterly_factor.yml, daily_prices.yml, tests.yml
 ```
 
@@ -785,7 +787,7 @@ provider switch is visible in the audit trail.
 
 ## Tests
 
-314 tests, none of which touch the network — a fixture makes any accidental HTTP
+313 tests, none of which touch the network — a fixture makes any accidental HTTP
 call fail immediately.
 
 ```bash
@@ -812,7 +814,7 @@ Every snapshot records the version that produced it in `metadata.json`.
 |---|---|---|
 | 1.0.0 | 2026-09-14 | Initial release |
 | 1.1.2 | 2026-10-13 | The minorities' earnings share ignores loss years. |
-| 1.1.3 | 2026-10-14 | Direct-method operating cash flow (most ASX and NZX companies) is read; before this nine in ten had no annual FCF history. The latest fiscal year's CFO - CapEx now comes before the provider's levered `freeCashflow` field. TTM windows must be four consecutive quarters; a TTM revenue more than 3x away from the latest fiscal year (or, with no recent fiscal year, with one quarter more than 4x the others) is rejected and the next rung of the ladder used. A provider EV is not used when the market cap and price x shares disagree. Securities that came back empty (usually provider throttling) are re-fetched after a cool-down, and a screen still missing more than 3% of its universe fails instead of publishing. |
+| 1.1.3 | 2026-10-14 | Direct-method operating cash flow (most ASX and NZX companies) is read; before this nine in ten had no annual FCF history. The provider's levered `freeCashflow` field is no longer used at all (it read +A$111m for a trust with -A$71m operating cash flow). TTM windows must be four consecutive quarters; a TTM revenue more than 3x away from the latest fiscal year (or, with no recent fiscal year, with one quarter more than 4x the others) is rejected and the next rung of the ladder used. A provider EV is not used when the market cap and price x shares disagree. Securities that came back empty (usually provider throttling) are re-fetched after a cool-down, and a screen still missing more than 3% of its universe fails instead of publishing. |
 | 1.1.1 | 2026-10-13 | Purchases and sales that cannot trade on the rebalance day wait for the first real trade instead of being redistributed or sold at a stale price. |
 | 1.1.0 | 2026-10-13 | Minority interests deducted from free cash flow instead of added to enterprise value. Lease liabilities verified to be inside debt, and added when the provider omits them. Price bars stored only after their session closes. Fixed total equity being misread as minority interest. |
 

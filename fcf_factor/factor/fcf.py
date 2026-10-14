@@ -244,20 +244,20 @@ def build_ttm(
         result.fcf_source = "provider_ttm"
         result.flags.append("fcf_ttm_from_provider")
     elif latest_fy is not None and free_cash_flow(latest_fy.operating_cashflow, latest_fy.capex) is not None:
-        # The latest fiscal year's CFO - |CapEx| comes before the provider's
-        # ``freeCashflow`` field, because that field is not this definition:
-        # it is a *levered* FCF estimate (after interest, built from EBITDA
-        # and working capital), and was 3x the reported figure for Harbour
-        # Energy.  Half-yearly reporters (most of the UK, Australia and New
-        # Zealand) have no quarterly window, so this rung decides their FCF.
+        # Half-yearly reporters (most of the UK, Australia and New Zealand)
+        # have no quarterly window, so this rung decides their FCF.
         result.operating_cashflow = latest_fy.operating_cashflow
         result.capex = latest_fy.capex
         result.fcf = free_cash_flow(latest_fy.operating_cashflow, latest_fy.capex)
         result.fcf_source = "latest_fiscal_year"
         result.flags.append("fcf_ttm_from_latest_fy")
     elif metadata is not None and metadata.ttm_free_cashflow is not None:
-        result.fcf, result.fcf_source = float(metadata.ttm_free_cashflow), "provider_ttm_fcf_field"
-        result.flags.append("fcf_ttm_from_provider_fcf_field")
+        # The provider's ``freeCashflow`` field is deliberately NOT used as a
+        # fallback.  It is not CFO - |CapEx| but a levered estimate, and on
+        # 14 Oct 2026 it read +A$111m for a trust whose operating cash flow
+        # was -A$71m, and 3x the reported figure for Harbour Energy and
+        # Fonterra.  With no CFO and CapEx, FCF is unknown, not estimated.
+        result.flags.append("fcf_provider_field_ignored")
 
     for period in (window or []):
         flag = capex_sign_flag(period.capex)
