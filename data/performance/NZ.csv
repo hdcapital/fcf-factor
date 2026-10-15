@@ -1,0 +1,2 @@
+date,market,nav,daily_return,cumulative_return,holdings,cash,reserved_cash,event,signal_date,turnover
+2026-10-14,NZ,100.5233401,0.005233400701,0.005233400701,6,2.842170943e-14,0,rebalance:2026-10-13,2026-10-13,0.5

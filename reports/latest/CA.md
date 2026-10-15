@@ -2,8 +2,8 @@
 
 _Signal generated after market close. Forward-test execution occurs at the next available market open._
 
-- Methodology version: `1.1.2`
-- Configuration hash: `a01a831b73d82521082e27573c2b5238500102705d87846b35b5a931d9d193dd`
+- Methodology version: `1.1.3`
+- Configuration hash: `4b3c6ad7e1b16be340e583aeccabb258e994e03ef840d298a3702373c8e73aa6`
 - Latest signal: **2026-10-13** (2026 Q4)
 - Signal generated at: `2026-10-13T23:38:32+00:00`
 - Data provider: `yahoo`
@@ -170,7 +170,54 @@ Previous signal: `none`
 
 ## Forward-test performance
 
-The portfolio has not executed yet. NAV starts at 100.00 on the first trading session after the first signal.
+| Metric | Value |
+|---|---|
+| NAV | 99.1016 |
+| Inception date | 2026-10-14 |
+| As at | 2026-10-14 |
+| Since-inception return | -0.90% |
+| Return since last rebalance | 0.00% |
+| Latest daily return | -0.90% |
+| Holdings | 34 |
+| Turnover at last rebalance | 50.00% |
+| Sessions recorded | 1 |
 
-Pending signal awaiting execution: `2026-10-13`
+### Current positions (drifted weights)
+
+| Ticker | Target weight | Drifted weight | Entry price | Last price |
+|---|---|---|---|---|
+| TVA-B.TO | 3.00% | 3.24% | 2.0100 | 2.1500 |
+| HLF.TO | 3.00% | 3.12% | 14.5900 | 15.0400 |
+| DTOL.TO | 3.00% | 3.12% | 10.8000 | 11.1300 |
+| LAS-A.TO | 3.00% | 3.11% | 233.0000 | 239.3400 |
+| HLS.TO | 3.00% | 3.06% | 4.0500 | 4.1000 |
+| ENGH.TO | 3.00% | 3.05% | 17.0600 | 17.2000 |
+| WJX.TO | 3.00% | 3.04% | 36.8800 | 37.0500 |
+| WRG.TO | 3.00% | 3.03% | 3.4000 | 3.4000 |
+| LNF.TO | 3.00% | 3.02% | 25.5700 | 25.5500 |
+| MTY.TO | 3.00% | 3.02% | 31.5500 | 31.4300 |
+| DPM.TO | 3.00% | 3.01% | 57.1700 | 56.8800 |
+| MG.TO | 3.00% | 3.01% | 92.3300 | 91.7000 |
+| FVI.TO | 3.00% | 3.00% | 14.6200 | 14.4800 |
+| PIF.TO | 3.00% | 3.00% | 13.3900 | 13.2600 |
+| WGX.TO | 3.00% | 3.00% | 4.8300 | 4.7800 |
+| DOO.TO | 3.00% | 3.00% | 75.5000 | 74.7000 |
+| CPH.TO | 3.00% | 2.99% | 13.5000 | 13.3500 |
+| SBI.TO | 3.00% | 2.99% | 4.2300 | 4.1800 |
+| LNR.TO | 3.00% | 2.99% | 93.2000 | 92.0700 |
+| HME.V | 3.00% | 2.97% | 2.2800 | 2.2400 |
+| BOS.TO | 3.00% | 2.97% | 6.9300 | 6.8000 |
+| AFM.V | 3.00% | 2.96% | 1.4500 | 1.4200 |
+| BTO.TO | 3.00% | 2.96% | 7.2400 | 7.0900 |
+| K.TO | 3.00% | 2.95% | 32.4400 | 31.6400 |
+| OGC.TO | 3.00% | 2.95% | 37.2500 | 36.2700 |
+| SOIL.TO | 3.00% | 2.94% | 8.1000 | 7.8800 |
+| CAS.TO | 3.00% | 2.94% | 18.2300 | 17.7000 |
+| IMG.TO | 3.00% | 2.92% | 25.1500 | 24.2400 |
+| PSD.TO | 2.87% | 2.89% | 3.1100 | 3.1000 |
+| MMY.V | 3.00% | 2.87% | 0.7800 | 0.7400 |
+| MJS.V | 2.81% | 2.84% | 0.0900 | 0.0900 |
+| THX.V | 3.00% | 2.75% | 1.0900 | 0.9900 |
+| CEMX.TO | 2.23% | 2.20% | 0.4900 | 0.4800 |
+| HAI.TO | 2.09% | 2.08% | 3.9800 | 3.9300 |
 

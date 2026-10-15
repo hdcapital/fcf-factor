@@ -2,8 +2,8 @@
 
 _Signal generated after market close. Forward-test execution occurs at the next available market open._
 
-- Methodology version: `1.1.0`
-- Configuration hash: `9703847e245dccba74be302da8c006c20f6817b02e381b95dc00c5ba6e4d205b`
+- Methodology version: `1.1.3`
+- Configuration hash: `4b3c6ad7e1b16be340e583aeccabb258e994e03ef840d298a3702373c8e73aa6`
 - Latest signal: **2026-10-13** (2026 Q4)
 - Signal generated at: `2026-10-13T22:25:29+00:00`
 - Data provider: `yahoo`
@@ -163,7 +163,54 @@ Previous signal: `none`
 
 ## Forward-test performance
 
-The portfolio has not executed yet. NAV starts at 100.00 on the first trading session after the first signal.
+| Metric | Value |
+|---|---|
+| NAV | 99.2626 |
+| Inception date | 2026-10-14 |
+| As at | 2026-10-14 |
+| Since-inception return | -0.74% |
+| Return since last rebalance | 0.00% |
+| Latest daily return | -0.74% |
+| Holdings | 34 |
+| Turnover at last rebalance | 50.00% |
+| Sessions recorded | 1 |
 
-Pending signal awaiting execution: `2026-10-13`
+### Current positions (drifted weights)
+
+| Ticker | Target weight | Drifted weight | Entry price | Last price |
+|---|---|---|---|---|
+| NXL.AX | 3.00% | 3.17% | 1.6150 | 1.6950 |
+| AEL.AX | 3.00% | 3.12% | 1.7700 | 1.8250 |
+| THL.AX | 3.00% | 3.08% | 2.2200 | 2.2600 |
+| UOS.AX | 3.00% | 3.05% | 0.6050 | 0.6100 |
+| PMV.AX | 3.00% | 3.04% | 12.5000 | 12.5700 |
+| CUV.AX | 2.96% | 3.02% | 7.5100 | 7.6100 |
+| DGL.AX | 3.00% | 3.02% | 0.2550 | 0.2550 |
+| FEX.AX | 3.00% | 3.02% | 0.2100 | 0.2100 |
+| OCA.AX | 3.00% | 3.02% | 0.5350 | 0.5350 |
+| CAA.AX | 3.00% | 3.02% | 12.1000 | 12.0800 |
+| AX1.AX | 3.00% | 3.01% | 0.6525 | 0.6500 |
+| FWD.AX | 3.00% | 3.01% | 2.2700 | 2.2600 |
+| FRI.AX | 3.00% | 3.00% | 0.7050 | 0.7000 |
+| FML.AX | 3.00% | 3.00% | 1.7600 | 1.7450 |
+| GDF.AX | 3.00% | 2.99% | 1.0200 | 1.0100 |
+| HLO.AX | 3.00% | 2.99% | 1.3700 | 1.3550 |
+| IPH.AX | 3.00% | 2.99% | 3.5000 | 3.4600 |
+| RRL.AX | 3.00% | 2.98% | 7.1700 | 7.0700 |
+| WGX.AX | 3.00% | 2.97% | 5.0500 | 4.9700 |
+| BOL.AX | 3.00% | 2.97% | 2.5000 | 2.4600 |
+| SRV.AX | 3.00% | 2.97% | 5.5000 | 5.4100 |
+| WAF.AX | 3.00% | 2.97% | 3.6600 | 3.6000 |
+| SKT.AX | 2.96% | 2.96% | 2.8900 | 2.8700 |
+| SEG.AX | 2.93% | 2.95% | 0.2450 | 0.2450 |
+| KGN.AX | 2.93% | 2.95% | 3.3200 | 3.3100 |
+| JIN.AX | 3.00% | 2.94% | 6.0000 | 5.8400 |
+| ANG.AX | 2.91% | 2.93% | 0.1500 | 0.1500 |
+| REG.AX | 3.00% | 2.93% | 4.4900 | 4.3500 |
+| MLG.AX | 3.00% | 2.88% | 0.7650 | 0.7300 |
+| MXI.AX | 2.78% | 2.80% | 1.8000 | 1.8000 |
+| AR1.AX | 2.68% | 2.70% | 0.0640 | 0.0640 |
+| SSG.AX | 2.60% | 2.62% | 1.3100 | 1.3100 |
+| EDU.AX | 3.00% | 2.53% | 0.9300 | 0.7800 |
+| ATG.AX | 2.25% | 2.38% | 0.3800 | 0.4000 |
 

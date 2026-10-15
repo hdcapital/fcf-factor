@@ -2,8 +2,8 @@
 
 _Signal generated after market close. Forward-test execution occurs at the next available market open._
 
-- Methodology version: `1.1.2`
-- Configuration hash: `a01a831b73d82521082e27573c2b5238500102705d87846b35b5a931d9d193dd`
+- Methodology version: `1.1.3`
+- Configuration hash: `4b3c6ad7e1b16be340e583aeccabb258e994e03ef840d298a3702373c8e73aa6`
 - Latest signal: **2026-10-13** (2026 Q4)
 - Signal generated at: `2026-10-13T23:38:34+00:00`
 - Data provider: `yahoo`
@@ -127,7 +127,26 @@ Previous signal: `none`
 
 ## Forward-test performance
 
-The portfolio has not executed yet. NAV starts at 100.00 on the first trading session after the first signal.
+| Metric | Value |
+|---|---|
+| NAV | 100.5233 |
+| Inception date | 2026-10-14 |
+| As at | 2026-10-14 |
+| Since-inception return | 0.52% |
+| Return since last rebalance | 0.00% |
+| Latest daily return | 0.52% |
+| Holdings | 6 |
+| Turnover at last rebalance | 50.00% |
+| Sessions recorded | 1 |
 
-Pending signal awaiting execution: `2026-10-13`
+### Current positions (drifted weights)
+
+| Ticker | Target weight | Drifted weight | Entry price | Last price |
+|---|---|---|---|---|
+| FCG.NZ | 16.67% | 17.54% | 5.2000 | 5.5000 |
+| SPK.NZ | 16.67% | 16.62% | 1.9400 | 1.9450 |
+| CMO.NZ | 16.67% | 16.58% | 7.3800 | 7.3800 |
+| LIC.NZ | 16.67% | 16.58% | 1.1200 | 1.1200 |
+| MHJ.NZ | 16.67% | 16.39% | 0.4300 | 0.4250 |
+| WIN.NZ | 16.67% | 16.29% | 1.1600 | 1.1400 |
 

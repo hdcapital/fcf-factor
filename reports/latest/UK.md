@@ -2,8 +2,8 @@
 
 _Signal generated after market close. Forward-test execution occurs at the next available market open._
 
-- Methodology version: `1.1.2`
-- Configuration hash: `a01a831b73d82521082e27573c2b5238500102705d87846b35b5a931d9d193dd`
+- Methodology version: `1.1.3`
+- Configuration hash: `4b3c6ad7e1b16be340e583aeccabb258e994e03ef840d298a3702373c8e73aa6`
 - Latest signal: **2026-10-13** (2026 Q4)
 - Signal generated at: `2026-10-14T02:53:43+00:00`
 - Data provider: `yahoo`
