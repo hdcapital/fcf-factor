@@ -1,0 +1,2 @@
+date,market,nav,daily_return,cumulative_return,holdings,cash,reserved_cash,event,signal_date,turnover
+2026-10-14,UK,99.76457484,-0.002354251586,-0.002354251586,48,1.33226763e-15,0,rebalance:2026-10-13,2026-10-13,0.5

@@ -1,16 +1,856 @@
 {
-  "active_signal_date": null,
-  "cash": 100.0,
+  "active_signal_date": "2026-10-13",
+  "cash": 1.3322676295501878e-15,
   "currency": "GBP",
-  "executions": [],
+  "executions": [
+    {
+      "awaiting_first_trade": [],
+      "bought": [
+        "ACSO.L",
+        "AO.L",
+        "AVAP.L",
+        "BKG.L",
+        "BRCK.L",
+        "CARD.L",
+        "CFX.L",
+        "CHH.L",
+        "CNE.L",
+        "CURY.L",
+        "DFS.L",
+        "DOCS.L",
+        "ECEL.L",
+        "ELIX.L",
+        "FGP.L",
+        "FOXT.L",
+        "GFRD.L",
+        "HBR.L",
+        "HFD.L",
+        "INCH.L",
+        "JD.L",
+        "KETL.L",
+        "KIE.L",
+        "MER.L",
+        "MHA.L",
+        "MSI.L",
+        "OTB.L",
+        "PAY.L",
+        "PROC.L",
+        "PWR.L",
+        "RNK.L",
+        "SAGA.L",
+        "SDY.L",
+        "SFOR.L",
+        "SNWS.L",
+        "SPR.L",
+        "SPSY.L",
+        "SRB.L",
+        "SRP.L",
+        "STCM.L",
+        "SUP.L",
+        "THX.L",
+        "TRCS.L",
+        "VTU.L",
+        "WINE.L",
+        "WIX.L",
+        "WRKS.L",
+        "YU.L"
+      ],
+      "cancelled_unfilled_purchases": [],
+      "execution_date": "2026-10-14",
+      "execution_methodology_version": "1.1.3",
+      "held_without_trade": [],
+      "nav_after": 100.0,
+      "nav_before": 100.0,
+      "positions": [
+        {
+          "execution_open_price": 3.025,
+          "shares": 0.6591145686009734,
+          "target_weight": 0.019938215700179444,
+          "ticker": "ACSO.L"
+        },
+        {
+          "execution_open_price": 0.9009999847,
+          "shares": 2.1577334306668354,
+          "target_weight": 0.01944117788017497,
+          "ticker": "AO.L"
+        },
+        {
+          "execution_open_price": 1.4,
+          "shares": 1.8946196328741947,
+          "target_weight": 0.026524674860238722,
+          "ticker": "AVAP.L"
+        },
+        {
+          "execution_open_price": 31.94,
+          "shares": 0.07226092695744435,
+          "target_weight": 0.023080140070207724,
+          "ticker": "BKG.L"
+        },
+        {
+          "execution_open_price": 0.4540000153,
+          "shares": 3.7161087734773566,
+          "target_weight": 0.01687113440015184,
+          "ticker": "BRCK.L"
+        },
+        {
+          "execution_open_price": 0.875,
+          "shares": 2.259787990877481,
+          "target_weight": 0.019773144920177958,
+          "ticker": "CARD.L"
+        },
+        {
+          "execution_open_price": 13.55,
+          "shares": 0.07506843409661657,
+          "target_weight": 0.010171772820091546,
+          "ticker": "CFX.L"
+        },
+        {
+          "execution_open_price": 3.6,
+          "shares": 0.21388822783525832,
+          "target_weight": 0.0076999762020692995,
+          "ticker": "CHH.L"
+        },
+        {
+          "execution_open_price": 4.3,
+          "shares": 0.6069834474473234,
+          "target_weight": 0.0261002882402349,
+          "ticker": "CNE.L"
+        },
+        {
+          "execution_open_price": 1.45,
+          "shares": 1.5917337979453603,
+          "target_weight": 0.023080140070207724,
+          "ticker": "CURY.L"
+        },
+        {
+          "execution_open_price": 1.45,
+          "shares": 1.222171925528241,
+          "target_weight": 0.017721492920159496,
+          "ticker": "DFS.L"
+        },
+        {
+          "execution_open_price": 0.6819999695,
+          "shares": 2.832889251349722,
+          "target_weight": 0.01932030383017388,
+          "ticker": "DOCS.L"
+        },
+        {
+          "execution_open_price": 1.415,
+          "shares": 1.7143199116762062,
+          "target_weight": 0.02425762675021832,
+          "ticker": "ECEL.L"
+        },
+        {
+          "execution_open_price": 5.22,
+          "shares": 0.44040663965913607,
+          "target_weight": 0.022989226590206902,
+          "ticker": "ELIX.L"
+        },
+        {
+          "execution_open_price": 1.936000061,
+          "shares": 1.5495867280486617,
+          "target_weight": 0.030000000000269998,
+          "ticker": "FGP.L"
+        },
+        {
+          "execution_open_price": 0.37,
+          "shares": 4.964313024369003,
+          "target_weight": 0.01836795819016531,
+          "ticker": "FOXT.L"
+        },
+        {
+          "execution_open_price": 6.72,
+          "shares": 0.4098109345274978,
+          "target_weight": 0.027539294800247853,
+          "ticker": "GFRD.L"
+        },
+        {
+          "execution_open_price": 2.92,
+          "shares": 1.027397260283219,
+          "target_weight": 0.030000000000269998,
+          "ticker": "HBR.L"
+        },
+        {
+          "execution_open_price": 2.615,
+          "shares": 0.849750723143403,
+          "target_weight": 0.02222098141019999,
+          "ticker": "HFD.L"
+        },
+        {
+          "execution_open_price": 6.755,
+          "shares": 0.3416749085152883,
+          "target_weight": 0.023080140070207724,
+          "ticker": "INCH.L"
+        },
+        {
+          "execution_open_price": 0.8859999847,
+          "shares": 2.6049819942178294,
+          "target_weight": 0.023080140070207724,
+          "ticker": "JD.L"
+        },
+        {
+          "execution_open_price": 0.3275,
+          "shares": 5.89471274509122,
+          "target_weight": 0.019305184240173745,
+          "ticker": "KETL.L"
+        },
+        {
+          "execution_open_price": 3.032000122,
+          "shares": 0.9894458704863468,
+          "target_weight": 0.030000000000269998,
+          "ticker": "KIE.L"
+        },
+        {
+          "execution_open_price": 4.02,
+          "shares": 0.3830226335855368,
+          "target_weight": 0.015397509870138578,
+          "ticker": "MER.L"
+        },
+        {
+          "execution_open_price": 1.33,
+          "shares": 2.255639097764661,
+          "target_weight": 0.030000000000269998,
+          "ticker": "MHA.L"
+        },
+        {
+          "execution_open_price": 15.4,
+          "shares": 0.13359084766353996,
+          "target_weight": 0.020572990540185156,
+          "ticker": "MSI.L"
+        },
+        {
+          "execution_open_price": 1.683999939,
+          "shares": 0.6438082335404157,
+          "target_weight": 0.010841730260097576,
+          "ticker": "OTB.L"
+        },
+        {
+          "execution_open_price": 6.9,
+          "shares": 0.43478260869956514,
+          "target_weight": 0.030000000000269998,
+          "ticker": "PAY.L"
+        },
+        {
+          "execution_open_price": 0.4,
+          "shares": 2.059771893768538,
+          "target_weight": 0.008239087575074152,
+          "ticker": "PROC.L"
+        },
+        {
+          "execution_open_price": 0.625,
+          "shares": 0.9938273622489445,
+          "target_weight": 0.006211421014055903,
+          "ticker": "PWR.L"
+        },
+        {
+          "execution_open_price": 0.7319999695,
+          "shares": 2.150349551365885,
+          "target_weight": 0.015740558060141664,
+          "ticker": "RNK.L"
+        },
+        {
+          "execution_open_price": 8.0,
+          "shares": 0.28850175087759655,
+          "target_weight": 0.023080140070207724,
+          "ticker": "SAGA.L"
+        },
+        {
+          "execution_open_price": 0.1480000019,
+          "shares": 19.943944176574806,
+          "target_weight": 0.029517037760265655,
+          "ticker": "SDY.L"
+        },
+        {
+          "execution_open_price": 0.48,
+          "shares": 6.25000000005625,
+          "target_weight": 0.030000000000269998,
+          "ticker": "SFOR.L"
+        },
+        {
+          "execution_open_price": 0.7680000305,
+          "shares": 3.400502400140861,
+          "target_weight": 0.026115859470235044,
+          "ticker": "SNWS.L"
+        },
+        {
+          "execution_open_price": 1.1325,
+          "shares": 1.2540129872077543,
+          "target_weight": 0.014201697080127817,
+          "ticker": "SPR.L"
+        },
+        {
+          "execution_open_price": 1.54,
+          "shares": 1.130464472737447,
+          "target_weight": 0.017409152880156684,
+          "ticker": "SPSY.L"
+        },
+        {
+          "execution_open_price": 2.3,
+          "shares": 0.9995565317481264,
+          "target_weight": 0.022989800230206907,
+          "ticker": "SRB.L"
+        },
+        {
+          "execution_open_price": 2.582000122,
+          "shares": 1.161889952856865,
+          "target_weight": 0.030000000000269998,
+          "ticker": "SRP.L"
+        },
+        {
+          "execution_open_price": 0.425,
+          "shares": 3.529926423561182,
+          "target_weight": 0.015002187300135021,
+          "ticker": "STCM.L"
+        },
+        {
+          "execution_open_price": 1.36,
+          "shares": 1.5037491728076513,
+          "target_weight": 0.02045098875018406,
+          "ticker": "SUP.L"
+        },
+        {
+          "execution_open_price": 0.58,
+          "shares": 5.17241379315,
+          "target_weight": 0.030000000000269998,
+          "ticker": "THX.L"
+        },
+        {
+          "execution_open_price": 3.25,
+          "shares": 0.4214499215422546,
+          "target_weight": 0.013697122450123275,
+          "ticker": "TRCS.L"
+        },
+        {
+          "execution_open_price": 0.8569999695,
+          "shares": 1.7924282481713965,
+          "target_weight": 0.015361109540138251,
+          "ticker": "VTU.L"
+        },
+        {
+          "execution_open_price": 0.6,
+          "shares": 2.8970430450260736,
+          "target_weight": 0.01738225827015644,
+          "ticker": "WINE.L"
+        },
+        {
+          "execution_open_price": 2.05,
+          "shares": 0.9721162341550907,
+          "target_weight": 0.019928382800179358,
+          "ticker": "WIX.L"
+        },
+        {
+          "execution_open_price": 0.9059999847,
+          "shares": 1.360811663169442,
+          "target_weight": 0.012328953460110962,
+          "ticker": "WRKS.L"
+        },
+        {
+          "execution_open_price": 16.65,
+          "shares": 0.14996395543678512,
+          "target_weight": 0.02496899858022472,
+          "ticker": "YU.L"
+        }
+      ],
+      "recorded_at": "2026-10-16T01:37:33+00:00",
+      "retained": [],
+      "sale_awaiting_trade": [],
+      "signal_date": "2026-10-13",
+      "signal_timestamp": "2026-10-14T02:53:43+00:00",
+      "sold": [],
+      "transaction_cost": 0.0,
+      "transaction_cost_bps": 0.0,
+      "turnover": 0.5
+    }
+  ],
   "fills": [],
-  "inception_date": null,
-  "last_processed_date": null,
+  "inception_date": "2026-10-14",
+  "last_processed_date": "2026-10-14",
   "market": "UK",
   "methodology_version": "1.1.2",
-  "nav": 100.0,
-  "positions": {},
+  "nav": 99.76457484139472,
+  "positions": {
+    "ACSO.L": {
+      "drifted_weight": 0.02015043353243307,
+      "entry_date": "2026-10-14",
+      "entry_price": 3.025,
+      "last_price": 3.05,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 3.025,
+      "shares": 0.6591145686009734,
+      "target_weight": 0.019938215700179444
+    },
+    "AO.L": {
+      "drifted_weight": 0.019465427389305987,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.9009999847,
+      "last_price": 0.9,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.9009999847,
+      "shares": 2.1577334306668354,
+      "target_weight": 0.01944117788017497
+    },
+    "AVAP.L": {
+      "drifted_weight": 0.02677717703503088,
+      "entry_date": "2026-10-14",
+      "entry_price": 1.4,
+      "last_price": 1.41,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 1.4,
+      "shares": 1.8946196328741947,
+      "target_weight": 0.026524674860238722
+    },
+    "BKG.L": {
+      "drifted_weight": 0.023438816835138317,
+      "entry_date": "2026-10-14",
+      "entry_price": 31.94,
+      "last_price": 32.36,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 31.94,
+      "shares": 0.07226092695744435,
+      "target_weight": 0.023080140070207724
+    },
+    "BRCK.L": {
+      "drifted_weight": 0.01705994129395128,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.4540000153,
+      "last_price": 0.4579999924,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.4540000153,
+      "shares": 3.7161087734773566,
+      "target_weight": 0.01687113440015184
+    },
+    "CARD.L": {
+      "drifted_weight": 0.01993306176198989,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.875,
+      "last_price": 0.88,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.875,
+      "shares": 2.259787990877481,
+      "target_weight": 0.019773144920177958
+    },
+    "CFX.L": {
+      "drifted_weight": 0.010045285080230797,
+      "entry_date": "2026-10-14",
+      "entry_price": 13.55,
+      "last_price": 13.35,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 13.55,
+      "shares": 0.07506843409661657,
+      "target_weight": 0.010171772820091546
+    },
+    "CHH.L": {
+      "drifted_weight": 0.007718146661087553,
+      "entry_date": "2026-10-14",
+      "entry_price": 3.6,
+      "last_price": 3.6,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 3.6,
+      "shares": 0.21388822783525832,
+      "target_weight": 0.0076999762020692995
+    },
+    "CNE.L": {
+      "drifted_weight": 0.02604019672518684,
+      "entry_date": "2026-10-14",
+      "entry_price": 4.3,
+      "last_price": 4.28,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 4.3,
+      "shares": 0.6069834474473234,
+      "target_weight": 0.0261002882402349
+    },
+    "CURY.L": {
+      "drifted_weight": 0.023421793441633535,
+      "entry_date": "2026-10-14",
+      "entry_price": 1.45,
+      "last_price": 1.468000031,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 1.45,
+      "shares": 1.5917337979453603,
+      "target_weight": 0.023080140070207724
+    },
+    "DFS.L": {
+      "drifted_weight": 0.017885817827701034,
+      "entry_date": "2026-10-14",
+      "entry_price": 1.45,
+      "last_price": 1.46,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 1.45,
+      "shares": 1.222171925528241,
+      "target_weight": 0.017721492920159496
+    },
+    "DOCS.L": {
+      "drifted_weight": 0.019309105401194133,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.6819999695,
+      "last_price": 0.68,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.6819999695,
+      "shares": 2.832889251349722,
+      "target_weight": 0.01932030383017388
+    },
+    "ECEL.L": {
+      "drifted_weight": 0.024314870071649168,
+      "entry_date": "2026-10-14",
+      "entry_price": 1.415,
+      "last_price": 1.415,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 1.415,
+      "shares": 1.7143199116762062,
+      "target_weight": 0.02425762675021832
+    },
+    "ELIX.L": {
+      "drifted_weight": 0.02233716326880579,
+      "entry_date": "2026-10-14",
+      "entry_price": 5.22,
+      "last_price": 5.06,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 5.22,
+      "shares": 0.44040663965913607,
+      "target_weight": 0.022989226590206902
+    },
+    "FGP.L": {
+      "drifted_weight": 0.030645493827220083,
+      "entry_date": "2026-10-14",
+      "entry_price": 1.936000061,
+      "last_price": 1.973000031,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 1.936000061,
+      "shares": 1.5495867280486617,
+      "target_weight": 0.030000000000269998
+    },
+    "FOXT.L": {
+      "drifted_weight": 0.018162501637233,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.37,
+      "last_price": 0.365,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.37,
+      "shares": 4.964313024369003,
+      "target_weight": 0.01836795819016531
+    },
+    "GFRD.L": {
+      "drifted_weight": 0.028097215836627894,
+      "entry_date": "2026-10-14",
+      "entry_price": 6.72,
+      "last_price": 6.84,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 6.72,
+      "shares": 0.4098109345274978,
+      "target_weight": 0.027539294800247853
+    },
+    "HBR.L": {
+      "drifted_weight": 0.030544512834498435,
+      "entry_date": "2026-10-14",
+      "entry_price": 2.92,
+      "last_price": 2.966000061,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 2.92,
+      "shares": 1.027397260283219,
+      "target_weight": 0.030000000000269998
+    },
+    "HFD.L": {
+      "drifted_weight": 0.02231600643991269,
+      "entry_date": "2026-10-14",
+      "entry_price": 2.615,
+      "last_price": 2.62,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 2.615,
+      "shares": 0.849750723143403,
+      "target_weight": 0.02222098141019999
+    },
+    "INCH.L": {
+      "drifted_weight": 0.02275787543517937,
+      "entry_date": "2026-10-14",
+      "entry_price": 6.755,
+      "last_price": 6.645,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 6.755,
+      "shares": 0.3416749085152883,
+      "target_weight": 0.023080140070207724
+    },
+    "JD.L": {
+      "drifted_weight": 0.02309282771876143,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.8859999847,
+      "last_price": 0.8844000244,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.8859999847,
+      "shares": 2.6049819942178294,
+      "target_weight": 0.023080140070207724
+    },
+    "KETL.L": {
+      "drifted_weight": 0.019734802159780827,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.3275,
+      "last_price": 0.3340000153,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.3275,
+      "shares": 5.89471274509122,
+      "target_weight": 0.019305184240173745
+    },
+    "KIE.L": {
+      "drifted_weight": 0.02985260123544539,
+      "entry_date": "2026-10-14",
+      "entry_price": 3.032000122,
+      "last_price": 3.01,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 3.032000122,
+      "shares": 0.9894458704863468,
+      "target_weight": 0.030000000000269998
+    },
+    "MER.L": {
+      "drifted_weight": 0.0157409862187786,
+      "entry_date": "2026-10-14",
+      "entry_price": 4.02,
+      "last_price": 4.1,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 4.02,
+      "shares": 0.3830226335855368,
+      "target_weight": 0.015397509870138578
+    },
+    "MHA.L": {
+      "drifted_weight": 0.030070794215245104,
+      "entry_date": "2026-10-14",
+      "entry_price": 1.33,
+      "last_price": 1.33,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 1.33,
+      "shares": 2.255639097764661,
+      "target_weight": 0.030000000000269998
+    },
+    "MSI.L": {
+      "drifted_weight": 0.020286773589926286,
+      "entry_date": "2026-10-14",
+      "entry_price": 15.4,
+      "last_price": 15.15,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 15.4,
+      "shares": 0.13359084766353996,
+      "target_weight": 0.020572990540185156
+    },
+    "OTB.L": {
+      "drifted_weight": 0.010699530097382427,
+      "entry_date": "2026-10-14",
+      "entry_price": 1.683999939,
+      "last_price": 1.658000031,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 1.683999939,
+      "shares": 0.6438082335404157,
+      "target_weight": 0.010841730260097576
+    },
+    "PAY.L": {
+      "drifted_weight": 0.0302233272293804,
+      "entry_date": "2026-10-14",
+      "entry_price": 6.9,
+      "last_price": 6.935,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 6.9,
+      "shares": 0.43478260869956514,
+      "target_weight": 0.030000000000269998
+    },
+    "PROC.L": {
+      "drifted_weight": 0.008671456744622273,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.4,
+      "last_price": 0.42,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.4,
+      "shares": 2.059771893768538,
+      "target_weight": 0.008239087575074152
+    },
+    "PWR.L": {
+      "drifted_weight": 0.006275887400033768,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.625,
+      "last_price": 0.63,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.625,
+      "shares": 0.9938273622489445,
+      "target_weight": 0.006211421014055903
+    },
+    "RNK.L": {
+      "drifted_weight": 0.015928583406345332,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.7319999695,
+      "last_price": 0.7390000153,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.7319999695,
+      "shares": 2.150349551365885,
+      "target_weight": 0.015740558060141664
+    },
+    "SAGA.L": {
+      "drifted_weight": 0.022642994399193095,
+      "entry_date": "2026-10-14",
+      "entry_price": 8.0,
+      "last_price": 7.83,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 8.0,
+      "shares": 0.28850175087759655,
+      "target_weight": 0.023080140070207724
+    },
+    "SDY.L": {
+      "drifted_weight": 0.027987411254540247,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.1480000019,
+      "last_price": 0.14,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.1480000019,
+      "shares": 19.943944176574806,
+      "target_weight": 0.029517037760265655
+    },
+    "SFOR.L": {
+      "drifted_weight": 0.03107315306391338,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.48,
+      "last_price": 0.4959999847,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.48,
+      "shares": 6.25000000005625,
+      "target_weight": 0.030000000000269998
+    },
+    "SNWS.L": {
+      "drifted_weight": 0.025768463069840354,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.7680000305,
+      "last_price": 0.7559999847,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.7680000305,
+      "shares": 3.400502400140861,
+      "target_weight": 0.026115859470235044
+    },
+    "SPR.L": {
+      "drifted_weight": 0.014360907568268348,
+      "entry_date": "2026-10-14",
+      "entry_price": 1.1325,
+      "last_price": 1.1425,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 1.1325,
+      "shares": 1.2540129872077543,
+      "target_weight": 0.014201697080127817
+    },
+    "SPSY.L": {
+      "drifted_weight": 0.018413397452139834,
+      "entry_date": "2026-10-14",
+      "entry_price": 1.54,
+      "last_price": 1.625,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 1.54,
+      "shares": 1.130464472737447,
+      "target_weight": 0.017409152880156684
+    },
+    "SRB.L": {
+      "drifted_weight": 0.022042136433116442,
+      "entry_date": "2026-10-14",
+      "entry_price": 2.3,
+      "last_price": 2.2,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 2.3,
+      "shares": 0.9995565317481264,
+      "target_weight": 0.022989800230206907
+    },
+    "SRP.L": {
+      "drifted_weight": 0.030536646930882507,
+      "entry_date": "2026-10-14",
+      "entry_price": 2.582000122,
+      "last_price": 2.622000122,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 2.582000122,
+      "shares": 1.161889952856865,
+      "target_weight": 0.030000000000269998
+    },
+    "STCM.L": {
+      "drifted_weight": 0.014506851113844244,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.425,
+      "last_price": 0.41,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.425,
+      "shares": 3.529926423561182,
+      "target_weight": 0.015002187300135021
+    },
+    "SUP.L": {
+      "drifted_weight": 0.02049924913998476,
+      "entry_date": "2026-10-14",
+      "entry_price": 1.36,
+      "last_price": 1.36,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 1.36,
+      "shares": 1.5037491728076513,
+      "target_weight": 0.02045098875018406
+    },
+    "THX.L": {
+      "drifted_weight": 0.02799694633833165,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.58,
+      "last_price": 0.54,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.58,
+      "shares": 5.17241379315,
+      "target_weight": 0.030000000000269998
+    },
+    "TRCS.L": {
+      "drifted_weight": 0.013307000555744988,
+      "entry_date": "2026-10-14",
+      "entry_price": 3.25,
+      "last_price": 3.15,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 3.25,
+      "shares": 0.4214499215422546,
+      "target_weight": 0.013697122450123275
+    },
+    "VTU.L": {
+      "drifted_weight": 0.015235660669479742,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.8569999695,
+      "last_price": 0.8480000305,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.8569999695,
+      "shares": 1.7924282481713965,
+      "target_weight": 0.015361109540138251
+    },
+    "WINE.L": {
+      "drifted_weight": 0.017539432672392517,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.6,
+      "last_price": 0.6040000153,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.6,
+      "shares": 2.8970430450260736,
+      "target_weight": 0.01738225827015644
+    },
+    "WIX.L": {
+      "drifted_weight": 0.019780527892512247,
+      "entry_date": "2026-10-14",
+      "entry_price": 2.05,
+      "last_price": 2.03,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 2.05,
+      "shares": 0.9721162341550907,
+      "target_weight": 0.019928382800179358
+    },
+    "WRKS.L": {
+      "drifted_weight": 0.01235804741283314,
+      "entry_date": "2026-10-14",
+      "entry_price": 0.9059999847,
+      "last_price": 0.9059999847,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 0.9059999847,
+      "shares": 1.360811663169442,
+      "target_weight": 0.012328953460110962
+    },
+    "YU.L": {
+      "drifted_weight": 0.024952761681270863,
+      "entry_date": "2026-10-14",
+      "entry_price": 16.65,
+      "last_price": 16.6,
+      "last_price_date": "2026-10-14",
+      "rebalance_price": 16.65,
+      "shares": 0.14996395543678512,
+      "target_weight": 0.02496899858022472
+    }
+  },
   "reserved_cash": {},
   "starting_nav": 100.0,
-  "updated_at": "2026-10-15T01:44:23+00:00"
+  "updated_at": "2026-10-16T01:37:33+00:00"
 }
