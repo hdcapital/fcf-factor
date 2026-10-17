@@ -318,15 +318,15 @@ Previous signal: `none`
 
 | Metric | Value |
 |---|---|
-| NAV | 102.4107 |
+| NAV | 102.4122 |
 | Inception date | 2026-10-14 |
-| As at | 2026-10-15 |
+| As at | 2026-10-16 |
 | Since-inception return | 2.41% |
 | Return since last rebalance | 2.76% |
-| Latest daily return | 2.76% |
+| Latest daily return | 0.00% |
 | Holdings | 180 |
 | Turnover at last rebalance | 50.00% |
-| Sessions recorded | 2 |
+| Sessions recorded | 3 |
 
 ### Current positions (drifted weights)
 
@@ -451,7 +451,7 @@ Previous signal: `none`
 | AMPH | 0.38% | 0.38% | 25.8900 | 26.4200 |
 | GCT | 0.37% | 0.38% | 56.0800 | 59.3400 |
 | MQ | 0.38% | 0.38% | 18.4200 | 18.9900 |
-| MLR | 0.39% | 0.36% | 53.1100 | 51.2700 |
+| MLR | 0.39% | 0.37% | 53.1100 | 51.4700 |
 | GASS | 0.39% | 0.36% | 8.9500 | 8.5600 |
 | TOYO | 0.38% | 0.35% | 4.2900 | 4.1200 |
 | HMH | 0.39% | 0.35% | 18.9100 | 17.3400 |
