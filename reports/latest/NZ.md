@@ -129,24 +129,24 @@ Previous signal: `none`
 
 | Metric | Value |
 |---|---|
-| NAV | 101.9728 |
+| NAV | 103.1253 |
 | Inception date | 2026-10-14 |
-| As at | 2026-10-27 |
-| Since-inception return | 1.97% |
-| Return since last rebalance | 1.44% |
-| Latest daily return | 0.57% |
+| As at | 2026-10-28 |
+| Since-inception return | 3.13% |
+| Return since last rebalance | 2.59% |
+| Latest daily return | 1.13% |
 | Holdings | 6 |
 | Turnover at last rebalance | 50.00% |
-| Sessions recorded | 9 |
+| Sessions recorded | 10 |
 
 ### Current positions (drifted weights)
 
 | Ticker | Target weight | Drifted weight | Entry price | Last price |
 |---|---|---|---|---|
-| FCG.NZ | 16.67% | 18.76% | 5.2000 | 5.9700 |
-| WIN.NZ | 16.67% | 16.77% | 1.1600 | 1.1900 |
-| LIC.NZ | 16.67% | 16.49% | 1.1200 | 1.1300 |
-| MHJ.NZ | 16.67% | 16.15% | 0.4300 | 0.4250 |
-| SPK.NZ | 16.67% | 15.92% | 1.9400 | 1.8900 |
-| CMO.NZ | 16.67% | 15.90% | 7.3800 | 7.1800 |
+| FCG.NZ | 16.67% | 18.46% | 5.2000 | 5.9400 |
+| WIN.NZ | 16.67% | 17.42% | 1.1600 | 1.2500 |
+| LIC.NZ | 16.67% | 16.31% | 1.1200 | 1.1300 |
+| SPK.NZ | 16.67% | 16.12% | 1.9400 | 1.9350 |
+| MHJ.NZ | 16.67% | 15.97% | 0.4300 | 0.4250 |
+| CMO.NZ | 16.67% | 15.72% | 7.3800 | 7.1800 |
 
