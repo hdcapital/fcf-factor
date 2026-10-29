@@ -70,67 +70,67 @@
   ],
   "fills": [],
   "inception_date": "2026-10-14",
-  "last_processed_date": "2026-10-28",
+  "last_processed_date": "2026-10-29",
   "market": "NZ",
   "methodology_version": "1.1.2",
-  "nav": 103.12528269625267,
+  "nav": 103.74651921289549,
   "positions": {
     "CMO.NZ": {
-      "drifted_weight": 0.15723588261217566,
+      "drifted_weight": 0.1562943505709435,
       "entry_date": "2026-10-14",
       "entry_price": 7.380000114,
       "last_price": 7.179999828,
-      "last_price_date": "2026-10-28",
+      "last_price_date": "2026-10-29",
       "rebalance_price": 7.380000114,
       "shares": 2.2583558820073297,
       "target_weight": 0.16666666666666666
     },
     "FCG.NZ": {
-      "drifted_weight": 0.18461488708377644,
+      "drifted_weight": 0.1825825872655795,
       "entry_date": "2026-10-14",
       "entry_price": 5.199999809,
-      "last_price": 5.940000057,
-      "last_price_date": "2026-10-28",
+      "last_price": 5.909999847,
+      "last_price_date": "2026-10-29",
       "rebalance_price": 5.199999809,
       "shares": 3.205128322855033,
       "target_weight": 0.16666666666666666
     },
     "LIC.NZ": {
-      "drifted_weight": 0.16305871461735513,
+      "drifted_weight": 0.1620823153256423,
       "entry_date": "2026-10-14",
       "entry_price": 1.120000005,
       "last_price": 1.129999995,
-      "last_price_date": "2026-10-28",
+      "last_price_date": "2026-10-29",
       "rebalance_price": 1.120000005,
       "shares": 14.880952314519554,
       "target_weight": 0.16666666666666666
     },
     "MHJ.NZ": {
-      "drifted_weight": 0.1597364678358199,
+      "drifted_weight": 0.15504395567991158,
       "entry_date": "2026-10-14",
       "entry_price": 0.4300000072,
-      "last_price": 0.4250000119,
-      "last_price_date": "2026-10-28",
+      "last_price": 0.4149999917,
+      "last_price_date": "2026-10-29",
       "rebalance_price": 0.4300000072,
       "shares": 38.75968927348117,
       "target_weight": 0.16666666666666666
     },
     "SPK.NZ": {
-      "drifted_weight": 0.16119917373754675,
+      "drifted_weight": 0.16396028580859587,
       "entry_date": "2026-10-14",
       "entry_price": 1.940000057,
-      "last_price": 1.934999943,
-      "last_price_date": "2026-10-28",
+      "last_price": 1.980000019,
+      "last_price_date": "2026-10-29",
       "rebalance_price": 1.940000057,
       "shares": 8.591065039678329,
       "target_weight": 0.16666666666666666
     },
     "WIN.NZ": {
-      "drifted_weight": 0.17415487411332595,
+      "drifted_weight": 0.18003650534932708,
       "entry_date": "2026-10-14",
       "entry_price": 1.159999967,
-      "last_price": 1.25,
-      "last_price_date": "2026-10-28",
+      "last_price": 1.299999952,
+      "last_price_date": "2026-10-29",
       "rebalance_price": 1.159999967,
       "shares": 14.367816500693626,
       "target_weight": 0.16666666666666666
@@ -138,5 +138,5 @@
   },
   "reserved_cash": {},
   "starting_nav": 100.0,
-  "updated_at": "2026-10-28T23:40:41+00:00"
+  "updated_at": "2026-10-29T23:40:37+00:00"
 }
